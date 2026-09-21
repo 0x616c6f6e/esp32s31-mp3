@@ -240,7 +240,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "A-layout"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -686,11 +686,11 @@
     ],
     [
       "3fdb40be-46ff-4df0-86c3-01e4a82b980f",
-      "P1"
+      "MECHANICAL"
     ],
     [
       "4e033c77-f2eb-4641-9bb9-25d18025b799",
-      "Schematic1"
+      "hardware"
     ]
   ],
   "text_variables": {},

@@ -1,0 +1,4809 @@
+{
+  "pcb_sha256": "e6598c7239f97a49ec9af15083ae024cf321b7bdb0c82b0c6d79aaafcbd0933e",
+  "footprints": {
+    "U11": {
+      "uuid": "04c01d17-ad51-49ea-9bd5-0a83f1dd7369",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/55894b24-052a-4132-bf6f-bbeeac5e8883/8627dd4d-6755-4b06-8e3b-b8ff3cab13fe",
+      "value": "DRV2605LDGSR",
+      "fpid": "MP3_Source:VSSOP-10_L3.0-W3.0-P0.50-LS4.9-BL",
+      "dnp": false,
+      "xy": [
+        122.5,
+        115.5
+      ],
+      "angle": 180.0,
+      "side": "F",
+      "locked": false,
+      "pads": [
+        [
+          "0c44ba7f-a5b7-4bb9-8bd5-b7e14f5ada7f",
+          "4",
+          "GND"
+        ],
+        [
+          "0c599d85-8655-4b19-bb8b-c4186cc59e33",
+          "2",
+          "BQ25895_I2C_CLK"
+        ],
+        [
+          "33ee27cb-82fa-479f-afc1-836fec1e29c9",
+          "9",
+          "MOTOR_OUT_N"
+        ],
+        [
+          "82dcc915-fb64-4028-a99b-6cd480a79b1e",
+          "5",
+          "ESP_IO40"
+        ],
+        [
+          "c51c8d72-c81e-4378-b502-687323af3efc",
+          "8",
+          "GND"
+        ],
+        [
+          "cabe9859-be2d-4b01-a129-0fe24e919dd6",
+          "7",
+          "MOTOR_OUT_P"
+        ],
+        [
+          "ce813f80-2d55-4ebb-8b07-e76ca12839cd",
+          "3",
+          "BQ25895_I2C_SDA"
+        ],
+        [
+          "d59a4d9e-9f7b-4c1d-9488-31286918d9e1",
+          "10",
+          "Net-(U11-VDD)"
+        ],
+        [
+          "e8aa78a9-819e-4c25-8a2d-88556cf6476c",
+          "1",
+          "Net-(U11-REG)"
+        ],
+        [
+          "ed557499-a292-491c-9195-556813c62bcd",
+          "6",
+          "Net-(U11-VDD)"
+        ]
+      ]
+    },
+    "H2": {
+      "uuid": "0c93e9d6-175d-49e7-bc76-e0de173bb701",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/b6e10d0a-57e0-4a0a-8ce9-e0aec5e0d339/13386ee2-0a22-46ee-bfea-4240e01ddb1d",
+      "value": "BM03B-ACHSS-GAN-ETF",
+      "fpid": "MP3_Source:JST_ACH_BM03B-ACHSS-GAN-ETF_1x03-1MP_P1.20mm_Vertical",
+      "dnp": false,
+      "xy": [
+        142.0,
+        109.0
+      ],
+      "angle": -90.0,
+      "side": "F",
+      "locked": true,
+      "pads": [
+        [
+          "108d859a-61e7-4fd9-a4f7-b2fe4cf41f84",
+          "2",
+          "BAT_TS"
+        ],
+        [
+          "86aee454-c5d3-4462-a7e3-79a42848eaf8",
+          "MP",
+          ""
+        ],
+        [
+          "9448e32e-10ef-4293-acd9-983d0807799e",
+          "MP",
+          ""
+        ],
+        [
+          "ac29b6fb-f7b6-4590-bb0f-3a18b056de65",
+          "1",
+          "VBAT"
+        ],
+        [
+          "f82cb6ab-af2a-4f76-97f8-eafdc5352feb",
+          "3",
+          "GBAT"
+        ]
+      ]
+    },
+    "C26": {
+      "uuid": "1479fe77-827c-4698-958c-83d3530037c8",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/a32e30c2-1d76-4e98-881a-c719c7ae0e3f/9874f956-111a-472b-b9d6-37fb81f74ef2",
+      "value": "4.7uF",
+      "fpid": "MP3_Source:C0402_1",
+      "dnp": false,
+      "xy": [
+        116.399,
+        104.3185
+      ],
+      "angle": 90.0,
+      "side": "F",
+      "locked": false,
+      "pads": [
+        [
+          "1a3aeccb-d572-4880-899c-9e1dadaa60ae",
+          "2",
+          "GND"
+        ],
+        [
+          "e07a379d-4dae-4975-b36b-2278986b3f9f",
+          "1",
+          "VCC"
+        ]
+      ]
+    },
+    "C19": {
+      "uuid": "14d113ac-9cad-4079-95cc-36aeba52ad65",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/a32e30c2-1d76-4e98-881a-c719c7ae0e3f/b24f3f76-dfbf-46d7-b867-64619f282457",
+      "value": "2.2uF",
+      "fpid": "MP3_Source:C0402_1",
+      "dnp": false,
+      "xy": [
+        106.366,
+        109.5
+      ],
+      "angle": -90.0,
+      "side": "F",
+      "locked": false,
+      "pads": [
+        [
+          "b94ffdfc-3873-4b50-81f8-bc692876cfee",
+          "1",
+          "Net-(U2-\u2013VA)"
+        ],
+        [
+          "f60e0ffa-4100-4e32-b430-dbcd16f99388",
+          "2",
+          "GND"
+        ]
+      ]
+    },
+    "R19": {
+      "uuid": "2150525f-a22c-4f87-b86c-0f82ff9092b2",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/a32e30c2-1d76-4e98-881a-c719c7ae0e3f/6befebfd-d32e-4c36-a352-ea7d3ea3cdad",
+      "value": "10K",
+      "fpid": "MP3_Source:R0402_1",
+      "dnp": false,
+      "xy": [
+        104.0,
+        95.25
+      ],
+      "angle": 90.0,
+      "side": "F",
+      "locked": false,
+      "pads": [
+        [
+          "0f8a2fdd-4192-4f4a-91d2-16ea9d33c19a",
+          "1",
+          "CS43131_SDA_1V8"
+        ],
+        [
+          "e7446c54-8b9e-4b21-b9a8-bd9c8d52baee",
+          "2",
+          "VCC_1V8"
+        ]
+      ]
+    },
+    "R29": {
+      "uuid": "23ba2d3f-8747-4604-bbc2-2274a6403bb0",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/c984d1ed-6e53-45f4-8ca1-0f91f991f687/7d877d70-780e-42a3-bc66-2069a6f9ab16",
+      "value": "10K",
+      "fpid": "MP3_Source:R0402",
+      "dnp": false,
+      "xy": [
+        119.749,
+        66.454
+      ],
+      "angle": 90.0,
+      "side": "F",
+      "locked": false,
+      "pads": [
+        [
+          "bd5cfd7c-0322-428b-925c-484936e32cb3",
+          "2",
+          "VCC_3V3"
+        ],
+        [
+          "e36a6350-0eab-4106-b72c-377d35dd6282",
+          "1",
+          "ESP32S31_EN"
+        ]
+      ]
+    },
+    "C18": {
+      "uuid": "25a0d4a8-0a29-4c31-9875-d1f91d0c3c89",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/a32e30c2-1d76-4e98-881a-c719c7ae0e3f/33d7bebb-292f-47a2-b937-ed32396ebd06",
+      "value": "22uF",
+      "fpid": "MP3_Source:C0603",
+      "dnp": false,
+      "xy": [
+        106.366,
+        106.2995
+      ],
+      "angle": -90.0,
+      "side": "F",
+      "locked": false,
+      "pads": [
+        [
+          "3bba6b11-8420-40f9-bea2-a7707e9a7ed2",
+          "1",
+          "Net-(U2-FILT-)"
+        ],
+        [
+          "ad1dd689-5855-496c-866b-b733dcb02a82",
+          "2",
+          "Net-(U2-\u2013VA)"
+        ]
+      ]
+    },
+    "L3": {
+      "uuid": "29745fea-0cbb-457f-bb29-9e2d2bbc2d5c",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/55894b24-052a-4132-bf6f-bbeeac5e8883/d52628bc-1632-4a92-a217-aaa8ce5bd5ab",
+      "value": "BLM18KG601SN1D",
+      "fpid": "MP3_Source:L0603",
+      "dnp": false,
+      "xy": [
+        125.5,
+        118.5
+      ],
+      "angle": -90.0,
+      "side": "F",
+      "locked": false,
+      "pads": [
+        [
+          "c2ae353b-105c-4b1e-adf9-49978e5ad557",
+          "1",
+          "Net-(U11-VDD)"
+        ],
+        [
+          "cc1ae2f8-17dc-40c7-b79a-3eb277db7562",
+          "2",
+          "VCC_LCD_BG"
+        ]
+      ]
+    },
+    "C33": {
+      "uuid": "299e5347-baf3-4870-8a6a-3024f59ea126",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/a32e30c2-1d76-4e98-881a-c719c7ae0e3f/71a531b2-9b81-483c-a829-1fd5c05bea4e",
+      "value": "10pF",
+      "fpid": "MP3_Source:C0402_1",
+      "dnp": false,
+      "xy": [
+        108.5,
+        99.0
+      ],
+      "angle": -90.0,
+      "side": "F",
+      "locked": false,
+      "pads": [
+        [
+          "bffc7f22-5159-450c-bb8c-0c40f63c7840",
+          "2",
+          "GND"
+        ],
+        [
+          "d36a7451-f0e4-4b90-927d-47be80b79e88",
+          "1",
+          "Net-(U2-XTI{slash}MCLK)"
+        ]
+      ]
+    },
+    "R26": {
+      "uuid": "2be56767-818b-45ff-81bb-f0a1e06149b5",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/c984d1ed-6e53-45f4-8ca1-0f91f991f687/49e2e91b-a5fa-466e-b37e-8798145e6146",
+      "value": "10K",
+      "fpid": "MP3_Source:R0402",
+      "dnp": false,
+      "xy": [
+        109.25,
+        94.75
+      ],
+      "angle": -90.0,
+      "side": "F",
+      "locked": false,
+      "pads": [
+        [
+          "13ba116f-7e44-40ec-b661-3d3b6e5dd9ee",
+          "1",
+          "VCC_3V3"
+        ],
+        [
+          "eb982003-22ef-4a8a-9315-c87f98501767",
+          "2",
+          "DAC_I2C_SCL"
+        ]
+      ]
+    },
+    "C32": {
+      "uuid": "32bc6f73-891f-4fcb-9a11-1cb7a47a4a40",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/a32e30c2-1d76-4e98-881a-c719c7ae0e3f/d5119cd9-c64b-40d9-8106-a21dc97f089e",
+      "value": "10pF",
+      "fpid": "MP3_Source:C0402_1",
+      "dnp": false,
+      "xy": [
+        114.0,
+        100.25
+      ],
+      "angle": -90.0,
+      "side": "F",
+      "locked": false,
+      "pads": [
+        [
+          "0a1964ad-4bfc-4195-ab77-db6cd5d4228c",
+          "1",
+          "GND"
+        ],
+        [
+          "a8b41066-6790-4c45-acee-b722932dcc01",
+          "2",
+          "Net-(U2-XTO)"
+        ]
+      ]
+    },
+    "C8": {
+      "uuid": "3b37aff7-922b-4ec4-af41-3c32bb84ed8a",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/a32e30c2-1d76-4e98-881a-c719c7ae0e3f/e12a9943-9961-46cf-920c-17ed63c169b2",
+      "value": "22uF",
+      "fpid": "MP3_Source:C0603",
+      "dnp": false,
+      "xy": [
+        104.588,
+        106.2995
+      ],
+      "angle": -90.0,
+      "side": "F",
+      "locked": false,
+      "pads": [
+        [
+          "12dd6ad5-224f-4840-95cf-5b61d44b9b86",
+          "2",
+          "VCC_1V8"
+        ],
+        [
+          "7600da39-7b30-441e-9444-f1b2be383d3d",
+          "1",
+          "Net-(U2-FILT+)"
+        ]
+      ]
+    },
+    "SCREW5": {
+      "uuid": "3cef2440-870c-4ddf-b12d-c6b43b3bb0e3",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/3fdb40be-46ff-4df0-86c3-01e4a82b980f/606cc1bd-e85b-4098-ada5-04477efeee1b",
+      "value": "M2 clearance 2.2mm",
+      "fpid": "MP3_Source:MountingHole_2.2mm",
+      "dnp": false,
+      "xy": [
+        110.8085,
+        53.7485
+      ],
+      "angle": 0.0,
+      "side": "F",
+      "locked": true,
+      "pads": [
+        [
+          "d765a37a-3dd1-4be6-bfcd-9b9c827ec8fe",
+          "",
+          ""
+        ]
+      ]
+    },
+    "R44": {
+      "uuid": "3da804b3-4657-4220-8ad8-13ba74362d50",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/c984d1ed-6e53-45f4-8ca1-0f91f991f687/fd567e10-213a-41ea-9e21-7f487bdf7125",
+      "value": "10K",
+      "fpid": "MP3_Source:R0402",
+      "dnp": false,
+      "xy": [
+        119.75,
+        113.75
+      ],
+      "angle": 90.0,
+      "side": "F",
+      "locked": false,
+      "pads": [
+        [
+          "3048f220-0ec4-4ac7-952b-ed43318b2706",
+          "1",
+          "GND"
+        ],
+        [
+          "fd3b48c8-96ec-4d22-97dc-9a77bb93d77e",
+          "2",
+          "ESP_IO40"
+        ]
+      ]
+    },
+    "R30": {
+      "uuid": "3fa8fc88-2c72-4393-a40a-bde13e7d7d45",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/c984d1ed-6e53-45f4-8ca1-0f91f991f687/bb8dbe7c-d37d-4701-8bf8-39e3709356d8",
+      "value": "10K",
+      "fpid": "MP3_Source:R0402",
+      "dnp": false,
+      "xy": [
+        109.75,
+        96.75
+      ],
+      "angle": 180.0,
+      "side": "F",
+      "locked": false,
+      "pads": [
+        [
+          "384a5c6e-d8ca-4c0f-bdec-2850dbc713a3",
+          "2",
+          "DAC_I2C_SDA"
+        ],
+        [
+          "86e420bf-709e-45a2-85d3-77ba5ec95253",
+          "1",
+          "VCC_3V3"
+        ]
+      ]
+    },
+    "C27": {
+      "uuid": "4508b371-0f0b-43b7-9136-7d250546ae7f",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/a32e30c2-1d76-4e98-881a-c719c7ae0e3f/86a33826-4b28-4dc8-9b82-8a17d5fd5074",
+      "value": "100nF",
+      "fpid": "MP3_Source:C0402_1",
+      "dnp": false,
+      "xy": [
+        116.907,
+        102.261
+      ],
+      "angle": 0.0,
+      "side": "F",
+      "locked": false,
+      "pads": [
+        [
+          "5baa6238-4521-4e94-b4f7-4d1b712d649c",
+          "1",
+          "VCC_1V8"
+        ],
+        [
+          "d5f19371-61d4-4bdc-827a-6d12404fe928",
+          "2",
+          "GND"
+        ]
+      ]
+    },
+    "C22": {
+      "uuid": "45da7178-3282-426f-8b1e-09fa07773112",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/a32e30c2-1d76-4e98-881a-c719c7ae0e3f/1813d46a-3e91-45bd-a36c-db368d33e832",
+      "value": "2.2uF",
+      "fpid": "MP3_Source:C0402_1",
+      "dnp": false,
+      "xy": [
+        113.478,
+        110.262
+      ],
+      "angle": -90.0,
+      "side": "F",
+      "locked": false,
+      "pads": [
+        [
+          "1c97d4ad-323c-49c5-9f1b-fa992d2fdd38",
+          "1",
+          "Net-(U2-VCP_FILT\u2013)"
+        ],
+        [
+          "eaf1eb20-aadf-40ec-869d-7bcb9ed93a43",
+          "2",
+          "GND"
+        ]
+      ]
+    },
+    "C31": {
+      "uuid": "47ac8bf5-bb29-4426-973e-7d6943ab865f",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/b6e10d0a-57e0-4a0a-8ce9-e0aec5e0d339/cd1d5ee8-c8d1-4d86-ae5b-4833eb046b6a",
+      "value": "1uF",
+      "fpid": "MP3_Source:C0402_1",
+      "dnp": false,
+      "xy": [
+        118.0,
+        100.0
+      ],
+      "angle": -90.0,
+      "side": "F",
+      "locked": false,
+      "pads": [
+        [
+          "75d9c243-09ca-4215-8c31-eb101cd4c476",
+          "1",
+          "GND"
+        ],
+        [
+          "97bf4fed-9ab9-41d3-9889-b198cd3d343a",
+          "2",
+          "VCC_1V8"
+        ]
+      ]
+    },
+    "C20": {
+      "uuid": "4a26d4eb-1d1d-4d61-8bd2-25e2e8c10848",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/a32e30c2-1d76-4e98-881a-c719c7ae0e3f/6cf44e3e-3993-4512-b3c9-f06626385303",
+      "value": "2.2uF",
+      "fpid": "MP3_Source:C0402_1",
+      "dnp": false,
+      "xy": [
+        108.652,
+        109.881
+      ],
+      "angle": 0.0,
+      "side": "F",
+      "locked": false,
+      "pads": [
+        [
+          "2131838b-1a29-4563-93a5-95eeaee7ab24",
+          "1",
+          "Net-(U2-FLYP_VA)"
+        ],
+        [
+          "f0ae50dd-8f4f-424f-baeb-ca36ccb8da87",
+          "2",
+          "Net-(U2-FLYN_VA)"
+        ]
+      ]
+    },
+    "R31": {
+      "uuid": "4aca2d57-015c-4ebe-aac9-4814a8a7e8c2",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/b54cf204-5ee8-4d41-a839-4e03742062cd/bf3a4d42-0a8d-4e8d-a34b-2cd03a6ed904",
+      "value": "5K1",
+      "fpid": "MP3_Source:R0402",
+      "dnp": false,
+      "xy": [
+        132.75,
+        117.5
+      ],
+      "angle": -90.0,
+      "side": "F",
+      "locked": false,
+      "pads": [
+        [
+          "40d4b178-5274-4011-ba48-12cad2c06091",
+          "1",
+          "GND"
+        ],
+        [
+          "ee258571-99bc-45a2-b2ce-3f7c9482dc2e",
+          "2",
+          "Net-(USB1-CC1)"
+        ]
+      ]
+    },
+    "C28": {
+      "uuid": "4aee485d-966f-4c11-a080-b06661023df0",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/a32e30c2-1d76-4e98-881a-c719c7ae0e3f/e14833de-ad5a-418d-bd22-36a3d99382a4",
+      "value": "100nF",
+      "fpid": "MP3_Source:C0402_1",
+      "dnp": false,
+      "xy": [
+        105.858,
+        104.039
+      ],
+      "angle": 180.0,
+      "side": "F",
+      "locked": false,
+      "pads": [
+        [
+          "3db79dbe-b2fa-4148-836d-496c872e5af6",
+          "1",
+          "VCC_1V8"
+        ],
+        [
+          "d499fc33-360c-4962-89cd-e8d4e4a572b1",
+          "2",
+          "GND"
+        ]
+      ]
+    },
+    "USB1": {
+      "uuid": "4ec5ca11-f64f-4817-a715-c90c3ad56b5e",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/b54cf204-5ee8-4d41-a839-4e03742062cd/51b435db-b052-4a34-bf4b-96b51f274053",
+      "value": "TYPE-C 16PIN 2MD(073)",
+      "fpid": "MP3_Source:USB-C-SMD_TYPE-C-16PIN-2MD-073",
+      "dnp": false,
+      "xy": [
+        135.449,
+        121.946
+      ],
+      "angle": 0.0,
+      "side": "F",
+      "locked": true,
+      "pads": [
+        [
+          "06e95727-d181-412a-9ea3-d14c4af42b9d",
+          "B4A9",
+          "VBUS_5V"
+        ],
+        [
+          "293c1c91-ca0a-4e6e-a2ee-9335402cd55f",
+          "A5",
+          "Net-(USB1-CC1)"
+        ],
+        [
+          "37f3bd35-f3b3-4a00-9890-c1dc444d2874",
+          "B6",
+          "TYPEC_USB_DP_IN"
+        ],
+        [
+          "46a56839-0558-4c9f-8350-af22dfb35ba1",
+          "A1B12",
+          "GND"
+        ],
+        [
+          "4de9f38d-22da-472b-89bc-2130de963681",
+          "A4B9",
+          "VBUS_5V"
+        ],
+        [
+          "4dfdb89f-ff2b-45a8-a3c2-29e4987ec624",
+          "14",
+          "GND"
+        ],
+        [
+          "58861f3f-047a-4d1b-a7f4-842d915c5334",
+          "13",
+          "GND"
+        ],
+        [
+          "8f30d5db-c097-4d38-9d23-e2fc73788674",
+          "B8",
+          "unconnected-(USB1-SBU2-PadB8)"
+        ],
+        [
+          "a36b8889-5c13-4a12-ab22-6ab862fc2376",
+          "B7",
+          "TYPEC_USB_DN_IN"
+        ],
+        [
+          "ae94b6da-7400-4352-a427-e064e243eb59",
+          "A8",
+          "unconnected-(USB1-SBU1-PadA8)"
+        ],
+        [
+          "b8592a7d-db66-4526-9695-96e0fabdc911",
+          "14",
+          "GND"
+        ],
+        [
+          "bcc2c4d8-1234-4706-b1e8-fdf1734ae596",
+          "B1A12",
+          "GND"
+        ],
+        [
+          "db7bb023-cf06-49de-b6e9-ea2b03478256",
+          "A6",
+          "TYPEC_USB_DP_IN"
+        ],
+        [
+          "ebfed658-898b-4a72-9264-c6a6410fe5dd",
+          "13",
+          "GND"
+        ],
+        [
+          "f7150e46-a7b1-4bd0-b794-f0cce678dd8d",
+          "B5",
+          "Net-(USB1-CC2)"
+        ],
+        [
+          "ff5b7066-cce3-4ab5-bdbd-5f4d4d2cf03b",
+          "A7",
+          "TYPEC_USB_DN_IN"
+        ]
+      ]
+    },
+    "U8": {
+      "uuid": "51e1a9ab-0789-4694-a218-5c941370a1d4",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/a32e30c2-1d76-4e98-881a-c719c7ae0e3f/01f7049e-6cdb-4620-a94d-2a15503e3268",
+      "value": "SN74LV4T125RGYR",
+      "fpid": "MP3_Source:VQFN-14_L3.5-W3.5-P0.50-BL-EP",
+      "dnp": false,
+      "xy": [
+        117.0,
+        94.0
+      ],
+      "angle": -90.0,
+      "side": "F",
+      "locked": false,
+      "pads": [
+        [
+          "12aaf73b-a660-4c87-a815-bf3de1cfd341",
+          "7",
+          "GND"
+        ],
+        [
+          "1c933828-0629-44bb-82de-ccf14c8fa2f6",
+          "10",
+          "GND"
+        ],
+        [
+          "349b2dcf-1c8c-44b9-95bd-11f12191e59a",
+          "2",
+          "DAC_I2S_SDIN"
+        ],
+        [
+          "3eed6243-7e50-493f-990e-24309045a905",
+          "11",
+          "CS43131_RST#_1V8"
+        ],
+        [
+          "5b8b1a1f-ae5b-4804-af12-54cc4c6fd3d8",
+          "1",
+          "GND"
+        ],
+        [
+          "6378a8f1-8062-4d6f-bd6b-8f9a11066a68",
+          "3",
+          "CS43131_I2S_SDIN"
+        ],
+        [
+          "702e06e5-96a4-455f-8791-88122ed9c154",
+          "13",
+          "GND"
+        ],
+        [
+          "9a2efa28-40ef-4002-8fe4-075a954020fd",
+          "14",
+          "VCC_1V8"
+        ],
+        [
+          "9a9274b8-4447-4d41-8c13-6a2d33f3de29",
+          "4",
+          "GND"
+        ],
+        [
+          "a2487a5f-ac37-4075-ac5f-5ebc55d96ca9",
+          "8",
+          "CS43131_I2S_SCLK"
+        ],
+        [
+          "a4de4af9-18a6-475a-b72e-913526d9cdf6",
+          "15",
+          "GND"
+        ],
+        [
+          "ae4b1583-eab3-4c80-adfa-fe0ac7311fa0",
+          "5",
+          "DAC_I2S_LRCK"
+        ],
+        [
+          "cf39407f-04c8-4375-b407-0f4cdb916288",
+          "9",
+          "DAC_I2S_SCLK"
+        ],
+        [
+          "de5204bc-c5a5-470c-a647-779bc495546f",
+          "12",
+          "DAC_RST#"
+        ],
+        [
+          "eea582ee-fe5c-45d6-a17a-1ac307dbf251",
+          "6",
+          "CS43131_I2S_LRCK"
+        ]
+      ]
+    },
+    "U9": {
+      "uuid": "5252a91d-aff9-4448-82a3-63f5054179ba",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/c984d1ed-6e53-45f4-8ca1-0f91f991f687/576bd7c8-5c1d-4d93-9571-d0646b008003",
+      "value": "ESP32-S31-WROOM-3-N16R16V",
+      "fpid": "MP3_Source:CONN-SMD_ESP32-S31-WROOM-3",
+      "dnp": false,
+      "xy": [
+        133.719,
+        72.931
+      ],
+      "angle": 0.0,
+      "side": "F",
+      "locked": true,
+      "pads": [
+        [
+          "05af30c3-9020-4abc-a920-4efe45ae7537",
+          "7",
+          "unconnected-(U9-IO3-Pad7)"
+        ],
+        [
+          "07960cfb-4fff-4f1a-8199-81ddcfe2e13e",
+          "44",
+          "ESP_IO35"
+        ],
+        [
+          "07c374cc-61ac-4914-9891-cd6533795a61",
+          "34",
+          "unconnected-(U9-NC-Pad34)"
+        ],
+        [
+          "0c487b82-9e14-4d0f-99da-34af4a675ca0",
+          "28",
+          "ESP_TF_DAT1"
+        ],
+        [
+          "0d97dd79-45ec-44d7-ba2b-37d761a79be8",
+          "19",
+          "ESP_FLASH_WP"
+        ],
+        [
+          "12e63d71-930e-4f41-86dd-2d629c9839ca",
+          "4",
+          "VCC_3V3"
+        ],
+        [
+          "1374496e-9269-400f-b2ee-99ef0028af3b",
+          "77",
+          "GND"
+        ],
+        [
+          "14ffa50b-38cf-41b8-b3ce-dc5ac10e513a",
+          "32",
+          "ESP_TF_CMD"
+        ],
+        [
+          "197ca7dc-9906-4570-880a-09ea06802b66",
+          "87",
+          "GND"
+        ],
+        [
+          "1cc2f6f6-e76f-4c2c-9341-640d0e8e4ba2",
+          "18",
+          "ESP_FLASH_DI"
+        ],
+        [
+          "1e97254a-4075-4468-b13f-f4d384d9dc7b",
+          "78",
+          "GND"
+        ],
+        [
+          "232c0656-6aad-432a-beec-5045cf2978ce",
+          "93",
+          "GND"
+        ],
+        [
+          "25bf4f5f-a304-4b23-92ec-c25e5c3a2705",
+          "74",
+          "GND"
+        ],
+        [
+          "2717fbfe-caf4-48a5-841e-fc26c9cc406f",
+          "79",
+          "GND"
+        ],
+        [
+          "274646b0-04f9-4d7e-a243-4d0a591b3acc",
+          "73",
+          "GND"
+        ],
+        [
+          "2b9ed151-ac82-44ad-a01f-8821c332c5c3",
+          "59",
+          "ESP_SPI2_CS"
+        ],
+        [
+          "36edc94e-4b62-457a-9162-4f8bee77924f",
+          "39",
+          "unconnected-(U9-NC-Pad39)"
+        ],
+        [
+          "371d8d00-faab-41c9-9d03-b7a41cccc913",
+          "75",
+          "GND"
+        ],
+        [
+          "39cf3cfe-f019-4332-85e3-622a57d5bb2b",
+          "17",
+          "ESP_FLASH_CLK"
+        ],
+        [
+          "3d65d273-09ab-4877-aa7d-52a29ea2958b",
+          "47",
+          "GND"
+        ],
+        [
+          "3dc6f0e0-b1bb-4fb2-a7c1-237f0317bf9a",
+          "56",
+          "ESP_IO46"
+        ],
+        [
+          "3fadc76f-57d6-4ebf-b0dd-ea41d161c568",
+          "50",
+          "BQ25895_OTG_EN"
+        ],
+        [
+          "40fc96db-be64-46bf-ab05-34d2a096057f",
+          "63",
+          "ESP_SPI2_D0"
+        ],
+        [
+          "4360daf0-3a9e-4be0-8e19-5dba69915513",
+          "52",
+          "unconnected-(U9-IO42-Pad52)"
+        ],
+        [
+          "44ef4634-4324-4dad-bd26-de2712699b58",
+          "91",
+          "unconnected-(U9-NC-Pad91)"
+        ],
+        [
+          "4e5e7ff4-85b4-416c-9108-eaef6551d253",
+          "60",
+          "ESP_SPI2_D3"
+        ],
+        [
+          "4e889b81-7041-415f-8fe9-51b0f4388eba",
+          "38",
+          "unconnected-(U9-NC-Pad38)"
+        ],
+        [
+          "4f6f304b-d217-4b29-9ce1-cea8f6e32006",
+          "54",
+          "unconnected-(U9-IO44-Pad54)"
+        ],
+        [
+          "4ffdc097-7886-41ed-a12b-3c458ff6e72d",
+          "29",
+          "ESP_TF_DAT2"
+        ],
+        [
+          "5028d510-bab0-43c6-ae52-64a6987be6e0",
+          "61",
+          "ESP_SPI2_D1"
+        ],
+        [
+          "51a981e1-9cf8-468c-8024-96f5038c3114",
+          "31",
+          "ESP_TF_CLK"
+        ],
+        [
+          "531df3a2-7335-4a54-a775-1a69d38170e3",
+          "57",
+          "ESP_IO47"
+        ],
+        [
+          "53a973ed-ccfd-4913-bbde-ee19ac54e843",
+          "51",
+          "ESP_IO40"
+        ],
+        [
+          "56ca1c17-6d9c-49b2-864c-c8e645ec07cb",
+          "82",
+          "GND"
+        ],
+        [
+          "590d0ba0-679d-4999-93d1-275fe9bacdbe",
+          "88",
+          "GND"
+        ],
+        [
+          "5b2e0b47-a167-4d75-9543-da97183d3a19",
+          "8",
+          "unconnected-(U9-IO0-Pad8)"
+        ],
+        [
+          "5b4d0099-cd13-4fdb-bd87-075e88072b63",
+          "21",
+          "DAC_I2S_LRCK"
+        ],
+        [
+          "5d6cda96-0de9-4e47-bc7b-e4313cd5756c",
+          "24",
+          "DAC_I2S_SCLK"
+        ],
+        [
+          "5d9c9f54-0629-4362-90a5-786262530a79",
+          "89",
+          "GND"
+        ],
+        [
+          "5dc902f7-f270-4ac1-9418-c01c84f7535d",
+          "99",
+          "GND"
+        ],
+        [
+          "613326c3-6c93-4387-a07a-c7e6627545a3",
+          "62",
+          "ESP_SPI2_D2"
+        ],
+        [
+          "63810a6a-f912-4536-b3cf-3d9eb781af2f",
+          "1",
+          "GND"
+        ],
+        [
+          "6696b995-5b89-4876-86e3-4ae274dda5cf",
+          "11",
+          "ESP_IO5"
+        ],
+        [
+          "685bcd2f-80c3-4c35-9ddf-1f1331ee5dc6",
+          "10",
+          "ESP_IO4"
+        ],
+        [
+          "7014e8c8-85db-4460-87f9-677e3d4a237e",
+          "27",
+          "ESP_TF_DAT0"
+        ],
+        [
+          "758026ef-0925-441b-9c9d-54250058010d",
+          "14",
+          "ESP_FLASH_CS"
+        ],
+        [
+          "7c5abea9-cac6-4cd0-b83b-cd4a9385e3fa",
+          "15",
+          "ESP_FLASH_DO"
+        ],
+        [
+          "7fd39fc3-3617-4f85-8e89-6e104465d85f",
+          "5",
+          "ESP32S31_EN"
+        ],
+        [
+          "842d0b20-4f0e-422a-9065-b53382ee28f0",
+          "72",
+          "GND"
+        ],
+        [
+          "8611e55d-3b82-4e65-89b5-70df40fa31bb",
+          "48",
+          "GND"
+        ],
+        [
+          "87fba8af-373d-4a59-bb9f-4a837144a265",
+          "64",
+          "ESP_IO54"
+        ],
+        [
+          "88f22527-9dfd-4cf2-abf2-af32248614bf",
+          "65",
+          "ESP_I2C2_SDA"
+        ],
+        [
+          "8994d070-e2f7-484a-aa9c-773d07db2cf9",
+          "41",
+          "ESP_USB_DN"
+        ],
+        [
+          "930e3a03-8111-4a0e-b7c3-122a145e08af",
+          "35",
+          "unconnected-(U9-NC-Pad35)"
+        ],
+        [
+          "974c3402-87f5-4d57-be4f-7b0167c6ff1f",
+          "67",
+          "ESP_IO57"
+        ],
+        [
+          "9b5563c4-a529-4954-9035-b56f53ca6bb2",
+          "66",
+          "ESP_I2C2_SCL"
+        ],
+        [
+          "9c4c64cf-9385-49d5-adef-d521b5e67e66",
+          "45",
+          "BQ25895_I2C_CLK"
+        ],
+        [
+          "9d7834dc-013e-449f-b80b-b558f879642c",
+          "96",
+          "GND"
+        ],
+        [
+          "9ddcdb0b-e693-4f35-a0f9-1dd011de19d3",
+          "25",
+          "ESP_IO19"
+        ],
+        [
+          "9f5fdd70-58bf-4da7-b20c-4358135a9307",
+          "71",
+          "ESP_BOOT1"
+        ],
+        [
+          "a597c30b-8882-4a12-86d7-80259e063052",
+          "43",
+          "ESP_IO34"
+        ],
+        [
+          "aa8d572c-5981-4677-a530-61ee51f42ff4",
+          "94",
+          "GND"
+        ],
+        [
+          "acad022e-8a98-4aba-9d31-a5ec477b10ad",
+          "23",
+          "DAC_RST#"
+        ],
+        [
+          "ae21274d-8543-4543-a157-1a299735fd9b",
+          "12",
+          "DAC_I2C_SCL"
+        ],
+        [
+          "b03afe86-85a0-4855-8b1d-fccf42b1c3d2",
+          "83",
+          "GND"
+        ],
+        [
+          "b0faebfe-b468-45e8-b714-dd858a56182b",
+          "81",
+          "GND"
+        ],
+        [
+          "b1fff41c-c5fd-49aa-b9bc-dcc401dec563",
+          "9",
+          "ESP_IO1"
+        ],
+        [
+          "b6a79d0f-090f-4104-8989-72528aab4361",
+          "76",
+          "GND"
+        ],
+        [
+          "b76dda97-9bc6-412a-ace0-f45b820b1bea",
+          "40",
+          "ESP_USB_DP"
+        ],
+        [
+          "bc7ee7f4-a5ec-4ae5-a7dc-114c59119ca3",
+          "49",
+          "BQ25895_INT"
+        ],
+        [
+          "beb8b347-d2ba-4a98-ab17-b0618ecc0136",
+          "90",
+          "GND"
+        ],
+        [
+          "bf766d49-3238-4a8d-a49c-bda8bc11eeab",
+          "46",
+          "BQ25895_I2C_SDA"
+        ],
+        [
+          "c0fc7394-57ac-48a9-be4a-7955b62f8cf6",
+          "6",
+          "unconnected-(U9-IO2-Pad6)"
+        ],
+        [
+          "cc49fcd4-6f7c-4b0f-8625-adf85214c975",
+          "26",
+          "GND"
+        ],
+        [
+          "d0be7b66-830a-4fe1-9fd9-ccf9949108d6",
+          "3",
+          "VCC_3V3"
+        ],
+        [
+          "d2f9c989-88b9-4507-8411-b065742be7de",
+          "37",
+          "unconnected-(U9-NC-Pad37)"
+        ],
+        [
+          "d4364af5-3b9b-45ea-b1f3-0ee18da9f9d7",
+          "98",
+          "GND"
+        ],
+        [
+          "d5d63810-9879-4d47-87ee-8801fdaa66d3",
+          "33",
+          "unconnected-(U9-NC-Pad33)"
+        ],
+        [
+          "d6eea11f-5270-4235-9c68-5e048a8f593b",
+          "2",
+          "GND"
+        ],
+        [
+          "d71040d4-0043-455f-bced-451e0d079af3",
+          "53",
+          "unconnected-(U9-IO43-Pad53)"
+        ],
+        [
+          "db09f7cb-d53c-4b3d-897f-41843d3b3ae9",
+          "42",
+          "ESP_IO33"
+        ],
+        [
+          "de6ccba0-373c-432a-8ace-bf2c48e0a4ef",
+          "68",
+          "CH343P_UART_RX"
+        ],
+        [
+          "e0f71c94-201a-4ed0-a6dc-a316d0b07710",
+          "70",
+          "ESP_BOOT2"
+        ],
+        [
+          "e6e23cd7-d848-4bb2-b224-ae8b19a8328a",
+          "36",
+          "unconnected-(U9-NC-Pad36)"
+        ],
+        [
+          "e797b8a5-edc6-4295-bc4a-3e99dd787f8f",
+          "97",
+          "GND"
+        ],
+        [
+          "e85a9f34-67f6-495d-91be-b5ffa529e21b",
+          "58",
+          "ESP_SPI2_CLK"
+        ],
+        [
+          "ea8ba3e1-25ac-4b7b-a104-de78f5215cc0",
+          "92",
+          "GND"
+        ],
+        [
+          "ec13fd15-aff5-4d81-a9ed-2e7b28086631",
+          "69",
+          "CH343P_UART_TX"
+        ],
+        [
+          "ed476dbc-4be1-4bf2-9e4e-e167a2b3fb79",
+          "16",
+          "ESP_FLASH_HOLD"
+        ],
+        [
+          "ef329d1a-3a54-415c-bf4a-b6b81d2a7801",
+          "20",
+          "unconnected-(U9-IO14-Pad20)"
+        ],
+        [
+          "ef894db5-932c-4549-8799-4cd3ef01e23e",
+          "80",
+          "GND"
+        ],
+        [
+          "f0fc2aed-67ce-4495-89d2-cff43787d241",
+          "84",
+          "GND"
+        ],
+        [
+          "f125552b-6483-4366-95aa-74310ec4be2c",
+          "85",
+          "GND"
+        ],
+        [
+          "f33bbe4b-3ac0-4643-88cb-c1f54c3af055",
+          "95",
+          "GND"
+        ],
+        [
+          "f4ebeec3-5880-413f-9593-b2f8fce54bf1",
+          "22",
+          "DAC_I2S_SDIN"
+        ],
+        [
+          "f764cb48-0b4d-48b9-aafb-e8b0b31e1970",
+          "30",
+          "ESP_TF_DAT3"
+        ],
+        [
+          "f8721965-75a3-494e-82a1-da354c501fd6",
+          "86",
+          "GND"
+        ],
+        [
+          "f8934600-3b2a-4182-a49b-3d304926fd4e",
+          "13",
+          "DAC_I2C_SDA"
+        ],
+        [
+          "feb33502-827b-48ad-9439-f9c05650c90d",
+          "55",
+          "ESP_IO45"
+        ]
+      ]
+    },
+    "U2": {
+      "uuid": "54271d70-4020-49be-891d-ecc7286c287c",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/a32e30c2-1d76-4e98-881a-c719c7ae0e3f/d810ca20-7586-4be1-aa83-9d0fa59d97c9",
+      "value": "CS43131-CNZ",
+      "fpid": "MP3_Source:QFN-40_L5.0-W5.0-P0.40-TL-EP3.6_1",
+      "dnp": false,
+      "xy": [
+        111.7,
+        105.69
+      ],
+      "angle": 0.0,
+      "side": "F",
+      "locked": false,
+      "pads": [
+        [
+          "01b6f01b-618e-4e83-a147-394b7e3d447a",
+          "9",
+          "Net-(U2-\u2013VA)"
+        ],
+        [
+          "0488de94-37e5-4850-bd28-094b3afa33a0",
+          "17",
+          "GND"
+        ],
+        [
+          "0b540606-e110-4676-9177-437f6ce55bdf",
+          "2",
+          "CS43131_I2S_SDIN"
+        ],
+        [
+          "114ade7a-0b46-4610-9e0f-ac47a1bb0361",
+          "8",
+          "GND"
+        ],
+        [
+          "194c44ad-8a2f-412a-8331-97d1351d8a52",
+          "36",
+          "Net-(U2-XTO)"
+        ],
+        [
+          "1b59652e-e794-40af-a02e-c7b36c168d24",
+          "23",
+          "Net-(U2-FLYC_VCP)"
+        ],
+        [
+          "2375d805-f038-4205-a221-24c9cb377d4a",
+          "20",
+          "Net-(U2-FLYN_VCP)"
+        ],
+        [
+          "2b1d2989-7f89-4883-a954-82b8aebbee87",
+          "28",
+          "CS43131_RST#_1V8"
+        ],
+        [
+          "312a9007-089e-4d60-b16f-1012cf022fe1",
+          "35",
+          "GND"
+        ],
+        [
+          "459ad133-c793-473f-862d-e06b101b0062",
+          "24",
+          "Net-(U2-FLYP_VCP)"
+        ],
+        [
+          "495da29c-bfab-4078-ad4d-495d62d310e5",
+          "13",
+          "GND"
+        ],
+        [
+          "5fcb8137-6340-49fc-abdd-783d5f95a0b9",
+          "14",
+          "Net-(U2-HPOUTA)"
+        ],
+        [
+          "60f1338e-43e8-4c65-b5d2-4d230bb68da4",
+          "37",
+          "Net-(U2-XTI{slash}MCLK)"
+        ],
+        [
+          "679f4cdc-92e6-4d29-8390-6c720a37ded0",
+          "6",
+          "Net-(U2-FILT-)"
+        ],
+        [
+          "6a5cbf5d-4002-4ee5-bbd7-693099f78aec",
+          "30",
+          "GND"
+        ],
+        [
+          "6ea00773-806c-45b4-a7eb-cfddb3972ed1",
+          "31",
+          "VCC_1V8"
+        ],
+        [
+          "6f26ce17-8f4a-4174-9e9f-90811f340043",
+          "10",
+          "Net-(U2-FLYP_VA)"
+        ],
+        [
+          "732fd27a-230e-4791-b35d-c01c4f78c9b5",
+          "29",
+          "unconnected-(U2-DSDB{slash}LRCK2-Pad29)"
+        ],
+        [
+          "782b6d66-595b-4802-9ab6-9357ff69709c",
+          "22",
+          "unconnected-(U2-HP_DETECT-Pad22)"
+        ],
+        [
+          "7ea70930-7890-4340-9386-1a19ccf800c0",
+          "4",
+          "VCC_1V8"
+        ],
+        [
+          "81749d75-a3c3-4261-8c87-11acb841605b",
+          "11",
+          "Net-(U2-FLYN_VA)"
+        ],
+        [
+          "8360d53b-ab80-44c3-8ef9-8d0886139b21",
+          "40",
+          "unconnected-(U2-DSDA{slash}SDIN2-Pad40)"
+        ],
+        [
+          "88e59f77-0ff9-4a91-8b77-1272075e78bb",
+          "41",
+          "GND"
+        ],
+        [
+          "8a82dde5-b555-4e72-bcfb-dafe80c353d6",
+          "3",
+          "unconnected-(U2-TSO-Pad3)"
+        ],
+        [
+          "8d77f5e7-35b6-44b0-8f57-63f5373abd5a",
+          "19",
+          "GND"
+        ],
+        [
+          "94b8490d-877b-4f9b-b065-b28c69f9e4f6",
+          "15",
+          "unconnected-(U2-HPINB-Pad15)"
+        ],
+        [
+          "9657b0d2-37a4-4cc2-89a8-8c3922df77ad",
+          "25",
+          "VCC_1V8"
+        ],
+        [
+          "97a61d5b-a9af-4fd2-b7e0-fad4a74225ac",
+          "21",
+          "Net-(U2-VCP_FILT+)"
+        ],
+        [
+          "98d1db50-b3d7-4879-88d0-2cf798cb0fb0",
+          "16",
+          "Net-(U2-HPOUTB)"
+        ],
+        [
+          "b048d1a6-1e41-4e33-b4d0-a1239228d135",
+          "34",
+          "CS43131_I2S_SCLK"
+        ],
+        [
+          "b0957e76-e8b3-4a62-946d-8b9732b7571e",
+          "38",
+          "CS43131_I2S_LRCK"
+        ],
+        [
+          "bdf0c35f-6532-4687-ba34-945f7c7a4f2b",
+          "5",
+          "Net-(U2-FILT+)"
+        ],
+        [
+          "d02ae364-e96b-45ee-9de0-21a418d0935e",
+          "32",
+          "unconnected-(U2-DSDCLK{slash}SCLK2-Pad32)"
+        ],
+        [
+          "da4fbbf7-7ad8-4556-9f31-914ee56772d9",
+          "18",
+          "Net-(U2-VCP_FILT\u2013)"
+        ],
+        [
+          "e7d96656-e44e-42b4-b6c5-c342cb48ee76",
+          "33",
+          "unconnected-(U2-CLKOUT-Pad33)"
+        ],
+        [
+          "ea865bd6-a5d2-472a-9e0c-f0dcbae24fbb",
+          "7",
+          "VCC_1V8"
+        ],
+        [
+          "ec13d400-25ba-40cd-8975-63d620e92bc9",
+          "26",
+          "VCC"
+        ],
+        [
+          "ece4b328-6ed0-4460-8843-b97a1c0fefc9",
+          "12",
+          "unconnected-(U2-HPINA-Pad12)"
+        ],
+        [
+          "eece7ca7-1166-4e76-b7c6-5d40746ca7b9",
+          "27",
+          "unconnected-(U2-INT#-Pad27)"
+        ],
+        [
+          "ef74f0ed-bce5-48bf-ba80-b3ef46c07038",
+          "39",
+          "CS43131_SDA_1V8"
+        ],
+        [
+          "f48a6e7c-aa53-4bd4-a50e-5398333166a3",
+          "1",
+          "CS43131_SCL_1V8"
+        ]
+      ]
+    },
+    "C25": {
+      "uuid": "55de6092-b740-4903-bf85-86eebf9e7c05",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/a32e30c2-1d76-4e98-881a-c719c7ae0e3f/e8feb632-fdb0-49ff-8025-9dd55589f566",
+      "value": "2.2uF",
+      "fpid": "MP3_Source:C0402_1",
+      "dnp": false,
+      "xy": [
+        117.034,
+        111.024
+      ],
+      "angle": 0.0,
+      "side": "F",
+      "locked": false,
+      "pads": [
+        [
+          "b774ab8d-5e4e-4ae6-b9dd-55b4c506b562",
+          "2",
+          "Net-(U2-FLYC_VCP)"
+        ],
+        [
+          "de0b9bcc-04bc-4ae5-8f4c-0141feacf5b9",
+          "1",
+          "Net-(U2-FLYN_VCP)"
+        ]
+      ]
+    },
+    "C23": {
+      "uuid": "57bf596d-dc85-4ee4-ba42-2a91fc07b115",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/a32e30c2-1d76-4e98-881a-c719c7ae0e3f/71f193f3-21b8-4eaa-aa37-e8970038863c",
+      "value": "2.2uF",
+      "fpid": "MP3_Source:C0402_1",
+      "dnp": false,
+      "xy": [
+        117.669,
+        107.341
+      ],
+      "angle": 90.0,
+      "side": "F",
+      "locked": false,
+      "pads": [
+        [
+          "853ee4f7-a39e-4102-966c-3c0ec5caa37d",
+          "1",
+          "GND"
+        ],
+        [
+          "e809a89e-1d54-47de-a561-ed5517e5757a",
+          "2",
+          "VCC_1V8"
+        ]
+      ]
+    },
+    "H1": {
+      "uuid": "590857f2-9c5d-4032-8e0e-031aa5757930",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/55894b24-052a-4132-bf6f-bbeeac5e8883/ca3f9076-3280-4631-b625-8760d44328bb",
+      "value": "BM02B-ACHSS-GAN-ETF",
+      "fpid": "MP3_Source:JST_ACH_BM02B-ACHSS-GAN-ETF_1x02-1MP_P1.20mm_Vertical",
+      "dnp": false,
+      "xy": [
+        130.0,
+        113.0
+      ],
+      "angle": -90.0,
+      "side": "F",
+      "locked": true,
+      "pads": [
+        [
+          "1977c5b2-6b0f-43bc-b6c7-02bf93dcd41f",
+          "2",
+          "MOTOR_OUT_P"
+        ],
+        [
+          "1b33e4b2-d359-4603-95eb-c41bea1b8554",
+          "MP",
+          ""
+        ],
+        [
+          "3f488920-16a3-4c6a-b392-1645b2328d94",
+          "1",
+          "MOTOR_OUT_N"
+        ],
+        [
+          "9afecc0b-0c67-4c2d-b186-e8f4b2dc5092",
+          "MP",
+          ""
+        ]
+      ]
+    },
+    "C29": {
+      "uuid": "5ccb632b-377a-4acc-bb92-ed12d5890bd7",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/a32e30c2-1d76-4e98-881a-c719c7ae0e3f/13ae5a67-d654-4650-87c4-664c5d991db6",
+      "value": "100nF",
+      "fpid": "MP3_Source:C0402_1",
+      "dnp": false,
+      "xy": [
+        117.669,
+        104.293
+      ],
+      "angle": 90.0,
+      "side": "F",
+      "locked": false,
+      "pads": [
+        [
+          "56850526-2f89-4804-ab63-7fffaa85d1f9",
+          "2",
+          "GND"
+        ],
+        [
+          "c712d323-d95e-4188-a3fd-6330122c2e02",
+          "1",
+          "VCC"
+        ]
+      ]
+    },
+    "C24": {
+      "uuid": "6c925325-3fee-4636-a996-b5d5806fe7cc",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/a32e30c2-1d76-4e98-881a-c719c7ae0e3f/b765430f-65a2-4a33-b78f-186511dfa079",
+      "value": "2.2uF",
+      "fpid": "MP3_Source:C0402_1",
+      "dnp": false,
+      "xy": [
+        116.399,
+        107.341
+      ],
+      "angle": -90.0,
+      "side": "F",
+      "locked": false,
+      "pads": [
+        [
+          "ad36f2d3-f58a-4af5-8430-5988f3f9ca32",
+          "1",
+          "Net-(U2-FLYP_VCP)"
+        ],
+        [
+          "da9907e8-fad0-47d9-86c8-dd2040da0c2f",
+          "2",
+          "Net-(U2-FLYC_VCP)"
+        ]
+      ]
+    },
+    "C30": {
+      "uuid": "72a2ba42-e2a6-4195-aacb-4a90ad47cb96",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/b6e10d0a-57e0-4a0a-8ce9-e0aec5e0d339/eb5b5dba-cc9e-421d-b51e-2cda30456e74",
+      "value": "1uF",
+      "fpid": "MP3_Source:C0402_1",
+      "dnp": false,
+      "xy": [
+        124.0,
+        99.0
+      ],
+      "angle": 90.0,
+      "side": "F",
+      "locked": false,
+      "pads": [
+        [
+          "4cafb78b-5a07-4752-97fb-497e96049cbe",
+          "1",
+          "GND"
+        ],
+        [
+          "863594c1-1db1-4c2d-a8e4-3f4a80cecf17",
+          "2",
+          "VCC"
+        ]
+      ]
+    },
+    "SCREW2": {
+      "uuid": "7345a0c9-6d7b-400e-9145-7312a56ce164",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/3fdb40be-46ff-4df0-86c3-01e4a82b980f/fd5afe8a-a76d-4e9b-8f80-efcaa90b092d",
+      "value": "M2 clearance 2.2mm",
+      "fpid": "MP3_Source:MountingHole_2.2mm",
+      "dnp": false,
+      "xy": [
+        111.573,
+        84.3608
+      ],
+      "angle": 0.0,
+      "side": "F",
+      "locked": true,
+      "pads": [
+        [
+          "8a26671e-8176-41a2-8ffb-d69b23fc8640",
+          "",
+          ""
+        ]
+      ]
+    },
+    "C5": {
+      "uuid": "816b9df9-8bfa-4867-9bca-0ad8aa6f5bc5",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/55894b24-052a-4132-bf6f-bbeeac5e8883/a649d765-a63f-4204-9576-7e375115e0a8",
+      "value": "1uF",
+      "fpid": "MP3_Source:C0402_1",
+      "dnp": false,
+      "xy": [
+        119.25,
+        116.25
+      ],
+      "angle": 0.0,
+      "side": "F",
+      "locked": false,
+      "pads": [
+        [
+          "9ebc2fc4-7260-487b-a48f-f15f7b386a1e",
+          "1",
+          "GND"
+        ],
+        [
+          "f831154d-94e6-4a73-a3b5-843db10901d4",
+          "2",
+          "Net-(U11-VDD)"
+        ]
+      ]
+    },
+    "C58": {
+      "uuid": "87bdbd93-fe63-45df-9cad-1072b7929160",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/55894b24-052a-4132-bf6f-bbeeac5e8883/2cac4556-c0dd-4066-8b84-711b9dc888ed",
+      "value": "100nF",
+      "fpid": "MP3_Source:C0402_1",
+      "dnp": false,
+      "xy": [
+        119.25,
+        117.75
+      ],
+      "angle": 0.0,
+      "side": "F",
+      "locked": false,
+      "pads": [
+        [
+          "57528738-73e2-4f36-a745-2bd26ebbf60b",
+          "2",
+          "Net-(U11-VDD)"
+        ],
+        [
+          "d5180103-5045-4e5e-9f4d-7ea2fff28d78",
+          "1",
+          "GND"
+        ]
+      ]
+    },
+    "C48": {
+      "uuid": "9227b9df-48a9-4667-8469-a1268661162a",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/83aabba6-752d-429a-86fc-1fe2fe31d95a/a74c0a14-a907-46f1-8692-664da7494cef",
+      "value": "100nF",
+      "fpid": "MP3_Source:C0402",
+      "dnp": false,
+      "xy": [
+        115.25,
+        78.0
+      ],
+      "angle": -90.0,
+      "side": "F",
+      "locked": false,
+      "pads": [
+        [
+          "9fcb461f-e864-4167-9f7a-b997e632cdba",
+          "2",
+          "GND"
+        ],
+        [
+          "c7b82c36-1ef2-40fd-baa0-e3605ee8c11c",
+          "1",
+          "VCC_3V3"
+        ]
+      ]
+    },
+    "C21": {
+      "uuid": "9767f5a5-a592-4629-a2fe-c0982b488d47",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/a32e30c2-1d76-4e98-881a-c719c7ae0e3f/193a91f8-a503-4a83-b72c-8b60832c90d9",
+      "value": "2.2uF",
+      "fpid": "MP3_Source:C0402_1",
+      "dnp": false,
+      "xy": [
+        117.034,
+        109.373
+      ],
+      "angle": 0.0,
+      "side": "F",
+      "locked": false,
+      "pads": [
+        [
+          "96332bb1-9205-4235-9df2-0a03d0bb360f",
+          "2",
+          "GND"
+        ],
+        [
+          "e39741df-3679-4f52-b681-4b5b006c2ee9",
+          "1",
+          "Net-(U2-VCP_FILT+)"
+        ]
+      ]
+    },
+    "X1": {
+      "uuid": "9784ff20-8194-4e39-879c-11520ea90ff3",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/a32e30c2-1d76-4e98-881a-c719c7ae0e3f/5fe5ccde-7732-4a88-a5cd-ca4f39f5b7fd",
+      "value": "26MHz",
+      "fpid": "MP3_Source:CRYSTAL-SMD_4P-L3.2-W2.5-BL_1",
+      "dnp": false,
+      "xy": [
+        111.1,
+        99.65
+      ],
+      "angle": 90.0,
+      "side": "F",
+      "locked": false,
+      "pads": [
+        [
+          "1a2f665e-c999-4162-b600-9d52a429d9a0",
+          "1",
+          "Net-(U2-XTO)"
+        ],
+        [
+          "337fdca8-a56d-459c-8175-c81428873bf7",
+          "2",
+          "GND"
+        ],
+        [
+          "d2a52b7c-dec6-4bd7-b5ff-44fe730cadae",
+          "3",
+          "Net-(U2-XTI{slash}MCLK)"
+        ],
+        [
+          "fa8003a8-96fc-48ef-92ae-a8698b295baf",
+          "4",
+          "GND"
+        ]
+      ]
+    },
+    "U7": {
+      "uuid": "98967a4a-1dd6-4d93-9c6e-af05f21b3474",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/a32e30c2-1d76-4e98-881a-c719c7ae0e3f/b57b40c6-d9fa-49d6-bb8a-0ec509145edb",
+      "value": "PCA9306DQER",
+      "fpid": "MP3_Source:X2SON-8_L1.4-W1.0-P0.35-BL",
+      "dnp": false,
+      "xy": [
+        107.4,
+        95.0
+      ],
+      "angle": -90.0,
+      "side": "F",
+      "locked": false,
+      "pads": [
+        [
+          "043ce3b4-1071-4899-b9f0-fecd979c261a",
+          "3",
+          "CS43131_SCL_1V8"
+        ],
+        [
+          "06c38e52-d094-4399-92d8-c40eb5f5ddbf",
+          "7",
+          "Net-(U7-EN)"
+        ],
+        [
+          "2cd923b2-6669-457a-9ec3-d24f69572e63",
+          "1",
+          "GND"
+        ],
+        [
+          "796d5fee-96aa-4f31-b28a-2b478bdeaf5a",
+          "4",
+          "CS43131_SDA_1V8"
+        ],
+        [
+          "84d6a81d-8307-4cea-8906-7693e3541f89",
+          "8",
+          "Net-(U7-EN)"
+        ],
+        [
+          "89b9c9f5-e2b9-4874-abc3-73d8fe16d9e4",
+          "2",
+          "VCC_1V8"
+        ],
+        [
+          "a804df98-8914-4fb6-a42c-2babc81479c1",
+          "6",
+          "DAC_I2C_SCL"
+        ],
+        [
+          "f9281903-5faf-4631-befb-78a239466a90",
+          "5",
+          "DAC_I2C_SDA"
+        ]
+      ]
+    },
+    "C40": {
+      "uuid": "9daa61aa-3e12-43d7-b308-4fc3fa69bb01",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/c984d1ed-6e53-45f4-8ca1-0f91f991f687/a13d3e18-f625-4724-8731-fd5349399638",
+      "value": "100nF",
+      "fpid": "MP3_Source:C0402",
+      "dnp": false,
+      "xy": [
+        121.019,
+        63.914
+      ],
+      "angle": 90.0,
+      "side": "F",
+      "locked": false,
+      "pads": [
+        [
+          "017c9b18-ff7b-457e-8104-20e51ee6f980",
+          "2",
+          "GND"
+        ],
+        [
+          "5a04b26d-5bdf-4601-a0fa-0d394718faf4",
+          "1",
+          "VCC_3V3"
+        ]
+      ]
+    },
+    "SCREW4": {
+      "uuid": "a9c4a198-97c1-4c69-a2c4-f878fcf2a159",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/3fdb40be-46ff-4df0-86c3-01e4a82b980f/b3dc66ba-648d-4e99-8a1b-027340908ebc",
+      "value": "M2 clearance 2.2mm",
+      "fpid": "MP3_Source:MountingHole_2.2mm",
+      "dnp": false,
+      "xy": [
+        145.5,
+        92.5
+      ],
+      "angle": 0.0,
+      "side": "F",
+      "locked": true,
+      "pads": [
+        [
+          "3db83bee-2c78-4db8-ab74-fd3f78cc9121",
+          "",
+          ""
+        ]
+      ]
+    },
+    "CN1": {
+      "uuid": "ab6c52d6-af2c-468c-a9e5-03a67fa80347",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/a32e30c2-1d76-4e98-881a-c719c7ae0e3f/6f0eb266-4076-4300-8613-5e98a1f14518",
+      "value": "PJ-342B-TX-SMT",
+      "fpid": "MP3_Source:AUDIO-SMD_PJ-342B-TX-SMT",
+      "dnp": false,
+      "xy": [
+        112.565,
+        118.425
+      ],
+      "angle": 90.0,
+      "side": "F",
+      "locked": true,
+      "pads": [
+        [
+          "791b1b00-9af4-4f1a-a05e-24e106d8060b",
+          "6",
+          "Net-(U2-HPOUTB)"
+        ],
+        [
+          "b56fa7e9-a422-448d-b5d2-11f0e1e7ea56",
+          "2",
+          "GND"
+        ],
+        [
+          "b98391e4-c4e4-47f9-861b-e487cba11e47",
+          "3",
+          "Net-(U2-HPOUTA)"
+        ],
+        [
+          "cb2dda19-11d6-4edb-bb21-a03c0c8ae0b0",
+          "7",
+          "unconnected-(CN1-Pad7)"
+        ],
+        [
+          "ef395faa-9e81-412e-9556-42d58764b808",
+          "4",
+          "unconnected-(CN1-Pad4)"
+        ],
+        [
+          "f054f577-0828-4c43-82a9-009597eed558",
+          "5",
+          "GND"
+        ]
+      ]
+    },
+    "C47": {
+      "uuid": "b511aaa5-d668-46fa-b877-b77a53fdb633",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/83aabba6-752d-429a-86fc-1fe2fe31d95a/989f6643-4e24-40ad-bef7-b28f6edf5584",
+      "value": "100nF",
+      "fpid": "MP3_Source:C0402",
+      "dnp": false,
+      "xy": [
+        120.5,
+        78.5
+      ],
+      "angle": 0.0,
+      "side": "F",
+      "locked": false,
+      "pads": [
+        [
+          "2e899364-2d92-4f6c-b95d-f99e366e1cbd",
+          "2",
+          "GND"
+        ],
+        [
+          "a61d9cd8-0e96-4f0d-8b8b-65da5a71f17e",
+          "1",
+          "VCC_3V3"
+        ]
+      ]
+    },
+    "C41": {
+      "uuid": "b5e1e5be-5fb4-4464-8e3c-d3501ad6cb62",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/c984d1ed-6e53-45f4-8ca1-0f91f991f687/0c72acaa-1d77-4902-a2b6-c1cdc4fafed1",
+      "value": "1uF",
+      "fpid": "MP3_Source:C0402",
+      "dnp": false,
+      "xy": [
+        119.749,
+        63.914
+      ],
+      "angle": 90.0,
+      "side": "F",
+      "locked": false,
+      "pads": [
+        [
+          "1f2725c6-88c0-4b4d-b4fa-e846bdc19a68",
+          "2",
+          "GND"
+        ],
+        [
+          "d3b244e3-6f53-433b-8a89-883478d70dd9",
+          "1",
+          "VCC_3V3"
+        ]
+      ]
+    },
+    "U15": {
+      "uuid": "b6464405-cd71-4fb3-a17c-f9cc24db0c69",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/83aabba6-752d-429a-86fc-1fe2fe31d95a/5fe3bd8b-f6cf-4aef-98cc-3d55b1ba6f6d",
+      "value": "LSM6DS3TR-C",
+      "fpid": "MP3_Source:LGA-14_L3.0-W2.5-P0.50-TL",
+      "dnp": false,
+      "xy": [
+        117.7,
+        78.0
+      ],
+      "angle": 90.0,
+      "side": "F",
+      "locked": false,
+      "pads": [
+        [
+          "104145eb-46ea-4c09-8ebc-412cd68fae94",
+          "6",
+          "GND"
+        ],
+        [
+          "17860b52-8197-4cc7-86a7-0b789fe9ecbe",
+          "4",
+          "ESP_IO4"
+        ],
+        [
+          "224615d2-7394-4e73-a5f4-c1fea715e1fa",
+          "9",
+          "ESP_IO1"
+        ],
+        [
+          "2a3859ce-c247-4c03-9ac4-22855a4e327c",
+          "7",
+          "GND"
+        ],
+        [
+          "303a5938-9560-4cf0-965a-ba66b8b820aa",
+          "3",
+          "GND"
+        ],
+        [
+          "3c2d1e01-6bea-4e79-be14-58098730c6ac",
+          "12",
+          "VCC_3V3"
+        ],
+        [
+          "4810392b-14bb-4ba7-81bf-b9e7aa242ac7",
+          "13",
+          "DAC_I2C_SCL"
+        ],
+        [
+          "4ee081e1-59cd-4bdc-a7aa-dd27e6eeed32",
+          "8",
+          "VCC_3V3"
+        ],
+        [
+          "68041e22-fc8e-4c6f-9cc6-5d195d30bf6e",
+          "2",
+          "GND"
+        ],
+        [
+          "7258c4fd-ba88-4e8a-a1a9-df0fa0e4c18e",
+          "14",
+          "DAC_I2C_SDA"
+        ],
+        [
+          "78964f29-f012-495c-9f06-a7c9f239eea1",
+          "1",
+          "VCC_3V3"
+        ],
+        [
+          "7e8279ca-c63d-4dc3-ab07-344624122dbe",
+          "11",
+          "unconnected-(U15-NC-Pad11)"
+        ],
+        [
+          "b5235466-40f7-4ff4-bb48-87288bbde0e3",
+          "5",
+          "VCC_3V3"
+        ],
+        [
+          "d859472b-c1ca-4d83-b3b5-14d0e578cd7a",
+          "10",
+          "unconnected-(U15-NC-Pad10)"
+        ]
+      ]
+    },
+    "D1": {
+      "uuid": "b6c039c5-ab6d-4c55-9ad7-0855b3aee0f6",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/b54cf204-5ee8-4d41-a839-4e03742062cd/13dda3e2-acc0-467a-bb30-6209dc093a83",
+      "value": "USBLC6-2SC6",
+      "fpid": "MP3_Source:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL",
+      "dnp": false,
+      "xy": [
+        135.5,
+        115.4
+      ],
+      "angle": 90.0,
+      "side": "F",
+      "locked": false,
+      "pads": [
+        [
+          "1d5d5d97-c7f1-4213-a496-f3d76c9e15aa",
+          "3",
+          "TYPEC_USB_DN_IN"
+        ],
+        [
+          "1fdb369d-1fcb-46e9-8318-c09a0ca917ef",
+          "1",
+          "TYPEC_USB_DP_IN"
+        ],
+        [
+          "5b229c8b-0418-4af0-ab4c-519947f230c0",
+          "6",
+          "TYPEC_USB_DP"
+        ],
+        [
+          "622a8344-1c5d-4d86-93f0-2a7582442c5b",
+          "2",
+          "GND"
+        ],
+        [
+          "b0978132-790f-4092-b365-0ce2813d0b85",
+          "5",
+          "VBUS_5V"
+        ],
+        [
+          "f946c21c-c45d-4865-8c0e-039e6923df9b",
+          "4",
+          "TYPEC_USB_DN"
+        ]
+      ]
+    },
+    "U5": {
+      "uuid": "c1b2a9c6-6109-4337-afb5-63f729e50546",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/b6e10d0a-57e0-4a0a-8ce9-e0aec5e0d339/fe2cce96-5c1b-480a-86c8-5fe98d86622b",
+      "value": "ME6211C18M5G-N",
+      "fpid": "MP3_Source:SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR_1",
+      "dnp": false,
+      "xy": [
+        121.0,
+        99.5
+      ],
+      "angle": 0.0,
+      "side": "F",
+      "locked": false,
+      "pads": [
+        [
+          "0ba3994a-9730-4468-a319-0daa4a873666",
+          "2",
+          "GND"
+        ],
+        [
+          "3d33040b-e16a-4f6c-a6c9-cc2cf946730f",
+          "1",
+          "VCC"
+        ],
+        [
+          "41f91a1c-7c60-4802-88dc-c03e1e8962ea",
+          "5",
+          "VCC_1V8"
+        ],
+        [
+          "63a3f9cc-9b4f-4263-b9f7-9e50126d3710",
+          "4",
+          "unconnected-(U5-NC-Pad4)"
+        ],
+        [
+          "6d75635e-ba43-498b-9cfd-45b3efdfd007",
+          "3",
+          "VCC"
+        ]
+      ]
+    },
+    "C34": {
+      "uuid": "c320b940-752d-478f-b5ba-f1885ea99956",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/a32e30c2-1d76-4e98-881a-c719c7ae0e3f/69c7dce3-f9d8-41b6-a1dd-af5a24780a18",
+      "value": "100nF",
+      "fpid": "MP3_Source:C0402_1",
+      "dnp": false,
+      "xy": [
+        105.5,
+        95.25
+      ],
+      "angle": -90.0,
+      "side": "F",
+      "locked": false,
+      "pads": [
+        [
+          "b16b6c03-8696-4ed0-9e08-c3b7d7fe4eca",
+          "2",
+          "GND"
+        ],
+        [
+          "c363c4bd-12af-4b60-9fee-e34a319bfac0",
+          "1",
+          "VCC_1V8"
+        ]
+      ]
+    },
+    "C4": {
+      "uuid": "d8bce11f-a6bc-4260-bf9a-3317dd422779",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/55894b24-052a-4132-bf6f-bbeeac5e8883/3107e67b-bdfc-4ef1-b082-d53aeced6c4f",
+      "value": "1uF",
+      "fpid": "MP3_Source:C0402_1",
+      "dnp": false,
+      "xy": [
+        125.25,
+        112.5
+      ],
+      "angle": -90.0,
+      "side": "F",
+      "locked": false,
+      "pads": [
+        [
+          "262b4fae-0aa3-4c90-9e55-d66296172e18",
+          "1",
+          "GND"
+        ],
+        [
+          "42ad82b9-11d7-4e1a-9dc3-1eb3c7892a99",
+          "2",
+          "Net-(U11-REG)"
+        ]
+      ]
+    },
+    "CARD2": {
+      "uuid": "d97e0e71-f830-46d8-8809-b49536986f87",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/ff966279-5ca8-4e71-9c4f-8f5273e7a269/644336db-14df-4964-bc4e-6adc81d6117e",
+      "value": "TF PUSH",
+      "fpid": "MP3_Source:TF-SMD_TF-PUSH",
+      "dnp": false,
+      "xy": [
+        111.7,
+        65.764
+      ],
+      "angle": -90.0,
+      "side": "F",
+      "locked": true,
+      "pads": [
+        [
+          "0f5e98f4-bb7c-418c-a1aa-4ff2da039e28",
+          "1",
+          "ESP_TF_DAT2"
+        ],
+        [
+          "1219de82-17cc-4783-b642-a53d093455f0",
+          "CD",
+          "ESP_IO19"
+        ],
+        [
+          "28580ac8-5887-47d0-8432-6308dafd953a",
+          "7",
+          "ESP_TF_DAT0"
+        ],
+        [
+          "49072de0-78db-4574-8d83-88c2c3ed534c",
+          "2",
+          "ESP_TF_DAT3"
+        ],
+        [
+          "4ecb9be7-6a98-4203-9489-ff05a55d0b35",
+          "11",
+          "GND"
+        ],
+        [
+          "6bd596a6-5c44-4954-8028-e02fce6b31bb",
+          "13",
+          "GND"
+        ],
+        [
+          "87f16e28-41d4-47db-817e-c98615b478fe",
+          "6",
+          "GND"
+        ],
+        [
+          "8979eec1-0f76-4477-a243-16ccfcaa9363",
+          "5",
+          "ESP_TF_CLK"
+        ],
+        [
+          "a4f98ea5-a307-4b66-b3a2-195ca6849d2b",
+          "10",
+          "GND"
+        ],
+        [
+          "b8687440-47c4-4a48-8bcc-c27b55488da4",
+          "4",
+          "VCC_3V3"
+        ],
+        [
+          "ca2c3fa8-8c97-4c62-bacd-20e858f8edd6",
+          "3",
+          "ESP_TF_CMD"
+        ],
+        [
+          "cbbf11f6-57e8-4758-b9f4-e69f7380ceac",
+          "12",
+          "GND"
+        ],
+        [
+          "f36de1a8-0c07-429e-9714-3f81b090588f",
+          "8",
+          "ESP_TF_DAT1"
+        ]
+      ]
+    },
+    "C39": {
+      "uuid": "ddffb25e-b799-4a50-a68f-d663ec113b00",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/c984d1ed-6e53-45f4-8ca1-0f91f991f687/0b1e9fc7-8c96-4940-a8ec-0872e4d3cb7c",
+      "value": "1uF",
+      "fpid": "MP3_Source:C0402",
+      "dnp": false,
+      "xy": [
+        121.019,
+        66.581
+      ],
+      "angle": -90.0,
+      "side": "F",
+      "locked": false,
+      "pads": [
+        [
+          "4af46620-c0c6-47d6-8599-18b98fc382b8",
+          "2",
+          "GND"
+        ],
+        [
+          "ca24f143-d10e-41cc-b651-62bee537d63f",
+          "1",
+          "ESP32S31_EN"
+        ]
+      ]
+    },
+    "R18": {
+      "uuid": "e33e6504-cd36-4bc1-9432-f894f92b5d91",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/a32e30c2-1d76-4e98-881a-c719c7ae0e3f/0540a9b5-21e1-409b-9d6c-4fc0ec60504c",
+      "value": "10K",
+      "fpid": "MP3_Source:R0402_1",
+      "dnp": false,
+      "xy": [
+        107.0,
+        93.0
+      ],
+      "angle": 180.0,
+      "side": "F",
+      "locked": false,
+      "pads": [
+        [
+          "00984d76-8a6f-49d2-8efb-04298bbed021",
+          "2",
+          "VCC_1V8"
+        ],
+        [
+          "b82f84f3-b69c-42c2-9ea2-3471055f86f3",
+          "1",
+          "CS43131_SCL_1V8"
+        ]
+      ]
+    },
+    "C35": {
+      "uuid": "e4095ab6-9ea8-4af2-acb9-0f704e2d3b7f",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/a32e30c2-1d76-4e98-881a-c719c7ae0e3f/9635b2f5-f7a4-489b-bcff-255b468490d1",
+      "value": "100nF",
+      "fpid": "MP3_Source:C0402_1",
+      "dnp": false,
+      "xy": [
+        117.25,
+        90.75
+      ],
+      "angle": 0.0,
+      "side": "F",
+      "locked": false,
+      "pads": [
+        [
+          "02dfdde3-70d5-4308-a472-e4beba61a426",
+          "2",
+          "VCC_1V8"
+        ],
+        [
+          "96e62759-b633-46a8-8fb1-a0eaf57ef654",
+          "1",
+          "GND"
+        ]
+      ]
+    },
+    "C17": {
+      "uuid": "e644f57e-943d-4438-9d12-f2277419d3ce",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/a32e30c2-1d76-4e98-881a-c719c7ae0e3f/6a8f3c7b-55b6-47b7-bee4-6dca1d1cad5b",
+      "value": "2.2uF",
+      "fpid": "MP3_Source:C0402_1",
+      "dnp": false,
+      "xy": [
+        104.588,
+        109.5
+      ],
+      "angle": -90.0,
+      "side": "F",
+      "locked": false,
+      "pads": [
+        [
+          "034e6d89-9c0c-47c7-8e1b-a181e0e50204",
+          "2",
+          "GND"
+        ],
+        [
+          "40ea228d-8575-4639-a17b-fc3aa42fe6a4",
+          "1",
+          "VCC_1V8"
+        ]
+      ]
+    },
+    "R17": {
+      "uuid": "e67097f2-94b4-422c-878d-7abc8b416e10",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/a32e30c2-1d76-4e98-881a-c719c7ae0e3f/71b082d6-7b05-477d-9ce9-eac23d3b13af",
+      "value": "200K",
+      "fpid": "MP3_Source:R0402_2",
+      "dnp": false,
+      "xy": [
+        109.0,
+        92.5
+      ],
+      "angle": 90.0,
+      "side": "F",
+      "locked": false,
+      "pads": [
+        [
+          "862ae4a8-b66b-4593-bbbd-bbe66d4fb33a",
+          "1",
+          "Net-(U7-EN)"
+        ],
+        [
+          "a49d0288-565c-49de-bf53-86d4fbafe7eb",
+          "2",
+          "VCC_3V3"
+        ]
+      ]
+    },
+    "SCREW1": {
+      "uuid": "e8aef5a0-0502-4d83-99e0-ee057abfea80",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/3fdb40be-46ff-4df0-86c3-01e4a82b980f/09316e11-f865-4281-971c-0deb98afb3ac",
+      "value": "M2 clearance 2.2mm",
+      "fpid": "MP3_Source:MountingHole_2.2mm",
+      "dnp": false,
+      "xy": [
+        104.3,
+        114.5
+      ],
+      "angle": 0.0,
+      "side": "F",
+      "locked": true,
+      "pads": [
+        [
+          "b6948df9-9c5e-450c-8048-55a3e3d9681e",
+          "",
+          ""
+        ]
+      ]
+    },
+    "R32": {
+      "uuid": "f663da7b-59f3-4994-bc81-78e26bad9cbe",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/b54cf204-5ee8-4d41-a839-4e03742062cd/017d5059-a1a0-40a4-8548-7477ad6e97f5",
+      "value": "5K1",
+      "fpid": "MP3_Source:R0402",
+      "dnp": false,
+      "xy": [
+        138.25,
+        117.5
+      ],
+      "angle": -90.0,
+      "side": "F",
+      "locked": false,
+      "pads": [
+        [
+          "692044dc-c995-4ef8-bddf-971df6bd7093",
+          "2",
+          "Net-(USB1-CC2)"
+        ],
+        [
+          "afd73c85-8528-4446-9715-f09b2c224473",
+          "1",
+          "GND"
+        ]
+      ]
+    },
+    "U3": {
+      "uuid": "0229b58d-734b-4f27-a8b2-395897f503ef",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/b6e10d0a-57e0-4a0a-8ce9-e0aec5e0d339/84f52ee2-3095-4d8c-bbf4-01e1a9858eb8",
+      "value": "DSCB_BQ25895RTW",
+      "fpid": "MP3_Source:WQFN-24_L4.0-W4.0-P0.50-TL-EP2.7",
+      "dnp": false,
+      "xy": [
+        138.0,
+        112.2
+      ],
+      "angle": 90.0,
+      "side": "B",
+      "locked": false,
+      "pads": [
+        [
+          "047a3b1c-7d19-48be-b450-ca1d469d8f79",
+          "21",
+          "Net-(U3-BTST)"
+        ],
+        [
+          "0af2cb38-8467-4b47-b7a2-7b1d6142eea0",
+          "22",
+          "Net-(U3-REGN)"
+        ],
+        [
+          "106c3ac6-4269-4dec-a6ab-f7dce3e8e8b1",
+          "13",
+          "VBAT"
+        ],
+        [
+          "134b1e4c-2ad8-4eae-b050-fa39d4385710",
+          "11",
+          "BAT_TS"
+        ],
+        [
+          "2b9c71ce-a574-43e9-b6e2-3857e452821f",
+          "19",
+          "Net-(D2-A)"
+        ],
+        [
+          "349d2707-fe04-4791-8252-70ec511ab372",
+          "9",
+          "BQ25895_CHG_EN#"
+        ],
+        [
+          "38bb3353-c6a9-4f0e-997f-ca1b7dbce90a",
+          "16",
+          "VCC"
+        ],
+        [
+          "4603de44-3501-45f4-b356-6e284c7e2de7",
+          "25",
+          "GND"
+        ],
+        [
+          "501b1cf5-dcb0-4db3-9589-600dd8394249",
+          "20",
+          "Net-(D2-A)"
+        ],
+        [
+          "58ecb3ae-679d-4c81-a10d-aa61dc67943e",
+          "12",
+          "BQ25895_QON#"
+        ],
+        [
+          "6db8a14a-5738-44dc-a3a7-46f88a548234",
+          "17",
+          "GND"
+        ],
+        [
+          "6e6dee0c-f1a5-45d5-bd2a-01df438bbb9d",
+          "5",
+          "BQ25895_I2C_CLK"
+        ],
+        [
+          "7c2cab53-1cea-491b-a910-78196ebfcdc1",
+          "6",
+          "BQ25895_I2C_SDA"
+        ],
+        [
+          "80c28ffc-096d-4d2f-b176-803975cc248c",
+          "1",
+          "VBUS_5V"
+        ],
+        [
+          "835dae2a-f9ab-4540-9921-aac05a871e94",
+          "8",
+          "BQ25895_OTG_EN"
+        ],
+        [
+          "909ec21b-6c2d-4158-9902-5b9a481ec634",
+          "24",
+          "BQ25895_DSEL"
+        ],
+        [
+          "96d8eb0b-5740-4ab8-93a4-c3234cd1f5ec",
+          "23",
+          "VCC_LCD_BG"
+        ],
+        [
+          "a0e8e543-5295-46d1-8b80-81f9d6e0bb6f",
+          "10",
+          "Net-(U3-ILIM)"
+        ],
+        [
+          "a19534bf-44c0-4f62-906f-d1e6c48cb1b2",
+          "3",
+          "BQ25895_USB_DN"
+        ],
+        [
+          "a41d9b8d-3e98-4692-8b54-e79772f9aee0",
+          "18",
+          "GND"
+        ],
+        [
+          "a4cca5fe-b994-4398-8133-5507ba3f4c61",
+          "7",
+          "BQ25895_INT"
+        ],
+        [
+          "bb70f63b-a44a-47b7-9960-502d91ddded8",
+          "14",
+          "VBAT"
+        ],
+        [
+          "de319d1f-9427-41c0-b9fd-23e55911e597",
+          "2",
+          "BQ25895_USB_DP"
+        ],
+        [
+          "e5f1226d-c1bb-4d27-bc5b-43d05df94fd5",
+          "15",
+          "VCC"
+        ],
+        [
+          "f48959fb-e351-4dbc-88e8-9b6305bd5257",
+          "4",
+          "BQ25895_STAT"
+        ]
+      ]
+    },
+    "U16": {
+      "uuid": "0326ab46-d60e-4a17-b913-4e8225745a08",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/ecf3a757-18ba-4389-a501-2262d54daec4/c811e1bd-4127-4319-82ba-9b704f1d040a",
+      "value": "PAM2804AAB010",
+      "fpid": "MP3_Source:SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR",
+      "dnp": false,
+      "xy": [
+        134.56,
+        79.559
+      ],
+      "angle": 180.0,
+      "side": "B",
+      "locked": false,
+      "pads": [
+        [
+          "1f011d0d-b8f3-4866-86b8-8036b30501f1",
+          "5",
+          "LCD_LEDK"
+        ],
+        [
+          "60b85f68-4d57-469b-9006-33bd8028432d",
+          "1",
+          "ESP_IO45"
+        ],
+        [
+          "614bdcfb-e481-499a-84a6-b5ba7d73b73c",
+          "3",
+          "Net-(U16-SW)"
+        ],
+        [
+          "c42a313a-ff7d-413f-9db0-1d2baae262dc",
+          "2",
+          "GND"
+        ],
+        [
+          "cb361511-9fcb-4d43-bf15-b1930582a70c",
+          "4",
+          "VCC_LCD_BG"
+        ]
+      ]
+    },
+    "R4": {
+      "uuid": "06e111ee-2d01-466e-96f2-b78a063fe71e",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/b6e10d0a-57e0-4a0a-8ce9-e0aec5e0d339/614d2bb6-50c4-463d-a9d0-230a54d47b32",
+      "value": "100K",
+      "fpid": "MP3_Source:R0402",
+      "dnp": false,
+      "xy": [
+        123.25,
+        87.75
+      ],
+      "angle": 90.0,
+      "side": "B",
+      "locked": false,
+      "pads": [
+        [
+          "d03d90e2-38c0-489f-a215-8dc952e88484",
+          "2",
+          "VCC_3V3"
+        ],
+        [
+          "ee42269b-9774-405e-9e9a-15dcfcd02d87",
+          "1",
+          "Net-(U4-FB)"
+        ]
+      ]
+    },
+    "R9": {
+      "uuid": "0ed27b7a-44d2-4d32-bd09-a9c69dd1b02b",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/b6e10d0a-57e0-4a0a-8ce9-e0aec5e0d339/a35b183a-f8e9-4d8b-b466-ca9715d9d335",
+      "value": "700R",
+      "fpid": "MP3_Source:R0402",
+      "dnp": false,
+      "xy": [
+        134.5,
+        112.5
+      ],
+      "angle": 90.0,
+      "side": "B",
+      "locked": false,
+      "pads": [
+        [
+          "3100265a-3b48-448a-a129-97bfc337f996",
+          "2",
+          "Net-(U3-ILIM)"
+        ],
+        [
+          "c88dae13-6ac8-4250-b8a7-ad8b16a7ddd1",
+          "1",
+          "GND"
+        ]
+      ]
+    },
+    "R40": {
+      "uuid": "12f61466-f134-4f3f-a047-7bde048363aa",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/ecf3a757-18ba-4389-a501-2262d54daec4/42abb0b7-ad96-42cb-bbe4-1b39d303c06e",
+      "value": "1R5",
+      "fpid": "MP3_Source:R1206",
+      "dnp": false,
+      "xy": [
+        142.688,
+        76.765
+      ],
+      "angle": 90.0,
+      "side": "B",
+      "locked": false,
+      "pads": [
+        [
+          "6bfc19fd-43aa-48ea-bb0d-601f3d94e58b",
+          "1",
+          "GND"
+        ],
+        [
+          "93b447de-9d68-479f-9c9c-825de6c587d3",
+          "2",
+          "LCD_LEDK"
+        ]
+      ]
+    },
+    "U12": {
+      "uuid": "23b0b4a3-9411-40f2-83ca-bae7883a3402",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/b54cf204-5ee8-4d41-a839-4e03742062cd/58b9d188-f182-4608-a2c0-30e4de31f539",
+      "value": "CH343P",
+      "fpid": "MP3_Source:TQFN-16_L3.0-W3.0-P0.50-BL-EP1.7",
+      "dnp": false,
+      "xy": [
+        134.0,
+        94.5
+      ],
+      "angle": -90.0,
+      "side": "B",
+      "locked": false,
+      "pads": [
+        [
+          "2249bd74-3b20-411e-8c4b-0f092ed5abab",
+          "6",
+          "Net-(U12-V3)"
+        ],
+        [
+          "25cda82d-0dd9-4bc0-baed-3bfb95b75cd1",
+          "13",
+          "CH343P_UART_RTS"
+        ],
+        [
+          "27c6de98-faf6-4d6e-b379-a01339f91a7c",
+          "1",
+          "VCC_3V3"
+        ],
+        [
+          "2c5e7583-1dec-4e89-8540-919655c69f48",
+          "8",
+          "CH343P_USB_DN"
+        ],
+        [
+          "4688c459-1791-4061-9c27-8b933a2ffc45",
+          "11",
+          "unconnected-(U12-DCD-Pad11)"
+        ],
+        [
+          "541fae7d-a369-410a-8c93-15ec40a8344c",
+          "5",
+          "CH343P_UART_RX"
+        ],
+        [
+          "6e3ea840-8e60-405d-b326-99d2bc6805a7",
+          "9",
+          "VBUS_5V"
+        ],
+        [
+          "8e49c1cf-4485-4e67-9a6c-bcd55e379d93",
+          "7",
+          "CH343P_USB_DP"
+        ],
+        [
+          "a0704bd2-8df0-4b16-a24e-ddef0901f802",
+          "14",
+          "unconnected-(U12-DSR-Pad14)"
+        ],
+        [
+          "a084fdf5-4383-4edd-8c7a-ac3dcdfad727",
+          "2",
+          "GND"
+        ],
+        [
+          "a26b8508-7a13-4926-b5f6-e9acd582765c",
+          "17",
+          "GND"
+        ],
+        [
+          "aa1b75fb-cb4b-4b97-bca7-124042d15d0f",
+          "12",
+          "CH343P_UART_DTR"
+        ],
+        [
+          "ad68bcee-3bcb-456a-9b0e-a9d3e868acf4",
+          "10",
+          "unconnected-(U12-ACT#-Pad10)"
+        ],
+        [
+          "ca2ff757-0606-462e-89b4-4b3c0276e6d4",
+          "15",
+          "unconnected-(U12-CTS-Pad15)"
+        ],
+        [
+          "ce7393b1-6bd3-4545-b6db-2f1ec004639d",
+          "4",
+          "CH343P_UART_TX"
+        ],
+        [
+          "d41270bb-8eb4-4ff4-af94-894bb8c56259",
+          "3",
+          "VBUS_5V"
+        ],
+        [
+          "f1532c45-7e81-4d43-8135-d98bdecdfc71",
+          "16",
+          "unconnected-(U12-RI-Pad16)"
+        ]
+      ]
+    },
+    "C42": {
+      "uuid": "2c4e0ac1-b02f-4d3f-a176-503786322298",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/ecf3a757-18ba-4389-a501-2262d54daec4/8a37c799-30cd-41d2-a9dc-c350169cbbc6",
+      "value": "10uF",
+      "fpid": "MP3_Source:C0603_1",
+      "dnp": false,
+      "xy": [
+        137.481,
+        75.241
+      ],
+      "angle": 180.0,
+      "side": "B",
+      "locked": false,
+      "pads": [
+        [
+          "75d3bcf8-ec04-4ba9-968c-8f0910d68877",
+          "2",
+          "LCD_LEDA"
+        ],
+        [
+          "e73618b5-aa73-466b-9809-6a904d5c6570",
+          "1",
+          "GND"
+        ]
+      ]
+    },
+    "R35": {
+      "uuid": "2ded0998-36b5-42f0-9e6d-bbfc991dca78",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/c984d1ed-6e53-45f4-8ca1-0f91f991f687/1bd747af-b6e4-4b24-bc43-11d01a3bb379",
+      "value": "10K",
+      "fpid": "MP3_Source:R0402",
+      "dnp": false,
+      "xy": [
+        120.209,
+        60.303
+      ],
+      "angle": 0.0,
+      "side": "B",
+      "locked": false,
+      "pads": [
+        [
+          "bc995368-48db-41e4-8ea6-04ba7da958a9",
+          "1",
+          "VCC_3V3"
+        ],
+        [
+          "f314f32c-b5b2-44ea-8092-276735ef67f2",
+          "2",
+          "ESP_TF_DAT1"
+        ]
+      ]
+    },
+    "C37": {
+      "uuid": "2f3c0f2b-1a12-4bdd-b6a7-3013ecb1cbe1",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/b54cf204-5ee8-4d41-a839-4e03742062cd/43a8e6cf-369f-4a45-8f8a-84d0f09b8081",
+      "value": "100nF",
+      "fpid": "MP3_Source:C0402",
+      "dnp": false,
+      "xy": [
+        137.5,
+        93.75
+      ],
+      "angle": 0.0,
+      "side": "B",
+      "locked": false,
+      "pads": [
+        [
+          "3b73be6c-1ae0-4a20-af89-ddf3e4c86454",
+          "1",
+          "VCC_3V3"
+        ],
+        [
+          "41da91d9-2284-414c-8624-429925b3ea1b",
+          "2",
+          "GND"
+        ]
+      ]
+    },
+    "R27": {
+      "uuid": "39ef1a20-4e83-4e44-812a-b819ea4e21b6",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/c984d1ed-6e53-45f4-8ca1-0f91f991f687/c75a5cc2-361b-493b-a5d0-f11168759882",
+      "value": "0/NC",
+      "fpid": "MP3_Source:R0402",
+      "dnp": true,
+      "xy": [
+        133.75,
+        91.5
+      ],
+      "angle": 0.0,
+      "side": "B",
+      "locked": false,
+      "pads": [
+        [
+          "464c1a9b-774d-4385-8e0b-c016dca47dd9",
+          "2",
+          "ESP32S31_EN"
+        ],
+        [
+          "5d0346dd-8446-4a11-b464-83a7e0f7701b",
+          "1",
+          "CH343P_UART_RTS"
+        ]
+      ]
+    },
+    "R13": {
+      "uuid": "3cf26321-0b54-407c-b75e-deba1a283daf",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/b6e10d0a-57e0-4a0a-8ce9-e0aec5e0d339/b4723096-67ab-49fe-9eec-a544e17a6531",
+      "value": "5K23",
+      "fpid": "MP3_Source:R0402",
+      "dnp": false,
+      "xy": [
+        133.0,
+        112.5
+      ],
+      "angle": 90.0,
+      "side": "B",
+      "locked": false,
+      "pads": [
+        [
+          "a719bf2d-4a83-42eb-bd2c-52e69729073b",
+          "2",
+          "BAT_TS"
+        ],
+        [
+          "f72af694-76ed-4881-ab25-f31e74047a54",
+          "1",
+          "Net-(U3-REGN)"
+        ]
+      ]
+    },
+    "R5": {
+      "uuid": "4023fd22-da51-4587-b212-d4537e72c397",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/b6e10d0a-57e0-4a0a-8ce9-e0aec5e0d339/023abe02-f7fc-40aa-a32a-bcbafca51496",
+      "value": "100K",
+      "fpid": "MP3_Source:R0402",
+      "dnp": false,
+      "xy": [
+        125.5,
+        84.0
+      ],
+      "angle": 180.0,
+      "side": "B",
+      "locked": false,
+      "pads": [
+        [
+          "22d9d741-5563-4f97-87cb-346b748af14b",
+          "2",
+          "PWR_3V3_EN"
+        ],
+        [
+          "91736606-9154-4186-b771-9d511f521fd1",
+          "1",
+          "GND"
+        ]
+      ]
+    },
+    "U1": {
+      "uuid": "4bcac81e-17fb-4e25-9e45-cf2b06767982",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/83aabba6-752d-429a-86fc-1fe2fe31d95a/8c01372e-e2e9-4142-a044-65d6f23756e8",
+      "value": "RX8130CE:BB",
+      "fpid": "MP3_Source:RTC-SMD_L3.2-W2.5-P0.7-RX8130CE",
+      "dnp": false,
+      "xy": [
+        139.0,
+        86.5
+      ],
+      "angle": 0.0,
+      "side": "B",
+      "locked": false,
+      "pads": [
+        [
+          "0eafa64c-7324-4f53-a321-e1ac4addcaa4",
+          "6",
+          "ESP_IO35"
+        ],
+        [
+          "12619594-3710-475a-ba84-b443c318d37d",
+          "3",
+          "BQ25895_I2C_SDA"
+        ],
+        [
+          "15624e4e-a0cd-4a1b-a08d-56fdd046be1c",
+          "8",
+          "VCC_3V3"
+        ],
+        [
+          "1a606f92-6a3e-4adf-bf89-c6d1efea2b1c",
+          "2",
+          "BQ25895_I2C_CLK"
+        ],
+        [
+          "215031d2-bef9-4f0b-92ec-b8ef4eb6f214",
+          "10",
+          "VBAT"
+        ],
+        [
+          "49388006-49ff-4254-a0bd-e521f98e58eb",
+          "1",
+          "VCC_3V3"
+        ],
+        [
+          "a5f3d65e-f122-466e-8fd9-f4a51161ce57",
+          "4",
+          "unconnected-(U1-FOUT-Pad4)"
+        ],
+        [
+          "b75e0681-7d77-46a4-9ff0-013800cc0547",
+          "5",
+          "unconnected-(U1-#RST-Pad5)"
+        ],
+        [
+          "ce69b438-3b27-4ffb-8d57-78f6e5e8d4fd",
+          "9",
+          "Net-(U1-VOUT)"
+        ],
+        [
+          "e81f211c-9b5a-48d5-9a07-a00614283fa8",
+          "7",
+          "GND"
+        ]
+      ]
+    },
+    "R8": {
+      "uuid": "4e41c6e7-0c92-425c-9496-f8066a9eb530",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/c984d1ed-6e53-45f4-8ca1-0f91f991f687/a50c8ecf-fb06-4b41-890c-15ea46c4d0da",
+      "value": "10K",
+      "fpid": "MP3_Source:R0402",
+      "dnp": false,
+      "xy": [
+        135.75,
+        87.25
+      ],
+      "angle": 90.0,
+      "side": "B",
+      "locked": false,
+      "pads": [
+        [
+          "10cb2878-3ee5-49b6-9ad9-5173e16c5456",
+          "2",
+          "BQ25895_I2C_SDA"
+        ],
+        [
+          "3456ad1a-05bd-4be6-a78c-9c84e413e54b",
+          "1",
+          "VCC_3V3"
+        ]
+      ]
+    },
+    "C38": {
+      "uuid": "4ff59027-8219-4300-9c49-f522f8824c69",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/b54cf204-5ee8-4d41-a839-4e03742062cd/f1d2f554-ad3c-4acd-b7b2-7f348bb4bc13",
+      "value": "100nF",
+      "fpid": "MP3_Source:C0402",
+      "dnp": false,
+      "xy": [
+        133.75,
+        97.5
+      ],
+      "angle": 180.0,
+      "side": "B",
+      "locked": false,
+      "pads": [
+        [
+          "5f392bfa-7c61-4aa4-b99a-848dbee7d1a8",
+          "2",
+          "GND"
+        ],
+        [
+          "b498b83a-1cca-416f-bab1-dacc0a9ecc73",
+          "1",
+          "Net-(U12-V3)"
+        ]
+      ]
+    },
+    "C11": {
+      "uuid": "562ba1a8-971a-4236-8df0-ba9afc83fcdc",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/b6e10d0a-57e0-4a0a-8ce9-e0aec5e0d339/911593a8-1e41-4037-82a3-a4a7f3b498a4",
+      "value": "47nF",
+      "fpid": "MP3_Source:C0402",
+      "dnp": false,
+      "xy": [
+        144.25,
+        111.25
+      ],
+      "angle": 90.0,
+      "side": "B",
+      "locked": false,
+      "pads": [
+        [
+          "35b13f27-cdec-406d-b580-e1ac75783a9f",
+          "1",
+          "Net-(U3-BTST)"
+        ],
+        [
+          "5fa24be4-2ad3-4403-81b7-715a64b85265",
+          "2",
+          "Net-(D2-A)"
+        ]
+      ]
+    },
+    "R12": {
+      "uuid": "56400f63-0b7b-4b25-93af-780675cf8101",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/b6e10d0a-57e0-4a0a-8ce9-e0aec5e0d339/b8339ecb-a03b-4a52-9fa1-c915fe0fc492",
+      "value": "100K",
+      "fpid": "MP3_Source:R0402",
+      "dnp": false,
+      "xy": [
+        133.75,
+        117.0
+      ],
+      "angle": 90.0,
+      "side": "B",
+      "locked": false,
+      "pads": [
+        [
+          "351a3d0f-2a13-412a-b5c0-6f27e3a58566",
+          "2",
+          "BQ25895_OTG_EN"
+        ],
+        [
+          "60902b38-a5dd-4a6e-a1eb-09b5d914bd33",
+          "1",
+          "GND"
+        ]
+      ]
+    },
+    "R37": {
+      "uuid": "61766375-8564-45f6-ba54-513a609f43db",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/c984d1ed-6e53-45f4-8ca1-0f91f991f687/434fb91a-68db-4e06-aded-7dcd6c4b4d0f",
+      "value": "10K",
+      "fpid": "MP3_Source:R0402",
+      "dnp": false,
+      "xy": [
+        120.209,
+        66.907
+      ],
+      "angle": 0.0,
+      "side": "B",
+      "locked": false,
+      "pads": [
+        [
+          "76ecce66-ec34-45f9-835b-63b7cf4316dc",
+          "1",
+          "VCC_3V3"
+        ],
+        [
+          "8a69c0ae-b01d-4720-8638-886f123ad5c5",
+          "2",
+          "ESP_TF_DAT3"
+        ]
+      ]
+    },
+    "C2": {
+      "uuid": "6fa52fd1-0f72-4d17-b82f-9d5bb88e0d6d",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/b6e10d0a-57e0-4a0a-8ce9-e0aec5e0d339/9964edda-14c8-4531-85d0-38568c284375",
+      "value": "10uF",
+      "fpid": "MP3_Source:C0603_1_C2",
+      "dnp": false,
+      "xy": [
+        129.5,
+        88.0
+      ],
+      "angle": 0.0,
+      "side": "B",
+      "locked": false,
+      "pads": [
+        [
+          "9ce58753-78e9-492a-9094-cb7e4e714656",
+          "1",
+          "GND"
+        ],
+        [
+          "f88583dd-ad9b-4aa5-aeaf-1e47bd105e3d",
+          "2",
+          "VCC_3V3"
+        ]
+      ]
+    },
+    "C6": {
+      "uuid": "762ba7e8-65cf-454d-b2bc-35a78d02a51c",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/83aabba6-752d-429a-86fc-1fe2fe31d95a/e775b6c3-5407-438b-9587-265333fbc669",
+      "value": "100nF",
+      "fpid": "MP3_Source:C0402",
+      "dnp": false,
+      "xy": [
+        142.25,
+        87.75
+      ],
+      "angle": 0.0,
+      "side": "B",
+      "locked": false,
+      "pads": [
+        [
+          "5fa89aca-5711-4855-a30e-5aac867e3d67",
+          "2",
+          "GND"
+        ],
+        [
+          "91f819a7-a31d-4c59-bb2c-81c97b977a6d",
+          "1",
+          "VCC_3V3"
+        ]
+      ]
+    },
+    "R7": {
+      "uuid": "76b8db9d-40d3-453a-bd10-fba917e09d4c",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/c984d1ed-6e53-45f4-8ca1-0f91f991f687/f9b78cb8-c8bd-4cdd-b0b4-d1ce7d780f1e",
+      "value": "10K",
+      "fpid": "MP3_Source:R0402",
+      "dnp": false,
+      "xy": [
+        138.0,
+        89.5
+      ],
+      "angle": 0.0,
+      "side": "B",
+      "locked": false,
+      "pads": [
+        [
+          "266f2481-81e8-472e-a97c-1c165d33754e",
+          "2",
+          "BQ25895_I2C_CLK"
+        ],
+        [
+          "e3e63b6a-e1c6-4f75-bd76-89f674220188",
+          "1",
+          "VCC_3V3"
+        ]
+      ]
+    },
+    "L4": {
+      "uuid": "77893007-e253-44b5-ae49-758d0738092c",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/ecf3a757-18ba-4389-a501-2262d54daec4/817111a4-2356-4aca-90c4-63591cd34b66",
+      "value": "4.7uH",
+      "fpid": "MP3_Source:IND-SMD_L2.0-W1.6",
+      "dnp": false,
+      "xy": [
+        134.179,
+        76.638
+      ],
+      "angle": 180.0,
+      "side": "B",
+      "locked": false,
+      "pads": [
+        [
+          "1308640b-f527-439a-b8f2-742340803bed",
+          "1",
+          "Net-(U16-SW)"
+        ],
+        [
+          "248b870a-34cd-4a18-80a5-54d625cb9d25",
+          "2",
+          "LCD_LEDA"
+        ]
+      ]
+    },
+    "C7": {
+      "uuid": "7b85aeb7-01cd-4667-a8e3-2ba74ce6324b",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/83aabba6-752d-429a-86fc-1fe2fe31d95a/f44f58da-bcf3-4c49-9218-ed31ebe81649",
+      "value": "100nF",
+      "fpid": "MP3_Source:C0402",
+      "dnp": false,
+      "xy": [
+        140.5,
+        89.5
+      ],
+      "angle": 0.0,
+      "side": "B",
+      "locked": false,
+      "pads": [
+        [
+          "71ae97e8-b278-4087-ba66-fdbbee3f2daf",
+          "1",
+          "VBAT"
+        ],
+        [
+          "ad60c2f4-5970-490e-9ea8-8f9d1d4253c1",
+          "2",
+          "GND"
+        ]
+      ]
+    },
+    "C55": {
+      "uuid": "84299de9-0d9b-426c-9fa6-9b506c9e94a8",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/ecf3a757-18ba-4389-a501-2262d54daec4/aafdd86d-7988-44cb-9268-9132980d64c0",
+      "value": "10uF",
+      "fpid": "MP3_Source:C0603_1",
+      "dnp": false,
+      "xy": [
+        137.481,
+        77.019
+      ],
+      "angle": 180.0,
+      "side": "B",
+      "locked": false,
+      "pads": [
+        [
+          "259f9b72-5ab7-49ba-8389-f69e763bae03",
+          "2",
+          "LCD_LEDA"
+        ],
+        [
+          "5ffc561e-4174-4094-9f6f-fc3f98f6a4da",
+          "1",
+          "GND"
+        ]
+      ]
+    },
+    "C12": {
+      "uuid": "843f1f1e-d038-465d-8c09-5635a63e20ac",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/b6e10d0a-57e0-4a0a-8ce9-e0aec5e0d339/c2fdcc26-57eb-4999-b59a-860193e4f7b4",
+      "value": "10uF",
+      "fpid": "MP3_Source:C0603_1_C12",
+      "dnp": false,
+      "xy": [
+        141.75,
+        107.75
+      ],
+      "angle": -90.0,
+      "side": "B",
+      "locked": false,
+      "pads": [
+        [
+          "5c6a313b-34f0-426e-8e5f-b4e13e92992e",
+          "2",
+          "VCC"
+        ],
+        [
+          "d9008d3a-0585-463a-b838-1885d3caa0f4",
+          "1",
+          "GND"
+        ]
+      ]
+    },
+    "R41": {
+      "uuid": "85fcc21a-3b80-4c85-82f7-bb3faac2cc31",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/ecf3a757-18ba-4389-a501-2262d54daec4/aaae7564-795f-46a1-b376-24fa4e04e6dc",
+      "value": "100K",
+      "fpid": "MP3_Source:R0402",
+      "dnp": false,
+      "xy": [
+        131.2325,
+        80.499
+      ],
+      "angle": 0.0,
+      "side": "B",
+      "locked": false,
+      "pads": [
+        [
+          "0fc2fe85-3dbb-43f4-b239-30ba737d6a89",
+          "1",
+          "GND"
+        ],
+        [
+          "bae1408a-1a05-4160-95c2-4c796f4565c0",
+          "2",
+          "ESP_IO45"
+        ]
+      ]
+    },
+    "U6": {
+      "uuid": "8faa3645-2fde-4fe8-b978-7bd22541a72c",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/b6e10d0a-57e0-4a0a-8ce9-e0aec5e0d339/685d0708-4be3-4c4f-a231-59a1ea40bdd4",
+      "value": "GEK100",
+      "fpid": "MP3_Source:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL-2",
+      "dnp": false,
+      "xy": [
+        126.0,
+        95.0
+      ],
+      "angle": -90.0,
+      "side": "B",
+      "locked": false,
+      "pads": [
+        [
+          "601598c4-ab35-4124-9d2b-59b1afd65c94",
+          "6",
+          "VCC"
+        ],
+        [
+          "995e9ca8-d40d-448c-a0a7-459dc4a73477",
+          "3",
+          "GEK100_RST"
+        ],
+        [
+          "a0f7e42a-1f86-494d-bf6e-1cd0f22597e2",
+          "1",
+          "GEK100_KEY"
+        ],
+        [
+          "af94b3bc-6111-4e2e-98dd-ae6ad8911350",
+          "4",
+          "unconnected-(U6-OUTL-Pad4)"
+        ],
+        [
+          "d3a2bafd-34e1-46a3-a7bb-8454cda89132",
+          "5",
+          "PWR_3V3_EN"
+        ],
+        [
+          "d7030f15-c367-43b5-b9fe-bf578035cab0",
+          "2",
+          "GND"
+        ]
+      ]
+    },
+    "C16": {
+      "uuid": "975536d2-d643-43f7-bc23-75185148145f",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/b6e10d0a-57e0-4a0a-8ce9-e0aec5e0d339/0764b947-440b-4037-b8de-37856a8ac860",
+      "value": "47uF",
+      "fpid": "MP3_Source:C0805",
+      "dnp": false,
+      "xy": [
+        138.75,
+        116.25
+      ],
+      "angle": 180.0,
+      "side": "B",
+      "locked": false,
+      "pads": [
+        [
+          "82eae3ce-ee78-41be-bae8-812a6c804fb0",
+          "2",
+          "GND"
+        ],
+        [
+          "a5ccf6c7-d8e0-4d73-8c34-1dd8bdf3ad2d",
+          "1",
+          "VCC_LCD_BG"
+        ]
+      ]
+    },
+    "C36": {
+      "uuid": "986f9839-7ecd-4cfd-9c76-fca1323e357c",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/b54cf204-5ee8-4d41-a839-4e03742062cd/6a204fd6-c157-4dc1-9487-52b70cca13e3",
+      "value": "100nF",
+      "fpid": "MP3_Source:C0402",
+      "dnp": false,
+      "xy": [
+        131.0,
+        101.0
+      ],
+      "angle": 180.0,
+      "side": "B",
+      "locked": false,
+      "pads": [
+        [
+          "13747b02-f027-4df0-8d58-e82cb17fe226",
+          "1",
+          "VBUS_5V"
+        ],
+        [
+          "979803ef-ee5f-46f6-9343-c18dd21f84ce",
+          "2",
+          "GND"
+        ]
+      ]
+    },
+    "C14": {
+      "uuid": "9d642c72-b746-44e9-98e3-8996c034c584",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/b6e10d0a-57e0-4a0a-8ce9-e0aec5e0d339/8dd1cd02-5327-415f-a0f2-f3430a3b4909",
+      "value": "1uF",
+      "fpid": "MP3_Source:C0603_1_C14",
+      "dnp": false,
+      "xy": [
+        135.5,
+        116.75
+      ],
+      "angle": 90.0,
+      "side": "B",
+      "locked": false,
+      "pads": [
+        [
+          "0d75c424-9f3c-46c5-9c62-d2fc1b2c049c",
+          "1",
+          "GND"
+        ],
+        [
+          "249e54b9-c1d8-4eeb-b0d2-ecffd8ae2746",
+          "2",
+          "VBUS_5V"
+        ]
+      ]
+    },
+    "R2": {
+      "uuid": "9dff6b21-c43d-48de-bb7d-bdf8f4bee6f5",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/b6e10d0a-57e0-4a0a-8ce9-e0aec5e0d339/d154dac3-0e3f-44a3-92ad-fa6f4098b164",
+      "value": "1K",
+      "fpid": "MP3_Source:R0402",
+      "dnp": false,
+      "xy": [
+        143.0,
+        99.5
+      ],
+      "angle": -90.0,
+      "side": "B",
+      "locked": false,
+      "pads": [
+        [
+          "4a8e0773-7b6f-4c80-add2-008d79537b11",
+          "2",
+          "VBAT"
+        ],
+        [
+          "4bc0303d-afcb-4173-8dde-6b24c3c42beb",
+          "1",
+          "Net-(U14-VIN)"
+        ]
+      ]
+    },
+    "R39": {
+      "uuid": "9e27827c-7554-4f88-a2d8-62beea31d88f",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/c984d1ed-6e53-45f4-8ca1-0f91f991f687/9af70771-0b16-4aac-9118-e4ebc6c6535c",
+      "value": "10K",
+      "fpid": "MP3_Source:R0402",
+      "dnp": false,
+      "xy": [
+        120.209,
+        65.637
+      ],
+      "angle": 0.0,
+      "side": "B",
+      "locked": false,
+      "pads": [
+        [
+          "1cb26108-eb23-44bf-9596-a5797b91f90c",
+          "2",
+          "ESP_TF_CMD"
+        ],
+        [
+          "f5eaac34-b9cf-44c3-b953-e554c0b58097",
+          "1",
+          "VCC_3V3"
+        ]
+      ]
+    },
+    "R42": {
+      "uuid": "a1b394c9-b97c-419b-b4f9-35cb4a11dd21",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/83aabba6-752d-429a-86fc-1fe2fe31d95a/d007a607-14d8-4808-97f1-3e2300ec4b00",
+      "value": "10K",
+      "fpid": "MP3_Source:R0402",
+      "dnp": false,
+      "xy": [
+        141.75,
+        85.75
+      ],
+      "angle": -90.0,
+      "side": "B",
+      "locked": false,
+      "pads": [
+        [
+          "0d7f4bc4-9893-4b57-9880-f9bf943ad7d5",
+          "2",
+          "VCC_3V3"
+        ],
+        [
+          "d0d38563-5dd5-4907-8bb5-ceab95876416",
+          "1",
+          "ESP_IO35"
+        ]
+      ]
+    },
+    "U14": {
+      "uuid": "a78db413-e32f-4b26-bc3d-813c75c0d13c",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/b6e10d0a-57e0-4a0a-8ce9-e0aec5e0d339/1c6b7cf3-343c-4db3-a677-8878886cb9af",
+      "value": "STC3115AIQT",
+      "fpid": "MP3_Source:DFN-10_L3.0-W2.0-P0.50-BL",
+      "dnp": false,
+      "xy": [
+        140.3,
+        100.0
+      ],
+      "angle": 180.0,
+      "side": "B",
+      "locked": false,
+      "pads": [
+        [
+          "06c1be16-cd93-4b7f-a655-72e9bdd930a8",
+          "1",
+          "STC3115_ALM"
+        ],
+        [
+          "0741def2-0f4d-42c7-8a2f-5239f2a9db43",
+          "3",
+          "BQ25895_I2C_CLK"
+        ],
+        [
+          "13ac0737-1033-4d4f-9b0c-37292c5ba5e1",
+          "7",
+          "unconnected-(U14-RSTIO-Pad7)"
+        ],
+        [
+          "300ad25d-130f-4d88-8b28-3e41a3dd746d",
+          "10",
+          "Net-(U14-VIN)"
+        ],
+        [
+          "41a1c8d9-fe2f-475a-8ac2-61a98baee843",
+          "4",
+          "unconnected-(U14-NC-Pad4)"
+        ],
+        [
+          "44f4ff82-ff76-4cc8-8c3b-4b0921bf98ae",
+          "2",
+          "BQ25895_I2C_SDA"
+        ],
+        [
+          "5d4f9a9f-72bc-4926-bf02-76a0a0439ded",
+          "8",
+          "Net-(U14-BATD{slash}CD)"
+        ],
+        [
+          "7d4a9dae-52b8-45c4-8660-beab1baf5270",
+          "6",
+          "GBAT"
+        ],
+        [
+          "a6bf7a9a-6ebc-4991-b990-04aa9ca42eae",
+          "5",
+          "GND"
+        ],
+        [
+          "cf79d4f1-4e3f-4032-a4fc-1b48aa48f077",
+          "9",
+          "VBAT"
+        ]
+      ]
+    },
+    "R14": {
+      "uuid": "aa4da50b-1ebb-44e1-819d-93acaab86d40",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/b6e10d0a-57e0-4a0a-8ce9-e0aec5e0d339/92a1495f-606e-4853-9014-837eb6013ce4",
+      "value": "30K1",
+      "fpid": "MP3_Source:R0402",
+      "dnp": false,
+      "xy": [
+        131.0,
+        110.25
+      ],
+      "angle": -90.0,
+      "side": "B",
+      "locked": false,
+      "pads": [
+        [
+          "46dc6ed1-83fc-481f-b93e-e994cfacff2d",
+          "2",
+          "BAT_TS"
+        ],
+        [
+          "bb9ed329-c146-4701-b02d-9fd9e6b2f36d",
+          "1",
+          "GND"
+        ]
+      ]
+    },
+    "R11": {
+      "uuid": "ac152b51-7ac2-43ee-b4f2-65a29657f13a",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/b6e10d0a-57e0-4a0a-8ce9-e0aec5e0d339/e14ed461-f355-4195-a738-afed7e6e3b58",
+      "value": "100K",
+      "fpid": "MP3_Source:R0402",
+      "dnp": false,
+      "xy": [
+        132.25,
+        114.75
+      ],
+      "angle": 90.0,
+      "side": "B",
+      "locked": false,
+      "pads": [
+        [
+          "8be2daa0-97f1-4d53-803e-2d0a50e87f57",
+          "1",
+          "GND"
+        ],
+        [
+          "c74e8d8e-e3e5-44c3-8184-ad23fbcce803",
+          "2",
+          "BQ25895_CHG_EN#"
+        ]
+      ]
+    },
+    "R20": {
+      "uuid": "af6e55e1-7fdd-4881-ac5d-7ed6052c42d3",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/c984d1ed-6e53-45f4-8ca1-0f91f991f687/3c138f4d-f9c3-4f6a-9f16-8c070a3c5dba",
+      "value": "10K",
+      "fpid": "MP3_Source:R0402",
+      "dnp": false,
+      "xy": [
+        141.594,
+        62.85
+      ],
+      "angle": 0.0,
+      "side": "B",
+      "locked": false,
+      "pads": [
+        [
+          "67274acc-e0d3-4683-8496-76dc56ad2c82",
+          "2",
+          "ESP_BOOT1"
+        ],
+        [
+          "ce0719ea-5417-495f-82dd-bfa6a8ff3875",
+          "1",
+          "VCC_3V3"
+        ]
+      ]
+    },
+    "C10": {
+      "uuid": "b25544e5-44d5-4c87-bb0e-87f1e93f4665",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/b6e10d0a-57e0-4a0a-8ce9-e0aec5e0d339/91d3af33-1416-45ec-ad83-1b965fab7e7d",
+      "value": "10uF",
+      "fpid": "MP3_Source:C0603_1_C10",
+      "dnp": false,
+      "xy": [
+        135.5,
+        108.25
+      ],
+      "angle": 0.0,
+      "side": "B",
+      "locked": false,
+      "pads": [
+        [
+          "a1f3ed10-8037-47a1-ba5a-2ff1981db59c",
+          "2",
+          "VBAT"
+        ],
+        [
+          "e6c002af-39ed-4aad-a40b-8a212567adde",
+          "1",
+          "GND"
+        ]
+      ]
+    },
+    "C56": {
+      "uuid": "b34786f5-5d86-497d-82f6-78f01512ad72",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/ecf3a757-18ba-4389-a501-2262d54daec4/dea24cb6-3b39-4124-bb69-ed0b5de9039d",
+      "value": "10uF",
+      "fpid": "MP3_Source:C0603_1",
+      "dnp": false,
+      "xy": [
+        139.513,
+        79.559
+      ],
+      "angle": 90.0,
+      "side": "B",
+      "locked": false,
+      "pads": [
+        [
+          "775293f4-d35c-4d76-aef9-7dbeb66e7a35",
+          "2",
+          "VCC_LCD_BG"
+        ],
+        [
+          "a007dd67-1050-4cf1-bfe3-32d476b478df",
+          "1",
+          "GND"
+        ]
+      ]
+    },
+    "C53": {
+      "uuid": "b377fe88-5075-4414-a486-0d144ca80120",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/83aabba6-752d-429a-86fc-1fe2fe31d95a/793d6c3a-53ce-4307-897a-a1fa781f122a",
+      "value": "100nF",
+      "fpid": "MP3_Source:C0402",
+      "dnp": false,
+      "xy": [
+        135.75,
+        89.5
+      ],
+      "angle": -90.0,
+      "side": "B",
+      "locked": false,
+      "pads": [
+        [
+          "31a6cf03-0bac-4a22-b4c3-4778cfc15761",
+          "2",
+          "GND"
+        ],
+        [
+          "4e2ec7a2-07f8-4235-ae05-b9f2e36afa2f",
+          "1",
+          "VCC_3V3"
+        ]
+      ]
+    },
+    "C49": {
+      "uuid": "b3a2f32d-0aca-40f0-8fcc-fa4c376ca21d",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/ff966279-5ca8-4e71-9c4f-8f5273e7a269/97a4f2d6-fbb2-403d-8c95-de2fba28ec2f",
+      "value": "10uF",
+      "fpid": "MP3_Source:C0402",
+      "dnp": false,
+      "xy": [
+        119.574,
+        63.935
+      ],
+      "angle": -90.0,
+      "side": "B",
+      "locked": false,
+      "pads": [
+        [
+          "cd7e6601-e230-46e5-8e46-09677b878531",
+          "1",
+          "GND"
+        ],
+        [
+          "cdfebf35-a266-4d12-8e6b-63209aaaf403",
+          "2",
+          "VCC_3V3"
+        ]
+      ]
+    },
+    "FPC2": {
+      "uuid": "b47e344c-13fc-4737-b28a-14e32e6f97c4",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/ecf3a757-18ba-4389-a501-2262d54daec4/425462a5-ddf7-43fe-873d-c08d51eb7ec6",
+      "value": "2.09\u5bf8320*375\u9ad8\u6e05R\u89d2\u65b9\u5c4fQSPI",
+      "fpid": "MP3_Source:CONN-TH-21P_AFE03-S21FMA-1H",
+      "dnp": false,
+      "xy": [
+        140.148,
+        69.4
+      ],
+      "angle": 90.0,
+      "side": "B",
+      "locked": true,
+      "pads": [
+        [
+          "3254eb1a-2ec4-4b38-a3b5-2254ce136795",
+          "1",
+          "LCD_LEDA"
+        ],
+        [
+          "32b40b75-e48c-42a1-ac85-b36e9f2d1da9",
+          "19",
+          "ESP_I2C2_SCL"
+        ],
+        [
+          "335610e9-0ac4-4625-be17-8734f9f16421",
+          "6",
+          "unconnected-(FPC2-Pad6)"
+        ],
+        [
+          "3504a1b9-81c9-4c8c-aed7-e26da955cebb",
+          "13",
+          "VCC_3V3"
+        ],
+        [
+          "35a387ce-4d80-4997-9642-2c596929292c",
+          "21",
+          "ESP_IO57"
+        ],
+        [
+          "3986cd13-831c-43eb-a410-1f2e976adaec",
+          "18",
+          "ESP_IO54"
+        ],
+        [
+          "4259ae2b-1ae7-4060-8847-42829a7b03a6",
+          "12",
+          "GND"
+        ],
+        [
+          "5674e720-a0b6-4a03-bb1d-12668581d875",
+          "2",
+          "LCD_LEDK"
+        ],
+        [
+          "5d126c0f-5ece-451b-b948-feb936be59f9",
+          "8",
+          "ESP_SPI2_D3"
+        ],
+        [
+          "675cb6ec-176b-444f-bc5a-ecaf32805396",
+          "20",
+          "ESP_I2C2_SDA"
+        ],
+        [
+          "69049fc7-ade3-465a-9e62-787d112518d5",
+          "17",
+          "GND"
+        ],
+        [
+          "72748059-fa4f-4926-9745-b0c70ac207bf",
+          "10",
+          "ESP_SPI2_D1"
+        ],
+        [
+          "793c6af6-84ee-423b-aed8-f0e2bc6237fd",
+          "9",
+          "ESP_SPI2_D2"
+        ],
+        [
+          "7ceabdb5-07e2-4bc3-a702-7353d7084e61",
+          "22",
+          "unconnected-(FPC2-Pad22)"
+        ],
+        [
+          "876b929e-234c-41eb-bdb8-00b65c5ff1da",
+          "4",
+          "ESP_IO46"
+        ],
+        [
+          "9bf3240e-d7dc-4e2a-8f7b-beefd6673c06",
+          "16",
+          "unconnected-(FPC2-Pad16)"
+        ],
+        [
+          "9c6c81ea-fffa-4c6a-bba0-50d87ab88d08",
+          "15",
+          "unconnected-(FPC2-Pad15)"
+        ],
+        [
+          "b043bb5c-7f0d-4aae-8b82-0004e2086856",
+          "7",
+          "ESP_SPI2_CS"
+        ],
+        [
+          "c9af1eca-78df-4a41-9e56-adfd21ef2e45",
+          "14",
+          "VCC_3V3"
+        ],
+        [
+          "d1956443-2301-4d17-ba9f-5c47e9256771",
+          "23",
+          "unconnected-(FPC2-Pad23)"
+        ],
+        [
+          "d5e3bd91-8ebb-4e98-85c6-b3b2125f7504",
+          "5",
+          "ESP_SPI2_CLK"
+        ],
+        [
+          "ea7d36b1-f090-47b1-afc4-4ace5614db52",
+          "11",
+          "ESP_SPI2_D0"
+        ],
+        [
+          "fd52d042-99b2-4425-99df-409ec43821ef",
+          "3",
+          "ESP_IO47"
+        ]
+      ]
+    },
+    "D2": {
+      "uuid": "b6de7126-76e9-4da6-a57b-a20ec83f4b93",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/b6e10d0a-57e0-4a0a-8ce9-e0aec5e0d339/91b3591f-479d-4e2b-b85e-0788f77febe2",
+      "value": "B5817W",
+      "fpid": "MP3_Source:SOD-123_L2.8-W1.8-LS3.7-RD",
+      "dnp": false,
+      "xy": [
+        142.25,
+        112.25
+      ],
+      "angle": 90.0,
+      "side": "B",
+      "locked": false,
+      "pads": [
+        [
+          "2d662c32-5235-47c3-a5a6-aaa4a8f39cd6",
+          "2",
+          "Net-(D2-A)"
+        ],
+        [
+          "8dc3abd6-8c0d-4d4e-904d-69148c212b0e",
+          "1",
+          "VCC_LCD_BG"
+        ]
+      ]
+    },
+    "C50": {
+      "uuid": "b7f082c5-b896-4e46-a5f5-5f3d45b2b67f",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/ff966279-5ca8-4e71-9c4f-8f5273e7a269/77bf0e0c-8f11-4250-a080-f8e129144797",
+      "value": "100nF",
+      "fpid": "MP3_Source:C0402",
+      "dnp": false,
+      "xy": [
+        120.8615,
+        63.93
+      ],
+      "angle": -90.0,
+      "side": "B",
+      "locked": false,
+      "pads": [
+        [
+          "c4d47d9d-0b71-4db0-8b95-c0cf76c93e0e",
+          "1",
+          "GND"
+        ],
+        [
+          "eb65ead0-03da-4dad-9058-67ef60868f7d",
+          "2",
+          "VCC_3V3"
+        ]
+      ]
+    },
+    "R36": {
+      "uuid": "b918b6fc-7644-4742-ac21-911c8a9c6bb9",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/c984d1ed-6e53-45f4-8ca1-0f91f991f687/5baa4371-1df4-4d33-910d-034b19e5aa00",
+      "value": "10K",
+      "fpid": "MP3_Source:R0402",
+      "dnp": false,
+      "xy": [
+        120.209,
+        68.177
+      ],
+      "angle": 0.0,
+      "side": "B",
+      "locked": false,
+      "pads": [
+        [
+          "6e50e75e-bc9b-48f3-8b7f-1e1b5e4e9c40",
+          "2",
+          "ESP_TF_DAT2"
+        ],
+        [
+          "df91f138-d5e1-42f4-9711-6ba0105136ff",
+          "1",
+          "VCC_3V3"
+        ]
+      ]
+    },
+    "R28": {
+      "uuid": "bdf70977-c087-465f-a68e-6f43206d0a26",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/c984d1ed-6e53-45f4-8ca1-0f91f991f687/1ba562a0-aa24-464b-8e69-7a99b9795a6c",
+      "value": "0/NC",
+      "fpid": "MP3_Source:R0402",
+      "dnp": true,
+      "xy": [
+        131.0,
+        94.25
+      ],
+      "angle": 90.0,
+      "side": "B",
+      "locked": false,
+      "pads": [
+        [
+          "123fd7db-ac98-42f6-9892-d0dfb005ec60",
+          "2",
+          "CH343P_UART_DTR"
+        ],
+        [
+          "5c6ad51d-e06c-4706-8888-6f964aa00ee7",
+          "1",
+          "ESP_BOOT1"
+        ]
+      ]
+    },
+    "C45": {
+      "uuid": "beb2151c-8df8-45c4-bea6-3a4afec5991d",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/ecf3a757-18ba-4389-a501-2262d54daec4/033686c7-58aa-42b7-aa04-7c7fc1e41883",
+      "value": "100nF",
+      "fpid": "MP3_Source:C0402",
+      "dnp": false,
+      "xy": [
+        143.323,
+        66.018
+      ],
+      "angle": 0.0,
+      "side": "B",
+      "locked": false,
+      "pads": [
+        [
+          "68a9090c-1035-46ae-b575-4b2e618ea40e",
+          "2",
+          "GND"
+        ],
+        [
+          "e5fbfd7e-b00c-4753-b6cb-be8fc133c562",
+          "1",
+          "VCC_3V3"
+        ]
+      ]
+    },
+    "C57": {
+      "uuid": "c7ba7ce2-257f-49f6-90ef-2ea82e81c0d7",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/ecf3a757-18ba-4389-a501-2262d54daec4/eb83f7db-d8ec-4a61-a13f-5adaf22ef5d9",
+      "value": "10uF",
+      "fpid": "MP3_Source:C0603_1",
+      "dnp": false,
+      "xy": [
+        137.608,
+        79.559
+      ],
+      "angle": 90.0,
+      "side": "B",
+      "locked": false,
+      "pads": [
+        [
+          "8e95c007-7e4b-42ca-800f-b92bda5b718a",
+          "1",
+          "GND"
+        ],
+        [
+          "91b7955b-37fd-4c55-bec0-01248bc29213",
+          "2",
+          "VCC_LCD_BG"
+        ]
+      ]
+    },
+    "R38": {
+      "uuid": "c9cb9377-2a75-4cf9-9bd2-b9a6983cb3d4",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/c984d1ed-6e53-45f4-8ca1-0f91f991f687/948af546-e3d7-402d-9f2a-5b3128e3c5aa",
+      "value": "10K",
+      "fpid": "MP3_Source:R0402",
+      "dnp": false,
+      "xy": [
+        120.209,
+        61.573
+      ],
+      "angle": 0.0,
+      "side": "B",
+      "locked": false,
+      "pads": [
+        [
+          "3993e37b-3bc5-4e5a-9371-6b12b1ef6f4a",
+          "1",
+          "VCC_3V3"
+        ],
+        [
+          "bc31fa28-062f-45c7-bc29-3fec0e283463",
+          "2",
+          "ESP_TF_DAT0"
+        ]
+      ]
+    },
+    "C54": {
+      "uuid": "d001465d-007b-47f9-b815-90a5c84117e8",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/83aabba6-752d-429a-86fc-1fe2fe31d95a/861ac614-a365-4917-8211-6a13cd2e4910",
+      "value": "1uF",
+      "fpid": "MP3_Source:C0402",
+      "dnp": false,
+      "xy": [
+        142.25,
+        89.5
+      ],
+      "angle": -90.0,
+      "side": "B",
+      "locked": false,
+      "pads": [
+        [
+          "671983bb-1bf9-4801-86d7-8faef8809322",
+          "1",
+          "Net-(U1-VOUT)"
+        ],
+        [
+          "f11ca6fc-3efc-4648-8713-42d303169efb",
+          "2",
+          "GND"
+        ]
+      ]
+    },
+    "R1": {
+      "uuid": "d31be2a1-732a-4920-bf07-5d6615e79e92",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/b6e10d0a-57e0-4a0a-8ce9-e0aec5e0d339/5acac79b-2bd1-49ed-9f9d-7d46620c320f",
+      "value": "10m\u03a9",
+      "fpid": "MP3_Source:R1206",
+      "dnp": false,
+      "xy": [
+        141.25,
+        97.0
+      ],
+      "angle": 0.0,
+      "side": "B",
+      "locked": false,
+      "pads": [
+        [
+          "217ce484-f001-43f0-a97d-4fe7ef7c22c9",
+          "2",
+          "GND"
+        ],
+        [
+          "8693a766-2790-43f6-8de1-d011bc543b89",
+          "1",
+          "GBAT"
+        ]
+      ]
+    },
+    "L1": {
+      "uuid": "d36d3289-0067-4c77-8855-2cc7b80263b0",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/b6e10d0a-57e0-4a0a-8ce9-e0aec5e0d339/f1b55a35-2884-464c-8c44-be49272552a1",
+      "value": "2.2uH",
+      "fpid": "MP3_Source:IND-SMD_L2.0-W1.6",
+      "dnp": false,
+      "xy": [
+        129.75,
+        85.75
+      ],
+      "angle": 180.0,
+      "side": "B",
+      "locked": false,
+      "pads": [
+        [
+          "90f9a618-eb2d-4b32-a8b0-e60b915d2b87",
+          "1",
+          "Net-(U4-SW)"
+        ],
+        [
+          "954b1662-745b-45c6-841a-5f1a34efc501",
+          "2",
+          "VCC_3V3"
+        ]
+      ]
+    },
+    "C44": {
+      "uuid": "d537fe66-e526-4f67-96f1-e001621adb71",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/b54cf204-5ee8-4d41-a839-4e03742062cd/ca68db5f-ac46-43c0-b21c-1eb5132858ce",
+      "value": "100nF",
+      "fpid": "MP3_Source:C0402",
+      "dnp": false,
+      "xy": [
+        137.5,
+        95.25
+      ],
+      "angle": 0.0,
+      "side": "B",
+      "locked": false,
+      "pads": [
+        [
+          "3e0c9201-46f0-4d2e-9939-99f7797e7401",
+          "2",
+          "GND"
+        ],
+        [
+          "47a64835-f1b8-4b42-852a-aab1caf60880",
+          "1",
+          "VBUS_5V"
+        ]
+      ]
+    },
+    "C9": {
+      "uuid": "d720ec29-eacb-40e2-b994-c0cff0c510ec",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/b6e10d0a-57e0-4a0a-8ce9-e0aec5e0d339/f6bea195-f963-4f22-88b8-b6897931f970",
+      "value": "4.7uF",
+      "fpid": "MP3_Source:C0603_1_C9",
+      "dnp": false,
+      "xy": [
+        142.75,
+        115.75
+      ],
+      "angle": 0.0,
+      "side": "B",
+      "locked": false,
+      "pads": [
+        [
+          "179d53d4-eb8a-4df1-952d-b50d1a30a42b",
+          "2",
+          "GND"
+        ],
+        [
+          "73254563-9a4e-48c0-974d-5f4a913c9d1a",
+          "1",
+          "Net-(U3-REGN)"
+        ]
+      ]
+    },
+    "R21": {
+      "uuid": "da6552d7-b4ee-4366-b197-77ad1cb699b5",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/b54cf204-5ee8-4d41-a839-4e03742062cd/d4a86da5-0dc7-4ef7-a221-bd25f676a6eb",
+      "value": "100K",
+      "fpid": "MP3_Source:R0402",
+      "dnp": false,
+      "xy": [
+        131.25,
+        104.5
+      ],
+      "angle": -90.0,
+      "side": "B",
+      "locked": false,
+      "pads": [
+        [
+          "a0d1c177-c383-4c2e-a2c4-4da720a8595f",
+          "1",
+          "GND"
+        ],
+        [
+          "d9fe1f97-9c86-4f63-b1b4-69d3e1c0c355",
+          "2",
+          "ESP_IO33"
+        ]
+      ]
+    },
+    "C3": {
+      "uuid": "dc579ada-3ae1-4c10-832d-1fdff07b6a39",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/b6e10d0a-57e0-4a0a-8ce9-e0aec5e0d339/d16d9b8a-1294-4931-b46b-4ea2d7c5e25b",
+      "value": "100nF",
+      "fpid": "MP3_Source:C0402",
+      "dnp": false,
+      "xy": [
+        123.25,
+        94.5
+      ],
+      "angle": 90.0,
+      "side": "B",
+      "locked": false,
+      "pads": [
+        [
+          "40484c3a-e657-4e0d-9ad4-1a1717870594",
+          "1",
+          "GND"
+        ],
+        [
+          "dd9467e4-fe59-485f-9003-346f3c59c6ba",
+          "2",
+          "VCC"
+        ]
+      ]
+    },
+    "U17": {
+      "uuid": "dd7acbb8-9569-4632-9693-78c672e63091",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/b54cf204-5ee8-4d41-a839-4e03742062cd/c38bdf07-ec72-4edb-88b6-f5bd6b922d37",
+      "value": "SGM7229YMS10G/TR",
+      "fpid": "MP3_Source:MSOP-10_L3.0-W3.0-P0.50-LS4.9-BL",
+      "dnp": false,
+      "xy": [
+        134.0,
+        103.0
+      ],
+      "angle": 0.0,
+      "side": "B",
+      "locked": false,
+      "pads": [
+        [
+          "0c0db6f2-17d1-4bf7-864d-4f8a0f1e9dd2",
+          "5",
+          "GND"
+        ],
+        [
+          "2b1da3bc-281e-425b-97cf-ea8988b333f4",
+          "2",
+          "ESP_IO34"
+        ],
+        [
+          "48924ded-6290-4452-b6be-7803d7d980fa",
+          "8",
+          "CH343P_USB_DN"
+        ],
+        [
+          "548ff94b-c2c8-478e-9379-1fadb462c302",
+          "6",
+          "ESP_USB_DN"
+        ],
+        [
+          "55915fdf-1dc6-45d3-9ac3-0908400c51f1",
+          "7",
+          "ESP_USB_DP"
+        ],
+        [
+          "65f0adb6-210d-4f55-8862-4f1a750746e3",
+          "3",
+          "TYPEC_USB_DP"
+        ],
+        [
+          "84b6ab26-a739-4740-bdf5-25a5c0c97fed",
+          "9",
+          "CH343P_USB_DP"
+        ],
+        [
+          "ac9355b0-c536-496f-9982-a0419c612fc3",
+          "4",
+          "TYPEC_USB_DN"
+        ],
+        [
+          "ad9b52b0-fe56-4710-affd-97e63168550e",
+          "10",
+          "ESP_IO33"
+        ],
+        [
+          "c6bdb657-9437-43ab-b0d8-230ffbe2d8d7",
+          "1",
+          "VBUS_5V"
+        ]
+      ]
+    },
+    "L2": {
+      "uuid": "df8eaa13-b94d-4417-ad7b-4b0bbdf06a13",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/b6e10d0a-57e0-4a0a-8ce9-e0aec5e0d339/7bb696fd-97f8-4acb-95c8-81299b9856e8",
+      "value": "2.2uH",
+      "fpid": "MP3_Source:IND-SMD_L2.0-W1.6",
+      "dnp": false,
+      "xy": [
+        139.0,
+        108.0
+      ],
+      "angle": 0.0,
+      "side": "B",
+      "locked": false,
+      "pads": [
+        [
+          "9e8c6a63-097d-454f-8852-f633e3cc0217",
+          "2",
+          "VCC"
+        ],
+        [
+          "b9b141de-371f-4e45-a6b9-7eca79575af8",
+          "1",
+          "Net-(D2-A)"
+        ]
+      ]
+    },
+    "R33": {
+      "uuid": "dfc3eef6-50b7-4422-92a8-c8af768dfde3",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/b6e10d0a-57e0-4a0a-8ce9-e0aec5e0d339/f6ff1e7f-35fd-4e6f-8080-53b840c21e23",
+      "value": "1K",
+      "fpid": "MP3_Source:R0402",
+      "dnp": false,
+      "xy": [
+        140.25,
+        103.0
+      ],
+      "angle": -90.0,
+      "side": "B",
+      "locked": false,
+      "pads": [
+        [
+          "661ff939-330d-4f44-81a3-1347df2e3422",
+          "1",
+          "Net-(U14-BATD{slash}CD)"
+        ],
+        [
+          "c3fc78d0-f3ad-4c3f-9e4b-909d73809cbe",
+          "2",
+          "Net-(R33-Pad2)"
+        ]
+      ]
+    },
+    "R34": {
+      "uuid": "e58d7abd-3db8-4577-8875-67570ff20754",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/b6e10d0a-57e0-4a0a-8ce9-e0aec5e0d339/4adb026d-0a49-4ba8-850c-0c43da301419",
+      "value": "0R/NC",
+      "fpid": "MP3_Source:R0402",
+      "dnp": true,
+      "xy": [
+        138.75,
+        103.0
+      ],
+      "angle": -90.0,
+      "side": "B",
+      "locked": false,
+      "pads": [
+        [
+          "02288151-9857-40a4-9459-2363bc66ec23",
+          "2",
+          "Net-(R33-Pad2)"
+        ],
+        [
+          "ef7347bb-9b1f-4356-9e7a-5512e2f46a80",
+          "1",
+          "GBAT"
+        ]
+      ]
+    },
+    "R43": {
+      "uuid": "e8bd3cb2-fe52-4b0a-879c-c080d3cd1932",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/c984d1ed-6e53-45f4-8ca1-0f91f991f687/de1a6d80-a54e-4029-a9a2-2d57807df84a",
+      "value": "10K",
+      "fpid": "MP3_Source:R0402",
+      "dnp": false,
+      "xy": [
+        133.75,
+        114.75
+      ],
+      "angle": 90.0,
+      "side": "B",
+      "locked": false,
+      "pads": [
+        [
+          "0cc08d0c-f852-437f-924c-1233f71c56ec",
+          "1",
+          "VCC_3V3"
+        ],
+        [
+          "27d8400a-0670-4cab-86c5-6f8f67928940",
+          "2",
+          "BQ25895_INT"
+        ]
+      ]
+    },
+    "C46": {
+      "uuid": "ee3f51c1-4aa4-49aa-a0c1-b32f5e92a377",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/ecf3a757-18ba-4389-a501-2262d54daec4/6e9d3cb8-f2d0-42a9-ac2c-eae02717761f",
+      "value": "100nF",
+      "fpid": "MP3_Source:C0402",
+      "dnp": false,
+      "xy": [
+        137.608,
+        62.081
+      ],
+      "angle": 0.0,
+      "side": "B",
+      "locked": false,
+      "pads": [
+        [
+          "52ec9dd7-5813-498d-88b2-bd2ea81eda4d",
+          "2",
+          "GND"
+        ],
+        [
+          "6e73c042-d33f-4266-9d42-9eb916f256fb",
+          "1",
+          "VCC_3V3"
+        ]
+      ]
+    },
+    "R25": {
+      "uuid": "ef0efee9-576f-4e09-9bc0-74e31d0b1326",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/c984d1ed-6e53-45f4-8ca1-0f91f991f687/ad978e7c-c198-4040-a393-f54f8a64f2e1",
+      "value": "10K",
+      "fpid": "MP3_Source:R0402",
+      "dnp": false,
+      "xy": [
+        141.594,
+        64.376
+      ],
+      "angle": 0.0,
+      "side": "B",
+      "locked": false,
+      "pads": [
+        [
+          "5cf8e6ef-78a1-42d6-a8d3-090b8f456245",
+          "1",
+          "VCC_3V3"
+        ],
+        [
+          "7f8639ca-9cc9-4c6f-8cd8-4303dafa275e",
+          "2",
+          "ESP_BOOT2"
+        ]
+      ]
+    },
+    "C15": {
+      "uuid": "efd8a53b-79f1-41e4-ae96-a37f3e8eeff6",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/b6e10d0a-57e0-4a0a-8ce9-e0aec5e0d339/75f57a83-63db-41cb-815b-6192a3830c01",
+      "value": "10uF",
+      "fpid": "MP3_Source:C0603_1_C15",
+      "dnp": false,
+      "xy": [
+        133.5,
+        110.25
+      ],
+      "angle": 0.0,
+      "side": "B",
+      "locked": false,
+      "pads": [
+        [
+          "2ad715c7-16d5-4daa-ad09-c53c8ee08c2c",
+          "2",
+          "VCC"
+        ],
+        [
+          "6c9a19a6-25b3-4ba3-8f24-29cce173a08a",
+          "1",
+          "GND"
+        ]
+      ]
+    },
+    "C43": {
+      "uuid": "f115053c-cedc-4944-a3bb-9e12a2d54aec",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/b6e10d0a-57e0-4a0a-8ce9-e0aec5e0d339/14096919-44cd-4faf-a95d-e09d4b1081c3",
+      "value": "220nF",
+      "fpid": "MP3_Source:C0402",
+      "dnp": false,
+      "xy": [
+        143.0,
+        101.75
+      ],
+      "angle": -90.0,
+      "side": "B",
+      "locked": false,
+      "pads": [
+        [
+          "9926d5c0-07bf-4cb9-a846-9e9c615222ae",
+          "2",
+          "GND"
+        ],
+        [
+          "f43ad592-7a26-4084-a3b3-abe6d60be849",
+          "1",
+          "VBAT"
+        ]
+      ]
+    },
+    "U4": {
+      "uuid": "f2a496bd-1754-4e8b-8f6a-decd0875352b",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/b6e10d0a-57e0-4a0a-8ce9-e0aec5e0d339/9e812832-dc81-4364-b9ec-448f71edff6c",
+      "value": "TLV62568DBVR",
+      "fpid": "MP3_Source:SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR",
+      "dnp": false,
+      "xy": [
+        126.0,
+        87.0
+      ],
+      "angle": 90.0,
+      "side": "B",
+      "locked": false,
+      "pads": [
+        [
+          "03f1b8b5-b427-4eb2-95a5-cdfd07d497be",
+          "1",
+          "PWR_3V3_EN"
+        ],
+        [
+          "0af3e542-950a-43f9-b941-f7bf9083965f",
+          "3",
+          "Net-(U4-SW)"
+        ],
+        [
+          "1a9c4840-d6d3-431a-9fb7-fc13b8aac470",
+          "5",
+          "Net-(U4-FB)"
+        ],
+        [
+          "2bb286a1-3fd0-49d0-bb1d-ccb191c013eb",
+          "4",
+          "VCC"
+        ],
+        [
+          "3c8a88ba-f94c-47fc-9c5a-a43d23f0729a",
+          "2",
+          "GND"
+        ]
+      ]
+    },
+    "C1": {
+      "uuid": "f31b961e-cd94-4072-b457-47523b81bdab",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/b6e10d0a-57e0-4a0a-8ce9-e0aec5e0d339/532172af-dd8d-4a5c-b3d6-e26221868446",
+      "value": "10uF",
+      "fpid": "MP3_Source:C0603_1_C1",
+      "dnp": false,
+      "xy": [
+        126.25,
+        90.25
+      ],
+      "angle": 0.0,
+      "side": "B",
+      "locked": false,
+      "pads": [
+        [
+          "1aa3d348-bf22-425e-a3fa-7d1f01c1da66",
+          "1",
+          "GND"
+        ],
+        [
+          "bc8a8100-b7cd-4a07-8427-b7b8ceaf460d",
+          "2",
+          "VCC"
+        ]
+      ]
+    },
+    "R3": {
+      "uuid": "fe3685bf-a7f8-4c8f-8c1b-527ee3851452",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/b6e10d0a-57e0-4a0a-8ce9-e0aec5e0d339/2373947e-df6a-4f22-a3fc-7484e1845703",
+      "value": "22K1",
+      "fpid": "MP3_Source:R0402",
+      "dnp": false,
+      "xy": [
+        123.25,
+        90.0
+      ],
+      "angle": 90.0,
+      "side": "B",
+      "locked": false,
+      "pads": [
+        [
+          "1871d541-252b-4fd2-865a-b014aab71a4b",
+          "2",
+          "Net-(U4-FB)"
+        ],
+        [
+          "f195deb6-cc5c-4afa-8bc3-c0567282245c",
+          "1",
+          "GND"
+        ]
+      ]
+    },
+    "R22": {
+      "uuid": "fe90f2f1-c23a-4779-946b-0c6e80ac58ae",
+      "path": "/4e033c77-f2eb-4641-9bb9-25d18025b799/b54cf204-5ee8-4d41-a839-4e03742062cd/d71e5364-7085-47db-a96c-ebb9d833239b",
+      "value": "100K",
+      "fpid": "MP3_Source:R0402",
+      "dnp": false,
+      "xy": [
+        134.0,
+        99.0
+      ],
+      "angle": 0.0,
+      "side": "B",
+      "locked": false,
+      "pads": [
+        [
+          "0007a930-88e0-4220-a5c6-0e8d213d364c",
+          "2",
+          "GND"
+        ],
+        [
+          "ad658988-c2f8-454a-a16d-75a070ea99c9",
+          "1",
+          "ESP_IO34"
+        ]
+      ]
+    }
+  },
+  "outline_sha256": "6a8ee20c432760ae40b166816f7d02705c7c6c2a32941ddcbf8585673bd3a24d",
+  "zones_sha256": "04fd4dc86f4d4421684d913841a68f6c4b155b17c4a3bf7f1477305d0a214202",
+  "layers_sha256": "1f34502157da4a200b94f3448b739b98c2c55e5b96de9aa0a7fea209438c9d24",
+  "stackup_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+  "tracks_arcs_vias": 0,
+  "copper_zones": 0,
+  "model_instances": 121,
+  "schematic_sha256": {
+    "1_MCU.kicad_sch": "366103804afd6ba18ceb899a6f65bdec9d844b25b31ee2cc859782d9eff31624",
+    "2_POWER.kicad_sch": "d40dbd6079b7ba1c7b06410dc92ee1a21ac07ab627252694e8d2bb77ed0cc3bd",
+    "3_DAC.kicad_sch": "c88b445fc3a6790cf69836f3d8a4ce2159aab3b32ad9bd267cab863c614eb007",
+    "4_DISPLAY.kicad_sch": "855b6c8b0b9a98928acfb3e475eca4c5b6f1e5c23e71fd3ae332f4cfe7eff447",
+    "5_MOTOR.kicad_sch": "35510dff236782ff8ba1479cd361d1ef40b6fa1b511bcfe42d3cd0ca4380446c",
+    "6_USB.kicad_sch": "5ec6ccac77b8cc5bf5a5578fcd705b912a1320d1a09227c9f8cf1353ae62eba3",
+    "7_SENSOR.kicad_sch": "d9a57383ea694f860be7d8514180190e4c1c09281c3f206fc7d15af30e1a5382",
+    "8_STORAGE.kicad_sch": "73e90aa1d8685ada17d0b5c12066dccf506b045481065d15618b9f47b7f590d5",
+    "9_P1.kicad_sch": "04abb184231bcbdd40474a6694cbc543fe776c27044160a8b49b660514d745b7",
+    "hardware.kicad_sch": "7d230687dd282eedb195ab61f985a972e180dbb80e70a95c2e3b4c2c82619825"
+  }
+}

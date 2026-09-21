@@ -1,0 +1,780 @@
+{
+  "definition": "Straight-line pin distances and 2D Euclidean signal-net MST. Excludes listed power rails, GND and explicit NC; includes DNP pads. Not routing, via count, impedance or SI simulation.",
+  "excluded_power_nets": [
+    "GBAT",
+    "GND",
+    "LCD_LEDA",
+    "LCD_LEDK",
+    "VBAT",
+    "VCC",
+    "VCC_1V8",
+    "VCC_3V3",
+    "VCC_LCD_BG"
+  ],
+  "selected_connections": [
+    {
+      "connection": "bootstrap",
+      "before": {
+        "source": "U3.21",
+        "target": "C11",
+        "net": "Net-(U3-BTST)",
+        "mm": 4.2343,
+        "opposite_sides": false
+      },
+      "after": {
+        "source": "U3.21",
+        "target": "C11",
+        "net": "Net-(U3-BTST)",
+        "mm": 4.2343,
+        "opposite_sides": false
+      },
+      "change_mm": 0.0
+    },
+    {
+      "connection": "charger_SW",
+      "before": {
+        "source": "U3.19",
+        "target": "L2",
+        "net": "Net-(D2-A)",
+        "mm": 2.9566,
+        "opposite_sides": false
+      },
+      "after": {
+        "source": "U3.19",
+        "target": "L2",
+        "net": "Net-(D2-A)",
+        "mm": 2.9566,
+        "opposite_sides": false
+      },
+      "change_mm": 0.0
+    },
+    {
+      "connection": "charger_diode",
+      "before": {
+        "source": "U3.19",
+        "target": "D2",
+        "net": "Net-(D2-A)",
+        "mm": 2.2594,
+        "opposite_sides": false
+      },
+      "after": {
+        "source": "U3.19",
+        "target": "D2",
+        "net": "Net-(D2-A)",
+        "mm": 2.2594,
+        "opposite_sides": false
+      },
+      "change_mm": 0.0
+    },
+    {
+      "connection": "REGN_bypass",
+      "before": {
+        "source": "U3.22",
+        "target": "C9",
+        "net": "Net-(U3-REGN)",
+        "mm": 3.8718,
+        "opposite_sides": false
+      },
+      "after": {
+        "source": "U3.22",
+        "target": "C9",
+        "net": "Net-(U3-REGN)",
+        "mm": 3.8718,
+        "opposite_sides": false
+      },
+      "change_mm": 0.0
+    },
+    {
+      "connection": "PMID_bypass",
+      "before": {
+        "source": "U3.23",
+        "target": "C16",
+        "net": "VCC_LCD_BG",
+        "mm": 3.3114,
+        "opposite_sides": false
+      },
+      "after": {
+        "source": "U3.23",
+        "target": "C16",
+        "net": "VCC_LCD_BG",
+        "mm": 3.3114,
+        "opposite_sides": false
+      },
+      "change_mm": 0.0
+    },
+    {
+      "connection": "battery_bypass",
+      "before": {
+        "source": "U3.13",
+        "target": "C10",
+        "net": "VBAT",
+        "mm": 2.002,
+        "opposite_sides": false
+      },
+      "after": {
+        "source": "U3.13",
+        "target": "C10",
+        "net": "VBAT",
+        "mm": 2.002,
+        "opposite_sides": false
+      },
+      "change_mm": 0.0
+    },
+    {
+      "connection": "buck_VIN",
+      "before": {
+        "source": "U4.4",
+        "target": "C1",
+        "net": "VCC",
+        "mm": 1.95,
+        "opposite_sides": false
+      },
+      "after": {
+        "source": "U4.4",
+        "target": "C1",
+        "net": "VCC",
+        "mm": 1.95,
+        "opposite_sides": false
+      },
+      "change_mm": 0.0
+    },
+    {
+      "connection": "buck_FB_top",
+      "before": {
+        "source": "U4.5",
+        "target": "R4",
+        "net": "Net-(U4-FB)",
+        "mm": 1.8038,
+        "opposite_sides": false
+      },
+      "after": {
+        "source": "U4.5",
+        "target": "R4",
+        "net": "Net-(U4-FB)",
+        "mm": 1.8038,
+        "opposite_sides": false
+      },
+      "change_mm": 0.0
+    },
+    {
+      "connection": "buck_FB_bottom",
+      "before": {
+        "source": "U4.5",
+        "target": "R3",
+        "net": "Net-(U4-FB)",
+        "mm": 2.2012,
+        "opposite_sides": false
+      },
+      "after": {
+        "source": "U4.5",
+        "target": "R3",
+        "net": "Net-(U4-FB)",
+        "mm": 2.2012,
+        "opposite_sides": false
+      },
+      "change_mm": 0.0
+    },
+    {
+      "connection": "DAC_VD",
+      "before": {
+        "source": "U2.4",
+        "target": "C28",
+        "net": "VCC_1V8",
+        "mm": 2.9884,
+        "opposite_sides": false
+      },
+      "after": {
+        "source": "U2.4",
+        "target": "C28",
+        "net": "VCC_1V8",
+        "mm": 1.2487,
+        "opposite_sides": true
+      },
+      "change_mm": -1.7397
+    },
+    {
+      "connection": "DAC_VL",
+      "before": {
+        "source": "U2.31",
+        "target": "C27",
+        "net": "VCC_1V8",
+        "mm": 3.0092,
+        "opposite_sides": false
+      },
+      "after": {
+        "source": "U2.31",
+        "target": "C27",
+        "net": "VCC_1V8",
+        "mm": 2.2304,
+        "opposite_sides": false
+      },
+      "change_mm": -0.7788
+    },
+    {
+      "connection": "DAC_VA",
+      "before": {
+        "source": "U2.7",
+        "target": "C17",
+        "net": "VCC_1V8",
+        "mm": 5.327,
+        "opposite_sides": false
+      },
+      "after": {
+        "source": "U2.7",
+        "target": "C17",
+        "net": "VCC_1V8",
+        "mm": 2.9134,
+        "opposite_sides": false
+      },
+      "change_mm": -2.4136
+    },
+    {
+      "connection": "DAC_VCP",
+      "before": {
+        "source": "U2.25",
+        "target": "C23",
+        "net": "VCC_1V8",
+        "mm": 3.5858,
+        "opposite_sides": false
+      },
+      "after": {
+        "source": "U2.25",
+        "target": "C23",
+        "net": "VCC_1V8",
+        "mm": 1.7658,
+        "opposite_sides": false
+      },
+      "change_mm": -1.82
+    },
+    {
+      "connection": "DAC_FILT_plus",
+      "before": {
+        "source": "U2.5",
+        "target": "C8",
+        "net": "Net-(U2-FILT+)",
+        "mm": 4.6138,
+        "opposite_sides": false
+      },
+      "after": {
+        "source": "U2.5",
+        "target": "C8",
+        "net": "Net-(U2-FILT+)",
+        "mm": 2.6893,
+        "opposite_sides": false
+      },
+      "change_mm": -1.9245
+    },
+    {
+      "connection": "DAC_FILT_minus",
+      "before": {
+        "source": "U2.6",
+        "target": "C18",
+        "net": "Net-(U2-FILT-)",
+        "mm": 2.8493,
+        "opposite_sides": false
+      },
+      "after": {
+        "source": "U2.6",
+        "target": "C18",
+        "net": "Net-(U2-FILT-)",
+        "mm": 2.5738,
+        "opposite_sides": false
+      },
+      "change_mm": -0.2755
+    },
+    {
+      "connection": "DAC_XTO",
+      "before": {
+        "source": "U2.36",
+        "target": "X1",
+        "net": "Net-(U2-XTO)",
+        "mm": 2.4816,
+        "opposite_sides": false
+      },
+      "after": {
+        "source": "U2.36",
+        "target": "X1",
+        "net": "Net-(U2-XTO)",
+        "mm": 3.9469,
+        "opposite_sides": false
+      },
+      "change_mm": 1.4653
+    },
+    {
+      "connection": "DAC_XTI",
+      "before": {
+        "source": "U2.37",
+        "target": "X1",
+        "net": "Net-(U2-XTI{slash}MCLK)",
+        "mm": 4.7177,
+        "opposite_sides": false
+      },
+      "after": {
+        "source": "U2.37",
+        "target": "X1",
+        "net": "Net-(U2-XTI{slash}MCLK)",
+        "mm": 2.2046,
+        "opposite_sides": false
+      },
+      "change_mm": -2.5131
+    },
+    {
+      "connection": "motor_REG",
+      "before": {
+        "source": "U11.1",
+        "target": "C4",
+        "net": "Net-(U11-REG)",
+        "mm": 1.7531,
+        "opposite_sides": false
+      },
+      "after": {
+        "source": "U11.1",
+        "target": "C4",
+        "net": "Net-(U11-REG)",
+        "mm": 1.7509,
+        "opposite_sides": false
+      },
+      "change_mm": -0.0022
+    },
+    {
+      "connection": "motor_output_plus",
+      "before": {
+        "source": "U11.7",
+        "target": "H1",
+        "net": "MOTOR_OUT_P",
+        "mm": 10.7507,
+        "opposite_sides": false
+      },
+      "after": {
+        "source": "U11.7",
+        "target": "H1",
+        "net": "MOTOR_OUT_P",
+        "mm": 8.3871,
+        "opposite_sides": false
+      },
+      "change_mm": -2.3636
+    },
+    {
+      "connection": "motor_output_minus",
+      "before": {
+        "source": "U11.9",
+        "target": "H1",
+        "net": "MOTOR_OUT_N",
+        "mm": 10.4148,
+        "opposite_sides": false
+      },
+      "after": {
+        "source": "U11.9",
+        "target": "H1",
+        "net": "MOTOR_OUT_N",
+        "mm": 9.405,
+        "opposite_sides": false
+      },
+      "change_mm": -1.0098
+    },
+    {
+      "connection": "battery_shunt",
+      "before": {
+        "source": "H2.3",
+        "target": "R1",
+        "net": "GBAT",
+        "mm": 13.8233,
+        "opposite_sides": true
+      },
+      "after": {
+        "source": "H2.3",
+        "target": "R1",
+        "net": "GBAT",
+        "mm": 2.2245,
+        "opposite_sides": true
+      },
+      "change_mm": -11.5988
+    },
+    {
+      "connection": "USB_ESD_DP",
+      "before": {
+        "source": "USB1.A6",
+        "target": "D1",
+        "net": "TYPEC_USB_DP_IN",
+        "mm": 3.5323,
+        "opposite_sides": false
+      },
+      "after": {
+        "source": "USB1.A6",
+        "target": "D1",
+        "net": "TYPEC_USB_DP_IN",
+        "mm": 2.7497,
+        "opposite_sides": false
+      },
+      "change_mm": -0.7826
+    },
+    {
+      "connection": "USB_ESD_DM",
+      "before": {
+        "source": "USB1.A7",
+        "target": "D1",
+        "net": "TYPEC_USB_DN_IN",
+        "mm": 5.2084,
+        "opposite_sides": false
+      },
+      "after": {
+        "source": "USB1.A7",
+        "target": "D1",
+        "net": "TYPEC_USB_DN_IN",
+        "mm": 2.7755,
+        "opposite_sides": false
+      },
+      "change_mm": -2.4329
+    },
+    {
+      "connection": "USB_mux_input_DP",
+      "before": {
+        "source": "U17.3",
+        "target": "D1",
+        "net": "TYPEC_USB_DP",
+        "mm": 15.524,
+        "opposite_sides": true
+      },
+      "after": {
+        "source": "U17.3",
+        "target": "D1",
+        "net": "TYPEC_USB_DP",
+        "mm": 12.5153,
+        "opposite_sides": true
+      },
+      "change_mm": -3.0087
+    },
+    {
+      "connection": "USB_mux_input_DM",
+      "before": {
+        "source": "U17.4",
+        "target": "D1",
+        "net": "TYPEC_USB_DN",
+        "mm": 13.6208,
+        "opposite_sides": true
+      },
+      "after": {
+        "source": "U17.4",
+        "target": "D1",
+        "net": "TYPEC_USB_DN",
+        "mm": 12.4672,
+        "opposite_sides": true
+      },
+      "change_mm": -1.1536
+    },
+    {
+      "connection": "USB_mux_ESP_DP",
+      "before": {
+        "source": "U17.7",
+        "target": "U9",
+        "net": "ESP_USB_DP",
+        "mm": 21.0536,
+        "opposite_sides": true
+      },
+      "after": {
+        "source": "U17.7",
+        "target": "U9",
+        "net": "ESP_USB_DP",
+        "mm": 13.6513,
+        "opposite_sides": true
+      },
+      "change_mm": -7.4023
+    },
+    {
+      "connection": "USB_mux_ESP_DM",
+      "before": {
+        "source": "U17.6",
+        "target": "U9",
+        "net": "ESP_USB_DN",
+        "mm": 21.093,
+        "opposite_sides": true
+      },
+      "after": {
+        "source": "U17.6",
+        "target": "U9",
+        "net": "ESP_USB_DN",
+        "mm": 13.8349,
+        "opposite_sides": true
+      },
+      "change_mm": -7.2581
+    },
+    {
+      "connection": "USB_mux_UART_DP",
+      "before": {
+        "source": "U17.9",
+        "target": "U12",
+        "net": "CH343P_USB_DP",
+        "mm": 9.2234,
+        "opposite_sides": false
+      },
+      "after": {
+        "source": "U17.9",
+        "target": "U12",
+        "net": "CH343P_USB_DP",
+        "mm": 6.6878,
+        "opposite_sides": false
+      },
+      "change_mm": -2.5356
+    },
+    {
+      "connection": "USB_mux_UART_DM",
+      "before": {
+        "source": "U17.8",
+        "target": "U12",
+        "net": "CH343P_USB_DN",
+        "mm": 9.2505,
+        "opposite_sides": false
+      },
+      "after": {
+        "source": "U17.8",
+        "target": "U12",
+        "net": "CH343P_USB_DN",
+        "mm": 6.6878,
+        "opposite_sides": false
+      },
+      "change_mm": -2.5627
+    },
+    {
+      "connection": "RTC_IRQ",
+      "before": {
+        "source": "U9.44",
+        "target": "U1",
+        "net": "ESP_IO35",
+        "mm": 0.719,
+        "opposite_sides": true
+      },
+      "after": {
+        "source": "U9.44",
+        "target": "U1",
+        "net": "ESP_IO35",
+        "mm": 6.319,
+        "opposite_sides": false
+      },
+      "change_mm": 5.6
+    }
+  ],
+  "signal_mst_total_before_mm": 1145.85,
+  "signal_mst_total_after_mm": 1119.9595,
+  "signal_nets_before_mm": {
+    "Net-(U11-REG)": 1.7531,
+    "BQ25895_I2C_CLK": 46.1249,
+    "BQ25895_I2C_SDA": 49.5863,
+    "ESP_IO40": 41.354,
+    "Net-(U11-VDD)": 7.2086,
+    "MOTOR_OUT_P": 10.7507,
+    "MOTOR_OUT_N": 10.4148,
+    "BAT_TS": 13.7417,
+    "Net-(U2-–VA)": 4.7914,
+    "CS43131_SDA_1V8": 11.3019,
+    "ESP32S31_EN": 31.4212,
+    "Net-(U2-FILT-)": 2.8493,
+    "Net-(U2-XTI{slash}MCLK)": 6.4703,
+    "DAC_I2C_SCL": 29.0573,
+    "Net-(U2-XTO)": 4.5321,
+    "Net-(U2-FILT+)": 4.6138,
+    "DAC_I2C_SDA": 29.7931,
+    "Net-(U2-VCP_FILT–)": 1.7142,
+    "Net-(U2-FLYP_VA)": 2.6292,
+    "Net-(U2-FLYN_VA)": 1.8318,
+    "Net-(USB1-CC1)": 2.1869,
+    "VBUS_5V": 40.4801,
+    "TYPEC_USB_DP_IN": 4.2523,
+    "TYPEC_USB_DN_IN": 6.2084,
+    "Net-(USB1-CC2)": 1.9462,
+    "DAC_I2S_SDIN": 14.8661,
+    "CS43131_I2S_SDIN": 12.3688,
+    "DAC_I2S_LRCK": 16.879,
+    "CS43131_I2S_LRCK": 9.3681,
+    "CS43131_I2S_SCLK": 9.223,
+    "DAC_I2S_SCLK": 13.5489,
+    "CS43131_RST#_1V8": 11.6182,
+    "DAC_RST#": 12.9406,
+    "ESP_IO1": 9.0471,
+    "ESP_IO4": 10.1766,
+    "ESP_IO5": 0,
+    "ESP_FLASH_CS": 0,
+    "ESP_FLASH_DO": 0,
+    "ESP_FLASH_HOLD": 0,
+    "ESP_FLASH_CLK": 0,
+    "ESP_FLASH_DI": 0,
+    "ESP_FLASH_WP": 0,
+    "ESP_IO19": 24.7634,
+    "ESP_TF_DAT0": 26.849,
+    "ESP_TF_DAT1": 28.2752,
+    "ESP_TF_DAT2": 21.0424,
+    "ESP_TF_DAT3": 22.5405,
+    "ESP_TF_CLK": 23.8772,
+    "ESP_TF_CMD": 24.4149,
+    "ESP_USB_DP": 21.0536,
+    "ESP_USB_DN": 21.093,
+    "ESP_IO33": 23.3886,
+    "ESP_IO34": 17.6537,
+    "ESP_IO35": 2.4093,
+    "BQ25895_INT": 34.5782,
+    "BQ25895_OTG_EN": 36.7758,
+    "ESP_IO45": 12.8565,
+    "ESP_IO46": 5.4093,
+    "ESP_IO47": 6.4599,
+    "ESP_SPI2_CLK": 6.3208,
+    "ESP_SPI2_CS": 6.1886,
+    "ESP_SPI2_D3": 3.5839,
+    "ESP_SPI2_D1": 3.4046,
+    "ESP_SPI2_D2": 5.4494,
+    "ESP_SPI2_D0": 5.3984,
+    "ESP_IO54": 3.3014,
+    "ESP_I2C2_SDA": 3.1379,
+    "ESP_I2C2_SCL": 5.3731,
+    "ESP_IO57": 5.3402,
+    "CH343P_UART_RX": 31.2264,
+    "CH343P_UART_TX": 31.1714,
+    "ESP_BOOT2": 1.9928,
+    "ESP_BOOT1": 35.8107,
+    "CS43131_SCL_1V8": 11.2431,
+    "Net-(U2-HPOUTA)": 8.1646,
+    "Net-(U2-HPOUTB)": 12.3503,
+    "Net-(U2-FLYN_VCP)": 4.1193,
+    "Net-(U2-VCP_FILT+)": 2.9644,
+    "Net-(U2-FLYC_VCP)": 5.8562,
+    "Net-(U2-FLYP_VCP)": 2.257,
+    "Net-(U7-EN)": 2.2558,
+    "TYPEC_USB_DN": 13.6208,
+    "TYPEC_USB_DP": 15.524,
+    "BQ25895_USB_DP": 0,
+    "BQ25895_USB_DN": 0,
+    "BQ25895_STAT": 0,
+    "BQ25895_CHG_EN#": 4.1667,
+    "Net-(U3-ILIM)": 1.4796,
+    "BQ25895_QON#": 0,
+    "Net-(D2-A)": 7.7344,
+    "Net-(U3-BTST)": 4.2343,
+    "Net-(U3-REGN)": 10.9134,
+    "BQ25895_DSEL": 0,
+    "Net-(U16-SW)": 1.9731,
+    "Net-(U4-FB)": 3.1878,
+    "Net-(U12-V3)": 1.5521,
+    "CH343P_USB_DP": 9.2234,
+    "CH343P_USB_DN": 9.2505,
+    "CH343P_UART_DTR": 1.5514,
+    "CH343P_UART_RTS": 1.5514,
+    "PWR_3V3_EN": 11.0022,
+    "Net-(U1-VOUT)": 2.856,
+    "GEK100_KEY": 0,
+    "GEK100_RST": 0,
+    "Net-(U14-VIN)": 1.7006,
+    "STC3115_ALM": 0,
+    "Net-(U14-BATD{slash}CD)": 3.4549,
+    "Net-(U4-SW)": 1.9726,
+    "Net-(R33-Pad2)": 1.5
+  },
+  "signal_nets_after_mm": {
+    "Net-(U11-REG)": 1.7509,
+    "BQ25895_I2C_CLK": 50.1586,
+    "BQ25895_I2C_SDA": 49.0717,
+    "ESP_IO40": 43.3324,
+    "Net-(U11-VDD)": 7.4241,
+    "MOTOR_OUT_P": 8.3871,
+    "MOTOR_OUT_N": 9.405,
+    "BAT_TS": 13.7417,
+    "Net-(U2-–VA)": 5.7454,
+    "CS43131_SDA_1V8": 11.3019,
+    "ESP32S31_EN": 29.7712,
+    "Net-(U2-FILT-)": 2.5738,
+    "Net-(U2-XTI{slash}MCLK)": 4.184,
+    "DAC_I2C_SCL": 29.0573,
+    "Net-(U2-XTO)": 6.1018,
+    "Net-(U2-FILT+)": 2.6893,
+    "DAC_I2C_SDA": 29.7931,
+    "Net-(U2-VCP_FILT–)": 2.0049,
+    "Net-(U2-FLYP_VA)": 2.2733,
+    "Net-(U2-FLYN_VA)": 1.5672,
+    "Net-(USB1-CC1)": 2.3695,
+    "ESP_IO35": 8.3205,
+    "Net-(U1-VOUT)": 4.1047,
+    "VBUS_5V": 40.1656,
+    "TYPEC_USB_DP_IN": 3.7497,
+    "TYPEC_USB_DN_IN": 3.7755,
+    "Net-(USB1-CC2)": 2.1368,
+    "DAC_I2S_SDIN": 14.8661,
+    "CS43131_I2S_SDIN": 12.3688,
+    "DAC_I2S_LRCK": 16.879,
+    "CS43131_I2S_LRCK": 9.3681,
+    "CS43131_I2S_SCLK": 9.223,
+    "DAC_I2S_SCLK": 13.5489,
+    "CS43131_RST#_1V8": 11.6182,
+    "DAC_RST#": 12.9406,
+    "ESP_IO1": 9.0471,
+    "ESP_IO4": 10.1766,
+    "ESP_IO5": 0,
+    "ESP_FLASH_CS": 0,
+    "ESP_FLASH_DO": 0,
+    "ESP_FLASH_HOLD": 0,
+    "ESP_FLASH_CLK": 0,
+    "ESP_FLASH_DI": 0,
+    "ESP_FLASH_WP": 0,
+    "ESP_IO19": 24.7634,
+    "ESP_TF_DAT0": 26.849,
+    "ESP_TF_DAT1": 28.2752,
+    "ESP_TF_DAT2": 21.0424,
+    "ESP_TF_DAT3": 22.5405,
+    "ESP_TF_CLK": 23.8772,
+    "ESP_TF_CMD": 24.4149,
+    "ESP_USB_DP": 13.6513,
+    "ESP_USB_DN": 13.8349,
+    "ESP_IO33": 14.9332,
+    "ESP_IO34": 19.9789,
+    "BQ25895_INT": 34.5782,
+    "BQ25895_OTG_EN": 36.7758,
+    "ESP_IO45": 13.0229,
+    "ESP_IO46": 5.4093,
+    "ESP_IO47": 6.4599,
+    "ESP_SPI2_CLK": 6.3208,
+    "ESP_SPI2_CS": 6.1886,
+    "ESP_SPI2_D3": 3.5839,
+    "ESP_SPI2_D1": 3.4046,
+    "ESP_SPI2_D2": 5.4494,
+    "ESP_SPI2_D0": 5.3984,
+    "ESP_IO54": 3.3014,
+    "ESP_I2C2_SDA": 3.1379,
+    "ESP_I2C2_SCL": 5.3731,
+    "ESP_IO57": 5.3402,
+    "CH343P_UART_RX": 31.9789,
+    "CH343P_UART_TX": 31.8461,
+    "ESP_BOOT2": 1.9928,
+    "ESP_BOOT1": 36.6587,
+    "CS43131_SCL_1V8": 11.2431,
+    "Net-(U2-HPOUTA)": 8.1646,
+    "Net-(U2-HPOUTB)": 12.3503,
+    "Net-(U2-FLYN_VCP)": 1.5611,
+    "Net-(U2-VCP_FILT+)": 3.2064,
+    "Net-(U2-FLYC_VCP)": 4.2005,
+    "Net-(U2-FLYP_VCP)": 1.6051,
+    "Net-(U7-EN)": 2.2558,
+    "TYPEC_USB_DN": 12.4672,
+    "TYPEC_USB_DP": 12.5153,
+    "BQ25895_USB_DP": 0,
+    "BQ25895_USB_DN": 0,
+    "BQ25895_STAT": 0,
+    "BQ25895_CHG_EN#": 4.1667,
+    "Net-(U3-ILIM)": 1.4796,
+    "BQ25895_QON#": 0,
+    "Net-(D2-A)": 7.7344,
+    "Net-(U3-BTST)": 4.2343,
+    "Net-(U3-REGN)": 10.9134,
+    "BQ25895_DSEL": 0,
+    "Net-(U16-SW)": 2.031,
+    "Net-(U4-FB)": 3.1878,
+    "Net-(U12-V3)": 1.5521,
+    "CH343P_USB_DP": 6.6878,
+    "CH343P_USB_DN": 6.6878,
+    "CH343P_UART_DTR": 1.5514,
+    "CH343P_UART_RTS": 1.5514,
+    "PWR_3V3_EN": 12.7527,
+    "GEK100_KEY": 0,
+    "GEK100_RST": 0,
+    "Net-(U14-VIN)": 1.6139,
+    "STC3115_ALM": 0,
+    "Net-(U14-BATD{slash}CD)": 2.7504,
+    "Net-(U4-SW)": 1.9726,
+    "Net-(R33-Pad2)": 4.1476
+  }
+}

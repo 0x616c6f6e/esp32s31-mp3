@@ -1,8 +1,10 @@
 """Annotated front/back component placement, using the verified native coordinates."""
 from pathlib import Path
-import json
+import json,argparse
 from PIL import Image,ImageDraw,ImageFont
-P=Path(__file__).resolve().parents[1];data=json.loads((P/'output/placement.json').read_text(encoding='utf8'))
+P=Path(__file__).resolve().parents[1]
+cli=argparse.ArgumentParser();cli.add_argument('--data',type=Path,default=P/'output/placement.json');cli.add_argument('--output',type=Path,default=P/'output/placement-front-back.png')
+args=cli.parse_args();data=json.loads(args.data.read_text(encoding='utf8'))
 scale=15;W=860;H=1370
 im=Image.new('RGB',(W*2,H),'#f5f6f8');d=ImageDraw.Draw(im)
 font=lambda n:ImageFont.truetype('C:/Windows/Fonts/msyh.ttc',n)
@@ -31,5 +33,5 @@ for panel,side in enumerate(['F','B']):
         label_font=small if r.startswith(('U','X','H','FPC','CARD','USB','CN')) else tiny
         d.text((x,y),r,font=label_font,fill='#102334',anchor='mm',stroke_width=1,stroke_fill=colors.get(r,'#b9c7ce'))
     d.text((panel*W+60,1300),'绿色：音频　橙色：电源　蓝色：USB　紫色：显示/传感器',font=small,fill='#526477')
-im.save(P/'output/placement-front-back.png')
+im.save(args.output)
 print('ANNOTATED_PLACEMENT_SAVED')

@@ -1,50 +1,42 @@
 # Q2 主板 · 双面摆放 / 手动布线版
 
-打开本目录的 **hardware.kicad_pro**，再进入 PCB 编辑器。本版从 `../hardware-q2/` 的已布线版本另存，专门供手动布线使用。
+打开本目录的 **hardware.kicad_pro**，从同一个工程进入原理图和 PCB 编辑器。本版供手动布线使用，已于 2026-09-21 恢复原理图关联并重新规划功能区摆放。
 
-已调整 78 个元件的位置、角度或板面；122 个实体元件分为正面 52 个、背面 70 个，另有 4 个固定安装孔。板框仍为 46 × 76 mm、R10、六层。
+125 个封装（121 个实体元件和 4 个安装孔）均已关联原理图；正面 59 个、背面 62 个实体元件。本次调整 60 个元件的位置、方向或板面。板框仍为 46 × 76 mm、R10、六层，走线／过孔／铺铜均为 0。
 
-## 摆放思路
+## 本次修复与摆放
 
-| 区域 | 摆放 |
-| --- | --- |
-| 正面（屏幕侧） | ESP32、TF、DAC/电荷泵、26 MHz 晶振、I²C/I²S 电平转换、1.8V 模拟供电、IMU、马达驱动及实体接口。 |
-| 背面（后盖侧） | BQ25895 充电及外围、3.3V 降压、开关机控制、USB 切换与 CH343P 下载、电量计、RTC。屏幕 FPC 座与背光电路维持背面。 |
-| 音频 | DAC 的局部电荷泵/滤波器件保持原关系；晶振移近 DAC，电平转换和 1.8V LDO 靠近音频区。电源开关器件集中在 PCB 另一侧的右半区。 |
-| 电源/去耦 | 各电源 IC 与其电感、反馈、输入输出电容按网络重新聚拢；修正马达 REG 电容 C4 和供电磁珠 L3 离 U11 过远的问题。 |
-| USB | D1 靠近 USB1；切换芯片和下载芯片放背面，为正面音频部分腾出布线空间。 |
+- 从当前原理图恢复根页／子页／符号 UUID 路径。按用户已保存的原理图删除 PCB 中过时的 R10，并将 U3.TS 同步到 BAT_TS；原理图内容未被改写。
+- USB：D1 靠近 USB1，U17 公共端朝向 USB，输出朝向 ESP32／CH343；U12 在背面侧方分支，RTC 移到正面释放背面 USB 通道。
+- 音频：按 DAC 的供电、充电泵与滤波引脚聚拢电容，调整晶振方向。C28 位于背面，手动布线时需通过短电源过孔及就近地过孔完成去耦回路。
+- 电源：保留原充电、降压芯片的紧凑开关回路。电池采样电阻 R1 移近 H2 的 GBAT，电量计及外围同步靠近。
+- 马达：U11 输出朝向 H1，缩短两条输出连接；H1/H2 端子保持既定位置和线束出口。
 
-U9、CARD2、CN1、USB1、FPC2 以及 4 个安装孔保持原坐标/板面，并已锁定，以维持既有外壳接口和排线关系。H1/H2 已改为低矮 JST ACH 两芯/三芯端子并重新定位、锁定，详见 [马达与电池线束方案](../mechanical/connector-layout/README.md)。需要调整时可在 KiCad 解锁。天线禁布区保留；屏幕 FPC 仍通过板边绕到背面连接座。
+U9、CARD2、CN1、USB1、FPC2、H1、H2 和 4 个安装孔已锁定；屏幕 FPC 绕板通道、操作小板接口预留和天线禁布区保留。H1/H2 为低矮 JST ACH 两芯／三芯端子，见 [线束与器件规划](../mechanical/connector-layout/README.md)。操作小板及主板连接器电路尚未实现，当前仅有机械预留。
 
-选取的同网络焊盘最短直线距离：C4→U11 从 22.894 mm 缩至 1.753 mm，L3→U11 从 17.029 mm 缩至 2.001 mm，晶振 XTO 从 8.207 mm 缩至 2.482 mm。这些是摆放距离，不是布线长度；完整记录也包含略有增加的连接，见 `output/validation.json`，没有声称所有网络都缩短或已完成信号完整性优化。
-
-## 手动布线起点
-
-已移除旧 2903 条直线段、48 条弧线、340 个过孔和 21 个铺铜区；**未新增任何走线**。保留全部元件、原 555 个焊盘的网络及身份（另增 4 个无网络机械固定焊盘）、原理图接线、六层设置、原设计规则、板框/孔槽、天线禁布区和本地 3D 模型。旧的局部 SW 铜区也已移除，避免位置变化后留下错误连接。
-
-建议先处理电源开关回路与芯片去耦、DAC 电荷泵/晶振/模拟输出，再处理 USB 差分和 I²S/QSPI/SDIO，最后补低速控制和地过孔、重新建立各层铜区。参考原已布线版可以核对网络，但其旧走线和铺铜不能直接复制到本版。具体层功能、阻抗与电源铜宽需按实际叠层/电流完成。
-
-新增滑环/按键小板及主板连接器的电路仍未实现，本版只保留既有机械预留。
+详细问题、尺寸比较、取舍和手动布线顺序见 [PCB 布局审查](review/pcb-layout-review.md)。比较指标是焊盘之间的平面直线距离，不是实际布线长度或信号完整性结果；部分低速连接有意变长，以改善 USB 和音频布局。
 
 ## 验证
 
-- KiCad DRC：0 违规、0 原理图一致性问题；**386 条未连接**是本版尚未布线的预期状态，不是生产就绪结果。
-- 元件/焊盘网络逐项与源板核对：126 个封装、559 个焊盘，原信号焊盘网络变化 0；原理图仅更新 H1/H2 器件属性，板框、天线禁布区和其他机械锚点保持一致。
-- 将本版 KiCad 带元件 STEP 中 122 个元件，与保存的 E 版外壳、后盖支柱、电池占位、LCD、操作板、螺钉、两条排线通道及预留连接器逐项作标称几何相交检查：未发现非预期相交；元件之间也未发现实体相交。
-- 检查按外壳的名义安装面 F=5.2/B=4.2 mm 对齐，分别补偿 KiCad STEP 导出的表面偏移。模型含近似连接器和部分假设尺寸；未覆盖实物公差、焊锡、热设计、EMI 或 FPC 插接验证。E 版 FCStd 的装配摆放未被改写。
-- ERC 保留原有 9 条警告，未新增错误；记录在 `output/placement-erc.json`。
-- 修正 7 种标准 STEP 的导出旋转丢失问题，涉及 U17、U16/U4、U5、U6、D1、U12、U11；重新导入 STEP 检查方向和边界，并渲染检查。此修正在本版模型目录生效。
-
-外壳已追加 [F 版](../mechanical/enclosure-q2-f/README.md)：屏幕保护盖板三边 2 mm，操作区上移 2 mm。F 版装入本 PCB 的当前 STEP，独立装配检查见其 `exports/validation.json`；本目录的 E 版检查记录保留作参考。
+- KiCad DRC：0 违规、0 原理图一致性问题；385 条未连接是尚未布线的状态。
+- ERC：0 错误、9 条既有警告。电路功能审查中尚未处理的事项仍需解决，不能据此直接生产。
+- 125 个封装／557 个焊盘的身份、网络、值和 DNP 与关联修复后的基线一致；用户原理图保存内容、板框、机械锚点、天线区和叠层均保持不变。
+- FreeCAD：121 个元件的名义实体与 F 版外壳、屏幕、操作小板、电池、马达、排线和线束未发现非预期相交；元件之间也无实体相交。
+- 新装配为 `output/placement-F-fit.FCStd`。F 版外壳源文件未改写，其原内嵌 PCB 仍是历史摆放。
+- 几何检查基于当前占位和近似模型，不涵盖实物公差、焊锡、散热或 FPC 弯折；最终选型与手动布线完成后应重新检查。
 
 ## 文件
 
-- `output/placement-front-back.png`：带位号的双面摆放图，背面图已镜像。
-- `output/3d-front.png`、`output/3d-back.png`：KiCad 3D 预览。
-- `output/placement-populated.step`：本版实际带元件板卡，可导入 FreeCAD。
-- `output/component-placement.csv`：坐标、角度、板面、锁定状态；属于布局坐标清单，不是经过生产审核的贴片机文件。
-- `output/placement.json`：原/新位置和电路分组。
-- `output/placement-drc.json`、`validation.json`、`mechanical-check.json`、`model-orientation-validation.json`：检查依据。
-- `models3d/`、`MP3_Source.pretty/`：工程本地模型和封装库，可随项目一起移动。
+- `output/placement-front-back.png`：带位号的双面摆放图，背面已镜像；对比图为 `review/placement-before.png`。
+- `output/3d-front.png`、`output/3d-back.png`：最新 KiCad 3D 预览。
+- `output/placement-populated.step`：最新带元件板卡；`output/placement-F-fit.FCStd`：与 F 版结构匹配的检查装配。
+- `output/component-placement.csv`：坐标／方向／板面／锁定清单，未经生产审核。
+- `output/placement.json`、`placement-metrics.json`：摆放变化、功能分组和连接距离。
+- `output/reassociation.json`：关联修复和网络同步记录；其输出哈希对应移动元件之前的修复阶段。
+- `output/placement-drc.json`、`placement-erc.json`、`validation.json`、`mechanical-check.json`：本次验证结果。
+- `review/placement-baseline.json`：关联修复后的身份、网络与机械基线；`output/current-netlist.xml`：本次原理图导出的网络表。
+- `models3d/`、`MP3_Source.pretty/`：工程本地模型和封装库。
 
-`scripts/place_components.py` 是历史双面摆放生成器，已增加端子修订保护，避免覆盖当前方案。`scripts/plan_connectors.py` 是一次性端子迁移脚本，不会在当前版本重复执行。开始手动修改或布线后不要重建。验证脚本和预览脚本可按需使用，源资料仍需保留在此仓库原路径。旧版检查报告和外壳占位不能用来代表你后续手动修改后的状态。
+从同一工程打开原理图与 PCB 后，可交叉选择元件，并用 F8 正常更新 PCB，无需重新按位号关联。如果编辑器仍显示旧文件，应重新载入磁盘文件，避免用旧会话覆盖当前结果。
+
+`scripts/relink_schematic.py` 负责明确校验后的关联恢复；`refine_routing_placement.py` 是本次候选布局生成记录，必须使用修复后的输入快照，不应在开始手动布线后重新生成。`scripts/validate_placement.py` 校验当前板与本次基线，运行前需重新导出网络表、DRC、ERC、STEP 并执行 FreeCAD 机械检查。历史生成器 `place_components.py`、`plan_connectors.py` 和旧模型报告不代表当前布局。

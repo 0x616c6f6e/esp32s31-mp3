@@ -1,149 +1,36 @@
 {
   "status": "PLACEMENT_ONLY_REQUIRES_MANUAL_ROUTING",
-  "pcb_sha256": "43a95bab8995a77c690b5f659444464938fe36ed2fca7d0bb4f1b0a50d17a306",
-  "footprints": 126,
-  "physical_components": 122,
-  "pads": 559,
-  "pad_net_changes": 0,
-  "schematics_unchanged": false,
-  "outline_unchanged": true,
-  "antenna_keepout_unchanged": true,
+  "pcb_sha256": "f04d11bce524d874df918259ebe625cf2f6949da87316121561f9cbbeb22461f",
+  "footprints": 125,
+  "physical_components": 121,
+  "pads": 557,
+  "schematic_links_verified": 125,
+  "moved_or_flipped_count": 60,
+  "front_components": 59,
+  "back_components": 62,
+  "pad_identity_and_nets_unchanged_since_repair": true,
+  "user_schematics_preserved": true,
+  "outline_antenna_and_stackup_unchanged": true,
   "locked_mechanical_references": [
     "U9",
     "CARD2",
     "CN1",
     "USB1",
     "FPC2",
+    "H1",
+    "H2",
     "SCREW5",
     "SCREW2",
     "SCREW4",
     "SCREW1"
   ],
-  "moved_or_flipped_count": 78,
-  "front_components": 52,
-  "back_components": 70,
   "tracks_arcs_vias": 0,
   "copper_zones": 0,
   "drc_violations": 0,
   "schematic_parity_issues": 0,
-  "expected_unconnected_items": 386,
-  "distance_metric": "Minimum same-net pad-to-pad Euclidean distance; not routed length or signal-integrity analysis. Side transitions not included.",
-  "selected_local_connections": [
-    {
-      "from": "C4",
-      "to": "U11",
-      "net": "Net-(U11-REG)",
-      "before_mm": 22.894,
-      "after_mm": 1.753
-    },
-    {
-      "from": "X1",
-      "to": "U2",
-      "net": "Net-(U2-XTO)",
-      "before_mm": 8.207,
-      "after_mm": 2.482
-    },
-    {
-      "from": "X1",
-      "to": "U2",
-      "net": "Net-(U2-XTI{slash}MCLK)",
-      "before_mm": 5.288,
-      "after_mm": 4.718
-    },
-    {
-      "from": "D1",
-      "to": "USB1",
-      "net": "TYPEC_USB_DP_IN",
-      "before_mm": 7.633,
-      "after_mm": 3.252
-    },
-    {
-      "from": "D1",
-      "to": "USB1",
-      "net": "TYPEC_USB_DN_IN",
-      "before_mm": 7.899,
-      "after_mm": 5.208
-    },
-    {
-      "from": "U14",
-      "to": "H2",
-      "net": "VBAT",
-      "before_mm": 16.409,
-      "after_mm": 9.216
-    },
-    {
-      "from": "C1",
-      "to": "U4",
-      "net": "VCC",
-      "before_mm": 1.722,
-      "after_mm": 1.95
-    },
-    {
-      "from": "C30",
-      "to": "U5",
-      "net": "VCC",
-      "before_mm": 1.463,
-      "after_mm": 1.703
-    },
-    {
-      "from": "C31",
-      "to": "U5",
-      "net": "VCC_1V8",
-      "before_mm": 1.52,
-      "after_mm": 1.703
-    },
-    {
-      "from": "L3",
-      "to": "U11",
-      "net": "Net-(U11-VDD)",
-      "before_mm": 17.029,
-      "after_mm": 2.001
-    }
-  ],
-  "manufacturing_release": false,
-  "original_signal_pads": 555,
-  "added_unconnected_mount_pads": 4,
-  "schematic_changes": "Only H1/H2 part properties changed; pins, wires, UUIDs and all other symbols unchanged.",
-  "connector_revision": {
-    "H1": {
-      "xy": [
-        130.0,
-        113.0
-      ],
-      "angle": -90.0,
-      "side": "F",
-      "value": "BM02B-ACHSS-GAN-ETF",
-      "case_xy_mm": [
-        19,
-        64
-      ],
-      "wire_exit_case": "+X",
-      "pin_nets": {
-        "1": "MOTOR_OUT_N",
-        "2": "MOTOR_OUT_P"
-      }
-    },
-    "H2": {
-      "xy": [
-        142.0,
-        109.0
-      ],
-      "angle": -90.0,
-      "side": "F",
-      "value": "BM03B-ACHSS-GAN-ETF",
-      "case_xy_mm": [
-        7,
-        60
-      ],
-      "wire_exit_case": "+X",
-      "pin_nets": {
-        "1": "VBAT",
-        "2": "BAT_TS",
-        "3": "GBAT"
-      }
-    }
-  },
-  "erc_matches_reference": true,
-  "erc_existing_warnings": 9,
-  "erc_errors": 0
+  "expected_unconnected_items": 385,
+  "erc_errors": 0,
+  "erc_warnings": 9,
+  "mechanical_nominal_solids_pass": true,
+  "manufacturing_release": false
 }
