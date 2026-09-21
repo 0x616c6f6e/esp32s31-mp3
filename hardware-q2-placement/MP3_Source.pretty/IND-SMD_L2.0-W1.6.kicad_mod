@@ -1,0 +1,372 @@
+(footprint "IND-SMD_L2.0-W1.6"
+	(version 20260206)
+	(generator "pcbnew")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -1.328 -1.219 0)
+		(layer "F.Fab")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "IND-SMD_L2.0-W1.6"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://item.szlcsc.com/datasheet/WPN201610M2R2MT/98216.html"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "电感值:2.2uH;精度:±20%;额定电流:1.6A;饱和电流(Isat):2A;类型:-;"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer Part" "WPN201610M2R2MT"
+		(at 0 0 0)
+		(layer "B.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Manufacturer" "Sunlord(顺络)"
+		(at 0 0 0)
+		(layer "B.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Supplier Part" "C97011"
+		(at 0 0 0)
+		(layer "B.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Supplier" "LCSC"
+		(at 0 0 0)
+		(layer "B.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "LCSC Part Name" "2.2uH ±20% 2A"
+		(at 0 0 0)
+		(layer "B.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "3D Model" "b394e7fcf39b47c8917c782d9e6cbcf8|0819f05c4eef4c71ace90d822a990e87"
+		(at 0 0 0)
+		(layer "B.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "3D Model Title" "IND-SMD_L2.0-W1.6-H1.1"
+		(at 0 0 0)
+		(layer "B.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "3D Model Transform" "62.992,79.527,0,90,0,0,0,0,0"
+		(at 0 0 0)
+		(layer "B.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Current - Saturation(Isat)" "2A"
+		(at 0 0 0)
+		(layer "B.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Current Rating" "1.6A"
+		(at 0 0 0)
+		(layer "B.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "DC Resistance(DCR)" "135mΩ"
+		(at 0 0 0)
+		(layer "B.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "JLCPCB Part Class" "Extended Part"
+		(at 0 0 0)
+		(layer "B.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Supplier Footprint" "0806"
+		(at 0 0 0)
+		(layer "B.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Tolerance" "±20%"
+		(at 0 0 0)
+		(layer "B.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Type" "-"
+		(at 0 0 0)
+		(layer "B.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -1.578 -1.11)
+		(end 1.578 1.11)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start -1.143 -1.016)
+		(end 1.143 -1.016)
+		(stroke
+			(width 0.152)
+			(type default)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start -1 -0.8)
+		(end 1 -0.8)
+		(stroke
+			(width 0.051)
+			(type default)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start -1 0.8)
+		(end -1 -0.8)
+		(stroke
+			(width 0.051)
+			(type default)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start 1 -0.8)
+		(end 1 0.8)
+		(stroke
+			(width 0.051)
+			(type default)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start 1 0.8)
+		(end -1 0.8)
+		(stroke
+			(width 0.051)
+			(type default)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start 1.143 1.016)
+		(end -1.143 1.016)
+		(stroke
+			(width 0.152)
+			(type default)
+		)
+		(layer "F.Fab")
+	)
+	(fp_poly
+		(pts
+			(xy 1.055433 -0.822961)
+			(xy 1.022961 -0.855433)
+			(xy 0.977039 -0.855433)
+			(xy 0.944567 -0.822961)
+			(xy 0.944567 -0.777039)
+			(xy 0.977039 -0.744567)
+			(xy 1.022961 -0.744567)
+			(xy 1.055433 -0.777039)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+	)
+	(fp_poly
+		(pts
+			(xy -1 -0.8)
+			(xy -0.4 -0.8)
+			(xy -0.4 0.8)
+			(xy -1 0.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "User.1")
+	)
+	(fp_poly
+		(pts
+			(xy 0.4 -0.8)
+			(xy 1 -0.8)
+			(xy 1 0.8)
+			(xy 0.4 0.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "User.1")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0.828 0)
+		(size 1 1.72)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+	)
+	(pad "2" smd rect
+		(at -0.828 0)
+		(size 1 1.72)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/models3d/IND-SMD_L2.0-W1.6.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

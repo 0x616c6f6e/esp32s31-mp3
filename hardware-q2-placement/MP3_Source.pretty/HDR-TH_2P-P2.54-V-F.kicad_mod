@@ -1,0 +1,226 @@
+(footprint "HDR-TH_2P-P2.54-V-F"
+	(version 20260206)
+	(generator "pcbnew")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -2.867 -1.504 0)
+		(layer "F.Fab")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "HDR-TH_2P-P2.54-V-F"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier Part" "C49661"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -3.045433 -1.5255)
+		(end 3.0155 1.555433)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start -2.74 -1.25)
+		(end 2.74 -1.25)
+		(stroke
+			(width 0.051)
+			(type default)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start -2.74 -1.25)
+		(end 2.74 -1.25)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start -2.74 1.25)
+		(end -2.74 -1.25)
+		(stroke
+			(width 0.051)
+			(type default)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start -2.74 1.25)
+		(end -2.74 -1.25)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start 2.74 -1.25)
+		(end 2.74 1.25)
+		(stroke
+			(width 0.051)
+			(type default)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start 2.74 -1.25)
+		(end 2.74 1.25)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start 2.74 1.25)
+		(end -2.74 1.25)
+		(stroke
+			(width 0.051)
+			(type default)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start 2.74 1.25)
+		(end -2.74 1.25)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.Fab")
+	)
+	(fp_poly
+		(pts
+			(xy -2.684567 1.227039)
+			(xy -2.717039 1.194567)
+			(xy -2.762961 1.194567)
+			(xy -2.795433 1.227039)
+			(xy -2.795433 1.272961)
+			(xy -2.762961 1.305433)
+			(xy -2.717039 1.305433)
+			(xy -2.684567 1.272961)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+	)
+	(fp_poly
+		(pts
+			(xy -1.67 -0.1)
+			(xy -0.87 -0.1)
+			(xy -0.87 0.1)
+			(xy -1.67 0.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "User.1")
+	)
+	(fp_poly
+		(pts
+			(xy 0.87 -0.1)
+			(xy 1.67 -0.1)
+			(xy 1.67 0.1)
+			(xy 0.87 0.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "User.1")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -1.27 0)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+	)
+	(pad "2" thru_hole circle
+		(at 1.27 0)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/models3d/HDR-TH_2P-P2.54-V-F.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

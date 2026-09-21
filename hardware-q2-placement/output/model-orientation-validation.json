@@ -1,0 +1,59 @@
+[
+  {
+    "file": "MSOP-10_L3.0-W3.0-P0.50-LS4.9-BL.step",
+    "references": [
+      "U17"
+    ],
+    "physical_rotation_degrees": -270,
+    "reimport_bounds_verified": true
+  },
+  {
+    "file": "SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR.step",
+    "references": [
+      "U16",
+      "U4"
+    ],
+    "physical_rotation_degrees": -180,
+    "reimport_bounds_verified": true
+  },
+  {
+    "file": "SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR_1.step",
+    "references": [
+      "U5"
+    ],
+    "physical_rotation_degrees": -180,
+    "reimport_bounds_verified": true
+  },
+  {
+    "file": "SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL-2.step",
+    "references": [
+      "U6"
+    ],
+    "physical_rotation_degrees": -270,
+    "reimport_bounds_verified": true
+  },
+  {
+    "file": "SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL.step",
+    "references": [
+      "D1"
+    ],
+    "physical_rotation_degrees": -270,
+    "reimport_bounds_verified": true
+  },
+  {
+    "file": "TQFN-16_L3.0-W3.0-P0.50-BL-EP1.7.step",
+    "references": [
+      "U12"
+    ],
+    "physical_rotation_degrees": -270,
+    "reimport_bounds_verified": true
+  },
+  {
+    "file": "VSSOP-10_L3.0-W3.0-P0.50-LS4.9-BL.step",
+    "references": [
+      "U11"
+    ],
+    "physical_rotation_degrees": -270,
+    "reimport_bounds_verified": true
+  }
+]

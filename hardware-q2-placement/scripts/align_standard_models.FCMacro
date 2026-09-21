@@ -1,0 +1,42 @@
+"""Export rotated STEP geometry from standalone root features, then verify it."""
+from pathlib import Path
+import FreeCAD as App,Part,ImportGui,json,hashlib
+from PySide import QtCore
+P=Path(__file__).resolve().parents[1];manifestpath=P/'models3d/model-manifest.json'
+manifest=json.loads(manifestpath.read_text(encoding='utf8'));records=[]
+try:
+    for entry in manifest['models']:
+        angle=entry.get('rotation_z_physical_deg',0)
+        if angle==0:continue
+        doc=App.newDocument('AlignStandardPackage')
+        ImportGui.insert(str(P/'models3d'/entry['source_model']),doc.Name)
+        imported=[o for o in doc.Objects if hasattr(o,'Shape') and not o.Shape.isNull() and not o.OutList and o.Shape.Volume>0]
+        aligned=[];rotation=App.Placement(App.Vector(),App.Rotation(App.Vector(0,0,1),angle))
+        for original in imported:
+            shape=original.Shape.copy()
+            # A new root feature avoids ImportGui resolving an imported child
+            # through its original parent and losing that child's new placement.
+            part=doc.addObject('PartDesign::Feature','AlignedPackage')
+            shape.Placement=rotation.multiply(shape.Placement)
+            # STEP's single-object export can reset the root placement. Keep
+            # root placement identity and store the rotation inside a compound.
+            part.Shape=Part.makeCompound([shape])
+            part.ViewObject.ShapeColor=original.ViewObject.ShapeColor
+            part.ViewObject.DiffuseColor=original.ViewObject.DiffuseColor
+            aligned.append(part)
+        doc.recompute();dest=P/'models3d'/entry['file'];ImportGui.export(aligned,str(dest))
+        check=Part.Shape();check.read(str(dest));bb=check.BoundBox
+        actual=[bb.XMin,bb.YMin,bb.ZMin,bb.XMax,bb.YMax,bb.ZMax]
+        assert all(abs(a-b)<1e-5 for a,b in zip(actual,entry['model_bounds_xyz_mm'])),(entry['file'],actual)
+        entry['model_sha256']=hashlib.sha256(dest.read_bytes()).hexdigest()
+        entry['rotation_verified_after_step_reimport']=True
+        records.append({'file':entry['file'],'references':entry['references'],'physical_rotation_degrees':angle,'reimport_bounds_verified':True})
+        App.closeDocument(doc.Name)
+    manifestpath.write_text(json.dumps(manifest,ensure_ascii=False,indent=2),encoding='utf8')
+    (P/'output/model-orientation-validation.json').write_text(json.dumps(records,indent=2),encoding='utf8')
+except Exception:
+    import traceback
+    (P/'output/model-alignment-error.txt').write_text(traceback.format_exc())
+    raise
+finally:
+    QtCore.QTimer.singleShot(1000,App.Gui.getMainWindow().close)

@@ -1,0 +1,28 @@
+{
+  "source_enclosure": "mechanical/enclosure-q2-e/ESP32S31_MP3_Q2_E.FCStd",
+  "source_enclosure_sha256": "4b5d7546ee64d60aaa82afc3f5ef571933e9b789743ad6ff0b0730b0d65373ee",
+  "pcb_sha256": "97d692496564ca93dccf844a4e2a8ac7d4cab2c15a9067d3af9112c8f6c3a088",
+  "checked_component_instances": 122,
+  "obstacles": [
+    "HousingWithControlPosts",
+    "RearCoverWithPCBPosts",
+    "BatteryReference",
+    "ControlBoard",
+    "DisplayFPCRoute",
+    "ControlFPCRoute",
+    "MainControlFPCReserve",
+    "ControlFPCConnector",
+    "LCDModule",
+    "ControlBoardFasteners"
+  ],
+  "nominal_mount_planes_case_z_mm": {
+    "F": 5.2,
+    "B": 4.2
+  },
+  "component_vs_enclosure_conflicts": [],
+  "component_vs_component_conflicts": [],
+  "pass": true,
+  "scope": "Nominal geometric intersections only. Model assumptions, solder/cable/battery tolerances and screen FPC insertion are unverified. Existing enclosure file not changed.",
+  "populated_step_sha256": "eaacb6a497199fc78626fe9e62a362dd71e050f2d0b05447f513330ce84d9b62",
+  "model_manifest_sha256": "b2f14f79cfd26a9524257f316753191c1ce6df45b4e8143ee8fffc623c327af9"
+}
