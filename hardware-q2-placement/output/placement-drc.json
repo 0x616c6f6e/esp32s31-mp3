@@ -1,7 +1,7 @@
 {
     "$schema": "https://schemas.kicad.org/drc.v1.json",
     "coordinate_units": "mm",
-    "date": "2026-09-21T13:06:46",
+    "date": "2026-09-21T13:58:32",
     "ignored_checks": [
         {
             "description": "Footprint has no courtyard defined",
@@ -3739,20 +3739,20 @@
             "description": "Missing connection between items",
             "items": [
                 {
-                    "description": "H1 的PTH 焊盘 2 [MOTOR_OUT_P]",
-                    "pos": {
-                        "x": 121.23,
-                        "y": 121.85
-                    },
-                    "uuid": "1977c5b2-6b0f-43bc-b6c7-02bf93dcd41f"
-                },
-                {
                     "description": "Top Layer 上 U11 的焊盘 7 [MOTOR_OUT_P]",
                     "pos": {
                         "x": 122.0,
                         "y": 117.85
                     },
                     "uuid": "cabe9859-be2d-4b01-a129-0fe24e919dd6"
+                },
+                {
+                    "description": "Top Layer 上 H1 的焊盘 2 [MOTOR_OUT_P]",
+                    "pos": {
+                        "x": 131.875,
+                        "y": 113.6
+                    },
+                    "uuid": "1977c5b2-6b0f-43bc-b6c7-02bf93dcd41f"
                 }
             ],
             "severity": "error",
@@ -3770,10 +3770,10 @@
                     "uuid": "33ee27cb-82fa-479f-afc1-836fec1e29c9"
                 },
                 {
-                    "description": "H1 的PTH 焊盘 1 [MOTOR_OUT_N]",
+                    "description": "Top Layer 上 H1 的焊盘 1 [MOTOR_OUT_N]",
                     "pos": {
-                        "x": 123.77,
-                        "y": 121.85
+                        "x": 131.875,
+                        "y": 112.4
                     },
                     "uuid": "3f488920-16a3-4c6a-b392-1645b2328d94"
                 }
@@ -3839,10 +3839,10 @@
                     "uuid": "bb70f63b-a44a-47b7-9960-502d91ddded8"
                 },
                 {
-                    "description": "H2 的PTH 焊盘 1 [VBAT]",
+                    "description": "Top Layer 上 H2 的焊盘 1 [VBAT]",
                     "pos": {
-                        "x": 145.736,
-                        "y": 105.563
+                        "x": 143.875,
+                        "y": 107.8
                     },
                     "uuid": "ac29b6fb-f7b6-4590-bb0f-3a18b056de65"
                 }
@@ -3853,14 +3853,6 @@
         {
             "description": "Missing connection between items",
             "items": [
-                {
-                    "description": "Bottom Layer 上 C7 的焊盘 1 [VBAT]",
-                    "pos": {
-                        "x": 140.08,
-                        "y": 89.5
-                    },
-                    "uuid": "71ae97e8-b278-4087-ba66-fdbbee3f2daf"
-                },
                 {
                     "description": "Bottom Layer 上 U1 的焊盘 10 [VBAT]",
                     "pos": {
@@ -3868,6 +3860,14 @@
                         "y": 88.05
                     },
                     "uuid": "215031d2-bef9-4f0b-92ec-b8ef4eb6f214"
+                },
+                {
+                    "description": "Bottom Layer 上 C7 的焊盘 1 [VBAT]",
+                    "pos": {
+                        "x": 140.08,
+                        "y": 89.5
+                    },
+                    "uuid": "71ae97e8-b278-4087-ba66-fdbbee3f2daf"
                 }
             ],
             "severity": "error",
@@ -3946,20 +3946,20 @@
             "description": "Missing connection between items",
             "items": [
                 {
+                    "description": "Top Layer 上 H2 的焊盘 1 [VBAT]",
+                    "pos": {
+                        "x": 143.875,
+                        "y": 107.8
+                    },
+                    "uuid": "ac29b6fb-f7b6-4590-bb0f-3a18b056de65"
+                },
+                {
                     "description": "Bottom Layer 上 C43 的焊盘 1 [VBAT]",
                     "pos": {
                         "x": 143.0,
                         "y": 101.33
                     },
                     "uuid": "f43ad592-7a26-4084-a3b3-abe6d60be849"
-                },
-                {
-                    "description": "H2 的PTH 焊盘 1 [VBAT]",
-                    "pos": {
-                        "x": 145.736,
-                        "y": 105.563
-                    },
-                    "uuid": "ac29b6fb-f7b6-4590-bb0f-3a18b056de65"
                 }
             ],
             "severity": "error",
@@ -3977,12 +3977,35 @@
                     "uuid": "218e86cc-8287-472b-9d1a-bbb26ea5e48f"
                 },
                 {
-                    "description": "H2 的PTH 焊盘 2 [BAT_TS]",
+                    "description": "Top Layer 上 H2 的焊盘 2 [BAT_TS]",
                     "pos": {
-                        "x": 145.736,
-                        "y": 103.023
+                        "x": 143.875,
+                        "y": 109.0
                     },
                     "uuid": "108d859a-61e7-4fd9-a4f7-b2fe4cf41f84"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Bottom Layer 上 R34 的焊盘 1 [GBAT]",
+                    "pos": {
+                        "x": 138.75,
+                        "y": 102.567
+                    },
+                    "uuid": "ef7347bb-9b1f-4356-9e7a-5512e2f46a80"
+                },
+                {
+                    "description": "Top Layer 上 H2 的焊盘 3 [GBAT]",
+                    "pos": {
+                        "x": 143.875,
+                        "y": 110.2
+                    },
+                    "uuid": "f82cb6ab-af2a-4f76-97f8-eafdc5352feb"
                 }
             ],
             "severity": "error",
@@ -4006,29 +4029,6 @@
                         "y": 102.567
                     },
                     "uuid": "ef7347bb-9b1f-4356-9e7a-5512e2f46a80"
-                }
-            ],
-            "severity": "error",
-            "type": "unconnected_items"
-        },
-        {
-            "description": "Missing connection between items",
-            "items": [
-                {
-                    "description": "Bottom Layer 上 U14 的焊盘 6 [GBAT]",
-                    "pos": {
-                        "x": 139.3,
-                        "y": 99.1125
-                    },
-                    "uuid": "7d4a9dae-52b8-45c4-8660-beab1baf5270"
-                },
-                {
-                    "description": "H2 的PTH 焊盘 3 [GBAT]",
-                    "pos": {
-                        "x": 145.736,
-                        "y": 100.483
-                    },
-                    "uuid": "f82cb6ab-af2a-4f76-97f8-eafdc5352feb"
                 }
             ],
             "severity": "error",

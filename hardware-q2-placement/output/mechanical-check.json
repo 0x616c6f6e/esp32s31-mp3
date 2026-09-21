@@ -1,7 +1,7 @@
 {
   "source_enclosure": "mechanical/enclosure-q2-e/ESP32S31_MP3_Q2_E.FCStd",
-  "source_enclosure_sha256": "4b5d7546ee64d60aaa82afc3f5ef571933e9b789743ad6ff0b0730b0d65373ee",
-  "pcb_sha256": "97d692496564ca93dccf844a4e2a8ac7d4cab2c15a9067d3af9112c8f6c3a088",
+  "source_enclosure_sha256": "c7af67dcc017992246bc157f873cd7cb2362e70ca77b6bada08d20bf8e113f84",
+  "pcb_sha256": "43a95bab8995a77c690b5f659444464938fe36ed2fca7d0bb4f1b0a50d17a306",
   "checked_component_instances": 122,
   "obstacles": [
     "HousingWithControlPosts",
@@ -23,6 +23,6 @@
   "component_vs_component_conflicts": [],
   "pass": true,
   "scope": "Nominal geometric intersections only. Model assumptions, solder/cable/battery tolerances and screen FPC insertion are unverified. Existing enclosure file not changed.",
-  "populated_step_sha256": "eaacb6a497199fc78626fe9e62a362dd71e050f2d0b05447f513330ce84d9b62",
-  "model_manifest_sha256": "b2f14f79cfd26a9524257f316753191c1ce6df45b4e8143ee8fffc623c327af9"
+  "populated_step_sha256": "a907ec02ac96fe912f95a8a8f0b0c6cac3470a69555dfe29d34a5cc2488641b2",
+  "model_manifest_sha256": "08fed75611bdbfbe71c16618f02e1c0ea36b7c8b8230749036804baf7c0e44a4"
 }

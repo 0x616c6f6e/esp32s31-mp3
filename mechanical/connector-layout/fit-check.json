@@ -1,0 +1,245 @@
+{
+  "pcb_sha256": "43a95bab8995a77c690b5f659444464938fe36ed2fca7d0bb4f1b0a50d17a306",
+  "base_component_check_pass": true,
+  "new_geometry_conflicts": [],
+  "pass": true,
+  "motor_center_case_xy_mm": [
+    39,
+    57
+  ],
+  "motor_base_z_mm": 7.1,
+  "motor_maximum_diameter_height_mm": [
+    8.1,
+    3.45
+  ],
+  "battery_reservation_case_xyz_mm": [
+    8.3,
+    37,
+    7.8,
+    24,
+    34,
+    3
+  ],
+  "clearances": [
+    {
+      "part": "MotorMaximumEnvelope",
+      "against": "BatteryReference",
+      "nominal_mm": 2.65
+    },
+    {
+      "part": "MotorMaximumEnvelope",
+      "against": "ControlBoard",
+      "nominal_mm": 0.55
+    },
+    {
+      "part": "MotorMaximumEnvelope",
+      "against": "ControlBoardFasteners",
+      "nominal_mm": 0.7049
+    },
+    {
+      "part": "MotorMaximumEnvelope",
+      "against": "ControlFPCRoute",
+      "nominal_mm": 2.95
+    },
+    {
+      "part": "MotorMaximumEnvelope",
+      "against": "DisplayFPCRoute",
+      "nominal_mm": 33.5359
+    },
+    {
+      "part": "MotorHolderProposal",
+      "against": "BatteryReference",
+      "nominal_mm": 2.21
+    },
+    {
+      "part": "MotorHolderProposal",
+      "against": "ControlBoard",
+      "nominal_mm": 3.0
+    },
+    {
+      "part": "MotorHolderProposal",
+      "against": "ControlBoardFasteners",
+      "nominal_mm": 2.5047
+    },
+    {
+      "part": "MotorHolderProposal",
+      "against": "ControlFPCRoute",
+      "nominal_mm": 3.3765
+    },
+    {
+      "part": "MotorHolderProposal",
+      "against": "DisplayFPCRoute",
+      "nominal_mm": 32.9448
+    }
+  ],
+  "wire_centerlines_case_mm": {
+    "MotorWire1": [
+      [
+        21.3,
+        63.4,
+        6.0
+      ],
+      [
+        22.8,
+        63.4,
+        7.15
+      ],
+      [
+        31.0,
+        63.4,
+        7.15
+      ],
+      [
+        31.0,
+        59.9,
+        7.15
+      ],
+      [
+        32.9,
+        59.9,
+        7.15
+      ],
+      [
+        33.5,
+        59.9,
+        8.1
+      ],
+      [
+        33.5,
+        56.4,
+        8.1
+      ],
+      [
+        35.05,
+        56.4,
+        8.1
+      ]
+    ],
+    "MotorWire2": [
+      [
+        21.3,
+        64.6,
+        6.0
+      ],
+      [
+        22.8,
+        64.6,
+        7.15
+      ],
+      [
+        31.7,
+        64.6,
+        7.15
+      ],
+      [
+        31.7,
+        61.1,
+        7.15
+      ],
+      [
+        33.6,
+        61.1,
+        7.15
+      ],
+      [
+        34.2,
+        61.1,
+        8.1
+      ],
+      [
+        34.2,
+        57.6,
+        8.1
+      ],
+      [
+        35.05,
+        57.6,
+        8.1
+      ]
+    ],
+    "BatteryWire1": [
+      [
+        9.3,
+        58.8,
+        6.0
+      ],
+      [
+        10.5,
+        58.8,
+        7.15
+      ],
+      [
+        10.5,
+        36.4,
+        7.15
+      ],
+      [
+        10.5,
+        36.4,
+        9.0
+      ],
+      [
+        10.5,
+        37,
+        9.0
+      ]
+    ],
+    "BatteryWire2": [
+      [
+        9.3,
+        60,
+        6.0
+      ],
+      [
+        11.35,
+        60,
+        7.15
+      ],
+      [
+        11.35,
+        36.4,
+        7.15
+      ],
+      [
+        11.35,
+        36.4,
+        9.0
+      ],
+      [
+        11.35,
+        37,
+        9.0
+      ]
+    ],
+    "BatteryWire3": [
+      [
+        9.3,
+        61.2,
+        6.0
+      ],
+      [
+        12.2,
+        61.2,
+        7.15
+      ],
+      [
+        12.2,
+        36.4,
+        7.15
+      ],
+      [
+        12.2,
+        36.4,
+        9.0
+      ],
+      [
+        12.2,
+        37,
+        9.0
+      ]
+    ]
+  },
+  "scope": "Planning model only. JST bodies are conservative mated envelopes. Excludes real cable bend limits, insertion tooling, manufacturing tolerance stack and cell expansion qualification. Motor holder attachment to wall is intentional. Battery model is not a purchasing specification.",
+  "source_enclosure_sha256": "c7af67dcc017992246bc157f873cd7cb2362e70ca77b6bada08d20bf8e113f84",
+  "populated_step_sha256": "a907ec02ac96fe912f95a8a8f0b0c6cac3470a69555dfe29d34a5cc2488641b2"
+}

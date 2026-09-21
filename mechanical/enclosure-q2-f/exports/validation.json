@@ -1,0 +1,224 @@
+{
+  "revision": "F",
+  "status": "MECHANICAL_LAYOUT_PRELIMINARY_ELECTRICAL_DAUGHTERBOARD_NOT_IMPLEMENTED",
+  "body_mm": [
+    50,
+    81.5,
+    13.5
+  ],
+  "with_cover_mm": [
+    50,
+    81.5,
+    14.2
+  ],
+  "mainboard": {
+    "ESP32_side": "toward front/screen",
+    "FPC2_side": "toward rear cover",
+    "rear_copper_z": 4.2,
+    "front_copper_z": 5.2,
+    "source_rigid_transform": "KiCad x -> 149-x, y -> y-49; per-side nominal mounting plane F=5.2, B=4.2"
+  },
+  "control_board_mm": [
+    44,
+    34,
+    0.8
+  ],
+  "control_mounts_case_mm": [
+    [
+      6,
+      51.0
+    ],
+    [
+      44,
+      51.0
+    ],
+    [
+      6,
+      67.0
+    ],
+    [
+      44,
+      67.0
+    ]
+  ],
+  "control_mounts_local_mm": [
+    [
+      3,
+      8.700000000000003
+    ],
+    [
+      41,
+      8.700000000000003
+    ],
+    [
+      3,
+      24.700000000000003
+    ],
+    [
+      41,
+      24.700000000000003
+    ]
+  ],
+  "solid_checks": {
+    "HousingWithControlPosts": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 5107.118817595435
+    },
+    "RearCoverWithPCBPosts": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 4634.575194053436
+    },
+    "Q2Wheel": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 525.6880394326913
+    },
+    "Q2CenterButton": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 133.85383819150033
+    },
+    "ControlBoard": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 1119.9844041290783
+    }
+  },
+  "new_physical_interferences_mm3": {
+    "HousingWithControlPosts / RearCoverWithPCBPosts": 0.0,
+    "HousingWithControlPosts / Q2Wheel": 0.0,
+    "HousingWithControlPosts / Q2CenterButton": 0.0,
+    "HousingWithControlPosts / LCDModule": 0.0,
+    "HousingWithControlPosts / CoverLens": 0.0,
+    "HousingWithControlPosts / BatteryReference": 0.0,
+    "HousingWithControlPosts / ControlBoard": 0.0,
+    "HousingWithControlPosts / ControlFPCConnector": 0.0,
+    "HousingWithControlPosts / MainControlFPCReserve": 0.0,
+    "RearCoverWithPCBPosts / BatteryReference": 0.0,
+    "Q2Wheel / ControlBoard": 0.0,
+    "Q2CenterButton / ControlBoard": 0.0,
+    "BatteryReference / ControlBoard": 0.0,
+    "BatteryReference / ControlFPCConnector": 0.0,
+    "BatteryReference / MainControlFPCReserve": 0.0,
+    "ControlBoard / ControlFPCConnector": 0.0,
+    "LCDModule / ControlBoard": 0.0,
+    "LCDModule / BatteryReference": 0.0,
+    "DisplayFPCRoute / HousingWithControlPosts": 0.0,
+    "DisplayFPCRoute / RearCoverWithPCBPosts": 0.0,
+    "DisplayFPCRoute / LCDModule": 0.0,
+    "DisplayFPCRoute / ControlBoard": 0.0,
+    "ControlFPCRoute / BatteryReference": 0.0,
+    "ControlFPCRoute / ControlBoard": 0.0,
+    "HousingWithControlPosts / TactPower": 0.0,
+    "Q2Wheel / TactPower": 0.0,
+    "Q2CenterButton / TactPower": 0.0,
+    "ControlBoard / TactPower": 0.0,
+    "HousingWithControlPosts / TactBack": 0.0,
+    "Q2Wheel / TactBack": 0.0,
+    "Q2CenterButton / TactBack": 0.0,
+    "ControlBoard / TactBack": 0.0,
+    "HousingWithControlPosts / TactPrevious": 0.0,
+    "Q2Wheel / TactPrevious": 0.0,
+    "Q2CenterButton / TactPrevious": 0.0,
+    "ControlBoard / TactPrevious": 0.0,
+    "HousingWithControlPosts / TactNext": 0.0,
+    "Q2Wheel / TactNext": 0.0,
+    "Q2CenterButton / TactNext": 0.0,
+    "ControlBoard / TactNext": 0.0,
+    "HousingWithControlPosts / TactPlayPause": 0.0,
+    "Q2Wheel / TactPlayPause": 0.0,
+    "Q2CenterButton / TactPlayPause": 0.0,
+    "ControlBoard / TactPlayPause": 0.0,
+    "ControlBoardFasteners / BatteryReference": 0.0,
+    "ControlBoardFasteners / ControlBoard": 0.0
+  },
+  "existing_hardware_conflicts": [],
+  "pcb_source_sha256": "43a95bab8995a77c690b5f659444464938fe36ed2fca7d0bb4f1b0a50d17a306",
+  "screen_fpc": {
+    "route_length_mm": 46.14,
+    "available_nominal_mm": 46.14,
+    "wrap_x_mm": 1.4,
+    "service_turn_x_mm": 21.35219486699676,
+    "terminal_tip_case_mm": [
+      8.352,
+      20.4,
+      3.7
+    ],
+    "wrap_radius_assumed_mm": 0.65,
+    "service_radius_assumed_mm": 0.675,
+    "developable_fold_validated": false,
+    "connector_height_slot_and_insertion_verified": false,
+    "mated": false
+  },
+  "control_fpc": {
+    "independent_from_screen_fpc": true,
+    "nominal_cable_proposal_mm": 25,
+    "routing_channel_only": true,
+    "main_connector_exists_in_current_pcb": false,
+    "pinout_assigned": false
+  },
+  "unmated_fpc_vs_socket_envelope_mm3": 1.98,
+  "screen_shift_from_E_mm": 0.0,
+  "screen_fpc_axis_offset_mm": 0.0,
+  "outside_envelope_mm3": {
+    "HousingWithControlPosts": 0.0,
+    "RearCoverWithPCBPosts": 0.0,
+    "Q2Wheel": 0.0,
+    "Q2CenterButton": 0.0,
+    "LCDModule": 0.0,
+    "CoverLens": 0.0,
+    "BatteryReference": 0.0,
+    "ControlBoard": 0.0,
+    "ControlFPCConnector": 0.0,
+    "MainControlFPCReserve": 0.0,
+    "TactPower": 0.0,
+    "TactBack": 0.0,
+    "TactPrevious": 0.0,
+    "TactNext": 0.0,
+    "TactPlayPause": 0.0,
+    "DisplayFPCRoute": 0.0,
+    "ControlFPCRoute": 0.0
+  },
+  "per_component_conflicts": [],
+  "new_geometry_pass": true,
+  "entire_current_hardware_fits": true,
+  "measured_gaps_mm": {
+    "battery_to_control_board": 0.29999999999999893,
+    "jack_to_control_board": 1.4000000000000004,
+    "control_board_to_center_retainer": 0.10000000000000142,
+    "power_tact_to_actuator": 0.09999999999999964
+  },
+  "pcb_to_rear_standoffs_mm3": 0.0,
+  "pcb_straight_wall_clearance_nominal_mm": 0.8,
+  "pcb_to_housing_minimum_gap_mm": 0.4,
+  "mating_slot_verified": false,
+  "battery_reserved_envelope_mm": [
+    24,
+    34,
+    3
+  ],
+  "battery_model_selected": false,
+  "source_files": {
+    "pcb_source_sha256": "43a95bab8995a77c690b5f659444464938fe36ed2fca7d0bb4f1b0a50d17a306",
+    "populated_step_sha256": "a907ec02ac96fe912f95a8a8f0b0c6cac3470a69555dfe29d34a5cc2488641b2",
+    "harness_document_sha256": "a45677ccba0b94d54ff243c82b87992d38a13171b22b69decdbc503a2706f5ef"
+  },
+  "cover_lens_border_mm": {
+    "top": 2.0,
+    "left": 2,
+    "right": 2,
+    "basis": "Visible external cover lens, not LCD active area; corner centers are concentric."
+  },
+  "top_extension_mm": 1.5,
+  "control_shift_up_mm": 2.0,
+  "case_origin_y_mm": -1.5,
+  "shell_corner_radius_mm": 12.5,
+  "cover_to_wheel_gap_mm": 2.299999999999997,
+  "control_holes_local_unchanged": true,
+  "motor_and_harness_conflicts": [],
+  "motor_max_to_control_board_mm": 0.55,
+  "motor_max_to_control_fasteners_mm": 2.110842,
+  "pcb_unchanged": true
+}

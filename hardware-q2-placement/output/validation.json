@@ -1,11 +1,11 @@
 {
   "status": "PLACEMENT_ONLY_REQUIRES_MANUAL_ROUTING",
-  "pcb_sha256": "97d692496564ca93dccf844a4e2a8ac7d4cab2c15a9067d3af9112c8f6c3a088",
+  "pcb_sha256": "43a95bab8995a77c690b5f659444464938fe36ed2fca7d0bb4f1b0a50d17a306",
   "footprints": 126,
   "physical_components": 122,
-  "pads": 555,
+  "pads": 559,
   "pad_net_changes": 0,
-  "schematics_unchanged": true,
+  "schematics_unchanged": false,
   "outline_unchanged": true,
   "antenna_keepout_unchanged": true,
   "locked_mechanical_references": [
@@ -14,14 +14,12 @@
     "CN1",
     "USB1",
     "FPC2",
-    "H1",
-    "H2",
     "SCREW5",
     "SCREW2",
     "SCREW4",
     "SCREW1"
   ],
-  "moved_or_flipped_count": 76,
+  "moved_or_flipped_count": 78,
   "front_components": 52,
   "back_components": 70,
   "tracks_arcs_vias": 0,
@@ -71,7 +69,7 @@
       "to": "H2",
       "net": "VBAT",
       "before_mm": 16.409,
-      "after_mm": 8.122
+      "after_mm": 9.216
     },
     {
       "from": "C1",
@@ -102,5 +100,50 @@
       "after_mm": 2.001
     }
   ],
-  "manufacturing_release": false
+  "manufacturing_release": false,
+  "original_signal_pads": 555,
+  "added_unconnected_mount_pads": 4,
+  "schematic_changes": "Only H1/H2 part properties changed; pins, wires, UUIDs and all other symbols unchanged.",
+  "connector_revision": {
+    "H1": {
+      "xy": [
+        130.0,
+        113.0
+      ],
+      "angle": -90.0,
+      "side": "F",
+      "value": "BM02B-ACHSS-GAN-ETF",
+      "case_xy_mm": [
+        19,
+        64
+      ],
+      "wire_exit_case": "+X",
+      "pin_nets": {
+        "1": "MOTOR_OUT_N",
+        "2": "MOTOR_OUT_P"
+      }
+    },
+    "H2": {
+      "xy": [
+        142.0,
+        109.0
+      ],
+      "angle": -90.0,
+      "side": "F",
+      "value": "BM03B-ACHSS-GAN-ETF",
+      "case_xy_mm": [
+        7,
+        60
+      ],
+      "wire_exit_case": "+X",
+      "pin_nets": {
+        "1": "VBAT",
+        "2": "BAT_TS",
+        "3": "GBAT"
+      }
+    }
+  },
+  "erc_matches_reference": true,
+  "erc_existing_warnings": 9,
+  "erc_errors": 0
 }

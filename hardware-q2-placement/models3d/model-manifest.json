@@ -2706,127 +2706,6 @@
       "model_sha256": "03f16c09ee4ce52c6dfac343b58e7f35ebdd96464feecc1f763644b0b34c5d11"
     },
     {
-      "footprint": "HDR-TH_2P-P2.54-V-F",
-      "references": [
-        "H1"
-      ],
-      "file": "HDR-TH_2P-P2.54-V-F.step",
-      "pads": [
-        {
-          "number": "1",
-          "position": [
-            -1.27,
-            0.0
-          ],
-          "size": [
-            1.7,
-            1.7
-          ],
-          "angle": 0,
-          "type": "thru_hole"
-        },
-        {
-          "number": "2",
-          "position": [
-            1.27,
-            0.0
-          ],
-          "size": [
-            1.7,
-            1.7
-          ],
-          "angle": 0,
-          "type": "thru_hole"
-        }
-      ],
-      "kind": "socket",
-      "bounds": [
-        -2.74,
-        -1.25,
-        2.74,
-        1.25
-      ],
-      "height": 5.5,
-      "quality": "approximate low-profile connector model",
-      "source": "source footprint; socket height5.5 assumed to match existing mechanical reservation, actual part not selected",
-      "model_bounds_xyz_mm": [
-        -2.74,
-        -1.25,
-        -2.8,
-        2.74,
-        1.25,
-        5.5
-      ],
-      "model_sha256": "83a9e3354f962e79d03d63852a559f2d9b3ddb56931dbb941b9882f9911544ec"
-    },
-    {
-      "footprint": "HDR-TH_3P-P2.54-V-M",
-      "references": [
-        "H2"
-      ],
-      "file": "HDR-TH_3P-P2.54-V-M.step",
-      "pads": [
-        {
-          "number": "1",
-          "position": [
-            -2.54,
-            0.0
-          ],
-          "size": [
-            1.7,
-            1.7
-          ],
-          "angle": 0,
-          "type": "thru_hole"
-        },
-        {
-          "number": "2",
-          "position": [
-            0.0,
-            0.0
-          ],
-          "size": [
-            1.7,
-            1.7
-          ],
-          "angle": 0,
-          "type": "thru_hole"
-        },
-        {
-          "number": "3",
-          "position": [
-            2.54,
-            0.0
-          ],
-          "size": [
-            1.7,
-            1.7
-          ],
-          "angle": 0,
-          "type": "thru_hole"
-        }
-      ],
-      "kind": "header",
-      "bounds": [
-        -3.81,
-        -1.25,
-        3.81,
-        1.25
-      ],
-      "height": 5.5,
-      "quality": "approximate short-pin connector model",
-      "source": "source footprint; pin protrusion chosen within5.5 reservation, actual part not selected",
-      "model_bounds_xyz_mm": [
-        -3.81,
-        -1.25,
-        -2.8,
-        3.81,
-        1.25,
-        5.500000000000001
-      ],
-      "model_sha256": "e177b16bff799974b9af9f4248bcf3fc630af409998ab714be629970996834e1"
-    },
-    {
       "footprint": "IND-SMD_L2.0-W1.6",
       "references": [
         "L1",
@@ -6313,6 +6192,32 @@
         0.41200000000000003
       ],
       "model_sha256": "9a46c942437d45669506529ecb44d16ebc8aeb411eb8a0f14e39dac327551c1c"
+    },
+    {
+      "footprint": "JST_ACH_BM02B-ACHSS-GAN-ETF_1x02-1MP_P1.20mm_Vertical",
+      "references": [
+        "H1"
+      ],
+      "file": "JST_ACH_BM02B-ACHSS-GAN-ETF_1x02-1MP_P1.20mm_Vertical.step",
+      "kind": "connector",
+      "quality": "Conservative nominal mated envelope; not vendor CAD",
+      "source": "JST eACH.pdf overall dimensions; scripts/build_ach_models.py",
+      "datasheet": "https://www.jst-mfg.com/product/pdf/eng/eACH.pdf",
+      "height": 1.4,
+      "model_sha256": "563af36e2fb2a759491c6ea917a6824c10015464bc056296f6926253fed5cdf7"
+    },
+    {
+      "footprint": "JST_ACH_BM03B-ACHSS-GAN-ETF_1x03-1MP_P1.20mm_Vertical",
+      "references": [
+        "H2"
+      ],
+      "file": "JST_ACH_BM03B-ACHSS-GAN-ETF_1x03-1MP_P1.20mm_Vertical.step",
+      "kind": "connector",
+      "quality": "Conservative nominal mated envelope; not vendor CAD",
+      "source": "JST eACH.pdf overall dimensions; scripts/build_ach_models.py",
+      "datasheet": "https://www.jst-mfg.com/product/pdf/eng/eACH.pdf",
+      "height": 1.4,
+      "model_sha256": "855f8bf29ff23853f95888f479ae3c95757df6fad9b855e900a914993451bf0c"
     }
   ]
 }

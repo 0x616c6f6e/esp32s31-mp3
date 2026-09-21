@@ -8,6 +8,8 @@ from pathlib import Path
 import sys,json,math,hashlib,collections
 import pcbnew as pcb
 P=Path(__file__).resolve().parents[1];ROOT=P.parent;SRC=ROOT/'hardware-q2/hardware.kicad_pcb'
+if 'BM02B-ACHSS' in (P/'hardware.kicad_pcb').read_text(encoding='utf8'):
+    raise SystemExit('Connector revision exists. This historical generator would overwrite it; use the current PCB for manual layout.')
 sys.path.insert(0,str(ROOT/'tmp'));from sexpr import parse,dump,get,children
 tree=parse(SRC.read_text(encoding='utf8'))
 removed=collections.Counter(n[0] for n in tree if isinstance(n,list) and (n[0] in ['segment','arc','via'] or n[0]=='zone' and not get(n,'keepout')))

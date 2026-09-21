@@ -1,0 +1,47 @@
+{
+  "q2-f-housing": {
+    "step_valid": true,
+    "step_relative_volume_error": 4.980618062439097e-07,
+    "stl_closed": true
+  },
+  "q2-f-rear-cover": {
+    "step_valid": true,
+    "step_relative_volume_error": 2.3548946698024604e-15,
+    "stl_closed": true
+  },
+  "q2-f-wheel-rocker": {
+    "step_valid": true,
+    "step_relative_volume_error": 4.3252586779149007e-16,
+    "stl_closed": true
+  },
+  "q2-f-center-button": {
+    "step_valid": true,
+    "step_relative_volume_error": 6.370017434182646e-16,
+    "stl_closed": true
+  },
+  "control-board-mechanical": {
+    "step_valid": true,
+    "step_relative_volume_error": 1.421105260247169e-15
+  },
+  "saved_cover_border_left_right_top_mm": [
+    2.0000001,
+    2.000000100000001,
+    2.0000001000000003
+  ],
+  "pcb_unchanged": true,
+  "files_sha256": {
+    "assembly-F-current-PCB.step": "7926f9a2ee0b908b0b0fe530cb76de2d1987dc8a5c096cc1513a6b90416714ec",
+    "control-board-features.csv": "5ae6b95c3ffe3a3b8f0a828b51b52f95f822d2cda02285d207446465bcc7f8d7",
+    "control-board-mechanical.step": "031905224441a19ba36ef04993f3d0fecfd1c450ed950ee47bc1c60b18f1bcd5",
+    "control-board-outline.dxf": "2c0c92209de058c6b7556bebf40c7daa77a47f8ef41edce999c617186cb7d3a5",
+    "mainboard-reference-envelope.step": "5e66898729a79419345bb54c4823c2598cfe6125cdef606e5c8756c27fadbedd",
+    "q2-f-center-button.step": "2a99188e50e141b76c9a2c6ef8f3eb6869ccdd03801cb79863a213439add17ae",
+    "q2-f-center-button.stl": "304731d11233899c47ed92f0a1f663cb65238b753f79e71d106643b1f67ee7eb",
+    "q2-f-housing.step": "dab2b95f22c5b3dd8f03e9998c97d253eecd9e31b8af7e799e94bc8c173e0758",
+    "q2-f-housing.stl": "7c802a7f1f997c31edcada47fbfca21b8d6acbf37244869c63d41da5ec9d9df6",
+    "q2-f-rear-cover.step": "d071d54c86b9b34671ae7b6ed42aadcc70b6ba3df93d7a411537e59181973605",
+    "q2-f-rear-cover.stl": "7d8d0207af0bb0ede36aa9e1ec6c245a1259f9f98f688e704c61aa5adafdd1a7",
+    "q2-f-wheel-rocker.step": "eb3defcafc0d831ee507f00010bf95de90c822ae681d5c321ea092195d87b810",
+    "q2-f-wheel-rocker.stl": "7de7f713d8e0a3068d3356970a7cb69678b243ce06aa03c57dc71e2387b18442"
+  }
+}

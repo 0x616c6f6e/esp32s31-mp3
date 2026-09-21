@@ -4625,7 +4625,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "BM02B-ACHSS-GAN-ETF"
 			(at 189.23 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4634,8 +4634,9 @@
 					(size 1.27 1.27)
 				)
 			)
+			(hide yes)
 		)
-		(property "Footprint" "MP3_Source:HDR-TH_2P-P2.54-V-F"
+		(property "Footprint" "MP3_Source:JST_ACH_BM02B-ACHSS-GAN-ETF_1x02-1MP_P1.20mm_Vertical"
 			(at 189.23 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -4646,7 +4647,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eACH.pdf"
 			(at 189.23 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -4657,7 +4658,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LRA motor; pin 1 OUT_N, pin 2 OUT_P"
 			(at 189.23 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -4668,7 +4669,7 @@
 				)
 			)
 		)
-		(property "Supplier Part" "C49661"
+		(property "Supplier Part" ""
 			(at 189.23 63.5 0)
 			(hide yes)
 			(show_name no)

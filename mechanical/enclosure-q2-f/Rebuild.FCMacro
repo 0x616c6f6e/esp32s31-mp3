@@ -1,0 +1,8 @@
+from pathlib import Path
+import FreeCAD as App
+folder=Path(__file__).resolve().parent
+if any(d.FileName and Path(d.FileName).parent.resolve()==folder for d in App.listDocuments().values()):
+    raise RuntimeError('Save and close revision F before rebuilding.')
+for name in ['build_enclosure.py','prepare_views.py']:
+    s=folder/name
+    exec(compile(s.read_text(encoding='utf8'),str(s),'exec'),{'__file__':str(s)})

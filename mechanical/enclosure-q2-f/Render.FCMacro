@@ -1,0 +1,9 @@
+"""Render the already-built F assembly in an isolated FreeCAD instance."""
+from pathlib import Path
+import FreeCAD as App,FreeCADGui as Gui
+from PySide import QtCore
+folder=Path(__file__).resolve().parent
+scope={'__file__':str(folder/'prepare_views.py')}
+exec(compile((folder/'prepare_views.py').read_text(encoding='utf8'),str(folder/'prepare_views.py'),'exec'),scope)
+App.closeDocument(scope['doc'].Name)
+QtCore.QTimer.singleShot(200,Gui.getMainWindow().close)
