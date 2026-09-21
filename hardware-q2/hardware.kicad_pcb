@@ -1084,6 +1084,11 @@
 			(uuid "4603de44-3501-45f4-b356-6e284c7e2de7")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/models3d/WQFN-24_L4.0-W4.0-P0.50-TL-EP2.7.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
+		)
 	)
 	(footprint "MP3_Source:VSSOP-10_L3.0-W3.0-P0.50-LS4.9-BL"
 		(layer "F.Cu")
@@ -1668,16 +1673,10 @@
 			(uuid "d59a4d9e-9f7b-4c1d-9488-31286918d9e1")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/VSSOP-10_L3.0-W3.0-H1.1-LS4.9-P0.50.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -90)
-			)
+		(model "${KIPRJMOD}/models3d/VSSOP-10_L3.0-W3.0-P0.50-LS4.9-BL.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:R0402"
@@ -1982,16 +1981,10 @@
 			(uuid "d03d90e2-38c0-489f-a215-8dc952e88484")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/R0402_L1.0-W0.5-H0.4.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/R0402.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:HDR-TH_3P-P2.54-V-M"
@@ -2251,16 +2244,10 @@
 			(uuid "f82cb6ab-af2a-4f76-97f8-eafdc5352feb")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/HDR-TH_3P-P2.54-M-LI-1X3P.step"
-			(offset
-				(xyz 0 0 -3)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/HDR-TH_3P-P2.54-V-M.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:R0402"
@@ -2565,16 +2552,10 @@
 			(uuid "3100265a-3b48-448a-a129-97bfc337f996")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/R0402_L1.0-W0.5-H0.4.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/R0402.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:C0402_1"
@@ -3031,16 +3012,10 @@
 			(uuid "1a3aeccb-d572-4880-899c-9e1dadaa60ae")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/C0402_L1.0-W0.5-H0.5.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/C0402_1.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:C0402_1"
@@ -3497,16 +3472,10 @@
 			(uuid "f60e0ffa-4100-4e32-b430-dbcd16f99388")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/C0402_L1.0-W0.5-H0.5.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/C0402_1.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:R0402_1"
@@ -3943,16 +3912,10 @@
 			(uuid "e7446c54-8b9e-4b21-b9a8-bd9c8d52baee")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/R0402_L1.0-W0.5-H0.5.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/R0402_1.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:TQFN-16_L3.0-W3.0-P0.50-BL-EP1.7"
@@ -4774,16 +4737,10 @@
 			(uuid "a26b8508-7a13-4926-b5f6-e9acd582765c")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/TQFN-16_L3.0-W3.0-P0.50-BL-EP1.7.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/TQFN-16_L3.0-W3.0-P0.50-BL-EP1.7.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:R0402"
@@ -5088,16 +5045,10 @@
 			(uuid "bd5cfd7c-0322-428b-925c-484936e32cb3")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/R0402_L1.0-W0.5-H0.4.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/R0402.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:C0603"
@@ -5516,16 +5467,10 @@
 			(uuid "ad1dd689-5855-496c-866b-b733dcb02a82")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/C0603_L1.6-W0.8-H0.8.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/C0603.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:L0603"
@@ -5882,16 +5827,10 @@
 			(uuid "cc1ae2f8-17dc-40c7-b79a-3eb277db7562")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/L0603_L1.6-W0.8-H0.5_BEAD.step"
-			(offset
-				(xyz 0.0025 0.016 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -180)
-			)
+		(model "${KIPRJMOD}/models3d/L0603.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:C0402_1"
@@ -6348,16 +6287,10 @@
 			(uuid "bffc7f22-5159-450c-bb8c-0c40f63c7840")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/C0402_L1.0-W0.5-H0.5.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/C0402_1.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:C0402"
@@ -6680,16 +6613,10 @@
 			(uuid "41da91d9-2284-414c-8624-429925b3ea1b")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/C0402_L1.0-W0.5-H0.5.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/C0402.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:C0402_1"
@@ -7146,16 +7073,10 @@
 			(uuid "a8b41066-6790-4c45-acee-b722932dcc01")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/C0402_L1.0-W0.5-H0.5.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/C0402_1.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:R0402"
@@ -7461,16 +7382,10 @@
 			(uuid "464c1a9b-774d-4385-8e0b-c016dca47dd9")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/R0402_L1.0-W0.5-H0.4.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/R0402.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:C0603"
@@ -7889,16 +7804,10 @@
 			(uuid "12dd6ad5-224f-4840-95cf-5b61d44b9b86")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/C0603_L1.6-W0.8-H0.8.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/C0603.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:MountingHole_2.2mm"
@@ -8320,16 +8229,10 @@
 			(uuid "a719bf2d-4a83-42eb-bd2c-52e69729073b")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/R0402_L1.0-W0.5-H0.4.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/R0402.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:C0402_1"
@@ -8786,16 +8689,10 @@
 			(uuid "d5f19371-61d4-4bdc-827a-6d12404fe928")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/C0402_L1.0-W0.5-H0.5.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/C0402_1.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:C0402_1"
@@ -9252,16 +9149,10 @@
 			(uuid "eaf1eb20-aadf-40ec-869d-7bcb9ed93a43")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/C0402_L1.0-W0.5-H0.5.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/C0402_1.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:C0402_1"
@@ -9718,16 +9609,10 @@
 			(uuid "97bf4fed-9ab9-41d3-9889-b198cd3d343a")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/C0402_L1.0-W0.5-H0.5.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/C0402_1.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:C0402_1"
@@ -10184,16 +10069,10 @@
 			(uuid "f0ae50dd-8f4f-424f-baeb-ca36ccb8da87")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/C0402_L1.0-W0.5-H0.5.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/C0402_1.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:R0402"
@@ -10498,16 +10377,10 @@
 			(uuid "ee258571-99bc-45a2-b2ce-3f7c9482dc2e")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/R0402_L1.0-W0.5-H0.4.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/R0402.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:C0402_1"
@@ -10964,16 +10837,10 @@
 			(uuid "d499fc33-360c-4962-89cd-e8d4e4a572b1")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/C0402_L1.0-W0.5-H0.5.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/C0402_1.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:RTC-SMD_L3.2-W2.5-P0.7-RX8130CE"
@@ -11398,16 +11265,10 @@
 			(uuid "215031d2-bef9-4f0b-92ec-b8ef4eb6f214")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/RTC-SMD_L3.2-W2.5-P0.7-RX8130CE.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/RTC-SMD_L3.2-W2.5-P0.7-RX8130CE.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:R0402"
@@ -11712,16 +11573,10 @@
 			(uuid "10cb2878-3ee5-49b6-9ad9-5173e16c5456")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/R0402_L1.0-W0.5-H0.4.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/R0402.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:USB-C-SMD_TYPE-C-16PIN-2MD-073"
@@ -12532,16 +12387,10 @@
 			(uuid "8f30d5db-c097-4d38-9d23-e2fc73788674")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/USB-C-SMD_TYPE-C-6PIN-2MD-073.step"
-			(offset
-				(xyz 0 -1.2 -0.9)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/USB-C-SMD_TYPE-C-16PIN-2MD-073.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:C0402"
@@ -12864,16 +12713,10 @@
 			(uuid "5f392bfa-7c61-4aa4-b99a-848dbee7d1a8")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/C0402_L1.0-W0.5-H0.5.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/C0402.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:VQFN-14_L3.5-W3.5-P0.50-BL-EP"
@@ -13785,16 +13628,10 @@
 			(uuid "a4de4af9-18a6-475a-b72e-913526d9cdf6")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/VQFN-14_L3.5-W3.5-H1.0-P0.50.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/VQFN-14_L3.5-W3.5-P0.50-BL-EP.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:CONN-SMD_ESP32-S31-WROOM-3"
@@ -14681,6 +14518,11 @@
 			(uuid "5dc902f7-f270-4ac1-9418-c01c84f7535d")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/models3d/CONN-SMD_ESP32-S31-WROOM-3.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
+		)
 	)
 	(footprint "MP3_Source:QFN-40_L5.0-W5.0-P0.40-TL-EP3.6_1"
 		(layer "F.Cu")
@@ -16999,6 +16841,11 @@
 			(uuid "88e59f77-0ff9-4a91-8b77-1272075e78bb")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/models3d/QFN-40_L5.0-W5.0-P0.40-TL-EP3.6_1.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
+		)
 	)
 	(footprint "MP3_Source:C0402_1"
 		(layer "F.Cu")
@@ -17454,16 +17301,10 @@
 			(uuid "b774ab8d-5e4e-4ae6-b9dd-55b4c506b562")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/C0402_L1.0-W0.5-H0.5.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/C0402_1.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:C0402"
@@ -17786,16 +17627,10 @@
 			(uuid "5fa24be4-2ad3-4403-81b7-715a64b85265")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/C0402_L1.0-W0.5-H0.5.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/C0402.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:R0402"
@@ -18100,16 +17935,10 @@
 			(uuid "351a3d0f-2a13-412a-b5c0-6f27e3a58566")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/R0402_L1.0-W0.5-H0.4.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/R0402.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:C0402_1"
@@ -18566,16 +18395,10 @@
 			(uuid "e809a89e-1d54-47de-a561-ed5517e5757a")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/C0402_L1.0-W0.5-H0.5.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/C0402_1.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:HDR-TH_2P-P2.54-V-F"
@@ -18803,16 +18626,10 @@
 			(uuid "1977c5b2-6b0f-43bc-b6c7-02bf93dcd41f")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/HDR-TH_2P-P2.54-F-LI-1X2P.step"
-			(offset
-				(xyz 0 0 -3.3)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/HDR-TH_2P-P2.54-V-F.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:C0402_1"
@@ -19269,16 +19086,10 @@
 			(uuid "56850526-2f89-4804-ab63-7fffaa85d1f9")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/C0402_L1.0-W0.5-H0.5.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/C0402_1.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:C0402_1"
@@ -19735,16 +19546,10 @@
 			(uuid "da9907e8-fad0-47d9-86c8-dd2040da0c2f")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/C0402_L1.0-W0.5-H0.5.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/C0402_1.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:C0603_1_C2"
@@ -20067,16 +19872,10 @@
 			(uuid "f88583dd-ad9b-4aa5-aeaf-1e47bd105e3d")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/C0603_L1.6-W0.8-H0.8.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/C0603_1_C2.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:C0402_1"
@@ -20533,16 +20332,10 @@
 			(uuid "863594c1-1db1-4c2d-a8e4-3f4a80cecf17")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/C0402_L1.0-W0.5-H0.5.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/C0402_1.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:MountingHole_2.2mm"
@@ -20982,16 +20775,10 @@
 			(uuid "5fa89aca-5711-4855-a30e-5aac867e3d67")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/C0402_L1.0-W0.5-H0.5.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/C0402.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:R0402"
@@ -21296,16 +21083,10 @@
 			(uuid "266f2481-81e8-472e-a97c-1c165d33754e")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/R0402_L1.0-W0.5-H0.4.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/R0402.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:C0402"
@@ -21628,16 +21409,10 @@
 			(uuid "ad60c2f4-5970-490e-9ea8-8f9d1d4253c1")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/C0402_L1.0-W0.5-H0.5.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/C0402.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:C0402_1"
@@ -22082,16 +21857,10 @@
 			(uuid "f831154d-94e6-4a73-a3b5-843db10901d4")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/C0402_L1.0-W0.5-H0.5.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/C0402_1.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:C0603_1_C12"
@@ -22414,16 +22183,10 @@
 			(uuid "5c6a313b-34f0-426e-8e5f-b4e13e92992e")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/C0603_L1.6-W0.8-H0.8.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/C0603_1_C12.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:C0402_1"
@@ -22868,16 +22631,10 @@
 			(uuid "57528738-73e2-4f36-a745-2bd26ebbf60b")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/C0402_L1.0-W0.5-H0.5.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/C0402_1.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL-2"
@@ -23286,16 +23043,10 @@
 			(uuid "601598c4-ab35-4124-9d2b-59b1afd65c94")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL-2.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL-2.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:C0402"
@@ -23618,16 +23369,10 @@
 			(uuid "9fcb461f-e864-4167-9f7a-b997e632cdba")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/C0402_L1.0-W0.5-H0.5.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/C0402.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:C0805"
@@ -23976,16 +23721,10 @@
 			(uuid "82eae3ce-ee78-41be-bae8-812a6c804fb0")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/C0805_L2.0-W1.3-H1.3.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/C0805.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:C0402_1"
@@ -24442,16 +24181,10 @@
 			(uuid "96332bb1-9205-4235-9df2-0a03d0bb360f")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/C0402_L1.0-W0.5-H0.5.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/C0402_1.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:CRYSTAL-SMD_4P-L3.2-W2.5-BL_1"
@@ -24911,16 +24644,10 @@
 			(uuid "fa8003a8-96fc-48ef-92ae-a8698b295baf")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/OSC-SMD_4P-L3.2-W2.5-H1.0.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/CRYSTAL-SMD_4P-L3.2-W2.5-BL_1.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:C0402"
@@ -25243,16 +24970,10 @@
 			(uuid "979803ef-ee5f-46f6-9343-c18dd21f84ce")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/C0402_L1.0-W0.5-H0.5.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/C0402.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:X2SON-8_L1.4-W1.0-P0.35-BL"
@@ -25723,16 +25444,10 @@
 			(uuid "84d6a81d-8307-4cea-8906-7693e3541f89")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/X2SON-8_L1.4-W1.0-H0.4-P0.35-BL.step"
-			(offset
-				(xyz 0 0.0155 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -180)
-			)
+		(model "${KIPRJMOD}/models3d/X2SON-8_L1.4-W1.0-P0.35-BL.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:C0603_1_C14"
@@ -26055,16 +25770,10 @@
 			(uuid "249e54b9-c1d8-4eeb-b0d2-ecffd8ae2746")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/C0603_L1.6-W0.8-H0.8.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/C0603_1_C14.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:C0402"
@@ -26387,16 +26096,10 @@
 			(uuid "017c9b18-ff7b-457e-8104-20e51ee6f980")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/C0402_L1.0-W0.5-H0.5.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/C0402.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:DFN-10_L3.0-W2.0-P0.50-BL"
@@ -26861,16 +26564,10 @@
 			(uuid "300ad25d-130f-4d88-8b28-3e41a3dd746d")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/DFN-10_L3.0-W2.0-P0.50-BL.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/DFN-10_L3.0-W2.0-P0.50-BL.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:MountingHole_2.2mm"
@@ -27316,16 +27013,10 @@
 			(uuid "46dc6ed1-83fc-481f-b93e-e994cfacff2d")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/R0402_L1.0-W0.5-H0.4.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/R0402.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:AUDIO-SMD_PJ-342B-TX-SMT"
@@ -28004,16 +27695,10 @@
 			(uuid "cb2dda19-11d6-4edb-bb21-a03c0c8ae0b0")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/AUDIO-PJ342B_L14.0-W6.4-H4.5.step"
-			(offset
-				(xyz -1.895 0.084 -0.5)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -90)
-			)
+		(model "${KIPRJMOD}/models3d/AUDIO-SMD_PJ-342B-TX-SMT.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:R0402"
@@ -28318,16 +28003,10 @@
 			(uuid "c74e8d8e-e3e5-44c3-8184-ad23fbcce803")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/R0402_L1.0-W0.5-H0.4.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/R0402.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:C0603_1_C10"
@@ -28650,16 +28329,10 @@
 			(uuid "a1f3ed10-8037-47a1-ba5a-2ff1981db59c")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/C0603_L1.6-W0.8-H0.8.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/C0603_1_C10.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:C0402"
@@ -28982,16 +28655,10 @@
 			(uuid "31a6cf03-0bac-4a22-b4c3-4778cfc15761")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/C0402_L1.0-W0.5-H0.5.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/C0402.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:C0402"
@@ -29314,16 +28981,10 @@
 			(uuid "2e899364-2d92-4f6c-b95d-f99e366e1cbd")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/C0402_L1.0-W0.5-H0.5.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/C0402.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:C0402"
@@ -29646,16 +29307,10 @@
 			(uuid "1f2725c6-88c0-4b4d-b4fa-e846bdc19a68")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/C0402_L1.0-W0.5-H0.5.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/C0402.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:LGA-14_L3.0-W2.5-P0.50-TL"
@@ -30216,16 +29871,10 @@
 			(uuid "7258c4fd-ba88-4e8a-a1a9-df0fa0e4c18e")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/LGA-14_L2.5-W3.0-H0.9-P0.50.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/LGA-14_L3.0-W2.5-P0.50-TL.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL"
@@ -30754,16 +30403,10 @@
 			(uuid "5b229c8b-0418-4af0-ab4c-519947f230c0")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/SOT-23-6_L2.9-W1.6-H1.5-LS2.8-P0.95.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -180)
-			)
+		(model "${KIPRJMOD}/models3d/SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:SOD-123_L2.8-W1.8-LS3.7-RD"
@@ -31266,16 +30909,10 @@
 			(uuid "2d662c32-5235-47c3-a5a6-aaa4a8f39cd6")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/SOD-123_L2.8-W1.8-LS3.7-RD.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/SOD-123_L2.8-W1.8-LS3.7-RD.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:R0402"
@@ -31581,16 +31218,10 @@
 			(uuid "123fd7db-ac98-42f6-9892-d0dfb005ec60")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/R0402_L1.0-W0.5-H0.4.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/R0402.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR_1"
@@ -32146,16 +31777,10 @@
 			(uuid "41f91a1c-7c60-4802-88dc-c03e1e8962ea")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/SOT-23-5_L2.9-W1.6-H1.1-LS2.8-P0.95.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -90)
-			)
+		(model "${KIPRJMOD}/models3d/SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR_1.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:C0402_1"
@@ -32612,16 +32237,10 @@
 			(uuid "b16b6c03-8696-4ed0-9e08-c3b7d7fe4eca")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/C0402_L1.0-W0.5-H0.5.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/C0402_1.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:C0402"
@@ -32944,16 +32563,10 @@
 			(uuid "f11ca6fc-3efc-4648-8713-42d303169efb")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/C0402_L1.0-W0.5-H0.5.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/C0402.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:R1206"
@@ -33272,16 +32885,10 @@
 			(uuid "217ce484-f001-43f0-a97d-4fe7ef7c22c9")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/R1206_L3.2-W1.6-H0.6.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/R1206.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:IND-SMD_L2.0-W1.6"
@@ -33652,16 +33259,10 @@
 			(uuid "954b1662-745b-45c6-841a-5f1a34efc501")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/IND-SMD_L2.0-W1.6-H1.1.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -90)
-			)
+		(model "${KIPRJMOD}/models3d/IND-SMD_L2.0-W1.6.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:C0402"
@@ -33984,16 +33585,10 @@
 			(uuid "3e0c9201-46f0-4d2e-9939-99f7797e7401")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/C0402_L1.0-W0.5-H0.5.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/C0402.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:C0603_1_C9"
@@ -34316,16 +33911,10 @@
 			(uuid "179d53d4-eb8a-4df1-952d-b50d1a30a42b")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/C0603_L1.6-W0.8-H0.8.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/C0603_1_C9.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:C0402_1"
@@ -34770,16 +34359,10 @@
 			(uuid "42ad82b9-11d7-4e1a-9dc3-1eb3c7892a99")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/C0402_L1.0-W0.5-H0.5.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/C0402_1.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:TF-SMD_TF-PUSH"
@@ -35971,16 +35554,10 @@
 			(uuid "1219de82-17cc-4783-b642-a53d093455f0")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/TF-SMD_TF-PUSH.step"
-			(offset
-				(xyz 0 -2.094 -0.6)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/TF-SMD_TF-PUSH.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:R0402"
@@ -36285,16 +35862,10 @@
 			(uuid "d9fe1f97-9c86-4f63-b1b4-69d3e1c0c355")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/R0402_L1.0-W0.5-H0.4.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/R0402.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:C0402"
@@ -36617,16 +36188,10 @@
 			(uuid "dd9467e4-fe59-485f-9003-346f3c59c6ba")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/C0402_L1.0-W0.5-H0.5.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/C0402.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:MSOP-10_L3.0-W3.0-P0.50-LS4.9-BL"
@@ -37242,16 +36807,10 @@
 			(uuid "ad9b52b0-fe56-4710-affd-97e63168550e")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/MSOP-10_L3.0-W3.0-H1.1-LS5.0-P0.50.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/MSOP-10_L3.0-W3.0-P0.50-LS4.9-BL.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:C0402"
@@ -37574,16 +37133,10 @@
 			(uuid "4af46620-c0c6-47d6-8599-18b98fc382b8")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/C0402_L1.0-W0.5-H0.5.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/C0402.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:IND-SMD_L2.0-W1.6"
@@ -37954,16 +37507,10 @@
 			(uuid "9e8c6a63-097d-454f-8852-f633e3cc0217")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/IND-SMD_L2.0-W1.6-H1.1.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -90)
-			)
+		(model "${KIPRJMOD}/models3d/IND-SMD_L2.0-W1.6.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:R0402_1"
@@ -38400,16 +37947,10 @@
 			(uuid "00984d76-8a6f-49d2-8efb-04298bbed021")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/R0402_L1.0-W0.5-H0.5.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/R0402_1.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:C0402_1"
@@ -38866,16 +38407,10 @@
 			(uuid "02dfdde3-70d5-4308-a472-e4beba61a426")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/C0402_L1.0-W0.5-H0.5.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/C0402_1.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:R0402"
@@ -39181,16 +38716,10 @@
 			(uuid "02288151-9857-40a4-9459-2363bc66ec23")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/R0402_L1.0-W0.5-H0.4.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/R0402.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:C0402_1"
@@ -39647,16 +39176,10 @@
 			(uuid "034e6d89-9c0c-47c7-8e1b-a181e0e50204")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/C0402_L1.0-W0.5-H0.5.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/C0402_1.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:R0402_2"
@@ -40081,16 +39604,10 @@
 			(uuid "a49d0288-565c-49de-bf53-86d4fbafe7eb")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/R0402_L1.0-W0.5-H0.5.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/R0402_2.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:MountingHole_2.2mm"
@@ -40530,16 +40047,10 @@
 			(uuid "2ad715c7-16d5-4daa-ad09-c53c8ee08c2c")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/C0603_L1.6-W0.8-H0.8.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/C0603_1_C15.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR"
@@ -41009,16 +40520,10 @@
 			(uuid "1a9c4840-d6d3-431a-9fb7-fc13b8aac470")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/SOT-23-5_L2.9-W1.6-H1.1-LS2.8-P0.95.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -180)
-			)
+		(model "${KIPRJMOD}/models3d/SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:C0603_1_C1"
@@ -41341,16 +40846,10 @@
 			(uuid "bc8a8100-b7cd-4a07-8427-b7b8ceaf460d")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/C0603_L1.6-W0.8-H0.8.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/C0603_1_C1.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:R0402"
@@ -41656,16 +41155,10 @@
 			(uuid "d51afe62-ca65-44d3-9f9d-e893409a54bd")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/R0402_L1.0-W0.5-H0.4.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/R0402.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:R0402"
@@ -41970,16 +41463,10 @@
 			(uuid "692044dc-c995-4ef8-bddf-971df6bd7093")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/R0402_L1.0-W0.5-H0.4.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/R0402.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:R0402"
@@ -42284,16 +41771,10 @@
 			(uuid "1871d541-252b-4fd2-865a-b014aab71a4b")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/R0402_L1.0-W0.5-H0.4.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/R0402.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:R0402"
@@ -42598,16 +42079,10 @@
 			(uuid "0007a930-88e0-4220-a5c6-0e8d213d364c")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/R0402_L1.0-W0.5-H0.4.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/R0402.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR"
@@ -43081,16 +42556,10 @@
 			(uuid "1f011d0d-b8f3-4866-86b8-8036b30501f1")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/SOT-23-5_L2.9-W1.6-H1.1-LS2.8-P0.95.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -180)
-			)
+		(model "${KIPRJMOD}/models3d/SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:R1206"
@@ -43401,16 +42870,10 @@
 			(uuid "93b447de-9d68-479f-9c9c-825de6c587d3")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/R1206_L3.2-W1.6-H0.6.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/R1206.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:R0402"
@@ -43719,16 +43182,10 @@
 			(uuid "eb982003-22ef-4a8a-9315-c87f98501767")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/R0402_L1.0-W0.5-H0.4.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/R0402.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:C0603_1"
@@ -44055,16 +43512,10 @@
 			(uuid "75d3bcf8-ec04-4ba9-968c-8f0910d68877")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/C0603_L1.6-W0.8-H0.8.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/C0603_1.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:R0402"
@@ -44377,16 +43828,10 @@
 			(uuid "f314f32c-b5b2-44ea-8092-276735ef67f2")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/R0402_L1.0-W0.5-H0.4.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/R0402.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:R0402"
@@ -44695,16 +44140,10 @@
 			(uuid "fd3b48c8-96ec-4d22-97dc-9a77bb93d77e")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/R0402_L1.0-W0.5-H0.4.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/R0402.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:R0402"
@@ -45013,16 +44452,10 @@
 			(uuid "384a5c6e-d8ca-4c0f-bdec-2850dbc713a3")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/R0402_L1.0-W0.5-H0.4.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/R0402.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:R0402"
@@ -45335,16 +44768,10 @@
 			(uuid "22d9d741-5563-4f97-87cb-346b748af14b")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/R0402_L1.0-W0.5-H0.4.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/R0402.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:R0402"
@@ -45657,16 +45084,10 @@
 			(uuid "8a69c0ae-b01d-4720-8638-886f123ad5c5")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/R0402_L1.0-W0.5-H0.4.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/R0402.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:IND-SMD_L2.0-W1.6"
@@ -46041,16 +45462,10 @@
 			(uuid "248b870a-34cd-4a18-80a5-54d625cb9d25")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/IND-SMD_L2.0-W1.6-H1.1.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -90)
-			)
+		(model "${KIPRJMOD}/models3d/IND-SMD_L2.0-W1.6.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:C0603_1"
@@ -46377,16 +45792,10 @@
 			(uuid "259f9b72-5ab7-49ba-8389-f69e763bae03")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/C0603_L1.6-W0.8-H0.8.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/C0603_1.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:R0402"
@@ -46695,16 +46104,10 @@
 			(uuid "bae1408a-1a05-4160-95c2-4c796f4565c0")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/R0402_L1.0-W0.5-H0.4.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/R0402.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:R0402"
@@ -47017,16 +46420,10 @@
 			(uuid "4a8e0773-7b6f-4c80-add2-008d79537b11")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/R0402_L1.0-W0.5-H0.4.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/R0402.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:R0402"
@@ -47339,16 +46736,10 @@
 			(uuid "1cb26108-eb23-44bf-9596-a5797b91f90c")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/R0402_L1.0-W0.5-H0.4.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/R0402.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:R0402"
@@ -47657,16 +47048,10 @@
 			(uuid "0d7f4bc4-9893-4b57-9880-f9bf943ad7d5")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/R0402_L1.0-W0.5-H0.4.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/R0402.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:R0402"
@@ -47975,16 +47360,10 @@
 			(uuid "67274acc-e0d3-4683-8496-76dc56ad2c82")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/R0402_L1.0-W0.5-H0.4.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/R0402.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:C0603_1"
@@ -48311,16 +47690,10 @@
 			(uuid "775293f4-d35c-4d76-aef9-7dbeb66e7a35")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/C0603_L1.6-W0.8-H0.8.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/C0603_1.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:C0402"
@@ -48768,16 +48141,10 @@
 			(uuid "cdfebf35-a266-4d12-8e6b-63209aaaf403")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/C0402_L1.0-W0.5-H0.5.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/C0402.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:CONN-TH-21P_AFE03-S21FMA-1H"
@@ -49655,16 +49022,10 @@
 			(uuid "d1956443-2301-4d17-ba9f-5c47e9256771")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/CONN-TH-21P_AFE03-S21FMA-1H.step"
-			(offset
-				(xyz 0 -0.303 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/CONN-TH-21P_AFE03-S21FMA-1H.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:C0402"
@@ -50112,16 +49473,10 @@
 			(uuid "eb65ead0-03da-4dad-9058-67ef60868f7d")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/C0402_L1.0-W0.5-H0.5.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/C0402.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:R0402"
@@ -50434,16 +49789,10 @@
 			(uuid "6e50e75e-bc9b-48f3-8b7f-1e1b5e4e9c40")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/R0402_L1.0-W0.5-H0.4.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/R0402.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:C0402"
@@ -50770,16 +50119,10 @@
 			(uuid "68a9090c-1035-46ae-b575-4b2e618ea40e")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/C0402_L1.0-W0.5-H0.5.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/C0402.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:C0603_1"
@@ -51106,16 +50449,10 @@
 			(uuid "91b7955b-37fd-4c55-bec0-01248bc29213")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/C0603_L1.6-W0.8-H0.8.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/C0603_1.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:R0402"
@@ -51428,16 +50765,10 @@
 			(uuid "bc31fa28-062f-45c7-bc29-3fec0e283463")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/R0402_L1.0-W0.5-H0.4.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/R0402.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:R0402"
@@ -51750,16 +51081,10 @@
 			(uuid "c3fc78d0-f3ad-4c3f-9e4b-909d73809cbe")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/R0402_L1.0-W0.5-H0.4.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/R0402.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:R0402"
@@ -52068,16 +51393,10 @@
 			(uuid "27d8400a-0670-4cab-86c5-6f8f67928940")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/R0402_L1.0-W0.5-H0.4.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/R0402.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:C0402"
@@ -52404,16 +51723,10 @@
 			(uuid "52ec9dd7-5813-498d-88b2-bd2ea81eda4d")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/C0402_L1.0-W0.5-H0.5.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/C0402.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:R0402"
@@ -52722,16 +52035,10 @@
 			(uuid "7f8639ca-9cc9-4c6f-8cd8-4303dafa275e")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/R0402_L1.0-W0.5-H0.4.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/R0402.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(footprint "MP3_Source:C0402"
@@ -53062,16 +52369,10 @@
 			(uuid "9926d5c0-07bf-4cb9-a846-9e9c615222ae")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/C0402_L1.0-W0.5-H0.5.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
+		(model "${KIPRJMOD}/models3d/C0402.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 		)
 	)
 	(gr_rect

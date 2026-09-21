@@ -444,15 +444,15 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/EASYEDA_MODELS/X2SON-8_L1.4-W1.0-H0.4-P0.35-BL.step"
+	(model "${KIPRJMOD}/models3d/X2SON-8_L1.4-W1.0-P0.35-BL.step"
 		(offset
-			(xyz 0 0.0155 0)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -0 -0 -180)
+			(xyz 0 0 0)
 		)
 	)
 )

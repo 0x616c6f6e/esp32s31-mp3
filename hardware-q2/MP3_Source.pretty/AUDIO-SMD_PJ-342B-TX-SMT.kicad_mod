@@ -682,15 +682,15 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/EASYEDA_MODELS/AUDIO-PJ342B_L14.0-W6.4-H4.5.step"
+	(model "${KIPRJMOD}/models3d/AUDIO-SMD_PJ-342B-TX-SMT.step"
 		(offset
-			(xyz -1.895 0.084 -0.5)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -0 -0 -90)
+			(xyz 0 0 0)
 		)
 	)
 )

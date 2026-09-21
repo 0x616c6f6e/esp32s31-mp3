@@ -1026,4 +1026,15 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/models3d/WQFN-24_L4.0-W4.0-P0.50-TL-EP2.7.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

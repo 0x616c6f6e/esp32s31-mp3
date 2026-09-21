@@ -402,7 +402,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/EASYEDA_MODELS/SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL-2.step"
+	(model "${KIPRJMOD}/models3d/SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL-2.step"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -410,7 +410,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -0 -0 -0)
+			(xyz 0 0 0)
 		)
 	)
 )

@@ -15,7 +15,12 @@ OUT=HERE/'exports'; OUT.mkdir(exist_ok=True)
 params=json.loads((HERE/'parameters.json').read_text(encoding='utf8'))
 layout=json.loads((ROOT/'hardware-q2/output/layout-data.json').read_text(encoding='utf8'))
 provenance=json.loads((HERE/'reference/source-manifest.json').read_text(encoding='utf8'))
-assert hashlib.sha256((ROOT/'hardware-q2/hardware.kicad_pcb').read_bytes()).hexdigest()==provenance['pcb_source_sha256'],'PCB changed: refresh the frozen reference BREP shapes before rebuilding.'
+import sys
+sys.path.insert(0,str(ROOT/'hardware-q2/scripts'))
+from verify_3d_models import verify_mechanical_baseline
+# Model references do not change the frozen PCB geometry. Keep the original
+# mechanical source hash; do not represent new STEP parts as fit-validated.
+verify_mechanical_baseline(ROOT,provenance['pcb_source_sha256'])
 assert hashlib.sha256((ROOT/'hardware-q2/output/layout-data.json').read_bytes()).hexdigest()==provenance['layout_data_sha256'],'Layout data changed: refresh the reference shapes before rebuilding.'
 DOCNAME='Q2_Enclosure_E'
 if any(n in App.listDocuments() for n in [DOCNAME,'ESP32S31_MP3_Q2_E']):

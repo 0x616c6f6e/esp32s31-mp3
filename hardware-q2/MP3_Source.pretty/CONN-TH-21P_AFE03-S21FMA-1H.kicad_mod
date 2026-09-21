@@ -864,15 +864,15 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/EASYEDA_MODELS/CONN-TH-21P_AFE03-S21FMA-1H.step"
+	(model "${KIPRJMOD}/models3d/CONN-TH-21P_AFE03-S21FMA-1H.step"
 		(offset
-			(xyz 0 -0.303 0)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -0 -0 -0)
+			(xyz 0 0 0)
 		)
 	)
 )

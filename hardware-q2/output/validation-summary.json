@@ -1,6 +1,6 @@
 {
   "date": "2026-09-21",
-  "pcb_sha256": "ce984be8cd00eccfb9ba1c35203b1fd6431c1c1a723471e4444699da7df6e87b",
+  "pcb_sha256": "38ec2f250a0dfde34730479848d6dcdbcba435a57be0948be6cf41a285258b5a",
   "drc_violations": 0,
   "unconnected_items": 0,
   "schematic_parity": 0,
@@ -28,5 +28,8 @@
   "screen_fpc_mating_verified": false,
   "component_heights_partly_assumed": true,
   "control_daughterboard_electrically_implemented": false,
-  "manufacturing_release": false
+  "manufacturing_release": false,
+  "mechanical_source_pcb_sha256": "ce984be8cd00eccfb9ba1c35203b1fd6431c1c1a723471e4444699da7df6e87b",
+  "mechanical_checks_scope": "Frozen approximate E envelopes; newly attached component STEP models not included in those checks",
+  "component_step_models_interference_validated": false
 }

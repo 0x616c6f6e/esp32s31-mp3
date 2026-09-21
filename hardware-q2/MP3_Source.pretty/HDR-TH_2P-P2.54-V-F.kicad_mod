@@ -212,15 +212,15 @@
 		(thermal_bridge_angle 90)
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/EASYEDA_MODELS/HDR-TH_2P-P2.54-F-LI-1X2P.step"
+	(model "${KIPRJMOD}/models3d/HDR-TH_2P-P2.54-V-F.step"
 		(offset
-			(xyz 0 0 -3.3)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -0 -0 -0)
+			(xyz 0 0 0)
 		)
 	)
 )

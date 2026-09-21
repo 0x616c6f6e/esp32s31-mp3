@@ -1149,15 +1149,15 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/EASYEDA_MODELS/TF-SMD_TF-PUSH.step"
+	(model "${KIPRJMOD}/models3d/TF-SMD_TF-PUSH.step"
 		(offset
-			(xyz 0 -2.094 -0.6)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -0 -0 -0)
+			(xyz 0 0 0)
 		)
 	)
 )

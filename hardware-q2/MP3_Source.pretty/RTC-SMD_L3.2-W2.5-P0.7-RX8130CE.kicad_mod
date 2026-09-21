@@ -405,7 +405,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/EASYEDA_MODELS/RTC-SMD_L3.2-W2.5-P0.7-RX8130CE.step"
+	(model "${KIPRJMOD}/models3d/RTC-SMD_L3.2-W2.5-P0.7-RX8130CE.step"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -413,7 +413,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -0 -0 -0)
+			(xyz 0 0 0)
 		)
 	)
 )

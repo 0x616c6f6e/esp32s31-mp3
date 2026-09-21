@@ -809,15 +809,15 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/EASYEDA_MODELS/USB-C-SMD_TYPE-C-6PIN-2MD-073.step"
+	(model "${KIPRJMOD}/models3d/USB-C-SMD_TYPE-C-16PIN-2MD-073.step"
 		(offset
-			(xyz 0 -1.2 -0.9)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -0 -0 -0)
+			(xyz 0 0 0)
 		)
 	)
 )
