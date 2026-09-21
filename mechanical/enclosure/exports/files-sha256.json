@@ -1,0 +1,13 @@
+{
+  "ESP32S31_MP3_Enclosure_A.FCStd": "5a45b234a201f39d1333ff6c8fe3ef464359ff33741aea9422db3ff74bc0e3a3",
+  "parameters.json": "a6edf6c3502e9e3c01d36b8a37cb702ba2b104b2b2b7f545f1973b8a78847a40",
+  "build_enclosure.py": "9aeb54014d282ab31fd2b4269c18b15cbc93dd35d21045c45a4815937b7dfb90",
+  "README.md": "36a880e459f5f91ad6032706149013782fc72d25000c58e236870401230bef1d",
+  "exports\\front-shell.stl": "5f522cbc77e1489cc86160226dfff05e01141ddca6d8eed017502f51bc55fe5f",
+  "exports\\power-button.stl": "05ab337b7ca65f94f0ec4805873d003af270bdff553a21f0eff4545c42d55a6b",
+  "exports\\rear-shell.stl": "5ae0d1e6c54e8a7a92305e1eed79a42734ab8dd6760947f56afa90f43e8fa690",
+  "exports\\assembly-reference.step": "cc8d37c0be4a3b36796ff063d599c30d695fa951b2772f1525fe061bb17f2a25",
+  "exports\\front-shell.step": "dfe6d588a470aa64e6e6e13f45c54f73049176c142480cb80f6f0b8d10b842f5",
+  "exports\\power-button.step": "6c996ac59ec202214b7721ee62cd6be4223d6eac0b1a2eeaaeef87b953048002",
+  "exports\\rear-shell.step": "5823c25f74cd65e91b89822df87331f2052c2884e071befcc5ce2321adc643cf"
+}

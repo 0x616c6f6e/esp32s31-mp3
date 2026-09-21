@@ -1,0 +1,6 @@
+{
+  "pcb_source_sha256": "60deebc60149e9abd5f80077752135f7d0ae33c0fbd682f53f78e2fe683c044c",
+  "layout_data_sha256": "5945a7c6a4e47d3fc0afa9c5567e7f734f71b850c2c9a8dfc3b11bf23ed0212b",
+  "source_A_file_sha256": "5a45b234a201f39d1333ff6c8fe3ef464359ff33741aea9422db3ff74bc0e3a3",
+  "note": "Frozen BREP reference shapes from enclosure A; component heights are assumed. Refresh references after PCB edits."
+}

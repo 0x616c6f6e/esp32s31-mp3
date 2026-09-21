@@ -1,0 +1,89 @@
+{
+  "outer_envelope_mm": [
+    50.0,
+    80.0,
+    13.85
+  ],
+  "main_body_mm": [
+    50.0,
+    80.0,
+    13.5
+  ],
+  "pcb_source_sha256": "60deebc60149e9abd5f80077752135f7d0ae33c0fbd682f53f78e2fe683c044c",
+  "solid_checks": {
+    "RearKeyRelief": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 6055.788239195214
+    },
+    "FrontWithSwitchSupport": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 3332.4732381057115
+    },
+    "PowerButton": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 27.999000000000006
+    }
+  },
+  "interferences_mm3": {
+    "rear_vs_lid": 0.0,
+    "key_vs_rear": 0.0,
+    "key_vs_lid": 0.0,
+    "rear_vs_pcb": 0.0,
+    "lid_vs_pcb": 0.0,
+    "rear_vs_battery": 0.0,
+    "lid_vs_lcd": 0.0,
+    "lid_vs_lens": 0.0,
+    "key_vs_switch": 0.0,
+    "lid_vs_switch": 0.0,
+    "battery_vs_components": 0.0,
+    "lcd_vs_components": 0.0,
+    "lcd_vs_screws": 0.0
+  },
+  "assumptions": {
+    "LCD": [
+      36.5,
+      44.0,
+      2.1
+    ],
+    "battery": [
+      26.0,
+      34.0,
+      3.0
+    ],
+    "header_height_max_modeled": 5.5,
+    "all_component_heights": "assumed; source lacks full models"
+  },
+  "coordinate_system": "KiCad top component-side XY + (1,1); Y toward bottom connectors; Z toward display; PCB rear copper Z=7.1, front copper Z=8.1",
+  "component_shell_conflicts": [],
+  "antenna_to_lcd_xy_gap_mm": 15.331,
+  "pcb_side_clearance_mm": 0.25,
+  "lens_fastener_clearance_mm": 0.5865000000000009,
+  "notes": [
+    "Geometric checks are only for the modeled envelopes, not verified actual components.",
+    "TF and USB openings include manual plug/card access allowance; test with real parts.",
+    "0.75 mm side walls are a thin resin fit prototype, not an FDM or CNC production design."
+  ],
+  "pcb_actual_bounds_mm": [
+    1.0,
+    0.9999999999999999,
+    7.144999999999999,
+    49.0,
+    77.0,
+    8.055
+  ],
+  "outside_overall_envelope_mm3": {
+    "RearKeyRelief": 0.0,
+    "FrontWithSwitchSupport": 0.0,
+    "PowerButton": 0.0,
+    "PCB": 0.0,
+    "LCDEnvelope": 0.0,
+    "LensReference": 0.0,
+    "BatteryEnvelope": 0.0,
+    "ComponentEnvelopes": 0.0,
+    "PowerSwitchEnvelope": 0.0
+  },
+  "geometric_checks_passed": true
+}

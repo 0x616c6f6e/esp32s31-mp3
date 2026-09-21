@@ -1,0 +1,38 @@
+{
+  "export_checks": {
+    "q2-housing": {
+      "step_valid": true,
+      "step_solids": 1,
+      "volume_error_mm3": 0.0010961370489894762,
+      "stl_watertight": true
+    },
+    "q2-rear-cover": {
+      "step_valid": true,
+      "step_solids": 1,
+      "volume_error_mm3": 7.275957614183426e-12,
+      "stl_watertight": true
+    },
+    "q2-wheel-face": {
+      "step_valid": true,
+      "step_solids": 1,
+      "volume_error_mm3": 1.1368683772161603e-12,
+      "stl_watertight": true
+    },
+    "q2-center-button": {
+      "step_valid": true,
+      "step_solids": 1,
+      "volume_error_mm3": 0.0,
+      "stl_watertight": true
+    }
+  },
+  "parameter_recompute": {
+    "housing_clearance_0.3_to_0.4_and_restore": true,
+    "lcd_thickness_1.46_to_1.51_and_restore": true
+  },
+  "lcd_module_step_mm": [
+    36.33,
+    43.45,
+    1.46
+  ],
+  "native_documents_saved_during_verification": false
+}

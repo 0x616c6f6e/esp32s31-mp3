@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1080" viewBox="0 0 1600 1080"><rect width="100%" height="100%" fill="white"/>
+<text x="58" y="56" font-family="Microsoft YaHei, Arial, sans-serif" font-size="31" fill="#263642" text-anchor="start">独立滑环 + 五键操作板 / 机械外形 C</text>
+<text x="58" y="94" font-family="Microsoft YaHei, Arial, sans-serif" font-size="19" fill="#25638c" text-anchor="start">单位 mm   |   板框、孔位和器件空间预留；电路、电极铜箔与布线尚未实施</text>
+<line x1="58" y1="112" x2="1540" y2="112" stroke="#b7c6cf" stroke-width="2"/>
+<rect x="210" y="242" width="704" height="544" rx="160" fill="#e9f2ec" stroke="#277151" stroke-width="2"/>
+<line x1="210" y1="242" x2="210" y2="181" stroke="#25638c" stroke-width="1"/>
+<line x1="914" y1="242" x2="914" y2="181" stroke="#25638c" stroke-width="1"/>
+<line x1="210" y1="181" x2="914" y2="181" stroke="#25638c" stroke-width="1"/>
+<polygon points="210,181 218,184 218,178" fill="#25638c"/>
+<polygon points="914,181 906,178 906,184" fill="#25638c"/>
+<text x="562.0" y="173" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" fill="#25638c" text-anchor="middle">44.0</text>
+<line x1="210" y1="242" x2="150" y2="242" stroke="#25638c" stroke-width="1"/>
+<line x1="210" y1="786" x2="150" y2="786" stroke="#25638c" stroke-width="1"/>
+<line x1="150" y1="242" x2="150" y2="786" stroke="#25638c" stroke-width="1"/>
+<polygon points="150,242 147,250 153,250" fill="#25638c"/>
+<polygon points="150,786 153,778 147,778" fill="#25638c"/>
+<text x="136" y="514.0" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" fill="#25638c" text-anchor="middle" transform="rotate(-90 136 514.0)">34.0</text>
+<circle cx="258" cy="381.2" r="14.4" fill="white" stroke="#263642" stroke-width="2"/>
+<circle cx="866" cy="381.2" r="14.4" fill="white" stroke="#263642" stroke-width="2"/>
+<circle cx="258" cy="637.2" r="14.4" fill="white" stroke="#263642" stroke-width="2"/>
+<circle cx="866" cy="637.2" r="14.4" fill="white" stroke="#263642" stroke-width="2"/>
+<circle cx="562" cy="514" r="248.0" fill="none" stroke="#af6726" stroke-width="2"/>
+<circle cx="562" cy="514" r="168.0" fill="none" stroke="#af6726" stroke-width="2"/>
+<rect x="538.0" y="282.0" width="48" height="48" rx="2" fill="#d5dde2" stroke="#263642" stroke-width="1"/>
+<text x="562" y="355.0" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#263642" text-anchor="middle">返回</text>
+<rect x="538.0" y="490.0" width="48" height="48" rx="2" fill="#d5dde2" stroke="#263642" stroke-width="1"/>
+<text x="562" y="563.0" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#263642" text-anchor="middle">电源</text>
+<rect x="330.0" y="490.0" width="48" height="48" rx="2" fill="#d5dde2" stroke="#263642" stroke-width="1"/>
+<text x="354" y="563.0" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#263642" text-anchor="middle">下一曲</text>
+<rect x="746.0" y="490.0" width="48" height="48" rx="2" fill="#d5dde2" stroke="#263642" stroke-width="1"/>
+<text x="770" y="563.0" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#263642" text-anchor="middle">上一曲</text>
+<rect x="538.0" y="698.0" width="48" height="48" rx="2" fill="#d5dde2" stroke="#263642" stroke-width="1"/>
+<text x="562" y="771.0" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#263642" text-anchor="middle">播放/暂停</text>
+<rect x="754" y="309.2" width="120.0" height="48" rx="2" fill="#d4e8f3" stroke="#25638c" stroke-width="1"/>
+<text x="814.0" y="296.2" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#25638c" text-anchor="middle">背面 FPC 座</text>
+<line x1="450" y1="770" x2="620" y2="858" stroke="#af6726" stroke-width="1"/>
+<text x="530" y="891" font-family="Microsoft YaHei, Arial, sans-serif" font-size="22" fill="#af6726" text-anchor="start">圆角 R10；板厚 0.8</text>
+<text x="210" y="211" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#25638c" text-anchor="start">局部原点 (0,0)，+X 向右，+Y 向下</text>
+<rect x="984" y="158" width="556" height="770" rx="12" fill="#f4f7f9" stroke="#d8e1e7" stroke-width="1"/>
+<text x="1010" y="204" font-family="Microsoft YaHei, Arial, sans-serif" font-size="25" fill="#263642" text-anchor="start">后续 PCB 设计约束</text>
+<text x="1010" y="253" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#263642" text-anchor="start">4 × D1.8 安装孔：</text>
+<text x="1010" y="299" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#263642" text-anchor="start">(3,8.7)、(41,8.7)</text>
+<text x="1010" y="345" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#263642" text-anchor="start">(3,24.7)、(41,24.7)</text>
+<text x="1010" y="391" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#263642" text-anchor="start">滑环中心：(22,17)</text>
+<text x="1010" y="437" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#263642" text-anchor="start">感应带示意：外径 31 / 内径 21</text>
+<text x="1010" y="483" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#263642" text-anchor="start">五个开关：3 × 3 × 0.55 占位</text>
+<text x="1010" y="529" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#263642" text-anchor="start">FPC 座在小板背面，中心 (37.75,5.7)</text>
+<text x="1010" y="575" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#263642" text-anchor="start">连接器占位：7.5 × 3 × 1</text>
+<text x="1010" y="621" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#263642" text-anchor="start">孔与按键坐标同时提供 CSV。</text>
+<text x="1010" y="667" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#263642" text-anchor="start">DXF 板边闭合，STEP 可用于装配。</text>
+<text x="1010" y="713" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#af6726" text-anchor="start">FPC 引脚数、接触方向及开关型号待定。</text>
+<text x="1010" y="759" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#af6726" text-anchor="start">机身坐标中的小板原点：(3,44.3,11.1)</text>
+<text x="1010" y="805" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#af6726" text-anchor="start">从机身正面观察时，左右与此坐标相反。</text>
+<line x1="58" y1="1003" x2="1540" y2="1003" stroke="#b7c6cf" stroke-width="2"/>
+<text x="58" y="1042" font-family="Microsoft YaHei, Arial, sans-serif" font-size="19" fill="#263642" text-anchor="start">ESP32-S31 MP3 / 独立操作板机械预留    •    当前不作为生产 PCB 文件</text>
+</svg>

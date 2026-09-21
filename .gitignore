@@ -1,0 +1,33 @@
+# Local CAD session state and automatic backups
+*.lck
+*.kicad_prl
+*.FCBak
+*.FCStd1
+*-backups/
+.history/
+__pycache__/
+*.py[cod]
+*.log
+Thumbs.db
+.DS_Store
+
+# Scratch downloads, imports, rendering and routing experiments.
+# This parser remains a dependency of the checked-in repair scripts.
+/tmp/*
+!/tmp/sexpr.py
+/mechanical/display-fit/reference/connector-download.bin
+
+# Preserve final deliverables and data used to freeze the mechanical assembly.
+/hardware-q2/output/*
+!/hardware-q2/output/final-*.json
+!/hardware-q2/output/validation-summary.json
+!/hardware-q2/output/placement-changes.json
+!/hardware-q2/output/route-simplification.json
+!/hardware-q2/output/geometry.json
+!/hardware-q2/output/layout-data.json
+!/hardware-q2/output/power-keepouts.json
+!/hardware-q2/output/board-only.step
+!/hardware-q2/output/pcb-front.svg
+!/hardware-q2/output/pcb-back.svg
+!/hardware-q2/output/pcb-front.png
+!/hardware-q2/output/pcb-back.png

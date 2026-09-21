@@ -1,0 +1,33 @@
+{
+  "rear-shell": {
+    "step_valid": true,
+    "step_solids": 1,
+    "stl_closed": true,
+    "stl_facets": 4814,
+    "step_volume_mm3": 6055.78823919521
+  },
+  "front-shell": {
+    "step_valid": true,
+    "step_solids": 1,
+    "stl_closed": true,
+    "stl_facets": 5578,
+    "step_volume_mm3": 3332.473238105711
+  },
+  "power-button": {
+    "step_valid": true,
+    "step_solids": 1,
+    "stl_closed": true,
+    "stl_facets": 44,
+    "step_volume_mm3": 27.99899999999993
+  },
+  "native_parameter_recompute": {
+    "passed": true,
+    "parameter": "Wall",
+    "from_mm": 0.75,
+    "to_mm": 0.8,
+    "volume_before_mm3": 6055.788239195214,
+    "volume_changed_mm3": 6166.372090343763,
+    "restored": true,
+    "source_document_saved": false
+  }
+}

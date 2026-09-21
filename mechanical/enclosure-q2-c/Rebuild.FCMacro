@@ -1,0 +1,7 @@
+from pathlib import Path
+import FreeCAD as App
+folder=Path(__file__).resolve().parent
+if any(d.FileName and Path(d.FileName).parent.resolve()==folder for d in App.listDocuments().values()):raise RuntimeError('Save and close revision C before rebuilding; JSON is the parameter source.')
+for name in ['build_enclosure.py','prepare_views.py']:
+    path=folder/name
+    exec(compile(path.read_text(encoding='utf8'),str(path),'exec'),{'__file__':str(path),'__name__':'__main__'})

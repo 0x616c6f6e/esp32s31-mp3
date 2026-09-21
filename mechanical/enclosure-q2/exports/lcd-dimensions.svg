@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1080" viewBox="0 0 1600 1080"><rect width="100%" height="100%" fill="white"/>
+<text x="58" y="56" font-family="Microsoft YaHei, Arial, sans-serif" font-size="31" fill="#263642" text-anchor="start">2.09&quot; LCD — 按用户尺寸图建模</text>
+<text x="58" y="88" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#25638c" text-anchor="start">单位 mm   /   蓝色：图纸标注尺寸   /   橙色：未标注、估算项   /   示意比例，勿量图</text>
+<line x1="58" y1="106" x2="1540" y2="106" stroke="#b7c6cf" stroke-width="2"/>
+<rect x="270" y="230" width="254.31" height="304.15000000000003" rx="70" fill="#edf2f5" stroke="#263642" stroke-width="2"/>
+<rect x="270.7" y="230.7" width="252.91000000000003" height="302.75" rx="69.3" fill="#f8fafb" stroke="#8598a4" stroke-width="1"/>
+<rect x="277.525" y="237.35" width="239.26" height="280.34999999999997" rx="63" fill="#dfe9ed" stroke="#68808e" stroke-width="1"/>
+<text x="397.155" y="374.07500000000005" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" fill="#263642" text-anchor="middle">A.A. 34.18 × 40.05</text>
+<text x="397.155" y="406.07500000000005" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#263642" text-anchor="middle">320 RGB × 375 / QSPI</text>
+<line x1="270" y1="230" x2="270" y2="155" stroke="#25638c" stroke-width="1"/>
+<line x1="524.31" y1="230" x2="524.31" y2="155" stroke="#25638c" stroke-width="1"/>
+<line x1="270" y1="155" x2="524.31" y2="155" stroke="#25638c" stroke-width="1"/>
+<polygon points="270,155 278,158 278,152" fill="#25638c"/>
+<polygon points="524.31,155 516.31,152 516.31,158" fill="#25638c"/>
+<text x="397.155" y="147" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" fill="#25638c" text-anchor="middle">BL 36.33 ±0.1</text>
+<line x1="270.7" y1="230" x2="270.7" y2="200" stroke="#25638c" stroke-width="1"/>
+<line x1="523.6099999999999" y1="230" x2="523.6099999999999" y2="200" stroke="#25638c" stroke-width="1"/>
+<line x1="270.7" y1="200" x2="523.6099999999999" y2="200" stroke="#25638c" stroke-width="1"/>
+<polygon points="270.7,200 278.7,203 278.7,197" fill="#25638c"/>
+<polygon points="523.6099999999999,200 515.6099999999999,197 515.6099999999999,203" fill="#25638c"/>
+<text x="397.155" y="192" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" fill="#25638c" text-anchor="middle">LCD 36.13</text>
+<line x1="270" y1="230" x2="154" y2="230" stroke="#25638c" stroke-width="1"/>
+<line x1="270" y1="534.1500000000001" x2="154" y2="534.1500000000001" stroke="#25638c" stroke-width="1"/>
+<line x1="154" y1="230" x2="154" y2="534.1500000000001" stroke="#25638c" stroke-width="1"/>
+<polygon points="154,230 151,238 157,238" fill="#25638c"/>
+<polygon points="154,534.1500000000001 157,526.1500000000001 151,526.1500000000001" fill="#25638c"/>
+<text x="140" y="382.07500000000005" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" fill="#25638c" text-anchor="middle" transform="rotate(-90 140 382.07500000000005)">BL 43.45 ±0.1</text>
+<line x1="270" y1="230.7" x2="207" y2="230.7" stroke="#25638c" stroke-width="1"/>
+<line x1="270" y1="533.45" x2="207" y2="533.45" stroke="#25638c" stroke-width="1"/>
+<line x1="207" y1="230.7" x2="207" y2="533.45" stroke="#25638c" stroke-width="1"/>
+<polygon points="207,230.7 204,238.7 210,238.7" fill="#25638c"/>
+<polygon points="207,533.45 210,525.45 204,525.45" fill="#25638c"/>
+<text x="193" y="382.07500000000005" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" fill="#25638c" text-anchor="middle" transform="rotate(-90 193 382.07500000000005)">LCD 43.25</text>
+<line x1="524.31" y1="237.35" x2="610" y2="237.35" stroke="#25638c" stroke-width="1"/>
+<line x1="524.31" y1="517.6999999999999" x2="610" y2="517.6999999999999" stroke="#25638c" stroke-width="1"/>
+<line x1="610" y1="237.35" x2="610" y2="517.6999999999999" stroke="#25638c" stroke-width="1"/>
+<polygon points="610,237.35 607,245.35 613,245.35" fill="#25638c"/>
+<polygon points="610,517.6999999999999 613,509.69999999999993 607,509.69999999999993" fill="#25638c"/>
+<text x="596" y="377.525" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" fill="#25638c" text-anchor="middle" transform="rotate(-90 596 377.525)">A.A. 40.05</text>
+<rect x="334.155" y="534.1500000000001" width="126" height="89.60000000000001" rx="0" fill="#f5d5a3" stroke="#af6726" stroke-width="1"/>
+<rect x="374.055" y="623.7500000000001" width="46.199999999999996" height="233.38000000000002" rx="0" fill="#f5d5a3" stroke="#af6726" stroke-width="1"/>
+<rect x="375.525" y="839.6300000000001" width="1.26" height="17.5" rx="0" fill="#cf9a3c" stroke="#cf9a3c" stroke-width="1"/>
+<rect x="377.625" y="839.6300000000001" width="1.26" height="17.5" rx="0" fill="#cf9a3c" stroke="#cf9a3c" stroke-width="1"/>
+<rect x="379.72499999999997" y="839.6300000000001" width="1.26" height="17.5" rx="0" fill="#cf9a3c" stroke="#cf9a3c" stroke-width="1"/>
+<rect x="381.825" y="839.6300000000001" width="1.26" height="17.5" rx="0" fill="#cf9a3c" stroke="#cf9a3c" stroke-width="1"/>
+<rect x="383.92499999999995" y="839.6300000000001" width="1.26" height="17.5" rx="0" fill="#cf9a3c" stroke="#cf9a3c" stroke-width="1"/>
+<rect x="386.025" y="839.6300000000001" width="1.26" height="17.5" rx="0" fill="#cf9a3c" stroke="#cf9a3c" stroke-width="1"/>
+<rect x="388.125" y="839.6300000000001" width="1.26" height="17.5" rx="0" fill="#cf9a3c" stroke="#cf9a3c" stroke-width="1"/>
+<rect x="390.22499999999997" y="839.6300000000001" width="1.26" height="17.5" rx="0" fill="#cf9a3c" stroke="#cf9a3c" stroke-width="1"/>
+<rect x="392.325" y="839.6300000000001" width="1.26" height="17.5" rx="0" fill="#cf9a3c" stroke="#cf9a3c" stroke-width="1"/>
+<rect x="394.42499999999995" y="839.6300000000001" width="1.26" height="17.5" rx="0" fill="#cf9a3c" stroke="#cf9a3c" stroke-width="1"/>
+<rect x="396.525" y="839.6300000000001" width="1.26" height="17.5" rx="0" fill="#cf9a3c" stroke="#cf9a3c" stroke-width="1"/>
+<rect x="398.625" y="839.6300000000001" width="1.26" height="17.5" rx="0" fill="#cf9a3c" stroke="#cf9a3c" stroke-width="1"/>
+<rect x="400.72499999999997" y="839.6300000000001" width="1.26" height="17.5" rx="0" fill="#cf9a3c" stroke="#cf9a3c" stroke-width="1"/>
+<rect x="402.825" y="839.6300000000001" width="1.26" height="17.5" rx="0" fill="#cf9a3c" stroke="#cf9a3c" stroke-width="1"/>
+<rect x="404.92499999999995" y="839.6300000000001" width="1.26" height="17.5" rx="0" fill="#cf9a3c" stroke="#cf9a3c" stroke-width="1"/>
+<rect x="407.025" y="839.6300000000001" width="1.26" height="17.5" rx="0" fill="#cf9a3c" stroke="#cf9a3c" stroke-width="1"/>
+<rect x="409.125" y="839.6300000000001" width="1.26" height="17.5" rx="0" fill="#cf9a3c" stroke="#cf9a3c" stroke-width="1"/>
+<rect x="411.22499999999997" y="839.6300000000001" width="1.26" height="17.5" rx="0" fill="#cf9a3c" stroke="#cf9a3c" stroke-width="1"/>
+<rect x="413.325" y="839.6300000000001" width="1.26" height="17.5" rx="0" fill="#cf9a3c" stroke="#cf9a3c" stroke-width="1"/>
+<rect x="415.42499999999995" y="839.6300000000001" width="1.26" height="17.5" rx="0" fill="#cf9a3c" stroke="#cf9a3c" stroke-width="1"/>
+<rect x="417.525" y="839.6300000000001" width="1.26" height="17.5" rx="0" fill="#cf9a3c" stroke="#cf9a3c" stroke-width="1"/>
+<line x1="397.155" y1="534.1500000000001" x2="700" y2="534.1500000000001" stroke="#25638c" stroke-width="1"/>
+<line x1="397.155" y1="857.1300000000001" x2="700" y2="857.1300000000001" stroke="#25638c" stroke-width="1"/>
+<line x1="700" y1="534.1500000000001" x2="700" y2="857.1300000000001" stroke="#25638c" stroke-width="1"/>
+<polygon points="700,534.1500000000001 697,542.1500000000001 703,542.1500000000001" fill="#25638c"/>
+<polygon points="700,857.1300000000001 703,849.1300000000001 697,849.1300000000001" fill="#25638c"/>
+<text x="686" y="695.6400000000001" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" fill="#25638c" text-anchor="middle" transform="rotate(-90 686 695.6400000000001)">FPC 46.14 ±0.5</text>
+<line x1="374.055" y1="857.1300000000001" x2="374.055" y2="909.1300000000001" stroke="#25638c" stroke-width="1"/>
+<line x1="420.255" y1="857.1300000000001" x2="420.255" y2="909.1300000000001" stroke="#25638c" stroke-width="1"/>
+<line x1="374.055" y1="909.1300000000001" x2="420.255" y2="909.1300000000001" stroke="#25638c" stroke-width="1"/>
+<polygon points="374.055,909.1300000000001 382.055,912.1300000000001 382.055,906.1300000000001" fill="#25638c"/>
+<polygon points="420.255,909.1300000000001 412.255,906.1300000000001 412.255,912.1300000000001" fill="#25638c"/>
+<text x="397.155" y="901.1300000000001" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" fill="#25638c" text-anchor="middle">6.6 ±0.05</text>
+<line x1="320" y1="255" x2="102" y2="240" stroke="#af6726" stroke-width="1"/>
+<text x="65" y="217" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#af6726" text-anchor="start">R10 估算</text>
+<text x="300" y="955.1300000000001" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#af6726" text-anchor="middle">展开视图：宽颈与过渡轮廓为示意</text>
+<rect x="785" y="230" width="10.219999999999999" height="304.15000000000003" rx="0.8" fill="#445460" stroke="#263642" stroke-width="1"/>
+<line x1="770" y1="200" x2="815" y2="200" stroke="#25638c" stroke-width="1"/>
+<line x1="785" y1="200" x2="785" y2="230" stroke="#25638c" stroke-width="1"/>
+<line x1="795.22" y1="200" x2="795.22" y2="230" stroke="#25638c" stroke-width="1"/>
+<text x="788" y="169" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" fill="#25638c" text-anchor="middle">LCM 1.46 ±0.1</text>
+<text x="788" y="562.1500000000001" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#263642" text-anchor="middle">侧视</text>
+<rect x="903" y="139" width="637" height="330" rx="12" fill="#f4f7f9" stroke="#d8e1e7" stroke-width="1"/>
+<text x="930" y="179" font-family="Microsoft YaHei, Arial, sans-serif" font-size="23" fill="#263642" text-anchor="start">尺寸来源与模型边界</text>
+<text x="930" y="220" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#263642" text-anchor="start">模组：36.33 × 43.45 × 1.46；LCD：36.13 × 43.25</text>
+<text x="930" y="259" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#263642" text-anchor="start">显示区：34.18 × 40.05；顶部内缩 1.05</text>
+<text x="930" y="298" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#263642" text-anchor="start">黑色单面胶 t = 0.03；是否计入总厚需供应商确认</text>
+<text x="930" y="337" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#263642" text-anchor="start">TP：无。外壳盖板为另行设计，并非自带触摸屏。</text>
+<text x="930" y="376" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#263642" text-anchor="start">连接器标注：OK-F302-21115；接触面/引脚方向待核对</text>
+<text x="930" y="415" font-family="Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#af6726" text-anchor="start">圆角、FPC 宽颈、膜厚与折弯半径均非标注尺寸。</text>
+<text x="931" y="527" font-family="Microsoft YaHei, Arial, sans-serif" font-size="22" fill="#263642" text-anchor="start">排线端部放大 / 21 触点示意</text>
+<rect x="1060" y="625" width="316.79999999999995" height="120.0" rx="0" fill="#f5d5a3" stroke="#af6726" stroke-width="1"/>
+<rect x="1070.08" y="625" width="8.64" height="120.0" rx="0" fill="#cf9a3c" stroke="#916829" stroke-width="1"/>
+<rect x="1084.48" y="625" width="8.64" height="120.0" rx="0" fill="#cf9a3c" stroke="#916829" stroke-width="1"/>
+<rect x="1098.88" y="625" width="8.64" height="120.0" rx="0" fill="#cf9a3c" stroke="#916829" stroke-width="1"/>
+<rect x="1113.28" y="625" width="8.64" height="120.0" rx="0" fill="#cf9a3c" stroke="#916829" stroke-width="1"/>
+<rect x="1127.68" y="625" width="8.64" height="120.0" rx="0" fill="#cf9a3c" stroke="#916829" stroke-width="1"/>
+<rect x="1142.08" y="625" width="8.64" height="120.0" rx="0" fill="#cf9a3c" stroke="#916829" stroke-width="1"/>
+<rect x="1156.48" y="625" width="8.64" height="120.0" rx="0" fill="#cf9a3c" stroke="#916829" stroke-width="1"/>
+<rect x="1170.88" y="625" width="8.64" height="120.0" rx="0" fill="#cf9a3c" stroke="#916829" stroke-width="1"/>
+<rect x="1185.28" y="625" width="8.64" height="120.0" rx="0" fill="#cf9a3c" stroke="#916829" stroke-width="1"/>
+<rect x="1199.68" y="625" width="8.64" height="120.0" rx="0" fill="#cf9a3c" stroke="#916829" stroke-width="1"/>
+<rect x="1214.08" y="625" width="8.64" height="120.0" rx="0" fill="#cf9a3c" stroke="#916829" stroke-width="1"/>
+<rect x="1228.48" y="625" width="8.64" height="120.0" rx="0" fill="#cf9a3c" stroke="#916829" stroke-width="1"/>
+<rect x="1242.88" y="625" width="8.64" height="120.0" rx="0" fill="#cf9a3c" stroke="#916829" stroke-width="1"/>
+<rect x="1257.28" y="625" width="8.64" height="120.0" rx="0" fill="#cf9a3c" stroke="#916829" stroke-width="1"/>
+<rect x="1271.68" y="625" width="8.64" height="120.0" rx="0" fill="#cf9a3c" stroke="#916829" stroke-width="1"/>
+<rect x="1286.08" y="625" width="8.64" height="120.0" rx="0" fill="#cf9a3c" stroke="#916829" stroke-width="1"/>
+<rect x="1300.48" y="625" width="8.64" height="120.0" rx="0" fill="#cf9a3c" stroke="#916829" stroke-width="1"/>
+<rect x="1314.88" y="625" width="8.64" height="120.0" rx="0" fill="#cf9a3c" stroke="#916829" stroke-width="1"/>
+<rect x="1329.28" y="625" width="8.64" height="120.0" rx="0" fill="#cf9a3c" stroke="#916829" stroke-width="1"/>
+<rect x="1343.68" y="625" width="8.64" height="120.0" rx="0" fill="#cf9a3c" stroke="#916829" stroke-width="1"/>
+<rect x="1358.08" y="625" width="8.64" height="120.0" rx="0" fill="#cf9a3c" stroke="#916829" stroke-width="1"/>
+<line x1="1074.4" y1="625" x2="1074.4" y2="584" stroke="#25638c" stroke-width="1"/>
+<line x1="1362.4" y1="625" x2="1362.4" y2="584" stroke="#25638c" stroke-width="1"/>
+<line x1="1074.4" y1="584" x2="1362.4" y2="584" stroke="#25638c" stroke-width="1"/>
+<polygon points="1074.4,584 1082.4,587 1082.4,581" fill="#25638c"/>
+<polygon points="1362.4,584 1354.4,581 1354.4,587" fill="#25638c"/>
+<text x="1218.4" y="576" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" fill="#25638c" text-anchor="middle">触点中心跨度 6 ±0.03</text>
+<line x1="1060" y1="745.0" x2="1060" y2="792.0" stroke="#25638c" stroke-width="1"/>
+<line x1="1376.8" y1="745.0" x2="1376.8" y2="792.0" stroke="#25638c" stroke-width="1"/>
+<line x1="1060" y1="792.0" x2="1376.8" y2="792.0" stroke="#25638c" stroke-width="1"/>
+<polygon points="1060,792.0 1068,795.0 1068,789.0" fill="#25638c"/>
+<polygon points="1376.8,792.0 1368.8,789.0 1368.8,795.0" fill="#25638c"/>
+<text x="1218.4" y="784.0" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" fill="#25638c" text-anchor="middle">端部宽 6.6 ±0.05</text>
+<line x1="1376.8" y1="625" x2="1475" y2="625" stroke="#25638c" stroke-width="1"/>
+<line x1="1376.8" y1="745.0" x2="1475" y2="745.0" stroke="#25638c" stroke-width="1"/>
+<line x1="1475" y1="625" x2="1475" y2="745.0" stroke="#25638c" stroke-width="1"/>
+<polygon points="1475,625 1472,633 1478,633" fill="#25638c"/>
+<polygon points="1475,745.0 1478,737.0 1472,737.0" fill="#25638c"/>
+<text x="1461" y="685.0" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" fill="#25638c" text-anchor="middle" transform="rotate(-90 1461 685.0)">露铜 2.5 ±0.3</text>
+<text x="930" y="847" font-family="Microsoft YaHei, Arial, sans-serif" font-size="19" fill="#af6726" text-anchor="start">间距 0.3 ±0.03；单个触点宽 0.18 为估算。</text>
+<text x="930" y="889" font-family="Microsoft YaHei, Arial, sans-serif" font-size="19" fill="#263642" text-anchor="start">机内安装旋转 90°：43.45 横向 × 36.33 纵向。</text>
+<text x="930" y="927" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#af6726" text-anchor="start">折叠排线仅用于空间研究，尚未与现有 FPC2 对接。</text>
+<line x1="58" y1="1003" x2="1540" y2="1003" stroke="#b7c6cf" stroke-width="2"/>
+<text x="58" y="1042" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#263642" text-anchor="start">ESP32-S31 MP3 / Q2 外观修订 B    |    原生尺寸：parameters.json → FreeCAD Spreadsheet</text>
+</svg>

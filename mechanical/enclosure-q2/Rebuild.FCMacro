@@ -1,0 +1,9 @@
+from pathlib import Path
+import FreeCAD as App
+folder=Path(__file__).resolve().parent
+for d in App.listDocuments().values():
+    if d.FileName and Path(d.FileName).parent.resolve()==folder:
+        raise RuntimeError('Save and close both Q2/LCD documents before rebuilding. JSON parameters are the rebuild source.')
+for name in ['build_enclosure.py','build_display.py','prepare_views.py']:
+    path=folder/name
+    exec(compile(path.read_text(encoding='utf8'),str(path),'exec'),{'__file__':str(path),'__name__':'__main__'})

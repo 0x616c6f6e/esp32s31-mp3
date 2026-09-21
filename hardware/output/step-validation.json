@@ -1,0 +1,13 @@
+{
+  "tool": "FreeCAD 1.1.1",
+  "valid_solid": true,
+  "solids": 1,
+  "size_mm": [
+    48.0,
+    76.0,
+    0.91
+  ],
+  "nominal_pcb_thickness_mm": 1.0,
+  "volume_mm3": 3291.664050833993,
+  "contents": "KiCad board-body export only, 0.91 mm body; exterior copper and mask omitted. No display, battery, connectors or enclosure."
+}

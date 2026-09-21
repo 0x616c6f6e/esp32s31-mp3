@@ -1,0 +1,80 @@
+{
+  "status": "NOT_CONFIRMED_MATABLE_IN_CURRENT_ASSEMBLY",
+  "board_sha256": "60deebc60149e9abd5f80077752135f7d0ae33c0fbd682f53f78e2fe683c044c",
+  "lcd_nominal_mm": [
+    36.33,
+    43.45,
+    1.46
+  ],
+  "lcd_tolerance_mm": [
+    0.1,
+    0.1,
+    0.1
+  ],
+  "tail_width_mm": 6.6,
+  "tail_width_tolerance_mm": 0.05,
+  "tail_extension_mm": 46.14,
+  "tail_extension_tolerance_mm": 0.5,
+  "terminal_span_mm": 6,
+  "derived_pitch_mm": 0.3,
+  "terminal_pitch_tolerance": "not specified; drawing0.3 +/-0.03 is edge offset",
+  "fpc2_case_axis_y_mm": 18.034000000000002,
+  "lcd_tail_case_axis_y_mm": 21.9,
+  "transverse_offset_mm": 3.866,
+  "connector_body_mm": [
+    7.9,
+    3.2,
+    1
+  ],
+  "required_insertion_thickness_mm": 0.2,
+  "required_insertion_thickness_tolerance_mm": 0.03,
+  "required_stiffened_length_min_mm": 3.5,
+  "lcd_insertion_thickness": "unknown",
+  "lcd_pin_functions": "unknown",
+  "connector_slot_z": "not specified in source drawing; NOT asserted by this model",
+  "candidate_kicad_xy_mm": [
+    140.148,
+    70.9
+  ],
+  "candidate_is_applied": false,
+  "un_jogged_candidate_centerline_length_mm": 46.14,
+  "candidate_radii_mm": [
+    0.65,
+    0.675
+  ],
+  "candidate_intersections_mm3": {
+    "PCB": 1.9656,
+    "ESP32_assumed_envelope": 6.912
+  },
+  "geometry": {
+    "CurrentMainPCB": {
+      "valid": true,
+      "solids": 1
+    },
+    "ESP32Envelope": {
+      "valid": true,
+      "solids": 1
+    },
+    "InstalledLCD": {
+      "valid": true,
+      "solids": 3
+    },
+    "ActualFPC2Envelope": {
+      "valid": true,
+      "solids": 1
+    },
+    "ActualSolderPadCenters": {
+      "valid": true,
+      "solids": 21
+    },
+    "Unjogged46p14mmFPC": {
+      "valid": true,
+      "solids": 8
+    },
+    "UnjoggedTerminalEnvelope": {
+      "valid": true,
+      "solids": 1
+    }
+  },
+  "source_pdf": "https://datasheet.lcsc.com/datasheet/pdf/a3fef74488a86aba9513d2bb0e2e596c.pdf?productCode=C262542"
+}

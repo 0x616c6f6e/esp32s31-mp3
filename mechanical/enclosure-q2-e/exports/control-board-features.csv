@@ -1,0 +1,11 @@
+feature,local_x_mm,local_y_mm,side,size_mm,status
+Power,22.000,17.000,front,3x3x0.55,mechanical keepout only
+Back,22.000,4.000,front,3x3x0.55,mechanical keepout only
+Previous,35.000,17.000,front,3x3x0.55,mechanical keepout only
+Next,9.000,17.000,front,3x3x0.55,mechanical keepout only
+PlayPause,22.000,30.000,front,3x3x0.55,mechanical keepout only
+Mount1,3.000,8.700,through,D1.8,NPTH mechanical proposal
+Mount2,41.000,8.700,through,D1.8,NPTH mechanical proposal
+Mount3,3.000,24.700,through,D1.8,NPTH mechanical proposal
+Mount4,41.000,24.700,through,D1.8,NPTH mechanical proposal
+ControlFPC,37.750,5.700,rear,7.5x3x1,connector and pinout TBD

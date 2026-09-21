@@ -1,0 +1,44 @@
+{
+  "board_unchanged": true,
+  "lcd_native_size_verified": true,
+  "pin1_right_in_source_front_view": true,
+  "step_reimport": {
+    "lcd209-flat-reference.step": {
+      "valid": true,
+      "solids": 25,
+      "bounds_mm": [
+        36.33,
+        89.59,
+        1.46
+      ]
+    },
+    "lcd209-module-only.step": {
+      "valid": true,
+      "solids": 2,
+      "bounds_mm": [
+        36.33,
+        43.45,
+        1.46
+      ]
+    },
+    "AFE03-21-envelope.step": {
+      "valid": true,
+      "solids": 1,
+      "bounds_mm": [
+        3.2,
+        7.900000000000002,
+        1.0
+      ]
+    },
+    "current-assembly-NOT-MATED.step": {
+      "valid": true,
+      "solids": 36,
+      "bounds_mm": [
+        48.0,
+        76.0,
+        11.010000000000002
+      ]
+    }
+  },
+  "assembly_mates": false
+}

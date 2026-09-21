@@ -1,0 +1,109 @@
+{
+  "status": "APPEARANCE_AND_LCD_PROTOTYPE_NOT_ASSEMBLY_RELEASE",
+  "body_mm": [
+    50,
+    80,
+    13.5
+  ],
+  "with_cover_mm": [
+    50,
+    80,
+    14.2
+  ],
+  "display_module_mm": [
+    36.33,
+    43.45,
+    1.46
+  ],
+  "display_active_mm": [
+    34.18,
+    40.05
+  ],
+  "installed_rotation_degrees": 90,
+  "fpc_extension_mm": 46.14,
+  "solid_checks": {
+    "Q2Housing": {
+      "valid": true,
+      "solids": 1,
+      "volume": 5388.982648077514
+    },
+    "Q2RearCover": {
+      "valid": true,
+      "solids": 1,
+      "volume": 4443.07071154857
+    },
+    "Q2Wheel": {
+      "valid": true,
+      "solids": 1,
+      "volume": 441.88542707965274
+    },
+    "Q2CenterButton": {
+      "valid": true,
+      "solids": 1,
+      "volume": 151.87558444881813
+    }
+  },
+  "part_interferences_mm3": {
+    "Q2Housing / Q2RearCover": 0.0,
+    "Q2Housing / Q2Wheel": 0.0,
+    "Q2Housing / Q2CenterButton": 0.0,
+    "Q2Housing / LCDModule": 0.0,
+    "Q2Housing / CoverLens": 0.0,
+    "Q2Housing / InstalledFPCRoutingStudy": 0.0,
+    "Q2RearCover / Q2CenterButton": 0.0,
+    "Q2Wheel / Q2CenterButton": 0.0,
+    "LCDModule / InstalledFPCRoutingStudy": 0.0
+  },
+  "existing_pcb_conflicts_mm3": {
+    "ExistingPCB": 90.001504,
+    "ExistingComponents": 76.95503
+  },
+  "pcb_source_sha256": "60deebc60149e9abd5f80077752135f7d0ae33c0fbd682f53f78e2fe683c044c",
+  "outside_envelope_mm3": {
+    "Q2Housing": 0.0,
+    "Q2RearCover": 0.0,
+    "Q2Wheel": 0.0,
+    "Q2CenterButton": 0.0,
+    "LCDModule": 0.0,
+    "CoverLens": 0.0,
+    "InstalledFPCRoutingStudy": 0.0
+  },
+  "external_geometry_pass": true,
+  "pcb_fits": false,
+  "component_conflicts": [
+    {
+      "reference": "U9",
+      "intersection_mm3": 50.318366,
+      "height_is_assumed": true
+    },
+    {
+      "reference": "H1",
+      "intersection_mm3": 24.134274,
+      "height_is_assumed": true
+    },
+    {
+      "reference": "C5",
+      "intersection_mm3": 0.006737,
+      "height_is_assumed": true
+    },
+    {
+      "reference": "C58",
+      "intersection_mm3": 1.965861,
+      "height_is_assumed": true
+    },
+    {
+      "reference": "CN1",
+      "intersection_mm3": 0.529782,
+      "height_is_assumed": true
+    }
+  ],
+  "fpc_proposed_terminal_x_mm": 3.0982741228718353,
+  "unconfirmed": [
+    "LCD/AA corner radii",
+    "LCD cover glass, adhesive and front masks",
+    "FPC thickness, neck geometry, bend radius, contact side and mating connector",
+    "Wheel PCB and switches",
+    "Battery size/capacity and all component heights",
+    "Current PCB corners, mounting and RF placement require redesign"
+  ]
+}

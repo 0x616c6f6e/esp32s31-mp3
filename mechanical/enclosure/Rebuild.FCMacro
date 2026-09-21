@@ -1,0 +1,6 @@
+# Save and close the enclosure document before rebuilding.
+from pathlib import Path
+import FreeCAD as App
+macro_dir=Path(__file__).resolve().parent
+script=macro_dir/'build_enclosure.py'
+exec(compile(script.read_text(encoding='utf8'),str(script),'exec'),{'__file__':str(script),'__name__':'__main__'})

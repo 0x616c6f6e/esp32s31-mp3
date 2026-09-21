@@ -1,0 +1,29 @@
+{
+  "screen_shift_up_mm": 1.5,
+  "exports": {
+    "q2-d-housing": {
+      "step_valid": true,
+      "stl_watertight": true
+    },
+    "q2-d-rear-cover": {
+      "step_valid": true,
+      "stl_watertight": true
+    },
+    "q2-d-wheel-rocker": {
+      "step_valid": true,
+      "stl_watertight": true
+    },
+    "q2-d-center-button": {
+      "step_valid": true,
+      "stl_watertight": true
+    }
+  },
+  "current_board_fits": false,
+  "PCB_unchanged": true,
+  "body_mm": [
+    50.0000002,
+    80.00000019999999,
+    13.5
+  ],
+  "screen_socket_axis_offset_mm": 2.366
+}

@@ -1,0 +1,9 @@
+# CAD provenance checks use byte-for-byte SHA-256 hashes. Preserve line endings
+# exactly, including KiCad files and the frozen layout JSON on every platform.
+* -text whitespace=cr-at-eol
+*.pdf binary
+*.png binary
+*.zip binary
+*.epro2 binary
+*.FCStd binary
+*.stl binary

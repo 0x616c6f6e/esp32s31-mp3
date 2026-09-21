@@ -1,0 +1,53 @@
+{
+  "exports": {
+    "q2-c-housing": {
+      "step_valid": true,
+      "single_solid": true,
+      "volume_delta_mm3": 0.005641423427732661,
+      "stl_watertight": true
+    },
+    "q2-c-rear-cover": {
+      "step_valid": true,
+      "single_solid": true,
+      "volume_delta_mm3": 7.275957614183426e-12,
+      "stl_watertight": true
+    },
+    "q2-c-wheel-rocker": {
+      "step_valid": true,
+      "single_solid": true,
+      "volume_delta_mm3": 2.2737367544323206e-13,
+      "stl_watertight": true
+    },
+    "q2-c-center-button": {
+      "step_valid": true,
+      "single_solid": true,
+      "volume_delta_mm3": 8.526512829121202e-14,
+      "stl_watertight": true
+    },
+    "control-board-mechanical": {
+      "step_valid": true,
+      "single_solid": true,
+      "volume_delta_mm3": 1.5916157281026244e-12
+    }
+  },
+  "orientation": {
+    "ESP32_min_z": 5.200000000000005,
+    "FPC2_max_z": 4.2,
+    "main_pcb_bounds_z": [
+      4.245000000000005,
+      5.155000000000006
+    ],
+    "control_board_mm": [
+      44.0,
+      34.0,
+      0.8000000000000007
+    ]
+  },
+  "parameter_recompute": {
+    "control_width_44_to_44.4_and_restore": true
+  },
+  "dxf_import_mm": [
+    44.0,
+    34.0
+  ]
+}
