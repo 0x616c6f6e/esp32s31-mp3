@@ -1,1 +1,0 @@
-(fp_lib_table (version 7) (lib (name "MP3_Source") (type "KiCad") (uri "${KIPRJMOD}/MP3_Source.pretty") (options "") (descr "Source footprints")))

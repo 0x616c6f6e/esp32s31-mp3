@@ -2,157 +2,9 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "6264fd0c-0182-4d47-b35c-8895a1a7d78e")
+	(uuid "2f7570e5-d6b2-4088-96d1-5f61c3d3cc0d")
 	(paper "User" 297.434 209.804)
 	(lib_symbols
-		(symbol "ProPrj_esp-easyedapro:Capacitance"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "100nF"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "ProPrj_esp-easyedapro:C0402"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Capacitance_1_0"
-				(polyline
-					(pts
-						(xy -0.508 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -2.032) (xy -0.508 2.032)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 2.032) (xy 0.508 -2.032)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 0.508 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "ProPrj_esp-easyedapro:Drawing-Symbol_A4"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1906,7 +1758,7 @@
 						)
 					)
 				)
-				(text "页    7    共    7"
+				(text "页    8    共    8"
 					(at 245.9482 15.24 0)
 					(effects
 						(font
@@ -2138,13 +1990,13 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ProPrj_esp-easyedapro:LSM6DS3TR-C"
+		(symbol "ProPrj_esp-easyedapro:HGC0402R5106M100NTEJ"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
+			(property "Reference" "C"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2154,17 +2006,7 @@
 					)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "ProPrj_esp-easyedapro:LGA-14_L3.0-W2.5-P0.50-TL"
+			(property "Value" "10uF"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2175,7 +2017,18 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://item.szlcsc.com/datasheet/LSM6DS3TR-C/1054343.html"
+			(property "Footprint" "ProPrj_esp-easyedapro:C0402"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://item.szlcsc.com/datasheet/HGC0402R5106M100NTEJ/8532796.html"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2197,7 +2050,7 @@
 					)
 				)
 			)
-			(property "Manufacturer Part" "LSM6DS3TR-C"
+			(property "Manufacturer Part" "HGC0402R5106M100NTEJ"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2208,7 +2061,7 @@
 					)
 				)
 			)
-			(property "Manufacturer" "ST(意法半导体)"
+			(property "Manufacturer" "Chinocera(华瓷)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2219,7 +2072,7 @@
 					)
 				)
 			)
-			(property "Supplier Part" "C967633"
+			(property "Supplier Part" "C7472949"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2241,7 +2094,7 @@
 					)
 				)
 			)
-			(property "LCSC Part Name" "IMU-惯性测量单元"
+			(property "LCSC Part Name" "10uF ±20% 10V"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2252,10 +2105,11 @@
 					)
 				)
 			)
-			(symbol "LSM6DS3TR-C_1_0"
-				(rectangle
-					(start -11.43 10.16)
-					(end 11.43 -10.16)
+			(symbol "HGC0402R5106M100NTEJ_1_0"
+				(polyline
+					(pts
+						(xy -0.508 0) (xy -2.54 0)
+					)
 					(stroke
 						(width 0.254)
 						(type solid)
@@ -2264,9 +2118,34 @@
 						(type none)
 					)
 				)
-				(circle
-					(center -10.16 8.89)
-					(radius 0.381)
+				(polyline
+					(pts
+						(xy -0.508 -2.032) (xy -0.508 2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 2.032) (xy 0.508 -2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 0.508 0)
+					)
 					(stroke
 						(width 0.254)
 						(type solid)
@@ -2276,9 +2155,142 @@
 					)
 				)
 				(pin unspecified line
-					(at -13.97 7.62 0)
+					(at -5.08 0 0)
 					(length 2.54)
-					(name "SDO/SA0"
+					(name "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "ProPrj_esp-easyedapro:Power-5V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.2446 1.2446)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Footprint" "ProPrj_esp-easyedapro:"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Power-5V_1_0"
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 90)
+					(length 1.27)
+					(name "VCC_3V3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2288,241 +2300,7 @@
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -13.97 5.08 0)
-					(length 2.54)
-					(name "SDx"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -13.97 2.54 0)
-					(length 2.54)
-					(name "SCx"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -13.97 0 0)
-					(length 2.54)
-					(name "INT1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -13.97 -2.54 0)
-					(length 2.54)
-					(name "VDDIO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -13.97 -5.08 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -13.97 -7.62 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 13.97 -7.62 180)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 13.97 -5.08 180)
-					(length 2.54)
-					(name "INT2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 13.97 -2.54 180)
-					(length 2.54)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 13.97 0 180)
-					(length 2.54)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 13.97 2.54 180)
-					(length 2.54)
-					(name "CS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 13.97 5.08 180)
-					(length 2.54)
-					(name "SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 13.97 7.62 180)
-					(length 2.54)
-					(name "SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
+								(size 0.0254 0.0254)
 							)
 						)
 					)
@@ -2645,7 +2423,381 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ProPrj_esp-easyedapro:RX8130CE{colon}BB"
+		(symbol "ProPrj_esp-easyedapro:TF PUSH"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "CARD"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "ProPrj_esp-easyedapro:TF-SMD_TF-PUSH"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://item.szlcsc.com/datasheet/TF%2520PUSH/372553.html"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "TF PUSH"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "SHOU HAN(首韩)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supplier Part" "C393941"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supplier" "LCSC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part Name" "9P，自弹式TF卡座"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TF PUSH_1_0"
+				(rectangle
+					(start -10.16 17.78)
+					(end 10.16 -17.78)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -8.89 16.51)
+					(radius 0.381)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -12.7 -5.08 0)
+					(length 2.54)
+					(name "DAT2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -12.7 -7.62 0)
+					(length 2.54)
+					(name "CD/DAT3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -12.7 5.08 0)
+					(length 2.54)
+					(name "CMD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -12.7 12.7 0)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -12.7 7.62 0)
+					(length 2.54)
+					(name "CLX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -12.7 -12.7 0)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -12.7 0 0)
+					(length 2.54)
+					(name "DAT0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -12.7 -2.54 0)
+					(length 2.54)
+					(name "DAT1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 -7.62 180)
+					(length 2.54)
+					(name "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 -10.16 180)
+					(length 2.54)
+					(name "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 -12.7 180)
+					(length 2.54)
+					(name "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 -15.24 180)
+					(length 2.54)
+					(name "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 12.7 180)
+					(length 2.54)
+					(name "CD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "CD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "ProPrj_esp-easyedapro:W25Q128JVSIQTR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2671,7 +2823,7 @@
 					)
 				)
 			)
-			(property "Footprint" "ProPrj_esp-easyedapro:RTC-SMD_L3.2-W2.5-P0.7-RX8130CE"
+			(property "Footprint" "ProPrj_esp-easyedapro:SOIC-8_L5.3-W5.3-P1.27-LS8.0-BL"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2682,7 +2834,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://item.szlcsc.com/datasheet/RX8130CE%253ABB/1633229.html"
+			(property "Datasheet" "https://item.szlcsc.com/datasheet/W25Q128JVSIQ/98729.html"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2704,7 +2856,7 @@
 					)
 				)
 			)
-			(property "Manufacturer Part" "RX8130CE:BB"
+			(property "Manufacturer Part" "W25Q128JVSIQ"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2715,7 +2867,7 @@
 					)
 				)
 			)
-			(property "Manufacturer" "EPSON(爱普生)"
+			(property "Manufacturer" "Winbond(华邦)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2726,7 +2878,7 @@
 					)
 				)
 			)
-			(property "Supplier Part" "C1542426"
+			(property "Supplier Part" "C97521"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2748,7 +2900,7 @@
 					)
 				)
 			)
-			(property "LCSC Part Name" "实时时钟模块（I2C总线）内置备份电池充电控制功能"
+			(property "LCSC Part Name" "编带 支持双路/四路SPI接口的3V、128Mbit 串行闪存"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2759,21 +2911,10 @@
 					)
 				)
 			)
-			(symbol "RX8130CE{colon}BB_1_0"
+			(symbol "W25Q128JVSIQTR_1_0"
 				(rectangle
-					(start -8.89 7.62)
-					(end 8.89 -7.62)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -7.62 6.35)
-					(radius 0.381)
+					(start -10.16 6.858)
+					(end 10.16 -6.858)
 					(stroke
 						(width 0.254)
 						(type solid)
@@ -2783,9 +2924,9 @@
 					)
 				)
 				(pin unspecified line
-					(at -11.43 5.08 0)
+					(at -12.7 3.81 0)
 					(length 2.54)
-					(name "Vio"
+					(name "CS#"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2801,9 +2942,9 @@
 					)
 				)
 				(pin unspecified line
-					(at -11.43 2.54 0)
+					(at -12.7 1.27 0)
 					(length 2.54)
-					(name "SCL"
+					(name "DO"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2819,9 +2960,9 @@
 					)
 				)
 				(pin unspecified line
-					(at -11.43 0 0)
+					(at -12.7 -1.27 0)
 					(length 2.54)
-					(name "SDA"
+					(name "IO2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2837,9 +2978,9 @@
 					)
 				)
 				(pin unspecified line
-					(at -11.43 -2.54 0)
+					(at -12.7 -3.81 0)
 					(length 2.54)
-					(name "FOUT"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2855,9 +2996,9 @@
 					)
 				)
 				(pin unspecified line
-					(at -11.43 -5.08 0)
+					(at 12.7 -3.81 180)
 					(length 2.54)
-					(name "#RST"
+					(name "DI"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2873,9 +3014,9 @@
 					)
 				)
 				(pin unspecified line
-					(at 11.43 -5.08 180)
+					(at 12.7 -1.27 180)
 					(length 2.54)
-					(name "#IRQ"
+					(name "CLK"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2891,9 +3032,9 @@
 					)
 				)
 				(pin unspecified line
-					(at 11.43 -2.54 180)
+					(at 12.7 1.27 180)
 					(length 2.54)
-					(name "GND"
+					(name "IO3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2909,9 +3050,9 @@
 					)
 				)
 				(pin unspecified line
-					(at 11.43 0 180)
+					(at 12.7 3.81 180)
 					(length 2.54)
-					(name "VDD"
+					(name "VCC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2926,38 +3067,113 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 11.43 2.54 180)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "ProPrj_esp-easyedapro:电阻"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "10K"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "ProPrj_esp-easyedapro:R1206"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "电阻_1_0"
+				(rectangle
+					(start -2.54 1.016)
+					(end 2.54 -1.016)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
 					(length 2.54)
-					(name "VOUT"
+					(name "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.0254 0.0254)
 							)
 						)
 					)
-					(number "9"
+					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.0254 0.0254)
 							)
 						)
 					)
 				)
-				(pin unspecified line
-					(at 11.43 5.08 180)
+				(pin input line
+					(at 5.08 0 180)
 					(length 2.54)
-					(name "VBAT"
+					(name "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.0254 0.0254)
 							)
 						)
 					)
-					(number "10"
+					(number "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.0254 0.0254)
 							)
 						)
 					)
@@ -2966,654 +3182,993 @@
 			(embedded_fonts no)
 		)
 	)
-	(junction
-		(at 40.64 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "17d4f10a-f8a6-4a18-bf43-b5ab9c5c43a8")
-	)
-	(junction
-		(at 40.64 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "18fd856a-2d27-4227-b90e-bdfae1903c43")
-	)
-	(junction
-		(at 187.96 100.584)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2f13efa9-baae-4888-850b-a3f3b57009ff")
+	(text "NC"
+		(exclude_from_sim no)
+		(at 214.63 119.38 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify right top)
+		)
+		(uuid "c9955da3-1148-4f68-8f39-b735616c6e3e")
 	)
 	(junction
-		(at 187.96 90.17)
+		(at 128.27 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "40e537dd-3684-430f-bc2f-7cc3b842f873")
+		(uuid "05413259-8c83-4526-9ac1-2796470b6163")
 	)
 	(junction
-		(at 158.75 73.66)
+		(at 128.27 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "543a3892-4680-494a-a793-b8db7cc3963a")
+		(uuid "06ee535a-e251-4604-bed1-b9beb58f3f09")
 	)
 	(junction
-		(at 88.9 105.41)
+		(at 80.01 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "665d1cb1-36d3-4d15-8b4c-faf3c8556beb")
+		(uuid "2b67f3fb-ef3d-404a-9dcc-1904e8ff3050")
 	)
 	(junction
-		(at 20.32 100.33)
+		(at 107.95 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8c473457-e094-46f1-bc38-9138306280e9")
+		(uuid "6d070376-8aa6-4fc8-a198-8675e14c9ddd")
 	)
 	(junction
-		(at 20.32 110.49)
+		(at 128.27 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "bd24c9ea-6950-4a41-b38a-9e25ff29beb2")
+		(uuid "9cfbbb95-26e2-4ac1-988a-7cdf886d10a0")
 	)
 	(junction
-		(at 134.62 73.66)
+		(at 233.68 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f1db4910-af7a-40bc-bf39-631577d22923")
+		(uuid "b107d109-1ae7-48c5-8732-410fcf76a227")
 	)
-	(no_connect
-		(at 68.58 97.79)
-		(uuid "2c29d511-e49b-4092-a22b-1e2e500f70be")
+	(junction
+		(at 80.01 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b4404893-e4ef-49fe-8eec-24ecbcbf219c")
 	)
-	(no_connect
-		(at 135.89 100.33)
-		(uuid "99380c94-ec5d-4a27-bf72-ea6231e93f1e")
+	(junction
+		(at 202.946 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "be7ef5b0-5aed-4a3d-ba65-7db885940bdf")
 	)
-	(no_connect
-		(at 68.58 100.33)
-		(uuid "ddaa5fd8-e8c4-477d-88a9-378c0016d0b8")
-	)
-	(no_connect
-		(at 135.89 102.87)
-		(uuid "e0f26104-2a18-4f2b-adeb-466781bc84c0")
+	(junction
+		(at 252.73 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c503bb23-9923-49b4-9759-ead7390789b7")
 	)
 	(wire
 		(pts
-			(xy 40.64 105.41) (xy 40.64 102.87)
+			(xy 200.66 71.12) (xy 226.06 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0d4eb774-bc52-46d5-9e7a-2a18802eabb7")
+		(uuid "05845b3c-8f0c-4d0d-862c-d9bbaf35cb78")
 	)
 	(wire
 		(pts
-			(xy 187.96 90.17) (xy 187.96 90.424)
+			(xy 107.95 43.18) (xy 107.95 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "14e5b0df-935a-4d9e-962a-ce8ffbf6f650")
+		(uuid "0b4a8ddb-b052-4ca5-8f6e-fc1f4de0c2c9")
 	)
 	(wire
 		(pts
-			(xy 182.88 90.17) (xy 182.88 97.79)
+			(xy 128.27 92.71) (xy 128.27 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2093ea39-ffb9-4647-9806-a2ecd934fb06")
+		(uuid "0ca1d404-ddc5-4b41-bbff-64472f1b0b84")
 	)
 	(wire
 		(pts
-			(xy 40.64 92.71) (xy 40.64 95.25)
+			(xy 233.68 134.62) (xy 232.41 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2b64fd4c-59a0-493d-b902-22bc5ccb3b75")
+		(uuid "0ec7b300-2b4c-4d3c-a884-c3d8932c6827")
 	)
 	(wire
 		(pts
-			(xy 162.56 73.66) (xy 158.75 73.66)
+			(xy 237.49 137.16) (xy 232.41 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2c5487a0-0baa-402f-b5cd-048176a4d58a")
+		(uuid "1a07f16a-f513-477a-9415-c104cfa7b69f")
 	)
 	(wire
 		(pts
-			(xy 158.75 100.33) (xy 187.96 100.33)
+			(xy 97.79 69.85) (xy 33.02 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2ea16d15-baa0-4878-959b-6b6220e9976c")
+		(uuid "1e0529b2-5c79-47e5-83a1-9dc33f2745f7")
 	)
 	(wire
 		(pts
-			(xy 76.2 90.17) (xy 68.58 90.17)
+			(xy 184.15 134.62) (xy 202.946 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3424de48-2c3d-416b-8bd3-0c9cc980a035")
+		(uuid "25ea405d-78a6-49e0-b031-fcd102b63d03")
 	)
 	(wire
 		(pts
-			(xy 124.46 73.66) (xy 134.62 73.66)
+			(xy 96.52 50.8) (xy 107.95 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3748b5f9-fc50-4a90-a7e3-b5b6117a232a")
+		(uuid "26f081a3-0de8-43b6-abca-cee760c3b47a")
 	)
 	(wire
 		(pts
-			(xy 224.79 114.3) (xy 245.11 114.3)
+			(xy 226.06 88.9) (xy 200.66 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3f97b744-bb29-41af-972f-1a6350dc6a90")
+		(uuid "2736e139-93d7-4ef2-b4a2-adf5e919136a")
 	)
 	(wire
 		(pts
-			(xy 121.92 95.25) (xy 135.89 95.25)
+			(xy 232.41 147.32) (xy 232.41 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4137a4a1-fef5-45e0-bd6f-e522fc57b703")
+		(uuid "277496a7-5d1d-4110-833b-7da1da01c3c7")
 	)
 	(wire
 		(pts
-			(xy 245.11 101.6) (xy 224.79 101.6)
+			(xy 200.66 58.42) (xy 226.06 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4612d091-5dfe-49ba-9754-8f5750165679")
+		(uuid "287d23c3-18bc-4bb2-bdbd-798a241b67df")
 	)
 	(wire
 		(pts
-			(xy 245.11 96.52) (xy 224.79 96.52)
+			(xy 33.02 80.01) (xy 97.79 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "53b75d3e-8106-4047-b83a-c2c2340fda94")
+		(uuid "2c43c94f-f282-4704-a4b5-aca8bf334425")
 	)
 	(wire
 		(pts
-			(xy 39.37 90.17) (xy 40.64 90.17)
+			(xy 200.66 66.04) (xy 226.06 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "55947662-f0aa-43ef-a863-f556579d5e24")
+		(uuid "3157239d-1542-4e56-a8d5-b06d2cbe95fd")
 	)
 	(wire
 		(pts
-			(xy 158.75 73.66) (xy 158.75 92.71)
+			(xy 226.06 86.36) (xy 200.66 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5977f5aa-490e-41ac-a0ef-27aca4fe6482")
+		(uuid "37199058-6e0a-4fe3-a562-c56c4dfe1d46")
 	)
 	(wire
 		(pts
-			(xy 40.64 110.49) (xy 40.64 105.41)
+			(xy 207.01 139.7) (xy 184.15 139.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5e7cad32-c1b0-4be0-a02c-cd4cc70cfa9c")
+		(uuid "3735d22d-dcb7-4daf-a847-8af5eb8e0b73")
 	)
 	(wire
 		(pts
-			(xy 187.96 90.17) (xy 182.88 90.17)
+			(xy 128.27 90.17) (xy 123.19 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6233f288-cd17-471d-bdc3-1e8ad9dd96fa")
+		(uuid "376d4c0f-5cc9-4012-a47d-56d609c05f53")
 	)
 	(wire
 		(pts
-			(xy 68.58 105.41) (xy 88.9 105.41)
+			(xy 252.73 121.92) (xy 252.73 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6dbdf526-6759-4010-bdc2-5e0ff0a41b86")
+		(uuid "3e34cea6-14fe-45d2-8535-ffb0a38559d4")
 	)
 	(wire
 		(pts
-			(xy 245.11 99.06) (xy 224.79 99.06)
+			(xy 128.27 90.17) (xy 128.27 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7c493acf-603c-45df-8c1b-2fc6fbf415ce")
+		(uuid "3e433af2-0357-4f17-b184-2f6c3d10a069")
 	)
 	(wire
 		(pts
-			(xy 176.53 80.01) (xy 172.72 80.01)
+			(xy 128.27 87.63) (xy 128.27 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8a5f7c69-13c6-42a8-8d00-6414dfad1ea3")
+		(uuid "3e9cc647-7616-4db0-87b7-446f42b5ce60")
 	)
 	(wire
 		(pts
-			(xy 224.79 111.76) (xy 245.11 111.76)
+			(xy 226.06 91.44) (xy 200.66 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8df7841e-59dc-4fa3-9b00-7a59cf993830")
+		(uuid "455a0de2-5c21-4fdb-acf2-ff1821a998a7")
 	)
 	(wire
 		(pts
-			(xy 76.2 92.71) (xy 68.58 92.71)
+			(xy 234.95 139.7) (xy 234.95 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "91445912-4ae5-4249-8737-29fe8292e164")
+		(uuid "4958f300-0cd1-445c-ad6c-4b5fcda551c6")
 	)
 	(wire
 		(pts
-			(xy 121.92 97.79) (xy 135.89 97.79)
+			(xy 234.95 144.78) (xy 250.19 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "91e36e3a-bedf-45ce-bb7d-85b21563f4a3")
+		(uuid "4fa9b7c4-49b7-4a7a-8aef-372ad9bb5063")
 	)
 	(wire
 		(pts
-			(xy 134.62 92.71) (xy 134.62 73.66)
+			(xy 33.02 85.09) (xy 97.79 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9593e208-7d9d-483b-9282-bb4c088258ce")
+		(uuid "50a30c79-39c7-42f3-9890-eae94f728436")
 	)
 	(wire
 		(pts
-			(xy 182.88 97.79) (xy 158.75 97.79)
+			(xy 202.946 121.92) (xy 202.946 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9cfbbd3a-ac91-4594-859f-360eb2c3e363")
+		(uuid "54b6bc04-52b0-4358-869c-dbfc4be4a2f9")
 	)
 	(wire
 		(pts
-			(xy 20.32 100.33) (xy 40.64 100.33)
+			(xy 80.01 64.77) (xy 97.79 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9d648f48-59ae-414a-9792-d53061a64522")
+		(uuid "553316b5-4c2e-4e7f-be29-86294a174087")
 	)
 	(wire
 		(pts
-			(xy 172.72 95.25) (xy 158.75 95.25)
+			(xy 226.06 81.28) (xy 200.66 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a3409242-4038-459f-bb57-52cd48d97774")
+		(uuid "58817f1d-1d86-4ab4-bdc8-64fa8881d673")
 	)
 	(wire
 		(pts
-			(xy 40.64 97.79) (xy 31.75 97.79)
+			(xy 97.79 77.47) (xy 33.02 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a86ce818-8e27-44b2-8f6d-dbc34d394829")
+		(uuid "5db45f2b-b8d7-4a12-ad53-45f2ee64bad0")
 	)
 	(wire
 		(pts
-			(xy 88.9 95.25) (xy 68.58 95.25)
+			(xy 207.01 137.16) (xy 184.15 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a8c61b9b-d8c9-47d2-b122-676f2e3eb200")
+		(uuid "63925af8-aa70-4dba-bfb5-d47020c7fc4a")
 	)
 	(wire
 		(pts
-			(xy 135.89 92.71) (xy 134.62 92.71)
+			(xy 96.52 93.98) (xy 96.52 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a93bc09f-dc77-48de-b277-3a2cc4980ec4")
+		(uuid "6789778a-8981-4ef6-91cd-39ff11c27a7b")
 	)
 	(wire
 		(pts
-			(xy 187.96 100.33) (xy 187.96 100.584)
+			(xy 198.12 142.24) (xy 198.12 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "aaa798eb-cefd-4f9d-bd79-f06017a16ba8")
+		(uuid "685e440b-29c7-483c-b27e-774d3c5a28d1")
 	)
 	(wire
 		(pts
-			(xy 158.75 102.87) (xy 166.37 102.87)
+			(xy 252.73 128.27) (xy 252.73 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b5736209-0033-4042-a917-324a6ea8aacf")
+		(uuid "6cd7ab43-7eec-4bdd-9786-261187d70eec")
 	)
 	(wire
 		(pts
-			(xy 20.32 110.49) (xy 40.64 110.49)
+			(xy 233.68 128.27) (xy 233.68 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c1e9a6c3-62e6-4f20-b215-536ec0054021")
+		(uuid "701dbc08-3199-4bdc-83a9-5bc9aad63d87")
 	)
 	(wire
 		(pts
-			(xy 76.2 102.87) (xy 68.58 102.87)
+			(xy 97.79 72.39) (xy 33.02 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cd11f85a-822c-4418-81dc-466aa24e3fd4")
+		(uuid "76033e79-5dc8-4a1a-86e0-e3a6293b9480")
 	)
 	(wire
 		(pts
-			(xy 172.72 80.01) (xy 172.72 95.25)
+			(xy 200.66 68.58) (xy 226.06 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d34df900-3498-4809-bd04-faea91139470")
+		(uuid "776044cc-ace5-4fc2-ab74-1a3eb1935140")
 	)
 	(wire
 		(pts
-			(xy 245.11 116.84) (xy 224.79 116.84)
+			(xy 128.27 93.98) (xy 128.27 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e0566087-b345-4624-87bb-f1d7dff44b6b")
+		(uuid "784e8792-7ff2-4f59-895e-4e8730faeb1b")
 	)
 	(wire
 		(pts
-			(xy 224.79 109.22) (xy 245.11 109.22)
+			(xy 128.27 87.63) (xy 123.19 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "eba569d1-c845-4996-8f37-d96323860ae7")
+		(uuid "822d3ce1-5df9-4cd5-b1ea-0129dd2b46dd")
 	)
-	(label "RTC_I2C_SDA"
-		(at 121.92 97.79 0)
+	(wire
+		(pts
+			(xy 80.01 43.18) (xy 86.36 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82ecca66-c879-4138-85f4-a1b128c80cc1")
+	)
+	(wire
+		(pts
+			(xy 233.68 116.84) (xy 233.68 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88fb8e19-8f27-4a27-9655-24c91f1cf910")
+	)
+	(wire
+		(pts
+			(xy 226.06 93.98) (xy 200.66 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94686f3d-4de7-4fad-b0a9-6fb40ac6e9f7")
+	)
+	(wire
+		(pts
+			(xy 226.06 63.5) (xy 200.66 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99caefa8-a84a-4b5b-946c-b3a6551a1e35")
+	)
+	(wire
+		(pts
+			(xy 237.49 142.24) (xy 250.19 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ba04914-a7c8-45a3-88bc-00529c38d7d5")
+	)
+	(wire
+		(pts
+			(xy 247.65 121.92) (xy 252.73 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0b820e3-7058-4439-a077-cf6c8790d45f")
+	)
+	(wire
+		(pts
+			(xy 214.63 121.92) (xy 202.946 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a91bcc64-0368-4c2d-aa46-fafafbfe528a")
+	)
+	(wire
+		(pts
+			(xy 200.66 60.96) (xy 226.06 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa4f633f-a042-41e9-8263-3157a23df838")
+	)
+	(wire
+		(pts
+			(xy 237.49 128.27) (xy 233.68 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac419e62-d06f-4b00-a662-668627e2ceef")
+	)
+	(wire
+		(pts
+			(xy 237.49 137.16) (xy 237.49 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7657ff7-6a21-45b2-bc07-bc4416239d39")
+	)
+	(wire
+		(pts
+			(xy 123.19 85.09) (xy 128.27 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc7d2f3a-88a6-435e-bdbd-1057ff5d0c7a")
+	)
+	(wire
+		(pts
+			(xy 200.66 83.82) (xy 226.06 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcfdb85a-4698-4416-8203-9a50fc6b5216")
+	)
+	(wire
+		(pts
+			(xy 80.01 50.8) (xy 86.36 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf13d23f-ec0b-4043-bc31-763c32ad8298")
+	)
+	(wire
+		(pts
+			(xy 224.79 121.92) (xy 237.49 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca4a6d9b-d284-4490-810f-34ff5a63bb58")
+	)
+	(wire
+		(pts
+			(xy 80.01 50.8) (xy 80.01 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0a6ceda-ca01-447f-bf2f-d3a454bdf78b")
+	)
+	(wire
+		(pts
+			(xy 234.95 139.7) (xy 232.41 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d10ce633-b64c-45dd-9935-14fd89ea45bc")
+	)
+	(wire
+		(pts
+			(xy 97.79 90.17) (xy 96.52 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1555c7e-d040-46ab-a8d3-11e688a72108")
+	)
+	(wire
+		(pts
+			(xy 96.52 43.18) (xy 107.95 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d19af2bf-c7c8-4eac-9125-5745cf0eba4d")
+	)
+	(wire
+		(pts
+			(xy 80.01 50.8) (xy 80.01 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcba343a-4795-42ed-bbee-6d4c9daf0ca8")
+	)
+	(wire
+		(pts
+			(xy 33.02 82.55) (xy 97.79 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0f6edc8-3dc0-45c6-85c5-cc63b01f22f9")
+	)
+	(wire
+		(pts
+			(xy 207.01 142.24) (xy 198.12 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e463d698-11f8-4669-b271-fd58e067431e")
+	)
+	(wire
+		(pts
+			(xy 200.66 55.88) (xy 226.06 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaaf2559-c276-41a7-9b6b-a4423d55c2f4")
+	)
+	(wire
+		(pts
+			(xy 107.95 43.18) (xy 110.49 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebac7f9e-306a-479d-a168-6026674935a5")
+	)
+	(wire
+		(pts
+			(xy 250.19 147.32) (xy 232.41 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed602a90-e24d-4ec3-b643-c8dbc1ea29b6")
+	)
+	(wire
+		(pts
+			(xy 139.7 64.77) (xy 123.19 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee9ecdf9-ab56-421e-af39-2d026a7c272c")
+	)
+	(wire
+		(pts
+			(xy 202.946 134.62) (xy 207.01 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f02a1285-65ec-403d-aeb3-25b7f37992a2")
+	)
+	(wire
+		(pts
+			(xy 128.27 92.71) (xy 123.19 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f67f944c-0b63-47a2-a7b1-beb1d0de7389")
+	)
+	(wire
+		(pts
+			(xy 247.65 128.27) (xy 252.73 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa7bfbcc-8511-4ae1-be83-b776cbfc74c1")
+	)
+	(wire
+		(pts
+			(xy 80.01 38.1) (xy 80.01 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fecc09d3-df8c-4500-8c49-9748706e2e52")
+	)
+	(label "SDCARD_CD_DET"
+		(at 200.66 55.88 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
 			)
 			(justify left bottom)
 		)
-		(uuid "0aaab880-d963-4dd7-9c31-d25656106257")
+		(uuid "0a541969-8314-43c4-bb29-b4df6e76ff70")
 	)
-	(label "RTC_I2C_SCL"
-		(at 121.92 95.25 0)
+	(label "FLASH_SPI_HOLD#/IO3"
+		(at 238.76 142.24 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
 			)
 			(justify left bottom)
 		)
-		(uuid "2301fe77-ee16-42f1-bf9a-23809aa9d55a")
+		(uuid "17c63bd4-16f4-4c9c-a96d-a7b516fb2a3f")
 	)
-	(label "MPU_I2C_SCL"
-		(at 224.79 114.3 0)
+	(label "SDCARD_SDIO_DATA0"
+		(at 200.66 63.5 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
 			)
 			(justify left bottom)
 		)
-		(uuid "4b130c87-80f4-47bc-b7c8-66f072078980")
+		(uuid "1c1a3c61-b136-4164-a633-5d8b4d07cbad")
 	)
-	(label "MPU_INT1"
-		(at 224.79 109.22 0)
+	(label "SDCARD_SDIO_CMD"
+		(at 200.66 60.96 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
 			)
 			(justify left bottom)
 		)
-		(uuid "4bf9977e-c952-410e-b73b-b7b8e92ca0a1")
+		(uuid "34999410-37cf-4949-b38f-08345afb21ca")
 	)
-	(label "RTC_I2C_SCL"
-		(at 224.79 99.06 0)
+	(label "FLASH_SPI_CLK"
+		(at 200.66 91.44 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
 			)
 			(justify left bottom)
 		)
-		(uuid "56a00dcf-d95b-47b0-94b8-9234683e7d6d")
+		(uuid "42d43cd8-66a4-42be-b573-6b0a4945de3d")
 	)
-	(label "MPU_INT1"
-		(at 31.75 97.79 0)
+	(label "FLASH_SPI_CS"
+		(at 184.15 134.62 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
 			)
 			(justify left bottom)
 		)
-		(uuid "6e4f2f59-dcb0-49db-b5ef-d7f3621e9efa")
+		(uuid "49da9079-b94a-4f51-8aec-210b08794d9a")
 	)
-	(label "MPU_INT2"
-		(at 71.12 102.87 0)
+	(label "FLASH_SPI_DI/IO1"
+		(at 238.76 147.32 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
 			)
 			(justify left bottom)
 		)
-		(uuid "6f3d560b-84b9-4c61-99c2-048316a08068")
+		(uuid "57af1284-2554-4cbe-9469-d53dbd88feda")
 	)
-	(label "RTC_I2C_INT#"
-		(at 161.29 102.87 0)
+	(label "FLASH_SPI_DO/IO0"
+		(at 200.66 83.82 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
 			)
 			(justify left bottom)
 		)
-		(uuid "8ac66a50-ad50-4dc9-af23-ee259c5b4d43")
+		(uuid "59e4e169-65d9-4a7a-9ac1-b7c2d2237abf")
 	)
-	(label "RTC_I2C_SDA"
-		(at 224.79 101.6 0)
+	(label "FLASH_SPI_HOLD#/IO3"
+		(at 200.66 88.9 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
 			)
 			(justify left bottom)
 		)
-		(uuid "9b43e2c5-02a8-4139-aa75-14776d5a998a")
+		(uuid "62e4e1d9-c156-45dc-b2cf-6c6e903da07c")
 	)
-	(label "MPU_I2C_SCL"
-		(at 71.12 92.71 0)
+	(label "SDCARD_SDIO_DATA2"
+		(at 33.02 82.55 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
 			)
 			(justify left bottom)
 		)
-		(uuid "a428c93e-ff61-4a55-909e-730afaadb698")
+		(uuid "66f55e14-8150-47cb-8a79-844c6c9bf38e")
 	)
-	(label "MPU_INT2"
-		(at 224.79 111.76 0)
+	(label "SDCARD_SDIO_DATA1"
+		(at 33.02 80.01 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
 			)
 			(justify left bottom)
 		)
-		(uuid "b11db5de-b30e-4ab9-a707-6e80f49903d4")
+		(uuid "6af116eb-4444-42bc-a4ba-e7f569fc2177")
 	)
-	(label "MPU_I2C_SDA"
-		(at 224.79 116.84 0)
+	(label "FLASH_SPI_WP#/IO2"
+		(at 184.15 139.7 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
 			)
 			(justify left bottom)
 		)
-		(uuid "e69991b7-3c6d-45f9-9c88-36c2d28f192d")
+		(uuid "7471c356-c783-434a-bf43-59e0c9e3e3fb")
 	)
-	(label "MPU_I2C_SDA"
-		(at 71.12 90.17 0)
+	(label "SDCARD_CD_DET"
+		(at 139.7 64.77 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
 			)
 			(justify left bottom)
 		)
-		(uuid "eed33ff8-14b1-46c2-a94b-f1b0c30064b2")
+		(uuid "780209e2-a21c-402f-ae14-ebe6e4cde8a7")
 	)
-	(label "RTC_I2C_INT#"
-		(at 224.79 96.52 0)
+	(label "SDCARD_SDIO_DATA3"
+		(at 33.02 85.09 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
 			)
 			(justify left bottom)
 		)
-		(uuid "f5c2fd07-10b6-4c49-ae61-5eb96edbc330")
+		(uuid "7e8859c9-aba5-4152-8c51-6c30d543a7b4")
 	)
-	(global_label "MPU_INT2"
-		(shape output)
-		(at 245.11 111.76 0)
+	(label "FLASH_SPI_DO/IO0"
+		(at 184.15 137.16 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
 			)
-			(justify left)
+			(justify left bottom)
 		)
-		(uuid "0a621e35-cc66-4c2f-a5d6-51b6f97ab3dd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 245.11 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
+		(uuid "85a72669-8b6b-4b00-a95a-7125691f81dd")
 	)
-	(global_label "MPU_I2C_SCL"
-		(shape input)
-		(at 245.11 114.3 0)
+	(label "FLASH_SPI_CS"
+		(at 200.66 81.28 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
 			)
-			(justify left)
+			(justify left bottom)
 		)
-		(uuid "15b7d5f6-c61e-4ab4-9a4a-aaa89d8c84bc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 245.11 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
+		(uuid "8e75f15c-69d7-4567-86f1-bbf791c0b654")
 	)
-	(global_label "MPU_INT1"
-		(shape output)
-		(at 245.11 109.22 0)
+	(label "SDCARD_SDIO_DATA3"
+		(at 200.66 71.12 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
 			)
-			(justify left)
+			(justify left bottom)
 		)
-		(uuid "262c6507-c1a4-4078-9fa2-f4a45a43527f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 245.11 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
+		(uuid "90f12235-2fb4-4f7e-b6cd-08031ea80416")
 	)
-	(global_label "MPU_I2C_SDA"
+	(label "SDCARD_SDIO_CMD"
+		(at 33.02 72.39 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "92b6cd8a-773b-447f-9ded-cc7cdf6466be")
+	)
+	(label "FLASH_SPI_WP#/IO2"
+		(at 200.66 86.36 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "9bd4e23f-0e1d-45a7-a1d2-00a956aba349")
+	)
+	(label "SDCARD_SDIO_DATA1"
+		(at 200.66 66.04 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "a3764ff3-d2d2-4314-82ce-63f04bd66b01")
+	)
+	(label "SDCARD_SDIO_CLK"
+		(at 200.66 58.42 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "b0b14712-68ff-440b-bd72-bb29c1173578")
+	)
+	(label "FLASH_SPI_CLK"
+		(at 238.76 144.78 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "bacd9c19-2990-4bc3-af11-1cc0e9ce607c")
+	)
+	(label "SDCARD_SDIO_DATA2"
+		(at 200.66 68.58 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "c759637d-c980-4321-bf2f-2c02e26bc998")
+	)
+	(label "SDCARD_SDIO_DATA0"
+		(at 33.02 77.47 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "cc71de8b-c4b6-4e4a-a362-41642da91f0d")
+	)
+	(label "SDCARD_SDIO_CLK"
+		(at 33.02 69.85 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "e271f044-4f82-4b4a-8327-96be23e58f04")
+	)
+	(label "FLASH_SPI_DI/IO1"
+		(at 200.66 93.98 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "ea3fa37c-5145-4359-bf3f-eb05fa2f410c")
+	)
+	(global_label "SDCARD_SDIO_DATA2"
 		(shape bidirectional)
-		(at 245.11 116.84 0)
+		(at 226.06 68.58 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
 			)
 			(justify left)
 		)
-		(uuid "83f857c5-a197-47fa-991a-f09be83dcbd2")
+		(uuid "0f906c8e-66e6-43d6-b0f0-00f30e1765bf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 245.11 116.84 0)
+			(at 226.06 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3624,62 +4179,260 @@
 			)
 		)
 	)
-	(global_label "RTC_I2C_SDA"
-		(shape bidirectional)
-		(at 245.11 101.6 0)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left)
-		)
-		(uuid "ee2ef236-0c86-4393-a24b-149dcd920c62")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 245.11 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
-	(global_label "RTC_I2C_INT#"
-		(shape output)
-		(at 245.11 96.52 0)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left)
-		)
-		(uuid "fb9f3bdf-fc51-4fbc-b1d8-07c627e58509")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 245.11 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
-	(global_label "RTC_I2C_SCL"
+	(global_label "FLASH_SPI_CLK"
 		(shape input)
-		(at 245.11 99.06 0)
+		(at 226.06 91.44 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
 			)
 			(justify left)
 		)
-		(uuid "fd1bc040-24a2-4d5c-b331-49fe65d5c81d")
+		(uuid "1a86c378-fb7e-477e-9363-86bf1afbc257")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 245.11 99.06 0)
+			(at 226.06 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "SDCARD_SDIO_CLK"
+		(shape input)
+		(at 226.06 58.42 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left)
+		)
+		(uuid "1dc22fa4-e31d-4cbf-af76-e5abf694dc9d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 226.06 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "SDCARD_SDIO_DATA1"
+		(shape bidirectional)
+		(at 226.06 66.04 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left)
+		)
+		(uuid "393ba3ec-2767-440d-b555-2819b5a5a71f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 226.06 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "FLASH_SPI_WP#/IO2"
+		(shape input)
+		(at 226.06 86.36 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left)
+		)
+		(uuid "4cda066d-8c46-4211-87ad-8aff019bb30d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 226.06 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "FLASH_SPI_CS"
+		(shape input)
+		(at 226.06 81.28 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left)
+		)
+		(uuid "5571f7f5-bffd-4ec7-9771-d18686059c17")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 226.06 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "FLASH_SPI_HOLD#/IO3"
+		(shape input)
+		(at 226.06 88.9 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left)
+		)
+		(uuid "7e6f1565-e655-4615-8a0d-564f61872df4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 226.06 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "SDCARD_CD_DET"
+		(shape output)
+		(at 226.06 55.88 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left)
+		)
+		(uuid "8ab815ea-49e0-4acb-b4f1-111cca53a064")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 226.06 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "FLASH_SPI_DI/IO1"
+		(shape input)
+		(at 226.06 93.98 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left)
+		)
+		(uuid "9e5642e8-3489-4e04-a0df-8c70d598488a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 226.06 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "SDCARD_SDIO_CMD"
+		(shape input)
+		(at 226.06 60.96 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left)
+		)
+		(uuid "c9605d68-82a1-4309-a126-59da0b1a9732")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 226.06 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "SDCARD_SDIO_DATA0"
+		(shape bidirectional)
+		(at 226.06 63.5 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left)
+		)
+		(uuid "d459ebf2-72a8-432c-8197-5f76d78d71d6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 226.06 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "SDCARD_SDIO_DATA3"
+		(shape bidirectional)
+		(at 226.06 71.12 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left)
+		)
+		(uuid "eecff9ac-cf9e-4abd-8bed-a01d7893d3df")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 226.06 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "FLASH_SPI_DO/IO0"
+		(shape output)
+		(at 226.06 83.82 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left)
+		)
+		(uuid "efdd8d60-b1f4-4e36-95e7-1bcbcf40b28d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 226.06 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3691,8 +4444,8 @@
 		)
 	)
 	(symbol
-		(lib_id "ProPrj_esp-easyedapro:Power-VCC")
-		(at 20.32 100.33 0)
+		(lib_id "ProPrj_esp-easyedapro:Ground-GND")
+		(at 252.73 129.54 0)
 		(unit 1)
 		(body_style 0)
 		(exclude_from_sim no)
@@ -3700,9 +4453,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "18fdb4d8-ebb1-476b-b3a6-64b748b1c0d0")
+		(uuid "0de77873-9c19-4b99-b4e9-52068453bca3")
 		(property "Reference" "#PWR?"
-			(at 20.32 100.33 0)
+			(at 252.73 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3712,8 +4465,8 @@
 				)
 			)
 		)
-		(property "Value" "VCC_3V3"
-			(at 20.32 97.79 0)
+		(property "Value" "GND"
+			(at 252.73 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3721,11 +4474,10 @@
 				(font
 					(size 1.2446 1.2446)
 				)
-				(justify bottom)
 			)
 		)
 		(property "Footprint" "ProPrj_esp-easyedapro:"
-			(at 20.32 100.33 0)
+			(at 252.73 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3736,7 +4488,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 20.32 100.33 0)
+			(at 252.73 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3747,7 +4499,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 20.32 100.33 0)
+			(at 252.73 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3758,11 +4510,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "41a7437a-1883-4649-b4d7-affb68a315cf")
+			(uuid "5e4eecb4-cc9c-4805-a2b7-12a0a068d30b")
 		)
 		(instances
 			(project "ProPrj_esp32s31-mp4_2026-09-22"
-				(path "/cd9d9f81-08f6-47f6-8653-591036e0aca5/6160a32a-7347-4b66-a346-4990722b56ce"
+				(path "/cd9d9f81-08f6-47f6-8653-591036e0aca5/9406ee00-7b7b-42fe-a7d8-5ce08356a255"
 					(reference "#PWR?")
 					(unit 1)
 				)
@@ -3770,8 +4522,8 @@
 		)
 	)
 	(symbol
-		(lib_id "ProPrj_esp-easyedapro:Power-VCC")
-		(at 39.37 90.17 0)
+		(lib_id "ProPrj_esp-easyedapro:Ground-GND")
+		(at 110.49 43.18 90)
 		(unit 1)
 		(body_style 0)
 		(exclude_from_sim no)
@@ -3779,9 +4531,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "3f6ac2f9-bbd7-49af-8a75-3c140e0384e4")
+		(uuid "254f9ef6-486e-4d30-bf20-f9f121b347bb")
 		(property "Reference" "#PWR?"
-			(at 39.37 90.17 0)
+			(at 110.49 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3791,8 +4543,8 @@
 				)
 			)
 		)
-		(property "Value" "VCC_3V3"
-			(at 39.37 87.63 0)
+		(property "Value" "GND"
+			(at 116.84 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3800,11 +4552,10 @@
 				(font
 					(size 1.2446 1.2446)
 				)
-				(justify bottom)
 			)
 		)
 		(property "Footprint" "ProPrj_esp-easyedapro:"
-			(at 39.37 90.17 0)
+			(at 110.49 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3815,7 +4566,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 90.17 0)
+			(at 110.49 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3826,7 +4577,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 39.37 90.17 0)
+			(at 110.49 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3837,11 +4588,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "0a03883a-507b-4bb1-9dff-3f5d38624565")
+			(uuid "09e10fc6-82af-4996-b11d-14a7fde5520e")
 		)
 		(instances
 			(project "ProPrj_esp32s31-mp4_2026-09-22"
-				(path "/cd9d9f81-08f6-47f6-8653-591036e0aca5/6160a32a-7347-4b66-a346-4990722b56ce"
+				(path "/cd9d9f81-08f6-47f6-8653-591036e0aca5/9406ee00-7b7b-42fe-a7d8-5ce08356a255"
 					(reference "#PWR?")
 					(unit 1)
 				)
@@ -3849,8 +4600,8 @@
 		)
 	)
 	(symbol
-		(lib_id "ProPrj_esp-easyedapro:Power-VCC")
-		(at 88.9 105.41 0)
+		(lib_id "ProPrj_esp-easyedapro:HGC0402R5106M100NTEJ")
+		(at 242.57 121.92 180)
 		(unit 1)
 		(body_style 0)
 		(exclude_from_sim no)
@@ -3858,110 +4609,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "497734e5-43ff-4fc5-85c1-0d9da0f3274e")
-		(property "Reference" "#PWR?"
-			(at 88.9 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC_3V3"
-			(at 88.9 102.87 0)
-			(hide yes)
+		(uuid "26426fcf-0ec3-4b8c-93d6-ff7ee26b9187")
+		(property "Reference" "C60"
+			(at 237.49 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.2446 1.2446)
 				)
-				(justify bottom)
-			)
-		)
-		(property "Footprint" "ProPrj_esp-easyedapro:"
-			(at 88.9 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 88.9 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "256bc652-b06e-4eaf-adb8-9c2a764d4369")
-		)
-		(instances
-			(project "ProPrj_esp32s31-mp4_2026-09-22"
-				(path "/cd9d9f81-08f6-47f6-8653-591036e0aca5/6160a32a-7347-4b66-a346-4990722b56ce"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ProPrj_esp-easyedapro:Capacitance")
-		(at 88.9 110.49 270)
-		(unit 1)
-		(body_style 0)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5687934e-648e-41bf-94b4-5f4ba087b460")
-		(property "Reference" "C48"
-			(at 92.71 110.49 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.2446 1.2446)
-				)
-				(justify left bottom)
+				(justify right top)
 			)
 		)
 		(property "Value" "100nF"
-			(at 92.71 113.03 90)
+			(at 243.84 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.2446 1.2446)
 				)
-				(justify left bottom)
+				(justify right top)
 			)
 		)
 		(property "Footprint" "ProPrj_esp-easyedapro:C0402"
-			(at 88.9 110.49 0)
+			(at 242.57 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3971,19 +4643,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 88.9 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 88.9 110.49 90)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/HGC0402R5106M100NTEJ/8532796.html"
+			(at 242.57 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3991,11 +4652,11 @@
 				(font
 					(size 1.2446 1.2446)
 				)
-				(justify left bottom)
+				(justify right top)
 			)
 		)
-		(property "3D Model" "36a51122f27c49738f86b3bfa98863e0|0819f05c4eef4c71ace90d822a990e87"
-			(at 88.9 110.49 90)
+		(property "Description" "容值:10uF;精度:±20%;额定电压:10V;温度系数:X5R;"
+			(at 242.57 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4003,11 +4664,11 @@
 				(font
 					(size 1.2446 1.2446)
 				)
-				(justify left bottom)
+				(justify right top)
 			)
 		)
-		(property "3D Model Title" "C0402_L1.0-W0.5-H0.5"
-			(at 88.9 110.49 90)
+		(property "Manufacturer Part" "HGC0402R5106M100NTEJ"
+			(at 242.57 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4015,11 +4676,11 @@
 				(font
 					(size 1.2446 1.2446)
 				)
-				(justify left bottom)
+				(justify right top)
 			)
 		)
-		(property "3D Model Transform" "39.37,19.685,0,0,0,0,0,0,0"
-			(at 88.9 110.49 90)
+		(property "Manufacturer" "Chinocera(华瓷)"
+			(at 242.57 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4027,335 +4688,11 @@
 				(font
 					(size 1.2446 1.2446)
 				)
-				(justify left bottom)
+				(justify right top)
 			)
 		)
-		(property "Supplier Footprint" "0402"
-			(at 88.9 110.49 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.2446 1.2446)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "2"
-			(uuid "38e2be40-4c83-4f22-a4cf-2b1a131ba3f3")
-		)
-		(pin "1"
-			(uuid "b1e33392-3a05-40d9-994e-edae35e5bba3")
-		)
-		(instances
-			(project "ProPrj_esp32s31-mp4_2026-09-22"
-				(path "/cd9d9f81-08f6-47f6-8653-591036e0aca5/6160a32a-7347-4b66-a346-4990722b56ce"
-					(reference "C48")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ProPrj_esp-easyedapro:Capacitance")
-		(at 176.53 85.09 270)
-		(unit 1)
-		(body_style 0)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "59e33f43-3fc3-47f6-9e38-e93f7728d96d")
-		(property "Reference" "C54"
-			(at 180.34 85.09 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.2446 1.2446)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "1uF"
-			(at 180.34 87.63 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.2446 1.2446)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "ProPrj_esp-easyedapro:C0402"
-			(at 176.53 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 176.53 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 176.53 85.09 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.2446 1.2446)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "3D Model" "36a51122f27c49738f86b3bfa98863e0|0819f05c4eef4c71ace90d822a990e87"
-			(at 176.53 85.09 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.2446 1.2446)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "3D Model Title" "C0402_L1.0-W0.5-H0.5"
-			(at 176.53 85.09 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.2446 1.2446)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "3D Model Transform" "39.37,19.685,0,0,0,0,0,0,0"
-			(at 176.53 85.09 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.2446 1.2446)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Supplier Footprint" "0402"
-			(at 176.53 85.09 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.2446 1.2446)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "1"
-			(uuid "4b3129a8-0e73-4ceb-bbb0-895deac7fa5c")
-		)
-		(pin "2"
-			(uuid "63b2fdd0-5219-4512-aa0d-27bec77cc129")
-		)
-		(instances
-			(project "ProPrj_esp32s31-mp4_2026-09-22"
-				(path "/cd9d9f81-08f6-47f6-8653-591036e0aca5/6160a32a-7347-4b66-a346-4990722b56ce"
-					(reference "C54")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ProPrj_esp-easyedapro:Power-VCC")
-		(at 134.62 73.66 0)
-		(unit 1)
-		(body_style 0)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "631cf79d-a4f9-4cf9-a232-385ecba80aca")
-		(property "Reference" "#PWR?"
-			(at 134.62 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC_3V3"
-			(at 134.62 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.2446 1.2446)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Footprint" "ProPrj_esp-easyedapro:"
-			(at 134.62 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 134.62 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e639f175-d751-4323-8634-2fa08f165320")
-		)
-		(instances
-			(project "ProPrj_esp32s31-mp4_2026-09-22"
-				(path "/cd9d9f81-08f6-47f6-8653-591036e0aca5/6160a32a-7347-4b66-a346-4990722b56ce"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ProPrj_esp-easyedapro:LSM6DS3TR-C")
-		(at 54.61 97.79 0)
-		(unit 1)
-		(body_style 0)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6f6c540a-9abc-498b-a9eb-b74dc1d8cdbf")
-		(property "Reference" "U15"
-			(at 43.18 87.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.2446 1.2446)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "LSM6DS3TR-C"
-			(at 43.18 110.49 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.2446 1.2446)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "ProPrj_esp-easyedapro:LGA-14_L3.0-W2.5-P0.50-TL"
-			(at 54.61 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/LSM6DS3TR-C/1054343.html"
-			(at 54.61 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 54.61 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" "LSM6DS3TR-C"
-			(at 54.61 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "ST(意法半导体)"
-			(at 54.61 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier Part" "C967633"
-			(at 54.61 97.79 0)
+		(property "Supplier Part" "C7472949"
+			(at 242.57 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4366,102 +4703,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 54.61 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part Name" "IMU-惯性测量单元"
-			(at 54.61 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "6"
-			(uuid "fff3365e-7a6e-4f91-a324-3d416fe9b9cf")
-		)
-		(pin "1"
-			(uuid "3e3a9891-156c-4330-a1af-67766f799952")
-		)
-		(pin "2"
-			(uuid "e2e5ddc5-6988-4eb2-9064-04a37171323e")
-		)
-		(pin "3"
-			(uuid "5dd759ad-d104-45a1-b44b-6d74bfee73de")
-		)
-		(pin "4"
-			(uuid "f2a8b722-3616-4899-a750-cf560440c496")
-		)
-		(pin "5"
-			(uuid "300a0aef-b004-4bc9-81db-621f68a185fc")
-		)
-		(pin "7"
-			(uuid "916f9a8c-c409-4110-9e0d-2dbaaf7ba9c4")
-		)
-		(pin "8"
-			(uuid "2772703b-79f3-41bb-a3f9-022a50215ef7")
-		)
-		(pin "9"
-			(uuid "f7e26cf5-2d86-40d0-9fce-63904aff7bad")
-		)
-		(pin "11"
-			(uuid "35d9997b-f960-457e-9f75-8e8c922b27f7")
-		)
-		(pin "12"
-			(uuid "d3aa1609-5ea9-4f43-859e-f804ac99a7ee")
-		)
-		(pin "10"
-			(uuid "1999e620-61ab-4fda-ac48-bd16c0d0d99d")
-		)
-		(pin "13"
-			(uuid "9380eb7c-9f90-4e5c-af9a-5decd723ea65")
-		)
-		(pin "14"
-			(uuid "1590977a-b1ed-4566-8b9f-10afb8518b6e")
-		)
-		(instances
-			(project "ProPrj_esp32s31-mp4_2026-09-22"
-				(path "/cd9d9f81-08f6-47f6-8653-591036e0aca5/6160a32a-7347-4b66-a346-4990722b56ce"
-					(reference "U15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ProPrj_esp-easyedapro:Ground-GND")
-		(at 187.96 100.584 0)
-		(unit 1)
-		(body_style 0)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8912c017-d41e-49ce-8f2d-5b3a1e58f28c")
-		(property "Reference" "#PWR?"
-			(at 187.96 100.584 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 187.96 106.934 0)
+			(at 242.57 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4469,77 +4711,11 @@
 				(font
 					(size 1.2446 1.2446)
 				)
+				(justify right top)
 			)
 		)
-		(property "Footprint" "ProPrj_esp-easyedapro:"
-			(at 187.96 100.584 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 187.96 100.584 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 187.96 100.584 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4082cdfa-f3c0-459c-983d-a46d81e53892")
-		)
-		(instances
-			(project "ProPrj_esp32s31-mp4_2026-09-22"
-				(path "/cd9d9f81-08f6-47f6-8653-591036e0aca5/6160a32a-7347-4b66-a346-4990722b56ce"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ProPrj_esp-easyedapro:Ground-GND")
-		(at 176.53 90.17 0)
-		(unit 1)
-		(body_style 0)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8bd0d6bd-aab9-4358-a30d-877dfa86b946")
-		(property "Reference" "#PWR?"
-			(at 176.53 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 176.53 96.52 0)
+		(property "LCSC Part Name" "10uF ±20% 10V"
+			(at 242.57 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4547,122 +4723,11 @@
 				(font
 					(size 1.2446 1.2446)
 				)
-			)
-		)
-		(property "Footprint" "ProPrj_esp-easyedapro:"
-			(at 176.53 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 176.53 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 176.53 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a320e30c-618a-4a7a-b434-7bd89fbd8f1a")
-		)
-		(instances
-			(project "ProPrj_esp32s31-mp4_2026-09-22"
-				(path "/cd9d9f81-08f6-47f6-8653-591036e0aca5/6160a32a-7347-4b66-a346-4990722b56ce"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ProPrj_esp-easyedapro:Capacitance")
-		(at 187.96 95.504 270)
-		(unit 1)
-		(body_style 0)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8e2c8f0a-d6ad-48a8-beee-7b908ca50e7f")
-		(property "Reference" "C53"
-			(at 191.77 95.504 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.2446 1.2446)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "100nF"
-			(at 191.77 98.044 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.2446 1.2446)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "ProPrj_esp-easyedapro:C0402"
-			(at 187.96 95.504 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 187.96 95.504 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 187.96 95.504 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.2446 1.2446)
-				)
-				(justify left bottom)
+				(justify right top)
 			)
 		)
 		(property "3D Model" "36a51122f27c49738f86b3bfa98863e0|0819f05c4eef4c71ace90d822a990e87"
-			(at 187.96 95.504 90)
+			(at 242.57 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4670,11 +4735,11 @@
 				(font
 					(size 1.2446 1.2446)
 				)
-				(justify left bottom)
+				(justify right top)
 			)
 		)
 		(property "3D Model Title" "C0402_L1.0-W0.5-H0.5"
-			(at 187.96 95.504 90)
+			(at 242.57 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4682,11 +4747,11 @@
 				(font
 					(size 1.2446 1.2446)
 				)
-				(justify left bottom)
+				(justify right top)
 			)
 		)
 		(property "3D Model Transform" "39.37,19.685,0,0,0,0,0,0,0"
-			(at 187.96 95.504 90)
+			(at 242.57 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4694,11 +4759,35 @@
 				(font
 					(size 1.2446 1.2446)
 				)
-				(justify left bottom)
+				(justify right top)
+			)
+		)
+		(property "Convert to PCB" "no"
+			(at 242.57 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify right top)
+			)
+		)
+		(property "JLCPCB Part Class" "Extended Part"
+			(at 242.57 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify right top)
 			)
 		)
 		(property "Supplier Footprint" "0402"
-			(at 187.96 95.504 90)
+			(at 242.57 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4706,27 +4795,62 @@
 				(font
 					(size 1.2446 1.2446)
 				)
-				(justify left bottom)
+				(justify right top)
 			)
+		)
+		(property "Temperature Coefficient" "X5R"
+			(at 242.57 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify right top)
+			)
+		)
+		(property "Tolerance" "±20%"
+			(at 242.57 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify right top)
+			)
+		)
+		(property "Voltage Rating" "10V"
+			(at 237.49 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify right top)
+			)
+		)
+		(pin "1"
+			(uuid "06904701-1a9d-40dc-99e2-d383d47ea022")
 		)
 		(pin "2"
-			(uuid "394916b9-bfd3-4c06-a045-b9fa0e674443")
-		)
-		(pin "1"
-			(uuid "218ddfb0-4324-44c3-9cce-4a9ba200823f")
+			(uuid "cda2d9da-bdd7-461e-8bb4-6d91c7eeffff")
 		)
 		(instances
 			(project "ProPrj_esp32s31-mp4_2026-09-22"
-				(path "/cd9d9f81-08f6-47f6-8653-591036e0aca5/6160a32a-7347-4b66-a346-4990722b56ce"
-					(reference "C53")
+				(path "/cd9d9f81-08f6-47f6-8653-591036e0aca5/9406ee00-7b7b-42fe-a7d8-5ce08356a255"
+					(reference "C60")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "ProPrj_esp-easyedapro:Ground-GND")
-		(at 162.56 83.82 0)
+		(lib_id "ProPrj_esp-easyedapro:W25Q128JVSIQTR")
+		(at 219.71 138.43 0)
 		(unit 1)
 		(body_style 0)
 		(exclude_from_sim no)
@@ -4734,400 +4858,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "91007f42-cfae-4be4-ac30-0ed82758d02a")
-		(property "Reference" "#PWR?"
-			(at 162.56 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 162.56 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.2446 1.2446)
-				)
-			)
-		)
-		(property "Footprint" "ProPrj_esp-easyedapro:"
-			(at 162.56 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 162.56 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 162.56 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "347be17e-ef76-46ea-b6f4-ae7f05c5625b")
-		)
-		(instances
-			(project "ProPrj_esp32s31-mp4_2026-09-22"
-				(path "/cd9d9f81-08f6-47f6-8653-591036e0aca5/6160a32a-7347-4b66-a346-4990722b56ce"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ProPrj_esp-easyedapro:Ground-GND")
-		(at 40.64 92.71 270)
-		(unit 1)
-		(body_style 0)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9e81a4c8-19fa-4093-864b-8ada3edca869")
-		(property "Reference" "#PWR?"
-			(at 40.64 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 34.29 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.2446 1.2446)
-				)
-			)
-		)
-		(property "Footprint" "ProPrj_esp-easyedapro:"
-			(at 40.64 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 40.64 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 40.64 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "71d6bac7-a5dc-4ffc-8cf4-dc9baebe7adc")
-		)
-		(instances
-			(project "ProPrj_esp32s31-mp4_2026-09-22"
-				(path "/cd9d9f81-08f6-47f6-8653-591036e0aca5/6160a32a-7347-4b66-a346-4990722b56ce"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ProPrj_esp-easyedapro:Ground-GND")
-		(at 124.46 83.82 0)
-		(unit 1)
-		(body_style 0)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9e9a9807-7048-45bf-bc50-63fef861b539")
-		(property "Reference" "#PWR?"
-			(at 124.46 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 124.46 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.2446 1.2446)
-				)
-			)
-		)
-		(property "Footprint" "ProPrj_esp-easyedapro:"
-			(at 124.46 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 124.46 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5999fc87-1685-456d-a103-192a6f49c3b0")
-		)
-		(instances
-			(project "ProPrj_esp32s31-mp4_2026-09-22"
-				(path "/cd9d9f81-08f6-47f6-8653-591036e0aca5/6160a32a-7347-4b66-a346-4990722b56ce"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ProPrj_esp-easyedapro:Ground-GND")
-		(at 20.32 110.49 0)
-		(unit 1)
-		(body_style 0)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a08295fa-1c91-4d26-86e1-3bd5982c521b")
-		(property "Reference" "#PWR?"
-			(at 20.32 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 20.32 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.2446 1.2446)
-				)
-			)
-		)
-		(property "Footprint" "ProPrj_esp-easyedapro:"
-			(at 20.32 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 20.32 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 20.32 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ec502c30-cc17-4c62-a9ae-8efc05f051ae")
-		)
-		(instances
-			(project "ProPrj_esp32s31-mp4_2026-09-22"
-				(path "/cd9d9f81-08f6-47f6-8653-591036e0aca5/6160a32a-7347-4b66-a346-4990722b56ce"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ProPrj_esp-easyedapro:Power-VCC")
-		(at 158.75 73.66 0)
-		(unit 1)
-		(body_style 0)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a2e5569e-33e2-4f7e-a3eb-53b79a3c8f35")
-		(property "Reference" "#PWR?"
-			(at 158.75 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VBAT"
-			(at 158.75 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.2446 1.2446)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Footprint" "ProPrj_esp-easyedapro:"
-			(at 158.75 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 158.75 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 158.75 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f3485eb4-7385-491f-b5e2-46c8af1de1ad")
-		)
-		(instances
-			(project "ProPrj_esp32s31-mp4_2026-09-22"
-				(path "/cd9d9f81-08f6-47f6-8653-591036e0aca5/6160a32a-7347-4b66-a346-4990722b56ce"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ProPrj_esp-easyedapro:RX8130CE{colon}BB")
-		(at 147.32 97.79 0)
-		(unit 1)
-		(body_style 0)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a98c6948-f5d9-417f-ae36-1a96e4e554ff")
-		(property "Reference" "U1"
-			(at 138.43 90.17 0)
+		(uuid "2a68a384-8d24-4bb7-a01e-75d838d6d568")
+		(property "Reference" "U13"
+			(at 209.55 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5137,8 +4870,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "RX8130CE:BB"
-			(at 138.43 107.95 0)
+		(property "Value" "W25Q128JVSIQ"
+			(at 209.55 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5148,8 +4881,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "ProPrj_esp-easyedapro:RTC-SMD_L3.2-W2.5-P0.7-RX8130CE"
-			(at 147.32 97.79 0)
+		(property "Footprint" "ProPrj_esp-easyedapro:SOIC-8_L5.3-W5.3-P1.27-LS8.0-BL"
+			(at 219.71 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5159,743 +4892,308 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/RX8130CE%253ABB/1633229.html"
-			(at 147.32 97.79 0)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/W25Q128JVSIQ/98729.html"
+			(at 219.71 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.2446 1.2446)
 				)
+				(justify left bottom)
 			)
 		)
-		(property "Description" ""
-			(at 147.32 97.79 0)
+		(property "Description" "接口类型:SPI;存储容量:128Mbit;时钟频率(fc):133MHz;"
+			(at 219.71 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.2446 1.2446)
 				)
+				(justify left bottom)
 			)
 		)
-		(property "Manufacturer Part" "RX8130CE:BB"
-			(at 147.32 97.79 0)
+		(property "Manufacturer Part" "W25Q128JVSIQ"
+			(at 219.71 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.2446 1.2446)
 				)
+				(justify left bottom)
 			)
 		)
-		(property "Manufacturer" "EPSON(爱普生)"
-			(at 147.32 97.79 0)
+		(property "Manufacturer" "Winbond(华邦)"
+			(at 219.71 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.2446 1.2446)
 				)
+				(justify left bottom)
 			)
 		)
-		(property "Supplier Part" "C1542426"
-			(at 147.32 97.79 0)
+		(property "Supplier Part" "C97521"
+			(at 219.71 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.2446 1.2446)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 147.32 97.79 0)
+			(at 219.71 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.2446 1.2446)
 				)
+				(justify left bottom)
 			)
 		)
-		(property "LCSC Part Name" "实时时钟模块（I2C总线）内置备份电池充电控制功能"
-			(at 147.32 97.79 0)
+		(property "LCSC Part Name" "编带 支持双路/四路SPI接口的3V、128Mbit 串行闪存"
+			(at 219.71 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.2446 1.2446)
 				)
+				(justify left bottom)
+			)
+		)
+		(property "3D Model" "f83d990ad74f400caf5ac920b7771508|0819f05c4eef4c71ace90d822a990e87"
+			(at 219.71 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "3D Model Title" "SOIC-8_L5.3-W5.3-H1.9-LS7.9-P1.27"
+			(at 219.71 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "3D Model Transform" "208.661,311.25654,0,0,0,0,-0.0005,0.0005,0"
+			(at 219.71 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Block Erase Time(tBE)" "120ms@(32KB)"
+			(at 219.71 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Clock Frequency" "133MHz"
+			(at 219.71 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Convert to PCB" "no"
+			(at 219.71 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Data Retention - TDR (Year)" "20年"
+			(at 219.71 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Interface" "SPI"
+			(at 219.71 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "JLCPCB Part Class" "Basic Part"
+			(at 219.71 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Memory Size" "128Mbit"
+			(at 209.55 149.352 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Operating Temperature" "-40℃~+85℃"
+			(at 219.71 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Page Programming Time (Tpp)" "3ms"
+			(at 219.71 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Program / Erase Cycles" "100000次"
+			(at 219.71 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Standby Supply Current" "1uA"
+			(at 219.71 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Supplier Footprint" "SOIC-8-208mil"
+			(at 209.55 151.384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Voltage - Supply" "2.7V~3.6V"
+			(at 219.71 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify left bottom)
 			)
 		)
 		(pin "2"
-			(uuid "bc1d222a-a995-4b85-8b1e-2e8faf4bc07c")
-		)
-		(pin "1"
-			(uuid "50608f47-6c22-440d-ab6f-53a4fe49f887")
+			(uuid "8a085578-1084-424e-98c0-9f86315c229e")
 		)
 		(pin "3"
-			(uuid "65d3fa8b-bdfa-421b-8c33-b274c88da93e")
-		)
-		(pin "4"
-			(uuid "05088be0-9627-461d-8f62-a97d075877fa")
-		)
-		(pin "6"
-			(uuid "495ec3f4-a2b8-4a0b-9e3e-bdcafd7caac4")
-		)
-		(pin "7"
-			(uuid "a7175f7e-d0ed-4fd7-b082-ea82afb1517b")
+			(uuid "9b01aba9-c361-4736-ab73-426b22a97358")
 		)
 		(pin "5"
-			(uuid "de414f30-65db-412f-8f73-81016ce0506c")
+			(uuid "4776870b-9f78-4e1c-a445-6bb8f9bfc81e")
+		)
+		(pin "1"
+			(uuid "b738d38d-996f-4cf6-b4db-1aec0426484f")
+		)
+		(pin "4"
+			(uuid "4b1a2008-cde2-4660-89d1-8adaf9be824c")
+		)
+		(pin "6"
+			(uuid "6ac98c42-77fb-4d19-a494-3305b6093d74")
 		)
 		(pin "8"
-			(uuid "beed41c9-ea2e-4d0f-9881-cb6e513321ba")
+			(uuid "92b8c4ac-8aaf-4f52-9d81-b7fc5eb83314")
 		)
-		(pin "9"
-			(uuid "40e31cab-fa0f-4180-b162-e4d22a28ab30")
-		)
-		(pin "10"
-			(uuid "5b934f7c-abac-41e3-a405-3fd586f7bb43")
+		(pin "7"
+			(uuid "63c8fe89-ffdb-4edd-9792-6b19484f1f39")
 		)
 		(instances
 			(project "ProPrj_esp32s31-mp4_2026-09-22"
-				(path "/cd9d9f81-08f6-47f6-8653-591036e0aca5/6160a32a-7347-4b66-a346-4990722b56ce"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ProPrj_esp-easyedapro:Power-VCC")
-		(at 187.96 90.17 0)
-		(unit 1)
-		(body_style 0)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "aea98896-2994-4493-8956-a55218275341")
-		(property "Reference" "#PWR?"
-			(at 187.96 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC_3V3"
-			(at 187.96 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.2446 1.2446)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Footprint" "ProPrj_esp-easyedapro:"
-			(at 187.96 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 187.96 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 187.96 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5a6dc48b-f122-4ad2-8ef2-e6216cc0cfb4")
-		)
-		(instances
-			(project "ProPrj_esp32s31-mp4_2026-09-22"
-				(path "/cd9d9f81-08f6-47f6-8653-591036e0aca5/6160a32a-7347-4b66-a346-4990722b56ce"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ProPrj_esp-easyedapro:Ground-GND")
-		(at 88.9 115.57 0)
-		(unit 1)
-		(body_style 0)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b92107b8-d714-4b29-b609-40ba694ac4f4")
-		(property "Reference" "#PWR?"
-			(at 88.9 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 88.9 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.2446 1.2446)
-				)
-			)
-		)
-		(property "Footprint" "ProPrj_esp-easyedapro:"
-			(at 88.9 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 88.9 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cf450bd5-6bd8-4145-b1a6-2ed9f1f09e32")
-		)
-		(instances
-			(project "ProPrj_esp32s31-mp4_2026-09-22"
-				(path "/cd9d9f81-08f6-47f6-8653-591036e0aca5/6160a32a-7347-4b66-a346-4990722b56ce"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ProPrj_esp-easyedapro:Capacitance")
-		(at 162.56 78.74 270)
-		(unit 1)
-		(body_style 0)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "baf31b89-51c0-4552-afdd-38c233dc076d")
-		(property "Reference" "C7"
-			(at 166.37 78.74 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.2446 1.2446)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "100nF"
-			(at 166.37 81.28 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.2446 1.2446)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "ProPrj_esp-easyedapro:C0402"
-			(at 162.56 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 162.56 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 162.56 78.74 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.2446 1.2446)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "3D Model" "36a51122f27c49738f86b3bfa98863e0|0819f05c4eef4c71ace90d822a990e87"
-			(at 162.56 78.74 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.2446 1.2446)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "3D Model Title" "C0402_L1.0-W0.5-H0.5"
-			(at 162.56 78.74 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.2446 1.2446)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "3D Model Transform" "39.37,19.685,0,0,0,0,0,0,0"
-			(at 162.56 78.74 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.2446 1.2446)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Supplier Footprint" "0402"
-			(at 162.56 78.74 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.2446 1.2446)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "2"
-			(uuid "f3ca9e9b-93dc-4b0c-9bb6-425a3470a178")
-		)
-		(pin "1"
-			(uuid "a41fbe83-d94a-4735-a6c6-187a8408e57b")
-		)
-		(instances
-			(project "ProPrj_esp32s31-mp4_2026-09-22"
-				(path "/cd9d9f81-08f6-47f6-8653-591036e0aca5/6160a32a-7347-4b66-a346-4990722b56ce"
-					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ProPrj_esp-easyedapro:Capacitance")
-		(at 124.46 78.74 270)
-		(unit 1)
-		(body_style 0)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "cf273a4a-f857-4a85-9a33-13e53ebb53bd")
-		(property "Reference" "C6"
-			(at 128.27 78.74 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.2446 1.2446)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "100nF"
-			(at 128.27 81.28 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.2446 1.2446)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "ProPrj_esp-easyedapro:C0402"
-			(at 124.46 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 124.46 78.74 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.2446 1.2446)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "3D Model" "36a51122f27c49738f86b3bfa98863e0|0819f05c4eef4c71ace90d822a990e87"
-			(at 124.46 78.74 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.2446 1.2446)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "3D Model Title" "C0402_L1.0-W0.5-H0.5"
-			(at 124.46 78.74 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.2446 1.2446)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "3D Model Transform" "39.37,19.685,0,0,0,0,0,0,0"
-			(at 124.46 78.74 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.2446 1.2446)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Supplier Footprint" "0402"
-			(at 124.46 78.74 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.2446 1.2446)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "2"
-			(uuid "7dd28ad9-bd93-47c4-81eb-967d4a42f277")
-		)
-		(pin "1"
-			(uuid "803c77fb-30be-4666-9ee2-7489917dd3d8")
-		)
-		(instances
-			(project "ProPrj_esp32s31-mp4_2026-09-22"
-				(path "/cd9d9f81-08f6-47f6-8653-591036e0aca5/6160a32a-7347-4b66-a346-4990722b56ce"
-					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ProPrj_esp-easyedapro:Capacitance")
-		(at 20.32 105.41 270)
-		(unit 1)
-		(body_style 0)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "debeaade-418d-4aff-b813-fdf5aa50abaa")
-		(property "Reference" "C47"
-			(at 24.13 105.41 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.2446 1.2446)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "100nF"
-			(at 24.13 107.95 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.2446 1.2446)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "ProPrj_esp-easyedapro:C0402"
-			(at 20.32 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 20.32 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 20.32 105.41 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.2446 1.2446)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "3D Model" "36a51122f27c49738f86b3bfa98863e0|0819f05c4eef4c71ace90d822a990e87"
-			(at 20.32 105.41 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.2446 1.2446)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "3D Model Title" "C0402_L1.0-W0.5-H0.5"
-			(at 20.32 105.41 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.2446 1.2446)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "3D Model Transform" "39.37,19.685,0,0,0,0,0,0,0"
-			(at 20.32 105.41 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.2446 1.2446)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Supplier Footprint" "0402"
-			(at 20.32 105.41 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.2446 1.2446)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "2"
-			(uuid "ac0eb4a8-d978-4573-bb58-02bbb2c69cc8")
-		)
-		(pin "1"
-			(uuid "6eee2d8e-37b1-4fb0-b662-b9216f1a910a")
-		)
-		(instances
-			(project "ProPrj_esp32s31-mp4_2026-09-22"
-				(path "/cd9d9f81-08f6-47f6-8653-591036e0aca5/6160a32a-7347-4b66-a346-4990722b56ce"
-					(reference "C47")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ProPrj_esp-easyedapro:Power-VCC")
-		(at 88.9 95.25 0)
-		(unit 1)
-		(body_style 0)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "eaaa29d5-545e-499c-84ce-40106a303cc6")
-		(property "Reference" "#PWR?"
-			(at 88.9 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC_3V3"
-			(at 88.9 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.2446 1.2446)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Footprint" "ProPrj_esp-easyedapro:"
-			(at 88.9 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 88.9 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b759bf2d-f551-44df-8d4b-921a1a63ef25")
-		)
-		(instances
-			(project "ProPrj_esp32s31-mp4_2026-09-22"
-				(path "/cd9d9f81-08f6-47f6-8653-591036e0aca5/6160a32a-7347-4b66-a346-4990722b56ce"
-					(reference "#PWR?")
+				(path "/cd9d9f81-08f6-47f6-8653-591036e0aca5/9406ee00-7b7b-42fe-a7d8-5ce08356a255"
+					(reference "U13")
 					(unit 1)
 				)
 			)
@@ -5911,7 +5209,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "efc2f306-d614-491e-92f8-3232d4f62a78")
+		(uuid "2b191def-6a78-4ed2-b4a6-5100c7490a0c")
 		(property "Reference" "?"
 			(at 0 209.55 0)
 			(show_name no)
@@ -6002,7 +5300,7 @@
 				(justify left)
 			)
 		)
-		(property "@Create Time" "14:17:44"
+		(property "@Create Time" "16:58:01"
 			(at 0 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -6014,7 +5312,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "@Page Count" "7"
+		(property "@Page Count" "8"
 			(at 0 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -6038,7 +5336,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "@Page No" "7"
+		(property "@Page No" "8"
 			(at 0 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -6085,7 +5383,7 @@
 				(justify left)
 			)
 		)
-		(property "@Update Time" "14:17:44"
+		(property "@Update Time" "16:58:01"
 			(at 0 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -6252,9 +5550,1599 @@
 		)
 		(instances
 			(project "ProPrj_esp32s31-mp4_2026-09-22"
-				(path "/cd9d9f81-08f6-47f6-8653-591036e0aca5/6160a32a-7347-4b66-a346-4990722b56ce"
+				(path "/cd9d9f81-08f6-47f6-8653-591036e0aca5/9406ee00-7b7b-42fe-a7d8-5ce08356a255"
 					(reference "?")
 					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ProPrj_esp-easyedapro:TF PUSH")
+		(at 110.49 77.47 0)
+		(unit 1)
+		(body_style 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4103168e-4770-4408-920b-4b13ee92db2e")
+		(property "Reference" "CARD2"
+			(at 100.33 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TF PUSH"
+			(at 113.03 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "ProPrj_esp-easyedapro:TF-SMD_TF-PUSH"
+			(at 110.49 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/TF%2520PUSH/372553.html"
+			(at 110.49 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "卡连接方式:自弹式;卡类型:MicroSD卡(TF卡);连接器类型:卡座;本体最大高度:2mm;工作温度:-25℃~+90℃;"
+			(at 110.49 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer Part" "TF PUSH"
+			(at 110.49 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer" "SHOU HAN(首韩)"
+			(at 110.49 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Supplier Part" "C393941"
+			(at 110.49 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 110.49 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "LCSC Part Name" "9P，自弹式TF卡座"
+			(at 110.49 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "3D Model" "2d6270e77c9a43c6bb0aca962ba811a2|0819f05c4eef4c71ace90d822a990e87"
+			(at 110.49 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "3D Model Title" "TF-SMD_TF-PUSH"
+			(at 110.49 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "3D Model Transform" "635.826,598.424,0,0,0,0,0.002,-82.441,-23.622"
+			(at 110.49 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Additional Card Detection Pins" "无"
+			(at 110.49 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Card Connection Mode" "自弹式"
+			(at 110.49 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Card Type" "MicroSD卡(TF卡)"
+			(at 110.49 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Connector Type" "卡座"
+			(at 110.49 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Height Above Board" "2mm"
+			(at 110.49 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "JLCPCB Part Class" "Extended Part"
+			(at 110.49 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Operating Temperature" "-25℃~+90℃"
+			(at 110.49 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Supplementary Features" "-"
+			(at 110.49 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Supplier Footprint" "SMD"
+			(at 110.49 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "11"
+			(uuid "84e8d592-27b5-4052-94a5-2c0f37888776")
+		)
+		(pin "2"
+			(uuid "c34f35a8-c6b4-4345-ae8d-fbbbf176fb1d")
+		)
+		(pin "13"
+			(uuid "4ac9c66f-230f-4413-9e87-6dbbbce20c3b")
+		)
+		(pin "3"
+			(uuid "c38ca9c7-d5cb-4264-a940-98e7442b27fb")
+		)
+		(pin "4"
+			(uuid "0fae2107-b8e6-4125-adc3-6c3b5a81168a")
+		)
+		(pin "7"
+			(uuid "dc06dac2-bdfc-45f3-83f2-b32b22ba32e0")
+		)
+		(pin "8"
+			(uuid "f2ae3c34-2a33-4660-b84f-3ffc430f4530")
+		)
+		(pin "10"
+			(uuid "0a62773b-7d37-448e-a766-085c863209db")
+		)
+		(pin "6"
+			(uuid "137bb3dc-0264-440f-95f4-e21359c6fa58")
+		)
+		(pin "1"
+			(uuid "5a1433dd-af90-46dd-9d3c-d6da8786fb0a")
+		)
+		(pin "5"
+			(uuid "a7e57cf0-ef3c-4669-a789-bc13bb2a6659")
+		)
+		(pin "CD"
+			(uuid "b861b786-c7ee-424a-8509-9ed3d9c89fd9")
+		)
+		(pin "12"
+			(uuid "b7cd1b28-efc5-428f-ae75-c876e6c047b4")
+		)
+		(instances
+			(project "ProPrj_esp32s31-mp4_2026-09-22"
+				(path "/cd9d9f81-08f6-47f6-8653-591036e0aca5/9406ee00-7b7b-42fe-a7d8-5ce08356a255"
+					(reference "CARD2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ProPrj_esp-easyedapro:Ground-GND")
+		(at 96.52 93.98 0)
+		(unit 1)
+		(body_style 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "654cc1f9-cd31-4e9d-8b66-8a21ebde8ce5")
+		(property "Reference" "#PWR?"
+			(at 96.52 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 96.52 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+			)
+		)
+		(property "Footprint" "ProPrj_esp-easyedapro:"
+			(at 96.52 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "79b679b9-1817-4b28-acee-4bf1dfafa07e")
+		)
+		(instances
+			(project "ProPrj_esp32s31-mp4_2026-09-22"
+				(path "/cd9d9f81-08f6-47f6-8653-591036e0aca5/9406ee00-7b7b-42fe-a7d8-5ce08356a255"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ProPrj_esp-easyedapro:HGC0402R5106M100NTEJ")
+		(at 91.44 50.8 180)
+		(unit 1)
+		(body_style 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6b5536ca-a13a-46fd-b968-30d16cc04bd6")
+		(property "Reference" "C49"
+			(at 86.36 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "10uF"
+			(at 92.71 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" "ProPrj_esp-easyedapro:C0402"
+			(at 91.44 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/HGC0402R5106M100NTEJ/8532796.html"
+			(at 91.44 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify right top)
+			)
+		)
+		(property "Description" "容值:10uF;精度:±20%;额定电压:10V;温度系数:X5R;"
+			(at 91.44 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify right top)
+			)
+		)
+		(property "Manufacturer Part" "HGC0402R5106M100NTEJ"
+			(at 91.44 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify right top)
+			)
+		)
+		(property "Manufacturer" "Chinocera(华瓷)"
+			(at 91.44 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify right top)
+			)
+		)
+		(property "Supplier Part" "C7472949"
+			(at 91.44 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify right top)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 91.44 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify right top)
+			)
+		)
+		(property "LCSC Part Name" "10uF ±20% 10V"
+			(at 91.44 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify right top)
+			)
+		)
+		(property "3D Model" "36a51122f27c49738f86b3bfa98863e0|0819f05c4eef4c71ace90d822a990e87"
+			(at 91.44 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify right top)
+			)
+		)
+		(property "3D Model Title" "C0402_L1.0-W0.5-H0.5"
+			(at 91.44 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify right top)
+			)
+		)
+		(property "3D Model Transform" "39.37,19.685,0,0,0,0,0,0,0"
+			(at 91.44 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify right top)
+			)
+		)
+		(property "JLCPCB Part Class" "Extended Part"
+			(at 91.44 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify right top)
+			)
+		)
+		(property "Supplier Footprint" "0402"
+			(at 91.44 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify right top)
+			)
+		)
+		(property "Temperature Coefficient" "X5R"
+			(at 91.44 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify right top)
+			)
+		)
+		(property "Tolerance" "±20%"
+			(at 91.44 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify right top)
+			)
+		)
+		(property "Voltage Rating" "10V"
+			(at 86.36 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify right top)
+			)
+		)
+		(pin "1"
+			(uuid "f46ea817-753e-4b97-9593-48aa2944ba67")
+		)
+		(pin "2"
+			(uuid "8e20ec59-55bb-4499-bad6-0ca26dd77cd3")
+		)
+		(instances
+			(project "ProPrj_esp32s31-mp4_2026-09-22"
+				(path "/cd9d9f81-08f6-47f6-8653-591036e0aca5/9406ee00-7b7b-42fe-a7d8-5ce08356a255"
+					(reference "C49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ProPrj_esp-easyedapro:Ground-GND")
+		(at 198.12 144.78 0)
+		(unit 1)
+		(body_style 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "92339d41-70d1-4b7c-938a-4e5875055622")
+		(property "Reference" "#PWR?"
+			(at 198.12 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 198.12 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+			)
+		)
+		(property "Footprint" "ProPrj_esp-easyedapro:"
+			(at 198.12 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 198.12 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9da24889-ae6e-4450-969d-7393449d7315")
+		)
+		(instances
+			(project "ProPrj_esp32s31-mp4_2026-09-22"
+				(path "/cd9d9f81-08f6-47f6-8653-591036e0aca5/9406ee00-7b7b-42fe-a7d8-5ce08356a255"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ProPrj_esp-easyedapro:HGC0402R5106M100NTEJ")
+		(at 91.44 43.18 180)
+		(unit 1)
+		(body_style 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9f48b39a-6b46-4535-b501-5a26135ef5b9")
+		(property "Reference" "C50"
+			(at 86.36 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "100nF"
+			(at 92.71 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" "ProPrj_esp-easyedapro:C0402"
+			(at 91.44 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/HGC0402R5106M100NTEJ/8532796.html"
+			(at 91.44 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify right top)
+			)
+		)
+		(property "Description" "容值:10uF;精度:±20%;额定电压:10V;温度系数:X5R;"
+			(at 91.44 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify right top)
+			)
+		)
+		(property "Manufacturer Part" "HGC0402R5106M100NTEJ"
+			(at 91.44 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify right top)
+			)
+		)
+		(property "Manufacturer" "Chinocera(华瓷)"
+			(at 91.44 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify right top)
+			)
+		)
+		(property "Supplier Part" "C7472949"
+			(at 91.44 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 91.44 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify right top)
+			)
+		)
+		(property "LCSC Part Name" "10uF ±20% 10V"
+			(at 91.44 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify right top)
+			)
+		)
+		(property "3D Model" "36a51122f27c49738f86b3bfa98863e0|0819f05c4eef4c71ace90d822a990e87"
+			(at 91.44 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify right top)
+			)
+		)
+		(property "3D Model Title" "C0402_L1.0-W0.5-H0.5"
+			(at 91.44 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify right top)
+			)
+		)
+		(property "3D Model Transform" "39.37,19.685,0,0,0,0,0,0,0"
+			(at 91.44 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify right top)
+			)
+		)
+		(property "JLCPCB Part Class" "Extended Part"
+			(at 91.44 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify right top)
+			)
+		)
+		(property "Supplier Footprint" "0402"
+			(at 91.44 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify right top)
+			)
+		)
+		(property "Temperature Coefficient" "X5R"
+			(at 91.44 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify right top)
+			)
+		)
+		(property "Tolerance" "±20%"
+			(at 91.44 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify right top)
+			)
+		)
+		(property "Voltage Rating" "10V"
+			(at 86.36 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify right top)
+			)
+		)
+		(pin "1"
+			(uuid "773b3b88-6db5-4768-b801-f11fd90fc0cb")
+		)
+		(pin "2"
+			(uuid "1cb42200-fe2e-4105-bef4-e6f8ad77f147")
+		)
+		(instances
+			(project "ProPrj_esp32s31-mp4_2026-09-22"
+				(path "/cd9d9f81-08f6-47f6-8653-591036e0aca5/9406ee00-7b7b-42fe-a7d8-5ce08356a255"
+					(reference "C50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ProPrj_esp-easyedapro:Power-5V")
+		(at 233.68 116.84 0)
+		(unit 1)
+		(body_style 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b0201c68-0041-47f2-815e-d802fc977125")
+		(property "Reference" "#PWR?"
+			(at 233.68 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC_3V3"
+			(at 233.68 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Footprint" "ProPrj_esp-easyedapro:"
+			(at 233.68 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 233.68 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "743ca2d0-fc71-4154-ba38-2cfacdb18112")
+		)
+		(instances
+			(project "ProPrj_esp32s31-mp4_2026-09-22"
+				(path "/cd9d9f81-08f6-47f6-8653-591036e0aca5/9406ee00-7b7b-42fe-a7d8-5ce08356a255"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ProPrj_esp-easyedapro:电阻")
+		(at 219.71 121.92 0)
+		(unit 1)
+		(body_style 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b2909e29-d68c-45c5-a039-f71170283f8c")
+		(property "Reference" "R47"
+			(at 217.17 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100K"
+			(at 217.17 125.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "ProPrj_esp-easyedapro:R1206"
+			(at 219.71 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 219.71 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "3D Model" "98c88bc2b9094f218f3a3e30a7012738|0819f05c4eef4c71ace90d822a990e87"
+			(at 219.71 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "3D Model Title" "R0402_L1.0-W0.5-H0.4"
+			(at 219.71 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "3D Model Transform" "39.37,19.685,0,0,0,0,0,0,0"
+			(at 219.71 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Add into BOM" "no"
+			(at 219.71 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Convert to PCB" "no"
+			(at 219.71 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Supplier Footprint" "0402"
+			(at 219.71 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "a6dc4e4b-d6f6-429c-afb4-2f1a3cde1ed2")
+		)
+		(pin "2"
+			(uuid "c0be7345-9035-4397-8e2b-0b86bded6b2e")
+		)
+		(instances
+			(project "ProPrj_esp32s31-mp4_2026-09-22"
+				(path "/cd9d9f81-08f6-47f6-8653-591036e0aca5/9406ee00-7b7b-42fe-a7d8-5ce08356a255"
+					(reference "R47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ProPrj_esp-easyedapro:Ground-GND")
+		(at 128.27 93.98 0)
+		(unit 1)
+		(body_style 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d2bcc2ef-3a72-4cbf-9798-6445b09cd185")
+		(property "Reference" "#PWR?"
+			(at 128.27 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 128.27 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+			)
+		)
+		(property "Footprint" "ProPrj_esp-easyedapro:"
+			(at 128.27 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 128.27 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b75da1a5-5f51-496d-ba3b-3edbabb938c0")
+		)
+		(instances
+			(project "ProPrj_esp32s31-mp4_2026-09-22"
+				(path "/cd9d9f81-08f6-47f6-8653-591036e0aca5/9406ee00-7b7b-42fe-a7d8-5ce08356a255"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ProPrj_esp-easyedapro:Power-VCC")
+		(at 80.01 38.1 0)
+		(unit 1)
+		(body_style 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f0f5e9c5-ef3a-4e41-a2e1-8a31fe1c7919")
+		(property "Reference" "#PWR?"
+			(at 80.01 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC_3V3"
+			(at 80.01 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Footprint" "ProPrj_esp-easyedapro:"
+			(at 80.01 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 80.01 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c0ae3bc0-4b81-41a6-bf6f-8bb7cc573d63")
+		)
+		(instances
+			(project "ProPrj_esp32s31-mp4_2026-09-22"
+				(path "/cd9d9f81-08f6-47f6-8653-591036e0aca5/9406ee00-7b7b-42fe-a7d8-5ce08356a255"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ProPrj_esp-easyedapro:HGC0402R5106M100NTEJ")
+		(at 242.57 128.27 180)
+		(unit 1)
+		(body_style 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f1d043f3-0eea-4fbe-b77e-08509842b13c")
+		(property "Reference" "C52"
+			(at 237.49 128.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "1uF"
+			(at 243.84 128.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" "ProPrj_esp-easyedapro:C0402"
+			(at 242.57 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/HGC0402R5106M100NTEJ/8532796.html"
+			(at 242.57 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify right top)
+			)
+		)
+		(property "Description" "容值:10uF;精度:±20%;额定电压:10V;温度系数:X5R;"
+			(at 242.57 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify right top)
+			)
+		)
+		(property "Manufacturer Part" "HGC0402R5106M100NTEJ"
+			(at 242.57 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify right top)
+			)
+		)
+		(property "Manufacturer" "Chinocera(华瓷)"
+			(at 242.57 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify right top)
+			)
+		)
+		(property "Supplier Part" "C7472949"
+			(at 242.57 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 242.57 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify right top)
+			)
+		)
+		(property "LCSC Part Name" "10uF ±20% 10V"
+			(at 242.57 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify right top)
+			)
+		)
+		(property "3D Model" "36a51122f27c49738f86b3bfa98863e0|0819f05c4eef4c71ace90d822a990e87"
+			(at 242.57 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify right top)
+			)
+		)
+		(property "3D Model Title" "C0402_L1.0-W0.5-H0.5"
+			(at 242.57 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify right top)
+			)
+		)
+		(property "3D Model Transform" "39.37,19.685,0,0,0,0,0,0,0"
+			(at 242.57 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify right top)
+			)
+		)
+		(property "Convert to PCB" "no"
+			(at 242.57 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify right top)
+			)
+		)
+		(property "JLCPCB Part Class" "Extended Part"
+			(at 242.57 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify right top)
+			)
+		)
+		(property "Supplier Footprint" "0402"
+			(at 242.57 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify right top)
+			)
+		)
+		(property "Temperature Coefficient" "X5R"
+			(at 242.57 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify right top)
+			)
+		)
+		(property "Tolerance" "±20%"
+			(at 242.57 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify right top)
+			)
+		)
+		(property "Voltage Rating" "10V"
+			(at 237.49 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify right top)
+			)
+		)
+		(pin "1"
+			(uuid "ba4feb24-7022-42e7-9752-d5e02e54049d")
+		)
+		(pin "2"
+			(uuid "66ed71c5-9004-4b65-ac9f-212a6d951994")
+		)
+		(instances
+			(project "ProPrj_esp32s31-mp4_2026-09-22"
+				(path "/cd9d9f81-08f6-47f6-8653-591036e0aca5/9406ee00-7b7b-42fe-a7d8-5ce08356a255"
+					(reference "C52")
+					(unit 1)
 				)
 			)
 		)

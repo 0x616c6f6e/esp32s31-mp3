@@ -1,7 +1,0 @@
-(version 1)
-# Original USB-C 16PIN 2MD(073) locating cutouts have 0.173 mm copper clearance.
-# This package-specific 0.15 mm capability must be accepted by the fabricator.
-# The external board edge keeps its project-wide 0.30 mm minimum.
-(rule "USB1 internal locating cutouts"
-  (condition "A.memberOfFootprint('USB1') && B.memberOfFootprint('USB1')")
-  (constraint edge_clearance (min 0.15mm)))
