@@ -1,6 +1,6 @@
 {
   "status": "POWER_ONLY_0402_MANUAL_SIGNAL_ROUTING_REQUIRED",
-  "board_sha256": "5eb140931f25d572490ac725478b1a39df9d2b821c36782b753da6e5efb2ba4d",
+  "board_sha256": "1b9f46ef36cc33efa281ac7e1f4ea3756dc2fbd3009b2b507207d7559da6f1b1",
   "kicad_version": "10.0.4",
   "size_mm": [
     46,

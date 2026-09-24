@@ -1,15 +1,14 @@
-(footprint "FP_C109"
+(footprint "R_0402_1005Metric"
 	(version 20260206)
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
-	(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
-	(tags "capacitor")
-	(property "Reference" "C109"
-		(at 0 -1.16 0)
+	(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
+	(tags "resistor")
+	(property "Reference" "REF**"
+		(at 0 -1.17 0)
 		(layer "F.SilkS")
-		(hide yes)
-		(uuid "1d2a3c42-c68d-4c4d-9989-e9f9170f3ae4")
+		(uuid "e1747716-e351-4b88-89a5-59fb661719ec")
 		(effects
 			(font
 				(size 1 1)
@@ -17,11 +16,10 @@
 			)
 		)
 	)
-	(property "Value" "DNP"
-		(at 0 1.16 0)
+	(property "Value" "R_0402_1005Metric"
+		(at 0 1.17 0)
 		(layer "F.Fab")
-		(hide yes)
-		(uuid "273e67f0-baf0-46b9-b8c2-0f5542d48024")
+		(uuid "94ed1ed7-f5b2-4548-9bd3-0cf39c791f93")
 		(effects
 			(font
 				(size 1 1)
@@ -33,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "af09a700-447e-49ac-bece-35201555bd3c")
+		(uuid "4d0ae960-e88e-473f-b4e3-0cb7b9cb3fd6")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44,7 +42,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "021af6d0-ec20-432f-8106-a41fe41f4ac3")
+		(uuid "b05c9a89-4f34-47d5-b7ad-64ee68b58df9")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -55,7 +53,7 @@
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "25a43782-79d2-4c20-85a9-ebf19789d4a1")
+		(uuid "cc278b5b-ca8d-48a3-89d2-b146d6b48daa")
 		(effects
 			(font
 				(size 1 1)
@@ -63,79 +61,77 @@
 			)
 		)
 	)
-	(sheetname "CORE_RF_1")
-	(sheetfile "CORE_RF_1.kicad_sch")
-	(attr smd dnp)
+	(attr smd)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
-		(start -0.107836 -0.36)
-		(end 0.107836 -0.36)
+		(start -0.153641 -0.38)
+		(end 0.153641 -0.38)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "f16f96b5-567d-4e31-a604-861a2d0fd206")
+		(uuid "6ae7c7e0-f1e0-4935-83d1-c5330c239340")
 	)
 	(fp_line
-		(start -0.107836 0.36)
-		(end 0.107836 0.36)
+		(start -0.153641 0.38)
+		(end 0.153641 0.38)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "02b95769-232f-4cd5-bbc5-18df2f8abb19")
+		(uuid "c734fe25-f2fd-4c85-9318-dc075be3c9c8")
 	)
 	(fp_rect
-		(start -0.91 -0.46)
-		(end 0.91 0.46)
+		(start -0.93 -0.47)
+		(end 0.93 0.47)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "579a5704-c6c4-44a5-b48e-4271d650e307")
+		(uuid "0fd9059f-ba17-468a-9ea5-dd0ec3adc92a")
 	)
 	(fp_rect
-		(start -0.5 -0.25)
-		(end 0.5 0.25)
+		(start -0.525 -0.27)
+		(end 0.525 0.27)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "e6afe1b5-d9a4-4820-9eb6-2df6f19e40da")
+		(uuid "e7c929e3-8178-4996-b70f-3286e5b65668")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "1c2e0996-d558-48b1-a723-ca4b2e442a17")
+		(uuid "9b95896a-d7f6-4eb3-98ba-0ac6e9d469e9")
 		(effects
 			(font
-				(size 0.25 0.25)
+				(size 0.26 0.26)
 				(thickness 0.04)
 			)
 		)
 	)
 	(pad "1" smd roundrect
-		(at -0.48 0)
-		(size 0.56 0.62)
+		(at -0.51 0)
+		(size 0.54 0.64)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
-		(uuid "a03d0c9a-1da7-4ad0-87d5-7b5cd24e7035")
+		(uuid "e73991df-7d07-4d73-a97b-f45a029f994b")
 	)
 	(pad "2" smd roundrect
-		(at 0.48 0)
-		(size 0.56 0.62)
+		(at 0.51 0)
+		(size 0.54 0.64)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
-		(uuid "591ab831-5d56-4a35-aa40-13f2aa7354f6")
+		(uuid "8ffd52cc-589d-426b-ae6a-7e7bf45f17ac")
 	)
 	(embedded_fonts no)
-	(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+	(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
 		(offset
 			(xyz 0 0 0)
 		)

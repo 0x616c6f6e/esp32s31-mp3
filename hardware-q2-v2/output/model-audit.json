@@ -15,7 +15,7 @@
     {
       "ref": "C44",
       "models": [
-        "${KIPRJMOD}/models3d/C0402.step"
+        "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
       ]
     },
     {
@@ -27,7 +27,7 @@
     {
       "ref": "C20",
       "models": [
-        "${KIPRJMOD}/models3d/C0402_1.step"
+        "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
       ]
     },
     {
@@ -43,7 +43,7 @@
     {
       "ref": "C30",
       "models": [
-        "${KIPRJMOD}/models3d/C0402_1.step"
+        "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
       ]
     },
     {
@@ -79,19 +79,19 @@
     {
       "ref": "C29",
       "models": [
-        "${KIPRJMOD}/models3d/C0402_1.step"
+        "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
       ]
     },
     {
       "ref": "C33",
       "models": [
-        "${KIPRJMOD}/models3d/C0402_1.step"
+        "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
       ]
     },
     {
       "ref": "R19",
       "models": [
-        "${KIPRJMOD}/models3d/R0402_1.step"
+        "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
       ]
     },
     {
@@ -109,13 +109,13 @@
     {
       "ref": "C34",
       "models": [
-        "${KIPRJMOD}/models3d/C0402_1.step"
+        "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
       ]
     },
     {
       "ref": "C24",
       "models": [
-        "${KIPRJMOD}/models3d/C0402_1.step"
+        "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
       ]
     },
     {
@@ -151,7 +151,7 @@
     {
       "ref": "R9",
       "models": [
-        "${KIPRJMOD}/models3d/R0402.step"
+        "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
       ]
     },
     {
@@ -169,13 +169,13 @@
     {
       "ref": "C51",
       "models": [
-        "${KIPRJMOD}/models3d/C0402.step"
+        "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
       ]
     },
     {
       "ref": "C47",
       "models": [
-        "${KIPRJMOD}/models3d/C0402.step"
+        "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
       ]
     },
     {
@@ -217,7 +217,7 @@
     {
       "ref": "R17",
       "models": [
-        "${KIPRJMOD}/models3d/R0402_2.step"
+        "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
       ]
     },
     {
@@ -235,13 +235,13 @@
     {
       "ref": "R31",
       "models": [
-        "${KIPRJMOD}/models3d/R0402.step"
+        "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
       ]
     },
     {
       "ref": "C11",
       "models": [
-        "${KIPRJMOD}/models3d/C0402.step"
+        "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
       ]
     },
     {
@@ -253,7 +253,7 @@
     {
       "ref": "R18",
       "models": [
-        "${KIPRJMOD}/models3d/R0402_1.step"
+        "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
       ]
     },
     {
@@ -277,7 +277,7 @@
     {
       "ref": "R14",
       "models": [
-        "${KIPRJMOD}/models3d/R0402.step"
+        "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
       ]
     },
     {
@@ -301,13 +301,13 @@
     {
       "ref": "C17",
       "models": [
-        "${KIPRJMOD}/models3d/C0402_1.step"
+        "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
       ]
     },
     {
       "ref": "R13",
       "models": [
-        "${KIPRJMOD}/models3d/R0402.step"
+        "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
       ]
     },
     {
@@ -319,7 +319,7 @@
     {
       "ref": "R3",
       "models": [
-        "${KIPRJMOD}/models3d/R0402.step"
+        "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
       ]
     },
     {
@@ -349,7 +349,7 @@
     {
       "ref": "C21",
       "models": [
-        "${KIPRJMOD}/models3d/C0402_1.step"
+        "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
       ]
     },
     {
@@ -361,7 +361,7 @@
     {
       "ref": "R12",
       "models": [
-        "${KIPRJMOD}/models3d/R0402.step"
+        "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
       ]
     },
     {
@@ -377,13 +377,13 @@
     {
       "ref": "C19",
       "models": [
-        "${KIPRJMOD}/models3d/C0402_1.step"
+        "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
       ]
     },
     {
       "ref": "C22",
       "models": [
-        "${KIPRJMOD}/models3d/C0402_1.step"
+        "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
       ]
     },
     {
@@ -395,7 +395,7 @@
     {
       "ref": "C27",
       "models": [
-        "${KIPRJMOD}/models3d/C0402_1.step"
+        "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
       ]
     },
     {
@@ -435,7 +435,7 @@
     {
       "ref": "C35",
       "models": [
-        "${KIPRJMOD}/models3d/C0402_1.step"
+        "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
       ]
     },
     {
@@ -447,7 +447,7 @@
     {
       "ref": "C31",
       "models": [
-        "${KIPRJMOD}/models3d/C0402_1.step"
+        "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
       ]
     },
     {
@@ -459,25 +459,25 @@
     {
       "ref": "C25",
       "models": [
-        "${KIPRJMOD}/models3d/C0402_1.step"
+        "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
       ]
     },
     {
       "ref": "R21",
       "models": [
-        "${KIPRJMOD}/models3d/R0402.step"
+        "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
       ]
     },
     {
       "ref": "C23",
       "models": [
-        "${KIPRJMOD}/models3d/C0402_1.step"
+        "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
       ]
     },
     {
       "ref": "R5",
       "models": [
-        "${KIPRJMOD}/models3d/R0402.step"
+        "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
       ]
     },
     {
@@ -495,13 +495,13 @@
     {
       "ref": "C48",
       "models": [
-        "${KIPRJMOD}/models3d/C0402.step"
+        "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
       ]
     },
     {
       "ref": "C32",
       "models": [
-        "${KIPRJMOD}/models3d/C0402_1.step"
+        "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
       ]
     },
     {
@@ -525,7 +525,7 @@
     {
       "ref": "C26",
       "models": [
-        "${KIPRJMOD}/models3d/C0402_1.step"
+        "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
       ]
     },
     {
@@ -561,7 +561,7 @@
     {
       "ref": "R4",
       "models": [
-        "${KIPRJMOD}/models3d/R0402.step"
+        "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
       ]
     },
     {
@@ -573,7 +573,7 @@
     {
       "ref": "R32",
       "models": [
-        "${KIPRJMOD}/models3d/R0402.step"
+        "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
       ]
     },
     {
@@ -591,19 +591,19 @@
     {
       "ref": "R11",
       "models": [
-        "${KIPRJMOD}/models3d/R0402.step"
+        "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
       ]
     },
     {
       "ref": "C38",
       "models": [
-        "${KIPRJMOD}/models3d/C0402.step"
+        "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
       ]
     },
     {
       "ref": "C28",
       "models": [
-        "${KIPRJMOD}/models3d/C0402_1.step"
+        "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
       ]
     },
     {
@@ -643,13 +643,13 @@
     {
       "ref": "C37",
       "models": [
-        "${KIPRJMOD}/models3d/C0402.step"
+        "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
       ]
     },
     {
       "ref": "C13",
       "models": [
-        "${KIPRJMOD}/models3d/C0402.step"
+        "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
       ]
     },
     {
@@ -661,7 +661,7 @@
     {
       "ref": "C36",
       "models": [
-        "${KIPRJMOD}/models3d/C0402.step"
+        "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
       ]
     },
     {
@@ -685,13 +685,13 @@
     {
       "ref": "R37",
       "models": [
-        "${KIPRJMOD}/models3d/R0402.step"
+        "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
       ]
     },
     {
       "ref": "R38",
       "models": [
-        "${KIPRJMOD}/models3d/R0402.step"
+        "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
       ]
     },
     {
@@ -703,19 +703,19 @@
     {
       "ref": "C6",
       "models": [
-        "${KIPRJMOD}/models3d/C0402.step"
+        "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
       ]
     },
     {
       "ref": "C49",
       "models": [
-        "${KIPRJMOD}/models3d/C0402.step"
+        "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
       ]
     },
     {
       "ref": "R6",
       "models": [
-        "${KIPRJMOD}/models3d/R0402.step"
+        "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
       ]
     },
     {
@@ -725,13 +725,13 @@
     {
       "ref": "C54",
       "models": [
-        "${KIPRJMOD}/models3d/C0402.step"
+        "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
       ]
     },
     {
       "ref": "C4",
       "models": [
-        "${KIPRJMOD}/models3d/C0402_1.step"
+        "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
       ]
     },
     {
@@ -743,7 +743,7 @@
     {
       "ref": "R45",
       "models": [
-        "${KIPRJMOD}/models3d/R0402.step"
+        "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
       ]
     },
     {
@@ -755,19 +755,19 @@
     {
       "ref": "C5",
       "models": [
-        "${KIPRJMOD}/models3d/C0402_1.step"
+        "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
       ]
     },
     {
       "ref": "C43",
       "models": [
-        "${KIPRJMOD}/models3d/C0402.step"
+        "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
       ]
     },
     {
       "ref": "R30",
       "models": [
-        "${KIPRJMOD}/models3d/R0402.step"
+        "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
       ]
     },
     {
@@ -797,7 +797,7 @@
     {
       "ref": "R39",
       "models": [
-        "${KIPRJMOD}/models3d/R0402.step"
+        "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
       ]
     },
     {
@@ -815,7 +815,7 @@
     {
       "ref": "R36",
       "models": [
-        "${KIPRJMOD}/models3d/R0402.step"
+        "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
       ]
     },
     {
@@ -827,7 +827,7 @@
     {
       "ref": "R26",
       "models": [
-        "${KIPRJMOD}/models3d/R0402.step"
+        "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
       ]
     },
     {
@@ -837,13 +837,13 @@
     {
       "ref": "C50",
       "models": [
-        "${KIPRJMOD}/models3d/C0402.step"
+        "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
       ]
     },
     {
       "ref": "R7",
       "models": [
-        "${KIPRJMOD}/models3d/R0402.step"
+        "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
       ]
     },
     {
@@ -853,7 +853,7 @@
     {
       "ref": "R42",
       "models": [
-        "${KIPRJMOD}/models3d/R0402.step"
+        "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
       ]
     },
     {
@@ -863,7 +863,7 @@
     {
       "ref": "C58",
       "models": [
-        "${KIPRJMOD}/models3d/C0402_1.step"
+        "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
       ]
     },
     {
@@ -875,7 +875,7 @@
     {
       "ref": "R43",
       "models": [
-        "${KIPRJMOD}/models3d/R0402.step"
+        "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
       ]
     },
     {
@@ -893,13 +893,13 @@
     {
       "ref": "C61",
       "models": [
-        "${KIPRJMOD}/models3d/C0402.step"
+        "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
       ]
     },
     {
       "ref": "R10",
       "models": [
-        "${KIPRJMOD}/models3d/R0402.step"
+        "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
       ]
     },
     {
@@ -917,13 +917,13 @@
     {
       "ref": "R25",
       "models": [
-        "${KIPRJMOD}/models3d/R0402.step"
+        "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
       ]
     },
     {
       "ref": "C39",
       "models": [
-        "${KIPRJMOD}/models3d/C0402.step"
+        "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
       ]
     },
     {
@@ -941,31 +941,31 @@
     {
       "ref": "C7",
       "models": [
-        "${KIPRJMOD}/models3d/C0402.step"
+        "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
       ]
     },
     {
       "ref": "R33",
       "models": [
-        "${KIPRJMOD}/models3d/R0402.step"
+        "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
       ]
     },
     {
       "ref": "R46",
       "models": [
-        "${KIPRJMOD}/models3d/R0402.step"
+        "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
       ]
     },
     {
       "ref": "R8",
       "models": [
-        "${KIPRJMOD}/models3d/R0402.step"
+        "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
       ]
     },
     {
       "ref": "R34",
       "models": [
-        "${KIPRJMOD}/models3d/R0402.step"
+        "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
       ]
     },
     {
@@ -1007,7 +1007,7 @@
     {
       "ref": "R29",
       "models": [
-        "${KIPRJMOD}/models3d/R0402.step"
+        "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
       ]
     },
     {
@@ -1017,13 +1017,13 @@
     {
       "ref": "R44",
       "models": [
-        "${KIPRJMOD}/models3d/R0402.step"
+        "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
       ]
     },
     {
       "ref": "C53",
       "models": [
-        "${KIPRJMOD}/models3d/C0402.step"
+        "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
       ]
     },
     {
@@ -1047,7 +1047,7 @@
     {
       "ref": "R22",
       "models": [
-        "${KIPRJMOD}/models3d/R0402.step"
+        "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
       ]
     },
     {
@@ -1059,13 +1059,13 @@
     {
       "ref": "C3",
       "models": [
-        "${KIPRJMOD}/models3d/C0402.step"
+        "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
       ]
     },
     {
       "ref": "R35",
       "models": [
-        "${KIPRJMOD}/models3d/R0402.step"
+        "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
       ]
     },
     {
@@ -1119,7 +1119,7 @@
     {
       "ref": "R20",
       "models": [
-        "${KIPRJMOD}/models3d/R0402.step"
+        "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
       ]
     },
     {
@@ -1143,13 +1143,13 @@
     {
       "ref": "R2",
       "models": [
-        "${KIPRJMOD}/models3d/R0402.step"
+        "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
       ]
     },
     {
       "ref": "C59",
       "models": [
-        "${KIPRJMOD}/models3d/C0402.step"
+        "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
       ]
     },
     {

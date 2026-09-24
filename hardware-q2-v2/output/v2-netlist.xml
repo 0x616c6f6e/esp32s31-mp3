@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>C:\Users\alon\Desktop\Preoject\esp32s31-mp3\hardware-q2-v2\q2-v2.kicad_sch</source>
-    <date>2026-09-24T05:21:03</date>
+    <date>2026-09-24T11:16:43</date>
     <tool>Eeschema 10.0.4</tool>
     <sheet number="1" name="/MCU_CORE_1/" tstamps="/7fb95dcf-d0fc-5e38-bb10-0c44dc0d9af5/">
       <title_block>
@@ -469,9 +469,9 @@
     </comp>
     <comp ref="C101">
       <value>24pF</value>
-      <footprint>V2:FP_C101</footprint>
+      <footprint>V2:C_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_C101</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -491,9 +491,9 @@
     </comp>
     <comp ref="C102">
       <value>27pF</value>
-      <footprint>V2:FP_C102</footprint>
+      <footprint>V2:C_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_C102</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -513,9 +513,9 @@
     </comp>
     <comp ref="C105">
       <value>1uF</value>
-      <footprint>V2:FP_C105</footprint>
+      <footprint>V2:C_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_C105</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -535,9 +535,9 @@
     </comp>
     <comp ref="C106">
       <value>10nF</value>
-      <footprint>V2:FP_C106</footprint>
+      <footprint>V2:C_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_C106</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -557,9 +557,9 @@
     </comp>
     <comp ref="C110">
       <value>10uF</value>
-      <footprint>V2:FP_C110</footprint>
+      <footprint>V2:C_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_C110</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -579,9 +579,9 @@
     </comp>
     <comp ref="C113">
       <value>1uF</value>
-      <footprint>V2:FP_C113</footprint>
+      <footprint>V2:C_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_C113</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -601,9 +601,9 @@
     </comp>
     <comp ref="C114">
       <value>100nF</value>
-      <footprint>V2:FP_C114</footprint>
+      <footprint>V2:C_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_C114</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -623,9 +623,9 @@
     </comp>
     <comp ref="C115">
       <value>10uF</value>
-      <footprint>V2:FP_C115</footprint>
+      <footprint>V2:C_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_C115</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -645,9 +645,9 @@
     </comp>
     <comp ref="C116">
       <value>1uF</value>
-      <footprint>V2:FP_C116</footprint>
+      <footprint>V2:C_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_C116</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -667,9 +667,9 @@
     </comp>
     <comp ref="C117">
       <value>100nF</value>
-      <footprint>V2:FP_C117</footprint>
+      <footprint>V2:C_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_C117</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -689,9 +689,9 @@
     </comp>
     <comp ref="C118">
       <value>100nF</value>
-      <footprint>V2:FP_C118</footprint>
+      <footprint>V2:C_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_C118</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -711,9 +711,9 @@
     </comp>
     <comp ref="C119">
       <value>100nF</value>
-      <footprint>V2:FP_C119</footprint>
+      <footprint>V2:C_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_C119</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -733,9 +733,9 @@
     </comp>
     <comp ref="C120">
       <value>100nF</value>
-      <footprint>V2:FP_C120</footprint>
+      <footprint>V2:C_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_C120</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -755,9 +755,9 @@
     </comp>
     <comp ref="C121">
       <value>1uF</value>
-      <footprint>V2:FP_C121</footprint>
+      <footprint>V2:C_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_C121</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -777,9 +777,9 @@
     </comp>
     <comp ref="C122">
       <value>100nF</value>
-      <footprint>V2:FP_C122</footprint>
+      <footprint>V2:C_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_C122</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -799,9 +799,9 @@
     </comp>
     <comp ref="C123">
       <value>100nF</value>
-      <footprint>V2:FP_C123</footprint>
+      <footprint>V2:C_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_C123</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -821,9 +821,9 @@
     </comp>
     <comp ref="C124">
       <value>100nF</value>
-      <footprint>V2:FP_C124</footprint>
+      <footprint>V2:C_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_C124</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -843,9 +843,9 @@
     </comp>
     <comp ref="C125">
       <value>100nF</value>
-      <footprint>V2:FP_C125</footprint>
+      <footprint>V2:C_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_C125</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -961,9 +961,9 @@
     </comp>
     <comp ref="R101">
       <value>0R</value>
-      <footprint>V2:FP_R101</footprint>
+      <footprint>V2:R_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_R101</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -983,9 +983,9 @@
     </comp>
     <comp ref="R102">
       <value>0R</value>
-      <footprint>V2:FP_R102</footprint>
+      <footprint>V2:R_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_R102</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1005,9 +1005,9 @@
     </comp>
     <comp ref="R103">
       <value>0R</value>
-      <footprint>V2:FP_R103</footprint>
+      <footprint>V2:R_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_R103</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1027,9 +1027,9 @@
     </comp>
     <comp ref="R104">
       <value>0R</value>
-      <footprint>V2:FP_R104</footprint>
+      <footprint>V2:R_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_R104</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1049,9 +1049,9 @@
     </comp>
     <comp ref="R105">
       <value>0R</value>
-      <footprint>V2:FP_R105</footprint>
+      <footprint>V2:R_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_R105</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1071,9 +1071,9 @@
     </comp>
     <comp ref="R106">
       <value>499R</value>
-      <footprint>V2:FP_R106</footprint>
+      <footprint>V2:R_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_R106</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1093,9 +1093,9 @@
     </comp>
     <comp ref="R107">
       <value>10k</value>
-      <footprint>V2:FP_R107</footprint>
+      <footprint>V2:R_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_R107</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1115,9 +1115,9 @@
     </comp>
     <comp ref="R108">
       <value>0R</value>
-      <footprint>V2:FP_R108</footprint>
+      <footprint>V2:R_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_R108</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1137,9 +1137,9 @@
     </comp>
     <comp ref="R109">
       <value>0R</value>
-      <footprint>V2:FP_R109</footprint>
+      <footprint>V2:R_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_R109</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1159,9 +1159,9 @@
     </comp>
     <comp ref="R110">
       <value>10k</value>
-      <footprint>V2:FP_R110</footprint>
+      <footprint>V2:R_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_R110</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1181,9 +1181,9 @@
     </comp>
     <comp ref="R120">
       <value>10k</value>
-      <footprint>V2:FP_R120</footprint>
+      <footprint>V2:R_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_R120</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1203,9 +1203,9 @@
     </comp>
     <comp ref="R121">
       <value>10k</value>
-      <footprint>V2:FP_R121</footprint>
+      <footprint>V2:R_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_R121</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1225,9 +1225,9 @@
     </comp>
     <comp ref="R122">
       <value>100k</value>
-      <footprint>V2:FP_R122</footprint>
+      <footprint>V2:R_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_R122</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1247,9 +1247,9 @@
     </comp>
     <comp ref="R123">
       <value>100k</value>
-      <footprint>V2:FP_R123</footprint>
+      <footprint>V2:R_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_R123</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1269,9 +1269,9 @@
     </comp>
     <comp ref="R124">
       <value>100k</value>
-      <footprint>V2:FP_R124</footprint>
+      <footprint>V2:R_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_R124</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1291,9 +1291,9 @@
     </comp>
     <comp ref="R125">
       <value>10k</value>
-      <footprint>V2:FP_R125</footprint>
+      <footprint>V2:R_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_R125</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1313,9 +1313,9 @@
     </comp>
     <comp ref="R126">
       <value>10k</value>
-      <footprint>V2:FP_R126</footprint>
+      <footprint>V2:R_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_R126</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1335,9 +1335,9 @@
     </comp>
     <comp ref="R127">
       <value>100k</value>
-      <footprint>V2:FP_R127</footprint>
+      <footprint>V2:R_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_R127</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1357,9 +1357,9 @@
     </comp>
     <comp ref="C103">
       <value>1.5pF</value>
-      <footprint>V2:FP_C103</footprint>
+      <footprint>V2:C_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_C103</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1379,9 +1379,9 @@
     </comp>
     <comp ref="C104">
       <value>1.5pF</value>
-      <footprint>V2:FP_C104</footprint>
+      <footprint>V2:C_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_C104</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1401,9 +1401,9 @@
     </comp>
     <comp ref="C107">
       <value>1.3pF</value>
-      <footprint>V2:FP_C107</footprint>
+      <footprint>V2:C_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_C107</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1423,9 +1423,9 @@
     </comp>
     <comp ref="C108">
       <value>DNP</value>
-      <footprint>V2:FP_C108</footprint>
+      <footprint>V2:C_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_C108</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1446,9 +1446,9 @@
     </comp>
     <comp ref="C109">
       <value>DNP</value>
-      <footprint>V2:FP_C109</footprint>
+      <footprint>V2:C_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_C109</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1535,9 +1535,9 @@
     </comp>
     <comp ref="L105">
       <value>0R</value>
-      <footprint>V2:FP_L105</footprint>
+      <footprint>V2:R_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_L105</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1557,9 +1557,9 @@
     </comp>
     <comp ref="C17">
       <value>2.2uF</value>
-      <footprint>V2:FP_C17</footprint>
+      <footprint>V2:C_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_C17</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1601,9 +1601,9 @@
     </comp>
     <comp ref="C19">
       <value>2.2uF</value>
-      <footprint>V2:FP_C19</footprint>
+      <footprint>V2:C_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_C19</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1623,9 +1623,9 @@
     </comp>
     <comp ref="C20">
       <value>2.2uF</value>
-      <footprint>V2:FP_C20</footprint>
+      <footprint>V2:C_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_C20</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1645,9 +1645,9 @@
     </comp>
     <comp ref="C21">
       <value>2.2uF</value>
-      <footprint>V2:FP_C21</footprint>
+      <footprint>V2:C_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_C21</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1667,9 +1667,9 @@
     </comp>
     <comp ref="C22">
       <value>2.2uF</value>
-      <footprint>V2:FP_C22</footprint>
+      <footprint>V2:C_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_C22</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1689,9 +1689,9 @@
     </comp>
     <comp ref="C23">
       <value>2.2uF</value>
-      <footprint>V2:FP_C23</footprint>
+      <footprint>V2:C_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_C23</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1711,9 +1711,9 @@
     </comp>
     <comp ref="C24">
       <value>2.2uF</value>
-      <footprint>V2:FP_C24</footprint>
+      <footprint>V2:C_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_C24</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1733,9 +1733,9 @@
     </comp>
     <comp ref="C25">
       <value>2.2uF</value>
-      <footprint>V2:FP_C25</footprint>
+      <footprint>V2:C_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_C25</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1755,9 +1755,9 @@
     </comp>
     <comp ref="C26">
       <value>4.7uF</value>
-      <footprint>V2:FP_C26</footprint>
+      <footprint>V2:C_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_C26</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1777,9 +1777,9 @@
     </comp>
     <comp ref="C27">
       <value>100nF</value>
-      <footprint>V2:FP_C27</footprint>
+      <footprint>V2:C_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_C27</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1799,9 +1799,9 @@
     </comp>
     <comp ref="C28">
       <value>100nF</value>
-      <footprint>V2:FP_C28</footprint>
+      <footprint>V2:C_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_C28</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1821,9 +1821,9 @@
     </comp>
     <comp ref="C29">
       <value>100nF</value>
-      <footprint>V2:FP_C29</footprint>
+      <footprint>V2:C_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_C29</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2039,9 +2039,9 @@
     </comp>
     <comp ref="C32">
       <value>10pF</value>
-      <footprint>V2:FP_C32</footprint>
+      <footprint>V2:C_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_C32</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2061,9 +2061,9 @@
     </comp>
     <comp ref="C33">
       <value>10pF</value>
-      <footprint>V2:FP_C33</footprint>
+      <footprint>V2:C_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_C33</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2083,9 +2083,9 @@
     </comp>
     <comp ref="C34">
       <value>100nF</value>
-      <footprint>V2:FP_C34</footprint>
+      <footprint>V2:C_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_C34</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2105,9 +2105,9 @@
     </comp>
     <comp ref="C35">
       <value>100nF</value>
-      <footprint>V2:FP_C35</footprint>
+      <footprint>V2:C_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_C35</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2127,9 +2127,9 @@
     </comp>
     <comp ref="R17">
       <value>200K</value>
-      <footprint>V2:FP_R17</footprint>
+      <footprint>V2:R_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_R17</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2149,9 +2149,9 @@
     </comp>
     <comp ref="R18">
       <value>10K</value>
-      <footprint>V2:FP_R18</footprint>
+      <footprint>V2:R_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_R18</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2171,9 +2171,9 @@
     </comp>
     <comp ref="R19">
       <value>10K</value>
-      <footprint>V2:FP_R19</footprint>
+      <footprint>V2:R_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_R19</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2193,9 +2193,9 @@
     </comp>
     <comp ref="C136">
       <value>100nF</value>
-      <footprint>V2:FP_C136</footprint>
+      <footprint>V2:C_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_C136</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2215,9 +2215,9 @@
     </comp>
     <comp ref="C137">
       <value>4.7uF</value>
-      <footprint>V2:FP_C137</footprint>
+      <footprint>V2:C_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_C137</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2328,9 +2328,9 @@
     </comp>
     <comp ref="R132">
       <value>10k</value>
-      <footprint>V2:FP_R132</footprint>
+      <footprint>V2:R_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_R132</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2350,9 +2350,9 @@
     </comp>
     <comp ref="R133">
       <value>10k</value>
-      <footprint>V2:FP_R133</footprint>
+      <footprint>V2:R_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_R133</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2504,9 +2504,9 @@
     </comp>
     <comp ref="C49">
       <value>10uF</value>
-      <footprint>V2:FP_C49</footprint>
+      <footprint>V2:C_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_C49</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2526,9 +2526,9 @@
     </comp>
     <comp ref="C50">
       <value>100nF</value>
-      <footprint>V2:FP_C50</footprint>
+      <footprint>V2:C_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_C50</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2581,9 +2581,9 @@
     </comp>
     <comp ref="C13">
       <value>100nF</value>
-      <footprint>V2:FP_C13</footprint>
+      <footprint>V2:C_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_C13</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2603,9 +2603,9 @@
     </comp>
     <comp ref="C39">
       <value>1uF</value>
-      <footprint>V2:FP_C39</footprint>
+      <footprint>V2:C_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_C39</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2625,9 +2625,9 @@
     </comp>
     <comp ref="R6">
       <value>10K</value>
-      <footprint>V2:FP_R6</footprint>
+      <footprint>V2:R_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_R6</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2647,9 +2647,9 @@
     </comp>
     <comp ref="R7">
       <value>10K</value>
-      <footprint>V2:FP_R7</footprint>
+      <footprint>V2:R_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_R7</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2669,9 +2669,9 @@
     </comp>
     <comp ref="R10">
       <value>10K</value>
-      <footprint>V2:FP_R10</footprint>
+      <footprint>V2:R_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_R10</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2691,9 +2691,9 @@
     </comp>
     <comp ref="R20">
       <value>10K</value>
-      <footprint>V2:FP_R20</footprint>
+      <footprint>V2:R_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_R20</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2713,9 +2713,9 @@
     </comp>
     <comp ref="R22">
       <value>10K</value>
-      <footprint>V2:FP_R22</footprint>
+      <footprint>V2:R_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_R22</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2735,9 +2735,9 @@
     </comp>
     <comp ref="R25">
       <value>10K</value>
-      <footprint>V2:FP_R25</footprint>
+      <footprint>V2:R_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_R25</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2757,9 +2757,9 @@
     </comp>
     <comp ref="R26">
       <value>10K</value>
-      <footprint>V2:FP_R26</footprint>
+      <footprint>V2:R_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_R26</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2779,9 +2779,9 @@
     </comp>
     <comp ref="R29">
       <value>10K</value>
-      <footprint>V2:FP_R29</footprint>
+      <footprint>V2:R_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_R29</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2801,9 +2801,9 @@
     </comp>
     <comp ref="R30">
       <value>10K</value>
-      <footprint>V2:FP_R30</footprint>
+      <footprint>V2:R_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_R30</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2823,9 +2823,9 @@
     </comp>
     <comp ref="R35">
       <value>10K</value>
-      <footprint>V2:FP_R35</footprint>
+      <footprint>V2:R_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_R35</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2845,9 +2845,9 @@
     </comp>
     <comp ref="R36">
       <value>10K</value>
-      <footprint>V2:FP_R36</footprint>
+      <footprint>V2:R_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_R36</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2867,9 +2867,9 @@
     </comp>
     <comp ref="R37">
       <value>10K</value>
-      <footprint>V2:FP_R37</footprint>
+      <footprint>V2:R_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_R37</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2889,9 +2889,9 @@
     </comp>
     <comp ref="R38">
       <value>10K</value>
-      <footprint>V2:FP_R38</footprint>
+      <footprint>V2:R_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_R38</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2911,9 +2911,9 @@
     </comp>
     <comp ref="R39">
       <value>10K</value>
-      <footprint>V2:FP_R39</footprint>
+      <footprint>V2:R_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_R39</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2933,9 +2933,9 @@
     </comp>
     <comp ref="R42">
       <value>10K</value>
-      <footprint>V2:FP_R42</footprint>
+      <footprint>V2:R_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_R42</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2955,9 +2955,9 @@
     </comp>
     <comp ref="R43">
       <value>10K</value>
-      <footprint>V2:FP_R43</footprint>
+      <footprint>V2:R_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_R43</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2977,9 +2977,9 @@
     </comp>
     <comp ref="R44">
       <value>10K</value>
-      <footprint>V2:FP_R44</footprint>
+      <footprint>V2:R_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_R44</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2999,9 +2999,9 @@
     </comp>
     <comp ref="R45">
       <value>10K</value>
-      <footprint>V2:FP_R45</footprint>
+      <footprint>V2:R_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_R45</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -3021,9 +3021,9 @@
     </comp>
     <comp ref="R46">
       <value>10K</value>
-      <footprint>V2:FP_R46</footprint>
+      <footprint>V2:R_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_R46</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -3043,9 +3043,9 @@
     </comp>
     <comp ref="R8">
       <value>10K</value>
-      <footprint>V2:FP_R8</footprint>
+      <footprint>V2:R_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_R8</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -3065,9 +3065,9 @@
     </comp>
     <comp ref="C4">
       <value>1uF</value>
-      <footprint>V2:FP_C4</footprint>
+      <footprint>V2:C_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_C4</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -3087,9 +3087,9 @@
     </comp>
     <comp ref="C5">
       <value>1uF</value>
-      <footprint>V2:FP_C5</footprint>
+      <footprint>V2:C_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_C5</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -3109,9 +3109,9 @@
     </comp>
     <comp ref="C58">
       <value>100nF</value>
-      <footprint>V2:FP_C58</footprint>
+      <footprint>V2:C_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_C58</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -3325,9 +3325,9 @@
     </comp>
     <comp ref="C3">
       <value>100nF</value>
-      <footprint>V2:FP_C3</footprint>
+      <footprint>V2:C_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_C3</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -3369,9 +3369,9 @@
     </comp>
     <comp ref="C11">
       <value>47nF</value>
-      <footprint>V2:FP_C11</footprint>
+      <footprint>V2:C_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_C11</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -3479,9 +3479,9 @@
     </comp>
     <comp ref="C30">
       <value>1uF</value>
-      <footprint>V2:FP_C30</footprint>
+      <footprint>V2:C_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_C30</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -3501,9 +3501,9 @@
     </comp>
     <comp ref="C31">
       <value>1uF</value>
-      <footprint>V2:FP_C31</footprint>
+      <footprint>V2:C_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_C31</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -3523,9 +3523,9 @@
     </comp>
     <comp ref="C43">
       <value>220nF</value>
-      <footprint>V2:FP_C43</footprint>
+      <footprint>V2:C_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_C43</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -3741,9 +3741,9 @@
     </comp>
     <comp ref="C61">
       <value>220nF</value>
-      <footprint>V2:FP_C61</footprint>
+      <footprint>V2:C_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_C61</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -3851,9 +3851,9 @@
     </comp>
     <comp ref="R2">
       <value>1K</value>
-      <footprint>V2:FP_R2</footprint>
+      <footprint>V2:R_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_R2</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -3873,9 +3873,9 @@
     </comp>
     <comp ref="R3">
       <value>22K1</value>
-      <footprint>V2:FP_R3</footprint>
+      <footprint>V2:R_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_R3</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -3895,9 +3895,9 @@
     </comp>
     <comp ref="R4">
       <value>100K</value>
-      <footprint>V2:FP_R4</footprint>
+      <footprint>V2:R_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_R4</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -3917,9 +3917,9 @@
     </comp>
     <comp ref="R5">
       <value>100K</value>
-      <footprint>V2:FP_R5</footprint>
+      <footprint>V2:R_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_R5</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -3939,9 +3939,9 @@
     </comp>
     <comp ref="R9">
       <value>700R</value>
-      <footprint>V2:FP_R9</footprint>
+      <footprint>V2:R_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_R9</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -3961,9 +3961,9 @@
     </comp>
     <comp ref="R11">
       <value>100K</value>
-      <footprint>V2:FP_R11</footprint>
+      <footprint>V2:R_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_R11</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -3983,9 +3983,9 @@
     </comp>
     <comp ref="R12">
       <value>100K</value>
-      <footprint>V2:FP_R12</footprint>
+      <footprint>V2:R_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_R12</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -4005,9 +4005,9 @@
     </comp>
     <comp ref="R13">
       <value>5K23</value>
-      <footprint>V2:FP_R13</footprint>
+      <footprint>V2:R_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_R13</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -4027,9 +4027,9 @@
     </comp>
     <comp ref="R14">
       <value>30K1</value>
-      <footprint>V2:FP_R14</footprint>
+      <footprint>V2:R_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_R14</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -4049,9 +4049,9 @@
     </comp>
     <comp ref="R33">
       <value>1K</value>
-      <footprint>V2:FP_R33</footprint>
+      <footprint>V2:R_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_R33</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -4071,9 +4071,9 @@
     </comp>
     <comp ref="R34">
       <value>0R</value>
-      <footprint>V2:FP_R34</footprint>
+      <footprint>V2:R_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_R34</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -4093,9 +4093,9 @@
     </comp>
     <comp ref="C130">
       <value>2.2uF</value>
-      <footprint>V2:FP_C130</footprint>
+      <footprint>V2:C_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_C130</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -4115,9 +4115,9 @@
     </comp>
     <comp ref="C131">
       <value>2.2uF</value>
-      <footprint>V2:FP_C131</footprint>
+      <footprint>V2:C_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_C131</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -4137,9 +4137,9 @@
     </comp>
     <comp ref="C132">
       <value>100nF</value>
-      <footprint>V2:FP_C132</footprint>
+      <footprint>V2:C_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_C132</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -4159,9 +4159,9 @@
     </comp>
     <comp ref="C133">
       <value>1uF</value>
-      <footprint>V2:FP_C133</footprint>
+      <footprint>V2:C_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_C133</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -4181,9 +4181,9 @@
     </comp>
     <comp ref="C134">
       <value>100nF</value>
-      <footprint>V2:FP_C134</footprint>
+      <footprint>V2:C_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_C134</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -4203,9 +4203,9 @@
     </comp>
     <comp ref="C135">
       <value>100nF</value>
-      <footprint>V2:FP_C135</footprint>
+      <footprint>V2:C_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_C135</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -4340,9 +4340,9 @@
     </comp>
     <comp ref="R128">
       <value>10k</value>
-      <footprint>V2:FP_R128</footprint>
+      <footprint>V2:R_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_R128</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -4362,9 +4362,9 @@
     </comp>
     <comp ref="R129">
       <value>100k</value>
-      <footprint>V2:FP_R129</footprint>
+      <footprint>V2:R_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_R129</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -4384,9 +4384,9 @@
     </comp>
     <comp ref="R130">
       <value>200k</value>
-      <footprint>V2:FP_R130</footprint>
+      <footprint>V2:R_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_R130</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -4406,9 +4406,9 @@
     </comp>
     <comp ref="R131">
       <value>100k</value>
-      <footprint>V2:FP_R131</footprint>
+      <footprint>V2:R_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_R131</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -4481,9 +4481,9 @@
     </comp>
     <comp ref="C6">
       <value>100nF</value>
-      <footprint>V2:FP_C6</footprint>
+      <footprint>V2:C_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_C6</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -4503,9 +4503,9 @@
     </comp>
     <comp ref="C7">
       <value>100nF</value>
-      <footprint>V2:FP_C7</footprint>
+      <footprint>V2:C_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_C7</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -4525,9 +4525,9 @@
     </comp>
     <comp ref="C47">
       <value>100nF</value>
-      <footprint>V2:FP_C47</footprint>
+      <footprint>V2:C_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_C47</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -4547,9 +4547,9 @@
     </comp>
     <comp ref="C48">
       <value>100nF</value>
-      <footprint>V2:FP_C48</footprint>
+      <footprint>V2:C_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_C48</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -4569,9 +4569,9 @@
     </comp>
     <comp ref="C53">
       <value>100nF</value>
-      <footprint>V2:FP_C53</footprint>
+      <footprint>V2:C_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_C53</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -4591,9 +4591,9 @@
     </comp>
     <comp ref="C54">
       <value>1uF</value>
-      <footprint>V2:FP_C54</footprint>
+      <footprint>V2:C_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_C54</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -4677,9 +4677,9 @@
     </comp>
     <comp ref="C59">
       <value>100nF</value>
-      <footprint>V2:FP_C59</footprint>
+      <footprint>V2:C_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_C59</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -4733,9 +4733,9 @@
     </comp>
     <comp ref="C36">
       <value>100nF</value>
-      <footprint>V2:FP_C36</footprint>
+      <footprint>V2:C_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_C36</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -4755,9 +4755,9 @@
     </comp>
     <comp ref="C37">
       <value>100nF</value>
-      <footprint>V2:FP_C37</footprint>
+      <footprint>V2:C_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_C37</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -4777,9 +4777,9 @@
     </comp>
     <comp ref="C38">
       <value>100nF</value>
-      <footprint>V2:FP_C38</footprint>
+      <footprint>V2:C_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_C38</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -4799,9 +4799,9 @@
     </comp>
     <comp ref="C44">
       <value>100nF</value>
-      <footprint>V2:FP_C44</footprint>
+      <footprint>V2:C_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_C44</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -4821,9 +4821,9 @@
     </comp>
     <comp ref="C51">
       <value>100nF</value>
-      <footprint>V2:FP_C51</footprint>
+      <footprint>V2:C_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_C51</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -4869,9 +4869,9 @@
     </comp>
     <comp ref="R21">
       <value>100K</value>
-      <footprint>V2:FP_R21</footprint>
+      <footprint>V2:R_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_R21</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -4891,9 +4891,9 @@
     </comp>
     <comp ref="R31">
       <value>5K1</value>
-      <footprint>V2:FP_R31</footprint>
+      <footprint>V2:R_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_R31</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -4913,9 +4913,9 @@
     </comp>
     <comp ref="R32">
       <value>5K1</value>
-      <footprint>V2:FP_R32</footprint>
+      <footprint>V2:R_0402_1005Metric</footprint>
       <fields>
-        <field name="Footprint">V2:FP_R32</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -5066,7 +5066,7 @@
       <fields>
         <field name="Reference">C101</field>
         <field name="Value">24pF</field>
-        <field name="Footprint">V2:FP_C101</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -5079,7 +5079,7 @@
       <fields>
         <field name="Reference">C102</field>
         <field name="Value">27pF</field>
-        <field name="Footprint">V2:FP_C102</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -5092,7 +5092,7 @@
       <fields>
         <field name="Reference">C103</field>
         <field name="Value">1.5pF</field>
-        <field name="Footprint">V2:FP_C103</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -5105,7 +5105,7 @@
       <fields>
         <field name="Reference">C104</field>
         <field name="Value">1.5pF</field>
-        <field name="Footprint">V2:FP_C104</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -5118,7 +5118,7 @@
       <fields>
         <field name="Reference">C105</field>
         <field name="Value">1uF</field>
-        <field name="Footprint">V2:FP_C105</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -5131,7 +5131,7 @@
       <fields>
         <field name="Reference">C106</field>
         <field name="Value">10nF</field>
-        <field name="Footprint">V2:FP_C106</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -5144,7 +5144,7 @@
       <fields>
         <field name="Reference">C107</field>
         <field name="Value">1.3pF</field>
-        <field name="Footprint">V2:FP_C107</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -5157,7 +5157,7 @@
       <fields>
         <field name="Reference">C108</field>
         <field name="Value">DNP</field>
-        <field name="Footprint">V2:FP_C108</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -5170,7 +5170,7 @@
       <fields>
         <field name="Reference">C109</field>
         <field name="Value">DNP</field>
-        <field name="Footprint">V2:FP_C109</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -5183,7 +5183,7 @@
       <fields>
         <field name="Reference">C11</field>
         <field name="Value">47nF</field>
-        <field name="Footprint">V2:FP_C11</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -5196,7 +5196,7 @@
       <fields>
         <field name="Reference">C110</field>
         <field name="Value">10uF</field>
-        <field name="Footprint">V2:FP_C110</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -5209,7 +5209,7 @@
       <fields>
         <field name="Reference">C113</field>
         <field name="Value">1uF</field>
-        <field name="Footprint">V2:FP_C113</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -5222,7 +5222,7 @@
       <fields>
         <field name="Reference">C114</field>
         <field name="Value">100nF</field>
-        <field name="Footprint">V2:FP_C114</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -5235,7 +5235,7 @@
       <fields>
         <field name="Reference">C115</field>
         <field name="Value">10uF</field>
-        <field name="Footprint">V2:FP_C115</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -5248,7 +5248,7 @@
       <fields>
         <field name="Reference">C116</field>
         <field name="Value">1uF</field>
-        <field name="Footprint">V2:FP_C116</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -5261,7 +5261,7 @@
       <fields>
         <field name="Reference">C117</field>
         <field name="Value">100nF</field>
-        <field name="Footprint">V2:FP_C117</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -5274,7 +5274,7 @@
       <fields>
         <field name="Reference">C118</field>
         <field name="Value">100nF</field>
-        <field name="Footprint">V2:FP_C118</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -5287,7 +5287,7 @@
       <fields>
         <field name="Reference">C119</field>
         <field name="Value">100nF</field>
-        <field name="Footprint">V2:FP_C119</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -5313,7 +5313,7 @@
       <fields>
         <field name="Reference">C120</field>
         <field name="Value">100nF</field>
-        <field name="Footprint">V2:FP_C120</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -5326,7 +5326,7 @@
       <fields>
         <field name="Reference">C121</field>
         <field name="Value">1uF</field>
-        <field name="Footprint">V2:FP_C121</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -5339,7 +5339,7 @@
       <fields>
         <field name="Reference">C122</field>
         <field name="Value">100nF</field>
-        <field name="Footprint">V2:FP_C122</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -5352,7 +5352,7 @@
       <fields>
         <field name="Reference">C123</field>
         <field name="Value">100nF</field>
-        <field name="Footprint">V2:FP_C123</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -5365,7 +5365,7 @@
       <fields>
         <field name="Reference">C124</field>
         <field name="Value">100nF</field>
-        <field name="Footprint">V2:FP_C124</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -5378,7 +5378,7 @@
       <fields>
         <field name="Reference">C125</field>
         <field name="Value">100nF</field>
-        <field name="Footprint">V2:FP_C125</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -5391,7 +5391,7 @@
       <fields>
         <field name="Reference">C13</field>
         <field name="Value">100nF</field>
-        <field name="Footprint">V2:FP_C13</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -5404,7 +5404,7 @@
       <fields>
         <field name="Reference">C130</field>
         <field name="Value">2.2uF</field>
-        <field name="Footprint">V2:FP_C130</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -5417,7 +5417,7 @@
       <fields>
         <field name="Reference">C131</field>
         <field name="Value">2.2uF</field>
-        <field name="Footprint">V2:FP_C131</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -5430,7 +5430,7 @@
       <fields>
         <field name="Reference">C132</field>
         <field name="Value">100nF</field>
-        <field name="Footprint">V2:FP_C132</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -5443,7 +5443,7 @@
       <fields>
         <field name="Reference">C133</field>
         <field name="Value">1uF</field>
-        <field name="Footprint">V2:FP_C133</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -5456,7 +5456,7 @@
       <fields>
         <field name="Reference">C134</field>
         <field name="Value">100nF</field>
-        <field name="Footprint">V2:FP_C134</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -5469,7 +5469,7 @@
       <fields>
         <field name="Reference">C135</field>
         <field name="Value">100nF</field>
-        <field name="Footprint">V2:FP_C135</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -5482,7 +5482,7 @@
       <fields>
         <field name="Reference">C136</field>
         <field name="Value">100nF</field>
-        <field name="Footprint">V2:FP_C136</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -5495,7 +5495,7 @@
       <fields>
         <field name="Reference">C137</field>
         <field name="Value">4.7uF</field>
-        <field name="Footprint">V2:FP_C137</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -5547,7 +5547,7 @@
       <fields>
         <field name="Reference">C17</field>
         <field name="Value">2.2uF</field>
-        <field name="Footprint">V2:FP_C17</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -5573,7 +5573,7 @@
       <fields>
         <field name="Reference">C19</field>
         <field name="Value">2.2uF</field>
-        <field name="Footprint">V2:FP_C19</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -5599,7 +5599,7 @@
       <fields>
         <field name="Reference">C20</field>
         <field name="Value">2.2uF</field>
-        <field name="Footprint">V2:FP_C20</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -5612,7 +5612,7 @@
       <fields>
         <field name="Reference">C21</field>
         <field name="Value">2.2uF</field>
-        <field name="Footprint">V2:FP_C21</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -5625,7 +5625,7 @@
       <fields>
         <field name="Reference">C22</field>
         <field name="Value">2.2uF</field>
-        <field name="Footprint">V2:FP_C22</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -5638,7 +5638,7 @@
       <fields>
         <field name="Reference">C23</field>
         <field name="Value">2.2uF</field>
-        <field name="Footprint">V2:FP_C23</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -5651,7 +5651,7 @@
       <fields>
         <field name="Reference">C24</field>
         <field name="Value">2.2uF</field>
-        <field name="Footprint">V2:FP_C24</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -5664,7 +5664,7 @@
       <fields>
         <field name="Reference">C25</field>
         <field name="Value">2.2uF</field>
-        <field name="Footprint">V2:FP_C25</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -5677,7 +5677,7 @@
       <fields>
         <field name="Reference">C26</field>
         <field name="Value">4.7uF</field>
-        <field name="Footprint">V2:FP_C26</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -5690,7 +5690,7 @@
       <fields>
         <field name="Reference">C27</field>
         <field name="Value">100nF</field>
-        <field name="Footprint">V2:FP_C27</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -5703,7 +5703,7 @@
       <fields>
         <field name="Reference">C28</field>
         <field name="Value">100nF</field>
-        <field name="Footprint">V2:FP_C28</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -5716,7 +5716,7 @@
       <fields>
         <field name="Reference">C29</field>
         <field name="Value">100nF</field>
-        <field name="Footprint">V2:FP_C29</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -5729,7 +5729,7 @@
       <fields>
         <field name="Reference">C3</field>
         <field name="Value">100nF</field>
-        <field name="Footprint">V2:FP_C3</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -5742,7 +5742,7 @@
       <fields>
         <field name="Reference">C30</field>
         <field name="Value">1uF</field>
-        <field name="Footprint">V2:FP_C30</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -5755,7 +5755,7 @@
       <fields>
         <field name="Reference">C31</field>
         <field name="Value">1uF</field>
-        <field name="Footprint">V2:FP_C31</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -5768,7 +5768,7 @@
       <fields>
         <field name="Reference">C32</field>
         <field name="Value">10pF</field>
-        <field name="Footprint">V2:FP_C32</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -5781,7 +5781,7 @@
       <fields>
         <field name="Reference">C33</field>
         <field name="Value">10pF</field>
-        <field name="Footprint">V2:FP_C33</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -5794,7 +5794,7 @@
       <fields>
         <field name="Reference">C34</field>
         <field name="Value">100nF</field>
-        <field name="Footprint">V2:FP_C34</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -5807,7 +5807,7 @@
       <fields>
         <field name="Reference">C35</field>
         <field name="Value">100nF</field>
-        <field name="Footprint">V2:FP_C35</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -5820,7 +5820,7 @@
       <fields>
         <field name="Reference">C36</field>
         <field name="Value">100nF</field>
-        <field name="Footprint">V2:FP_C36</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -5833,7 +5833,7 @@
       <fields>
         <field name="Reference">C37</field>
         <field name="Value">100nF</field>
-        <field name="Footprint">V2:FP_C37</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -5846,7 +5846,7 @@
       <fields>
         <field name="Reference">C38</field>
         <field name="Value">100nF</field>
-        <field name="Footprint">V2:FP_C38</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -5859,7 +5859,7 @@
       <fields>
         <field name="Reference">C39</field>
         <field name="Value">1uF</field>
-        <field name="Footprint">V2:FP_C39</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -5872,7 +5872,7 @@
       <fields>
         <field name="Reference">C4</field>
         <field name="Value">1uF</field>
-        <field name="Footprint">V2:FP_C4</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -5885,7 +5885,7 @@
       <fields>
         <field name="Reference">C43</field>
         <field name="Value">220nF</field>
-        <field name="Footprint">V2:FP_C43</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -5898,7 +5898,7 @@
       <fields>
         <field name="Reference">C44</field>
         <field name="Value">100nF</field>
-        <field name="Footprint">V2:FP_C44</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -5911,7 +5911,7 @@
       <fields>
         <field name="Reference">C47</field>
         <field name="Value">100nF</field>
-        <field name="Footprint">V2:FP_C47</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -5924,7 +5924,7 @@
       <fields>
         <field name="Reference">C48</field>
         <field name="Value">100nF</field>
-        <field name="Footprint">V2:FP_C48</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -5937,7 +5937,7 @@
       <fields>
         <field name="Reference">C49</field>
         <field name="Value">10uF</field>
-        <field name="Footprint">V2:FP_C49</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -5950,7 +5950,7 @@
       <fields>
         <field name="Reference">C5</field>
         <field name="Value">1uF</field>
-        <field name="Footprint">V2:FP_C5</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -5963,7 +5963,7 @@
       <fields>
         <field name="Reference">C50</field>
         <field name="Value">100nF</field>
-        <field name="Footprint">V2:FP_C50</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -5976,7 +5976,7 @@
       <fields>
         <field name="Reference">C51</field>
         <field name="Value">100nF</field>
-        <field name="Footprint">V2:FP_C51</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -5989,7 +5989,7 @@
       <fields>
         <field name="Reference">C53</field>
         <field name="Value">100nF</field>
-        <field name="Footprint">V2:FP_C53</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -6002,7 +6002,7 @@
       <fields>
         <field name="Reference">C54</field>
         <field name="Value">1uF</field>
-        <field name="Footprint">V2:FP_C54</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -6015,7 +6015,7 @@
       <fields>
         <field name="Reference">C58</field>
         <field name="Value">100nF</field>
-        <field name="Footprint">V2:FP_C58</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -6028,7 +6028,7 @@
       <fields>
         <field name="Reference">C59</field>
         <field name="Value">100nF</field>
-        <field name="Footprint">V2:FP_C59</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -6041,7 +6041,7 @@
       <fields>
         <field name="Reference">C6</field>
         <field name="Value">100nF</field>
-        <field name="Footprint">V2:FP_C6</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -6054,7 +6054,7 @@
       <fields>
         <field name="Reference">C61</field>
         <field name="Value">220nF</field>
-        <field name="Footprint">V2:FP_C61</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -6067,7 +6067,7 @@
       <fields>
         <field name="Reference">C7</field>
         <field name="Value">100nF</field>
-        <field name="Footprint">V2:FP_C7</field>
+        <field name="Footprint">V2:C_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -6343,7 +6343,7 @@
       <fields>
         <field name="Reference">L105</field>
         <field name="Value">0R</field>
-        <field name="Footprint">V2:FP_L105</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -6493,7 +6493,7 @@
       <fields>
         <field name="Reference">R10</field>
         <field name="Value">10K</field>
-        <field name="Footprint">V2:FP_R10</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -6506,7 +6506,7 @@
       <fields>
         <field name="Reference">R101</field>
         <field name="Value">0R</field>
-        <field name="Footprint">V2:FP_R101</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -6519,7 +6519,7 @@
       <fields>
         <field name="Reference">R102</field>
         <field name="Value">0R</field>
-        <field name="Footprint">V2:FP_R102</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -6532,7 +6532,7 @@
       <fields>
         <field name="Reference">R103</field>
         <field name="Value">0R</field>
-        <field name="Footprint">V2:FP_R103</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -6545,7 +6545,7 @@
       <fields>
         <field name="Reference">R104</field>
         <field name="Value">0R</field>
-        <field name="Footprint">V2:FP_R104</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -6558,7 +6558,7 @@
       <fields>
         <field name="Reference">R105</field>
         <field name="Value">0R</field>
-        <field name="Footprint">V2:FP_R105</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -6571,7 +6571,7 @@
       <fields>
         <field name="Reference">R106</field>
         <field name="Value">499R</field>
-        <field name="Footprint">V2:FP_R106</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -6584,7 +6584,7 @@
       <fields>
         <field name="Reference">R107</field>
         <field name="Value">10k</field>
-        <field name="Footprint">V2:FP_R107</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -6597,7 +6597,7 @@
       <fields>
         <field name="Reference">R108</field>
         <field name="Value">0R</field>
-        <field name="Footprint">V2:FP_R108</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -6610,7 +6610,7 @@
       <fields>
         <field name="Reference">R109</field>
         <field name="Value">0R</field>
-        <field name="Footprint">V2:FP_R109</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -6623,7 +6623,7 @@
       <fields>
         <field name="Reference">R11</field>
         <field name="Value">100K</field>
-        <field name="Footprint">V2:FP_R11</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -6636,7 +6636,7 @@
       <fields>
         <field name="Reference">R110</field>
         <field name="Value">10k</field>
-        <field name="Footprint">V2:FP_R110</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -6649,7 +6649,7 @@
       <fields>
         <field name="Reference">R12</field>
         <field name="Value">100K</field>
-        <field name="Footprint">V2:FP_R12</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -6662,7 +6662,7 @@
       <fields>
         <field name="Reference">R120</field>
         <field name="Value">10k</field>
-        <field name="Footprint">V2:FP_R120</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -6675,7 +6675,7 @@
       <fields>
         <field name="Reference">R121</field>
         <field name="Value">10k</field>
-        <field name="Footprint">V2:FP_R121</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -6688,7 +6688,7 @@
       <fields>
         <field name="Reference">R122</field>
         <field name="Value">100k</field>
-        <field name="Footprint">V2:FP_R122</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -6701,7 +6701,7 @@
       <fields>
         <field name="Reference">R123</field>
         <field name="Value">100k</field>
-        <field name="Footprint">V2:FP_R123</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -6714,7 +6714,7 @@
       <fields>
         <field name="Reference">R124</field>
         <field name="Value">100k</field>
-        <field name="Footprint">V2:FP_R124</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -6727,7 +6727,7 @@
       <fields>
         <field name="Reference">R125</field>
         <field name="Value">10k</field>
-        <field name="Footprint">V2:FP_R125</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -6740,7 +6740,7 @@
       <fields>
         <field name="Reference">R126</field>
         <field name="Value">10k</field>
-        <field name="Footprint">V2:FP_R126</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -6753,7 +6753,7 @@
       <fields>
         <field name="Reference">R127</field>
         <field name="Value">100k</field>
-        <field name="Footprint">V2:FP_R127</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -6766,7 +6766,7 @@
       <fields>
         <field name="Reference">R128</field>
         <field name="Value">10k</field>
-        <field name="Footprint">V2:FP_R128</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -6779,7 +6779,7 @@
       <fields>
         <field name="Reference">R129</field>
         <field name="Value">100k</field>
-        <field name="Footprint">V2:FP_R129</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -6792,7 +6792,7 @@
       <fields>
         <field name="Reference">R13</field>
         <field name="Value">5K23</field>
-        <field name="Footprint">V2:FP_R13</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -6805,7 +6805,7 @@
       <fields>
         <field name="Reference">R130</field>
         <field name="Value">200k</field>
-        <field name="Footprint">V2:FP_R130</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -6818,7 +6818,7 @@
       <fields>
         <field name="Reference">R131</field>
         <field name="Value">100k</field>
-        <field name="Footprint">V2:FP_R131</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -6831,7 +6831,7 @@
       <fields>
         <field name="Reference">R132</field>
         <field name="Value">10k</field>
-        <field name="Footprint">V2:FP_R132</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -6844,7 +6844,7 @@
       <fields>
         <field name="Reference">R133</field>
         <field name="Value">10k</field>
-        <field name="Footprint">V2:FP_R133</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -6857,7 +6857,7 @@
       <fields>
         <field name="Reference">R14</field>
         <field name="Value">30K1</field>
-        <field name="Footprint">V2:FP_R14</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -6870,7 +6870,7 @@
       <fields>
         <field name="Reference">R17</field>
         <field name="Value">200K</field>
-        <field name="Footprint">V2:FP_R17</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -6883,7 +6883,7 @@
       <fields>
         <field name="Reference">R18</field>
         <field name="Value">10K</field>
-        <field name="Footprint">V2:FP_R18</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -6896,7 +6896,7 @@
       <fields>
         <field name="Reference">R19</field>
         <field name="Value">10K</field>
-        <field name="Footprint">V2:FP_R19</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -6909,7 +6909,7 @@
       <fields>
         <field name="Reference">R2</field>
         <field name="Value">1K</field>
-        <field name="Footprint">V2:FP_R2</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -6922,7 +6922,7 @@
       <fields>
         <field name="Reference">R20</field>
         <field name="Value">10K</field>
-        <field name="Footprint">V2:FP_R20</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -6935,7 +6935,7 @@
       <fields>
         <field name="Reference">R21</field>
         <field name="Value">100K</field>
-        <field name="Footprint">V2:FP_R21</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -6948,7 +6948,7 @@
       <fields>
         <field name="Reference">R22</field>
         <field name="Value">10K</field>
-        <field name="Footprint">V2:FP_R22</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -6961,7 +6961,7 @@
       <fields>
         <field name="Reference">R25</field>
         <field name="Value">10K</field>
-        <field name="Footprint">V2:FP_R25</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -6974,7 +6974,7 @@
       <fields>
         <field name="Reference">R26</field>
         <field name="Value">10K</field>
-        <field name="Footprint">V2:FP_R26</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -6987,7 +6987,7 @@
       <fields>
         <field name="Reference">R29</field>
         <field name="Value">10K</field>
-        <field name="Footprint">V2:FP_R29</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -7000,7 +7000,7 @@
       <fields>
         <field name="Reference">R3</field>
         <field name="Value">22K1</field>
-        <field name="Footprint">V2:FP_R3</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -7013,7 +7013,7 @@
       <fields>
         <field name="Reference">R30</field>
         <field name="Value">10K</field>
-        <field name="Footprint">V2:FP_R30</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -7026,7 +7026,7 @@
       <fields>
         <field name="Reference">R31</field>
         <field name="Value">5K1</field>
-        <field name="Footprint">V2:FP_R31</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -7039,7 +7039,7 @@
       <fields>
         <field name="Reference">R32</field>
         <field name="Value">5K1</field>
-        <field name="Footprint">V2:FP_R32</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -7052,7 +7052,7 @@
       <fields>
         <field name="Reference">R33</field>
         <field name="Value">1K</field>
-        <field name="Footprint">V2:FP_R33</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -7065,7 +7065,7 @@
       <fields>
         <field name="Reference">R34</field>
         <field name="Value">0R</field>
-        <field name="Footprint">V2:FP_R34</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -7078,7 +7078,7 @@
       <fields>
         <field name="Reference">R35</field>
         <field name="Value">10K</field>
-        <field name="Footprint">V2:FP_R35</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -7091,7 +7091,7 @@
       <fields>
         <field name="Reference">R36</field>
         <field name="Value">10K</field>
-        <field name="Footprint">V2:FP_R36</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -7104,7 +7104,7 @@
       <fields>
         <field name="Reference">R37</field>
         <field name="Value">10K</field>
-        <field name="Footprint">V2:FP_R37</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -7117,7 +7117,7 @@
       <fields>
         <field name="Reference">R38</field>
         <field name="Value">10K</field>
-        <field name="Footprint">V2:FP_R38</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -7130,7 +7130,7 @@
       <fields>
         <field name="Reference">R39</field>
         <field name="Value">10K</field>
-        <field name="Footprint">V2:FP_R39</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -7143,7 +7143,7 @@
       <fields>
         <field name="Reference">R4</field>
         <field name="Value">100K</field>
-        <field name="Footprint">V2:FP_R4</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -7156,7 +7156,7 @@
       <fields>
         <field name="Reference">R42</field>
         <field name="Value">10K</field>
-        <field name="Footprint">V2:FP_R42</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -7169,7 +7169,7 @@
       <fields>
         <field name="Reference">R43</field>
         <field name="Value">10K</field>
-        <field name="Footprint">V2:FP_R43</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -7182,7 +7182,7 @@
       <fields>
         <field name="Reference">R44</field>
         <field name="Value">10K</field>
-        <field name="Footprint">V2:FP_R44</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -7195,7 +7195,7 @@
       <fields>
         <field name="Reference">R45</field>
         <field name="Value">10K</field>
-        <field name="Footprint">V2:FP_R45</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -7208,7 +7208,7 @@
       <fields>
         <field name="Reference">R46</field>
         <field name="Value">10K</field>
-        <field name="Footprint">V2:FP_R46</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -7221,7 +7221,7 @@
       <fields>
         <field name="Reference">R5</field>
         <field name="Value">100K</field>
-        <field name="Footprint">V2:FP_R5</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -7234,7 +7234,7 @@
       <fields>
         <field name="Reference">R6</field>
         <field name="Value">10K</field>
-        <field name="Footprint">V2:FP_R6</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -7247,7 +7247,7 @@
       <fields>
         <field name="Reference">R7</field>
         <field name="Value">10K</field>
-        <field name="Footprint">V2:FP_R7</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -7260,7 +7260,7 @@
       <fields>
         <field name="Reference">R8</field>
         <field name="Value">10K</field>
-        <field name="Footprint">V2:FP_R8</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -7273,7 +7273,7 @@
       <fields>
         <field name="Reference">R9</field>
         <field name="Value">700R</field>
-        <field name="Footprint">V2:FP_R9</field>
+        <field name="Footprint">V2:R_0402_1005Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>

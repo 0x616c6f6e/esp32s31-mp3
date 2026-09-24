@@ -1,0 +1,6850 @@
+{
+  "standard": "KiCad 10 IPC nominal-density 0402 (1005 metric), separate R/C land patterns",
+  "components": [
+    {
+      "ref": "C115",
+      "old_library_id": "V2:FP_C115",
+      "library_id": "V2:C_0402_1005Metric",
+      "before": {
+        "pitch_mm": 0.858,
+        "pad_size_mm": {
+          "1": [
+            0.508,
+            0.508
+          ],
+          "2": [
+            0.508,
+            0.508
+          ]
+        },
+        "pad_shapes": {
+          "1": 1,
+          "2": 1
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        159.110304,
+        76.330197
+      ],
+      "angle_deg": -135.0,
+      "side": "F"
+    },
+    {
+      "ref": "C44",
+      "old_library_id": "V2:FP_C44",
+      "library_id": "V2:C_0402_1005Metric",
+      "before": {
+        "pitch_mm": 0.84,
+        "pad_size_mm": {
+          "1": [
+            0.5,
+            0.54
+          ],
+          "2": [
+            0.5,
+            0.54
+          ]
+        },
+        "pad_shapes": {
+          "1": 1,
+          "2": 1
+        },
+        "models": [
+          "${KIPRJMOD}/models3d/C0402.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        154.4235,
+        120.0735
+      ],
+      "angle_deg": 0.0,
+      "side": "F"
+    },
+    {
+      "ref": "R108",
+      "old_library_id": "V2:FP_R108",
+      "library_id": "V2:R_0402_1005Metric",
+      "before": {
+        "pitch_mm": 1.02,
+        "pad_size_mm": {
+          "1": [
+            0.54,
+            0.64
+          ],
+          "2": [
+            0.54,
+            0.64
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 1.02,
+        "pad_size_mm": {
+          "1": [
+            0.54,
+            0.64
+          ],
+          "2": [
+            0.54,
+            0.64
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        158.3432,
+        89.9831
+      ],
+      "angle_deg": -90.0,
+      "side": "F"
+    },
+    {
+      "ref": "C20",
+      "old_library_id": "V2:FP_C20",
+      "library_id": "V2:C_0402_1005Metric",
+      "before": {
+        "pitch_mm": 1.09,
+        "pad_size_mm": {
+          "1": [
+            0.79,
+            0.54
+          ],
+          "2": [
+            0.79,
+            0.54
+          ]
+        },
+        "pad_shapes": {
+          "1": 1,
+          "2": 1
+        },
+        "models": [
+          "${KIPRJMOD}/models3d/C0402_1.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        136.072,
+        120.279
+      ],
+      "angle_deg": 0.0,
+      "side": "F"
+    },
+    {
+      "ref": "R101",
+      "old_library_id": "V2:FP_R101",
+      "library_id": "V2:R_0402_1005Metric",
+      "before": {
+        "pitch_mm": 1.02,
+        "pad_size_mm": {
+          "1": [
+            0.54,
+            0.64
+          ],
+          "2": [
+            0.54,
+            0.64
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 1.02,
+        "pad_size_mm": {
+          "1": [
+            0.54,
+            0.64
+          ],
+          "2": [
+            0.54,
+            0.64
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        151.6435,
+        88.0092
+      ],
+      "angle_deg": 180.0,
+      "side": "F"
+    },
+    {
+      "ref": "C30",
+      "old_library_id": "V2:FP_C30",
+      "library_id": "V2:C_0402_1005Metric",
+      "before": {
+        "pitch_mm": 1.09,
+        "pad_size_mm": {
+          "1": [
+            0.79,
+            0.54
+          ],
+          "2": [
+            0.79,
+            0.54
+          ]
+        },
+        "pad_shapes": {
+          "1": 1,
+          "2": 1
+        },
+        "models": [
+          "${KIPRJMOD}/models3d/C0402_1.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        150.13,
+        120.06
+      ],
+      "angle_deg": 0.0,
+      "side": "F"
+    },
+    {
+      "ref": "C116",
+      "old_library_id": "V2:FP_C116",
+      "library_id": "V2:C_0402_1005Metric",
+      "before": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        159.8141,
+        77.1516
+      ],
+      "angle_deg": -135.0,
+      "side": "F"
+    },
+    {
+      "ref": "C102",
+      "old_library_id": "V2:FP_C102",
+      "library_id": "V2:C_0402_1005Metric",
+      "before": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        166.1986,
+        84.2089
+      ],
+      "angle_deg": 180.0,
+      "side": "F"
+    },
+    {
+      "ref": "C29",
+      "old_library_id": "V2:FP_C29",
+      "library_id": "V2:C_0402_1005Metric",
+      "before": {
+        "pitch_mm": 1.09,
+        "pad_size_mm": {
+          "1": [
+            0.79,
+            0.54
+          ],
+          "2": [
+            0.79,
+            0.54
+          ]
+        },
+        "pad_shapes": {
+          "1": 1,
+          "2": 1
+        },
+        "models": [
+          "${KIPRJMOD}/models3d/C0402_1.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        145.089,
+        114.691
+      ],
+      "angle_deg": 90.0,
+      "side": "F"
+    },
+    {
+      "ref": "C33",
+      "old_library_id": "V2:FP_C33",
+      "library_id": "V2:C_0402_1005Metric",
+      "before": {
+        "pitch_mm": 1.09,
+        "pad_size_mm": {
+          "1": [
+            0.79,
+            0.54
+          ],
+          "2": [
+            0.79,
+            0.54
+          ]
+        },
+        "pad_shapes": {
+          "1": 1,
+          "2": 1
+        },
+        "models": [
+          "${KIPRJMOD}/models3d/C0402_1.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        133.2405,
+        113.13
+      ],
+      "angle_deg": 180.0,
+      "side": "F"
+    },
+    {
+      "ref": "R19",
+      "old_library_id": "V2:FP_R19",
+      "library_id": "V2:R_0402_1005Metric",
+      "before": {
+        "pitch_mm": 0.866,
+        "pad_size_mm": {
+          "1": [
+            0.5655,
+            0.54
+          ],
+          "2": [
+            0.5655,
+            0.54
+          ]
+        },
+        "pad_shapes": {
+          "1": 1,
+          "2": 1
+        },
+        "models": [
+          "${KIPRJMOD}/models3d/R0402_1.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 1.02,
+        "pad_size_mm": {
+          "1": [
+            0.54,
+            0.64
+          ],
+          "2": [
+            0.54,
+            0.64
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        140.517,
+        110.071
+      ],
+      "angle_deg": 180.0,
+      "side": "F"
+    },
+    {
+      "ref": "C108",
+      "old_library_id": "V2:FP_C108",
+      "library_id": "V2:C_0402_1005Metric",
+      "before": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        161.2159,
+        75.0017
+      ],
+      "angle_deg": 45.0,
+      "side": "F"
+    },
+    {
+      "ref": "C34",
+      "old_library_id": "V2:FP_C34",
+      "library_id": "V2:C_0402_1005Metric",
+      "before": {
+        "pitch_mm": 1.09,
+        "pad_size_mm": {
+          "1": [
+            0.79,
+            0.54
+          ],
+          "2": [
+            0.79,
+            0.54
+          ]
+        },
+        "pad_shapes": {
+          "1": 1,
+          "2": 1
+        },
+        "models": [
+          "${KIPRJMOD}/models3d/C0402_1.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        140.39,
+        107.277
+      ],
+      "angle_deg": 180.0,
+      "side": "F"
+    },
+    {
+      "ref": "C24",
+      "old_library_id": "V2:FP_C24",
+      "library_id": "V2:C_0402_1005Metric",
+      "before": {
+        "pitch_mm": 1.09,
+        "pad_size_mm": {
+          "1": [
+            0.79,
+            0.54
+          ],
+          "2": [
+            0.79,
+            0.54
+          ]
+        },
+        "pad_shapes": {
+          "1": 1,
+          "2": 1
+        },
+        "models": [
+          "${KIPRJMOD}/models3d/C0402_1.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        143.819,
+        117.739
+      ],
+      "angle_deg": -90.0,
+      "side": "F"
+    },
+    {
+      "ref": "C103",
+      "old_library_id": "V2:FP_C103",
+      "library_id": "V2:C_0402_1005Metric",
+      "before": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        163.115899,
+        80.3285
+      ],
+      "angle_deg": -45.0,
+      "side": "F"
+    },
+    {
+      "ref": "C120",
+      "old_library_id": "V2:FP_C120",
+      "library_id": "V2:C_0402_1005Metric",
+      "before": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        153.4426,
+        84.1549
+      ],
+      "angle_deg": 180.0,
+      "side": "F"
+    },
+    {
+      "ref": "C107",
+      "old_library_id": "V2:FP_C107",
+      "library_id": "V2:C_0402_1005Metric",
+      "before": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        164.283,
+        76.822099
+      ],
+      "angle_deg": -45.0,
+      "side": "F"
+    },
+    {
+      "ref": "R9",
+      "old_library_id": "V2:FP_R9",
+      "library_id": "V2:R_0402_1005Metric",
+      "before": {
+        "pitch_mm": 0.866,
+        "pad_size_mm": {
+          "1": [
+            0.5655,
+            0.54
+          ],
+          "2": [
+            0.5655,
+            0.54
+          ]
+        },
+        "pad_shapes": {
+          "1": 1,
+          "2": 1
+        },
+        "models": [
+          "${KIPRJMOD}/models3d/R0402.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 1.02,
+        "pad_size_mm": {
+          "1": [
+            0.54,
+            0.64
+          ],
+          "2": [
+            0.54,
+            0.64
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        172.1115,
+        128.462
+      ],
+      "angle_deg": 180.0,
+      "side": "F"
+    },
+    {
+      "ref": "R102",
+      "old_library_id": "V2:FP_R102",
+      "library_id": "V2:R_0402_1005Metric",
+      "before": {
+        "pitch_mm": 1.02,
+        "pad_size_mm": {
+          "1": [
+            0.54,
+            0.64
+          ],
+          "2": [
+            0.54,
+            0.64
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 1.02,
+        "pad_size_mm": {
+          "1": [
+            0.54,
+            0.64
+          ],
+          "2": [
+            0.54,
+            0.64
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        153.6435,
+        90.0442
+      ],
+      "angle_deg": 180.0,
+      "side": "F"
+    },
+    {
+      "ref": "C51",
+      "old_library_id": "V2:FP_C51",
+      "library_id": "V2:C_0402_1005Metric",
+      "before": {
+        "pitch_mm": 0.84,
+        "pad_size_mm": {
+          "1": [
+            0.5,
+            0.54
+          ],
+          "2": [
+            0.5,
+            0.54
+          ]
+        },
+        "pad_shapes": {
+          "1": 1,
+          "2": 1
+        },
+        "models": [
+          "${KIPRJMOD}/models3d/C0402.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        156.268,
+        126.847
+      ],
+      "angle_deg": 0.0,
+      "side": "F"
+    },
+    {
+      "ref": "C47",
+      "old_library_id": "V2:FP_C47",
+      "library_id": "V2:C_0402_1005Metric",
+      "before": {
+        "pitch_mm": 0.84,
+        "pad_size_mm": {
+          "1": [
+            0.5,
+            0.54
+          ],
+          "2": [
+            0.5,
+            0.54
+          ]
+        },
+        "pad_shapes": {
+          "1": 1,
+          "2": 1
+        },
+        "models": [
+          "${KIPRJMOD}/models3d/C0402.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        136.58,
+        97.216
+      ],
+      "angle_deg": -90.0,
+      "side": "F"
+    },
+    {
+      "ref": "C125",
+      "old_library_id": "V2:FP_C125",
+      "library_id": "V2:C_0402_1005Metric",
+      "before": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        164.3832,
+        87.1399
+      ],
+      "angle_deg": -45.0,
+      "side": "F"
+    },
+    {
+      "ref": "R17",
+      "old_library_id": "V2:FP_R17",
+      "library_id": "V2:R_0402_1005Metric",
+      "before": {
+        "pitch_mm": 0.866,
+        "pad_size_mm": {
+          "1": [
+            0.5655,
+            0.54
+          ],
+          "2": [
+            0.5655,
+            0.54
+          ]
+        },
+        "pad_shapes": {
+          "1": 1,
+          "2": 1
+        },
+        "models": [
+          "${KIPRJMOD}/models3d/R0402_2.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 1.02,
+        "pad_size_mm": {
+          "1": [
+            0.54,
+            0.64
+          ],
+          "2": [
+            0.54,
+            0.64
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        143.946,
+        107.023
+      ],
+      "angle_deg": 90.0,
+      "side": "F"
+    },
+    {
+      "ref": "R103",
+      "old_library_id": "V2:FP_R103",
+      "library_id": "V2:R_0402_1005Metric",
+      "before": {
+        "pitch_mm": 1.02,
+        "pad_size_mm": {
+          "1": [
+            0.54,
+            0.64
+          ],
+          "2": [
+            0.54,
+            0.64
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 1.02,
+        "pad_size_mm": {
+          "1": [
+            0.54,
+            0.64
+          ],
+          "2": [
+            0.54,
+            0.64
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        154.1558,
+        91.5981
+      ],
+      "angle_deg": -90.0,
+      "side": "F"
+    },
+    {
+      "ref": "R31",
+      "old_library_id": "V2:FP_R31",
+      "library_id": "V2:R_0402_1005Metric",
+      "before": {
+        "pitch_mm": 0.866,
+        "pad_size_mm": {
+          "1": [
+            0.5655,
+            0.54
+          ],
+          "2": [
+            0.5655,
+            0.54
+          ]
+        },
+        "pad_shapes": {
+          "1": 1,
+          "2": 1
+        },
+        "models": [
+          "${KIPRJMOD}/models3d/R0402.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 1.02,
+        "pad_size_mm": {
+          "1": [
+            0.54,
+            0.64
+          ],
+          "2": [
+            0.54,
+            0.64
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        171.378,
+        138.059
+      ],
+      "angle_deg": -90.0,
+      "side": "F"
+    },
+    {
+      "ref": "C11",
+      "old_library_id": "V2:FP_C11",
+      "library_id": "V2:C_0402_1005Metric",
+      "before": {
+        "pitch_mm": 0.84,
+        "pad_size_mm": {
+          "1": [
+            0.5,
+            0.54
+          ],
+          "2": [
+            0.5,
+            0.54
+          ]
+        },
+        "pad_shapes": {
+          "1": 1,
+          "2": 1
+        },
+        "models": [
+          "${KIPRJMOD}/models3d/C0402.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        160.868,
+        126.197
+      ],
+      "angle_deg": 0.0,
+      "side": "F"
+    },
+    {
+      "ref": "C110",
+      "old_library_id": "V2:FP_C110",
+      "library_id": "V2:C_0402_1005Metric",
+      "before": {
+        "pitch_mm": 0.858,
+        "pad_size_mm": {
+          "1": [
+            0.508,
+            0.508
+          ],
+          "2": [
+            0.508,
+            0.508
+          ]
+        },
+        "pad_shapes": {
+          "1": 1,
+          "2": 1
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        155.499204,
+        74.704597
+      ],
+      "angle_deg": -135.0,
+      "side": "F"
+    },
+    {
+      "ref": "R18",
+      "old_library_id": "V2:FP_R18",
+      "library_id": "V2:R_0402_1005Metric",
+      "before": {
+        "pitch_mm": 0.866,
+        "pad_size_mm": {
+          "1": [
+            0.5655,
+            0.54
+          ],
+          "2": [
+            0.5655,
+            0.54
+          ]
+        },
+        "pad_shapes": {
+          "1": 1,
+          "2": 1
+        },
+        "models": [
+          "${KIPRJMOD}/models3d/R0402_1.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 1.02,
+        "pad_size_mm": {
+          "1": [
+            0.54,
+            0.64
+          ],
+          "2": [
+            0.54,
+            0.64
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        140.517,
+        108.674
+      ],
+      "angle_deg": 180.0,
+      "side": "F"
+    },
+    {
+      "ref": "R14",
+      "old_library_id": "V2:FP_R14",
+      "library_id": "V2:R_0402_1005Metric",
+      "before": {
+        "pitch_mm": 0.866,
+        "pad_size_mm": {
+          "1": [
+            0.5655,
+            0.54
+          ],
+          "2": [
+            0.5655,
+            0.54
+          ]
+        },
+        "pad_shapes": {
+          "1": 1,
+          "2": 1
+        },
+        "models": [
+          "${KIPRJMOD}/models3d/R0402.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 1.02,
+        "pad_size_mm": {
+          "1": [
+            0.54,
+            0.64
+          ],
+          "2": [
+            0.54,
+            0.64
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        172.1115,
+        125.922
+      ],
+      "angle_deg": 180.0,
+      "side": "F"
+    },
+    {
+      "ref": "C17",
+      "old_library_id": "V2:FP_C17",
+      "library_id": "V2:C_0402_1005Metric",
+      "before": {
+        "pitch_mm": 1.09,
+        "pad_size_mm": {
+          "1": [
+            0.79,
+            0.54
+          ],
+          "2": [
+            0.79,
+            0.54
+          ]
+        },
+        "pad_shapes": {
+          "1": 1,
+          "2": 1
+        },
+        "models": [
+          "${KIPRJMOD}/models3d/C0402_1.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        132.008,
+        119.898
+      ],
+      "angle_deg": -90.0,
+      "side": "F"
+    },
+    {
+      "ref": "R13",
+      "old_library_id": "V2:FP_R13",
+      "library_id": "V2:R_0402_1005Metric",
+      "before": {
+        "pitch_mm": 0.866,
+        "pad_size_mm": {
+          "1": [
+            0.5655,
+            0.54
+          ],
+          "2": [
+            0.5655,
+            0.54
+          ]
+        },
+        "pad_shapes": {
+          "1": 1,
+          "2": 1
+        },
+        "models": [
+          "${KIPRJMOD}/models3d/R0402.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 1.02,
+        "pad_size_mm": {
+          "1": [
+            0.54,
+            0.64
+          ],
+          "2": [
+            0.54,
+            0.64
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        172.1115,
+        127.291999
+      ],
+      "angle_deg": 180.0,
+      "side": "F"
+    },
+    {
+      "ref": "C122",
+      "old_library_id": "V2:FP_C122",
+      "library_id": "V2:C_0402_1005Metric",
+      "before": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        153.4218,
+        86.7938
+      ],
+      "angle_deg": 180.0,
+      "side": "F"
+    },
+    {
+      "ref": "R3",
+      "old_library_id": "V2:FP_R3",
+      "library_id": "V2:R_0402_1005Metric",
+      "before": {
+        "pitch_mm": 0.866,
+        "pad_size_mm": {
+          "1": [
+            0.5655,
+            0.54
+          ],
+          "2": [
+            0.5655,
+            0.54
+          ]
+        },
+        "pad_shapes": {
+          "1": 1,
+          "2": 1
+        },
+        "models": [
+          "${KIPRJMOD}/models3d/R0402.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 1.02,
+        "pad_size_mm": {
+          "1": [
+            0.54,
+            0.64
+          ],
+          "2": [
+            0.54,
+            0.64
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        170.1815,
+        117.918
+      ],
+      "angle_deg": 90.0,
+      "side": "F"
+    },
+    {
+      "ref": "C105",
+      "old_library_id": "V2:FP_C105",
+      "library_id": "V2:C_0402_1005Metric",
+      "before": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        164.1864,
+        84.2658
+      ],
+      "angle_deg": 0.0,
+      "side": "F"
+    },
+    {
+      "ref": "R110",
+      "old_library_id": "V2:FP_R110",
+      "library_id": "V2:R_0402_1005Metric",
+      "before": {
+        "pitch_mm": 1.02,
+        "pad_size_mm": {
+          "1": [
+            0.54,
+            0.64
+          ],
+          "2": [
+            0.54,
+            0.64
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 1.02,
+        "pad_size_mm": {
+          "1": [
+            0.54,
+            0.64
+          ],
+          "2": [
+            0.54,
+            0.64
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        158.6891,
+        92.137599
+      ],
+      "angle_deg": -90.0,
+      "side": "F"
+    },
+    {
+      "ref": "C21",
+      "old_library_id": "V2:FP_C21",
+      "library_id": "V2:C_0402_1005Metric",
+      "before": {
+        "pitch_mm": 1.09,
+        "pad_size_mm": {
+          "1": [
+            0.79,
+            0.54
+          ],
+          "2": [
+            0.79,
+            0.54
+          ]
+        },
+        "pad_shapes": {
+          "1": 1,
+          "2": 1
+        },
+        "models": [
+          "${KIPRJMOD}/models3d/C0402_1.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        144.454,
+        119.771
+      ],
+      "angle_deg": 0.0,
+      "side": "F"
+    },
+    {
+      "ref": "R12",
+      "old_library_id": "V2:FP_R12",
+      "library_id": "V2:R_0402_1005Metric",
+      "before": {
+        "pitch_mm": 0.866,
+        "pad_size_mm": {
+          "1": [
+            0.5655,
+            0.54
+          ],
+          "2": [
+            0.5655,
+            0.54
+          ]
+        },
+        "pad_shapes": {
+          "1": 1,
+          "2": 1
+        },
+        "models": [
+          "${KIPRJMOD}/models3d/R0402.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 1.02,
+        "pad_size_mm": {
+          "1": [
+            0.54,
+            0.64
+          ],
+          "2": [
+            0.54,
+            0.64
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        172.1115,
+        131.002
+      ],
+      "angle_deg": 180.0,
+      "side": "F"
+    },
+    {
+      "ref": "C118",
+      "old_library_id": "V2:FP_C118",
+      "library_id": "V2:C_0402_1005Metric",
+      "before": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        161.368,
+        77.247
+      ],
+      "angle_deg": 90.0,
+      "side": "F"
+    },
+    {
+      "ref": "C19",
+      "old_library_id": "V2:FP_C19",
+      "library_id": "V2:C_0402_1005Metric",
+      "before": {
+        "pitch_mm": 1.09,
+        "pad_size_mm": {
+          "1": [
+            0.79,
+            0.54
+          ],
+          "2": [
+            0.79,
+            0.54
+          ]
+        },
+        "pad_shapes": {
+          "1": 1,
+          "2": 1
+        },
+        "models": [
+          "${KIPRJMOD}/models3d/C0402_1.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        133.786,
+        119.898
+      ],
+      "angle_deg": -90.0,
+      "side": "F"
+    },
+    {
+      "ref": "C22",
+      "old_library_id": "V2:FP_C22",
+      "library_id": "V2:C_0402_1005Metric",
+      "before": {
+        "pitch_mm": 1.09,
+        "pad_size_mm": {
+          "1": [
+            0.79,
+            0.54
+          ],
+          "2": [
+            0.79,
+            0.54
+          ]
+        },
+        "pad_shapes": {
+          "1": 1,
+          "2": 1
+        },
+        "models": [
+          "${KIPRJMOD}/models3d/C0402_1.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        140.898,
+        120.66
+      ],
+      "angle_deg": -90.0,
+      "side": "F"
+    },
+    {
+      "ref": "C27",
+      "old_library_id": "V2:FP_C27",
+      "library_id": "V2:C_0402_1005Metric",
+      "before": {
+        "pitch_mm": 1.09,
+        "pad_size_mm": {
+          "1": [
+            0.79,
+            0.54
+          ],
+          "2": [
+            0.79,
+            0.54
+          ]
+        },
+        "pad_shapes": {
+          "1": 1,
+          "2": 1
+        },
+        "models": [
+          "${KIPRJMOD}/models3d/C0402_1.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        144.327,
+        112.659
+      ],
+      "angle_deg": 0.0,
+      "side": "F"
+    },
+    {
+      "ref": "C101",
+      "old_library_id": "V2:FP_C101",
+      "library_id": "V2:C_0402_1005Metric",
+      "before": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        165.9701,
+        79.8698
+      ],
+      "angle_deg": 0.0,
+      "side": "F"
+    },
+    {
+      "ref": "C123",
+      "old_library_id": "V2:FP_C123",
+      "library_id": "V2:C_0402_1005Metric",
+      "before": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        156.0605,
+        89.9981
+      ],
+      "angle_deg": -90.0,
+      "side": "F"
+    },
+    {
+      "ref": "C104",
+      "old_library_id": "V2:FP_C104",
+      "library_id": "V2:C_0402_1005Metric",
+      "before": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        163.0048,
+        77.9353
+      ],
+      "angle_deg": 180.0,
+      "side": "F"
+    },
+    {
+      "ref": "C35",
+      "old_library_id": "V2:FP_C35",
+      "library_id": "V2:C_0402_1005Metric",
+      "before": {
+        "pitch_mm": 1.09,
+        "pad_size_mm": {
+          "1": [
+            0.79,
+            0.54
+          ],
+          "2": [
+            0.79,
+            0.54
+          ]
+        },
+        "pad_shapes": {
+          "1": 1,
+          "2": 1
+        },
+        "models": [
+          "${KIPRJMOD}/models3d/C0402_1.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        151.058,
+        109.055
+      ],
+      "angle_deg": 180.0,
+      "side": "F"
+    },
+    {
+      "ref": "C114",
+      "old_library_id": "V2:FP_C114",
+      "library_id": "V2:C_0402_1005Metric",
+      "before": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        151.4744,
+        90.4745
+      ],
+      "angle_deg": -90.0,
+      "side": "F"
+    },
+    {
+      "ref": "C31",
+      "old_library_id": "V2:FP_C31",
+      "library_id": "V2:C_0402_1005Metric",
+      "before": {
+        "pitch_mm": 1.09,
+        "pad_size_mm": {
+          "1": [
+            0.79,
+            0.54
+          ],
+          "2": [
+            0.79,
+            0.54
+          ]
+        },
+        "pad_shapes": {
+          "1": 1,
+          "2": 1
+        },
+        "models": [
+          "${KIPRJMOD}/models3d/C0402_1.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        146.668,
+        121.147
+      ],
+      "angle_deg": -90.0,
+      "side": "F"
+    },
+    {
+      "ref": "C25",
+      "old_library_id": "V2:FP_C25",
+      "library_id": "V2:C_0402_1005Metric",
+      "before": {
+        "pitch_mm": 1.09,
+        "pad_size_mm": {
+          "1": [
+            0.79,
+            0.54
+          ],
+          "2": [
+            0.79,
+            0.54
+          ]
+        },
+        "pad_shapes": {
+          "1": 1,
+          "2": 1
+        },
+        "models": [
+          "${KIPRJMOD}/models3d/C0402_1.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        144.454,
+        121.422
+      ],
+      "angle_deg": 0.0,
+      "side": "F"
+    },
+    {
+      "ref": "R21",
+      "old_library_id": "V2:FP_R21",
+      "library_id": "V2:R_0402_1005Metric",
+      "before": {
+        "pitch_mm": 0.866,
+        "pad_size_mm": {
+          "1": [
+            0.5655,
+            0.54
+          ],
+          "2": [
+            0.5655,
+            0.54
+          ]
+        },
+        "pad_shapes": {
+          "1": 1,
+          "2": 1
+        },
+        "models": [
+          "${KIPRJMOD}/models3d/R0402.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 1.02,
+        "pad_size_mm": {
+          "1": [
+            0.54,
+            0.64
+          ],
+          "2": [
+            0.54,
+            0.64
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        154.741,
+        128.407
+      ],
+      "angle_deg": -90.0,
+      "side": "F"
+    },
+    {
+      "ref": "C23",
+      "old_library_id": "V2:FP_C23",
+      "library_id": "V2:C_0402_1005Metric",
+      "before": {
+        "pitch_mm": 1.09,
+        "pad_size_mm": {
+          "1": [
+            0.79,
+            0.54
+          ],
+          "2": [
+            0.79,
+            0.54
+          ]
+        },
+        "pad_shapes": {
+          "1": 1,
+          "2": 1
+        },
+        "models": [
+          "${KIPRJMOD}/models3d/C0402_1.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        145.089,
+        117.739
+      ],
+      "angle_deg": 90.0,
+      "side": "F"
+    },
+    {
+      "ref": "R5",
+      "old_library_id": "V2:FP_R5",
+      "library_id": "V2:R_0402_1005Metric",
+      "before": {
+        "pitch_mm": 0.866,
+        "pad_size_mm": {
+          "1": [
+            0.5655,
+            0.54
+          ],
+          "2": [
+            0.5655,
+            0.54
+          ]
+        },
+        "pad_shapes": {
+          "1": 1,
+          "2": 1
+        },
+        "models": [
+          "${KIPRJMOD}/models3d/R0402.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 1.02,
+        "pad_size_mm": {
+          "1": [
+            0.54,
+            0.64
+          ],
+          "2": [
+            0.54,
+            0.64
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        167.441,
+        113.802
+      ],
+      "angle_deg": 0.0,
+      "side": "F"
+    },
+    {
+      "ref": "C106",
+      "old_library_id": "V2:FP_C106",
+      "library_id": "V2:C_0402_1005Metric",
+      "before": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        165.1352,
+        78.6402
+      ],
+      "angle_deg": 0.0,
+      "side": "F"
+    },
+    {
+      "ref": "R107",
+      "old_library_id": "V2:FP_R107",
+      "library_id": "V2:R_0402_1005Metric",
+      "before": {
+        "pitch_mm": 1.02,
+        "pad_size_mm": {
+          "1": [
+            0.54,
+            0.64
+          ],
+          "2": [
+            0.54,
+            0.64
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 1.02,
+        "pad_size_mm": {
+          "1": [
+            0.54,
+            0.64
+          ],
+          "2": [
+            0.54,
+            0.64
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        153.0518,
+        91.6168
+      ],
+      "angle_deg": -90.0,
+      "side": "F"
+    },
+    {
+      "ref": "C48",
+      "old_library_id": "V2:FP_C48",
+      "library_id": "V2:C_0402_1005Metric",
+      "before": {
+        "pitch_mm": 0.84,
+        "pad_size_mm": {
+          "1": [
+            0.5,
+            0.54
+          ],
+          "2": [
+            0.5,
+            0.54
+          ]
+        },
+        "pad_shapes": {
+          "1": 1,
+          "2": 1
+        },
+        "models": [
+          "${KIPRJMOD}/models3d/C0402.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        135.2845,
+        93.7105
+      ],
+      "angle_deg": 0.0,
+      "side": "F"
+    },
+    {
+      "ref": "C32",
+      "old_library_id": "V2:FP_C32",
+      "library_id": "V2:C_0402_1005Metric",
+      "before": {
+        "pitch_mm": 1.09,
+        "pad_size_mm": {
+          "1": [
+            0.79,
+            0.54
+          ],
+          "2": [
+            0.79,
+            0.54
+          ]
+        },
+        "pad_shapes": {
+          "1": 1,
+          "2": 1
+        },
+        "models": [
+          "${KIPRJMOD}/models3d/C0402_1.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        133.075,
+        107.1725
+      ],
+      "angle_deg": 180.0,
+      "side": "F"
+    },
+    {
+      "ref": "C26",
+      "old_library_id": "V2:FP_C26",
+      "library_id": "V2:C_0402_1005Metric",
+      "before": {
+        "pitch_mm": 1.09,
+        "pad_size_mm": {
+          "1": [
+            0.79,
+            0.54
+          ],
+          "2": [
+            0.79,
+            0.54
+          ]
+        },
+        "pad_shapes": {
+          "1": 1,
+          "2": 1
+        },
+        "models": [
+          "${KIPRJMOD}/models3d/C0402_1.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        143.819,
+        114.7165
+      ],
+      "angle_deg": 90.0,
+      "side": "F"
+    },
+    {
+      "ref": "L105",
+      "old_library_id": "V2:FP_L105",
+      "library_id": "V2:R_0402_1005Metric",
+      "before": {
+        "pitch_mm": 1.02,
+        "pad_size_mm": {
+          "1": [
+            0.54,
+            0.64
+          ],
+          "2": [
+            0.54,
+            0.64
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 1.02,
+        "pad_size_mm": {
+          "1": [
+            0.54,
+            0.64
+          ],
+          "2": [
+            0.54,
+            0.64
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        161.8331,
+        73.172
+      ],
+      "angle_deg": -45.0,
+      "side": "F"
+    },
+    {
+      "ref": "R105",
+      "old_library_id": "V2:FP_R105",
+      "library_id": "V2:R_0402_1005Metric",
+      "before": {
+        "pitch_mm": 1.02,
+        "pad_size_mm": {
+          "1": [
+            0.54,
+            0.64
+          ],
+          "2": [
+            0.54,
+            0.64
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 1.02,
+        "pad_size_mm": {
+          "1": [
+            0.54,
+            0.64
+          ],
+          "2": [
+            0.54,
+            0.64
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        157.228,
+        89.9981
+      ],
+      "angle_deg": -90.0,
+      "side": "F"
+    },
+    {
+      "ref": "R109",
+      "old_library_id": "V2:FP_R109",
+      "library_id": "V2:R_0402_1005Metric",
+      "before": {
+        "pitch_mm": 1.02,
+        "pad_size_mm": {
+          "1": [
+            0.54,
+            0.64
+          ],
+          "2": [
+            0.54,
+            0.64
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 1.02,
+        "pad_size_mm": {
+          "1": [
+            0.54,
+            0.64
+          ],
+          "2": [
+            0.54,
+            0.64
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        156.7166,
+        92.1831
+      ],
+      "angle_deg": -90.0,
+      "side": "F"
+    },
+    {
+      "ref": "R106",
+      "old_library_id": "V2:FP_R106",
+      "library_id": "V2:R_0402_1005Metric",
+      "before": {
+        "pitch_mm": 1.02,
+        "pad_size_mm": {
+          "1": [
+            0.54,
+            0.64
+          ],
+          "2": [
+            0.54,
+            0.64
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 1.02,
+        "pad_size_mm": {
+          "1": [
+            0.54,
+            0.64
+          ],
+          "2": [
+            0.54,
+            0.64
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        164.8615,
+        85.8813
+      ],
+      "angle_deg": -45.0,
+      "side": "F"
+    },
+    {
+      "ref": "R4",
+      "old_library_id": "V2:FP_R4",
+      "library_id": "V2:R_0402_1005Metric",
+      "before": {
+        "pitch_mm": 0.866,
+        "pad_size_mm": {
+          "1": [
+            0.5655,
+            0.54
+          ],
+          "2": [
+            0.5655,
+            0.54
+          ]
+        },
+        "pad_shapes": {
+          "1": 1,
+          "2": 1
+        },
+        "models": [
+          "${KIPRJMOD}/models3d/R0402.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 1.02,
+        "pad_size_mm": {
+          "1": [
+            0.54,
+            0.64
+          ],
+          "2": [
+            0.54,
+            0.64
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        170.1815,
+        115.5555
+      ],
+      "angle_deg": 90.0,
+      "side": "F"
+    },
+    {
+      "ref": "C117",
+      "old_library_id": "V2:FP_C117",
+      "library_id": "V2:C_0402_1005Metric",
+      "before": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        157.767999,
+        77.647
+      ],
+      "angle_deg": 0.0,
+      "side": "F"
+    },
+    {
+      "ref": "R32",
+      "old_library_id": "V2:FP_R32",
+      "library_id": "V2:R_0402_1005Metric",
+      "before": {
+        "pitch_mm": 0.866,
+        "pad_size_mm": {
+          "1": [
+            0.5655,
+            0.54
+          ],
+          "2": [
+            0.5655,
+            0.54
+          ]
+        },
+        "pad_shapes": {
+          "1": 1,
+          "2": 1
+        },
+        "models": [
+          "${KIPRJMOD}/models3d/R0402.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 1.02,
+        "pad_size_mm": {
+          "1": [
+            0.54,
+            0.64
+          ],
+          "2": [
+            0.54,
+            0.64
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        169.854,
+        138.059
+      ],
+      "angle_deg": -90.0,
+      "side": "F"
+    },
+    {
+      "ref": "R11",
+      "old_library_id": "V2:FP_R11",
+      "library_id": "V2:R_0402_1005Metric",
+      "before": {
+        "pitch_mm": 0.866,
+        "pad_size_mm": {
+          "1": [
+            0.5655,
+            0.54
+          ],
+          "2": [
+            0.5655,
+            0.54
+          ]
+        },
+        "pad_shapes": {
+          "1": 1,
+          "2": 1
+        },
+        "models": [
+          "${KIPRJMOD}/models3d/R0402.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 1.02,
+        "pad_size_mm": {
+          "1": [
+            0.54,
+            0.64
+          ],
+          "2": [
+            0.54,
+            0.64
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        172.1115,
+        129.732
+      ],
+      "angle_deg": 180.0,
+      "side": "F"
+    },
+    {
+      "ref": "C38",
+      "old_library_id": "V2:FP_C38",
+      "library_id": "V2:C_0402_1005Metric",
+      "before": {
+        "pitch_mm": 0.84,
+        "pad_size_mm": {
+          "1": [
+            0.5,
+            0.54
+          ],
+          "2": [
+            0.5,
+            0.54
+          ]
+        },
+        "pad_shapes": {
+          "1": 1,
+          "2": 1
+        },
+        "models": [
+          "${KIPRJMOD}/models3d/C0402.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        152.368,
+        119.747
+      ],
+      "angle_deg": 90.0,
+      "side": "F"
+    },
+    {
+      "ref": "C28",
+      "old_library_id": "V2:FP_C28",
+      "library_id": "V2:C_0402_1005Metric",
+      "before": {
+        "pitch_mm": 1.09,
+        "pad_size_mm": {
+          "1": [
+            0.79,
+            0.54
+          ],
+          "2": [
+            0.79,
+            0.54
+          ]
+        },
+        "pad_shapes": {
+          "1": 1,
+          "2": 1
+        },
+        "models": [
+          "${KIPRJMOD}/models3d/C0402_1.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        133.278,
+        114.437
+      ],
+      "angle_deg": 180.0,
+      "side": "F"
+    },
+    {
+      "ref": "C119",
+      "old_library_id": "V2:FP_C119",
+      "library_id": "V2:C_0402_1005Metric",
+      "before": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        158.067999,
+        79.147
+      ],
+      "angle_deg": 90.0,
+      "side": "F"
+    },
+    {
+      "ref": "R104",
+      "old_library_id": "V2:FP_R104",
+      "library_id": "V2:R_0402_1005Metric",
+      "before": {
+        "pitch_mm": 1.02,
+        "pad_size_mm": {
+          "1": [
+            0.54,
+            0.64
+          ],
+          "2": [
+            0.54,
+            0.64
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 1.02,
+        "pad_size_mm": {
+          "1": [
+            0.54,
+            0.64
+          ],
+          "2": [
+            0.54,
+            0.64
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        155.3905,
+        91.9981
+      ],
+      "angle_deg": -90.0,
+      "side": "F"
+    },
+    {
+      "ref": "C121",
+      "old_library_id": "V2:FP_C121",
+      "library_id": "V2:C_0402_1005Metric",
+      "before": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        153.4211,
+        85.642
+      ],
+      "angle_deg": 180.0,
+      "side": "F"
+    },
+    {
+      "ref": "C109",
+      "old_library_id": "V2:FP_C109",
+      "library_id": "V2:C_0402_1005Metric",
+      "before": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        159.8345,
+        73.8679
+      ],
+      "angle_deg": 180.0,
+      "side": "F"
+    },
+    {
+      "ref": "C37",
+      "old_library_id": "V2:FP_C37",
+      "library_id": "V2:C_0402_1005Metric",
+      "before": {
+        "pitch_mm": 0.84,
+        "pad_size_mm": {
+          "1": [
+            0.5,
+            0.54
+          ],
+          "2": [
+            0.5,
+            0.54
+          ]
+        },
+        "pad_shapes": {
+          "1": 1,
+          "2": 1
+        },
+        "models": [
+          "${KIPRJMOD}/models3d/C0402.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        157.568,
+        122.247
+      ],
+      "angle_deg": 90.0,
+      "side": "F"
+    },
+    {
+      "ref": "C13",
+      "old_library_id": "V2:FP_C13",
+      "library_id": "V2:C_0402_1005Metric",
+      "before": {
+        "pitch_mm": 0.84,
+        "pad_size_mm": {
+          "1": [
+            0.5,
+            0.54
+          ],
+          "2": [
+            0.5,
+            0.54
+          ]
+        },
+        "pad_shapes": {
+          "1": 1,
+          "2": 1
+        },
+        "models": [
+          "${KIPRJMOD}/models3d/C0402.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        150.868,
+        92.247
+      ],
+      "angle_deg": 0.0,
+      "side": "F"
+    },
+    {
+      "ref": "C36",
+      "old_library_id": "V2:FP_C36",
+      "library_id": "V2:C_0402_1005Metric",
+      "before": {
+        "pitch_mm": 0.84,
+        "pad_size_mm": {
+          "1": [
+            0.5,
+            0.54
+          ],
+          "2": [
+            0.5,
+            0.54
+          ]
+        },
+        "pad_shapes": {
+          "1": 1,
+          "2": 1
+        },
+        "models": [
+          "${KIPRJMOD}/models3d/C0402.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        149.788,
+        132.217
+      ],
+      "angle_deg": -90.0,
+      "side": "F"
+    },
+    {
+      "ref": "C124",
+      "old_library_id": "V2:FP_C124",
+      "library_id": "V2:C_0402_1005Metric",
+      "before": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        160.2589,
+        89.9772
+      ],
+      "angle_deg": -90.0,
+      "side": "F"
+    },
+    {
+      "ref": "C113",
+      "old_library_id": "V2:FP_C113",
+      "library_id": "V2:C_0402_1005Metric",
+      "before": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        153.6991,
+        88.9078
+      ],
+      "angle_deg": 180.0,
+      "side": "F"
+    },
+    {
+      "ref": "R37",
+      "old_library_id": "V2:FP_R37",
+      "library_id": "V2:R_0402_1005Metric",
+      "before": {
+        "pitch_mm": 0.866,
+        "pad_size_mm": {
+          "1": [
+            0.5655,
+            0.54
+          ],
+          "2": [
+            0.5655,
+            0.54
+          ]
+        },
+        "pad_shapes": {
+          "1": 1,
+          "2": 1
+        },
+        "models": [
+          "${KIPRJMOD}/models3d/R0402.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 1.02,
+        "pad_size_mm": {
+          "1": [
+            0.54,
+            0.64
+          ],
+          "2": [
+            0.54,
+            0.64
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        140.39,
+        83.957
+      ],
+      "angle_deg": 0.0,
+      "side": "B"
+    },
+    {
+      "ref": "R38",
+      "old_library_id": "V2:FP_R38",
+      "library_id": "V2:R_0402_1005Metric",
+      "before": {
+        "pitch_mm": 0.866,
+        "pad_size_mm": {
+          "1": [
+            0.5655,
+            0.54
+          ],
+          "2": [
+            0.5655,
+            0.54
+          ]
+        },
+        "pad_shapes": {
+          "1": 1,
+          "2": 1
+        },
+        "models": [
+          "${KIPRJMOD}/models3d/R0402.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 1.02,
+        "pad_size_mm": {
+          "1": [
+            0.54,
+            0.64
+          ],
+          "2": [
+            0.54,
+            0.64
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        140.39,
+        78.242
+      ],
+      "angle_deg": 0.0,
+      "side": "B"
+    },
+    {
+      "ref": "C6",
+      "old_library_id": "V2:FP_C6",
+      "library_id": "V2:C_0402_1005Metric",
+      "before": {
+        "pitch_mm": 0.84,
+        "pad_size_mm": {
+          "1": [
+            0.5,
+            0.54
+          ],
+          "2": [
+            0.5,
+            0.54
+          ]
+        },
+        "pad_shapes": {
+          "1": 1,
+          "2": 1
+        },
+        "models": [
+          "${KIPRJMOD}/models3d/C0402.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        158.4445,
+        115.3015
+      ],
+      "angle_deg": 180.0,
+      "side": "B"
+    },
+    {
+      "ref": "C49",
+      "old_library_id": "V2:FP_C49",
+      "library_id": "V2:C_0402_1005Metric",
+      "before": {
+        "pitch_mm": 0.84,
+        "pad_size_mm": {
+          "1": [
+            0.5,
+            0.54
+          ],
+          "2": [
+            0.5,
+            0.54
+          ]
+        },
+        "pad_shapes": {
+          "1": 1,
+          "2": 1
+        },
+        "models": [
+          "${KIPRJMOD}/models3d/C0402.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        140.771,
+        80.985
+      ],
+      "angle_deg": -90.0,
+      "side": "B"
+    },
+    {
+      "ref": "R6",
+      "old_library_id": "V2:FP_R6",
+      "library_id": "V2:R_0402_1005Metric",
+      "before": {
+        "pitch_mm": 0.866,
+        "pad_size_mm": {
+          "1": [
+            0.5655,
+            0.54
+          ],
+          "2": [
+            0.5655,
+            0.54
+          ]
+        },
+        "pad_shapes": {
+          "1": 1,
+          "2": 1
+        },
+        "models": [
+          "${KIPRJMOD}/models3d/R0402.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 1.02,
+        "pad_size_mm": {
+          "1": [
+            0.54,
+            0.64
+          ],
+          "2": [
+            0.54,
+            0.64
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        164.868,
+        105.647
+      ],
+      "angle_deg": -90.0,
+      "side": "B"
+    },
+    {
+      "ref": "C54",
+      "old_library_id": "V2:FP_C54",
+      "library_id": "V2:C_0402_1005Metric",
+      "before": {
+        "pitch_mm": 0.84,
+        "pad_size_mm": {
+          "1": [
+            0.5,
+            0.54
+          ],
+          "2": [
+            0.5,
+            0.54
+          ]
+        },
+        "pad_shapes": {
+          "1": 1,
+          "2": 1
+        },
+        "models": [
+          "${KIPRJMOD}/models3d/C0402.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        160.218,
+        112.797
+      ],
+      "angle_deg": -90.0,
+      "side": "B"
+    },
+    {
+      "ref": "C4",
+      "old_library_id": "V2:FP_C4",
+      "library_id": "V2:C_0402_1005Metric",
+      "before": {
+        "pitch_mm": 1.09,
+        "pad_size_mm": {
+          "1": [
+            0.79,
+            0.54
+          ],
+          "2": [
+            0.79,
+            0.54
+          ]
+        },
+        "pad_shapes": {
+          "1": 1,
+          "2": 1
+        },
+        "models": [
+          "${KIPRJMOD}/models3d/C0402_1.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        162.368,
+        129.647
+      ],
+      "angle_deg": 0.0,
+      "side": "B"
+    },
+    {
+      "ref": "R45",
+      "old_library_id": "V2:FP_R45",
+      "library_id": "V2:R_0402_1005Metric",
+      "before": {
+        "pitch_mm": 0.866,
+        "pad_size_mm": {
+          "1": [
+            0.5655,
+            0.54
+          ],
+          "2": [
+            0.5655,
+            0.54
+          ]
+        },
+        "pad_shapes": {
+          "1": 1,
+          "2": 1
+        },
+        "models": [
+          "${KIPRJMOD}/models3d/R0402.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 1.02,
+        "pad_size_mm": {
+          "1": [
+            0.54,
+            0.64
+          ],
+          "2": [
+            0.54,
+            0.64
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        162.868,
+        101.147
+      ],
+      "angle_deg": -90.0,
+      "side": "B"
+    },
+    {
+      "ref": "C5",
+      "old_library_id": "V2:FP_C5",
+      "library_id": "V2:C_0402_1005Metric",
+      "before": {
+        "pitch_mm": 1.09,
+        "pad_size_mm": {
+          "1": [
+            0.79,
+            0.54
+          ],
+          "2": [
+            0.79,
+            0.54
+          ]
+        },
+        "pad_shapes": {
+          "1": 1,
+          "2": 1
+        },
+        "models": [
+          "${KIPRJMOD}/models3d/C0402_1.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        170.868,
+        127.447
+      ],
+      "angle_deg": -90.0,
+      "side": "B"
+    },
+    {
+      "ref": "C43",
+      "old_library_id": "V2:FP_C43",
+      "library_id": "V2:C_0402_1005Metric",
+      "before": {
+        "pitch_mm": 0.84,
+        "pad_size_mm": {
+          "1": [
+            0.5,
+            0.54
+          ],
+          "2": [
+            0.5,
+            0.54
+          ]
+        },
+        "pad_shapes": {
+          "1": 1,
+          "2": 1
+        },
+        "models": [
+          "${KIPRJMOD}/models3d/C0402.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        166.806,
+        117.802
+      ],
+      "angle_deg": -90.0,
+      "side": "B"
+    },
+    {
+      "ref": "R30",
+      "old_library_id": "V2:FP_R30",
+      "library_id": "V2:R_0402_1005Metric",
+      "before": {
+        "pitch_mm": 0.866,
+        "pad_size_mm": {
+          "1": [
+            0.5655,
+            0.54
+          ],
+          "2": [
+            0.5655,
+            0.54
+          ]
+        },
+        "pad_shapes": {
+          "1": 1,
+          "2": 1
+        },
+        "models": [
+          "${KIPRJMOD}/models3d/R0402.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 1.02,
+        "pad_size_mm": {
+          "1": [
+            0.54,
+            0.64
+          ],
+          "2": [
+            0.54,
+            0.64
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        150.868,
+        101.647
+      ],
+      "angle_deg": 180.0,
+      "side": "B"
+    },
+    {
+      "ref": "R128",
+      "old_library_id": "V2:FP_R128",
+      "library_id": "V2:R_0402_1005Metric",
+      "before": {
+        "pitch_mm": 1.02,
+        "pad_size_mm": {
+          "1": [
+            0.54,
+            0.64
+          ],
+          "2": [
+            0.54,
+            0.64
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 1.02,
+        "pad_size_mm": {
+          "1": [
+            0.54,
+            0.64
+          ],
+          "2": [
+            0.54,
+            0.64
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        164.868,
+        108.647
+      ],
+      "angle_deg": 180.0,
+      "side": "B"
+    },
+    {
+      "ref": "C134",
+      "old_library_id": "V2:FP_C134",
+      "library_id": "V2:C_0402_1005Metric",
+      "before": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        155.868,
+        123.647
+      ],
+      "angle_deg": 180.0,
+      "side": "B"
+    },
+    {
+      "ref": "C136",
+      "old_library_id": "V2:FP_C136",
+      "library_id": "V2:C_0402_1005Metric",
+      "before": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        161.868,
+        99.147
+      ],
+      "angle_deg": 180.0,
+      "side": "B"
+    },
+    {
+      "ref": "R39",
+      "old_library_id": "V2:FP_R39",
+      "library_id": "V2:R_0402_1005Metric",
+      "before": {
+        "pitch_mm": 0.866,
+        "pad_size_mm": {
+          "1": [
+            0.5655,
+            0.54
+          ],
+          "2": [
+            0.5655,
+            0.54
+          ]
+        },
+        "pad_shapes": {
+          "1": 1,
+          "2": 1
+        },
+        "models": [
+          "${KIPRJMOD}/models3d/R0402.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 1.02,
+        "pad_size_mm": {
+          "1": [
+            0.54,
+            0.64
+          ],
+          "2": [
+            0.54,
+            0.64
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        140.39,
+        82.687
+      ],
+      "angle_deg": 0.0,
+      "side": "B"
+    },
+    {
+      "ref": "R120",
+      "old_library_id": "V2:FP_R120",
+      "library_id": "V2:R_0402_1005Metric",
+      "before": {
+        "pitch_mm": 1.02,
+        "pad_size_mm": {
+          "1": [
+            0.54,
+            0.64
+          ],
+          "2": [
+            0.54,
+            0.64
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 1.02,
+        "pad_size_mm": {
+          "1": [
+            0.54,
+            0.64
+          ],
+          "2": [
+            0.54,
+            0.64
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        162.068,
+        90.347
+      ],
+      "angle_deg": 90.0,
+      "side": "B"
+    },
+    {
+      "ref": "R36",
+      "old_library_id": "V2:FP_R36",
+      "library_id": "V2:R_0402_1005Metric",
+      "before": {
+        "pitch_mm": 0.866,
+        "pad_size_mm": {
+          "1": [
+            0.5655,
+            0.54
+          ],
+          "2": [
+            0.5655,
+            0.54
+          ]
+        },
+        "pad_shapes": {
+          "1": 1,
+          "2": 1
+        },
+        "models": [
+          "${KIPRJMOD}/models3d/R0402.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 1.02,
+        "pad_size_mm": {
+          "1": [
+            0.54,
+            0.64
+          ],
+          "2": [
+            0.54,
+            0.64
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        140.39,
+        85.227
+      ],
+      "angle_deg": 0.0,
+      "side": "B"
+    },
+    {
+      "ref": "R26",
+      "old_library_id": "V2:FP_R26",
+      "library_id": "V2:R_0402_1005Metric",
+      "before": {
+        "pitch_mm": 0.866,
+        "pad_size_mm": {
+          "1": [
+            0.5655,
+            0.54
+          ],
+          "2": [
+            0.5655,
+            0.54
+          ]
+        },
+        "pad_shapes": {
+          "1": 1,
+          "2": 1
+        },
+        "models": [
+          "${KIPRJMOD}/models3d/R0402.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 1.02,
+        "pad_size_mm": {
+          "1": [
+            0.54,
+            0.64
+          ],
+          "2": [
+            0.54,
+            0.64
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        148.868,
+        101.647
+      ],
+      "angle_deg": 180.0,
+      "side": "B"
+    },
+    {
+      "ref": "C50",
+      "old_library_id": "V2:FP_C50",
+      "library_id": "V2:C_0402_1005Metric",
+      "before": {
+        "pitch_mm": 0.84,
+        "pad_size_mm": {
+          "1": [
+            0.5,
+            0.54
+          ],
+          "2": [
+            0.5,
+            0.54
+          ]
+        },
+        "pad_shapes": {
+          "1": 1,
+          "2": 1
+        },
+        "models": [
+          "${KIPRJMOD}/models3d/C0402.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        142.0585,
+        80.98
+      ],
+      "angle_deg": -90.0,
+      "side": "B"
+    },
+    {
+      "ref": "R7",
+      "old_library_id": "V2:FP_R7",
+      "library_id": "V2:R_0402_1005Metric",
+      "before": {
+        "pitch_mm": 0.866,
+        "pad_size_mm": {
+          "1": [
+            0.5655,
+            0.54
+          ],
+          "2": [
+            0.5655,
+            0.54
+          ]
+        },
+        "pad_shapes": {
+          "1": 1,
+          "2": 1
+        },
+        "models": [
+          "${KIPRJMOD}/models3d/R0402.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 1.02,
+        "pad_size_mm": {
+          "1": [
+            0.54,
+            0.64
+          ],
+          "2": [
+            0.54,
+            0.64
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        168.368,
+        107.647
+      ],
+      "angle_deg": -90.0,
+      "side": "B"
+    },
+    {
+      "ref": "R42",
+      "old_library_id": "V2:FP_R42",
+      "library_id": "V2:R_0402_1005Metric",
+      "before": {
+        "pitch_mm": 0.866,
+        "pad_size_mm": {
+          "1": [
+            0.5655,
+            0.54
+          ],
+          "2": [
+            0.5655,
+            0.54
+          ]
+        },
+        "pad_shapes": {
+          "1": 1,
+          "2": 1
+        },
+        "models": [
+          "${KIPRJMOD}/models3d/R0402.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 1.02,
+        "pad_size_mm": {
+          "1": [
+            0.54,
+            0.64
+          ],
+          "2": [
+            0.54,
+            0.64
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        162.868,
+        105.647
+      ],
+      "angle_deg": 90.0,
+      "side": "B"
+    },
+    {
+      "ref": "C58",
+      "old_library_id": "V2:FP_C58",
+      "library_id": "V2:C_0402_1005Metric",
+      "before": {
+        "pitch_mm": 1.09,
+        "pad_size_mm": {
+          "1": [
+            0.79,
+            0.54
+          ],
+          "2": [
+            0.79,
+            0.54
+          ]
+        },
+        "pad_shapes": {
+          "1": 1,
+          "2": 1
+        },
+        "models": [
+          "${KIPRJMOD}/models3d/C0402_1.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        168.368,
+        126.747
+      ],
+      "angle_deg": 180.0,
+      "side": "B"
+    },
+    {
+      "ref": "C131",
+      "old_library_id": "V2:FP_C131",
+      "library_id": "V2:C_0402_1005Metric",
+      "before": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        154.868,
+        105.147
+      ],
+      "angle_deg": 90.0,
+      "side": "B"
+    },
+    {
+      "ref": "R43",
+      "old_library_id": "V2:FP_R43",
+      "library_id": "V2:R_0402_1005Metric",
+      "before": {
+        "pitch_mm": 0.866,
+        "pad_size_mm": {
+          "1": [
+            0.5655,
+            0.54
+          ],
+          "2": [
+            0.5655,
+            0.54
+          ]
+        },
+        "pad_shapes": {
+          "1": 1,
+          "2": 1
+        },
+        "models": [
+          "${KIPRJMOD}/models3d/R0402.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 1.02,
+        "pad_size_mm": {
+          "1": [
+            0.54,
+            0.64
+          ],
+          "2": [
+            0.54,
+            0.64
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        166.868,
+        105.647
+      ],
+      "angle_deg": 0.0,
+      "side": "B"
+    },
+    {
+      "ref": "R130",
+      "old_library_id": "V2:FP_R130",
+      "library_id": "V2:R_0402_1005Metric",
+      "before": {
+        "pitch_mm": 1.02,
+        "pad_size_mm": {
+          "1": [
+            0.54,
+            0.64
+          ],
+          "2": [
+            0.54,
+            0.64
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 1.02,
+        "pad_size_mm": {
+          "1": [
+            0.54,
+            0.64
+          ],
+          "2": [
+            0.54,
+            0.64
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        160.868,
+        117.147
+      ],
+      "angle_deg": 180.0,
+      "side": "B"
+    },
+    {
+      "ref": "C132",
+      "old_library_id": "V2:FP_C132",
+      "library_id": "V2:C_0402_1005Metric",
+      "before": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        148.368,
+        107.647
+      ],
+      "angle_deg": 180.0,
+      "side": "B"
+    },
+    {
+      "ref": "C61",
+      "old_library_id": "V2:FP_C61",
+      "library_id": "V2:C_0402_1005Metric",
+      "before": {
+        "pitch_mm": 0.84,
+        "pad_size_mm": {
+          "1": [
+            0.5,
+            0.54
+          ],
+          "2": [
+            0.5,
+            0.54
+          ]
+        },
+        "pad_shapes": {
+          "1": 1,
+          "2": 1
+        },
+        "models": [
+          "${KIPRJMOD}/models3d/C0402.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        165.282,
+        115.211
+      ],
+      "angle_deg": 90.0,
+      "side": "B"
+    },
+    {
+      "ref": "R10",
+      "old_library_id": "V2:FP_R10",
+      "library_id": "V2:R_0402_1005Metric",
+      "before": {
+        "pitch_mm": 0.866,
+        "pad_size_mm": {
+          "1": [
+            0.5655,
+            0.54
+          ],
+          "2": [
+            0.5655,
+            0.54
+          ]
+        },
+        "pad_shapes": {
+          "1": 1,
+          "2": 1
+        },
+        "models": [
+          "${KIPRJMOD}/models3d/R0402.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 1.02,
+        "pad_size_mm": {
+          "1": [
+            0.54,
+            0.64
+          ],
+          "2": [
+            0.54,
+            0.64
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        158.368,
+        103.647
+      ],
+      "angle_deg": -90.0,
+      "side": "B"
+    },
+    {
+      "ref": "R133",
+      "old_library_id": "V2:FP_R133",
+      "library_id": "V2:R_0402_1005Metric",
+      "before": {
+        "pitch_mm": 1.02,
+        "pad_size_mm": {
+          "1": [
+            0.54,
+            0.64
+          ],
+          "2": [
+            0.54,
+            0.64
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 1.02,
+        "pad_size_mm": {
+          "1": [
+            0.54,
+            0.64
+          ],
+          "2": [
+            0.54,
+            0.64
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        164.368,
+        123.647
+      ],
+      "angle_deg": 180.0,
+      "side": "B"
+    },
+    {
+      "ref": "R132",
+      "old_library_id": "V2:FP_R132",
+      "library_id": "V2:R_0402_1005Metric",
+      "before": {
+        "pitch_mm": 1.02,
+        "pad_size_mm": {
+          "1": [
+            0.54,
+            0.64
+          ],
+          "2": [
+            0.54,
+            0.64
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 1.02,
+        "pad_size_mm": {
+          "1": [
+            0.54,
+            0.64
+          ],
+          "2": [
+            0.54,
+            0.64
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        160.368,
+        122.147
+      ],
+      "angle_deg": 180.0,
+      "side": "B"
+    },
+    {
+      "ref": "R25",
+      "old_library_id": "V2:FP_R25",
+      "library_id": "V2:R_0402_1005Metric",
+      "before": {
+        "pitch_mm": 0.866,
+        "pad_size_mm": {
+          "1": [
+            0.5655,
+            0.54
+          ],
+          "2": [
+            0.5655,
+            0.54
+          ]
+        },
+        "pad_shapes": {
+          "1": 1,
+          "2": 1
+        },
+        "models": [
+          "${KIPRJMOD}/models3d/R0402.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 1.02,
+        "pad_size_mm": {
+          "1": [
+            0.54,
+            0.64
+          ],
+          "2": [
+            0.54,
+            0.64
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        164.868,
+        87.647
+      ],
+      "angle_deg": -90.0,
+      "side": "B"
+    },
+    {
+      "ref": "C39",
+      "old_library_id": "V2:FP_C39",
+      "library_id": "V2:C_0402_1005Metric",
+      "before": {
+        "pitch_mm": 0.84,
+        "pad_size_mm": {
+          "1": [
+            0.5,
+            0.54
+          ],
+          "2": [
+            0.5,
+            0.54
+          ]
+        },
+        "pad_shapes": {
+          "1": 1,
+          "2": 1
+        },
+        "models": [
+          "${KIPRJMOD}/models3d/C0402.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        152.368,
+        78.547
+      ],
+      "angle_deg": -90.0,
+      "side": "B"
+    },
+    {
+      "ref": "R126",
+      "old_library_id": "V2:FP_R126",
+      "library_id": "V2:R_0402_1005Metric",
+      "before": {
+        "pitch_mm": 1.02,
+        "pad_size_mm": {
+          "1": [
+            0.54,
+            0.64
+          ],
+          "2": [
+            0.54,
+            0.64
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 1.02,
+        "pad_size_mm": {
+          "1": [
+            0.54,
+            0.64
+          ],
+          "2": [
+            0.54,
+            0.64
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        154.368,
+        79.647
+      ],
+      "angle_deg": 180.0,
+      "side": "B"
+    },
+    {
+      "ref": "C7",
+      "old_library_id": "V2:FP_C7",
+      "library_id": "V2:C_0402_1005Metric",
+      "before": {
+        "pitch_mm": 0.84,
+        "pad_size_mm": {
+          "1": [
+            0.5,
+            0.54
+          ],
+          "2": [
+            0.5,
+            0.54
+          ]
+        },
+        "pad_shapes": {
+          "1": 1,
+          "2": 1
+        },
+        "models": [
+          "${KIPRJMOD}/models3d/C0402.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        161.3655,
+        115.5555
+      ],
+      "angle_deg": 0.0,
+      "side": "B"
+    },
+    {
+      "ref": "R33",
+      "old_library_id": "V2:FP_R33",
+      "library_id": "V2:R_0402_1005Metric",
+      "before": {
+        "pitch_mm": 0.866,
+        "pad_size_mm": {
+          "1": [
+            0.5655,
+            0.54
+          ],
+          "2": [
+            0.5655,
+            0.54
+          ]
+        },
+        "pad_shapes": {
+          "1": 1,
+          "2": 1
+        },
+        "models": [
+          "${KIPRJMOD}/models3d/R0402.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 1.02,
+        "pad_size_mm": {
+          "1": [
+            0.54,
+            0.64
+          ],
+          "2": [
+            0.54,
+            0.64
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        168.584,
+        117.548
+      ],
+      "angle_deg": -90.0,
+      "side": "B"
+    },
+    {
+      "ref": "R46",
+      "old_library_id": "V2:FP_R46",
+      "library_id": "V2:R_0402_1005Metric",
+      "before": {
+        "pitch_mm": 0.866,
+        "pad_size_mm": {
+          "1": [
+            0.5655,
+            0.54
+          ],
+          "2": [
+            0.5655,
+            0.54
+          ]
+        },
+        "pad_shapes": {
+          "1": 1,
+          "2": 1
+        },
+        "models": [
+          "${KIPRJMOD}/models3d/R0402.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 1.02,
+        "pad_size_mm": {
+          "1": [
+            0.54,
+            0.64
+          ],
+          "2": [
+            0.54,
+            0.64
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        164.868,
+        101.147
+      ],
+      "angle_deg": -90.0,
+      "side": "B"
+    },
+    {
+      "ref": "R8",
+      "old_library_id": "V2:FP_R8",
+      "library_id": "V2:R_0402_1005Metric",
+      "before": {
+        "pitch_mm": 0.866,
+        "pad_size_mm": {
+          "1": [
+            0.5655,
+            0.54
+          ],
+          "2": [
+            0.5655,
+            0.54
+          ]
+        },
+        "pad_shapes": {
+          "1": 1,
+          "2": 1
+        },
+        "models": [
+          "${KIPRJMOD}/models3d/R0402.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 1.02,
+        "pad_size_mm": {
+          "1": [
+            0.54,
+            0.64
+          ],
+          "2": [
+            0.54,
+            0.64
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        169.868,
+        107.647
+      ],
+      "angle_deg": -90.0,
+      "side": "B"
+    },
+    {
+      "ref": "R34",
+      "old_library_id": "V2:FP_R34",
+      "library_id": "V2:R_0402_1005Metric",
+      "before": {
+        "pitch_mm": 0.866,
+        "pad_size_mm": {
+          "1": [
+            0.5655,
+            0.54
+          ],
+          "2": [
+            0.5655,
+            0.54
+          ]
+        },
+        "pad_shapes": {
+          "1": 1,
+          "2": 1
+        },
+        "models": [
+          "${KIPRJMOD}/models3d/R0402.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 1.02,
+        "pad_size_mm": {
+          "1": [
+            0.54,
+            0.64
+          ],
+          "2": [
+            0.54,
+            0.64
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        169.981,
+        117.548
+      ],
+      "angle_deg": -90.0,
+      "side": "B"
+    },
+    {
+      "ref": "C130",
+      "old_library_id": "V2:FP_C130",
+      "library_id": "V2:C_0402_1005Metric",
+      "before": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        148.868,
+        105.647
+      ],
+      "angle_deg": 90.0,
+      "side": "B"
+    },
+    {
+      "ref": "R123",
+      "old_library_id": "V2:FP_R123",
+      "library_id": "V2:R_0402_1005Metric",
+      "before": {
+        "pitch_mm": 1.02,
+        "pad_size_mm": {
+          "1": [
+            0.54,
+            0.64
+          ],
+          "2": [
+            0.54,
+            0.64
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 1.02,
+        "pad_size_mm": {
+          "1": [
+            0.54,
+            0.64
+          ],
+          "2": [
+            0.54,
+            0.64
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        164.868,
+        99.147
+      ],
+      "angle_deg": 180.0,
+      "side": "B"
+    },
+    {
+      "ref": "C135",
+      "old_library_id": "V2:FP_C135",
+      "library_id": "V2:C_0402_1005Metric",
+      "before": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        159.868,
+        123.647
+      ],
+      "angle_deg": 180.0,
+      "side": "B"
+    },
+    {
+      "ref": "R127",
+      "old_library_id": "V2:FP_R127",
+      "library_id": "V2:R_0402_1005Metric",
+      "before": {
+        "pitch_mm": 1.02,
+        "pad_size_mm": {
+          "1": [
+            0.54,
+            0.64
+          ],
+          "2": [
+            0.54,
+            0.64
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 1.02,
+        "pad_size_mm": {
+          "1": [
+            0.54,
+            0.64
+          ],
+          "2": [
+            0.54,
+            0.64
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        152.868,
+        104.147
+      ],
+      "angle_deg": 180.0,
+      "side": "B"
+    },
+    {
+      "ref": "R29",
+      "old_library_id": "V2:FP_R29",
+      "library_id": "V2:R_0402_1005Metric",
+      "before": {
+        "pitch_mm": 0.866,
+        "pad_size_mm": {
+          "1": [
+            0.5655,
+            0.54
+          ],
+          "2": [
+            0.5655,
+            0.54
+          ]
+        },
+        "pad_shapes": {
+          "1": 1,
+          "2": 1
+        },
+        "models": [
+          "${KIPRJMOD}/models3d/R0402.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 1.02,
+        "pad_size_mm": {
+          "1": [
+            0.54,
+            0.64
+          ],
+          "2": [
+            0.54,
+            0.64
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        150.868,
+        78.647
+      ],
+      "angle_deg": -90.0,
+      "side": "B"
+    },
+    {
+      "ref": "R44",
+      "old_library_id": "V2:FP_R44",
+      "library_id": "V2:R_0402_1005Metric",
+      "before": {
+        "pitch_mm": 0.866,
+        "pad_size_mm": {
+          "1": [
+            0.5655,
+            0.54
+          ],
+          "2": [
+            0.5655,
+            0.54
+          ]
+        },
+        "pad_shapes": {
+          "1": 1,
+          "2": 1
+        },
+        "models": [
+          "${KIPRJMOD}/models3d/R0402.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 1.02,
+        "pad_size_mm": {
+          "1": [
+            0.54,
+            0.64
+          ],
+          "2": [
+            0.54,
+            0.64
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        167.868,
+        125.247
+      ],
+      "angle_deg": 0.0,
+      "side": "B"
+    },
+    {
+      "ref": "C53",
+      "old_library_id": "V2:FP_C53",
+      "library_id": "V2:C_0402_1005Metric",
+      "before": {
+        "pitch_mm": 0.84,
+        "pad_size_mm": {
+          "1": [
+            0.5,
+            0.54
+          ],
+          "2": [
+            0.5,
+            0.54
+          ]
+        },
+        "pad_shapes": {
+          "1": 1,
+          "2": 1
+        },
+        "models": [
+          "${KIPRJMOD}/models3d/C0402.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        159.068,
+        110.947
+      ],
+      "angle_deg": 90.0,
+      "side": "B"
+    },
+    {
+      "ref": "R124",
+      "old_library_id": "V2:FP_R124",
+      "library_id": "V2:R_0402_1005Metric",
+      "before": {
+        "pitch_mm": 1.02,
+        "pad_size_mm": {
+          "1": [
+            0.54,
+            0.64
+          ],
+          "2": [
+            0.54,
+            0.64
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 1.02,
+        "pad_size_mm": {
+          "1": [
+            0.54,
+            0.64
+          ],
+          "2": [
+            0.54,
+            0.64
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        156.868,
+        125.647
+      ],
+      "angle_deg": 180.0,
+      "side": "B"
+    },
+    {
+      "ref": "C137",
+      "old_library_id": "V2:FP_C137",
+      "library_id": "V2:C_0402_1005Metric",
+      "before": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        159.368,
+        99.147
+      ],
+      "angle_deg": 180.0,
+      "side": "B"
+    },
+    {
+      "ref": "R22",
+      "old_library_id": "V2:FP_R22",
+      "library_id": "V2:R_0402_1005Metric",
+      "before": {
+        "pitch_mm": 0.866,
+        "pad_size_mm": {
+          "1": [
+            0.5655,
+            0.54
+          ],
+          "2": [
+            0.5655,
+            0.54
+          ]
+        },
+        "pad_shapes": {
+          "1": 1,
+          "2": 1
+        },
+        "models": [
+          "${KIPRJMOD}/models3d/R0402.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 1.02,
+        "pad_size_mm": {
+          "1": [
+            0.54,
+            0.64
+          ],
+          "2": [
+            0.54,
+            0.64
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        156.868,
+        103.647
+      ],
+      "angle_deg": -90.0,
+      "side": "B"
+    },
+    {
+      "ref": "C3",
+      "old_library_id": "V2:FP_C3",
+      "library_id": "V2:C_0402_1005Metric",
+      "before": {
+        "pitch_mm": 0.84,
+        "pad_size_mm": {
+          "1": [
+            0.5,
+            0.54
+          ],
+          "2": [
+            0.5,
+            0.54
+          ]
+        },
+        "pad_shapes": {
+          "1": 1,
+          "2": 1
+        },
+        "models": [
+          "${KIPRJMOD}/models3d/C0402.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        157.865,
+        122.133
+      ],
+      "angle_deg": 90.0,
+      "side": "B"
+    },
+    {
+      "ref": "R35",
+      "old_library_id": "V2:FP_R35",
+      "library_id": "V2:R_0402_1005Metric",
+      "before": {
+        "pitch_mm": 0.866,
+        "pad_size_mm": {
+          "1": [
+            0.5655,
+            0.54
+          ],
+          "2": [
+            0.5655,
+            0.54
+          ]
+        },
+        "pad_shapes": {
+          "1": 1,
+          "2": 1
+        },
+        "models": [
+          "${KIPRJMOD}/models3d/R0402.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 1.02,
+        "pad_size_mm": {
+          "1": [
+            0.54,
+            0.64
+          ],
+          "2": [
+            0.54,
+            0.64
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        140.39,
+        76.972
+      ],
+      "angle_deg": 0.0,
+      "side": "B"
+    },
+    {
+      "ref": "R121",
+      "old_library_id": "V2:FP_R121",
+      "library_id": "V2:R_0402_1005Metric",
+      "before": {
+        "pitch_mm": 1.02,
+        "pad_size_mm": {
+          "1": [
+            0.54,
+            0.64
+          ],
+          "2": [
+            0.54,
+            0.64
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 1.02,
+        "pad_size_mm": {
+          "1": [
+            0.54,
+            0.64
+          ],
+          "2": [
+            0.54,
+            0.64
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        164.368,
+        95.647
+      ],
+      "angle_deg": 180.0,
+      "side": "B"
+    },
+    {
+      "ref": "R125",
+      "old_library_id": "V2:FP_R125",
+      "library_id": "V2:R_0402_1005Metric",
+      "before": {
+        "pitch_mm": 1.02,
+        "pad_size_mm": {
+          "1": [
+            0.54,
+            0.64
+          ],
+          "2": [
+            0.54,
+            0.64
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 1.02,
+        "pad_size_mm": {
+          "1": [
+            0.54,
+            0.64
+          ],
+          "2": [
+            0.54,
+            0.64
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        146.868,
+        82.647
+      ],
+      "angle_deg": 180.0,
+      "side": "B"
+    },
+    {
+      "ref": "R122",
+      "old_library_id": "V2:FP_R122",
+      "library_id": "V2:R_0402_1005Metric",
+      "before": {
+        "pitch_mm": 1.02,
+        "pad_size_mm": {
+          "1": [
+            0.54,
+            0.64
+          ],
+          "2": [
+            0.54,
+            0.64
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 1.02,
+        "pad_size_mm": {
+          "1": [
+            0.54,
+            0.64
+          ],
+          "2": [
+            0.54,
+            0.64
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        164.868,
+        97.647
+      ],
+      "angle_deg": 180.0,
+      "side": "B"
+    },
+    {
+      "ref": "R20",
+      "old_library_id": "V2:FP_R20",
+      "library_id": "V2:R_0402_1005Metric",
+      "before": {
+        "pitch_mm": 0.866,
+        "pad_size_mm": {
+          "1": [
+            0.5655,
+            0.54
+          ],
+          "2": [
+            0.5655,
+            0.54
+          ]
+        },
+        "pad_shapes": {
+          "1": 1,
+          "2": 1
+        },
+        "models": [
+          "${KIPRJMOD}/models3d/R0402.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 1.02,
+        "pad_size_mm": {
+          "1": [
+            0.54,
+            0.64
+          ],
+          "2": [
+            0.54,
+            0.64
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        162.868,
+        87.647
+      ],
+      "angle_deg": -90.0,
+      "side": "B"
+    },
+    {
+      "ref": "R131",
+      "old_library_id": "V2:FP_R131",
+      "library_id": "V2:R_0402_1005Metric",
+      "before": {
+        "pitch_mm": 1.02,
+        "pad_size_mm": {
+          "1": [
+            0.54,
+            0.64
+          ],
+          "2": [
+            0.54,
+            0.64
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 1.02,
+        "pad_size_mm": {
+          "1": [
+            0.54,
+            0.64
+          ],
+          "2": [
+            0.54,
+            0.64
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        151.868,
+        122.647
+      ],
+      "angle_deg": 180.0,
+      "side": "B"
+    },
+    {
+      "ref": "C133",
+      "old_library_id": "V2:FP_C133",
+      "library_id": "V2:C_0402_1005Metric",
+      "before": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        163.368,
+        117.147
+      ],
+      "angle_deg": 180.0,
+      "side": "B"
+    },
+    {
+      "ref": "R129",
+      "old_library_id": "V2:FP_R129",
+      "library_id": "V2:R_0402_1005Metric",
+      "before": {
+        "pitch_mm": 1.02,
+        "pad_size_mm": {
+          "1": [
+            0.54,
+            0.64
+          ],
+          "2": [
+            0.54,
+            0.64
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 1.02,
+        "pad_size_mm": {
+          "1": [
+            0.54,
+            0.64
+          ],
+          "2": [
+            0.54,
+            0.64
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        158.368,
+        116.647
+      ],
+      "angle_deg": 180.0,
+      "side": "B"
+    },
+    {
+      "ref": "R2",
+      "old_library_id": "V2:FP_R2",
+      "library_id": "V2:R_0402_1005Metric",
+      "before": {
+        "pitch_mm": 0.866,
+        "pad_size_mm": {
+          "1": [
+            0.5655,
+            0.54
+          ],
+          "2": [
+            0.5655,
+            0.54
+          ]
+        },
+        "pad_shapes": {
+          "1": 1,
+          "2": 1
+        },
+        "models": [
+          "${KIPRJMOD}/models3d/R0402.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 1.02,
+        "pad_size_mm": {
+          "1": [
+            0.54,
+            0.64
+          ],
+          "2": [
+            0.54,
+            0.64
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        165.282,
+        117.802
+      ],
+      "angle_deg": 90.0,
+      "side": "B"
+    },
+    {
+      "ref": "C59",
+      "old_library_id": "V2:FP_C59",
+      "library_id": "V2:C_0402_1005Metric",
+      "before": {
+        "pitch_mm": 0.84,
+        "pad_size_mm": {
+          "1": [
+            0.5,
+            0.54
+          ],
+          "2": [
+            0.5,
+            0.54
+          ]
+        },
+        "pad_shapes": {
+          "1": 1,
+          "2": 1
+        },
+        "models": [
+          "${KIPRJMOD}/models3d/C0402.step"
+        ]
+      },
+      "after": {
+        "pitch_mm": 0.96,
+        "pad_size_mm": {
+          "1": [
+            0.56,
+            0.62
+          ],
+          "2": [
+            0.56,
+            0.62
+          ]
+        },
+        "pad_shapes": {
+          "1": 4,
+          "2": 4
+        },
+        "models": [
+          "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+        ]
+      },
+      "position_mm": [
+        152.785,
+        114.5385
+      ],
+      "angle_deg": 90.0,
+      "side": "B"
+    }
+  ],
+  "count": 134,
+  "verification": {
+    "canonical_instance_counts": {
+      "V2:C_0402_1005Metric": 72,
+      "V2:R_0402_1005Metric": 62
+    },
+    "pad_geometry_mask_paste_models_match": true,
+    "schematic_footprint_links_match": true,
+    "unique_footprint_pad_uuids": true,
+    "errors": []
+  }
+}

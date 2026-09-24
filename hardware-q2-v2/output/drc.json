@@ -1,7 +1,7 @@
 {
     "$schema": "https://schemas.kicad.org/drc.v1.json",
     "coordinate_units": "mm",
-    "date": "2026-09-24T11:00:19",
+    "date": "2026-09-24T11:18:52",
     "ignored_checks": [
         {
             "description": "Footprint has no courtyard defined",
@@ -268,7 +268,7 @@
                 {
                     "description": "Top Layer 上 C32 的焊盘 2 [N_3N1]",
                     "pos": {
-                        "x": 132.53,
+                        "x": 132.595,
                         "y": 107.1725
                     },
                     "uuid": "c8cce2a8-0bc4-4ad0-963e-4d2de9d5430b"
@@ -289,32 +289,9 @@
             "description": "Missing connection between items",
             "items": [
                 {
-                    "description": "Top Layer 上 X1 的焊盘 3 [N_3N2]",
-                    "pos": {
-                        "x": 133.7605,
-                        "y": 111.2835
-                    },
-                    "uuid": "4e54d0c2-40bc-425b-8caf-12fa1104595f"
-                },
-                {
                     "description": "Top Layer 上 C33 的焊盘 1 [N_3N2]",
                     "pos": {
-                        "x": 133.7855,
-                        "y": 113.13
-                    },
-                    "uuid": "7c62cb9c-dc2d-44f0-ba13-2f7f81cdb844"
-                }
-            ],
-            "severity": "error",
-            "type": "unconnected_items"
-        },
-        {
-            "description": "Missing connection between items",
-            "items": [
-                {
-                    "description": "Top Layer 上 C33 的焊盘 1 [N_3N2]",
-                    "pos": {
-                        "x": 133.7855,
+                        "x": 133.7205,
                         "y": 113.13
                     },
                     "uuid": "7c62cb9c-dc2d-44f0-ba13-2f7f81cdb844"
@@ -326,6 +303,29 @@
                         "y": 113.5885
                     },
                     "uuid": "f018c3a9-c709-4b31-9f71-e3adae90a92f"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 X1 的焊盘 3 [N_3N2]",
+                    "pos": {
+                        "x": 133.7605,
+                        "y": 111.2835
+                    },
+                    "uuid": "4e54d0c2-40bc-425b-8caf-12fa1104595f"
+                },
+                {
+                    "description": "Top Layer 上 C33 的焊盘 1 [N_3N2]",
+                    "pos": {
+                        "x": 133.7205,
+                        "y": 113.13
+                    },
+                    "uuid": "7c62cb9c-dc2d-44f0-ba13-2f7f81cdb844"
                 }
             ],
             "severity": "error",
@@ -576,7 +576,7 @@
                     "description": "Bottom Layer 上 R46 的焊盘 2 [TP_I2C_SDA]",
                     "pos": {
                         "x": 164.868,
-                        "y": 101.58
+                        "y": 101.657
                     },
                     "uuid": "9d301ff0-7ba4-45d5-8551-f8c45fb9a9e2"
                 }
@@ -622,7 +622,7 @@
                     "description": "Bottom Layer 上 R45 的焊盘 2 [TP_I2C_SCL]",
                     "pos": {
                         "x": 162.868,
-                        "y": 101.58
+                        "y": 101.657
                     },
                     "uuid": "8f428a2d-d4f9-4301-b173-8a9d6478d437"
                 }
@@ -751,7 +751,7 @@
                 {
                     "description": "Top Layer 上 R19 的焊盘 1 [CS43131_SDA_1V8]",
                     "pos": {
-                        "x": 140.95,
+                        "x": 141.027,
                         "y": 110.071
                     },
                     "uuid": "a6fe8095-167b-4894-a688-b665fae164a8"
@@ -782,7 +782,7 @@
                 {
                     "description": "Top Layer 上 R19 的焊盘 1 [CS43131_SDA_1V8]",
                     "pos": {
-                        "x": 140.95,
+                        "x": 141.027,
                         "y": 110.071
                     },
                     "uuid": "a6fe8095-167b-4894-a688-b665fae164a8"
@@ -874,7 +874,7 @@
                 {
                     "description": "Bottom Layer 上 R36 的焊盘 2 [SD_D2]",
                     "pos": {
-                        "x": 140.823,
+                        "x": 140.9,
                         "y": 85.227
                     },
                     "uuid": "1aea5ec2-981b-4399-938a-2fad6f444180"
@@ -920,7 +920,7 @@
                 {
                     "description": "Bottom Layer 上 R37 的焊盘 2 [SD_D3]",
                     "pos": {
-                        "x": 140.823,
+                        "x": 140.9,
                         "y": 83.957
                     },
                     "uuid": "d9600e01-e238-4593-94c7-84136e4dbc67"
@@ -966,7 +966,7 @@
                 {
                     "description": "Bottom Layer 上 R39 的焊盘 2 [SD_CMD]",
                     "pos": {
-                        "x": 140.823,
+                        "x": 140.9,
                         "y": 82.687
                     },
                     "uuid": "73aa1132-c877-4821-9a65-37c44144eb79"
@@ -1035,7 +1035,7 @@
                 {
                     "description": "Bottom Layer 上 R38 的焊盘 2 [SD_D0]",
                     "pos": {
-                        "x": 140.823,
+                        "x": 140.9,
                         "y": 78.242
                     },
                     "uuid": "f624f692-06f4-449c-ba27-7c4059eae42a"
@@ -1081,7 +1081,7 @@
                 {
                     "description": "Bottom Layer 上 R35 的焊盘 2 [SD_D1]",
                     "pos": {
-                        "x": 140.823,
+                        "x": 140.9,
                         "y": 76.972
                     },
                     "uuid": "d26dfd43-bdbd-4dd1-a77d-1dd895a53562"
@@ -1396,7 +1396,7 @@
                     "description": "Bottom Layer 上 R7 的焊盘 2 [SYS_I2C_SCL]",
                     "pos": {
                         "x": 168.368,
-                        "y": 108.08
+                        "y": 108.157
                     },
                     "uuid": "b90914db-af44-48aa-ac92-2cf55601c2ae"
                 },
@@ -1419,7 +1419,7 @@
                     "description": "Bottom Layer 上 R7 的焊盘 2 [SYS_I2C_SCL]",
                     "pos": {
                         "x": 168.368,
-                        "y": 108.08
+                        "y": 108.157
                     },
                     "uuid": "b90914db-af44-48aa-ac92-2cf55601c2ae"
                 },
@@ -1542,7 +1542,7 @@
                     "description": "Bottom Layer 上 R8 的焊盘 2 [SYS_I2C_SDA]",
                     "pos": {
                         "x": 169.868,
-                        "y": 108.08
+                        "y": 108.157
                     },
                     "uuid": "40a714e8-9326-4e3f-8104-8e596223f688"
                 }
@@ -1557,7 +1557,7 @@
                     "description": "Bottom Layer 上 R8 的焊盘 2 [SYS_I2C_SDA]",
                     "pos": {
                         "x": 169.868,
-                        "y": 108.08
+                        "y": 108.157
                     },
                     "uuid": "40a714e8-9326-4e3f-8104-8e596223f688"
                 },
@@ -1579,7 +1579,7 @@
                 {
                     "description": "Bottom Layer 上 R43 的焊盘 2 [CHG_INT_N]",
                     "pos": {
-                        "x": 167.301,
+                        "x": 167.378,
                         "y": 105.647
                     },
                     "uuid": "2449442a-4c3c-4a06-adcf-a59e0c054c13"
@@ -1610,7 +1610,7 @@
                 {
                     "description": "Bottom Layer 上 R43 的焊盘 2 [CHG_INT_N]",
                     "pos": {
-                        "x": 167.301,
+                        "x": 167.378,
                         "y": 105.647
                     },
                     "uuid": "2449442a-4c3c-4a06-adcf-a59e0c054c13"
@@ -1656,7 +1656,7 @@
                 {
                     "description": "Top Layer 上 R12 的焊盘 2 [CHG_OTG_EN]",
                     "pos": {
-                        "x": 171.6785,
+                        "x": 171.6015,
                         "y": 131.002
                     },
                     "uuid": "b150b91d-829f-4828-b547-8ee11206a832"
@@ -1679,7 +1679,7 @@
                 {
                     "description": "Top Layer 上 R11 的焊盘 2 [BQ25895_CHG_EN#]",
                     "pos": {
-                        "x": 171.6785,
+                        "x": 171.6015,
                         "y": 129.732
                     },
                     "uuid": "0005da7e-b801-49f6-82ad-874f7c79e672"
@@ -1702,8 +1702,8 @@
                 {
                     "description": "Top Layer 上 R13 的焊盘 2 [BAT_TS]",
                     "pos": {
-                        "x": 171.6785,
-                        "y": 127.192
+                        "x": 171.6015,
+                        "y": 127.291999
                     },
                     "uuid": "e80ee502-7470-4728-b946-5060dfe45b65"
                 }
@@ -1717,15 +1717,15 @@
                 {
                     "description": "Top Layer 上 R13 的焊盘 2 [BAT_TS]",
                     "pos": {
-                        "x": 171.6785,
-                        "y": 127.192
+                        "x": 171.6015,
+                        "y": 127.291999
                     },
                     "uuid": "e80ee502-7470-4728-b946-5060dfe45b65"
                 },
                 {
                     "description": "Top Layer 上 R14 的焊盘 2 [BAT_TS]",
                     "pos": {
-                        "x": 171.6785,
+                        "x": 171.6015,
                         "y": 125.922
                     },
                     "uuid": "70df1807-c84c-442e-9ad7-5aaed5f9eba0"
@@ -1748,7 +1748,7 @@
                 {
                     "description": "Top Layer 上 R14 的焊盘 2 [BAT_TS]",
                     "pos": {
-                        "x": 171.6785,
+                        "x": 171.6015,
                         "y": 125.922
                     },
                     "uuid": "70df1807-c84c-442e-9ad7-5aaed5f9eba0"
@@ -1763,7 +1763,7 @@
                 {
                     "description": "Top Layer 上 R18 的焊盘 1 [CS43131_SCL_1V8]",
                     "pos": {
-                        "x": 140.95,
+                        "x": 141.027,
                         "y": 108.674
                     },
                     "uuid": "5a637fbf-9c3a-4c7e-bc8c-90a62f61558a"
@@ -1794,7 +1794,7 @@
                 {
                     "description": "Top Layer 上 R18 的焊盘 1 [CS43131_SCL_1V8]",
                     "pos": {
-                        "x": 140.95,
+                        "x": 141.027,
                         "y": 108.674
                     },
                     "uuid": "5a637fbf-9c3a-4c7e-bc8c-90a62f61558a"
@@ -2163,7 +2163,7 @@
                     "description": "Bottom Layer 上 R22 的焊盘 2 [USB_PATH_SEL]",
                     "pos": {
                         "x": 156.868,
-                        "y": 104.08
+                        "y": 104.157
                     },
                     "uuid": "2ff64856-453e-4033-adf1-8db166d25f4e"
                 }
@@ -2178,7 +2178,7 @@
                     "description": "Bottom Layer 上 R22 的焊盘 2 [USB_PATH_SEL]",
                     "pos": {
                         "x": 156.868,
-                        "y": 104.08
+                        "y": 104.157
                     },
                     "uuid": "2ff64856-453e-4033-adf1-8db166d25f4e"
                 },
@@ -2201,7 +2201,7 @@
                     "description": "Bottom Layer 上 R10 的焊盘 2 [USB_PATH_SEL]",
                     "pos": {
                         "x": 158.368,
-                        "y": 104.08
+                        "y": 104.157
                     },
                     "uuid": "46fb107a-5e10-42a7-b39d-51569dbb89a2"
                 },
@@ -2209,7 +2209,7 @@
                     "description": "Bottom Layer 上 R22 的焊盘 2 [USB_PATH_SEL]",
                     "pos": {
                         "x": 156.868,
-                        "y": 104.08
+                        "y": 104.157
                     },
                     "uuid": "2ff64856-453e-4033-adf1-8db166d25f4e"
                 }
@@ -2301,7 +2301,7 @@
                     "description": "Top Layer 上 R21 的焊盘 2 [SGM7227_EN#]",
                     "pos": {
                         "x": 154.741,
-                        "y": 128.84
+                        "y": 128.917
                     },
                     "uuid": "5f011667-ea90-4450-b0ee-3183d55ff1b5"
                 }
@@ -2370,7 +2370,7 @@
                     "description": "Top Layer 上 R31 的焊盘 2 [N_6N46]",
                     "pos": {
                         "x": 171.378,
-                        "y": 138.492
+                        "y": 138.569
                     },
                     "uuid": "b4e948eb-22a9-456d-9a23-d40f415ecb0a"
                 }
@@ -2485,7 +2485,7 @@
                     "description": "Top Layer 上 R32 的焊盘 2 [N_6N45]",
                     "pos": {
                         "x": 169.854,
-                        "y": 138.492
+                        "y": 138.569
                     },
                     "uuid": "352a7d7d-48ad-4b2e-9c93-8c52b8fefc9e"
                 }
@@ -2576,7 +2576,7 @@
                 {
                     "description": "Bottom Layer 上 R30 的焊盘 2 [AUDIO_I2C_SDA]",
                     "pos": {
-                        "x": 150.435,
+                        "x": 150.358,
                         "y": 101.647
                     },
                     "uuid": "b8c0aecd-add6-42b7-932c-0cb5c546a518"
@@ -2591,7 +2591,7 @@
                 {
                     "description": "Bottom Layer 上 R30 的焊盘 2 [AUDIO_I2C_SDA]",
                     "pos": {
-                        "x": 150.435,
+                        "x": 150.358,
                         "y": 101.647
                     },
                     "uuid": "b8c0aecd-add6-42b7-932c-0cb5c546a518"
@@ -2622,7 +2622,7 @@
                 {
                     "description": "Bottom Layer 上 R26 的焊盘 2 [AUDIO_I2C_SCL]",
                     "pos": {
-                        "x": 148.435,
+                        "x": 148.358,
                         "y": 101.647
                     },
                     "uuid": "bcb97828-9475-4df1-bad6-b76a964c4cd2"
@@ -2637,7 +2637,7 @@
                 {
                     "description": "Bottom Layer 上 R26 的焊盘 2 [AUDIO_I2C_SCL]",
                     "pos": {
-                        "x": 148.435,
+                        "x": 148.358,
                         "y": 101.647
                     },
                     "uuid": "bcb97828-9475-4df1-bad6-b76a964c4cd2"
@@ -2660,7 +2660,7 @@
                 {
                     "description": "Bottom Layer 上 R26 的焊盘 2 [AUDIO_I2C_SCL]",
                     "pos": {
-                        "x": 148.435,
+                        "x": 148.358,
                         "y": 101.647
                     },
                     "uuid": "bcb97828-9475-4df1-bad6-b76a964c4cd2"
@@ -2806,7 +2806,7 @@
                 {
                     "description": "Top Layer 上 R5 的焊盘 2 [PWR_3V3_EN]",
                     "pos": {
-                        "x": 167.874,
+                        "x": 167.951,
                         "y": 113.802
                     },
                     "uuid": "33083a71-8051-4e9f-aed8-d44844dc7eae"
@@ -2868,7 +2868,7 @@
                     "description": "Bottom Layer 上 C39 的焊盘 1 [CHIP_PU]",
                     "pos": {
                         "x": 152.368,
-                        "y": 78.227
+                        "y": 78.067
                     },
                     "uuid": "aa111f57-5db9-45b8-9350-e0fedd4fc617"
                 },
@@ -2876,7 +2876,7 @@
                     "description": "Bottom Layer 上 R29 的焊盘 1 [CHIP_PU]",
                     "pos": {
                         "x": 150.868,
-                        "y": 78.214
+                        "y": 78.137
                     },
                     "uuid": "100b8d13-2c7e-46cb-bdc1-524546a43f87"
                 }
@@ -2922,7 +2922,7 @@
                     "description": "Bottom Layer 上 C39 的焊盘 1 [CHIP_PU]",
                     "pos": {
                         "x": 152.368,
-                        "y": 78.227
+                        "y": 78.067
                     },
                     "uuid": "aa111f57-5db9-45b8-9350-e0fedd4fc617"
                 }
@@ -3037,7 +3037,7 @@
                     "description": "Bottom Layer 上 R42 的焊盘 1 [RTC_INT_N]",
                     "pos": {
                         "x": 162.868,
-                        "y": 106.08
+                        "y": 106.157
                     },
                     "uuid": "33cb132f-d8d5-4f09-93fb-ef4b6cc89ce7"
                 }
@@ -3052,7 +3052,7 @@
                     "description": "Bottom Layer 上 R42 的焊盘 1 [RTC_INT_N]",
                     "pos": {
                         "x": 162.868,
-                        "y": 106.08
+                        "y": 106.157
                     },
                     "uuid": "33cb132f-d8d5-4f09-93fb-ef4b6cc89ce7"
                 },
@@ -3083,7 +3083,7 @@
                     "description": "Bottom Layer 上 R6 的焊盘 2 [BAT_ALERT_N]",
                     "pos": {
                         "x": 164.868,
-                        "y": 106.08
+                        "y": 106.157
                     },
                     "uuid": "98a886e7-3f03-46b5-b7f7-4059dd274e58"
                 }
@@ -3098,7 +3098,7 @@
                     "description": "Bottom Layer 上 R6 的焊盘 2 [BAT_ALERT_N]",
                     "pos": {
                         "x": 164.868,
-                        "y": 106.08
+                        "y": 106.157
                     },
                     "uuid": "98a886e7-3f03-46b5-b7f7-4059dd274e58"
                 },
@@ -3220,8 +3220,8 @@
                 {
                     "description": "Bottom Layer 上 R44 的焊盘 2 [MOTOR_EN]",
                     "pos": {
-                        "x": 168.301,
-                        "y": 125.147
+                        "x": 168.378,
+                        "y": 125.247
                     },
                     "uuid": "acfc1fcb-d542-4ecb-8be9-62bf3d7f8a24"
                 }
@@ -3235,8 +3235,8 @@
                 {
                     "description": "Bottom Layer 上 R44 的焊盘 2 [MOTOR_EN]",
                     "pos": {
-                        "x": 168.301,
-                        "y": 125.147
+                        "x": 168.378,
+                        "y": 125.247
                     },
                     "uuid": "acfc1fcb-d542-4ecb-8be9-62bf3d7f8a24"
                 },
@@ -3543,7 +3543,7 @@
                     "description": "Bottom Layer 上 R25 的焊盘 2 [BOOT_MODE_H]",
                     "pos": {
                         "x": 164.868,
-                        "y": 88.08
+                        "y": 88.157
                     },
                     "uuid": "0179abc3-f120-4ee0-9db0-9c146752fe1b"
                 }
@@ -3566,7 +3566,7 @@
                     "description": "Bottom Layer 上 R20 的焊盘 2 [BOOT_DOWNLOAD_N]",
                     "pos": {
                         "x": 162.868,
-                        "y": 88.08
+                        "y": 88.157
                     },
                     "uuid": "c7e20d59-6cde-4b5f-98bd-6fb52976d317"
                 }
@@ -3581,7 +3581,7 @@
                     "description": "Bottom Layer 上 R20 的焊盘 2 [BOOT_DOWNLOAD_N]",
                     "pos": {
                         "x": 162.868,
-                        "y": 88.08
+                        "y": 88.157
                     },
                     "uuid": "c7e20d59-6cde-4b5f-98bd-6fb52976d317"
                 },
@@ -3819,7 +3819,7 @@
                     "description": "Bottom Layer 上 R33 的焊盘 1 [N_2N133]",
                     "pos": {
                         "x": 168.584,
-                        "y": 117.115
+                        "y": 117.038
                     },
                     "uuid": "a45b265a-21f1-4af7-ad7f-86e36d5e48a0"
                 }
@@ -3834,7 +3834,7 @@
                     "description": "Bottom Layer 上 C61 的焊盘 1 [N_2N157]",
                     "pos": {
                         "x": 165.282,
-                        "y": 115.631
+                        "y": 115.691
                     },
                     "uuid": "b2c10b5b-3fe2-496b-b8c2-b6b9f29a5331"
                 },
@@ -3842,7 +3842,7 @@
                     "description": "Bottom Layer 上 R2 的焊盘 1 [N_2N157]",
                     "pos": {
                         "x": 165.282,
-                        "y": 118.235
+                        "y": 118.312
                     },
                     "uuid": "81f10fdd-4918-47df-bf10-6399609e8007"
                 }
@@ -3865,7 +3865,7 @@
                     "description": "Bottom Layer 上 C61 的焊盘 1 [N_2N157]",
                     "pos": {
                         "x": 165.282,
-                        "y": 115.631
+                        "y": 115.691
                     },
                     "uuid": "b2c10b5b-3fe2-496b-b8c2-b6b9f29a5331"
                 }
@@ -3972,7 +3972,7 @@
                     "description": "Bottom Layer 上 R33 的焊盘 2 [N_2N135]",
                     "pos": {
                         "x": 168.584,
-                        "y": 117.981
+                        "y": 118.058
                     },
                     "uuid": "bdd4a566-9330-4bc4-9d1a-0987a6658506"
                 },
@@ -3980,7 +3980,7 @@
                     "description": "Bottom Layer 上 R34 的焊盘 2 [N_2N135]",
                     "pos": {
                         "x": 169.981,
-                        "y": 117.981
+                        "y": 118.058
                     },
                     "uuid": "ef930c99-7f9d-4744-a8ac-7baa9a363211"
                 }
