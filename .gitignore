@@ -31,3 +31,35 @@ Thumbs.db
 !/hardware-q2/output/pcb-back.svg
 !/hardware-q2/output/pcb-front.png
 !/hardware-q2/output/pcb-back.png
+
+# Vendor checkout cache; the selected source PDFs and provenance are in
+# hardware-display-adapter/reference/osptek-official/.
+/hardware-display-adapter/reference/osptek-am213/
+*.inspect.ndjson
+
+# V2 routing experiments are local; retain the saved board and final audits.
+/hardware-q2-v2/reference/AutorouteSettings.java
+/hardware-q2-v2/output/*
+!/hardware-q2-v2/output/base.kicad_pcb
+!/hardware-q2-v2/output/design-contract.json
+!/hardware-q2-v2/output/drc.json
+!/hardware-q2-v2/output/erc.json
+!/hardware-q2-v2/output/validation-summary.json
+!/hardware-q2-v2/output/netlist-consistency.json
+!/hardware-q2-v2/output/v2-netlist.xml
+!/hardware-q2-v2/output/net-routing-statistics.json
+!/hardware-q2-v2/output/model-audit.json
+!/hardware-q2-v2/output/case-fit.json
+!/hardware-q2-v2/output/q2-v2-assembly.step
+!/hardware-q2-v2/output/pcb-overview.png
+!/hardware-q2-v2/output/front-review.svg
+!/hardware-q2-v2/output/front-review.png
+!/hardware-q2-v2/output/back-review.svg
+!/hardware-q2-v2/output/back-review.png
+!/hardware-q2-v2/output/assembly-front.svg
+!/hardware-q2-v2/output/assembly-back.svg
+!/hardware-q2-v2/output/usb-routing.json
+!/hardware-q2-v2/output/markings.json
+!/hardware-q2-v2/output/power-width-review.json
+!/hardware-q2-v2/output/power-width-first-pass.json
+!/hardware-q2-v2/output/retained-routing.json
