@@ -1,0 +1,13 @@
+(version 1)
+
+(rule "DiffPair_D1_gap"
+  (condition "A.NetName == 'USB_DM' && B.NetName == 'USB_DP'")
+  (constraint clearance (min 0.127mm)))
+
+(rule "DiffPair_D2_gap"
+  (condition "A.NetName == 'IO34' && B.NetName == 'IO33'")
+  (constraint clearance (min 0.127mm)))
+
+(rule "DiffPair_D3_gap"
+  (condition "A.NetName == 'N20805764' && B.NetName == 'N20805766'")
+  (constraint clearance (min 0.127mm)))

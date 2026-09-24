@@ -1,0 +1,14 @@
+{
+  "scope": "Nominal STEP bodies vs selected L-case physical parts and conservative battery/FPC keepouts. Missing models listed separately. No tolerances, screen tail bend/reach or insertion paths verified. Original case unchanged.",
+  "collisions": [
+    {
+      "part": "FPC1",
+      "object": "ControlFFC40mm",
+      "volume_mm3": 1.070745
+    }
+  ],
+  "component_collisions": [],
+  "component_groups": 187,
+  "step_component_top_z_mm": 1.595,
+  "transform": "Rotate 180deg about Z, translate (48,2,4.205), align front model seating to case Z5.8"
+}

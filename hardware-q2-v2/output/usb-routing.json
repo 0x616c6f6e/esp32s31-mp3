@@ -1,0 +1,18 @@
+{
+  "USB_HS_DP": {
+    "length_mm": 38.861252951628146,
+    "vias": 2,
+    "layer": "In3.Cu",
+    "width_mm": 0.15,
+    "lane_pitch_mm": 0.4
+  },
+  "USB_HS_DM": {
+    "length_mm": 38.913667950024404,
+    "vias": 2,
+    "layer": "In3.Cu",
+    "width_mm": 0.15,
+    "lane_pitch_mm": 0.4
+  },
+  "length_skew_mm": 0.05241499839625874,
+  "impedance": "NOT VERIFIED: supplier stackup and field-solver width/gap required"
+}

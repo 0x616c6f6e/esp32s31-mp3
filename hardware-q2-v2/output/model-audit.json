@@ -1,0 +1,1184 @@
+{
+  "models": [
+    {
+      "ref": "C115",
+      "models": [
+        "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+      ]
+    },
+    {
+      "ref": "L102",
+      "models": [
+        "${KICAD10_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_0201_0603Metric.step"
+      ]
+    },
+    {
+      "ref": "C44",
+      "models": [
+        "${KIPRJMOD}/models3d/C0402.step"
+      ]
+    },
+    {
+      "ref": "R108",
+      "models": [
+        "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0201_0603Metric.step"
+      ]
+    },
+    {
+      "ref": "C20",
+      "models": [
+        "${KIPRJMOD}/models3d/C0402_1.step"
+      ]
+    },
+    {
+      "ref": "R101",
+      "models": [
+        "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0201_0603Metric.step"
+      ]
+    },
+    {
+      "ref": "SCREW2",
+      "models": []
+    },
+    {
+      "ref": "C30",
+      "models": [
+        "${KIPRJMOD}/models3d/C0402_1.step"
+      ]
+    },
+    {
+      "ref": "C116",
+      "models": [
+        "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0201_0603Metric.step"
+      ]
+    },
+    {
+      "ref": "C102",
+      "models": [
+        "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0201_0603Metric.step"
+      ]
+    },
+    {
+      "ref": "C18",
+      "models": [
+        "${KIPRJMOD}/models3d/C0603.step"
+      ]
+    },
+    {
+      "ref": "X1",
+      "models": [
+        "${KIPRJMOD}/models3d/CRYSTAL-SMD_4P-L3.2-W2.5-BL_1.step"
+      ]
+    },
+    {
+      "ref": "JDISP1",
+      "models": [
+        "${KIPRJMOD}/models3d/OK-23GF024-04.step"
+      ]
+    },
+    {
+      "ref": "C29",
+      "models": [
+        "${KIPRJMOD}/models3d/C0402_1.step"
+      ]
+    },
+    {
+      "ref": "C33",
+      "models": [
+        "${KIPRJMOD}/models3d/C0402_1.step"
+      ]
+    },
+    {
+      "ref": "R19",
+      "models": [
+        "${KIPRJMOD}/models3d/R0402_1.step"
+      ]
+    },
+    {
+      "ref": "C108",
+      "models": [
+        "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0201_0603Metric.step"
+      ]
+    },
+    {
+      "ref": "L103",
+      "models": [
+        "${KICAD10_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_0201_0603Metric.step"
+      ]
+    },
+    {
+      "ref": "C34",
+      "models": [
+        "${KIPRJMOD}/models3d/C0402_1.step"
+      ]
+    },
+    {
+      "ref": "C24",
+      "models": [
+        "${KIPRJMOD}/models3d/C0402_1.step"
+      ]
+    },
+    {
+      "ref": "CARD2",
+      "models": [
+        "${KIPRJMOD}/models3d/TF-SMD_TF-PUSH.step"
+      ]
+    },
+    {
+      "ref": "U5",
+      "models": [
+        "${KIPRJMOD}/models3d/SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR_1.step"
+      ]
+    },
+    {
+      "ref": "C103",
+      "models": [
+        "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0201_0603Metric.step"
+      ]
+    },
+    {
+      "ref": "C120",
+      "models": [
+        "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0201_0603Metric.step"
+      ]
+    },
+    {
+      "ref": "C107",
+      "models": [
+        "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0201_0603Metric.step"
+      ]
+    },
+    {
+      "ref": "R9",
+      "models": [
+        "${KIPRJMOD}/models3d/R0402.step"
+      ]
+    },
+    {
+      "ref": "R102",
+      "models": [
+        "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0201_0603Metric.step"
+      ]
+    },
+    {
+      "ref": "U3",
+      "models": [
+        "${KIPRJMOD}/models3d/WQFN-24_L4.0-W4.0-P0.50-TL-EP2.7.step"
+      ]
+    },
+    {
+      "ref": "C51",
+      "models": [
+        "${KIPRJMOD}/models3d/C0402.step"
+      ]
+    },
+    {
+      "ref": "C47",
+      "models": [
+        "${KIPRJMOD}/models3d/C0402.step"
+      ]
+    },
+    {
+      "ref": "U2",
+      "models": [
+        "${KIPRJMOD}/models3d/QFN-40_L5.0-W5.0-P0.40-TL-EP3.6_1.step"
+      ]
+    },
+    {
+      "ref": "C125",
+      "models": [
+        "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0201_0603Metric.step"
+      ]
+    },
+    {
+      "ref": "U12",
+      "models": [
+        "${KIPRJMOD}/models3d/TQFN-16_L3.0-W3.0-P0.50-BL-EP1.7.step"
+      ]
+    },
+    {
+      "ref": "L2",
+      "models": [
+        "${KIPRJMOD}/models3d/IND-SMD_L2.0-W1.6.step"
+      ]
+    },
+    {
+      "ref": "U17",
+      "models": [
+        "${KIPRJMOD}/models3d/MSOP-10_L3.0-W3.0-P0.50-LS4.9-BL.step"
+      ]
+    },
+    {
+      "ref": "C16",
+      "models": [
+        "${KIPRJMOD}/models3d/C0805.step"
+      ]
+    },
+    {
+      "ref": "R17",
+      "models": [
+        "${KIPRJMOD}/models3d/R0402_2.step"
+      ]
+    },
+    {
+      "ref": "R103",
+      "models": [
+        "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0201_0603Metric.step"
+      ]
+    },
+    {
+      "ref": "USB1",
+      "models": [
+        "${KIPRJMOD}/models3d/USB-C-SMD_TYPE-C-16PIN-2MD-073.step"
+      ]
+    },
+    {
+      "ref": "R31",
+      "models": [
+        "${KIPRJMOD}/models3d/R0402.step"
+      ]
+    },
+    {
+      "ref": "C11",
+      "models": [
+        "${KIPRJMOD}/models3d/C0402.step"
+      ]
+    },
+    {
+      "ref": "C110",
+      "models": [
+        "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+      ]
+    },
+    {
+      "ref": "R18",
+      "models": [
+        "${KIPRJMOD}/models3d/R0402_1.step"
+      ]
+    },
+    {
+      "ref": "C15",
+      "models": [
+        "${KIPRJMOD}/models3d/C0603_1.step"
+      ]
+    },
+    {
+      "ref": "JRF1",
+      "models": [
+        "${KICAD10_3DMODEL_DIR}/Connector_Coaxial.3dshapes/U.FL_Hirose_U.FL-R-SMT-1_Vertical.step"
+      ]
+    },
+    {
+      "ref": "U7",
+      "models": [
+        "${KIPRJMOD}/models3d/X2SON-8_L1.4-W1.0-P0.35-BL.step"
+      ]
+    },
+    {
+      "ref": "R14",
+      "models": [
+        "${KIPRJMOD}/models3d/R0402.step"
+      ]
+    },
+    {
+      "ref": "C9",
+      "models": [
+        "${KIPRJMOD}/models3d/C0603_1.step"
+      ]
+    },
+    {
+      "ref": "U10",
+      "models": [
+        "${KICAD10_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-8_5.3x5.3mm_P1.27mm.step"
+      ]
+    },
+    {
+      "ref": "U4",
+      "models": [
+        "${KIPRJMOD}/models3d/SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR.step"
+      ]
+    },
+    {
+      "ref": "C17",
+      "models": [
+        "${KIPRJMOD}/models3d/C0402_1.step"
+      ]
+    },
+    {
+      "ref": "R13",
+      "models": [
+        "${KIPRJMOD}/models3d/R0402.step"
+      ]
+    },
+    {
+      "ref": "C122",
+      "models": [
+        "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0201_0603Metric.step"
+      ]
+    },
+    {
+      "ref": "R3",
+      "models": [
+        "${KIPRJMOD}/models3d/R0402.step"
+      ]
+    },
+    {
+      "ref": "C8",
+      "models": [
+        "${KIPRJMOD}/models3d/C0603.step"
+      ]
+    },
+    {
+      "ref": "C105",
+      "models": [
+        "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0201_0603Metric.step"
+      ]
+    },
+    {
+      "ref": "C14",
+      "models": [
+        "${KIPRJMOD}/models3d/C0603_1.step"
+      ]
+    },
+    {
+      "ref": "R110",
+      "models": [
+        "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0201_0603Metric.step"
+      ]
+    },
+    {
+      "ref": "C21",
+      "models": [
+        "${KIPRJMOD}/models3d/C0402_1.step"
+      ]
+    },
+    {
+      "ref": "U15",
+      "models": [
+        "${KIPRJMOD}/models3d/LGA-14_L3.0-W2.5-P0.50-TL.step"
+      ]
+    },
+    {
+      "ref": "R12",
+      "models": [
+        "${KIPRJMOD}/models3d/R0402.step"
+      ]
+    },
+    {
+      "ref": "C118",
+      "models": [
+        "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0201_0603Metric.step"
+      ]
+    },
+    {
+      "ref": "SCREW5",
+      "models": []
+    },
+    {
+      "ref": "C19",
+      "models": [
+        "${KIPRJMOD}/models3d/C0402_1.step"
+      ]
+    },
+    {
+      "ref": "C22",
+      "models": [
+        "${KIPRJMOD}/models3d/C0402_1.step"
+      ]
+    },
+    {
+      "ref": "L101",
+      "models": [
+        "${KICAD10_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_0201_0603Metric.step"
+      ]
+    },
+    {
+      "ref": "C27",
+      "models": [
+        "${KIPRJMOD}/models3d/C0402_1.step"
+      ]
+    },
+    {
+      "ref": "SCREW1",
+      "models": []
+    },
+    {
+      "ref": "U9",
+      "models": [
+        "${KIPRJMOD}/models3d/ESP32-S31_QFN80_8x8.step"
+      ]
+    },
+    {
+      "ref": "C101",
+      "models": [
+        "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0201_0603Metric.step"
+      ]
+    },
+    {
+      "ref": "C123",
+      "models": [
+        "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0201_0603Metric.step"
+      ]
+    },
+    {
+      "ref": "L104",
+      "models": [
+        "${KICAD10_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_0201_0603Metric.step"
+      ]
+    },
+    {
+      "ref": "C104",
+      "models": [
+        "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0201_0603Metric.step"
+      ]
+    },
+    {
+      "ref": "C35",
+      "models": [
+        "${KIPRJMOD}/models3d/C0402_1.step"
+      ]
+    },
+    {
+      "ref": "C114",
+      "models": [
+        "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0201_0603Metric.step"
+      ]
+    },
+    {
+      "ref": "C31",
+      "models": [
+        "${KIPRJMOD}/models3d/C0402_1.step"
+      ]
+    },
+    {
+      "ref": "C2",
+      "models": [
+        "${KIPRJMOD}/models3d/C0603_1.step"
+      ]
+    },
+    {
+      "ref": "C25",
+      "models": [
+        "${KIPRJMOD}/models3d/C0402_1.step"
+      ]
+    },
+    {
+      "ref": "R21",
+      "models": [
+        "${KIPRJMOD}/models3d/R0402.step"
+      ]
+    },
+    {
+      "ref": "C23",
+      "models": [
+        "${KIPRJMOD}/models3d/C0402_1.step"
+      ]
+    },
+    {
+      "ref": "R5",
+      "models": [
+        "${KIPRJMOD}/models3d/R0402.step"
+      ]
+    },
+    {
+      "ref": "C106",
+      "models": [
+        "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0201_0603Metric.step"
+      ]
+    },
+    {
+      "ref": "R107",
+      "models": [
+        "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0201_0603Metric.step"
+      ]
+    },
+    {
+      "ref": "C48",
+      "models": [
+        "${KIPRJMOD}/models3d/C0402.step"
+      ]
+    },
+    {
+      "ref": "C32",
+      "models": [
+        "${KIPRJMOD}/models3d/C0402_1.step"
+      ]
+    },
+    {
+      "ref": "Y101",
+      "models": [
+        "${KIPRJMOD}/models3d/Crystal_3225_H065_nominal.step"
+      ]
+    },
+    {
+      "ref": "D2",
+      "models": [
+        "${KIPRJMOD}/models3d/SOD-123_L2.8-W1.8-LS3.7-RD.step"
+      ]
+    },
+    {
+      "ref": "L1",
+      "models": [
+        "${KIPRJMOD}/models3d/IND-SMD_L2.0-W1.6.step"
+      ]
+    },
+    {
+      "ref": "C26",
+      "models": [
+        "${KIPRJMOD}/models3d/C0402_1.step"
+      ]
+    },
+    {
+      "ref": "L105",
+      "models": [
+        "${KICAD10_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_0201_0603Metric.step"
+      ]
+    },
+    {
+      "ref": "C10",
+      "models": [
+        "${KIPRJMOD}/models3d/C0603_1.step"
+      ]
+    },
+    {
+      "ref": "R105",
+      "models": [
+        "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0201_0603Metric.step"
+      ]
+    },
+    {
+      "ref": "R109",
+      "models": [
+        "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0201_0603Metric.step"
+      ]
+    },
+    {
+      "ref": "R106",
+      "models": [
+        "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0201_0603Metric.step"
+      ]
+    },
+    {
+      "ref": "R4",
+      "models": [
+        "${KIPRJMOD}/models3d/R0402.step"
+      ]
+    },
+    {
+      "ref": "C117",
+      "models": [
+        "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0201_0603Metric.step"
+      ]
+    },
+    {
+      "ref": "R32",
+      "models": [
+        "${KIPRJMOD}/models3d/R0402.step"
+      ]
+    },
+    {
+      "ref": "C12",
+      "models": [
+        "${KIPRJMOD}/models3d/C0603_1.step"
+      ]
+    },
+    {
+      "ref": "C1",
+      "models": [
+        "${KIPRJMOD}/models3d/C0603_1.step"
+      ]
+    },
+    {
+      "ref": "R11",
+      "models": [
+        "${KIPRJMOD}/models3d/R0402.step"
+      ]
+    },
+    {
+      "ref": "C38",
+      "models": [
+        "${KIPRJMOD}/models3d/C0402.step"
+      ]
+    },
+    {
+      "ref": "C28",
+      "models": [
+        "${KIPRJMOD}/models3d/C0402_1.step"
+      ]
+    },
+    {
+      "ref": "C119",
+      "models": [
+        "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0201_0603Metric.step"
+      ]
+    },
+    {
+      "ref": "R104",
+      "models": [
+        "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0201_0603Metric.step"
+      ]
+    },
+    {
+      "ref": "U8",
+      "models": [
+        "${KIPRJMOD}/models3d/VQFN-14_L3.5-W3.5-P0.50-BL-EP.step"
+      ]
+    },
+    {
+      "ref": "C121",
+      "models": [
+        "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0201_0603Metric.step"
+      ]
+    },
+    {
+      "ref": "C109",
+      "models": [
+        "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0201_0603Metric.step"
+      ]
+    },
+    {
+      "ref": "SCREW3",
+      "models": []
+    },
+    {
+      "ref": "C37",
+      "models": [
+        "${KIPRJMOD}/models3d/C0402.step"
+      ]
+    },
+    {
+      "ref": "C13",
+      "models": [
+        "${KIPRJMOD}/models3d/C0402.step"
+      ]
+    },
+    {
+      "ref": "CN1",
+      "models": [
+        "${KIPRJMOD}/models3d/AUDIO-SMD_PJ-342B-TX-SMT.step"
+      ]
+    },
+    {
+      "ref": "C36",
+      "models": [
+        "${KIPRJMOD}/models3d/C0402.step"
+      ]
+    },
+    {
+      "ref": "R1",
+      "models": [
+        "${KIPRJMOD}/models3d/R1206.step"
+      ]
+    },
+    {
+      "ref": "C124",
+      "models": [
+        "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0201_0603Metric.step"
+      ]
+    },
+    {
+      "ref": "C113",
+      "models": [
+        "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0201_0603Metric.step"
+      ]
+    },
+    {
+      "ref": "R37",
+      "models": [
+        "${KIPRJMOD}/models3d/R0402.step"
+      ]
+    },
+    {
+      "ref": "R38",
+      "models": [
+        "${KIPRJMOD}/models3d/R0402.step"
+      ]
+    },
+    {
+      "ref": "U20",
+      "models": [
+        "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-5.step"
+      ]
+    },
+    {
+      "ref": "C6",
+      "models": [
+        "${KIPRJMOD}/models3d/C0402.step"
+      ]
+    },
+    {
+      "ref": "C49",
+      "models": [
+        "${KIPRJMOD}/models3d/C0402.step"
+      ]
+    },
+    {
+      "ref": "R6",
+      "models": [
+        "${KIPRJMOD}/models3d/R0402.step"
+      ]
+    },
+    {
+      "ref": "CN3",
+      "models": []
+    },
+    {
+      "ref": "C54",
+      "models": [
+        "${KIPRJMOD}/models3d/C0402.step"
+      ]
+    },
+    {
+      "ref": "C4",
+      "models": [
+        "${KIPRJMOD}/models3d/C0402_1.step"
+      ]
+    },
+    {
+      "ref": "Q102",
+      "models": [
+        "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.step"
+      ]
+    },
+    {
+      "ref": "R45",
+      "models": [
+        "${KIPRJMOD}/models3d/R0402.step"
+      ]
+    },
+    {
+      "ref": "Q104",
+      "models": [
+        "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.step"
+      ]
+    },
+    {
+      "ref": "C5",
+      "models": [
+        "${KIPRJMOD}/models3d/C0402_1.step"
+      ]
+    },
+    {
+      "ref": "C43",
+      "models": [
+        "${KIPRJMOD}/models3d/C0402.step"
+      ]
+    },
+    {
+      "ref": "R30",
+      "models": [
+        "${KIPRJMOD}/models3d/R0402.step"
+      ]
+    },
+    {
+      "ref": "R128",
+      "models": [
+        "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+      ]
+    },
+    {
+      "ref": "C134",
+      "models": [
+        "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+      ]
+    },
+    {
+      "ref": "Q103",
+      "models": [
+        "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.step"
+      ]
+    },
+    {
+      "ref": "C136",
+      "models": [
+        "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+      ]
+    },
+    {
+      "ref": "R39",
+      "models": [
+        "${KIPRJMOD}/models3d/R0402.step"
+      ]
+    },
+    {
+      "ref": "R120",
+      "models": [
+        "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+      ]
+    },
+    {
+      "ref": "U6",
+      "models": [
+        "${KIPRJMOD}/models3d/SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL-2.step"
+      ]
+    },
+    {
+      "ref": "R36",
+      "models": [
+        "${KIPRJMOD}/models3d/R0402.step"
+      ]
+    },
+    {
+      "ref": "U14",
+      "models": [
+        "${KIPRJMOD}/models3d/DFN-10_L3.0-W2.0-P0.50-BL.step"
+      ]
+    },
+    {
+      "ref": "R26",
+      "models": [
+        "${KIPRJMOD}/models3d/R0402.step"
+      ]
+    },
+    {
+      "ref": "TP102",
+      "models": []
+    },
+    {
+      "ref": "C50",
+      "models": [
+        "${KIPRJMOD}/models3d/C0402.step"
+      ]
+    },
+    {
+      "ref": "R7",
+      "models": [
+        "${KIPRJMOD}/models3d/R0402.step"
+      ]
+    },
+    {
+      "ref": "TP105",
+      "models": []
+    },
+    {
+      "ref": "R42",
+      "models": [
+        "${KIPRJMOD}/models3d/R0402.step"
+      ]
+    },
+    {
+      "ref": "TP103",
+      "models": []
+    },
+    {
+      "ref": "C58",
+      "models": [
+        "${KIPRJMOD}/models3d/C0402_1.step"
+      ]
+    },
+    {
+      "ref": "C131",
+      "models": [
+        "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+      ]
+    },
+    {
+      "ref": "R43",
+      "models": [
+        "${KIPRJMOD}/models3d/R0402.step"
+      ]
+    },
+    {
+      "ref": "R130",
+      "models": [
+        "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+      ]
+    },
+    {
+      "ref": "C132",
+      "models": [
+        "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+      ]
+    },
+    {
+      "ref": "C61",
+      "models": [
+        "${KIPRJMOD}/models3d/C0402.step"
+      ]
+    },
+    {
+      "ref": "R10",
+      "models": [
+        "${KIPRJMOD}/models3d/R0402.step"
+      ]
+    },
+    {
+      "ref": "R133",
+      "models": [
+        "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+      ]
+    },
+    {
+      "ref": "R132",
+      "models": [
+        "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+      ]
+    },
+    {
+      "ref": "R25",
+      "models": [
+        "${KIPRJMOD}/models3d/R0402.step"
+      ]
+    },
+    {
+      "ref": "C39",
+      "models": [
+        "${KIPRJMOD}/models3d/C0402.step"
+      ]
+    },
+    {
+      "ref": "Q105",
+      "models": [
+        "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.step"
+      ]
+    },
+    {
+      "ref": "R126",
+      "models": [
+        "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+      ]
+    },
+    {
+      "ref": "C7",
+      "models": [
+        "${KIPRJMOD}/models3d/C0402.step"
+      ]
+    },
+    {
+      "ref": "R33",
+      "models": [
+        "${KIPRJMOD}/models3d/R0402.step"
+      ]
+    },
+    {
+      "ref": "R46",
+      "models": [
+        "${KIPRJMOD}/models3d/R0402.step"
+      ]
+    },
+    {
+      "ref": "R8",
+      "models": [
+        "${KIPRJMOD}/models3d/R0402.step"
+      ]
+    },
+    {
+      "ref": "R34",
+      "models": [
+        "${KIPRJMOD}/models3d/R0402.step"
+      ]
+    },
+    {
+      "ref": "Q101",
+      "models": [
+        "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.step"
+      ]
+    },
+    {
+      "ref": "C130",
+      "models": [
+        "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+      ]
+    },
+    {
+      "ref": "R123",
+      "models": [
+        "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+      ]
+    },
+    {
+      "ref": "Q107",
+      "models": [
+        "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.step"
+      ]
+    },
+    {
+      "ref": "C135",
+      "models": [
+        "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+      ]
+    },
+    {
+      "ref": "R127",
+      "models": [
+        "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+      ]
+    },
+    {
+      "ref": "R29",
+      "models": [
+        "${KIPRJMOD}/models3d/R0402.step"
+      ]
+    },
+    {
+      "ref": "CN2",
+      "models": []
+    },
+    {
+      "ref": "R44",
+      "models": [
+        "${KIPRJMOD}/models3d/R0402.step"
+      ]
+    },
+    {
+      "ref": "C53",
+      "models": [
+        "${KIPRJMOD}/models3d/C0402.step"
+      ]
+    },
+    {
+      "ref": "R124",
+      "models": [
+        "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+      ]
+    },
+    {
+      "ref": "C137",
+      "models": [
+        "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+      ]
+    },
+    {
+      "ref": "L3",
+      "models": [
+        "${KIPRJMOD}/models3d/L0603.step"
+      ]
+    },
+    {
+      "ref": "R22",
+      "models": [
+        "${KIPRJMOD}/models3d/R0402.step"
+      ]
+    },
+    {
+      "ref": "U21",
+      "models": [
+        "${KICAD10_3DMODEL_DIR}/Package_SO.3dshapes/VSSOP-8_2.3x2mm_P0.5mm.step"
+      ]
+    },
+    {
+      "ref": "C3",
+      "models": [
+        "${KIPRJMOD}/models3d/C0402.step"
+      ]
+    },
+    {
+      "ref": "R35",
+      "models": [
+        "${KIPRJMOD}/models3d/R0402.step"
+      ]
+    },
+    {
+      "ref": "R121",
+      "models": [
+        "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+      ]
+    },
+    {
+      "ref": "R125",
+      "models": [
+        "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+      ]
+    },
+    {
+      "ref": "TP104",
+      "models": []
+    },
+    {
+      "ref": "R122",
+      "models": [
+        "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+      ]
+    },
+    {
+      "ref": "U1",
+      "models": [
+        "${KIPRJMOD}/models3d/RTC-SMD_L3.2-W2.5-P0.7-RX8130CE.step"
+      ]
+    },
+    {
+      "ref": "TP101",
+      "models": []
+    },
+    {
+      "ref": "FPC1",
+      "models": [
+        "${KIPRJMOD}/models3d/HCTL_FPC12.step"
+      ]
+    },
+    {
+      "ref": "Q106",
+      "models": [
+        "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.step"
+      ]
+    },
+    {
+      "ref": "TP106",
+      "models": []
+    },
+    {
+      "ref": "R20",
+      "models": [
+        "${KIPRJMOD}/models3d/R0402.step"
+      ]
+    },
+    {
+      "ref": "R131",
+      "models": [
+        "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+      ]
+    },
+    {
+      "ref": "C133",
+      "models": [
+        "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+      ]
+    },
+    {
+      "ref": "R129",
+      "models": [
+        "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+      ]
+    },
+    {
+      "ref": "R2",
+      "models": [
+        "${KIPRJMOD}/models3d/R0402.step"
+      ]
+    },
+    {
+      "ref": "C59",
+      "models": [
+        "${KIPRJMOD}/models3d/C0402.step"
+      ]
+    },
+    {
+      "ref": "U11",
+      "models": [
+        "${KIPRJMOD}/models3d/VSSOP-10_L3.0-W3.0-P0.50-LS4.9-BL.step"
+      ]
+    },
+    {
+      "ref": "D1",
+      "models": [
+        "${KIPRJMOD}/models3d/SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL.step"
+      ]
+    }
+  ],
+  "missing_files": [],
+  "without_models": [
+    "SCREW2",
+    "SCREW5",
+    "SCREW1",
+    "SCREW3",
+    "CN3",
+    "TP102",
+    "TP105",
+    "TP103",
+    "CN2",
+    "TP104",
+    "TP101",
+    "TP106"
+  ],
+  "scope": "Nominal models; generic passives and nominal MCU/crystal bodies are not supplier tolerance verification"
+}

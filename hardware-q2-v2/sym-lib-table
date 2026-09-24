@@ -1,0 +1,1 @@
+(sym_lib_table (lib (name "V2") (type "KiCad") (uri "${KIPRJMOD}/V2.kicad_sym") (options "") (descr "Explicit V2 pin contracts")))

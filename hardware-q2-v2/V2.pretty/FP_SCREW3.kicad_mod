@@ -1,0 +1,121 @@
+(footprint "FP_SCREW3"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(locked yes)
+	(layer "F.Cu")
+	(descr "V1 PCB connectivity / original schematic pin names")
+	(property "Reference" "SCREW3"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "df6a97b6-986a-4838-9c2c-61dc4079cbc9")
+		(effects
+			(font
+				(size 0.65 0.65)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "~"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5ed5baca-82c3-4556-a42a-b8958051003f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "29fc594e-57b9-481e-8c36-b29528ef3af2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "537e584d-ffe6-42eb-ba6e-096e522dfb24")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "P1_1")
+	(sheetfile "P1_1.kicad_sch")
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -1.34975 -1.34975)
+		(end 1.34975 1.34975)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "83cd9780-ffcc-4d13-bc3e-2c384b471ae9")
+	)
+	(fp_line
+		(start -1.8415 -1.8415)
+		(end 1.8415 1.8415)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "8fddebb8-fe55-4ad7-9e48-afd1e8a84b5f")
+	)
+	(fp_line
+		(start 1.8415 -1.8415)
+		(end -1.8415 1.8415)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "649e8398-50e7-4514-b50c-624b7ff8d9bb")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2.667 0)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "38247827-02a6-476f-8904-749b35168de3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "4d934bb0-419d-46cc-ab43-988fee96ff7b")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 2.1995 2.1995)
+		(drill 2.1995)
+		(layers "*.Cu" "*.Mask")
+		(thermal_bridge_angle 90)
+		(uuid "a80e2c46-3b66-43f9-af98-abca9f375066")
+	)
+	(embedded_fonts no)
+)

@@ -1,0 +1,77 @@
+(footprint "FP_CN3"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(locked yes)
+	(layer "F.Cu")
+	(descr "V1 PCB connectivity / original schematic pin names")
+	(property "Reference" "CN3"
+		(at 0 0 -90)
+		(layer "F.Fab")
+		(uuid "b7aefd54-5c60-4017-8da3-c8f2fb5d9d36")
+		(effects
+			(font
+				(size 0.65 0.65)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "Solder wire pads"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5412fcba-51ed-45c6-9ab6-7b7925627782")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f776e6d0-892d-47cb-8e09-95f837c721e0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b8bc011b-dd2c-4079-985a-24cf1c5c4de1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "MOTOR_1")
+	(sheetfile "MOTOR_1.kicad_sch")
+	(duplicate_pad_numbers_are_jumpers no)
+	(pad "1" thru_hole rect
+		(at -1.25 0)
+		(size 1.524 1.5)
+		(drill 0.9)
+		(layers "*.Mask" "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu")
+		(remove_unused_layers no)
+		(uuid "d7e99559-0882-4385-a4d1-d2def43adf26")
+	)
+	(pad "2" thru_hole circle
+		(at 1.25 0)
+		(size 1.5 1.5)
+		(drill 0.9)
+		(layers "*.Mask" "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "899a0a4f-775f-470d-9c50-b45b34944388")
+	)
+	(embedded_fonts no)
+)

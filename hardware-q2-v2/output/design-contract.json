@@ -1,0 +1,7389 @@
+{
+  "status": "FULLY_ROUTED_REVIEW_CANDIDATE_NOT_RELEASED_FOR_FABRICATION",
+  "origin": [
+    128.868,
+    67.647
+  ],
+  "components": {
+    "C44": {
+      "ref": "C44",
+      "value": "100nF",
+      "group": "USB",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "input"
+        },
+        "2": {
+          "name": "2",
+          "type": "input"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "VBUS_5V",
+        "2": "GND"
+      },
+      "x": 25.5555,
+      "y": 52.4265,
+      "angle": 0.0,
+      "side": "F",
+      "footprint": "FP_C44",
+      "dnp": false,
+      "uuid": "1019560f-9384-5242-9d59-a31f767ac2d5",
+      "sheet": "USB_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/22202af8-d9db-5d59-8595-d429cde9a71f/1019560f-9384-5242-9d59-a31f767ac2d5"
+    },
+    "C20": {
+      "ref": "C20",
+      "value": "2.2uF",
+      "group": "DAC",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "input"
+        },
+        "2": {
+          "name": "2",
+          "type": "input"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "N_3N29",
+        "2": "N_3N30"
+      },
+      "x": 7.204,
+      "y": 52.632,
+      "angle": 0.0,
+      "side": "F",
+      "footprint": "FP_C20",
+      "dnp": false,
+      "uuid": "3432eef5-addf-54f8-afcf-60cded913f1e",
+      "sheet": "DAC_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/1c58c2a8-7b56-5d04-a346-b22fff709b83/3432eef5-addf-54f8-afcf-60cded913f1e"
+    },
+    "SCREW2": {
+      "ref": "SCREW2",
+      "value": "~",
+      "group": "P1",
+      "pins": {},
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {},
+      "x": 10.572,
+      "y": 33.361,
+      "angle": 0.0,
+      "side": "F",
+      "footprint": "FP_SCREW2",
+      "dnp": false,
+      "uuid": "aa324dcc-d306-5b48-8d05-8ad2b3ac431e",
+      "sheet": "P1_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/5ade01c5-97c3-5ba1-9f25-ad2f1a884bf5/aa324dcc-d306-5b48-8d05-8ad2b3ac431e"
+    },
+    "C30": {
+      "ref": "C30",
+      "value": "1uF",
+      "group": "POWER",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "input"
+        },
+        "2": {
+          "name": "2",
+          "type": "input"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "GND",
+        "2": "VCC"
+      },
+      "x": 21.262,
+      "y": 52.413,
+      "angle": 0.0,
+      "side": "F",
+      "footprint": "FP_C30",
+      "dnp": false,
+      "uuid": "34cf79ee-98b7-50cc-adda-86dcce2ddd21",
+      "sheet": "POWER_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/08d876af-46c9-5434-997c-19abf8f24ffc/34cf79ee-98b7-50cc-adda-86dcce2ddd21"
+    },
+    "C18": {
+      "ref": "C18",
+      "value": "22uF",
+      "group": "DAC",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "unspecified"
+        },
+        "2": {
+          "name": "2",
+          "type": "unspecified"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "N_3N32",
+        "2": "N_3N20"
+      },
+      "x": 4.918,
+      "y": 49.0505,
+      "angle": -90.0,
+      "side": "F",
+      "footprint": "FP_C18",
+      "dnp": false,
+      "uuid": "9acf9a0e-c4a8-5e5a-9057-672db28c654c",
+      "sheet": "DAC_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/1c58c2a8-7b56-5d04-a346-b22fff709b83/9acf9a0e-c4a8-5e5a-9057-672db28c654c"
+    },
+    "X1": {
+      "ref": "X1",
+      "value": "26MHz",
+      "group": "DAC",
+      "pins": {
+        "1": {
+          "name": "OSC1",
+          "type": "input"
+        },
+        "2": {
+          "name": "GND",
+          "type": "input"
+        },
+        "3": {
+          "name": "OSC2",
+          "type": "input"
+        },
+        "4": {
+          "name": "GND",
+          "type": "input"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "N_3N1",
+        "2": "GND",
+        "3": "N_3N2",
+        "4": "GND"
+      },
+      "x": 4.0425,
+      "y": 42.5365,
+      "angle": -90.0,
+      "side": "F",
+      "footprint": "FP_X1",
+      "dnp": false,
+      "uuid": "3521244d-c572-541b-ba2e-894252fea4dc",
+      "sheet": "DAC_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/1c58c2a8-7b56-5d04-a346-b22fff709b83/3521244d-c572-541b-ba2e-894252fea4dc"
+    },
+    "JDISP1": {
+      "ref": "JDISP1",
+      "value": "OK-23GF024-04",
+      "group": "DISPLAY",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        },
+        "3": {
+          "name": "3",
+          "type": "passive"
+        },
+        "4": {
+          "name": "4",
+          "type": "passive"
+        },
+        "5": {
+          "name": "5",
+          "type": "passive"
+        },
+        "6": {
+          "name": "6",
+          "type": "passive"
+        },
+        "7": {
+          "name": "7",
+          "type": "passive"
+        },
+        "8": {
+          "name": "8",
+          "type": "passive"
+        },
+        "9": {
+          "name": "9",
+          "type": "passive"
+        },
+        "10": {
+          "name": "10",
+          "type": "passive"
+        },
+        "11": {
+          "name": "11",
+          "type": "passive"
+        },
+        "12": {
+          "name": "12",
+          "type": "passive"
+        },
+        "13": {
+          "name": "13",
+          "type": "passive"
+        },
+        "14": {
+          "name": "14",
+          "type": "passive"
+        },
+        "15": {
+          "name": "15",
+          "type": "passive"
+        },
+        "16": {
+          "name": "16",
+          "type": "passive"
+        },
+        "17": {
+          "name": "17",
+          "type": "passive"
+        },
+        "18": {
+          "name": "18",
+          "type": "passive"
+        },
+        "19": {
+          "name": "19",
+          "type": "passive"
+        },
+        "20": {
+          "name": "20",
+          "type": "passive"
+        },
+        "21": {
+          "name": "21",
+          "type": "passive"
+        },
+        "22": {
+          "name": "22",
+          "type": "passive"
+        },
+        "23": {
+          "name": "23",
+          "type": "passive"
+        },
+        "24": {
+          "name": "24",
+          "type": "passive"
+        },
+        "MP": {
+          "name": "MP",
+          "type": "passive"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "LCD_RESET_N",
+        "2": "GND",
+        "3": "LCD_TE",
+        "4": "LCD_CS_N",
+        "5": "LCD_CLK",
+        "6": "LCD_D1",
+        "7": "LCD_D0",
+        "8": "GND",
+        "9": "",
+        "10": "",
+        "11": "VCC_3V3",
+        "12": "VCC_3V3",
+        "13": "GND",
+        "14": "GND",
+        "15": "VCC_3V3",
+        "16": "VCC_3V3",
+        "17": "TP_INT_N",
+        "18": "TP_RESET_N",
+        "19": "TP_I2C_SDA",
+        "20": "TP_I2C_SCL",
+        "21": "GND",
+        "22": "LCD_D3",
+        "23": "LCD_D2",
+        "24": "LCD_VCI_EN",
+        "MP": "GND"
+      },
+      "x": 30.0,
+      "y": 29.2,
+      "angle": 90.0,
+      "side": "F",
+      "footprint": "FP_JDISP1",
+      "dnp": false,
+      "uuid": "df0f662c-4345-5bb1-a0d3-5a9bd8d60d9a",
+      "sheet": "DISPLAY_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/ebf81a42-f299-538e-8dcd-7ededc342221/df0f662c-4345-5bb1-a0d3-5a9bd8d60d9a"
+    },
+    "C29": {
+      "ref": "C29",
+      "value": "100nF",
+      "group": "DAC",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "input"
+        },
+        "2": {
+          "name": "2",
+          "type": "input"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "VCC",
+        "2": "GND"
+      },
+      "x": 16.221,
+      "y": 47.044,
+      "angle": 90.0,
+      "side": "F",
+      "footprint": "FP_C29",
+      "dnp": false,
+      "uuid": "d025b6d2-fff9-5e9c-9eff-cc7279ed3fec",
+      "sheet": "DAC_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/1c58c2a8-7b56-5d04-a346-b22fff709b83/d025b6d2-fff9-5e9c-9eff-cc7279ed3fec"
+    },
+    "C33": {
+      "ref": "C33",
+      "value": "10pF",
+      "group": "DAC",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "input"
+        },
+        "2": {
+          "name": "2",
+          "type": "input"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "N_3N2",
+        "2": "GND"
+      },
+      "x": 4.3725,
+      "y": 45.483,
+      "angle": 180.0,
+      "side": "F",
+      "footprint": "FP_C33",
+      "dnp": false,
+      "uuid": "cbadbad1-299b-5ffc-94cb-7ab32845c6ee",
+      "sheet": "DAC_2",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/8fcce97a-a627-5918-95d8-0c25852c48cb/cbadbad1-299b-5ffc-94cb-7ab32845c6ee"
+    },
+    "R19": {
+      "ref": "R19",
+      "value": "10K",
+      "group": "DAC",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "input"
+        },
+        "2": {
+          "name": "2",
+          "type": "input"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "CS43131_SDA_1V8",
+        "2": "VCC_1V8"
+      },
+      "x": 11.649,
+      "y": 42.424,
+      "angle": 180.0,
+      "side": "F",
+      "footprint": "FP_R19",
+      "dnp": false,
+      "uuid": "a1cace81-7509-5572-8eab-bd3777ba1efe",
+      "sheet": "DAC_2",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/8fcce97a-a627-5918-95d8-0c25852c48cb/a1cace81-7509-5572-8eab-bd3777ba1efe"
+    },
+    "C34": {
+      "ref": "C34",
+      "value": "100nF",
+      "group": "DAC",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "input"
+        },
+        "2": {
+          "name": "2",
+          "type": "input"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "VCC_1V8",
+        "2": "GND"
+      },
+      "x": 11.522,
+      "y": 39.63,
+      "angle": 180.0,
+      "side": "F",
+      "footprint": "FP_C34",
+      "dnp": false,
+      "uuid": "f362f72a-a704-5f74-8c66-480110f672c9",
+      "sheet": "DAC_2",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/8fcce97a-a627-5918-95d8-0c25852c48cb/f362f72a-a704-5f74-8c66-480110f672c9"
+    },
+    "C24": {
+      "ref": "C24",
+      "value": "2.2uF",
+      "group": "DAC",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "input"
+        },
+        "2": {
+          "name": "2",
+          "type": "input"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "N_3N24",
+        "2": "N_3N22"
+      },
+      "x": 14.951,
+      "y": 50.092,
+      "angle": -90.0,
+      "side": "F",
+      "footprint": "FP_C24",
+      "dnp": false,
+      "uuid": "06ba2b18-cc9f-50aa-bf6b-401225cecd16",
+      "sheet": "DAC_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/1c58c2a8-7b56-5d04-a346-b22fff709b83/06ba2b18-cc9f-50aa-bf6b-401225cecd16"
+    },
+    "CARD2": {
+      "ref": "CARD2",
+      "value": "TF PUSH",
+      "group": "FLASH/SDCARD",
+      "pins": {
+        "1": {
+          "name": "DAT2",
+          "type": "unspecified"
+        },
+        "2": {
+          "name": "CD/DAT3",
+          "type": "unspecified"
+        },
+        "3": {
+          "name": "CMD",
+          "type": "unspecified"
+        },
+        "4": {
+          "name": "VDD",
+          "type": "unspecified"
+        },
+        "5": {
+          "name": "CLX",
+          "type": "unspecified"
+        },
+        "6": {
+          "name": "VSS",
+          "type": "unspecified"
+        },
+        "7": {
+          "name": "DAT0",
+          "type": "unspecified"
+        },
+        "8": {
+          "name": "DAT1",
+          "type": "unspecified"
+        },
+        "10": {
+          "name": "EP",
+          "type": "unspecified"
+        },
+        "11": {
+          "name": "EP",
+          "type": "unspecified"
+        },
+        "12": {
+          "name": "EP",
+          "type": "unspecified"
+        },
+        "13": {
+          "name": "EP",
+          "type": "unspecified"
+        },
+        "CD": {
+          "name": "CD",
+          "type": "unspecified"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "SD_D2",
+        "2": "SD_D3",
+        "3": "SD_CMD",
+        "4": "VCC_3V3",
+        "5": "SD_CLK",
+        "6": "GND",
+        "7": "SD_D0",
+        "8": "SD_D1",
+        "10": "GND",
+        "11": "GND",
+        "12": "GND",
+        "13": "GND",
+        "CD": "SD_CARD_DETECT_N"
+      },
+      "x": 10.699,
+      "y": 14.763,
+      "angle": -90.0,
+      "side": "F",
+      "footprint": "FP_CARD2",
+      "dnp": false,
+      "uuid": "ce7ea9c2-cb75-5d5b-9b1a-797c845d14cc",
+      "sheet": "FLASH_SDCARD_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/8392b115-509d-5321-a31f-69ce946bb2f0/ce7ea9c2-cb75-5d5b-9b1a-797c845d14cc"
+    },
+    "U5": {
+      "ref": "U5",
+      "value": "ME6211C18M5G-N",
+      "group": "POWER",
+      "pins": {
+        "1": {
+          "name": "VIN",
+          "type": "power_in"
+        },
+        "2": {
+          "name": "VSS",
+          "type": "power_in"
+        },
+        "3": {
+          "name": "CE",
+          "type": "input"
+        },
+        "4": {
+          "name": "NC",
+          "type": "no_connect"
+        },
+        "5": {
+          "name": "VOUT",
+          "type": "power_out"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "VCC",
+        "2": "GND",
+        "3": "VCC",
+        "4": "",
+        "5": "VCC_1V8"
+      },
+      "x": 20.5,
+      "y": 49.999999,
+      "angle": 0.0,
+      "side": "F",
+      "footprint": "FP_U5",
+      "dnp": false,
+      "uuid": "16981287-5cd0-5544-938b-b7e6086dd44e",
+      "sheet": "POWER_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/08d876af-46c9-5434-997c-19abf8f24ffc/16981287-5cd0-5544-938b-b7e6086dd44e"
+    },
+    "R9": {
+      "ref": "R9",
+      "value": "700R",
+      "group": "POWER",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "input"
+        },
+        "2": {
+          "name": "2",
+          "type": "input"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "GND",
+        "2": "N_2N19"
+      },
+      "x": 43.2435,
+      "y": 60.815,
+      "angle": 180.0,
+      "side": "F",
+      "footprint": "FP_R9",
+      "dnp": false,
+      "uuid": "7b546b55-7de2-5f63-bcf7-d03e12350a8a",
+      "sheet": "POWER_2",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/50aa9813-2abd-53f6-b6e7-140e93acc186/7b546b55-7de2-5f63-bcf7-d03e12350a8a"
+    },
+    "U3": {
+      "ref": "U3",
+      "value": "DSCB_BQ25895RTW",
+      "group": "POWER",
+      "pins": {
+        "1": {
+          "name": "VBUS",
+          "type": "power_in"
+        },
+        "2": {
+          "name": "D+",
+          "type": "bidirectional"
+        },
+        "3": {
+          "name": "D-",
+          "type": "bidirectional"
+        },
+        "4": {
+          "name": "STAT",
+          "type": "open_collector"
+        },
+        "5": {
+          "name": "SCL",
+          "type": "input"
+        },
+        "6": {
+          "name": "SDA",
+          "type": "bidirectional"
+        },
+        "7": {
+          "name": "INT",
+          "type": "open_collector"
+        },
+        "8": {
+          "name": "OTG",
+          "type": "input"
+        },
+        "9": {
+          "name": "~{CE}",
+          "type": "input"
+        },
+        "10": {
+          "name": "ILIM",
+          "type": "passive"
+        },
+        "11": {
+          "name": "TS",
+          "type": "passive"
+        },
+        "12": {
+          "name": "~{QON}",
+          "type": "input"
+        },
+        "13": {
+          "name": "BAT",
+          "type": "passive"
+        },
+        "14": {
+          "name": "BAT",
+          "type": "passive"
+        },
+        "15": {
+          "name": "SYS",
+          "type": "power_out"
+        },
+        "16": {
+          "name": "SYS",
+          "type": "power_out"
+        },
+        "17": {
+          "name": "PGND",
+          "type": "power_in"
+        },
+        "18": {
+          "name": "PGND",
+          "type": "power_in"
+        },
+        "19": {
+          "name": "SW",
+          "type": "passive"
+        },
+        "20": {
+          "name": "SW",
+          "type": "passive"
+        },
+        "21": {
+          "name": "BTST",
+          "type": "passive"
+        },
+        "22": {
+          "name": "REGN",
+          "type": "power_out"
+        },
+        "23": {
+          "name": "PMID",
+          "type": "power_out"
+        },
+        "24": {
+          "name": "DSEL",
+          "type": "open_collector"
+        },
+        "25": {
+          "name": "PGND",
+          "type": "power_in"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "VBUS_5V",
+        "2": "",
+        "3": "",
+        "4": "",
+        "5": "SYS_I2C_SCL",
+        "6": "SYS_I2C_SDA",
+        "7": "CHG_INT_N",
+        "8": "CHG_OTG_EN",
+        "9": "BQ25895_CHG_EN#",
+        "10": "N_2N19",
+        "11": "BAT_TS",
+        "12": "",
+        "13": "VBAT",
+        "14": "VBAT",
+        "15": "VCC",
+        "16": "VCC",
+        "17": "GND",
+        "18": "GND",
+        "19": "N_2N14",
+        "20": "N_2N14",
+        "21": "N_2N13",
+        "22": "N_2N16",
+        "23": "VCC_PMID",
+        "24": "",
+        "25": "GND"
+      },
+      "x": 38.0845,
+      "y": 60.931,
+      "angle": 90.0,
+      "side": "F",
+      "footprint": "FP_U3",
+      "dnp": false,
+      "uuid": "e9b940fc-f9fb-5b3a-b09b-fcfe43372666",
+      "sheet": "POWER_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/08d876af-46c9-5434-997c-19abf8f24ffc/e9b940fc-f9fb-5b3a-b09b-fcfe43372666"
+    },
+    "C51": {
+      "ref": "C51",
+      "value": "100nF",
+      "group": "USB",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "input"
+        },
+        "2": {
+          "name": "2",
+          "type": "input"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "VBUS_5V",
+        "2": "GND"
+      },
+      "x": 27.4,
+      "y": 59.2,
+      "angle": 0.0,
+      "side": "F",
+      "footprint": "FP_C51",
+      "dnp": false,
+      "uuid": "a06cdb58-e024-5a68-9dc0-245d773e59ee",
+      "sheet": "USB_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/22202af8-d9db-5d59-8595-d429cde9a71f/a06cdb58-e024-5a68-9dc0-245d773e59ee"
+    },
+    "C47": {
+      "ref": "C47",
+      "value": "100nF",
+      "group": "SENSOR",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "input"
+        },
+        "2": {
+          "name": "2",
+          "type": "input"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "VCC_3V3",
+        "2": "GND"
+      },
+      "x": 7.712,
+      "y": 29.569,
+      "angle": -90.0,
+      "side": "F",
+      "footprint": "FP_C47",
+      "dnp": false,
+      "uuid": "be118f29-db1b-5e4b-86e2-6654b85ee117",
+      "sheet": "SENSOR_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/5c811816-2d0c-55aa-b616-a9ded35ca93f/be118f29-db1b-5e4b-86e2-6654b85ee117"
+    },
+    "U2": {
+      "ref": "U2",
+      "value": "CS43131-CNZ",
+      "group": "DAC",
+      "pins": {
+        "1": {
+          "name": "SCL",
+          "type": "input"
+        },
+        "2": {
+          "name": "SDIN1",
+          "type": "input"
+        },
+        "3": {
+          "name": "TSO",
+          "type": "passive"
+        },
+        "4": {
+          "name": "VD",
+          "type": "power_in"
+        },
+        "5": {
+          "name": "FILT+",
+          "type": "passive"
+        },
+        "6": {
+          "name": "FILT-",
+          "type": "passive"
+        },
+        "7": {
+          "name": "VA",
+          "type": "power_in"
+        },
+        "8": {
+          "name": "GNDA",
+          "type": "power_in"
+        },
+        "9": {
+          "name": "–VA",
+          "type": "passive"
+        },
+        "10": {
+          "name": "FLYP_VA",
+          "type": "passive"
+        },
+        "11": {
+          "name": "FLYN_VA",
+          "type": "passive"
+        },
+        "12": {
+          "name": "HPINA",
+          "type": "passive"
+        },
+        "13": {
+          "name": "HPREFA",
+          "type": "power_in"
+        },
+        "14": {
+          "name": "HPOUTA",
+          "type": "output"
+        },
+        "15": {
+          "name": "HPINB",
+          "type": "passive"
+        },
+        "16": {
+          "name": "HPOUTB",
+          "type": "output"
+        },
+        "17": {
+          "name": "HPREFB",
+          "type": "power_in"
+        },
+        "18": {
+          "name": "VCP_FILT–",
+          "type": "passive"
+        },
+        "19": {
+          "name": "GNDCP",
+          "type": "power_in"
+        },
+        "20": {
+          "name": "FLYN_VCP",
+          "type": "passive"
+        },
+        "21": {
+          "name": "VCP_FILT+",
+          "type": "passive"
+        },
+        "22": {
+          "name": "HP_DETECT",
+          "type": "passive"
+        },
+        "23": {
+          "name": "FLYC_VCP",
+          "type": "passive"
+        },
+        "24": {
+          "name": "FLYP_VCP",
+          "type": "passive"
+        },
+        "25": {
+          "name": "VCP",
+          "type": "power_in"
+        },
+        "26": {
+          "name": "VP",
+          "type": "power_in"
+        },
+        "27": {
+          "name": "INT#",
+          "type": "open_collector"
+        },
+        "28": {
+          "name": "RESET#",
+          "type": "input"
+        },
+        "29": {
+          "name": "DSDB/LRCK2",
+          "type": "bidirectional"
+        },
+        "30": {
+          "name": "ADR",
+          "type": "passive"
+        },
+        "31": {
+          "name": "VL",
+          "type": "power_in"
+        },
+        "32": {
+          "name": "DSDCLK/SCLK2",
+          "type": "bidirectional"
+        },
+        "33": {
+          "name": "CLKOUT",
+          "type": "output"
+        },
+        "34": {
+          "name": "SCLK1",
+          "type": "bidirectional"
+        },
+        "35": {
+          "name": "GNDD",
+          "type": "power_in"
+        },
+        "36": {
+          "name": "XTO",
+          "type": "output"
+        },
+        "37": {
+          "name": "XTI/MCLK",
+          "type": "input"
+        },
+        "38": {
+          "name": "LRCK1",
+          "type": "bidirectional"
+        },
+        "39": {
+          "name": "SDA",
+          "type": "bidirectional"
+        },
+        "40": {
+          "name": "DSDA/SDIN2",
+          "type": "input"
+        },
+        "41": {
+          "name": "EP",
+          "type": "power_in"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "CS43131_SCL_1V8",
+        "2": "CS43131_I2S_SDIN",
+        "3": "",
+        "4": "VCC_1V8",
+        "5": "N_3N34",
+        "6": "N_3N32",
+        "7": "VCC_1V8",
+        "8": "GND",
+        "9": "N_3N20",
+        "10": "N_3N29",
+        "11": "N_3N30",
+        "12": "",
+        "13": "GND",
+        "14": "N_3N69",
+        "15": "",
+        "16": "N_3N70",
+        "17": "GND",
+        "18": "N_3N25",
+        "19": "GND",
+        "20": "N_3N23",
+        "21": "N_3N26",
+        "22": "",
+        "23": "N_3N22",
+        "24": "N_3N24",
+        "25": "VCC_1V8",
+        "26": "VCC",
+        "27": "",
+        "28": "CS43131_RST#_1V8",
+        "29": "",
+        "30": "GND",
+        "31": "VCC_1V8",
+        "32": "",
+        "33": "",
+        "34": "CS43131_I2S_SCLK",
+        "35": "GND",
+        "36": "N_3N1",
+        "37": "N_3N2",
+        "38": "CS43131_I2S_LRCK",
+        "39": "CS43131_SDA_1V8",
+        "40": "",
+        "41": "GND"
+      },
+      "x": 10.252,
+      "y": 48.441,
+      "angle": 0.0,
+      "side": "F",
+      "footprint": "FP_U2",
+      "dnp": false,
+      "uuid": "12129de5-be41-5f5b-b8a1-4925b3716936",
+      "sheet": "DAC_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/1c58c2a8-7b56-5d04-a346-b22fff709b83/12129de5-be41-5f5b-b8a1-4925b3716936"
+    },
+    "U12": {
+      "ref": "U12",
+      "value": "CH343P",
+      "group": "USB",
+      "pins": {
+        "1": {
+          "name": "VIO",
+          "type": "power_in"
+        },
+        "2": {
+          "name": "GND",
+          "type": "power_in"
+        },
+        "3": {
+          "name": "VDD5",
+          "type": "power_in"
+        },
+        "4": {
+          "name": "TXD",
+          "type": "output"
+        },
+        "5": {
+          "name": "RXD",
+          "type": "input"
+        },
+        "6": {
+          "name": "V3",
+          "type": "power_out"
+        },
+        "7": {
+          "name": "UD+",
+          "type": "bidirectional"
+        },
+        "8": {
+          "name": "UD-",
+          "type": "bidirectional"
+        },
+        "9": {
+          "name": "VBUS",
+          "type": "power_in"
+        },
+        "10": {
+          "name": "ACT#",
+          "type": "passive"
+        },
+        "11": {
+          "name": "DCD",
+          "type": "passive"
+        },
+        "12": {
+          "name": "DTRTNOW",
+          "type": "output"
+        },
+        "13": {
+          "name": "RTS",
+          "type": "output"
+        },
+        "14": {
+          "name": "DSR",
+          "type": "passive"
+        },
+        "15": {
+          "name": "CTS",
+          "type": "passive"
+        },
+        "16": {
+          "name": "RI",
+          "type": "passive"
+        },
+        "17": {
+          "name": "EP",
+          "type": "power_in"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "VCC_3V3",
+        "2": "GND",
+        "3": "VBUS_5V",
+        "4": "UART0_RX",
+        "5": "UART0_TX",
+        "6": "N_6N67",
+        "7": "CH343P_USB_DP",
+        "8": "CH343P_USB_DN",
+        "9": "VBUS_5V",
+        "10": "",
+        "11": "",
+        "12": "CH343P_UART_DTR",
+        "13": "CH343P_UART_RTS",
+        "14": "",
+        "15": "",
+        "16": "",
+        "17": "GND"
+      },
+      "x": 25.4,
+      "y": 55.5005,
+      "angle": 180.0,
+      "side": "F",
+      "footprint": "FP_U12",
+      "dnp": false,
+      "uuid": "05bbb328-2c81-5503-ac44-3082783bfe16",
+      "sheet": "USB_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/22202af8-d9db-5d59-8595-d429cde9a71f/05bbb328-2c81-5503-ac44-3082783bfe16"
+    },
+    "L2": {
+      "ref": "L2",
+      "value": "2.2uH",
+      "group": "POWER",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "unspecified"
+        },
+        "2": {
+          "name": "2",
+          "type": "unspecified"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "N_2N14",
+        "2": "VCC"
+      },
+      "x": 33.696,
+      "y": 56.315,
+      "angle": -90.0,
+      "side": "F",
+      "footprint": "FP_L2",
+      "dnp": false,
+      "uuid": "4e1812eb-0280-5ff4-a362-4b79280ee1fd",
+      "sheet": "POWER_2",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/50aa9813-2abd-53f6-b6e7-140e93acc186/4e1812eb-0280-5ff4-a362-4b79280ee1fd"
+    },
+    "U17": {
+      "ref": "U17",
+      "value": "SGM7229YMS10G/TR",
+      "group": "USB",
+      "pins": {
+        "1": {
+          "name": "VCC",
+          "type": "power_in"
+        },
+        "2": {
+          "name": "S",
+          "type": "input"
+        },
+        "3": {
+          "name": "D+",
+          "type": "passive"
+        },
+        "4": {
+          "name": "D-",
+          "type": "passive"
+        },
+        "5": {
+          "name": "GND",
+          "type": "power_in"
+        },
+        "6": {
+          "name": "HSD1-",
+          "type": "passive"
+        },
+        "7": {
+          "name": "HSD1+",
+          "type": "passive"
+        },
+        "8": {
+          "name": "HSD2-",
+          "type": "passive"
+        },
+        "9": {
+          "name": "HSD2+",
+          "type": "passive"
+        },
+        "10": {
+          "name": "OE#",
+          "type": "input"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "VBUS_5V",
+        "2": "USB_PATH_SEL",
+        "3": "TYPEC_USB_DP",
+        "4": "TYPEC_USB_DN",
+        "5": "GND",
+        "6": "USB_HS_DM",
+        "7": "USB_HS_DP",
+        "8": "CH343P_USB_DN",
+        "9": "CH343P_USB_DP",
+        "10": "SGM7227_EN#"
+      },
+      "x": 23.333,
+      "y": 61.954,
+      "angle": 0.0,
+      "side": "F",
+      "footprint": "FP_U17",
+      "dnp": false,
+      "uuid": "8e0b6335-7f29-5ade-a8c0-59ccafd10dd9",
+      "sheet": "USB_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/22202af8-d9db-5d59-8595-d429cde9a71f/8e0b6335-7f29-5ade-a8c0-59ccafd10dd9"
+    },
+    "C16": {
+      "ref": "C16",
+      "value": "47uF",
+      "group": "POWER",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "input"
+        },
+        "2": {
+          "name": "2",
+          "type": "input"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "VCC_PMID",
+        "2": "GND"
+      },
+      "x": 33.188,
+      "y": 63.3,
+      "angle": -90.0,
+      "side": "F",
+      "footprint": "FP_C16",
+      "dnp": false,
+      "uuid": "482d931f-81d8-56e9-b24b-7b4070b31cb6",
+      "sheet": "POWER_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/08d876af-46c9-5434-997c-19abf8f24ffc/482d931f-81d8-56e9-b24b-7b4070b31cb6"
+    },
+    "R17": {
+      "ref": "R17",
+      "value": "200K",
+      "group": "DAC",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "input"
+        },
+        "2": {
+          "name": "2",
+          "type": "input"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "N_3N63",
+        "2": "VCC_3V3"
+      },
+      "x": 15.078,
+      "y": 39.376,
+      "angle": 90.0,
+      "side": "F",
+      "footprint": "FP_R17",
+      "dnp": false,
+      "uuid": "ca15a1a5-648a-5ec7-aae1-a6fb1dd54eb7",
+      "sheet": "DAC_2",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/8fcce97a-a627-5918-95d8-0c25852c48cb/ca15a1a5-648a-5ec7-aae1-a6fb1dd54eb7"
+    },
+    "USB1": {
+      "ref": "USB1",
+      "value": "TYPE-C 16PIN 2MD(073)",
+      "group": "USB",
+      "pins": {
+        "13": {
+          "name": "EH",
+          "type": "unspecified"
+        },
+        "14": {
+          "name": "EH",
+          "type": "unspecified"
+        },
+        "A1B12": {
+          "name": "GND",
+          "type": "unspecified"
+        },
+        "A4B9": {
+          "name": "VBUS",
+          "type": "unspecified"
+        },
+        "A5": {
+          "name": "CC1",
+          "type": "unspecified"
+        },
+        "A6": {
+          "name": "Dp1",
+          "type": "unspecified"
+        },
+        "A7": {
+          "name": "Dn1",
+          "type": "unspecified"
+        },
+        "A8": {
+          "name": "SBU1",
+          "type": "unspecified"
+        },
+        "B1A12": {
+          "name": "GND",
+          "type": "unspecified"
+        },
+        "B4A9": {
+          "name": "VBUS",
+          "type": "unspecified"
+        },
+        "B5": {
+          "name": "CC2",
+          "type": "unspecified"
+        },
+        "B6": {
+          "name": "Dp2",
+          "type": "unspecified"
+        },
+        "B7": {
+          "name": "Dn2",
+          "type": "unspecified"
+        },
+        "B8": {
+          "name": "SBU2",
+          "type": "unspecified"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "13": "GND",
+        "14": "GND",
+        "A1B12": "GND",
+        "A4B9": "VBUS_5V",
+        "A5": "N_6N46",
+        "A6": "TYPEC_USB_DP_IN",
+        "A7": "TYPEC_USB_DN_IN",
+        "A8": "",
+        "B1A12": "GND",
+        "B4A9": "VBUS_5V",
+        "B5": "N_6N45",
+        "B6": "TYPEC_USB_DP_IN",
+        "B7": "TYPEC_USB_DN_IN",
+        "B8": ""
+      },
+      "x": 34.448,
+      "y": 70.9455,
+      "angle": 0.0,
+      "side": "F",
+      "footprint": "FP_USB1",
+      "dnp": false,
+      "uuid": "c72cd3b0-5487-5999-9770-2ccfd22dcbc2",
+      "sheet": "USB_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/22202af8-d9db-5d59-8595-d429cde9a71f/c72cd3b0-5487-5999-9770-2ccfd22dcbc2"
+    },
+    "R31": {
+      "ref": "R31",
+      "value": "5K1",
+      "group": "USB",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "input"
+        },
+        "2": {
+          "name": "2",
+          "type": "input"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "GND",
+        "2": "N_6N46"
+      },
+      "x": 42.51,
+      "y": 70.412,
+      "angle": -90.0,
+      "side": "F",
+      "footprint": "FP_R31",
+      "dnp": false,
+      "uuid": "c5e66e6f-c97f-559e-9c51-8d541ac69c4f",
+      "sheet": "USB_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/22202af8-d9db-5d59-8595-d429cde9a71f/c5e66e6f-c97f-559e-9c51-8d541ac69c4f"
+    },
+    "C11": {
+      "ref": "C11",
+      "value": "47nF",
+      "group": "POWER",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "input"
+        },
+        "2": {
+          "name": "2",
+          "type": "input"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "N_2N13",
+        "2": "N_2N14"
+      },
+      "x": 32.0,
+      "y": 58.5,
+      "angle": 0.0,
+      "side": "F",
+      "footprint": "FP_C11",
+      "dnp": false,
+      "uuid": "40d6669d-5950-5936-aae4-4ec6f24047dd",
+      "sheet": "POWER_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/08d876af-46c9-5434-997c-19abf8f24ffc/40d6669d-5950-5936-aae4-4ec6f24047dd"
+    },
+    "R18": {
+      "ref": "R18",
+      "value": "10K",
+      "group": "DAC",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "input"
+        },
+        "2": {
+          "name": "2",
+          "type": "input"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "CS43131_SCL_1V8",
+        "2": "VCC_1V8"
+      },
+      "x": 11.649,
+      "y": 41.027,
+      "angle": 180.0,
+      "side": "F",
+      "footprint": "FP_R18",
+      "dnp": false,
+      "uuid": "f2d49042-fd3d-5f5c-8ba2-8d5f3779c572",
+      "sheet": "DAC_2",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/8fcce97a-a627-5918-95d8-0c25852c48cb/f2d49042-fd3d-5f5c-8ba2-8d5f3779c572"
+    },
+    "C15": {
+      "ref": "C15",
+      "value": "10uF",
+      "group": "POWER",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "input"
+        },
+        "2": {
+          "name": "2",
+          "type": "input"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "GND",
+        "2": "VCC"
+      },
+      "x": 37.1475,
+      "y": 56.878,
+      "angle": 0.0,
+      "side": "F",
+      "footprint": "FP_C15",
+      "dnp": false,
+      "uuid": "c5b8d975-e7ff-5aad-9fe6-e96acb971e53",
+      "sheet": "POWER_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/08d876af-46c9-5434-997c-19abf8f24ffc/c5b8d975-e7ff-5aad-9fe6-e96acb971e53"
+    },
+    "U7": {
+      "ref": "U7",
+      "value": "PCA9306DQER",
+      "group": "DAC",
+      "pins": {
+        "1": {
+          "name": "GND",
+          "type": "power_in"
+        },
+        "2": {
+          "name": "VREF1",
+          "type": "power_in"
+        },
+        "3": {
+          "name": "SCL1",
+          "type": "bidirectional"
+        },
+        "4": {
+          "name": "SDA1",
+          "type": "bidirectional"
+        },
+        "5": {
+          "name": "SDA2",
+          "type": "bidirectional"
+        },
+        "6": {
+          "name": "SCL2",
+          "type": "bidirectional"
+        },
+        "7": {
+          "name": "VREF2",
+          "type": "passive"
+        },
+        "8": {
+          "name": "EN",
+          "type": "input"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "GND",
+        "2": "VCC_1V8",
+        "3": "CS43131_SCL_1V8",
+        "4": "CS43131_SDA_1V8",
+        "5": "AUDIO_I2C_SDA",
+        "6": "AUDIO_I2C_SCL",
+        "7": "N_3N63",
+        "8": "N_3N63"
+      },
+      "x": 14.57,
+      "y": 41.535,
+      "angle": -90.0,
+      "side": "F",
+      "footprint": "FP_U7",
+      "dnp": false,
+      "uuid": "3158349b-bd84-5a78-aebf-f106adba6c4c",
+      "sheet": "DAC_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/1c58c2a8-7b56-5d04-a346-b22fff709b83/3158349b-bd84-5a78-aebf-f106adba6c4c"
+    },
+    "R14": {
+      "ref": "R14",
+      "value": "30K1",
+      "group": "POWER",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "input"
+        },
+        "2": {
+          "name": "2",
+          "type": "input"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "GND",
+        "2": "BAT_TS"
+      },
+      "x": 43.2435,
+      "y": 58.275,
+      "angle": 180.0,
+      "side": "F",
+      "footprint": "FP_R14",
+      "dnp": false,
+      "uuid": "4817cabc-6842-58c3-860f-fc82aeb57fa9",
+      "sheet": "POWER_2",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/50aa9813-2abd-53f6-b6e7-140e93acc186/4817cabc-6842-58c3-860f-fc82aeb57fa9"
+    },
+    "C9": {
+      "ref": "C9",
+      "value": "4.7uF",
+      "group": "POWER",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "input"
+        },
+        "2": {
+          "name": "2",
+          "type": "input"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "N_2N16",
+        "2": "GND"
+      },
+      "x": 32.299,
+      "y": 60.252,
+      "angle": 180.0,
+      "side": "F",
+      "footprint": "FP_C9",
+      "dnp": false,
+      "uuid": "41c940d9-4d11-534f-8519-0d5a1c42c172",
+      "sheet": "POWER_2",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/50aa9813-2abd-53f6-b6e7-140e93acc186/41c940d9-4d11-534f-8519-0d5a1c42c172"
+    },
+    "U4": {
+      "ref": "U4",
+      "value": "TLV62568DBVR",
+      "group": "POWER",
+      "pins": {
+        "1": {
+          "name": "EN",
+          "type": "input"
+        },
+        "2": {
+          "name": "GND",
+          "type": "power_in"
+        },
+        "3": {
+          "name": "SW",
+          "type": "power_out"
+        },
+        "4": {
+          "name": "VIN",
+          "type": "power_in"
+        },
+        "5": {
+          "name": "FB",
+          "type": "input"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "PWR_3V3_EN",
+        "2": "GND",
+        "3": "N_2N84",
+        "4": "VCC",
+        "5": "N_2N86"
+      },
+      "x": 38.799,
+      "y": 49.1025,
+      "angle": 90.0,
+      "side": "F",
+      "footprint": "FP_U4",
+      "dnp": false,
+      "uuid": "bcb7b7bb-c6fb-5ff9-bb3f-3fb3ddcd8e9a",
+      "sheet": "POWER_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/08d876af-46c9-5434-997c-19abf8f24ffc/bcb7b7bb-c6fb-5ff9-bb3f-3fb3ddcd8e9a"
+    },
+    "C17": {
+      "ref": "C17",
+      "value": "2.2uF",
+      "group": "DAC",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "input"
+        },
+        "2": {
+          "name": "2",
+          "type": "input"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "VCC_1V8",
+        "2": "GND"
+      },
+      "x": 3.14,
+      "y": 52.251,
+      "angle": -90.0,
+      "side": "F",
+      "footprint": "FP_C17",
+      "dnp": false,
+      "uuid": "15a61b52-5d37-5186-9533-341da98bd92f",
+      "sheet": "DAC_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/1c58c2a8-7b56-5d04-a346-b22fff709b83/15a61b52-5d37-5186-9533-341da98bd92f"
+    },
+    "R13": {
+      "ref": "R13",
+      "value": "5K23",
+      "group": "POWER",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "input"
+        },
+        "2": {
+          "name": "2",
+          "type": "input"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "N_2N16",
+        "2": "BAT_TS"
+      },
+      "x": 43.2435,
+      "y": 59.545,
+      "angle": 180.0,
+      "side": "F",
+      "footprint": "FP_R13",
+      "dnp": false,
+      "uuid": "d404d742-22d5-56c2-abb9-612cddb10b17",
+      "sheet": "POWER_2",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/50aa9813-2abd-53f6-b6e7-140e93acc186/d404d742-22d5-56c2-abb9-612cddb10b17"
+    },
+    "R3": {
+      "ref": "R3",
+      "value": "22K1",
+      "group": "POWER",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "input"
+        },
+        "2": {
+          "name": "2",
+          "type": "input"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "GND",
+        "2": "N_2N86"
+      },
+      "x": 41.3135,
+      "y": 50.271,
+      "angle": 90.0,
+      "side": "F",
+      "footprint": "FP_R3",
+      "dnp": false,
+      "uuid": "e5e8f990-d6c9-58a2-8aac-a41058ba3b2d",
+      "sheet": "POWER_2",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/50aa9813-2abd-53f6-b6e7-140e93acc186/e5e8f990-d6c9-58a2-8aac-a41058ba3b2d"
+    },
+    "C8": {
+      "ref": "C8",
+      "value": "22uF",
+      "group": "DAC",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "unspecified"
+        },
+        "2": {
+          "name": "2",
+          "type": "unspecified"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "N_3N34",
+        "2": "VCC_1V8"
+      },
+      "x": 3.14,
+      "y": 49.0505,
+      "angle": -90.0,
+      "side": "F",
+      "footprint": "FP_C8",
+      "dnp": false,
+      "uuid": "3f6aee52-9d55-5d84-84bd-d968f4667f16",
+      "sheet": "DAC_2",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/8fcce97a-a627-5918-95d8-0c25852c48cb/3f6aee52-9d55-5d84-84bd-d968f4667f16"
+    },
+    "C14": {
+      "ref": "C14",
+      "value": "1uF",
+      "group": "POWER",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "input"
+        },
+        "2": {
+          "name": "2",
+          "type": "input"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "GND",
+        "2": "VBUS_5V"
+      },
+      "x": 35.982,
+      "y": 64.57,
+      "angle": 0.0,
+      "side": "F",
+      "footprint": "FP_C14",
+      "dnp": false,
+      "uuid": "b47e8386-1ec1-5c56-b745-1d49f09128ca",
+      "sheet": "POWER_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/08d876af-46c9-5434-997c-19abf8f24ffc/b47e8386-1ec1-5c56-b745-1d49f09128ca"
+    },
+    "C21": {
+      "ref": "C21",
+      "value": "2.2uF",
+      "group": "DAC",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "input"
+        },
+        "2": {
+          "name": "2",
+          "type": "input"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "N_3N26",
+        "2": "GND"
+      },
+      "x": 15.586,
+      "y": 52.124,
+      "angle": 0.0,
+      "side": "F",
+      "footprint": "FP_C21",
+      "dnp": false,
+      "uuid": "22da5cfc-d92b-5709-8473-5b15ff3d95b8",
+      "sheet": "DAC_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/1c58c2a8-7b56-5d04-a346-b22fff709b83/22da5cfc-d92b-5709-8473-5b15ff3d95b8"
+    },
+    "U15": {
+      "ref": "U15",
+      "value": "LSM6DS3TR-C",
+      "group": "SENSOR",
+      "pins": {
+        "1": {
+          "name": "SDO/SA0",
+          "type": "input"
+        },
+        "2": {
+          "name": "SDx",
+          "type": "passive"
+        },
+        "3": {
+          "name": "SCx",
+          "type": "passive"
+        },
+        "4": {
+          "name": "INT1",
+          "type": "output"
+        },
+        "5": {
+          "name": "VDDIO",
+          "type": "power_in"
+        },
+        "6": {
+          "name": "GND",
+          "type": "power_in"
+        },
+        "7": {
+          "name": "GND",
+          "type": "power_in"
+        },
+        "8": {
+          "name": "VDD",
+          "type": "power_in"
+        },
+        "9": {
+          "name": "INT2",
+          "type": "output"
+        },
+        "10": {
+          "name": "NC",
+          "type": "no_connect"
+        },
+        "11": {
+          "name": "NC",
+          "type": "no_connect"
+        },
+        "12": {
+          "name": "CS",
+          "type": "input"
+        },
+        "13": {
+          "name": "SCL",
+          "type": "input"
+        },
+        "14": {
+          "name": "SDA",
+          "type": "bidirectional"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "VCC_3V3",
+        "2": "GND",
+        "3": "GND",
+        "4": "IMU_INT1",
+        "5": "VCC_3V3",
+        "6": "GND",
+        "7": "GND",
+        "8": "VCC_3V3",
+        "9": "",
+        "10": "",
+        "11": "",
+        "12": "VCC_3V3",
+        "13": "AUDIO_I2C_SCL",
+        "14": "AUDIO_I2C_SDA"
+      },
+      "x": 5.192,
+      "y": 28.605,
+      "angle": 90.0,
+      "side": "F",
+      "footprint": "FP_U15",
+      "dnp": false,
+      "uuid": "fa012df8-b285-5a7a-abb7-6101adbd110d",
+      "sheet": "SENSOR_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/5c811816-2d0c-55aa-b616-a9ded35ca93f/fa012df8-b285-5a7a-abb7-6101adbd110d"
+    },
+    "R12": {
+      "ref": "R12",
+      "value": "100K",
+      "group": "POWER",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "input"
+        },
+        "2": {
+          "name": "2",
+          "type": "input"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "GND",
+        "2": "CHG_OTG_EN"
+      },
+      "x": 43.2435,
+      "y": 63.355,
+      "angle": 180.0,
+      "side": "F",
+      "footprint": "FP_R12",
+      "dnp": false,
+      "uuid": "3e52d55b-c5cf-5231-afba-5b15e74c3638",
+      "sheet": "POWER_2",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/50aa9813-2abd-53f6-b6e7-140e93acc186/3e52d55b-c5cf-5231-afba-5b15e74c3638"
+    },
+    "SCREW5": {
+      "ref": "SCREW5",
+      "value": "~",
+      "group": "P1",
+      "pins": {},
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {},
+      "x": 9.8075,
+      "y": 2.7475,
+      "angle": 0.0,
+      "side": "F",
+      "footprint": "FP_SCREW5",
+      "dnp": false,
+      "uuid": "6b5b4c53-aa7b-5589-86a0-4f93f7d5bfc9",
+      "sheet": "P1_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/5ade01c5-97c3-5ba1-9f25-ad2f1a884bf5/6b5b4c53-aa7b-5589-86a0-4f93f7d5bfc9"
+    },
+    "C19": {
+      "ref": "C19",
+      "value": "2.2uF",
+      "group": "DAC",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "input"
+        },
+        "2": {
+          "name": "2",
+          "type": "input"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "N_3N20",
+        "2": "GND"
+      },
+      "x": 4.918,
+      "y": 52.251,
+      "angle": -90.0,
+      "side": "F",
+      "footprint": "FP_C19",
+      "dnp": false,
+      "uuid": "8453ad93-b814-5b19-a328-ed0c38b04608",
+      "sheet": "DAC_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/1c58c2a8-7b56-5d04-a346-b22fff709b83/8453ad93-b814-5b19-a328-ed0c38b04608"
+    },
+    "C22": {
+      "ref": "C22",
+      "value": "2.2uF",
+      "group": "DAC",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "input"
+        },
+        "2": {
+          "name": "2",
+          "type": "input"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "N_3N25",
+        "2": "GND"
+      },
+      "x": 12.03,
+      "y": 53.013,
+      "angle": -90.0,
+      "side": "F",
+      "footprint": "FP_C22",
+      "dnp": false,
+      "uuid": "13cd6923-f2d0-53c6-8652-51a0d4537136",
+      "sheet": "DAC_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/1c58c2a8-7b56-5d04-a346-b22fff709b83/13cd6923-f2d0-53c6-8652-51a0d4537136"
+    },
+    "C27": {
+      "ref": "C27",
+      "value": "100nF",
+      "group": "DAC",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "input"
+        },
+        "2": {
+          "name": "2",
+          "type": "input"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "VCC_1V8",
+        "2": "GND"
+      },
+      "x": 15.459,
+      "y": 45.012,
+      "angle": 0.0,
+      "side": "F",
+      "footprint": "FP_C27",
+      "dnp": false,
+      "uuid": "71d60f00-b455-555b-add0-b8c14e111ec1",
+      "sheet": "DAC_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/1c58c2a8-7b56-5d04-a346-b22fff709b83/71d60f00-b455-555b-add0-b8c14e111ec1"
+    },
+    "SCREW1": {
+      "ref": "SCREW1",
+      "value": "~",
+      "group": "P1",
+      "pins": {},
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {},
+      "x": 3.3,
+      "y": 63.4995,
+      "angle": 0.0,
+      "side": "F",
+      "footprint": "FP_SCREW1",
+      "dnp": false,
+      "uuid": "188a91a0-2e18-5162-b8fc-8e0130d55f42",
+      "sheet": "P1_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/5ade01c5-97c3-5ba1-9f25-ad2f1a884bf5/188a91a0-2e18-5162-b8fc-8e0130d55f42"
+    },
+    "C35": {
+      "ref": "C35",
+      "value": "100nF",
+      "group": "DAC",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "input"
+        },
+        "2": {
+          "name": "2",
+          "type": "input"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "GND",
+        "2": "VCC_1V8"
+      },
+      "x": 22.19,
+      "y": 41.408,
+      "angle": 180.0,
+      "side": "F",
+      "footprint": "FP_C35",
+      "dnp": false,
+      "uuid": "5f804095-c681-5c5c-a44f-54491df8298a",
+      "sheet": "DAC_2",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/8fcce97a-a627-5918-95d8-0c25852c48cb/5f804095-c681-5c5c-a44f-54491df8298a"
+    },
+    "C31": {
+      "ref": "C31",
+      "value": "1uF",
+      "group": "POWER",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "input"
+        },
+        "2": {
+          "name": "2",
+          "type": "input"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "GND",
+        "2": "VCC_1V8"
+      },
+      "x": 17.8,
+      "y": 53.5,
+      "angle": -90.0,
+      "side": "F",
+      "footprint": "FP_C31",
+      "dnp": false,
+      "uuid": "f9a51f71-ad68-54ce-badb-f3be3222a82a",
+      "sheet": "POWER_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/08d876af-46c9-5434-997c-19abf8f24ffc/f9a51f71-ad68-54ce-badb-f3be3222a82a"
+    },
+    "C2": {
+      "ref": "C2",
+      "value": "10uF",
+      "group": "POWER",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "input"
+        },
+        "2": {
+          "name": "2",
+          "type": "input"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "GND",
+        "2": "VCC_3V3"
+      },
+      "x": 35.497,
+      "y": 46.0545,
+      "angle": 180.0,
+      "side": "F",
+      "footprint": "FP_C2",
+      "dnp": false,
+      "uuid": "b3c1eb17-aef8-561b-97b2-ef522efd0f9b",
+      "sheet": "POWER_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/08d876af-46c9-5434-997c-19abf8f24ffc/b3c1eb17-aef8-561b-97b2-ef522efd0f9b"
+    },
+    "C25": {
+      "ref": "C25",
+      "value": "2.2uF",
+      "group": "DAC",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "input"
+        },
+        "2": {
+          "name": "2",
+          "type": "input"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "N_3N23",
+        "2": "N_3N22"
+      },
+      "x": 15.586,
+      "y": 53.775,
+      "angle": 0.0,
+      "side": "F",
+      "footprint": "FP_C25",
+      "dnp": false,
+      "uuid": "c522500c-6f99-592e-8761-7785724b2e1a",
+      "sheet": "DAC_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/1c58c2a8-7b56-5d04-a346-b22fff709b83/c522500c-6f99-592e-8761-7785724b2e1a"
+    },
+    "R21": {
+      "ref": "R21",
+      "value": "100K",
+      "group": "USB",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "input"
+        },
+        "2": {
+          "name": "2",
+          "type": "input"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "GND",
+        "2": "SGM7227_EN#"
+      },
+      "x": 25.873,
+      "y": 60.76,
+      "angle": -90.0,
+      "side": "F",
+      "footprint": "FP_R21",
+      "dnp": false,
+      "uuid": "df7143a5-ce64-517b-b077-c09308702017",
+      "sheet": "USB_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/22202af8-d9db-5d59-8595-d429cde9a71f/df7143a5-ce64-517b-b077-c09308702017"
+    },
+    "C23": {
+      "ref": "C23",
+      "value": "2.2uF",
+      "group": "DAC",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "input"
+        },
+        "2": {
+          "name": "2",
+          "type": "input"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "GND",
+        "2": "VCC_1V8"
+      },
+      "x": 16.221,
+      "y": 50.092,
+      "angle": 90.0,
+      "side": "F",
+      "footprint": "FP_C23",
+      "dnp": false,
+      "uuid": "88fff48c-8ea9-5e42-91fb-34a022e04a1c",
+      "sheet": "DAC_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/1c58c2a8-7b56-5d04-a346-b22fff709b83/88fff48c-8ea9-5e42-91fb-34a022e04a1c"
+    },
+    "R5": {
+      "ref": "R5",
+      "value": "100K",
+      "group": "POWER",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "input"
+        },
+        "2": {
+          "name": "2",
+          "type": "input"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "GND",
+        "2": "PWR_3V3_EN"
+      },
+      "x": 38.573,
+      "y": 46.155,
+      "angle": 0.0,
+      "side": "F",
+      "footprint": "FP_R5",
+      "dnp": false,
+      "uuid": "675dbec2-3095-5c70-9c46-ef7e90302da5",
+      "sheet": "POWER_2",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/50aa9813-2abd-53f6-b6e7-140e93acc186/675dbec2-3095-5c70-9c46-ef7e90302da5"
+    },
+    "C48": {
+      "ref": "C48",
+      "value": "100nF",
+      "group": "SENSOR",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "input"
+        },
+        "2": {
+          "name": "2",
+          "type": "input"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "VCC_3V3",
+        "2": "GND"
+      },
+      "x": 6.4165,
+      "y": 26.0635,
+      "angle": 0.0,
+      "side": "F",
+      "footprint": "FP_C48",
+      "dnp": false,
+      "uuid": "cdadd7aa-32f2-5483-a087-da4a4979152e",
+      "sheet": "SENSOR_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/5c811816-2d0c-55aa-b616-a9ded35ca93f/cdadd7aa-32f2-5483-a087-da4a4979152e"
+    },
+    "C32": {
+      "ref": "C32",
+      "value": "10pF",
+      "group": "DAC",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "input"
+        },
+        "2": {
+          "name": "2",
+          "type": "input"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "GND",
+        "2": "N_3N1"
+      },
+      "x": 4.206999,
+      "y": 39.5255,
+      "angle": 180.0,
+      "side": "F",
+      "footprint": "FP_C32",
+      "dnp": false,
+      "uuid": "5907621c-7f10-51c3-8dea-8d8259ec3729",
+      "sheet": "DAC_2",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/8fcce97a-a627-5918-95d8-0c25852c48cb/5907621c-7f10-51c3-8dea-8d8259ec3729"
+    },
+    "D2": {
+      "ref": "D2",
+      "value": "B5817W",
+      "group": "POWER",
+      "pins": {
+        "1": {
+          "name": "C",
+          "type": "unspecified"
+        },
+        "2": {
+          "name": "A",
+          "type": "unspecified"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "VCC_PMID",
+        "2": "N_2N14"
+      },
+      "x": 29.632,
+      "y": 60.506,
+      "angle": 90.0,
+      "side": "F",
+      "footprint": "FP_D2",
+      "dnp": false,
+      "uuid": "f7ebe906-bb2d-509d-8e88-8c362a778b03",
+      "sheet": "POWER_2",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/50aa9813-2abd-53f6-b6e7-140e93acc186/f7ebe906-bb2d-509d-8e88-8c362a778b03"
+    },
+    "L1": {
+      "ref": "L1",
+      "value": "2.2uH",
+      "group": "POWER",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "unspecified"
+        },
+        "2": {
+          "name": "2",
+          "type": "unspecified"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "N_2N84",
+        "2": "VCC_3V3"
+      },
+      "x": 35.497,
+      "y": 48.2135,
+      "angle": 0.0,
+      "side": "F",
+      "footprint": "FP_L1",
+      "dnp": false,
+      "uuid": "afa24a28-2ae3-53d2-b7b5-900c3efcb621",
+      "sheet": "POWER_2",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/50aa9813-2abd-53f6-b6e7-140e93acc186/afa24a28-2ae3-53d2-b7b5-900c3efcb621"
+    },
+    "C26": {
+      "ref": "C26",
+      "value": "4.7uF",
+      "group": "DAC",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "input"
+        },
+        "2": {
+          "name": "2",
+          "type": "input"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "VCC",
+        "2": "GND"
+      },
+      "x": 14.951,
+      "y": 47.0695,
+      "angle": 90.0,
+      "side": "F",
+      "footprint": "FP_C26",
+      "dnp": false,
+      "uuid": "06de5c5c-538a-515d-a4ec-0db21b153b80",
+      "sheet": "DAC_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/1c58c2a8-7b56-5d04-a346-b22fff709b83/06de5c5c-538a-515d-a4ec-0db21b153b80"
+    },
+    "C10": {
+      "ref": "C10",
+      "value": "10uF",
+      "group": "POWER",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "input"
+        },
+        "2": {
+          "name": "2",
+          "type": "input"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "GND",
+        "2": "VBAT"
+      },
+      "x": 40.35,
+      "y": 56.884,
+      "angle": 180.0,
+      "side": "F",
+      "footprint": "FP_C10",
+      "dnp": false,
+      "uuid": "d0ff8890-5ea2-5394-8b2d-29282dca40ff",
+      "sheet": "POWER_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/08d876af-46c9-5434-997c-19abf8f24ffc/d0ff8890-5ea2-5394-8b2d-29282dca40ff"
+    },
+    "R4": {
+      "ref": "R4",
+      "value": "100K",
+      "group": "POWER",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "input"
+        },
+        "2": {
+          "name": "2",
+          "type": "input"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "N_2N86",
+        "2": "VCC_3V3"
+      },
+      "x": 41.3135,
+      "y": 47.9085,
+      "angle": 90.0,
+      "side": "F",
+      "footprint": "FP_R4",
+      "dnp": false,
+      "uuid": "508b9284-d0d5-5f70-a968-ab36834d62f4",
+      "sheet": "POWER_2",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/50aa9813-2abd-53f6-b6e7-140e93acc186/508b9284-d0d5-5f70-a968-ab36834d62f4"
+    },
+    "R32": {
+      "ref": "R32",
+      "value": "5K1",
+      "group": "USB",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "input"
+        },
+        "2": {
+          "name": "2",
+          "type": "input"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "GND",
+        "2": "N_6N45"
+      },
+      "x": 40.986,
+      "y": 70.412,
+      "angle": -90.0,
+      "side": "F",
+      "footprint": "FP_R32",
+      "dnp": false,
+      "uuid": "a7a80e42-286c-5b76-9c35-d9c12e6e01fc",
+      "sheet": "USB_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/22202af8-d9db-5d59-8595-d429cde9a71f/a7a80e42-286c-5b76-9c35-d9c12e6e01fc"
+    },
+    "C12": {
+      "ref": "C12",
+      "value": "10uF",
+      "group": "POWER",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "input"
+        },
+        "2": {
+          "name": "2",
+          "type": "input"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "GND",
+        "2": "VCC"
+      },
+      "x": 30.902,
+      "y": 55.553,
+      "angle": 0.0,
+      "side": "F",
+      "footprint": "FP_C12",
+      "dnp": false,
+      "uuid": "c3c937d9-7ea0-5c45-8969-58b54d519d85",
+      "sheet": "POWER_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/08d876af-46c9-5434-997c-19abf8f24ffc/c3c937d9-7ea0-5c45-8969-58b54d519d85"
+    },
+    "C1": {
+      "ref": "C1",
+      "value": "10uF",
+      "group": "POWER",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "input"
+        },
+        "2": {
+          "name": "2",
+          "type": "input"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "GND",
+        "2": "VCC"
+      },
+      "x": 38.573,
+      "y": 52.124,
+      "angle": 180.0,
+      "side": "F",
+      "footprint": "FP_C1",
+      "dnp": false,
+      "uuid": "43401ec1-c366-515e-8873-7bc5934eec46",
+      "sheet": "POWER_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/08d876af-46c9-5434-997c-19abf8f24ffc/43401ec1-c366-515e-8873-7bc5934eec46"
+    },
+    "R11": {
+      "ref": "R11",
+      "value": "100K",
+      "group": "POWER",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "input"
+        },
+        "2": {
+          "name": "2",
+          "type": "input"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "GND",
+        "2": "BQ25895_CHG_EN#"
+      },
+      "x": 43.2435,
+      "y": 62.085,
+      "angle": 180.0,
+      "side": "F",
+      "footprint": "FP_R11",
+      "dnp": false,
+      "uuid": "af63f096-123f-5d16-82e4-49efb53a8037",
+      "sheet": "POWER_2",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/50aa9813-2abd-53f6-b6e7-140e93acc186/af63f096-123f-5d16-82e4-49efb53a8037"
+    },
+    "C38": {
+      "ref": "C38",
+      "value": "100nF",
+      "group": "USB",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "input"
+        },
+        "2": {
+          "name": "2",
+          "type": "input"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "N_6N67",
+        "2": "GND"
+      },
+      "x": 23.5,
+      "y": 52.1,
+      "angle": 90.0,
+      "side": "F",
+      "footprint": "FP_C38",
+      "dnp": false,
+      "uuid": "91c230c5-59db-58ae-9441-0fe211f84352",
+      "sheet": "USB_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/22202af8-d9db-5d59-8595-d429cde9a71f/91c230c5-59db-58ae-9441-0fe211f84352"
+    },
+    "C28": {
+      "ref": "C28",
+      "value": "100nF",
+      "group": "DAC",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "input"
+        },
+        "2": {
+          "name": "2",
+          "type": "input"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "VCC_1V8",
+        "2": "GND"
+      },
+      "x": 4.409999,
+      "y": 46.79,
+      "angle": 180.0,
+      "side": "F",
+      "footprint": "FP_C28",
+      "dnp": false,
+      "uuid": "ee2cf170-0e1f-538c-9465-1f48bf85a376",
+      "sheet": "DAC_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/1c58c2a8-7b56-5d04-a346-b22fff709b83/ee2cf170-0e1f-538c-9465-1f48bf85a376"
+    },
+    "U8": {
+      "ref": "U8",
+      "value": "SN74LV4T125RGYR",
+      "group": "DAC",
+      "pins": {
+        "1": {
+          "name": "1OE#",
+          "type": "input"
+        },
+        "2": {
+          "name": "1A",
+          "type": "input"
+        },
+        "3": {
+          "name": "1Y",
+          "type": "output"
+        },
+        "4": {
+          "name": "2OE#",
+          "type": "input"
+        },
+        "5": {
+          "name": "2A",
+          "type": "input"
+        },
+        "6": {
+          "name": "2Y",
+          "type": "output"
+        },
+        "7": {
+          "name": "GND",
+          "type": "power_in"
+        },
+        "8": {
+          "name": "3Y",
+          "type": "output"
+        },
+        "9": {
+          "name": "3A",
+          "type": "input"
+        },
+        "10": {
+          "name": "3OE#",
+          "type": "input"
+        },
+        "11": {
+          "name": "4Y",
+          "type": "output"
+        },
+        "12": {
+          "name": "4A",
+          "type": "input"
+        },
+        "13": {
+          "name": "4OE#",
+          "type": "input"
+        },
+        "14": {
+          "name": "VCC",
+          "type": "power_in"
+        },
+        "15": {
+          "name": "GND",
+          "type": "power_in"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "GND",
+        "2": "DAC_I2S_DOUT",
+        "3": "CS43131_I2S_SDIN",
+        "4": "GND",
+        "5": "DAC_I2S_LRCK",
+        "6": "CS43131_I2S_LRCK",
+        "7": "GND",
+        "8": "CS43131_I2S_SCLK",
+        "9": "DAC_I2S_BCLK",
+        "10": "GND",
+        "11": "CS43131_RST#_1V8",
+        "12": "DAC_RESET_N",
+        "13": "GND",
+        "14": "VCC_1V8",
+        "15": "GND"
+      },
+      "x": 20.8985,
+      "y": 44.5365,
+      "angle": -90.0,
+      "side": "F",
+      "footprint": "FP_U8",
+      "dnp": false,
+      "uuid": "590d8070-be01-54cc-9a01-819a17ad09ad",
+      "sheet": "DAC_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/1c58c2a8-7b56-5d04-a346-b22fff709b83/590d8070-be01-54cc-9a01-819a17ad09ad"
+    },
+    "SCREW3": {
+      "ref": "SCREW3",
+      "value": "~",
+      "group": "P1",
+      "pins": {},
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {},
+      "x": 44.499,
+      "y": 41.499,
+      "angle": 0.0,
+      "side": "F",
+      "footprint": "FP_SCREW3",
+      "dnp": false,
+      "uuid": "04abe6c4-94da-58ab-a567-83265fe9212f",
+      "sheet": "P1_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/5ade01c5-97c3-5ba1-9f25-ad2f1a884bf5/04abe6c4-94da-58ab-a567-83265fe9212f"
+    },
+    "C37": {
+      "ref": "C37",
+      "value": "100nF",
+      "group": "USB",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "input"
+        },
+        "2": {
+          "name": "2",
+          "type": "input"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "VCC_3V3",
+        "2": "GND"
+      },
+      "x": 28.699999,
+      "y": 54.4,
+      "angle": 90.0,
+      "side": "F",
+      "footprint": "FP_C37",
+      "dnp": false,
+      "uuid": "7c97f95c-d61f-5924-8b43-5e8e4aba97f5",
+      "sheet": "USB_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/22202af8-d9db-5d59-8595-d429cde9a71f/7c97f95c-d61f-5924-8b43-5e8e4aba97f5"
+    },
+    "C13": {
+      "ref": "C13",
+      "value": "100nF",
+      "group": "MCU",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "input"
+        },
+        "2": {
+          "name": "2",
+          "type": "input"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "MCU_VDD_SPI",
+        "2": "GND"
+      },
+      "x": 22.0,
+      "y": 24.6,
+      "angle": 0.0,
+      "side": "F",
+      "footprint": "FP_C13",
+      "dnp": false,
+      "uuid": "ba5a6769-ba38-5430-9f45-6d85d7d52b4b",
+      "sheet": "MCU_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/4f8a4c57-cd1d-5d1b-9dbb-7b39161ada8b/ba5a6769-ba38-5430-9f45-6d85d7d52b4b"
+    },
+    "CN1": {
+      "ref": "CN1",
+      "value": "PJ-342B-TX-SMT",
+      "group": "DAC",
+      "pins": {
+        "2": {
+          "name": "2",
+          "type": "input"
+        },
+        "3": {
+          "name": "3",
+          "type": "input"
+        },
+        "4": {
+          "name": "4",
+          "type": "input"
+        },
+        "5": {
+          "name": "5",
+          "type": "input"
+        },
+        "6": {
+          "name": "6",
+          "type": "input"
+        },
+        "7": {
+          "name": "7",
+          "type": "input"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "2": "GND",
+        "3": "N_3N69",
+        "4": "",
+        "5": "GND",
+        "6": "N_3N70",
+        "7": ""
+      },
+      "x": 11.565,
+      "y": 67.425,
+      "angle": 90.0,
+      "side": "F",
+      "footprint": "FP_CN1",
+      "dnp": false,
+      "uuid": "05fe536d-d064-50bd-bea9-40a6590c501f",
+      "sheet": "DAC_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/1c58c2a8-7b56-5d04-a346-b22fff709b83/05fe536d-d064-50bd-bea9-40a6590c501f"
+    },
+    "C36": {
+      "ref": "C36",
+      "value": "100nF",
+      "group": "USB",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "input"
+        },
+        "2": {
+          "name": "2",
+          "type": "input"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "VBUS_5V",
+        "2": "GND"
+      },
+      "x": 20.92,
+      "y": 64.57,
+      "angle": -90.0,
+      "side": "F",
+      "footprint": "FP_C36",
+      "dnp": false,
+      "uuid": "18d0dbf7-b553-54aa-9d67-5d68b1f90b13",
+      "sheet": "USB_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/22202af8-d9db-5d59-8595-d429cde9a71f/18d0dbf7-b553-54aa-9d67-5d68b1f90b13"
+    },
+    "R1": {
+      "ref": "R1",
+      "value": "10mΩ",
+      "group": "POWER",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "unspecified"
+        },
+        "2": {
+          "name": "2",
+          "type": "unspecified"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "GBAT",
+        "2": "GND"
+      },
+      "x": 43.526,
+      "y": 46.663,
+      "angle": 90.0,
+      "side": "F",
+      "footprint": "FP_R1",
+      "dnp": false,
+      "uuid": "7f2031c3-64a4-501b-8a03-03053eaaf9cc",
+      "sheet": "POWER_2",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/50aa9813-2abd-53f6-b6e7-140e93acc186/7f2031c3-64a4-501b-8a03-03053eaaf9cc"
+    },
+    "R37": {
+      "ref": "R37",
+      "value": "10K",
+      "group": "MCU",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "input"
+        },
+        "2": {
+          "name": "2",
+          "type": "input"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "VCC_3V3",
+        "2": "SD_D3"
+      },
+      "x": 11.522,
+      "y": 16.31,
+      "angle": 0.0,
+      "side": "B",
+      "footprint": "FP_R37",
+      "dnp": false,
+      "uuid": "61fcf10d-a523-5d17-af7f-566109332a23",
+      "sheet": "MCU_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/4f8a4c57-cd1d-5d1b-9dbb-7b39161ada8b/61fcf10d-a523-5d17-af7f-566109332a23"
+    },
+    "R38": {
+      "ref": "R38",
+      "value": "10K",
+      "group": "MCU",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "input"
+        },
+        "2": {
+          "name": "2",
+          "type": "input"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "VCC_3V3",
+        "2": "SD_D0"
+      },
+      "x": 11.522,
+      "y": 10.595,
+      "angle": 0.0,
+      "side": "B",
+      "footprint": "FP_R38",
+      "dnp": false,
+      "uuid": "ebbcba83-ed74-5e18-9466-f8ccc50196be",
+      "sheet": "MCU_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/4f8a4c57-cd1d-5d1b-9dbb-7b39161ada8b/ebbcba83-ed74-5e18-9466-f8ccc50196be"
+    },
+    "C6": {
+      "ref": "C6",
+      "value": "100nF",
+      "group": "SENSOR",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "input"
+        },
+        "2": {
+          "name": "2",
+          "type": "input"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "VCC_3V3",
+        "2": "GND"
+      },
+      "x": 29.5765,
+      "y": 47.6545,
+      "angle": 180.0,
+      "side": "B",
+      "footprint": "FP_C6",
+      "dnp": false,
+      "uuid": "27649749-2372-5d07-94d4-131618817688",
+      "sheet": "SENSOR_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/5c811816-2d0c-55aa-b616-a9ded35ca93f/27649749-2372-5d07-94d4-131618817688"
+    },
+    "C49": {
+      "ref": "C49",
+      "value": "10uF",
+      "group": "FLASH/SDCARD",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "unspecified"
+        },
+        "2": {
+          "name": "2",
+          "type": "unspecified"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "GND",
+        "2": "VCC_3V3"
+      },
+      "x": 11.903,
+      "y": 13.338,
+      "angle": -90.0,
+      "side": "B",
+      "footprint": "FP_C49",
+      "dnp": false,
+      "uuid": "8df658c7-440c-5922-b21f-f34399b7899c",
+      "sheet": "FLASH_SDCARD_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/8392b115-509d-5321-a31f-69ce946bb2f0/8df658c7-440c-5922-b21f-f34399b7899c"
+    },
+    "R6": {
+      "ref": "R6",
+      "value": "10K",
+      "group": "MCU",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "input"
+        },
+        "2": {
+          "name": "2",
+          "type": "input"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "VCC_3V3",
+        "2": "BAT_ALERT_N"
+      },
+      "x": 36.0,
+      "y": 38.0,
+      "angle": -90.0,
+      "side": "B",
+      "footprint": "FP_R6",
+      "dnp": false,
+      "uuid": "eb6a2e50-ee8a-560b-a554-ad7c2f34a1bb",
+      "sheet": "MCU_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/4f8a4c57-cd1d-5d1b-9dbb-7b39161ada8b/eb6a2e50-ee8a-560b-a554-ad7c2f34a1bb"
+    },
+    "CN3": {
+      "ref": "CN3",
+      "value": "Solder wire pads",
+      "group": "MOTOR",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "unspecified"
+        },
+        "2": {
+          "name": "2",
+          "type": "unspecified"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "MOTOR_OUT_P",
+        "2": "MOTOR_OUT_N"
+      },
+      "x": 43.78,
+      "y": 66.856,
+      "angle": 90.0,
+      "side": "B",
+      "footprint": "FP_CN3",
+      "dnp": false,
+      "uuid": "a316b45d-16a1-536b-817f-c2defb4d5260",
+      "sheet": "MOTOR_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/4994aee4-5ed7-5c11-a5c2-cef848f6f03c/a316b45d-16a1-536b-817f-c2defb4d5260"
+    },
+    "C54": {
+      "ref": "C54",
+      "value": "1uF",
+      "group": "SENSOR",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "input"
+        },
+        "2": {
+          "name": "2",
+          "type": "input"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "N_7N55",
+        "2": "GND"
+      },
+      "x": 31.3,
+      "y": 45.3,
+      "angle": -90.0,
+      "side": "B",
+      "footprint": "FP_C54",
+      "dnp": false,
+      "uuid": "67f9e225-a62a-5825-aeb1-ebd25eba995c",
+      "sheet": "SENSOR_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/5c811816-2d0c-55aa-b616-a9ded35ca93f/67f9e225-a62a-5825-aeb1-ebd25eba995c"
+    },
+    "C4": {
+      "ref": "C4",
+      "value": "1uF",
+      "group": "MOTOR",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "input"
+        },
+        "2": {
+          "name": "2",
+          "type": "input"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "GND",
+        "2": "N_5N6"
+      },
+      "x": 33.5,
+      "y": 61.999999,
+      "angle": 0.0,
+      "side": "B",
+      "footprint": "FP_C4",
+      "dnp": false,
+      "uuid": "dc783ec5-9a91-5f4a-8eed-54f768414e26",
+      "sheet": "MOTOR_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/4994aee4-5ed7-5c11-a5c2-cef848f6f03c/dc783ec5-9a91-5f4a-8eed-54f768414e26"
+    },
+    "R45": {
+      "ref": "R45",
+      "value": "10K",
+      "group": "MCU",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "input"
+        },
+        "2": {
+          "name": "2",
+          "type": "input"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "VCC_3V3",
+        "2": "TP_I2C_SCL"
+      },
+      "x": 34.0,
+      "y": 33.5,
+      "angle": -90.0,
+      "side": "B",
+      "footprint": "FP_R45",
+      "dnp": false,
+      "uuid": "e6a798e3-6b98-5514-b4cd-b61e1f4c5030",
+      "sheet": "MCU_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/4f8a4c57-cd1d-5d1b-9dbb-7b39161ada8b/e6a798e3-6b98-5514-b4cd-b61e1f4c5030"
+    },
+    "C5": {
+      "ref": "C5",
+      "value": "1uF",
+      "group": "MOTOR",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "input"
+        },
+        "2": {
+          "name": "2",
+          "type": "input"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "GND",
+        "2": "N_5N15"
+      },
+      "x": 42.0,
+      "y": 59.8,
+      "angle": -90.0,
+      "side": "B",
+      "footprint": "FP_C5",
+      "dnp": false,
+      "uuid": "7a23b404-a31a-56b9-94aa-138db28a2cfa",
+      "sheet": "MOTOR_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/4994aee4-5ed7-5c11-a5c2-cef848f6f03c/7a23b404-a31a-56b9-94aa-138db28a2cfa"
+    },
+    "C43": {
+      "ref": "C43",
+      "value": "220nF",
+      "group": "POWER",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "input"
+        },
+        "2": {
+          "name": "2",
+          "type": "input"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "VBAT",
+        "2": "GND"
+      },
+      "x": 37.938,
+      "y": 50.155,
+      "angle": -90.0,
+      "side": "B",
+      "footprint": "FP_C43",
+      "dnp": false,
+      "uuid": "b9e3437e-ab54-5c8f-834c-3c54181aec11",
+      "sheet": "POWER_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/08d876af-46c9-5434-997c-19abf8f24ffc/b9e3437e-ab54-5c8f-834c-3c54181aec11"
+    },
+    "R30": {
+      "ref": "R30",
+      "value": "10K",
+      "group": "MCU",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "input"
+        },
+        "2": {
+          "name": "2",
+          "type": "input"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "VCC_3V3",
+        "2": "AUDIO_I2C_SDA"
+      },
+      "x": 22.0,
+      "y": 34.0,
+      "angle": 180.0,
+      "side": "B",
+      "footprint": "FP_R30",
+      "dnp": false,
+      "uuid": "da97b96b-f7f2-5890-8b4f-ac73a64fab66",
+      "sheet": "MCU_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/4f8a4c57-cd1d-5d1b-9dbb-7b39161ada8b/da97b96b-f7f2-5890-8b4f-ac73a64fab66"
+    },
+    "R39": {
+      "ref": "R39",
+      "value": "10K",
+      "group": "MCU",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "input"
+        },
+        "2": {
+          "name": "2",
+          "type": "input"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "VCC_3V3",
+        "2": "SD_CMD"
+      },
+      "x": 11.522,
+      "y": 15.04,
+      "angle": 0.0,
+      "side": "B",
+      "footprint": "FP_R39",
+      "dnp": false,
+      "uuid": "c4afa1d9-4e8c-5f69-86a0-b4dbcb423f52",
+      "sheet": "MCU_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/4f8a4c57-cd1d-5d1b-9dbb-7b39161ada8b/c4afa1d9-4e8c-5f69-86a0-b4dbcb423f52"
+    },
+    "U6": {
+      "ref": "U6",
+      "value": "GEK100",
+      "group": "POWER",
+      "pins": {
+        "1": {
+          "name": "KEY",
+          "type": "input"
+        },
+        "2": {
+          "name": "GND",
+          "type": "power_in"
+        },
+        "3": {
+          "name": "RST",
+          "type": "input"
+        },
+        "4": {
+          "name": "OUTL",
+          "type": "output"
+        },
+        "5": {
+          "name": "OUTH",
+          "type": "output"
+        },
+        "6": {
+          "name": "VDD",
+          "type": "power_in"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "KEY_RAW_N",
+        "2": "GND",
+        "3": "GEK_RST",
+        "4": "",
+        "5": "PWR_3V3_EN",
+        "6": "VCC_3V3_AON"
+      },
+      "x": 26.127,
+      "y": 53.14,
+      "angle": 90.0,
+      "side": "B",
+      "footprint": "FP_U6",
+      "dnp": false,
+      "uuid": "8fc0cb85-e3af-5525-87d1-d780575f0877",
+      "sheet": "POWER_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/08d876af-46c9-5434-997c-19abf8f24ffc/8fc0cb85-e3af-5525-87d1-d780575f0877"
+    },
+    "R36": {
+      "ref": "R36",
+      "value": "10K",
+      "group": "MCU",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "input"
+        },
+        "2": {
+          "name": "2",
+          "type": "input"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "VCC_3V3",
+        "2": "SD_D2"
+      },
+      "x": 11.522,
+      "y": 17.58,
+      "angle": 0.0,
+      "side": "B",
+      "footprint": "FP_R36",
+      "dnp": false,
+      "uuid": "073d939e-cd30-5612-8660-c0c363f13ca6",
+      "sheet": "MCU_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/4f8a4c57-cd1d-5d1b-9dbb-7b39161ada8b/073d939e-cd30-5612-8660-c0c363f13ca6"
+    },
+    "U14": {
+      "ref": "U14",
+      "value": "STC3115AIQT",
+      "group": "POWER",
+      "pins": {
+        "1": {
+          "name": "ALM",
+          "type": "open_collector"
+        },
+        "2": {
+          "name": "SDA",
+          "type": "bidirectional"
+        },
+        "3": {
+          "name": "SCL",
+          "type": "input"
+        },
+        "4": {
+          "name": "NC",
+          "type": "no_connect"
+        },
+        "5": {
+          "name": "GND",
+          "type": "power_in"
+        },
+        "6": {
+          "name": "CG",
+          "type": "passive"
+        },
+        "7": {
+          "name": "RSTIO",
+          "type": "bidirectional"
+        },
+        "8": {
+          "name": "BATD/CD",
+          "type": "input"
+        },
+        "9": {
+          "name": "VCC",
+          "type": "power_in"
+        },
+        "10": {
+          "name": "VIN",
+          "type": "input"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "BAT_ALERT_N",
+        "2": "SYS_I2C_SDA",
+        "3": "SYS_I2C_SCL",
+        "4": "",
+        "5": "GND",
+        "6": "GBAT",
+        "7": "",
+        "8": "N_2N133",
+        "9": "VBAT",
+        "10": "N_2N157"
+      },
+      "x": 38.954,
+      "y": 47.107,
+      "angle": 0.0,
+      "side": "B",
+      "footprint": "FP_U14",
+      "dnp": false,
+      "uuid": "7974f234-f997-5211-8e0a-9ce03197d8f1",
+      "sheet": "POWER_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/08d876af-46c9-5434-997c-19abf8f24ffc/7974f234-f997-5211-8e0a-9ce03197d8f1"
+    },
+    "R26": {
+      "ref": "R26",
+      "value": "10K",
+      "group": "MCU",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "input"
+        },
+        "2": {
+          "name": "2",
+          "type": "input"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "VCC_3V3",
+        "2": "AUDIO_I2C_SCL"
+      },
+      "x": 20.0,
+      "y": 34.0,
+      "angle": 180.0,
+      "side": "B",
+      "footprint": "FP_R26",
+      "dnp": false,
+      "uuid": "6516bf37-540c-53da-99dd-c22ee531e377",
+      "sheet": "MCU_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/4f8a4c57-cd1d-5d1b-9dbb-7b39161ada8b/6516bf37-540c-53da-99dd-c22ee531e377"
+    },
+    "C50": {
+      "ref": "C50",
+      "value": "100nF",
+      "group": "FLASH/SDCARD",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "unspecified"
+        },
+        "2": {
+          "name": "2",
+          "type": "unspecified"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "GND",
+        "2": "VCC_3V3"
+      },
+      "x": 13.1905,
+      "y": 13.333,
+      "angle": -90.0,
+      "side": "B",
+      "footprint": "FP_C50",
+      "dnp": false,
+      "uuid": "aa385201-3745-50fd-afab-39a956fd993e",
+      "sheet": "FLASH_SDCARD_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/8392b115-509d-5321-a31f-69ce946bb2f0/aa385201-3745-50fd-afab-39a956fd993e"
+    },
+    "R7": {
+      "ref": "R7",
+      "value": "10K",
+      "group": "MCU",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "input"
+        },
+        "2": {
+          "name": "2",
+          "type": "input"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "VCC_3V3",
+        "2": "SYS_I2C_SCL"
+      },
+      "x": 39.5,
+      "y": 40.0,
+      "angle": -90.0,
+      "side": "B",
+      "footprint": "FP_R7",
+      "dnp": false,
+      "uuid": "ba3dc9d5-5a93-53eb-81da-97cf77e43d5d",
+      "sheet": "MCU_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/4f8a4c57-cd1d-5d1b-9dbb-7b39161ada8b/ba3dc9d5-5a93-53eb-81da-97cf77e43d5d"
+    },
+    "R42": {
+      "ref": "R42",
+      "value": "10K",
+      "group": "MCU",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "input"
+        },
+        "2": {
+          "name": "2",
+          "type": "input"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "RTC_INT_N",
+        "2": "VCC_3V3"
+      },
+      "x": 34.0,
+      "y": 38.0,
+      "angle": 90.0,
+      "side": "B",
+      "footprint": "FP_R42",
+      "dnp": false,
+      "uuid": "3d210316-3532-5fa1-9c66-3f520240247f",
+      "sheet": "MCU_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/4f8a4c57-cd1d-5d1b-9dbb-7b39161ada8b/3d210316-3532-5fa1-9c66-3f520240247f"
+    },
+    "C58": {
+      "ref": "C58",
+      "value": "100nF",
+      "group": "MOTOR",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "input"
+        },
+        "2": {
+          "name": "2",
+          "type": "input"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "GND",
+        "2": "N_5N15"
+      },
+      "x": 39.5,
+      "y": 59.1,
+      "angle": 180.0,
+      "side": "B",
+      "footprint": "FP_C58",
+      "dnp": false,
+      "uuid": "d4fc94e4-f27c-5826-94f4-04472d719d09",
+      "sheet": "MOTOR_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/4994aee4-5ed7-5c11-a5c2-cef848f6f03c/d4fc94e4-f27c-5826-94f4-04472d719d09"
+    },
+    "R43": {
+      "ref": "R43",
+      "value": "10K",
+      "group": "MCU",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "input"
+        },
+        "2": {
+          "name": "2",
+          "type": "input"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "VCC_3V3",
+        "2": "CHG_INT_N"
+      },
+      "x": 38.0,
+      "y": 38.0,
+      "angle": 0.0,
+      "side": "B",
+      "footprint": "FP_R43",
+      "dnp": false,
+      "uuid": "bf3fab8b-f637-539d-a9ce-9bd9e4b0b605",
+      "sheet": "MCU_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/4f8a4c57-cd1d-5d1b-9dbb-7b39161ada8b/bf3fab8b-f637-539d-a9ce-9bd9e4b0b605"
+    },
+    "C61": {
+      "ref": "C61",
+      "value": "220nF",
+      "group": "POWER",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "input"
+        },
+        "2": {
+          "name": "2",
+          "type": "input"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "N_2N157",
+        "2": "GND"
+      },
+      "x": 36.414,
+      "y": 47.564,
+      "angle": 90.0,
+      "side": "B",
+      "footprint": "FP_C61",
+      "dnp": false,
+      "uuid": "d6bd2596-8958-5f66-9c1c-e7e831a70e50",
+      "sheet": "POWER_2",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/50aa9813-2abd-53f6-b6e7-140e93acc186/d6bd2596-8958-5f66-9c1c-e7e831a70e50"
+    },
+    "R10": {
+      "ref": "R10",
+      "value": "10K",
+      "group": "MCU",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "input"
+        },
+        "2": {
+          "name": "2",
+          "type": "input"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "VCC_3V3",
+        "2": "USB_PATH_SEL"
+      },
+      "x": 29.5,
+      "y": 36.0,
+      "angle": -90.0,
+      "side": "B",
+      "footprint": "FP_R10",
+      "dnp": false,
+      "uuid": "ce06e066-4898-54a0-8c3f-6e58d9303a36",
+      "sheet": "MCU_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/4f8a4c57-cd1d-5d1b-9dbb-7b39161ada8b/ce06e066-4898-54a0-8c3f-6e58d9303a36"
+    },
+    "R25": {
+      "ref": "R25",
+      "value": "10K",
+      "group": "MCU",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "input"
+        },
+        "2": {
+          "name": "2",
+          "type": "input"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "VCC_3V3",
+        "2": "BOOT_MODE_H"
+      },
+      "x": 36.0,
+      "y": 20.0,
+      "angle": -90.0,
+      "side": "B",
+      "footprint": "FP_R25",
+      "dnp": false,
+      "uuid": "44aa5b93-9b31-55f5-84ff-955c951fe4a3",
+      "sheet": "MCU_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/4f8a4c57-cd1d-5d1b-9dbb-7b39161ada8b/44aa5b93-9b31-55f5-84ff-955c951fe4a3"
+    },
+    "C39": {
+      "ref": "C39",
+      "value": "1uF",
+      "group": "MCU",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "input"
+        },
+        "2": {
+          "name": "2",
+          "type": "input"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "CHIP_PU",
+        "2": "GND"
+      },
+      "x": 23.5,
+      "y": 11.0,
+      "angle": -90.0,
+      "side": "B",
+      "footprint": "FP_C39",
+      "dnp": false,
+      "uuid": "57c32085-76be-542f-8f62-ec56ec944662",
+      "sheet": "MCU_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/4f8a4c57-cd1d-5d1b-9dbb-7b39161ada8b/57c32085-76be-542f-8f62-ec56ec944662"
+    },
+    "C7": {
+      "ref": "C7",
+      "value": "100nF",
+      "group": "SENSOR",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "input"
+        },
+        "2": {
+          "name": "2",
+          "type": "input"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "VBAT",
+        "2": "GND"
+      },
+      "x": 32.4975,
+      "y": 47.9085,
+      "angle": 0.0,
+      "side": "B",
+      "footprint": "FP_C7",
+      "dnp": false,
+      "uuid": "099d746c-e4e6-5dff-9e0b-e71ea08d9e94",
+      "sheet": "SENSOR_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/5c811816-2d0c-55aa-b616-a9ded35ca93f/099d746c-e4e6-5dff-9e0b-e71ea08d9e94"
+    },
+    "R33": {
+      "ref": "R33",
+      "value": "1K",
+      "group": "POWER",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "input"
+        },
+        "2": {
+          "name": "2",
+          "type": "input"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "N_2N133",
+        "2": "N_2N135"
+      },
+      "x": 39.716,
+      "y": 49.901,
+      "angle": -90.0,
+      "side": "B",
+      "footprint": "FP_R33",
+      "dnp": false,
+      "uuid": "7b7efb73-ec02-59cb-9f80-d4632062519b",
+      "sheet": "POWER_2",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/50aa9813-2abd-53f6-b6e7-140e93acc186/7b7efb73-ec02-59cb-9f80-d4632062519b"
+    },
+    "R46": {
+      "ref": "R46",
+      "value": "10K",
+      "group": "MCU",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "input"
+        },
+        "2": {
+          "name": "2",
+          "type": "input"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "VCC_3V3",
+        "2": "TP_I2C_SDA"
+      },
+      "x": 36.0,
+      "y": 33.5,
+      "angle": -90.0,
+      "side": "B",
+      "footprint": "FP_R46",
+      "dnp": false,
+      "uuid": "b4153ecb-eb8f-502a-a69a-bcd309d8d3ed",
+      "sheet": "MCU_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/4f8a4c57-cd1d-5d1b-9dbb-7b39161ada8b/b4153ecb-eb8f-502a-a69a-bcd309d8d3ed"
+    },
+    "R8": {
+      "ref": "R8",
+      "value": "10K",
+      "group": "MCU",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "input"
+        },
+        "2": {
+          "name": "2",
+          "type": "input"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "VCC_3V3",
+        "2": "SYS_I2C_SDA"
+      },
+      "x": 41.0,
+      "y": 40.0,
+      "angle": -90.0,
+      "side": "B",
+      "footprint": "FP_R8",
+      "dnp": false,
+      "uuid": "634854cc-b51b-5d7f-b0d5-b91f3c0ab91d",
+      "sheet": "MCU_2",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/651b5cd9-1ac7-5dd5-b810-d29b769b36ca/634854cc-b51b-5d7f-b0d5-b91f3c0ab91d"
+    },
+    "R34": {
+      "ref": "R34",
+      "value": "0R",
+      "group": "POWER",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "input"
+        },
+        "2": {
+          "name": "2",
+          "type": "input"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "GBAT",
+        "2": "N_2N135"
+      },
+      "x": 41.113,
+      "y": 49.901,
+      "angle": -90.0,
+      "side": "B",
+      "footprint": "FP_R34",
+      "dnp": false,
+      "uuid": "83bc0556-f886-5ef6-ac7d-109625e00822",
+      "sheet": "POWER_2",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/50aa9813-2abd-53f6-b6e7-140e93acc186/83bc0556-f886-5ef6-ac7d-109625e00822"
+    },
+    "R29": {
+      "ref": "R29",
+      "value": "10K",
+      "group": "MCU",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "input"
+        },
+        "2": {
+          "name": "2",
+          "type": "input"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "CHIP_PU",
+        "2": "VCC_3V3"
+      },
+      "x": 22.0,
+      "y": 11.0,
+      "angle": -90.0,
+      "side": "B",
+      "footprint": "FP_R29",
+      "dnp": false,
+      "uuid": "2369ffb6-49a4-5aa1-bd9b-ccfffe6cd8ae",
+      "sheet": "MCU_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/4f8a4c57-cd1d-5d1b-9dbb-7b39161ada8b/2369ffb6-49a4-5aa1-bd9b-ccfffe6cd8ae"
+    },
+    "CN2": {
+      "ref": "CN2",
+      "value": "Solder wire pads",
+      "group": "POWER",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "unspecified"
+        },
+        "2": {
+          "name": "2",
+          "type": "unspecified"
+        },
+        "3": {
+          "name": "3",
+          "type": "unspecified"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "VBAT",
+        "2": "BAT_TS",
+        "3": "GBAT"
+      },
+      "x": 43.653,
+      "y": 52.632,
+      "angle": 90.0,
+      "side": "B",
+      "footprint": "FP_CN2",
+      "dnp": false,
+      "uuid": "38510194-ed36-5153-a8f1-5ebf5d8d4e9e",
+      "sheet": "POWER_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/08d876af-46c9-5434-997c-19abf8f24ffc/38510194-ed36-5153-a8f1-5ebf5d8d4e9e"
+    },
+    "R44": {
+      "ref": "R44",
+      "value": "10K",
+      "group": "MCU",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "input"
+        },
+        "2": {
+          "name": "2",
+          "type": "input"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "GND",
+        "2": "MOTOR_EN"
+      },
+      "x": 39.0,
+      "y": 57.5,
+      "angle": 0.0,
+      "side": "B",
+      "footprint": "FP_R44",
+      "dnp": false,
+      "uuid": "dd1799d1-a73a-5b55-8888-4261b3ea67fe",
+      "sheet": "MCU_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/4f8a4c57-cd1d-5d1b-9dbb-7b39161ada8b/dd1799d1-a73a-5b55-8888-4261b3ea67fe"
+    },
+    "C53": {
+      "ref": "C53",
+      "value": "100nF",
+      "group": "SENSOR",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "input"
+        },
+        "2": {
+          "name": "2",
+          "type": "input"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "VCC_3V3",
+        "2": "GND"
+      },
+      "x": 30.199999,
+      "y": 43.3,
+      "angle": 90.0,
+      "side": "B",
+      "footprint": "FP_C53",
+      "dnp": false,
+      "uuid": "1d5b6f3f-f10d-5b95-bd13-c61528da76aa",
+      "sheet": "SENSOR_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/5c811816-2d0c-55aa-b616-a9ded35ca93f/1d5b6f3f-f10d-5b95-bd13-c61528da76aa"
+    },
+    "L3": {
+      "ref": "L3",
+      "value": "BLM18KG601SN1D",
+      "group": "MOTOR",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "unspecified"
+        },
+        "2": {
+          "name": "2",
+          "type": "unspecified"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "N_5N15",
+        "2": "VCC_PMID"
+      },
+      "x": 42.0,
+      "y": 57.8,
+      "angle": 0.0,
+      "side": "B",
+      "footprint": "FP_L3",
+      "dnp": false,
+      "uuid": "81a7eacd-0982-51d9-9cc8-c5997a85519e",
+      "sheet": "MOTOR_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/4994aee4-5ed7-5c11-a5c2-cef848f6f03c/81a7eacd-0982-51d9-9cc8-c5997a85519e"
+    },
+    "R22": {
+      "ref": "R22",
+      "value": "10K",
+      "group": "MCU",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "input"
+        },
+        "2": {
+          "name": "2",
+          "type": "input"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "GND",
+        "2": "USB_PATH_SEL"
+      },
+      "x": 28.0,
+      "y": 36.0,
+      "angle": -90.0,
+      "side": "B",
+      "footprint": "FP_R22",
+      "dnp": false,
+      "uuid": "393bee0e-d64a-56bf-8ca0-fb0a70323dca",
+      "sheet": "MCU_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/4f8a4c57-cd1d-5d1b-9dbb-7b39161ada8b/393bee0e-d64a-56bf-8ca0-fb0a70323dca"
+    },
+    "C3": {
+      "ref": "C3",
+      "value": "100nF",
+      "group": "POWER",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "input"
+        },
+        "2": {
+          "name": "2",
+          "type": "input"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "GND",
+        "2": "VCC"
+      },
+      "x": 28.997,
+      "y": 54.486,
+      "angle": 90.0,
+      "side": "B",
+      "footprint": "FP_C3",
+      "dnp": false,
+      "uuid": "50a93e84-5b3e-510d-99e6-3331c582d008",
+      "sheet": "POWER_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/08d876af-46c9-5434-997c-19abf8f24ffc/50a93e84-5b3e-510d-99e6-3331c582d008"
+    },
+    "R35": {
+      "ref": "R35",
+      "value": "10K",
+      "group": "MCU",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "input"
+        },
+        "2": {
+          "name": "2",
+          "type": "input"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "VCC_3V3",
+        "2": "SD_D1"
+      },
+      "x": 11.522,
+      "y": 9.325,
+      "angle": 0.0,
+      "side": "B",
+      "footprint": "FP_R35",
+      "dnp": false,
+      "uuid": "3c28f82e-947a-5455-9180-88f6fad1af6d",
+      "sheet": "MCU_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/4f8a4c57-cd1d-5d1b-9dbb-7b39161ada8b/3c28f82e-947a-5455-9180-88f6fad1af6d"
+    },
+    "U1": {
+      "ref": "U1",
+      "value": "RX8130CE:BB",
+      "group": "SENSOR",
+      "pins": {
+        "1": {
+          "name": "Vio",
+          "type": "power_in"
+        },
+        "2": {
+          "name": "SCL",
+          "type": "input"
+        },
+        "3": {
+          "name": "SDA",
+          "type": "bidirectional"
+        },
+        "4": {
+          "name": "FOUT",
+          "type": "passive"
+        },
+        "5": {
+          "name": "#RST",
+          "type": "passive"
+        },
+        "6": {
+          "name": "#IRQ",
+          "type": "open_collector"
+        },
+        "7": {
+          "name": "GND",
+          "type": "power_in"
+        },
+        "8": {
+          "name": "VDD",
+          "type": "power_in"
+        },
+        "9": {
+          "name": "VOUT",
+          "type": "power_out"
+        },
+        "10": {
+          "name": "VBAT",
+          "type": "power_in"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "VCC_3V3",
+        "2": "SYS_I2C_SCL",
+        "3": "SYS_I2C_SDA",
+        "4": "",
+        "5": "",
+        "6": "RTC_INT_N",
+        "7": "GND",
+        "8": "VCC_3V3",
+        "9": "N_7N55",
+        "10": "VBAT"
+      },
+      "x": 27.0,
+      "y": 44.683,
+      "angle": 0.0,
+      "side": "B",
+      "footprint": "FP_U1",
+      "dnp": false,
+      "uuid": "ba71faa8-265a-5940-98ed-5ab35d1fa117",
+      "sheet": "SENSOR_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/5c811816-2d0c-55aa-b616-a9ded35ca93f/ba71faa8-265a-5940-98ed-5ab35d1fa117"
+    },
+    "FPC1": {
+      "ref": "FPC1",
+      "value": "HC-FPC-05-10-12RLTAG",
+      "group": "TOUCH_WHEEL",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "unspecified"
+        },
+        "2": {
+          "name": "2",
+          "type": "unspecified"
+        },
+        "3": {
+          "name": "3",
+          "type": "unspecified"
+        },
+        "4": {
+          "name": "4",
+          "type": "unspecified"
+        },
+        "5": {
+          "name": "5",
+          "type": "unspecified"
+        },
+        "6": {
+          "name": "6",
+          "type": "unspecified"
+        },
+        "7": {
+          "name": "7",
+          "type": "unspecified"
+        },
+        "8": {
+          "name": "8",
+          "type": "unspecified"
+        },
+        "9": {
+          "name": "9",
+          "type": "unspecified"
+        },
+        "10": {
+          "name": "10",
+          "type": "unspecified"
+        },
+        "11": {
+          "name": "11",
+          "type": "unspecified"
+        },
+        "12": {
+          "name": "12",
+          "type": "unspecified"
+        },
+        "13": {
+          "name": "13",
+          "type": "unspecified"
+        },
+        "14": {
+          "name": "14",
+          "type": "unspecified"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "GND",
+        "2": "VCC_3V3_AON",
+        "3": "CTRL_SDA_AON",
+        "4": "CTRL_SCL_AON",
+        "5": "CTRL_INT_AON_N",
+        "6": "CTRL_RESET_AON_N",
+        "7": "",
+        "8": "",
+        "9": "",
+        "10": "",
+        "11": "KEY_RAW_N",
+        "12": "GND",
+        "13": "GND",
+        "14": "GND"
+      },
+      "x": 20.031,
+      "y": 49.711,
+      "angle": -90.0,
+      "side": "B",
+      "footprint": "FP_FPC1",
+      "dnp": false,
+      "uuid": "83def182-8aa8-56b4-91d7-f694ce728277",
+      "sheet": "TOUCH_WHEEL_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/b60f9863-8038-5bfb-a5dc-4f358abe5512/83def182-8aa8-56b4-91d7-f694ce728277"
+    },
+    "R20": {
+      "ref": "R20",
+      "value": "10K",
+      "group": "MCU",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "input"
+        },
+        "2": {
+          "name": "2",
+          "type": "input"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "VCC_3V3",
+        "2": "BOOT_DOWNLOAD_N"
+      },
+      "x": 34.0,
+      "y": 20.0,
+      "angle": -90.0,
+      "side": "B",
+      "footprint": "FP_R20",
+      "dnp": false,
+      "uuid": "5a3e65ba-951e-5358-a73b-92f107ccbc51",
+      "sheet": "MCU_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/4f8a4c57-cd1d-5d1b-9dbb-7b39161ada8b/5a3e65ba-951e-5358-a73b-92f107ccbc51"
+    },
+    "R2": {
+      "ref": "R2",
+      "value": "1K",
+      "group": "POWER",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "input"
+        },
+        "2": {
+          "name": "2",
+          "type": "input"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "N_2N157",
+        "2": "VBAT"
+      },
+      "x": 36.414,
+      "y": 50.155,
+      "angle": 90.0,
+      "side": "B",
+      "footprint": "FP_R2",
+      "dnp": false,
+      "uuid": "9c849a1d-3f09-5e28-9d21-590487258505",
+      "sheet": "POWER_2",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/50aa9813-2abd-53f6-b6e7-140e93acc186/9c849a1d-3f09-5e28-9d21-590487258505"
+    },
+    "C59": {
+      "ref": "C59",
+      "value": "100nF",
+      "group": "TOUCH_WHEEL",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "input"
+        },
+        "2": {
+          "name": "2",
+          "type": "input"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "VCC_3V3",
+        "2": "GND"
+      },
+      "x": 23.917,
+      "y": 46.8915,
+      "angle": 90.0,
+      "side": "B",
+      "footprint": "FP_C59",
+      "dnp": false,
+      "uuid": "55316859-838a-5b45-83cf-a264eaf0f482",
+      "sheet": "TOUCH_WHEEL_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/b60f9863-8038-5bfb-a5dc-4f358abe5512/55316859-838a-5b45-83cf-a264eaf0f482"
+    },
+    "U11": {
+      "ref": "U11",
+      "value": "DRV2605LDGSR",
+      "group": "MOTOR",
+      "pins": {
+        "1": {
+          "name": "REG",
+          "type": "power_out"
+        },
+        "2": {
+          "name": "SCL",
+          "type": "input"
+        },
+        "3": {
+          "name": "SDA",
+          "type": "bidirectional"
+        },
+        "4": {
+          "name": "IN/TRIG",
+          "type": "input"
+        },
+        "5": {
+          "name": "EN",
+          "type": "input"
+        },
+        "6": {
+          "name": "VDD/NC",
+          "type": "power_in"
+        },
+        "7": {
+          "name": "OUT+",
+          "type": "output"
+        },
+        "8": {
+          "name": "GND",
+          "type": "power_in"
+        },
+        "9": {
+          "name": "OUT-",
+          "type": "output"
+        },
+        "10": {
+          "name": "VDD",
+          "type": "power_in"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "N_5N6",
+        "2": "SYS_I2C_SCL",
+        "3": "SYS_I2C_SDA",
+        "4": "GND",
+        "5": "MOTOR_EN",
+        "6": "N_5N15",
+        "7": "MOTOR_OUT_P",
+        "8": "GND",
+        "9": "MOTOR_OUT_N",
+        "10": "N_5N15"
+      },
+      "x": 38.0,
+      "y": 61.999999,
+      "angle": 90.0,
+      "side": "B",
+      "footprint": "FP_U11",
+      "dnp": false,
+      "uuid": "cd3033f0-0a31-57c3-9118-8cc54bbd6d48",
+      "sheet": "MOTOR_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/4994aee4-5ed7-5c11-a5c2-cef848f6f03c/cd3033f0-0a31-57c3-9118-8cc54bbd6d48"
+    },
+    "D1": {
+      "ref": "D1",
+      "value": "USBLC6-2SC6",
+      "group": "USB",
+      "pins": {
+        "1": {
+          "name": "I/O1",
+          "type": "unspecified"
+        },
+        "2": {
+          "name": "GND",
+          "type": "unspecified"
+        },
+        "3": {
+          "name": "I/O2",
+          "type": "unspecified"
+        },
+        "4": {
+          "name": "I/O2",
+          "type": "unspecified"
+        },
+        "5": {
+          "name": "VBUS",
+          "type": "unspecified"
+        },
+        "6": {
+          "name": "I/O1",
+          "type": "unspecified"
+        }
+      },
+      "source": "V1 PCB connectivity / original schematic pin names",
+      "nets": {
+        "1": "TYPEC_USB_DP_IN",
+        "2": "GND",
+        "3": "TYPEC_USB_DN_IN",
+        "4": "TYPEC_USB_DN",
+        "5": "VBUS_5V",
+        "6": "TYPEC_USB_DP"
+      },
+      "x": 34.449999,
+      "y": 65.999999,
+      "angle": 180.0,
+      "side": "B",
+      "footprint": "FP_D1",
+      "dnp": false,
+      "uuid": "703c45eb-4df1-5ac9-b68b-45ea7582506b",
+      "sheet": "USB_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/22202af8-d9db-5d59-8595-d429cde9a71f/703c45eb-4df1-5ac9-b68b-45ea7582506b"
+    },
+    "C115": {
+      "ref": "C115",
+      "value": "10uF",
+      "group": "CORE",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      },
+      "source": "Espressif WROOM-3 V1.2 reference C15",
+      "nets": {
+        "1": "VCC_3V3",
+        "2": "GND"
+      },
+      "x": 30.09232,
+      "y": 8.683208,
+      "angle": -135.0,
+      "side": "F",
+      "footprint": "FP_C115",
+      "dnp": false,
+      "uuid": "bdb829ca-bee6-57db-a76c-1868957f2a4d",
+      "sheet": "CORE_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/437b37ae-8468-57e1-8f28-1312d14b2e2a/bdb829ca-bee6-57db-a76c-1868957f2a4d"
+    },
+    "L102": {
+      "ref": "L102",
+      "value": "3.9nH",
+      "group": "CORE_RF",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      },
+      "source": "Espressif WROOM-3 V1.2 reference L2",
+      "nets": {
+        "1": "RF_STAGE2",
+        "2": "GND"
+      },
+      "x": 33.791826,
+      "y": 8.798515,
+      "angle": 45.0,
+      "side": "F",
+      "footprint": "FP_L102",
+      "dnp": false,
+      "uuid": "adceecbf-7576-5507-9786-0acc775c647c",
+      "sheet": "CORE_RF_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/c3357dd9-8a79-542e-8100-3a8333b58df6/adceecbf-7576-5507-9786-0acc775c647c"
+    },
+    "R108": {
+      "ref": "R108",
+      "value": "0R",
+      "group": "CORE",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      },
+      "source": "Espressif WROOM-3 V1.2 reference R8",
+      "nets": {
+        "1": "MCU_USB_HS_DM",
+        "2": "USB_HS_DM"
+      },
+      "x": 28.475153,
+      "y": 22.336068,
+      "angle": -90.0,
+      "side": "F",
+      "footprint": "FP_R108",
+      "dnp": false,
+      "uuid": "9acfc7f5-9437-5e81-91fc-75de766c5351",
+      "sheet": "CORE_2",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/de8f9ca8-d010-585d-b133-f7fca87db685/9acfc7f5-9437-5e81-91fc-75de766c5351"
+    },
+    "R101": {
+      "ref": "R101",
+      "value": "0R",
+      "group": "CORE",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      },
+      "source": "Espressif WROOM-3 V1.2 reference R1",
+      "nets": {
+        "1": "MCU_FLASH_D1",
+        "2": "FLASH_D1"
+      },
+      "x": 24.775474,
+      "y": 19.76225,
+      "angle": 180.0,
+      "side": "F",
+      "footprint": "FP_R101",
+      "dnp": false,
+      "uuid": "b50af9d4-35cc-5965-b955-a38850a91ad6",
+      "sheet": "CORE_2",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/de8f9ca8-d010-585d-b133-f7fca87db685/b50af9d4-35cc-5965-b955-a38850a91ad6"
+    },
+    "C116": {
+      "ref": "C116",
+      "value": "1uF",
+      "group": "CORE",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      },
+      "source": "Espressif WROOM-3 V1.2 reference C16",
+      "nets": {
+        "1": "VCC_3V3",
+        "2": "GND"
+      },
+      "x": 30.746083,
+      "y": 9.304642,
+      "angle": -135.0,
+      "side": "F",
+      "footprint": "FP_C116",
+      "dnp": false,
+      "uuid": "6164f4e8-df6e-56a5-863e-32a6e68d7752",
+      "sheet": "CORE_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/437b37ae-8468-57e1-8f28-1312d14b2e2a/6164f4e8-df6e-56a5-863e-32a6e68d7752"
+    },
+    "C102": {
+      "ref": "C102",
+      "value": "27pF",
+      "group": "CORE",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      },
+      "source": "Espressif WROOM-3 V1.2 reference C2",
+      "nets": {
+        "1": "XTAL_N",
+        "2": "GND"
+      },
+      "x": 37.330606,
+      "y": 16.561863,
+      "angle": 180.0,
+      "side": "F",
+      "footprint": "FP_C102",
+      "dnp": false,
+      "uuid": "a7fd975e-1394-5ef6-85ca-bb7e1ba9816c",
+      "sheet": "CORE_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/437b37ae-8468-57e1-8f28-1312d14b2e2a/a7fd975e-1394-5ef6-85ca-bb7e1ba9816c"
+    },
+    "C108": {
+      "ref": "C108",
+      "value": "DNP",
+      "group": "CORE_RF",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      },
+      "source": "Espressif WROOM-3 V1.2 reference C8",
+      "nets": {
+        "1": "RF_STAGE2",
+        "2": "GND"
+      },
+      "x": 32.347868,
+      "y": 7.354677,
+      "angle": 45.0,
+      "side": "F",
+      "footprint": "FP_C108",
+      "dnp": true,
+      "uuid": "584fa175-e2e9-5435-a034-e9a600696768",
+      "sheet": "CORE_RF_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/c3357dd9-8a79-542e-8100-3a8333b58df6/584fa175-e2e9-5435-a034-e9a600696768"
+    },
+    "L103": {
+      "ref": "L103",
+      "value": "24nH LQP03TN24NH02D",
+      "group": "CORE",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      },
+      "source": "Espressif WROOM-3 V1.2 reference L3",
+      "nets": {
+        "1": "MCU_XTAL_P",
+        "2": "XTAL_P"
+      },
+      "x": 35.011295,
+      "y": 14.150169,
+      "angle": 0.0,
+      "side": "F",
+      "footprint": "FP_L103",
+      "dnp": false,
+      "uuid": "2d6c9274-43d4-5308-bd45-fc0c74589162",
+      "sheet": "CORE_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/437b37ae-8468-57e1-8f28-1312d14b2e2a/2d6c9274-43d4-5308-bd45-fc0c74589162"
+    },
+    "C103": {
+      "ref": "C103",
+      "value": "1.5pF",
+      "group": "CORE_RF",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      },
+      "source": "Espressif WROOM-3 V1.2 reference C3",
+      "nets": {
+        "1": "RF_CHIP",
+        "2": "GND"
+      },
+      "x": 34.047872,
+      "y": 12.281492,
+      "angle": -45.0,
+      "side": "F",
+      "footprint": "FP_C103",
+      "dnp": false,
+      "uuid": "583c8c46-1a27-55ea-a5fd-f386a9682f20",
+      "sheet": "CORE_RF_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/c3357dd9-8a79-542e-8100-3a8333b58df6/583c8c46-1a27-55ea-a5fd-f386a9682f20"
+    },
+    "C120": {
+      "ref": "C120",
+      "value": "100nF",
+      "group": "CORE",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      },
+      "source": "Espressif WROOM-3 V1.2 reference C20",
+      "nets": {
+        "1": "MCU_1V8",
+        "2": "GND"
+      },
+      "x": 24.974649,
+      "y": 16.507882,
+      "angle": 180.0,
+      "side": "F",
+      "footprint": "FP_C120",
+      "dnp": false,
+      "uuid": "8ab130fe-a726-5202-aab6-b09d145e10b7",
+      "sheet": "CORE_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/437b37ae-8468-57e1-8f28-1312d14b2e2a/8ab130fe-a726-5202-aab6-b09d145e10b7"
+    },
+    "C107": {
+      "ref": "C107",
+      "value": "1.3pF",
+      "group": "CORE_RF",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      },
+      "source": "Espressif WROOM-3 V1.2 reference C7",
+      "nets": {
+        "1": "RF_STAGE2",
+        "2": "RF_STAGE1"
+      },
+      "x": 34.214976,
+      "y": 9.575127,
+      "angle": -45.0,
+      "side": "F",
+      "footprint": "FP_C107",
+      "dnp": false,
+      "uuid": "16f20f3e-f8d6-5a57-a919-d73f3470fc14",
+      "sheet": "CORE_RF_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/c3357dd9-8a79-542e-8100-3a8333b58df6/16f20f3e-f8d6-5a57-a919-d73f3470fc14"
+    },
+    "R102": {
+      "ref": "R102",
+      "value": "0R",
+      "group": "CORE",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      },
+      "source": "Espressif WROOM-3 V1.2 reference R2",
+      "nets": {
+        "1": "MCU_FLASH_D2",
+        "2": "FLASH_D2"
+      },
+      "x": 24.775474,
+      "y": 20.39725,
+      "angle": 180.0,
+      "side": "F",
+      "footprint": "FP_R102",
+      "dnp": false,
+      "uuid": "6aefc49b-9ecd-52b7-b8ae-a60f5cb37d20",
+      "sheet": "CORE_2",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/de8f9ca8-d010-585d-b133-f7fca87db685/6aefc49b-9ecd-52b7-b8ae-a60f5cb37d20"
+    },
+    "C125": {
+      "ref": "C125",
+      "value": "100nF",
+      "group": "CORE",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      },
+      "source": "Espressif WROOM-3 V1.2 reference C25",
+      "nets": {
+        "1": "VCC_3V3",
+        "2": "GND"
+      },
+      "x": 35.115154,
+      "y": 19.492919,
+      "angle": -45.0,
+      "side": "F",
+      "footprint": "FP_C125",
+      "dnp": false,
+      "uuid": "48bc88ff-12bd-5b1a-a161-e66d8a531db5",
+      "sheet": "CORE_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/437b37ae-8468-57e1-8f28-1312d14b2e2a/48bc88ff-12bd-5b1a-a161-e66d8a531db5"
+    },
+    "R103": {
+      "ref": "R103",
+      "value": "0R",
+      "group": "CORE",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      },
+      "source": "Espressif WROOM-3 V1.2 reference R3",
+      "nets": {
+        "1": "MCU_FLASH_D3",
+        "2": "FLASH_D3"
+      },
+      "x": 25.287847,
+      "y": 22.151075,
+      "angle": -90.0,
+      "side": "F",
+      "footprint": "FP_R103",
+      "dnp": false,
+      "uuid": "60780755-f9c0-5cd9-987c-6e1837586a52",
+      "sheet": "CORE_2",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/de8f9ca8-d010-585d-b133-f7fca87db685/60780755-f9c0-5cd9-987c-6e1837586a52"
+    },
+    "C110": {
+      "ref": "C110",
+      "value": "10uF",
+      "group": "CORE",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      },
+      "source": "Espressif WROOM-3 V1.2 reference C10",
+      "nets": {
+        "1": "VCC_3V3",
+        "2": "GND"
+      },
+      "x": 26.63115,
+      "y": 7.057602,
+      "angle": -135.0,
+      "side": "F",
+      "footprint": "FP_C110",
+      "dnp": false,
+      "uuid": "7a49f8bb-f918-54e9-ae67-23fb31a9812a",
+      "sheet": "CORE_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/437b37ae-8468-57e1-8f28-1312d14b2e2a/7a49f8bb-f918-54e9-ae67-23fb31a9812a"
+    },
+    "C122": {
+      "ref": "C122",
+      "value": "100nF",
+      "group": "CORE",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      },
+      "source": "Espressif WROOM-3 V1.2 reference C22",
+      "nets": {
+        "1": "MCU_1V8",
+        "2": "GND"
+      },
+      "x": 24.953817,
+      "y": 18.746842,
+      "angle": 180.0,
+      "side": "F",
+      "footprint": "FP_C122",
+      "dnp": false,
+      "uuid": "f6d5be4c-3524-536c-b1c3-e90a5f42a381",
+      "sheet": "CORE_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/437b37ae-8468-57e1-8f28-1312d14b2e2a/f6d5be4c-3524-536c-b1c3-e90a5f42a381"
+    },
+    "C105": {
+      "ref": "C105",
+      "value": "1uF",
+      "group": "CORE",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      },
+      "source": "Espressif WROOM-3 V1.2 reference C5",
+      "nets": {
+        "1": "VCC_3V3",
+        "2": "GND"
+      },
+      "x": 35.118354,
+      "y": 15.0188,
+      "angle": 0.0,
+      "side": "F",
+      "footprint": "FP_C105",
+      "dnp": false,
+      "uuid": "735461ee-9153-588f-9b54-ecc201ef1431",
+      "sheet": "CORE_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/437b37ae-8468-57e1-8f28-1312d14b2e2a/735461ee-9153-588f-9b54-ecc201ef1431"
+    },
+    "R110": {
+      "ref": "R110",
+      "value": "10k",
+      "group": "CORE",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      },
+      "source": "Espressif WROOM-3 V1.2 reference R10",
+      "nets": {
+        "1": "STRAP_FLASH_3V3",
+        "2": "VCC_3V3"
+      },
+      "x": 29.821116,
+      "y": 22.690612,
+      "angle": -90.0,
+      "side": "F",
+      "footprint": "FP_R110",
+      "dnp": false,
+      "uuid": "a7fbb7df-e561-5247-839a-aaa8e6a65433",
+      "sheet": "CORE_2",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/de8f9ca8-d010-585d-b133-f7fca87db685/a7fbb7df-e561-5247-839a-aaa8e6a65433"
+    },
+    "C118": {
+      "ref": "C118",
+      "value": "100nF",
+      "group": "CORE",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      },
+      "source": "Espressif WROOM-3 V1.2 reference C18",
+      "nets": {
+        "1": "MCU_VDDA34",
+        "2": "GND"
+      },
+      "x": 32.811475,
+      "y": 11.606274,
+      "angle": 45.0,
+      "side": "F",
+      "footprint": "FP_C118",
+      "dnp": false,
+      "uuid": "e8891009-d188-5855-9133-c92a3fae1fb8",
+      "sheet": "CORE_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/437b37ae-8468-57e1-8f28-1312d14b2e2a/e8891009-d188-5855-9133-c92a3fae1fb8"
+    },
+    "L101": {
+      "ref": "L101",
+      "value": "2.4nH",
+      "group": "CORE_RF",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      },
+      "source": "Espressif WROOM-3 V1.2 reference L1",
+      "nets": {
+        "1": "RF_STAGE1",
+        "2": "RF_CHIP"
+      },
+      "x": 34.385693,
+      "y": 11.339152,
+      "angle": -90.0,
+      "side": "F",
+      "footprint": "FP_L101",
+      "dnp": false,
+      "uuid": "d8c2503d-3d9d-5c25-9acf-e6a36dae0e1f",
+      "sheet": "CORE_RF_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/c3357dd9-8a79-542e-8100-3a8333b58df6/d8c2503d-3d9d-5c25-9acf-e6a36dae0e1f"
+    },
+    "U9": {
+      "ref": "U9",
+      "value": "ESP32-S31NRV16",
+      "group": "CORE",
+      "pins": {
+        "1": {
+          "name": "ANT",
+          "type": "bidirectional"
+        },
+        "2": {
+          "name": "VDDA3",
+          "type": "power_in"
+        },
+        "3": {
+          "name": "VDDA4",
+          "type": "power_in"
+        },
+        "4": {
+          "name": "CHIP_PU",
+          "type": "bidirectional"
+        },
+        "5": {
+          "name": "XTAL_32K_N/GPIO0",
+          "type": "bidirectional"
+        },
+        "6": {
+          "name": "XTAL_32K_P/GPIO1",
+          "type": "bidirectional"
+        },
+        "7": {
+          "name": "GPIO2",
+          "type": "bidirectional"
+        },
+        "8": {
+          "name": "GPIO3",
+          "type": "bidirectional"
+        },
+        "9": {
+          "name": "GPIO4",
+          "type": "bidirectional"
+        },
+        "10": {
+          "name": "GPIO5",
+          "type": "bidirectional"
+        },
+        "11": {
+          "name": "VDDPST_1",
+          "type": "power_in"
+        },
+        "12": {
+          "name": "GPIO6",
+          "type": "bidirectional"
+        },
+        "13": {
+          "name": "GPIO7",
+          "type": "bidirectional"
+        },
+        "14": {
+          "name": "GPIO8",
+          "type": "bidirectional"
+        },
+        "15": {
+          "name": "GPIO9",
+          "type": "bidirectional"
+        },
+        "16": {
+          "name": "GPIO10",
+          "type": "bidirectional"
+        },
+        "17": {
+          "name": "GPIO11",
+          "type": "bidirectional"
+        },
+        "18": {
+          "name": "VREF_TOUCH",
+          "type": "bidirectional"
+        },
+        "19": {
+          "name": "GPIO12",
+          "type": "bidirectional"
+        },
+        "20": {
+          "name": "GPIO13",
+          "type": "bidirectional"
+        },
+        "21": {
+          "name": "GPIO14",
+          "type": "bidirectional"
+        },
+        "22": {
+          "name": "GPIO15",
+          "type": "bidirectional"
+        },
+        "23": {
+          "name": "GPIO16",
+          "type": "bidirectional"
+        },
+        "24": {
+          "name": "GPIO17",
+          "type": "bidirectional"
+        },
+        "25": {
+          "name": "GPIO18",
+          "type": "bidirectional"
+        },
+        "26": {
+          "name": "GPIO19",
+          "type": "bidirectional"
+        },
+        "27": {
+          "name": "SDIO_DATA0",
+          "type": "bidirectional"
+        },
+        "28": {
+          "name": "SDIO_DATA1",
+          "type": "bidirectional"
+        },
+        "29": {
+          "name": "SDIO_DATA2",
+          "type": "bidirectional"
+        },
+        "30": {
+          "name": "VDD_PSRAM_1P8_1",
+          "type": "power_in"
+        },
+        "31": {
+          "name": "SDIO_DATA3",
+          "type": "bidirectional"
+        },
+        "32": {
+          "name": "SDIO_CLK",
+          "type": "bidirectional"
+        },
+        "33": {
+          "name": "SDIO_CMD",
+          "type": "bidirectional"
+        },
+        "34": {
+          "name": "VDD_PSRAM_1P8_2",
+          "type": "power_in"
+        },
+        "35": {
+          "name": "VDD_LDO_1P8",
+          "type": "power_in"
+        },
+        "36": {
+          "name": "SPICS",
+          "type": "bidirectional"
+        },
+        "37": {
+          "name": "SPIQ",
+          "type": "bidirectional"
+        },
+        "38": {
+          "name": "SPIWP",
+          "type": "bidirectional"
+        },
+        "39": {
+          "name": "VDD_SPI",
+          "type": "power_in"
+        },
+        "40": {
+          "name": "SPIHD",
+          "type": "bidirectional"
+        },
+        "41": {
+          "name": "SPICLK",
+          "type": "bidirectional"
+        },
+        "42": {
+          "name": "SPID",
+          "type": "bidirectional"
+        },
+        "43": {
+          "name": "VCCA/VDDPST_2",
+          "type": "power_in"
+        },
+        "44": {
+          "name": "USB_DP",
+          "type": "bidirectional"
+        },
+        "45": {
+          "name": "USB_DM",
+          "type": "bidirectional"
+        },
+        "46": {
+          "name": "GPIO33",
+          "type": "bidirectional"
+        },
+        "47": {
+          "name": "GPIO34",
+          "type": "bidirectional"
+        },
+        "48": {
+          "name": "GPIO35",
+          "type": "bidirectional"
+        },
+        "49": {
+          "name": "GPIO36",
+          "type": "bidirectional"
+        },
+        "50": {
+          "name": "GPIO37",
+          "type": "bidirectional"
+        },
+        "51": {
+          "name": "GPIO38",
+          "type": "bidirectional"
+        },
+        "52": {
+          "name": "GPIO39",
+          "type": "bidirectional"
+        },
+        "53": {
+          "name": "GPIO40",
+          "type": "bidirectional"
+        },
+        "54": {
+          "name": "VDDPST_3",
+          "type": "power_in"
+        },
+        "55": {
+          "name": "GPIO42",
+          "type": "bidirectional"
+        },
+        "56": {
+          "name": "GPIO43",
+          "type": "bidirectional"
+        },
+        "57": {
+          "name": "GPIO44",
+          "type": "bidirectional"
+        },
+        "58": {
+          "name": "GPIO45",
+          "type": "bidirectional"
+        },
+        "59": {
+          "name": "GPIO46",
+          "type": "bidirectional"
+        },
+        "60": {
+          "name": "GPIO47",
+          "type": "bidirectional"
+        },
+        "61": {
+          "name": "GPIO48",
+          "type": "bidirectional"
+        },
+        "62": {
+          "name": "GPIO49",
+          "type": "bidirectional"
+        },
+        "63": {
+          "name": "VREF_ADC",
+          "type": "bidirectional"
+        },
+        "64": {
+          "name": "VDDPST_4",
+          "type": "power_in"
+        },
+        "65": {
+          "name": "GPIO50",
+          "type": "bidirectional"
+        },
+        "66": {
+          "name": "GPIO51",
+          "type": "bidirectional"
+        },
+        "67": {
+          "name": "GPIO52",
+          "type": "bidirectional"
+        },
+        "68": {
+          "name": "GPIO53",
+          "type": "bidirectional"
+        },
+        "69": {
+          "name": "MTDO",
+          "type": "bidirectional"
+        },
+        "70": {
+          "name": "MTCK",
+          "type": "bidirectional"
+        },
+        "71": {
+          "name": "MTDI",
+          "type": "bidirectional"
+        },
+        "72": {
+          "name": "MTMS",
+          "type": "bidirectional"
+        },
+        "73": {
+          "name": "GPIO58",
+          "type": "bidirectional"
+        },
+        "74": {
+          "name": "GPIO59",
+          "type": "bidirectional"
+        },
+        "75": {
+          "name": "GPIO60",
+          "type": "bidirectional"
+        },
+        "76": {
+          "name": "GPIO61",
+          "type": "bidirectional"
+        },
+        "77": {
+          "name": "VDDA1",
+          "type": "power_in"
+        },
+        "78": {
+          "name": "XTAL_N",
+          "type": "bidirectional"
+        },
+        "79": {
+          "name": "XTAL_P",
+          "type": "bidirectional"
+        },
+        "80": {
+          "name": "VDDA2",
+          "type": "power_in"
+        },
+        "81": {
+          "name": "GND",
+          "type": "power_in"
+        }
+      },
+      "source": "Espressif WROOM-3 V1.2 reference U1",
+      "nets": {
+        "1": "RF_CHIP",
+        "2": "MCU_VDDA34",
+        "3": "MCU_VDDA34",
+        "4": "CHIP_PU",
+        "5": "KEY_POWER_SENSE_N",
+        "6": "CTRL_INT_N",
+        "7": "RTC_INT_N",
+        "8": "IMU_INT1",
+        "9": "BAT_ALERT_N",
+        "10": "CHG_INT_N",
+        "11": "VCC_3V3",
+        "12": "SYS_I2C_SCL",
+        "13": "SYS_I2C_SDA",
+        "14": "",
+        "15": "POWER_OFF_REQ",
+        "16": "CTRL_RESET_N",
+        "17": "USB_PATH_SEL",
+        "18": "",
+        "19": "MOTOR_EN",
+        "20": "CHG_OTG_EN",
+        "21": "AUDIO_I2C_SCL",
+        "22": "AUDIO_I2C_SDA",
+        "23": "",
+        "24": "",
+        "25": "",
+        "26": "SD_CARD_DETECT_N",
+        "27": "SD_D0",
+        "28": "SD_D1",
+        "29": "SD_D2",
+        "30": "MCU_1V8",
+        "31": "SD_D3",
+        "32": "SD_CLK",
+        "33": "SD_CMD",
+        "34": "MCU_1V8",
+        "35": "MCU_1V8",
+        "36": "FLASH_CS_N",
+        "37": "MCU_FLASH_D1",
+        "38": "MCU_FLASH_D2",
+        "39": "MCU_VDD_SPI",
+        "40": "MCU_FLASH_D3",
+        "41": "MCU_FLASH_CLK",
+        "42": "MCU_FLASH_D0",
+        "43": "VCC_3V3",
+        "44": "MCU_USB_HS_DP",
+        "45": "MCU_USB_HS_DM",
+        "46": "USB_DEBUG_DM",
+        "47": "USB_DEBUG_DP",
+        "48": "DAC_I2S_DOUT",
+        "49": "STRAP_FLASH_3V3",
+        "50": "STRAP_USB_JTAG",
+        "51": "DAC_I2S_LRCK",
+        "52": "DAC_RESET_N",
+        "53": "DAC_I2S_BCLK",
+        "54": "VCC_3V3",
+        "55": "TP_I2C_SCL",
+        "56": "TP_I2C_SDA",
+        "57": "LCD_RESET_N",
+        "58": "LCD_VCI_EN",
+        "59": "LCD_TE",
+        "60": "TP_INT_N",
+        "61": "TP_RESET_N",
+        "62": "",
+        "63": "",
+        "64": "VCC_3V3",
+        "65": "",
+        "66": "",
+        "67": "LCD_CS_N",
+        "68": "LCD_CLK",
+        "69": "LCD_D0",
+        "70": "LCD_D1",
+        "71": "LCD_D3",
+        "72": "LCD_D2",
+        "73": "MCU_UART0_TX",
+        "74": "UART0_RX",
+        "75": "BOOT_MODE_H",
+        "76": "BOOT_DOWNLOAD_N",
+        "77": "VCC_3V3",
+        "78": "XTAL_N",
+        "79": "MCU_XTAL_P",
+        "80": "VCC_3V3",
+        "81": "GND"
+      },
+      "x": 30.0,
+      "y": 17.0,
+      "angle": -90.0,
+      "side": "F",
+      "footprint": "FP_U9",
+      "dnp": false,
+      "uuid": "184dcbca-3fe9-52d5-bb38-a66114efcbe3",
+      "sheet": "MCU_CORE_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/7fb95dcf-d0fc-5e38-bb10-0c44dc0d9af5/184dcbca-3fe9-52d5-bb38-a66114efcbe3"
+    },
+    "C101": {
+      "ref": "C101",
+      "value": "24pF",
+      "group": "CORE",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      },
+      "source": "Espressif WROOM-3 V1.2 reference C1",
+      "nets": {
+        "1": "XTAL_P",
+        "2": "GND"
+      },
+      "x": 37.1021,
+      "y": 12.422804,
+      "angle": 0.0,
+      "side": "F",
+      "footprint": "FP_C101",
+      "dnp": false,
+      "uuid": "7f828fe9-71f6-5014-9faa-2eda72b9b4a2",
+      "sheet": "CORE_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/437b37ae-8468-57e1-8f28-1312d14b2e2a/7f828fe9-71f6-5014-9faa-2eda72b9b4a2"
+    },
+    "C123": {
+      "ref": "C123",
+      "value": "100nF",
+      "group": "CORE",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      },
+      "source": "Espressif WROOM-3 V1.2 reference C23",
+      "nets": {
+        "1": "VCC_3V3",
+        "2": "GND"
+      },
+      "x": 27.192467,
+      "y": 22.151125,
+      "angle": -90.0,
+      "side": "F",
+      "footprint": "FP_C123",
+      "dnp": false,
+      "uuid": "a6d5f6c2-deb4-5931-96b1-d0e8711c6ba2",
+      "sheet": "CORE_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/437b37ae-8468-57e1-8f28-1312d14b2e2a/a6d5f6c2-deb4-5931-96b1-d0e8711c6ba2"
+    },
+    "L104": {
+      "ref": "L104",
+      "value": "2nH LQP03TN2N0B02D",
+      "group": "CORE",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      },
+      "source": "Espressif WROOM-3 V1.2 reference L4",
+      "nets": {
+        "1": "VCC_3V3",
+        "2": "MCU_VDDA34"
+      },
+      "x": 32.109285,
+      "y": 11.041423,
+      "angle": -90.0,
+      "side": "F",
+      "footprint": "FP_L104",
+      "dnp": false,
+      "uuid": "6dcdf669-aeb0-5927-8ef9-f22a985acd1f",
+      "sheet": "CORE_2",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/de8f9ca8-d010-585d-b133-f7fca87db685/6dcdf669-aeb0-5927-8ef9-f22a985acd1f"
+    },
+    "C104": {
+      "ref": "C104",
+      "value": "1.5pF",
+      "group": "CORE_RF",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      },
+      "source": "Espressif WROOM-3 V1.2 reference C4",
+      "nets": {
+        "1": "RF_STAGE1",
+        "2": "GND"
+      },
+      "x": 34.136773,
+      "y": 10.488252,
+      "angle": 180.0,
+      "side": "F",
+      "footprint": "FP_C104",
+      "dnp": false,
+      "uuid": "c4b593a2-3001-5a73-85ac-3bf27f42b7c5",
+      "sheet": "CORE_RF_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/c3357dd9-8a79-542e-8100-3a8333b58df6/c4b593a2-3001-5a73-85ac-3bf27f42b7c5"
+    },
+    "C114": {
+      "ref": "C114",
+      "value": "100nF",
+      "group": "CORE",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      },
+      "source": "Espressif WROOM-3 V1.2 reference C14",
+      "nets": {
+        "1": "MCU_VDD_SPI",
+        "2": "GND"
+      },
+      "x": 22.606378,
+      "y": 23.827512,
+      "angle": -90.0,
+      "side": "F",
+      "footprint": "FP_C114",
+      "dnp": false,
+      "uuid": "04c560ad-1a92-5b5e-9a9e-7f53c9717f44",
+      "sheet": "CORE_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/437b37ae-8468-57e1-8f28-1312d14b2e2a/04c560ad-1a92-5b5e-9a9e-7f53c9717f44"
+    },
+    "C106": {
+      "ref": "C106",
+      "value": "10nF",
+      "group": "CORE",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      },
+      "source": "Espressif WROOM-3 V1.2 reference C6",
+      "nets": {
+        "1": "VCC_3V3",
+        "2": "GND"
+      },
+      "x": 35.067175,
+      "y": 13.39325,
+      "angle": 0.0,
+      "side": "F",
+      "footprint": "FP_C106",
+      "dnp": false,
+      "uuid": "4470ec23-c587-57fc-a163-228f0bb33ef7",
+      "sheet": "CORE_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/437b37ae-8468-57e1-8f28-1312d14b2e2a/4470ec23-c587-57fc-a163-228f0bb33ef7"
+    },
+    "R107": {
+      "ref": "R107",
+      "value": "10k",
+      "group": "CORE",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      },
+      "source": "Espressif WROOM-3 V1.2 reference R7",
+      "nets": {
+        "1": "MCU_VDD_SPI",
+        "2": "FLASH_CS_N"
+      },
+      "x": 24.583831,
+      "y": 22.169757,
+      "angle": -90.0,
+      "side": "F",
+      "footprint": "FP_R107",
+      "dnp": false,
+      "uuid": "5bc67690-b67b-5e80-bbc0-77b651df32ba",
+      "sheet": "CORE_2",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/de8f9ca8-d010-585d-b133-f7fca87db685/5bc67690-b67b-5e80-bbc0-77b651df32ba"
+    },
+    "Y101": {
+      "ref": "Y101",
+      "value": "40MHz 15pF 10ppm MDH 2.3.3.400001552EL",
+      "group": "CORE",
+      "pins": {
+        "1": {
+          "name": "XIN",
+          "type": "passive"
+        },
+        "2": {
+          "name": "GND",
+          "type": "passive"
+        },
+        "3": {
+          "name": "XOUT",
+          "type": "passive"
+        },
+        "4": {
+          "name": "GND",
+          "type": "passive"
+        }
+      },
+      "source": "Espressif WROOM-3 V1.2 reference Y1",
+      "nets": {
+        "1": "XTAL_P",
+        "2": "GND",
+        "3": "XTAL_N",
+        "4": "GND"
+      },
+      "x": 37.187859,
+      "y": 14.486175,
+      "angle": -90.0,
+      "side": "F",
+      "footprint": "FP_Y101",
+      "dnp": false,
+      "uuid": "c8d0bbaa-277d-5c26-8a29-987393a2f289",
+      "sheet": "CORE_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/437b37ae-8468-57e1-8f28-1312d14b2e2a/c8d0bbaa-277d-5c26-8a29-987393a2f289"
+    },
+    "L105": {
+      "ref": "L105",
+      "value": "0R",
+      "group": "CORE_RF",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      },
+      "source": "Espressif WROOM-3 V1.2 reference L5",
+      "nets": {
+        "1": "RF_ANT",
+        "2": "RF_STAGE2"
+      },
+      "x": 31.565101,
+      "y": 6.924992,
+      "angle": -45.0,
+      "side": "F",
+      "footprint": "FP_L105",
+      "dnp": false,
+      "uuid": "5a8866e7-1e49-547e-94e6-98d1e15a96fe",
+      "sheet": "CORE_RF_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/c3357dd9-8a79-542e-8100-3a8333b58df6/5a8866e7-1e49-547e-94e6-98d1e15a96fe"
+    },
+    "R105": {
+      "ref": "R105",
+      "value": "0R",
+      "group": "CORE",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      },
+      "source": "Espressif WROOM-3 V1.2 reference R5",
+      "nets": {
+        "1": "MCU_FLASH_D0",
+        "2": "FLASH_D0"
+      },
+      "x": 26.560008,
+      "y": 22.151124,
+      "angle": -90.0,
+      "side": "F",
+      "footprint": "FP_R105",
+      "dnp": false,
+      "uuid": "3832c6c0-6159-5966-ab41-4bf6eb2e45a2",
+      "sheet": "CORE_2",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/de8f9ca8-d010-585d-b133-f7fca87db685/3832c6c0-6159-5966-ab41-4bf6eb2e45a2"
+    },
+    "R109": {
+      "ref": "R109",
+      "value": "0R",
+      "group": "CORE",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      },
+      "source": "Espressif WROOM-3 V1.2 reference R9",
+      "nets": {
+        "1": "MCU_USB_HS_DP",
+        "2": "USB_HS_DP"
+      },
+      "x": 27.848612,
+      "y": 22.336068,
+      "angle": -90.0,
+      "side": "F",
+      "footprint": "FP_R109",
+      "dnp": false,
+      "uuid": "465e42ab-577c-543b-ba65-1663a43a42b9",
+      "sheet": "CORE_2",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/de8f9ca8-d010-585d-b133-f7fca87db685/465e42ab-577c-543b-ba65-1663a43a42b9"
+    },
+    "R106": {
+      "ref": "R106",
+      "value": "499R",
+      "group": "CORE",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      },
+      "source": "Espressif WROOM-3 V1.2 reference R6",
+      "nets": {
+        "1": "MCU_UART0_TX",
+        "2": "UART0_TX"
+      },
+      "x": 34.993515,
+      "y": 16.63429,
+      "angle": -45.0,
+      "side": "F",
+      "footprint": "FP_R106",
+      "dnp": false,
+      "uuid": "8fba5d65-de0d-5e11-90dc-9474bd03e570",
+      "sheet": "CORE_2",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/de8f9ca8-d010-585d-b133-f7fca87db685/8fba5d65-de0d-5e11-90dc-9474bd03e570"
+    },
+    "C117": {
+      "ref": "C117",
+      "value": "100nF",
+      "group": "CORE",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      },
+      "source": "Espressif WROOM-3 V1.2 reference C17",
+      "nets": {
+        "1": "VCC_3V3",
+        "2": "GND"
+      },
+      "x": 31.559694,
+      "y": 10.193687,
+      "angle": 180.0,
+      "side": "F",
+      "footprint": "FP_C117",
+      "dnp": false,
+      "uuid": "82012eb2-bf25-5cb1-a220-8930ec7b478f",
+      "sheet": "CORE_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/437b37ae-8468-57e1-8f28-1312d14b2e2a/82012eb2-bf25-5cb1-a220-8930ec7b478f"
+    },
+    "C119": {
+      "ref": "C119",
+      "value": "100nF",
+      "group": "CORE",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      },
+      "source": "Espressif WROOM-3 V1.2 reference C19",
+      "nets": {
+        "1": "VCC_3V3",
+        "2": "GND"
+      },
+      "x": 29.070234,
+      "y": 11.72955,
+      "angle": 90.0,
+      "side": "F",
+      "footprint": "FP_C119",
+      "dnp": false,
+      "uuid": "98817bd5-1e8e-5059-8de4-01595d53a8ac",
+      "sheet": "CORE_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/437b37ae-8468-57e1-8f28-1312d14b2e2a/98817bd5-1e8e-5059-8de4-01595d53a8ac"
+    },
+    "R104": {
+      "ref": "R104",
+      "value": "0R",
+      "group": "CORE",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      },
+      "source": "Espressif WROOM-3 V1.2 reference R4",
+      "nets": {
+        "1": "MCU_FLASH_CLK",
+        "2": "FLASH_CLK"
+      },
+      "x": 25.922467,
+      "y": 22.151124,
+      "angle": -90.0,
+      "side": "F",
+      "footprint": "FP_R104",
+      "dnp": false,
+      "uuid": "774fd9f6-86e2-58ea-9425-a979cdd7fe5b",
+      "sheet": "CORE_2",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/de8f9ca8-d010-585d-b133-f7fca87db685/774fd9f6-86e2-58ea-9425-a979cdd7fe5b"
+    },
+    "C121": {
+      "ref": "C121",
+      "value": "1uF",
+      "group": "CORE",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      },
+      "source": "Espressif WROOM-3 V1.2 reference C21",
+      "nets": {
+        "1": "MCU_1V8",
+        "2": "GND"
+      },
+      "x": 24.953096,
+      "y": 17.995012,
+      "angle": 180.0,
+      "side": "F",
+      "footprint": "FP_C121",
+      "dnp": false,
+      "uuid": "662da70f-f779-54ab-9c54-82201676259e",
+      "sheet": "CORE_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/437b37ae-8468-57e1-8f28-1312d14b2e2a/662da70f-f779-54ab-9c54-82201676259e"
+    },
+    "C109": {
+      "ref": "C109",
+      "value": "DNP",
+      "group": "CORE_RF",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      },
+      "source": "Espressif WROOM-3 V1.2 reference C9",
+      "nets": {
+        "1": "RF_ANT",
+        "2": "GND"
+      },
+      "x": 30.966458,
+      "y": 6.020921,
+      "angle": 180.0,
+      "side": "F",
+      "footprint": "FP_C109",
+      "dnp": true,
+      "uuid": "434cab0c-0eb3-5ff2-acbf-aedc8948efa3",
+      "sheet": "CORE_RF_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/c3357dd9-8a79-542e-8100-3a8333b58df6/434cab0c-0eb3-5ff2-acbf-aedc8948efa3"
+    },
+    "C124": {
+      "ref": "C124",
+      "value": "100nF",
+      "group": "CORE",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      },
+      "source": "Espressif WROOM-3 V1.2 reference C24",
+      "nets": {
+        "1": "VCC_3V3",
+        "2": "GND"
+      },
+      "x": 31.390865,
+      "y": 22.130244,
+      "angle": -90.0,
+      "side": "F",
+      "footprint": "FP_C124",
+      "dnp": false,
+      "uuid": "0be1d1b6-f4a6-5eaa-95eb-2b90530adada",
+      "sheet": "CORE_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/437b37ae-8468-57e1-8f28-1312d14b2e2a/0be1d1b6-f4a6-5eaa-95eb-2b90530adada"
+    },
+    "C113": {
+      "ref": "C113",
+      "value": "1uF",
+      "group": "CORE",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      },
+      "source": "Espressif WROOM-3 V1.2 reference C13",
+      "nets": {
+        "1": "MCU_VDD_SPI",
+        "2": "GND"
+      },
+      "x": 24.8311,
+      "y": 21.26085,
+      "angle": 180.0,
+      "side": "F",
+      "footprint": "FP_C113",
+      "dnp": false,
+      "uuid": "e198357b-59b2-5668-a905-dbf641d4322c",
+      "sheet": "CORE_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/437b37ae-8468-57e1-8f28-1312d14b2e2a/e198357b-59b2-5668-a905-dbf641d4322c"
+    },
+    "U10": {
+      "ref": "U10",
+      "value": "W25Q128JVSIQ",
+      "group": "CORE",
+      "pins": {
+        "1": {
+          "name": "CS_N",
+          "type": "bidirectional"
+        },
+        "2": {
+          "name": "D1",
+          "type": "bidirectional"
+        },
+        "3": {
+          "name": "D2",
+          "type": "bidirectional"
+        },
+        "4": {
+          "name": "GND",
+          "type": "power_in"
+        },
+        "5": {
+          "name": "D0",
+          "type": "bidirectional"
+        },
+        "6": {
+          "name": "CLK",
+          "type": "bidirectional"
+        },
+        "7": {
+          "name": "D3",
+          "type": "bidirectional"
+        },
+        "8": {
+          "name": "VCC",
+          "type": "power_in"
+        }
+      },
+      "source": "New V2 circuit",
+      "nets": {
+        "1": "FLASH_CS_N",
+        "2": "FLASH_D1",
+        "3": "FLASH_D2",
+        "4": "GND",
+        "5": "FLASH_D0",
+        "6": "FLASH_CLK",
+        "7": "FLASH_D3",
+        "8": "MCU_VDD_SPI"
+      },
+      "x": 18.6,
+      "y": 28.2,
+      "angle": -90.0,
+      "side": "F",
+      "footprint": "FP_U10",
+      "dnp": false,
+      "uuid": "1c153457-19a2-5c1f-91cd-e4319bf067fc",
+      "sheet": "CORE_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/437b37ae-8468-57e1-8f28-1312d14b2e2a/1c153457-19a2-5c1f-91cd-e4319bf067fc"
+    },
+    "R120": {
+      "ref": "R120",
+      "value": "10k",
+      "group": "CORE",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      },
+      "source": "New V2 circuit",
+      "nets": {
+        "1": "VCC_3V3",
+        "2": "STRAP_USB_JTAG"
+      },
+      "x": 33.2,
+      "y": 22.7,
+      "angle": 90.0,
+      "side": "B",
+      "footprint": "FP_R120",
+      "dnp": false,
+      "uuid": "dec8835b-dc64-5717-b79e-83bfbd6efc46",
+      "sheet": "CORE_2",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/de8f9ca8-d010-585d-b133-f7fca87db685/dec8835b-dc64-5717-b79e-83bfbd6efc46"
+    },
+    "R121": {
+      "ref": "R121",
+      "value": "10k",
+      "group": "CORE",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      },
+      "source": "New V2 circuit",
+      "nets": {
+        "1": "VCC_3V3",
+        "2": "LCD_CS_N"
+      },
+      "x": 35.5,
+      "y": 28.0,
+      "angle": 180.0,
+      "side": "B",
+      "footprint": "FP_R121",
+      "dnp": false,
+      "uuid": "78190faa-5d6d-557a-8d45-c480d24a2deb",
+      "sheet": "CORE_2",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/de8f9ca8-d010-585d-b133-f7fca87db685/78190faa-5d6d-557a-8d45-c480d24a2deb"
+    },
+    "R122": {
+      "ref": "R122",
+      "value": "100k",
+      "group": "CORE",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      },
+      "source": "New V2 circuit",
+      "nets": {
+        "1": "LCD_RESET_N",
+        "2": "GND"
+      },
+      "x": 36.0,
+      "y": 30.0,
+      "angle": 180.0,
+      "side": "B",
+      "footprint": "FP_R122",
+      "dnp": false,
+      "uuid": "338a21df-6d38-51b4-bd15-efd9bfe7d519",
+      "sheet": "CORE_2",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/de8f9ca8-d010-585d-b133-f7fca87db685/338a21df-6d38-51b4-bd15-efd9bfe7d519"
+    },
+    "R123": {
+      "ref": "R123",
+      "value": "100k",
+      "group": "CORE",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      },
+      "source": "New V2 circuit",
+      "nets": {
+        "1": "LCD_VCI_EN",
+        "2": "GND"
+      },
+      "x": 36.0,
+      "y": 31.5,
+      "angle": 180.0,
+      "side": "B",
+      "footprint": "FP_R123",
+      "dnp": false,
+      "uuid": "f3141e2f-4160-549e-af23-08a10a5d92d3",
+      "sheet": "CORE_2",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/de8f9ca8-d010-585d-b133-f7fca87db685/f3141e2f-4160-549e-af23-08a10a5d92d3"
+    },
+    "R124": {
+      "ref": "R124",
+      "value": "100k",
+      "group": "CORE",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      },
+      "source": "New V2 circuit",
+      "nets": {
+        "1": "USB_PATH_SEL",
+        "2": "GND"
+      },
+      "x": 28.0,
+      "y": 58.0,
+      "angle": 180.0,
+      "side": "B",
+      "footprint": "FP_R124",
+      "dnp": false,
+      "uuid": "29eb07ba-4408-5121-9fcc-c6774354e6a1",
+      "sheet": "CORE_2",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/de8f9ca8-d010-585d-b133-f7fca87db685/29eb07ba-4408-5121-9fcc-c6774354e6a1"
+    },
+    "R125": {
+      "ref": "R125",
+      "value": "10k",
+      "group": "CORE",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      },
+      "source": "New V2 circuit",
+      "nets": {
+        "1": "VCC_3V3",
+        "2": "SD_CARD_DETECT_N"
+      },
+      "x": 18.0,
+      "y": 15.0,
+      "angle": 180.0,
+      "side": "B",
+      "footprint": "FP_R125",
+      "dnp": false,
+      "uuid": "1ec1b63b-d5c7-5c83-9093-5dd80fb416fb",
+      "sheet": "CORE_2",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/de8f9ca8-d010-585d-b133-f7fca87db685/1ec1b63b-d5c7-5c83-9093-5dd80fb416fb"
+    },
+    "R126": {
+      "ref": "R126",
+      "value": "10k",
+      "group": "CORE",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      },
+      "source": "New V2 circuit",
+      "nets": {
+        "1": "VCC_3V3",
+        "2": "KEY_POWER_SENSE_N"
+      },
+      "x": 25.5,
+      "y": 12.0,
+      "angle": 180.0,
+      "side": "B",
+      "footprint": "FP_R126",
+      "dnp": false,
+      "uuid": "47216d69-b713-5ceb-b84d-9e69eb1732b2",
+      "sheet": "CORE_2",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/de8f9ca8-d010-585d-b133-f7fca87db685/47216d69-b713-5ceb-b84d-9e69eb1732b2"
+    },
+    "R127": {
+      "ref": "R127",
+      "value": "100k",
+      "group": "CORE",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      },
+      "source": "New V2 circuit",
+      "nets": {
+        "1": "DAC_RESET_N",
+        "2": "GND"
+      },
+      "x": 24.0,
+      "y": 36.5,
+      "angle": 180.0,
+      "side": "B",
+      "footprint": "FP_R127",
+      "dnp": false,
+      "uuid": "df4740ee-d298-53c8-a7ed-069895e6f91e",
+      "sheet": "CORE_2",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/de8f9ca8-d010-585d-b133-f7fca87db685/df4740ee-d298-53c8-a7ed-069895e6f91e"
+    },
+    "JRF1": {
+      "ref": "JRF1",
+      "value": "Hirose U.FL-R-SMT-1",
+      "group": "CORE_RF",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      },
+      "source": "New V2 circuit",
+      "nets": {
+        "1": "RF_ANT",
+        "2": "GND"
+      },
+      "x": 30.0,
+      "y": 3.0,
+      "angle": 0.0,
+      "side": "F",
+      "footprint": "FP_JRF1",
+      "dnp": false,
+      "uuid": "a998fa31-71fe-543a-9c1a-d4d9947871d8",
+      "sheet": "CORE_RF_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/c3357dd9-8a79-542e-8100-3a8333b58df6/a998fa31-71fe-543a-9c1a-d4d9947871d8"
+    },
+    "U20": {
+      "ref": "U20",
+      "value": "TLV75533PDBVR",
+      "group": "POWER_AON",
+      "pins": {
+        "1": {
+          "name": "IN",
+          "type": "power_in"
+        },
+        "2": {
+          "name": "GND",
+          "type": "power_in"
+        },
+        "3": {
+          "name": "EN",
+          "type": "input"
+        },
+        "4": {
+          "name": "NC",
+          "type": "no_connect"
+        },
+        "5": {
+          "name": "OUT",
+          "type": "power_out"
+        }
+      },
+      "source": "New V2 circuit",
+      "nets": {
+        "1": "VCC",
+        "2": "GND",
+        "3": "VCC",
+        "4": "",
+        "5": "VCC_3V3_AON"
+      },
+      "x": 23.0,
+      "y": 39.0,
+      "angle": 180.0,
+      "side": "B",
+      "footprint": "FP_U20",
+      "dnp": false,
+      "uuid": "6821b568-dc11-5b4c-a9b9-8ce5e48bdf7a",
+      "sheet": "POWER_AON_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/437d413d-dc86-568a-8c64-6ad639ee743f/6821b568-dc11-5b4c-a9b9-8ce5e48bdf7a"
+    },
+    "C130": {
+      "ref": "C130",
+      "value": "2.2uF",
+      "group": "POWER_AON",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      },
+      "source": "New V2 circuit",
+      "nets": {
+        "1": "VCC",
+        "2": "GND"
+      },
+      "x": 20.0,
+      "y": 38.0,
+      "angle": 90.0,
+      "side": "B",
+      "footprint": "FP_C130",
+      "dnp": false,
+      "uuid": "3cf12353-e3ba-526c-b439-17ce093f4b9e",
+      "sheet": "POWER_AON_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/437d413d-dc86-568a-8c64-6ad639ee743f/3cf12353-e3ba-526c-b439-17ce093f4b9e"
+    },
+    "C131": {
+      "ref": "C131",
+      "value": "2.2uF",
+      "group": "POWER_AON",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      },
+      "source": "New V2 circuit",
+      "nets": {
+        "1": "VCC_3V3_AON",
+        "2": "GND"
+      },
+      "x": 26.0,
+      "y": 37.5,
+      "angle": 90.0,
+      "side": "B",
+      "footprint": "FP_C131",
+      "dnp": false,
+      "uuid": "6f7770e1-d052-5268-868a-5537bedd2048",
+      "sheet": "POWER_AON_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/437d413d-dc86-568a-8c64-6ad639ee743f/6f7770e1-d052-5268-868a-5537bedd2048"
+    },
+    "Q101": {
+      "ref": "Q101",
+      "value": "BSS138",
+      "group": "POWER_AON",
+      "pins": {
+        "1": {
+          "name": "G",
+          "type": "input"
+        },
+        "2": {
+          "name": "S",
+          "type": "passive"
+        },
+        "3": {
+          "name": "D",
+          "type": "passive"
+        }
+      },
+      "source": "New V2 circuit",
+      "nets": {
+        "1": "VCC_3V3",
+        "2": "SYS_I2C_SDA",
+        "3": "CTRL_SDA_AON"
+      },
+      "x": 19.0,
+      "y": 43.0,
+      "angle": 90.0,
+      "side": "B",
+      "footprint": "FP_Q101",
+      "dnp": false,
+      "uuid": "62d7b4c6-276e-5ddb-9a7d-a242604b50c3",
+      "sheet": "POWER_AON_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/437d413d-dc86-568a-8c64-6ad639ee743f/62d7b4c6-276e-5ddb-9a7d-a242604b50c3"
+    },
+    "Q102": {
+      "ref": "Q102",
+      "value": "BSS138",
+      "group": "POWER_AON",
+      "pins": {
+        "1": {
+          "name": "G",
+          "type": "input"
+        },
+        "2": {
+          "name": "S",
+          "type": "passive"
+        },
+        "3": {
+          "name": "D",
+          "type": "passive"
+        }
+      },
+      "source": "New V2 circuit",
+      "nets": {
+        "1": "VCC_3V3",
+        "2": "SYS_I2C_SCL",
+        "3": "CTRL_SCL_AON"
+      },
+      "x": 23.0,
+      "y": 43.0,
+      "angle": 90.0,
+      "side": "B",
+      "footprint": "FP_Q102",
+      "dnp": false,
+      "uuid": "c15f909e-6feb-55b9-a2ae-5eb922cd843c",
+      "sheet": "POWER_AON_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/437d413d-dc86-568a-8c64-6ad639ee743f/c15f909e-6feb-55b9-a2ae-5eb922cd843c"
+    },
+    "Q103": {
+      "ref": "Q103",
+      "value": "BSS138",
+      "group": "POWER_AON",
+      "pins": {
+        "1": {
+          "name": "G",
+          "type": "input"
+        },
+        "2": {
+          "name": "S",
+          "type": "passive"
+        },
+        "3": {
+          "name": "D",
+          "type": "passive"
+        }
+      },
+      "source": "New V2 circuit",
+      "nets": {
+        "1": "VCC_3V3",
+        "2": "CTRL_INT_N",
+        "3": "CTRL_INT_AON_N"
+      },
+      "x": 28.0,
+      "y": 40.0,
+      "angle": 90.0,
+      "side": "B",
+      "footprint": "FP_Q103",
+      "dnp": false,
+      "uuid": "88f0d8db-2905-5bbd-ab81-388436b1c927",
+      "sheet": "POWER_AON_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/437d413d-dc86-568a-8c64-6ad639ee743f/88f0d8db-2905-5bbd-ab81-388436b1c927"
+    },
+    "Q104": {
+      "ref": "Q104",
+      "value": "BSS138",
+      "group": "POWER_AON",
+      "pins": {
+        "1": {
+          "name": "G",
+          "type": "input"
+        },
+        "2": {
+          "name": "S",
+          "type": "passive"
+        },
+        "3": {
+          "name": "D",
+          "type": "passive"
+        }
+      },
+      "source": "New V2 circuit",
+      "nets": {
+        "1": "VCC_3V3",
+        "2": "CTRL_RESET_N",
+        "3": "CTRL_RESET_AON_N"
+      },
+      "x": 34.0,
+      "y": 44.0,
+      "angle": 90.0,
+      "side": "B",
+      "footprint": "FP_Q104",
+      "dnp": false,
+      "uuid": "43f08a01-9bbe-5add-897d-ae5b412d5fa6",
+      "sheet": "POWER_AON_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/437d413d-dc86-568a-8c64-6ad639ee743f/43f08a01-9bbe-5add-897d-ae5b412d5fa6"
+    },
+    "Q105": {
+      "ref": "Q105",
+      "value": "BSS138",
+      "group": "POWER_AON",
+      "pins": {
+        "1": {
+          "name": "G",
+          "type": "input"
+        },
+        "2": {
+          "name": "S",
+          "type": "passive"
+        },
+        "3": {
+          "name": "D",
+          "type": "passive"
+        }
+      },
+      "source": "New V2 circuit",
+      "nets": {
+        "1": "VCC_3V3",
+        "2": "KEY_POWER_SENSE_N",
+        "3": "KEY_RAW_N"
+      },
+      "x": 38.0,
+      "y": 43.0,
+      "angle": 90.0,
+      "side": "B",
+      "footprint": "FP_Q105",
+      "dnp": false,
+      "uuid": "10366225-0bbd-54d7-89dd-5d9e78c17951",
+      "sheet": "POWER_AON_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/437d413d-dc86-568a-8c64-6ad639ee743f/10366225-0bbd-54d7-89dd-5d9e78c17951"
+    },
+    "R128": {
+      "ref": "R128",
+      "value": "10k",
+      "group": "POWER_AON",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      },
+      "source": "New V2 circuit",
+      "nets": {
+        "1": "VCC_3V3",
+        "2": "CTRL_RESET_N"
+      },
+      "x": 36.0,
+      "y": 41.0,
+      "angle": 180.0,
+      "side": "B",
+      "footprint": "FP_R128",
+      "dnp": false,
+      "uuid": "67466450-a8e6-5309-8b9e-43cf7236df02",
+      "sheet": "POWER_AON_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/437d413d-dc86-568a-8c64-6ad639ee743f/67466450-a8e6-5309-8b9e-43cf7236df02"
+    },
+    "C132": {
+      "ref": "C132",
+      "value": "100nF",
+      "group": "POWER_AON",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      },
+      "source": "New V2 circuit",
+      "nets": {
+        "1": "VCC_3V3_AON",
+        "2": "GND"
+      },
+      "x": 19.5,
+      "y": 40.0,
+      "angle": 180.0,
+      "side": "B",
+      "footprint": "FP_C132",
+      "dnp": false,
+      "uuid": "e7f9ead5-50a9-5ee1-a2a4-7ef50b91cd04",
+      "sheet": "POWER_AON_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/437d413d-dc86-568a-8c64-6ad639ee743f/e7f9ead5-50a9-5ee1-a2a4-7ef50b91cd04"
+    },
+    "U21": {
+      "ref": "U21",
+      "value": "SN74LVC1G123DCUR",
+      "group": "POWER_AON",
+      "pins": {
+        "1": {
+          "name": "A_N",
+          "type": "input"
+        },
+        "2": {
+          "name": "B",
+          "type": "input"
+        },
+        "3": {
+          "name": "CLR_N",
+          "type": "input"
+        },
+        "4": {
+          "name": "GND",
+          "type": "power_in"
+        },
+        "5": {
+          "name": "Q",
+          "type": "output"
+        },
+        "6": {
+          "name": "CEXT",
+          "type": "passive"
+        },
+        "7": {
+          "name": "REXT_CEXT",
+          "type": "passive"
+        },
+        "8": {
+          "name": "VCC",
+          "type": "power_in"
+        }
+      },
+      "source": "New V2 circuit",
+      "nets": {
+        "1": "GND",
+        "2": "POWER_OFF_REQ",
+        "3": "OFF_CLEAR_N",
+        "4": "GND",
+        "5": "GEK_RST",
+        "6": "OFF_CEXT",
+        "7": "OFF_RC",
+        "8": "VCC_3V3_AON"
+      },
+      "x": 26.0,
+      "y": 49.5,
+      "angle": 180.0,
+      "side": "B",
+      "footprint": "FP_U21",
+      "dnp": false,
+      "uuid": "c435c108-bf66-5326-93b7-6a0d51f21aa1",
+      "sheet": "POWER_AON_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/437d413d-dc86-568a-8c64-6ad639ee743f/c435c108-bf66-5326-93b7-6a0d51f21aa1"
+    },
+    "R129": {
+      "ref": "R129",
+      "value": "100k",
+      "group": "POWER_AON",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      },
+      "source": "New V2 circuit",
+      "nets": {
+        "1": "POWER_OFF_REQ",
+        "2": "GND"
+      },
+      "x": 29.5,
+      "y": 49.0,
+      "angle": 180.0,
+      "side": "B",
+      "footprint": "FP_R129",
+      "dnp": false,
+      "uuid": "2f6054b8-c65d-5bf3-973b-4801561bb7c5",
+      "sheet": "POWER_AON_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/437d413d-dc86-568a-8c64-6ad639ee743f/2f6054b8-c65d-5bf3-973b-4801561bb7c5"
+    },
+    "R130": {
+      "ref": "R130",
+      "value": "200k",
+      "group": "POWER_AON",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      },
+      "source": "New V2 circuit",
+      "nets": {
+        "1": "VCC_3V3_AON",
+        "2": "OFF_RC"
+      },
+      "x": 32.0,
+      "y": 49.5,
+      "angle": 180.0,
+      "side": "B",
+      "footprint": "FP_R130",
+      "dnp": false,
+      "uuid": "b29f2c27-3a60-5fb7-84ea-2e634288681c",
+      "sheet": "POWER_AON_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/437d413d-dc86-568a-8c64-6ad639ee743f/b29f2c27-3a60-5fb7-84ea-2e634288681c"
+    },
+    "C133": {
+      "ref": "C133",
+      "value": "1uF",
+      "group": "POWER_AON",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      },
+      "source": "New V2 circuit",
+      "nets": {
+        "1": "OFF_CEXT",
+        "2": "OFF_RC"
+      },
+      "x": 34.5,
+      "y": 49.5,
+      "angle": 180.0,
+      "side": "B",
+      "footprint": "FP_C133",
+      "dnp": false,
+      "uuid": "d7c32eee-5b75-5ba3-b922-49de7812d68a",
+      "sheet": "POWER_AON_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/437d413d-dc86-568a-8c64-6ad639ee743f/d7c32eee-5b75-5ba3-b922-49de7812d68a"
+    },
+    "R131": {
+      "ref": "R131",
+      "value": "100k",
+      "group": "POWER_AON",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      },
+      "source": "New V2 circuit",
+      "nets": {
+        "1": "VCC_3V3_AON",
+        "2": "OFF_CLEAR_N"
+      },
+      "x": 23.0,
+      "y": 55.0,
+      "angle": 180.0,
+      "side": "B",
+      "footprint": "FP_R131",
+      "dnp": false,
+      "uuid": "c24a6858-f463-552b-b8b1-2b16412f3659",
+      "sheet": "POWER_AON_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/437d413d-dc86-568a-8c64-6ad639ee743f/c24a6858-f463-552b-b8b1-2b16412f3659"
+    },
+    "C134": {
+      "ref": "C134",
+      "value": "100nF",
+      "group": "POWER_AON",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      },
+      "source": "New V2 circuit",
+      "nets": {
+        "1": "OFF_CLEAR_N",
+        "2": "GND"
+      },
+      "x": 27.0,
+      "y": 56.0,
+      "angle": 180.0,
+      "side": "B",
+      "footprint": "FP_C134",
+      "dnp": false,
+      "uuid": "2ab42711-52b4-5772-a6bd-9ada8908729a",
+      "sheet": "POWER_AON_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/437d413d-dc86-568a-8c64-6ad639ee743f/2ab42711-52b4-5772-a6bd-9ada8908729a"
+    },
+    "C135": {
+      "ref": "C135",
+      "value": "100nF",
+      "group": "POWER_AON",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      },
+      "source": "New V2 circuit",
+      "nets": {
+        "1": "VCC_3V3_AON",
+        "2": "GND"
+      },
+      "x": 31.0,
+      "y": 56.0,
+      "angle": 180.0,
+      "side": "B",
+      "footprint": "FP_C135",
+      "dnp": false,
+      "uuid": "1762891b-6378-5ff9-bb8a-ada09f9207cd",
+      "sheet": "POWER_AON_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/437d413d-dc86-568a-8c64-6ad639ee743f/1762891b-6378-5ff9-bb8a-ada09f9207cd"
+    },
+    "Q106": {
+      "ref": "Q106",
+      "value": "MMBT3904",
+      "group": "DOWNLOAD",
+      "pins": {
+        "1": {
+          "name": "B",
+          "type": "passive"
+        },
+        "2": {
+          "name": "E",
+          "type": "passive"
+        },
+        "3": {
+          "name": "C",
+          "type": "passive"
+        }
+      },
+      "source": "New V2 circuit",
+      "nets": {
+        "1": "AUTO_EN_B",
+        "2": "CH343P_UART_RTS",
+        "3": "CHIP_PU"
+      },
+      "x": 31.5,
+      "y": 52.0,
+      "angle": 180.0,
+      "side": "B",
+      "footprint": "FP_Q106",
+      "dnp": false,
+      "uuid": "f07bc7de-792c-5b9e-b016-e37d6a509ea1",
+      "sheet": "DOWNLOAD_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/ca3034dc-8697-5304-83ec-d98e63f086ab/f07bc7de-792c-5b9e-b016-e37d6a509ea1"
+    },
+    "Q107": {
+      "ref": "Q107",
+      "value": "MMBT3904",
+      "group": "DOWNLOAD",
+      "pins": {
+        "1": {
+          "name": "B",
+          "type": "passive"
+        },
+        "2": {
+          "name": "E",
+          "type": "passive"
+        },
+        "3": {
+          "name": "C",
+          "type": "passive"
+        }
+      },
+      "source": "New V2 circuit",
+      "nets": {
+        "1": "AUTO_BOOT_B",
+        "2": "CH343P_UART_DTR",
+        "3": "BOOT_DOWNLOAD_N"
+      },
+      "x": 36.0,
+      "y": 53.5,
+      "angle": 180.0,
+      "side": "B",
+      "footprint": "FP_Q107",
+      "dnp": false,
+      "uuid": "6da6a36c-250e-5c6e-84fe-aba123df3015",
+      "sheet": "DOWNLOAD_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/ca3034dc-8697-5304-83ec-d98e63f086ab/6da6a36c-250e-5c6e-84fe-aba123df3015"
+    },
+    "R132": {
+      "ref": "R132",
+      "value": "10k",
+      "group": "DOWNLOAD",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      },
+      "source": "New V2 circuit",
+      "nets": {
+        "1": "CH343P_UART_DTR",
+        "2": "AUTO_EN_B"
+      },
+      "x": 31.5,
+      "y": 54.5,
+      "angle": 180.0,
+      "side": "B",
+      "footprint": "FP_R132",
+      "dnp": false,
+      "uuid": "4090d09e-08b0-5024-b5c4-a4437ff8602c",
+      "sheet": "DOWNLOAD_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/ca3034dc-8697-5304-83ec-d98e63f086ab/4090d09e-08b0-5024-b5c4-a4437ff8602c"
+    },
+    "R133": {
+      "ref": "R133",
+      "value": "10k",
+      "group": "DOWNLOAD",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      },
+      "source": "New V2 circuit",
+      "nets": {
+        "1": "CH343P_UART_RTS",
+        "2": "AUTO_BOOT_B"
+      },
+      "x": 35.5,
+      "y": 56.0,
+      "angle": 180.0,
+      "side": "B",
+      "footprint": "FP_R133",
+      "dnp": false,
+      "uuid": "d56978fa-7a20-5ec5-9f22-74641f28ea4f",
+      "sheet": "DOWNLOAD_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/ca3034dc-8697-5304-83ec-d98e63f086ab/d56978fa-7a20-5ec5-9f22-74641f28ea4f"
+    },
+    "TP101": {
+      "ref": "TP101",
+      "value": "GND",
+      "group": "DOWNLOAD",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        }
+      },
+      "source": "New V2 circuit",
+      "nets": {
+        "1": "GND"
+      },
+      "x": 38.0,
+      "y": 23.0,
+      "angle": 180.0,
+      "side": "B",
+      "footprint": "FP_TP101",
+      "dnp": false,
+      "uuid": "24dc019c-d7f2-5adc-9a6d-f3091f9154d0",
+      "sheet": "DOWNLOAD_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/ca3034dc-8697-5304-83ec-d98e63f086ab/24dc019c-d7f2-5adc-9a6d-f3091f9154d0"
+    },
+    "TP102": {
+      "ref": "TP102",
+      "value": "CHIP_PU",
+      "group": "DOWNLOAD",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        }
+      },
+      "source": "New V2 circuit",
+      "nets": {
+        "1": "CHIP_PU"
+      },
+      "x": 40.0,
+      "y": 22.0,
+      "angle": 180.0,
+      "side": "B",
+      "footprint": "FP_TP102",
+      "dnp": false,
+      "uuid": "c516b7d2-ced4-5b47-9877-5996d9f54cbc",
+      "sheet": "DOWNLOAD_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/ca3034dc-8697-5304-83ec-d98e63f086ab/c516b7d2-ced4-5b47-9877-5996d9f54cbc"
+    },
+    "TP103": {
+      "ref": "TP103",
+      "value": "BOOT_DOWNLOAD_N",
+      "group": "DOWNLOAD",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        }
+      },
+      "source": "New V2 circuit",
+      "nets": {
+        "1": "BOOT_DOWNLOAD_N"
+      },
+      "x": 42.0,
+      "y": 23.0,
+      "angle": 180.0,
+      "side": "B",
+      "footprint": "FP_TP103",
+      "dnp": false,
+      "uuid": "7df84b1a-9e03-530b-a03e-2c5ca5886774",
+      "sheet": "DOWNLOAD_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/ca3034dc-8697-5304-83ec-d98e63f086ab/7df84b1a-9e03-530b-a03e-2c5ca5886774"
+    },
+    "TP104": {
+      "ref": "TP104",
+      "value": "USB_DEBUG_DM",
+      "group": "DOWNLOAD",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        }
+      },
+      "source": "New V2 circuit",
+      "nets": {
+        "1": "USB_DEBUG_DM"
+      },
+      "x": 37.0,
+      "y": 25.0,
+      "angle": 180.0,
+      "side": "B",
+      "footprint": "FP_TP104",
+      "dnp": false,
+      "uuid": "f02baa29-6cfc-540e-ac55-8cd4db9c7f78",
+      "sheet": "DOWNLOAD_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/ca3034dc-8697-5304-83ec-d98e63f086ab/f02baa29-6cfc-540e-ac55-8cd4db9c7f78"
+    },
+    "TP105": {
+      "ref": "TP105",
+      "value": "USB_DEBUG_DP",
+      "group": "DOWNLOAD",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        }
+      },
+      "source": "New V2 circuit",
+      "nets": {
+        "1": "USB_DEBUG_DP"
+      },
+      "x": 39.5,
+      "y": 25.0,
+      "angle": 180.0,
+      "side": "B",
+      "footprint": "FP_TP105",
+      "dnp": false,
+      "uuid": "183f5bc1-5ff4-56a9-9339-0e4db2140256",
+      "sheet": "DOWNLOAD_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/ca3034dc-8697-5304-83ec-d98e63f086ab/183f5bc1-5ff4-56a9-9339-0e4db2140256"
+    },
+    "TP106": {
+      "ref": "TP106",
+      "value": "VCC_3V3",
+      "group": "DOWNLOAD",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        }
+      },
+      "source": "New V2 circuit",
+      "nets": {
+        "1": "VCC_3V3"
+      },
+      "x": 42.0,
+      "y": 25.5,
+      "angle": 180.0,
+      "side": "B",
+      "footprint": "FP_TP106",
+      "dnp": false,
+      "uuid": "b3c68df4-210b-578b-badf-793bb02ed886",
+      "sheet": "DOWNLOAD_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/ca3034dc-8697-5304-83ec-d98e63f086ab/b3c68df4-210b-578b-badf-793bb02ed886"
+    },
+    "C136": {
+      "ref": "C136",
+      "value": "100nF",
+      "group": "DISPLAY",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      },
+      "source": "New V2 circuit",
+      "nets": {
+        "1": "VCC_3V3",
+        "2": "GND"
+      },
+      "x": 33.0,
+      "y": 31.5,
+      "angle": 180.0,
+      "side": "B",
+      "footprint": "FP_C136",
+      "dnp": false,
+      "uuid": "0b6313be-f773-5818-88a4-d4648e9aec3d",
+      "sheet": "DISPLAY_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/ebf81a42-f299-538e-8dcd-7ededc342221/0b6313be-f773-5818-88a4-d4648e9aec3d"
+    },
+    "C137": {
+      "ref": "C137",
+      "value": "4.7uF",
+      "group": "DISPLAY",
+      "pins": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      },
+      "source": "New V2 circuit",
+      "nets": {
+        "1": "VCC_3V3",
+        "2": "GND"
+      },
+      "x": 30.5,
+      "y": 31.5,
+      "angle": 180.0,
+      "side": "B",
+      "footprint": "FP_C137",
+      "dnp": false,
+      "uuid": "72f00a47-62d0-5c08-953c-8652b1fa93ba",
+      "sheet": "DISPLAY_1",
+      "path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/ebf81a42-f299-538e-8dcd-7ededc342221/72f00a47-62d0-5c08-953c-8652b1fa93ba"
+    }
+  },
+  "core_reference_map": {
+    "C15": "C115",
+    "L2": "L102",
+    "R8": "R108",
+    "R1": "R101",
+    "C16": "C116",
+    "C2": "C102",
+    "C8": "C108",
+    "L3": "L103",
+    "C3": "C103",
+    "C20": "C120",
+    "C7": "C107",
+    "R2": "R102",
+    "C25": "C125",
+    "R3": "R103",
+    "C10": "C110",
+    "C22": "C122",
+    "C5": "C105",
+    "R10": "R110",
+    "C18": "C118",
+    "L1": "L101",
+    "U1": "U9",
+    "C1": "C101",
+    "C23": "C123",
+    "L4": "L104",
+    "C4": "C104",
+    "C14": "C114",
+    "C6": "C106",
+    "R7": "R107",
+    "Y1": "Y101",
+    "L5": "L105",
+    "R5": "R105",
+    "R9": "R109",
+    "R6": "R106",
+    "C17": "C117",
+    "C19": "C119",
+    "R4": "R104",
+    "C21": "C121",
+    "C9": "C109",
+    "C24": "C124",
+    "C13": "C113"
+  },
+  "sources": {
+    "source_pcb_sha256": "7b2c5f1ed64687aac5a914b5cf3baac07e9dedfb0c56e9c651b8901a608ac4d9"
+  },
+  "electrical_review_changes": [
+    {
+      "ref": "U2",
+      "pin": "1",
+      "old": "CS43131_SDA_1V8",
+      "new": "CS43131_SCL_1V8"
+    },
+    {
+      "ref": "U2",
+      "pin": "39",
+      "old": "CS43131_SCL_1V8",
+      "new": "CS43131_SDA_1V8"
+    },
+    {
+      "ref": "U3",
+      "pin": "2",
+      "old": "BQ25895_USB_DP",
+      "new": ""
+    },
+    {
+      "ref": "U3",
+      "pin": "3",
+      "old": "BQ25895_USB_DN",
+      "new": ""
+    },
+    {
+      "ref": "U3",
+      "pin": "4",
+      "old": "BQ25895_STAT",
+      "new": ""
+    },
+    {
+      "ref": "U3",
+      "pin": "12",
+      "old": "BQ25895_QON#",
+      "new": ""
+    },
+    {
+      "ref": "U3",
+      "pin": "24",
+      "old": "BQ25895_DSEL",
+      "new": ""
+    },
+    {
+      "ref": "U15",
+      "pin": "9",
+      "old": "MPU_INT2",
+      "new": ""
+    },
+    {
+      "ref": "USB1",
+      "change": "Connect both shield mounting-pad groups 13/14 to GND; align schematic with actual PCB shield copper"
+    }
+  ],
+  "release_holds": [
+    "USB complete-path controlled impedance / coupling / skew with manufacturer stackup",
+    "RF transmission line impedance, matching and antenna placement tuning",
+    "AM213 3.3 V follows the archived OSPTEK reference circuit; datasheet discrepancy and operating margins still require bench validation",
+    "Screen BTB tail reach, contact orientation and insertion clearance with real parts",
+    "Power/charging current, AON isolation and shutdown pulse bench validation"
+  ]
+}

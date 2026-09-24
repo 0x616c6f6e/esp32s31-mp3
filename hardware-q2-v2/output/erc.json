@@ -1,0 +1,131 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-24T05:21:52",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.4",
+    "sheets": [
+        {
+            "path": "/MCU_CORE_1/",
+            "uuid_path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/7fb95dcf-d0fc-5e38-bb10-0c44dc0d9af5",
+            "violations": []
+        },
+        {
+            "path": "/CORE_1/",
+            "uuid_path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/437b37ae-8468-57e1-8f28-1312d14b2e2a",
+            "violations": []
+        },
+        {
+            "path": "/CORE_2/",
+            "uuid_path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/de8f9ca8-d010-585d-b133-f7fca87db685",
+            "violations": []
+        },
+        {
+            "path": "/CORE_RF_1/",
+            "uuid_path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/c3357dd9-8a79-542e-8100-3a8333b58df6",
+            "violations": []
+        },
+        {
+            "path": "/DAC_1/",
+            "uuid_path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/1c58c2a8-7b56-5d04-a346-b22fff709b83",
+            "violations": []
+        },
+        {
+            "path": "/DAC_2/",
+            "uuid_path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/8fcce97a-a627-5918-95d8-0c25852c48cb",
+            "violations": []
+        },
+        {
+            "path": "/DISPLAY_1/",
+            "uuid_path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/ebf81a42-f299-538e-8dcd-7ededc342221",
+            "violations": []
+        },
+        {
+            "path": "/DOWNLOAD_1/",
+            "uuid_path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/ca3034dc-8697-5304-83ec-d98e63f086ab",
+            "violations": []
+        },
+        {
+            "path": "/FLASH_SDCARD_1/",
+            "uuid_path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/8392b115-509d-5321-a31f-69ce946bb2f0",
+            "violations": []
+        },
+        {
+            "path": "/MCU_1/",
+            "uuid_path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/4f8a4c57-cd1d-5d1b-9dbb-7b39161ada8b",
+            "violations": []
+        },
+        {
+            "path": "/MCU_2/",
+            "uuid_path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/651b5cd9-1ac7-5dd5-b810-d29b769b36ca",
+            "violations": []
+        },
+        {
+            "path": "/MOTOR_1/",
+            "uuid_path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/4994aee4-5ed7-5c11-a5c2-cef848f6f03c",
+            "violations": []
+        },
+        {
+            "path": "/P1_1/",
+            "uuid_path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/5ade01c5-97c3-5ba1-9f25-ad2f1a884bf5",
+            "violations": []
+        },
+        {
+            "path": "/POWER_1/",
+            "uuid_path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/08d876af-46c9-5434-997c-19abf8f24ffc",
+            "violations": []
+        },
+        {
+            "path": "/POWER_2/",
+            "uuid_path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/50aa9813-2abd-53f6-b6e7-140e93acc186",
+            "violations": []
+        },
+        {
+            "path": "/POWER_AON_1/",
+            "uuid_path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/437d413d-dc86-568a-8c64-6ad639ee743f",
+            "violations": []
+        },
+        {
+            "path": "/SENSOR_1/",
+            "uuid_path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/5c811816-2d0c-55aa-b616-a9ded35ca93f",
+            "violations": []
+        },
+        {
+            "path": "/TOUCH_WHEEL_1/",
+            "uuid_path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/b60f9863-8038-5bfb-a5dc-4f358abe5512",
+            "violations": []
+        },
+        {
+            "path": "/USB_1/",
+            "uuid_path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211/22202af8-d9db-5d59-8595-d429cde9a71f",
+            "violations": []
+        },
+        {
+            "path": "/",
+            "uuid_path": "/36d8bd1e-57dc-53fe-b2dd-8bc26bc9c211",
+            "violations": []
+        }
+    ],
+    "source": "q2-v2.kicad_sch"
+}

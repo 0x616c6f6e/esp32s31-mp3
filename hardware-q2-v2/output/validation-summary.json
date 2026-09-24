@@ -1,0 +1,65 @@
+{
+  "status": "FULLY_ROUTED_REVIEW_CANDIDATE_NOT_RELEASED_FOR_FABRICATION",
+  "board_sha256": "6a2b1e4cfb08524f19f13aea072be195f2b83ac2a67df9404efdaa2df8f5d43a",
+  "kicad_version": "10.0.4",
+  "size_mm": [
+    46,
+    76,
+    1.6
+  ],
+  "copper_layers": 6,
+  "components": 198,
+  "tracks": 3029,
+  "vias": 262,
+  "via_diameter_drill_mm": {
+    "0.45/0.20": 194,
+    "0.35/0.15": 68
+  },
+  "drc_violations": 0,
+  "unconnected": 0,
+  "schematic_parity": 0,
+  "erc_violations": 0,
+  "ignored_drc_checks": [
+    {
+      "description": "Footprint has no courtyard defined",
+      "key": "missing_courtyard"
+    },
+    {
+      "description": "Track endpoint not centered on via",
+      "key": "track_not_centered_on_via"
+    },
+    {
+      "description": "Tuning profile track geometries",
+      "key": "tuning_profile_track_geometries"
+    },
+    {
+      "description": "Footprint doesn't match symbol's footprint filters",
+      "key": "footprint_filters_mismatch"
+    },
+    {
+      "description": "Footprint component type doesn't match footprint pads",
+      "key": "footprint_type_mismatch"
+    }
+  ],
+  "without_3d_models": [
+    "SCREW2",
+    "SCREW5",
+    "SCREW1",
+    "SCREW3",
+    "CN3",
+    "TP102",
+    "TP105",
+    "TP103",
+    "CN2",
+    "TP104",
+    "TP101",
+    "TP106"
+  ],
+  "release_holds": [
+    "USB complete-path controlled impedance / coupling / skew with manufacturer stackup",
+    "RF transmission line impedance, matching and antenna placement tuning",
+    "AM213 3.3 V follows the archived OSPTEK reference circuit; datasheet discrepancy and operating margins still require bench validation",
+    "Screen BTB tail reach, contact orientation and insertion clearance with real parts",
+    "Power/charging current, AON isolation and shutdown pulse bench validation"
+  ]
+}

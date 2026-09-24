@@ -1,0 +1,172 @@
+(footprint "FP_C110"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Espressif WROOM-3 V1.2 reference C10")
+	(property "Reference" "C110"
+		(at 0.4048 0.006611 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a5a5b453-7b82-4728-a75b-69fece2086c0")
+		(effects
+			(font
+				(size 0.35052 0.32512)
+				(thickness 0.0508)
+			)
+		)
+	)
+	(property "Value" "10uF"
+		(at -0.349999 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bb7aba36-f967-4334-9819-7746f0fc4b67")
+		(effects
+			(font
+				(size 0.35052 0.32512)
+				(thickness 0.0508)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ca3c020b-1d1d-4cba-887e-e3d1473091a0")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e5f26e34-8748-4902-83d7-8ce9fcc772ef")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(sheetname "CORE_1")
+	(sheetfile "CORE_1.kicad_sch")
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.8144 -0.2794)
+		(end -0.8144 0.2794)
+		(stroke
+			(width 0.0508)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a6453a5c-c7b0-489b-8fb6-2d7e1bfc2ebd")
+	)
+	(fp_line
+		(start -0.8144 0.2794)
+		(end -0.7128 0.381)
+		(stroke
+			(width 0.0508)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5b817635-6974-4399-846d-43f49540b42a")
+	)
+	(fp_line
+		(start -0.7128 -0.381)
+		(end -0.8144 -0.2794)
+		(stroke
+			(width 0.0508)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b3c27622-817c-4ebf-8bbb-bb963bc70f4c")
+	)
+	(fp_line
+		(start -0.7128 0.381)
+		(end -0.254 0.381)
+		(stroke
+			(width 0.0508)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "658d9a38-6d65-45bb-82c6-816b4a9f6e49")
+	)
+	(fp_line
+		(start -0.254 -0.381)
+		(end -0.7128 -0.381)
+		(stroke
+			(width 0.0508)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "04a313d0-9851-446b-8664-375bd5a289ad")
+	)
+	(fp_line
+		(start 0.254 -0.381)
+		(end 0.7128 -0.381)
+		(stroke
+			(width 0.0508)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "aae297ab-417d-4b2f-9e5e-3a4e3371cfb3")
+	)
+	(fp_line
+		(start 0.7095 0.381)
+		(end 0.254 0.381)
+		(stroke
+			(width 0.0508)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "82360cf5-541f-4110-9f88-88ac7ce13f93")
+	)
+	(fp_line
+		(start 0.7128 -0.381)
+		(end 0.8144 -0.27965)
+		(stroke
+			(width 0.0508)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "551d3f97-eb10-4ac8-b614-dfb523521736")
+	)
+	(fp_line
+		(start 0.8144 -0.27965)
+		(end 0.8144 0.2761)
+		(stroke
+			(width 0.0508)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "27915f07-b2ba-44d0-b1c1-f5383d266384")
+	)
+	(fp_line
+		(start 0.8144 0.2761)
+		(end 0.7095 0.381)
+		(stroke
+			(width 0.0508)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "737b45c6-704a-4e2d-a9e9-5a3ce75a369d")
+	)
+	(pad "1" smd rect
+		(at -0.42901 0)
+		(size 0.508 0.508)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "b5b41bfd-7e02-4a38-9103-465aaedee95f")
+	)
+	(pad "2" smd rect
+		(at 0.429 0)
+		(size 0.508 0.508)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "2b0af279-ef47-4b83-b23f-8f23b894d001")
+	)
+	(embedded_fonts no)
+)

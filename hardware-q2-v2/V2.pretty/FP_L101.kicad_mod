@@ -1,0 +1,122 @@
+(footprint "FP_L101"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Espressif WROOM-3 V1.2 reference L1")
+	(property "Reference" "L101"
+		(at -0.285638 -0.038278 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "016aac59-3896-41ec-a7ba-f77c63a9c33a")
+		(effects
+			(font
+				(size 0.35052 0.32512)
+				(thickness 0.0508)
+			)
+		)
+	)
+	(property "Value" "2.4nH"
+		(at -0.349999 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cb904c9f-4811-4c92-a49f-f6cac0a8e1ee")
+		(effects
+			(font
+				(size 0.35052 0.32512)
+				(thickness 0.0508)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b2a4d304-e3d7-4116-b293-da5c2b8b8ed1")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "75a46469-777a-424c-bb0e-2a909888164b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(sheetname "CORE_RF_1")
+	(sheetfile "CORE_RF_1.kicad_sch")
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.499999 -0.28)
+		(end -0.499999 -0.28)
+		(stroke
+			(width 0.0508)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d1446dd3-3015-4a8f-ab3b-3a6913c4db5c")
+	)
+	(fp_line
+		(start -0.499999 -0.28)
+		(end 0.499999 -0.28)
+		(stroke
+			(width 0.0508)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "99853070-340f-4f4f-9bb2-ba7824dae87b")
+	)
+	(fp_line
+		(start -0.499999 0.28)
+		(end -0.499999 -0.28)
+		(stroke
+			(width 0.0508)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "291d9bd4-1dcb-4300-b0d0-46f2bc4db172")
+	)
+	(fp_line
+		(start 0.499999 -0.28)
+		(end 0.499999 0.28)
+		(stroke
+			(width 0.0508)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b46eb4c1-7eb9-4eca-b92a-49d6bc1dd737")
+	)
+	(fp_line
+		(start 0.499999 0.28)
+		(end -0.499999 0.28)
+		(stroke
+			(width 0.0508)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "da8ba28b-af2e-4f74-9d52-a6e384b0621e")
+	)
+	(pad "1" smd rect
+		(at -0.25 0)
+		(size 0.3 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "8350531e-4964-4cee-8676-9f8207cfa304")
+	)
+	(pad "2" smd rect
+		(at 0.25 0)
+		(size 0.3 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "07f4bcf1-3884-436b-95ac-15df3f455891")
+	)
+	(embedded_fonts no)
+)
