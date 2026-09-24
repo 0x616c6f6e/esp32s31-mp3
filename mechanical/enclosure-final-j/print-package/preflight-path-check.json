@@ -1,0 +1,434 @@
+{
+  "rear_and_mainboard_axial_close": [
+    {
+      "offset_mm": [
+        0,
+        0,
+        -15
+      ],
+      "hits": []
+    },
+    {
+      "offset_mm": [
+        0,
+        0,
+        -10
+      ],
+      "hits": []
+    },
+    {
+      "offset_mm": [
+        0,
+        0,
+        -5
+      ],
+      "hits": []
+    },
+    {
+      "offset_mm": [
+        0,
+        0,
+        -2
+      ],
+      "hits": []
+    },
+    {
+      "offset_mm": [
+        0,
+        0,
+        -1
+      ],
+      "hits": []
+    },
+    {
+      "offset_mm": [
+        0,
+        0,
+        -0.5
+      ],
+      "hits": []
+    },
+    {
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "hits": []
+    }
+  ],
+  "wheel_straight_insertion": [
+    {
+      "offset_mm": [
+        0,
+        0,
+        -15
+      ],
+      "hits": []
+    },
+    {
+      "offset_mm": [
+        0,
+        0,
+        -10
+      ],
+      "hits": [
+        [
+          "WheelControlsA",
+          "HousingControlsA",
+          4.56832
+        ]
+      ]
+    },
+    {
+      "offset_mm": [
+        0,
+        0,
+        -7
+      ],
+      "hits": [
+        [
+          "WheelControlsA",
+          "HousingControlsA",
+          8.293271
+        ]
+      ]
+    },
+    {
+      "offset_mm": [
+        0,
+        0,
+        -5
+      ],
+      "hits": [
+        [
+          "WheelControlsA",
+          "HousingControlsA",
+          8.609174
+        ]
+      ]
+    },
+    {
+      "offset_mm": [
+        0,
+        0,
+        -3
+      ],
+      "hits": [
+        [
+          "WheelControlsA",
+          "HousingControlsA",
+          5.59998
+        ]
+      ]
+    },
+    {
+      "offset_mm": [
+        0,
+        0,
+        -1
+      ],
+      "hits": []
+    },
+    {
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "hits": []
+    }
+  ],
+  "center_straight_insertion": [
+    {
+      "offset_mm": [
+        0,
+        0,
+        -15
+      ],
+      "hits": []
+    },
+    {
+      "offset_mm": [
+        0,
+        0,
+        -10
+      ],
+      "hits": []
+    },
+    {
+      "offset_mm": [
+        0,
+        0,
+        -7
+      ],
+      "hits": []
+    },
+    {
+      "offset_mm": [
+        0,
+        0,
+        -5
+      ],
+      "hits": []
+    },
+    {
+      "offset_mm": [
+        0,
+        0,
+        -3
+      ],
+      "hits": []
+    },
+    {
+      "offset_mm": [
+        0,
+        0,
+        -1
+      ],
+      "hits": []
+    },
+    {
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "hits": []
+    }
+  ],
+  "controls_axial_entry_at_left_offset": [
+    {
+      "offset_mm": [
+        -1.2,
+        0,
+        -15
+      ],
+      "hits": []
+    },
+    {
+      "offset_mm": [
+        -1.2,
+        0,
+        -10
+      ],
+      "hits": [
+        [
+          "ControlsBoard",
+          "HousingControlsA",
+          3.23937
+        ]
+      ]
+    },
+    {
+      "offset_mm": [
+        -1.2,
+        0,
+        -7
+      ],
+      "hits": [
+        [
+          "ControlsBoard",
+          "HousingControlsA",
+          4.193185
+        ]
+      ]
+    },
+    {
+      "offset_mm": [
+        -1.2,
+        0,
+        -5
+      ],
+      "hits": [
+        [
+          "ControlsBoard",
+          "HousingControlsA",
+          33.871553
+        ]
+      ]
+    },
+    {
+      "offset_mm": [
+        -1.2,
+        0,
+        -3
+      ],
+      "hits": [
+        [
+          "ControlsBoard",
+          "HousingControlsA",
+          5.149163
+        ],
+        [
+          "CTRL_R3",
+          "HousingControlsA",
+          0.041236
+        ]
+      ]
+    },
+    {
+      "offset_mm": [
+        -1.2,
+        0,
+        -1
+      ],
+      "hits": [
+        [
+          "ControlsBoard",
+          "HousingControlsA",
+          2.868026
+        ]
+      ]
+    },
+    {
+      "offset_mm": [
+        -1.2,
+        0,
+        0
+      ],
+      "hits": []
+    }
+  ],
+  "additional_reference_clearances": [
+    {
+      "a": "LensAdhesive",
+      "b": "HousingControlsA",
+      "overlap_mm3": 0,
+      "distance_mm": 0.0
+    },
+    {
+      "a": "LensAdhesive",
+      "b": "LCDModule",
+      "overlap_mm3": 0,
+      "distance_mm": 0.32310988842806915
+    },
+    {
+      "a": "LensAdhesive",
+      "b": "CoverLens",
+      "overlap_mm3": 0,
+      "distance_mm": 0.0
+    }
+  ],
+  "key_travel_against_components": [
+    {
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "hits": []
+    },
+    {
+      "offset_mm": [
+        0,
+        0,
+        -0.1
+      ],
+      "hits": []
+    },
+    {
+      "offset_mm": [
+        0,
+        0,
+        -0.2
+      ],
+      "hits": [
+        [
+          "WheelControlsA",
+          "CTRL_SW5",
+          0.031809
+        ],
+        [
+          "WheelControlsA",
+          "CTRL_SW4",
+          0.031809
+        ],
+        [
+          "WheelControlsA",
+          "CTRL_SW3",
+          0.031809
+        ],
+        [
+          "WheelControlsA",
+          "CTRL_SW2",
+          0.031809
+        ]
+      ]
+    },
+    {
+      "offset_mm": [
+        0,
+        0,
+        -0.33
+      ],
+      "hits": [
+        [
+          "WheelControlsA",
+          "CTRL_SW5",
+          0.114511
+        ],
+        [
+          "WheelControlsA",
+          "CTRL_SW4",
+          0.114511
+        ],
+        [
+          "WheelControlsA",
+          "CTRL_SW3",
+          0.114511
+        ],
+        [
+          "WheelControlsA",
+          "CTRL_SW2",
+          0.114511
+        ]
+      ]
+    },
+    {
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "hits": []
+    },
+    {
+      "offset_mm": [
+        0,
+        0,
+        -0.1
+      ],
+      "hits": []
+    },
+    {
+      "offset_mm": [
+        0,
+        0,
+        -0.2
+      ],
+      "hits": [
+        [
+          "CenterButtonControlsA",
+          "CTRL_SW1",
+          0.031809
+        ]
+      ]
+    },
+    {
+      "offset_mm": [
+        0,
+        0,
+        -0.33
+      ],
+      "hits": [
+        [
+          "CenterButtonControlsA",
+          "CTRL_SW1",
+          0.114511
+        ]
+      ]
+    }
+  ],
+  "limitations": "Sampled rigid paths. Wires and flexes must be dressed during closing; no flex deformation, continuous sweep or tooling access simulation."
+}

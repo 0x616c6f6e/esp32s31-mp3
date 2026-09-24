@@ -1,0 +1,123 @@
+{
+  "source_hashes": {
+    "main": {
+      "matches": true,
+      "sha256": "7b2c5f1ed64687aac5a914b5cf3baac07e9dedfb0c56e9c651b8901a608ac4d9"
+    },
+    "controls": {
+      "matches": true,
+      "sha256": "ee37e039be0e91300c0c70fa5635e3af974297043ec823a83e4cb704881a896e"
+    }
+  },
+  "exports": [
+    {
+      "part": "01-housing",
+      "step_valid": true,
+      "step_solids": 1,
+      "step_shells": 1,
+      "stl_closed": true,
+      "stl_components": 1,
+      "stl_nonmanifold": false,
+      "stl_self_intersection": false,
+      "stl_bad_normals": false,
+      "step_vs_saved_model_symmetric_difference_mm3": 0.0,
+      "mesh_vs_step_volume_relative_error": 1.3687063725755726e-05,
+      "dimensions_mm": [
+        50.0,
+        81.5,
+        13.199999809265137
+      ]
+    },
+    {
+      "part": "02-rear-cover",
+      "step_valid": true,
+      "step_solids": 1,
+      "step_shells": 1,
+      "stl_closed": true,
+      "stl_components": 1,
+      "stl_nonmanifold": false,
+      "stl_self_intersection": false,
+      "stl_bad_normals": false,
+      "step_vs_saved_model_symmetric_difference_mm3": 0.0,
+      "mesh_vs_step_volume_relative_error": 0.00013326123925732958,
+      "dimensions_mm": [
+        50.0,
+        81.5,
+        4.199999809265137
+      ]
+    },
+    {
+      "part": "03-wheel",
+      "step_valid": true,
+      "step_solids": 1,
+      "step_shells": 1,
+      "stl_closed": true,
+      "stl_components": 1,
+      "stl_nonmanifold": false,
+      "stl_self_intersection": false,
+      "stl_bad_normals": false,
+      "step_vs_saved_model_symmetric_difference_mm3": 0.0,
+      "mesh_vs_step_volume_relative_error": 0.000935529499805001,
+      "dimensions_mm": [
+        34.69999694824219,
+        34.70000076293945,
+        2.1499996185302734
+      ]
+    },
+    {
+      "part": "04-center-button",
+      "step_valid": true,
+      "step_solids": 1,
+      "step_shells": 1,
+      "stl_closed": true,
+      "stl_components": 1,
+      "stl_nonmanifold": false,
+      "stl_self_intersection": false,
+      "stl_bad_normals": false,
+      "step_vs_saved_model_symmetric_difference_mm3": 0.0,
+      "mesh_vs_step_volume_relative_error": 0.0009300872929978472,
+      "dimensions_mm": [
+        14.30000114440918,
+        14.299995422363281,
+        2.049999237060547
+      ]
+    },
+    {
+      "part": "05-motor-carrier",
+      "step_valid": true,
+      "step_solids": 1,
+      "step_shells": 1,
+      "stl_closed": true,
+      "stl_components": 1,
+      "stl_nonmanifold": false,
+      "stl_self_intersection": false,
+      "stl_bad_normals": false,
+      "step_vs_saved_model_symmetric_difference_mm3": 0.0,
+      "mesh_vs_step_volume_relative_error": 0.0004136667325312155,
+      "dimensions_mm": [
+        10.999988555908203,
+        10.799091339111328,
+        2.250000476837158
+      ]
+    },
+    {
+      "part": "06-insert-fit-coupon-optional",
+      "step_valid": true,
+      "step_solids": 1,
+      "step_shells": 1,
+      "stl_closed": true,
+      "stl_components": 1,
+      "stl_nonmanifold": false,
+      "stl_self_intersection": false,
+      "stl_bad_normals": false,
+      "step_vs_saved_model_symmetric_difference_mm3": 0.0,
+      "mesh_vs_step_volume_relative_error": 8.570366027267031e-05,
+      "dimensions_mm": [
+        24.0,
+        8.0,
+        5.0
+      ]
+    }
+  ],
+  "assembly_sha256": "23669525e21b5a5a9a12251da5c32252f678892d6aa41db37afca1b887fe07d8"
+}

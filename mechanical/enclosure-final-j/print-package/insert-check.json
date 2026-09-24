@@ -1,0 +1,56 @@
+{
+  "socket_checks": [
+    {
+      "center_mm": [
+        25,
+        3.0
+      ],
+      "continuous_insert_sweep_collision_mm3": 0.0,
+      "screw_passage_collision_mm3": 0.0,
+      "straight_socket_wall_missing_mm3": 0.0,
+      "seating_shoulder_missing_mm3": 0.0
+    },
+    {
+      "center_mm": [
+        25,
+        77.0
+      ],
+      "continuous_insert_sweep_collision_mm3": 0.0,
+      "screw_passage_collision_mm3": 0.0,
+      "straight_socket_wall_missing_mm3": 0.0,
+      "seating_shoulder_missing_mm3": 0.0
+    }
+  ],
+  "unchanged_geometry": {
+    "RearCoverWithPCBPosts": {
+      "volume_area_centroid_equal": true,
+      "boolean_equal_checked": true
+    },
+    "WheelControlsA": {
+      "volume_area_centroid_equal": true,
+      "boolean_equal_checked": true
+    },
+    "CenterButtonControlsA": {
+      "volume_area_centroid_equal": true,
+      "boolean_equal_checked": true
+    },
+    "MainPCB": {
+      "volume_area_centroid_equal": true,
+      "boolean_equal_checked": false
+    },
+    "ControlsBoard": {
+      "volume_area_centroid_equal": true,
+      "boolean_equal_checked": false
+    },
+    "RearCoverFasteners": {
+      "volume_area_centroid_equal": true,
+      "boolean_equal_checked": false
+    }
+  },
+  "housing_material_added_mm3": 0.0,
+  "rear_fastener_original_geometry_retained": true,
+  "nominal_screw_tip_clearance_mm": 0.55,
+  "nominal_radial_glue_gap_mm": 0.1,
+  "glue_joint_pullout_and_torque_tested": false,
+  "insertion_method": "Continuous maximum-OD axial cylinder swept from rear with cover and electronics removed; no tooling/gripper simulation"
+}

@@ -1,0 +1,131 @@
+{
+  "material_z_spans_mm": {
+    "wheel_flange": [
+      [
+        12.35,
+        13.35
+      ]
+    ],
+    "center_flange": [
+      [
+        12.35,
+        13.35
+      ]
+    ],
+    "rear_bearing_top": [
+      [
+        0.65,
+        1.65
+      ]
+    ],
+    "rear_bearing_bottom": [
+      [
+        0.65,
+        1.65
+      ]
+    ],
+    "controls_roof_1": [
+      [
+        13.5,
+        14.4
+      ]
+    ],
+    "controls_roof_2": [
+      [
+        13.5,
+        14.4
+      ]
+    ],
+    "controls_roof_3": [
+      [
+        13.5,
+        14.4
+      ]
+    ],
+    "lcd_rail_top": [
+      [
+        11.5,
+        12.54
+      ]
+    ],
+    "lcd_rail_bottom": [
+      [
+        11.5,
+        12.54
+      ]
+    ]
+  },
+  "adhesive_contact_estimate_mm2": {
+    "lcd_tape_rail": 43.99999999997564,
+    "lcd_tape_module": 43.99999999974116,
+    "carrier_glue_wall": 10.249999999976675,
+    "carrier_glue_carrier": 10.249999999976106,
+    "motor_tape_base": 48.87273651186071,
+    "motor_tape_motor": 49.01669937766291
+  },
+  "contact_method": "0.001 mm translation into mating body, intersection volume / displacement",
+  "insert_rear_entry_samples": [
+    {
+      "part": "RearInsertTop",
+      "z_offset_mm": -10,
+      "intersection_mm3": 0
+    },
+    {
+      "part": "RearInsertTop",
+      "z_offset_mm": -6,
+      "intersection_mm3": 0
+    },
+    {
+      "part": "RearInsertTop",
+      "z_offset_mm": -3,
+      "intersection_mm3": 0
+    },
+    {
+      "part": "RearInsertTop",
+      "z_offset_mm": -1,
+      "intersection_mm3": 0
+    },
+    {
+      "part": "RearInsertTop",
+      "z_offset_mm": -0.5,
+      "intersection_mm3": 0
+    },
+    {
+      "part": "RearInsertTop",
+      "z_offset_mm": 0,
+      "intersection_mm3": 0
+    },
+    {
+      "part": "RearInsertBottom",
+      "z_offset_mm": -10,
+      "intersection_mm3": 0
+    },
+    {
+      "part": "RearInsertBottom",
+      "z_offset_mm": -6,
+      "intersection_mm3": 0
+    },
+    {
+      "part": "RearInsertBottom",
+      "z_offset_mm": -3,
+      "intersection_mm3": 0
+    },
+    {
+      "part": "RearInsertBottom",
+      "z_offset_mm": -1,
+      "intersection_mm3": 0
+    },
+    {
+      "part": "RearInsertBottom",
+      "z_offset_mm": -0.5,
+      "intersection_mm3": 0
+    },
+    {
+      "part": "RearInsertBottom",
+      "z_offset_mm": 0,
+      "intersection_mm3": 0
+    }
+  ],
+  "rear_screw_vs_resin_intersection_mm3": 0,
+  "limitations": "Nominal geometry only. No torque, pull-out, drop, print-tolerance or adhesive strength qualification."
+}

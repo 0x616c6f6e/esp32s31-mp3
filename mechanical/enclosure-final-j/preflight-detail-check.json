@@ -1,0 +1,197 @@
+{
+  "local_thickness_probes": [
+    {
+      "feature": "wheel_retention",
+      "xy_mm": [
+        42,
+        59.3
+      ],
+      "solid_z_intervals_mm": [
+        [
+          12.35,
+          12.85
+        ]
+      ]
+    },
+    {
+      "feature": "center_retention",
+      "xy_mm": [
+        31.5,
+        59.3
+      ],
+      "solid_z_intervals_mm": [
+        [
+          12.35,
+          12.75
+        ]
+      ]
+    },
+    {
+      "feature": "control_pilot_roof",
+      "xy_mm": [
+        6,
+        51
+      ],
+      "solid_z_intervals_mm": [
+        [
+          13.0,
+          13.500000000000002
+        ]
+      ]
+    },
+    {
+      "feature": "rear_head_seat",
+      "xy_mm": [
+        26.2,
+        3
+      ],
+      "solid_z_intervals_mm": [
+        [
+          0.6499999999999999,
+          1.0999999999999996
+        ]
+      ]
+    },
+    {
+      "feature": "rear_main_screw_pilot_floor",
+      "xy_mm": [
+        37.428,
+        35.361
+      ],
+      "solid_z_intervals_mm": [
+        [
+          0.0,
+          1.2000000000000002
+        ]
+      ]
+    }
+  ],
+  "mounts": [
+    {
+      "ref": "SCREW2",
+      "xy_mm": [
+        37.428,
+        35.36099999999999
+      ],
+      "pcb_hole_obstruction_mm3": 0,
+      "pilot_obstruction_mm3": 0,
+      "support_material_missing_mm3": 0.0
+    },
+    {
+      "ref": "SCREW5",
+      "xy_mm": [
+        38.192499999999995,
+        4.747499999999988
+      ],
+      "pcb_hole_obstruction_mm3": 0,
+      "pilot_obstruction_mm3": 0,
+      "support_material_missing_mm3": 0.0
+    },
+    {
+      "ref": "SCREW1",
+      "xy_mm": [
+        44.69999999999999,
+        65.4995
+      ],
+      "pcb_hole_obstruction_mm3": 0,
+      "pilot_obstruction_mm3": 0,
+      "support_material_missing_mm3": 0.0
+    },
+    {
+      "ref": "SCREW3",
+      "xy_mm": [
+        3.5010000000000048,
+        43.498999999999995
+      ],
+      "pcb_hole_obstruction_mm3": 0,
+      "pilot_obstruction_mm3": 0,
+      "support_material_missing_mm3": 0.0
+    }
+  ],
+  "ports": [
+    {
+      "probe": "USB_metal_tip_only",
+      "housing_overlap_mm3": 0,
+      "rear_overlap_mm3": 0
+    },
+    {
+      "probe": "3.5mm_jack_shaft_only",
+      "housing_overlap_mm3": 0,
+      "rear_overlap_mm3": 0
+    },
+    {
+      "probe": "microSD_card_only",
+      "housing_overlap_mm3": 0,
+      "rear_overlap_mm3": 0
+    }
+  ],
+  "switch_body_collision": [
+    {
+      "key": "WheelControlsA",
+      "switch": "CTRL_SW5",
+      "travel_mm": 0.33,
+      "fixed_body_overlap_mm3": 0
+    },
+    {
+      "key": "WheelControlsA",
+      "switch": "CTRL_SW1",
+      "travel_mm": 0.33,
+      "fixed_body_overlap_mm3": 0
+    },
+    {
+      "key": "WheelControlsA",
+      "switch": "CTRL_SW4",
+      "travel_mm": 0.33,
+      "fixed_body_overlap_mm3": 0
+    },
+    {
+      "key": "WheelControlsA",
+      "switch": "CTRL_SW3",
+      "travel_mm": 0.33,
+      "fixed_body_overlap_mm3": 0
+    },
+    {
+      "key": "WheelControlsA",
+      "switch": "CTRL_SW2",
+      "travel_mm": 0.33,
+      "fixed_body_overlap_mm3": 0
+    },
+    {
+      "key": "CenterButtonControlsA",
+      "switch": "CTRL_SW5",
+      "travel_mm": 0.33,
+      "fixed_body_overlap_mm3": 0
+    },
+    {
+      "key": "CenterButtonControlsA",
+      "switch": "CTRL_SW1",
+      "travel_mm": 0.33,
+      "fixed_body_overlap_mm3": 0
+    },
+    {
+      "key": "CenterButtonControlsA",
+      "switch": "CTRL_SW4",
+      "travel_mm": 0.33,
+      "fixed_body_overlap_mm3": 0
+    },
+    {
+      "key": "CenterButtonControlsA",
+      "switch": "CTRL_SW3",
+      "travel_mm": 0.33,
+      "fixed_body_overlap_mm3": 0
+    },
+    {
+      "key": "CenterButtonControlsA",
+      "switch": "CTRL_SW2",
+      "travel_mm": 0.33,
+      "fixed_body_overlap_mm3": 0
+    }
+  ],
+  "lens_adhesive": {
+    "to_housing_mm": 0.0,
+    "to_lens_mm": 0.0
+  },
+  "lcd_module_to_housing_mm": 0.2999999999999969,
+  "lcd_module_to_lens_mm": 0.29999999999999716,
+  "limitations": "Local probes, not global wall-thickness analysis; ports checked using stated bare mating envelopes, not cable overmolds. No material strength or tolerance simulation."
+}

@@ -1,0 +1,106 @@
+{
+  "source_hashes": {
+    "main": {
+      "matches": true,
+      "sha256": "7b2c5f1ed64687aac5a914b5cf3baac07e9dedfb0c56e9c651b8901a608ac4d9"
+    },
+    "controls": {
+      "matches": true,
+      "sha256": "ee37e039be0e91300c0c70fa5635e3af974297043ec823a83e4cb704881a896e"
+    }
+  },
+  "exports": [
+    {
+      "part": "01-housing",
+      "step_valid": true,
+      "step_solids": 1,
+      "step_shells": 1,
+      "stl_closed": true,
+      "stl_components": 1,
+      "stl_nonmanifold": false,
+      "stl_self_intersection": false,
+      "stl_bad_normals": false,
+      "step_vs_saved_model_symmetric_difference_mm3": 0.0,
+      "mesh_vs_step_volume_relative_error": 0.00014501025253773635,
+      "dimensions_mm": [
+        50.0,
+        81.5,
+        12.300000190734863
+      ]
+    },
+    {
+      "part": "02-rear-cover",
+      "step_valid": true,
+      "step_solids": 1,
+      "step_shells": 1,
+      "stl_closed": true,
+      "stl_components": 1,
+      "stl_nonmanifold": false,
+      "stl_self_intersection": false,
+      "stl_bad_normals": false,
+      "step_vs_saved_model_symmetric_difference_mm3": 0.0,
+      "mesh_vs_step_volume_relative_error": 0.00014529758307884404,
+      "dimensions_mm": [
+        50.0,
+        81.5,
+        4.199999809265137
+      ]
+    },
+    {
+      "part": "03-wheel-with-carrier",
+      "step_valid": true,
+      "step_solids": 1,
+      "step_shells": 1,
+      "stl_closed": true,
+      "stl_components": 1,
+      "stl_nonmanifold": false,
+      "stl_self_intersection": false,
+      "stl_bad_normals": false,
+      "step_vs_saved_model_symmetric_difference_mm3": 0.0,
+      "mesh_vs_step_volume_relative_error": 0.0004068077572965506,
+      "dimensions_mm": [
+        42.0,
+        42.000003814697266,
+        2.6000003814697266
+      ]
+    },
+    {
+      "part": "04-center-with-carrier",
+      "step_valid": true,
+      "step_solids": 1,
+      "step_shells": 1,
+      "stl_closed": true,
+      "stl_components": 1,
+      "stl_nonmanifold": false,
+      "stl_self_intersection": false,
+      "stl_bad_normals": false,
+      "step_vs_saved_model_symmetric_difference_mm3": 0.0,
+      "mesh_vs_step_volume_relative_error": 0.00024000152734096947,
+      "dimensions_mm": [
+        20.0,
+        20.000003814697266,
+        2.6000003814697266
+      ]
+    },
+    {
+      "part": "05-insert-fit-coupon-optional",
+      "step_valid": true,
+      "step_solids": 1,
+      "step_shells": 1,
+      "stl_closed": true,
+      "stl_components": 1,
+      "stl_nonmanifold": false,
+      "stl_self_intersection": false,
+      "stl_bad_normals": false,
+      "step_vs_saved_model_symmetric_difference_mm3": 0.0,
+      "mesh_vs_step_volume_relative_error": 6.6922529377252e-05,
+      "dimensions_mm": [
+        24.0,
+        8.0,
+        5.0
+      ]
+    }
+  ],
+  "zip_errors": [],
+  "assembly_sha256": "664597478632a9de2cedd64f66ba53918d4a0f9dd91946b0818db0e3b547d6df"
+}

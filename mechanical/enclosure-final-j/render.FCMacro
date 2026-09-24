@@ -1,0 +1,7 @@
+from pathlib import Path
+p=Path(r'C:/Users/alon/Desktop/Preoject/esp32s31-mp3/mechanical/enclosure-final-j/scripts/render_views.py')
+try:
+    exec(compile(p.read_text(encoding='utf-8'),str(p),'exec'),dict(__file__=str(p),__name__='__main__'))
+except Exception:
+    import traceback
+    (p.parents[1]/'views-error.txt').write_text(traceback.format_exc())

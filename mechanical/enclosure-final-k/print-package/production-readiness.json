@@ -1,0 +1,28 @@
+{
+  "revision": "K",
+  "status": "NOMINAL_CAD_PASS_FOR_PROTOTYPE_REVIEW",
+  "factory_approval_obtained": false,
+  "physical_assembly_tested": false,
+  "static_unintended_interferences": 0,
+  "assembly_discrete_poses_passed": 66,
+  "printable_parts_required": 5,
+  "optional_coupons": 1,
+  "case_overall_mm": [
+    50,
+    81.5,
+    15.1
+  ],
+  "required_changes_from_J": [
+    "Use complete K printed set; add separate motor carrier",
+    "Controls screws M1.6x2.5 under head plus 0.3mm washers",
+    "Rear glue bores OD3.0 for OD2.5 x L3 inserts; fit coupon recommended",
+    "Motor carrier glued AFTER controls installation"
+  ],
+  "remaining_checks": [
+    "Material-specific factory thin-wall review",
+    "Actual FPC geometry and bend behavior",
+    "Finished battery dimensions and charging configuration",
+    "Print tolerance, adhesive strength and screw torque"
+  ],
+  "native_model_sha256": "23669525e21b5a5a9a12251da5c32252f678892d6aa41db37afca1b887fe07d8"
+}

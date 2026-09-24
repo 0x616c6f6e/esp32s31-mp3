@@ -1,0 +1,543 @@
+{
+  "wheel_from_rear_above_short_post": [
+    {
+      "offset_mm": [
+        0,
+        -3.5,
+        -18
+      ],
+      "hits": []
+    },
+    {
+      "offset_mm": [
+        0,
+        -3.5,
+        -14
+      ],
+      "hits": []
+    },
+    {
+      "offset_mm": [
+        0,
+        -3.5,
+        -10
+      ],
+      "hits": []
+    },
+    {
+      "offset_mm": [
+        0,
+        -3.5,
+        -8
+      ],
+      "hits": []
+    },
+    {
+      "offset_mm": [
+        0,
+        -3.5,
+        -6
+      ],
+      "hits": []
+    },
+    {
+      "offset_mm": [
+        0,
+        -3.5,
+        -5
+      ],
+      "hits": []
+    },
+    {
+      "offset_mm": [
+        0,
+        -3,
+        -5
+      ],
+      "hits": []
+    },
+    {
+      "offset_mm": [
+        0,
+        -2,
+        -5
+      ],
+      "hits": []
+    },
+    {
+      "offset_mm": [
+        0,
+        -1,
+        -5
+      ],
+      "hits": []
+    },
+    {
+      "offset_mm": [
+        0,
+        0,
+        -5
+      ],
+      "hits": []
+    },
+    {
+      "offset_mm": [
+        0,
+        0,
+        -4
+      ],
+      "hits": []
+    },
+    {
+      "offset_mm": [
+        0,
+        0,
+        -3
+      ],
+      "hits": []
+    },
+    {
+      "offset_mm": [
+        0,
+        0,
+        -2
+      ],
+      "hits": []
+    },
+    {
+      "offset_mm": [
+        0,
+        0,
+        -1
+      ],
+      "hits": []
+    },
+    {
+      "offset_mm": [
+        0,
+        0,
+        -0.5
+      ],
+      "hits": []
+    },
+    {
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "hits": []
+    }
+  ],
+  "center_from_rear": [
+    {
+      "offset_mm": [
+        0,
+        0,
+        -16
+      ],
+      "hits": []
+    },
+    {
+      "offset_mm": [
+        0,
+        0,
+        -12
+      ],
+      "hits": []
+    },
+    {
+      "offset_mm": [
+        0,
+        0,
+        -8
+      ],
+      "hits": []
+    },
+    {
+      "offset_mm": [
+        0,
+        0,
+        -4
+      ],
+      "hits": []
+    },
+    {
+      "offset_mm": [
+        0,
+        0,
+        -2
+      ],
+      "hits": []
+    },
+    {
+      "offset_mm": [
+        0,
+        0,
+        -1
+      ],
+      "hits": []
+    },
+    {
+      "offset_mm": [
+        0,
+        0,
+        -0.5
+      ],
+      "hits": []
+    },
+    {
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "hits": []
+    }
+  ],
+  "controls_before_motor": [
+    {
+      "offset_mm": [
+        -1.3,
+        -5,
+        -18
+      ],
+      "hits": []
+    },
+    {
+      "offset_mm": [
+        -1.3,
+        -5,
+        -14
+      ],
+      "hits": []
+    },
+    {
+      "offset_mm": [
+        -1.3,
+        -5,
+        -10
+      ],
+      "hits": []
+    },
+    {
+      "offset_mm": [
+        -1.3,
+        -5,
+        -8
+      ],
+      "hits": []
+    },
+    {
+      "offset_mm": [
+        -1.3,
+        -5,
+        -6
+      ],
+      "hits": []
+    },
+    {
+      "offset_mm": [
+        -1.3,
+        -5,
+        -4
+      ],
+      "hits": []
+    },
+    {
+      "offset_mm": [
+        -1.3,
+        -5,
+        -2
+      ],
+      "hits": []
+    },
+    {
+      "offset_mm": [
+        -1.3,
+        -5,
+        -1
+      ],
+      "hits": []
+    },
+    {
+      "offset_mm": [
+        -1.3,
+        -5,
+        -0.5
+      ],
+      "hits": []
+    },
+    {
+      "offset_mm": [
+        -1.3,
+        -4,
+        -0.5
+      ],
+      "hits": []
+    },
+    {
+      "offset_mm": [
+        -1.3,
+        -3,
+        -0.5
+      ],
+      "hits": []
+    },
+    {
+      "offset_mm": [
+        -1.3,
+        -2,
+        -0.5
+      ],
+      "hits": []
+    },
+    {
+      "offset_mm": [
+        -1.3,
+        -1,
+        -0.5
+      ],
+      "hits": []
+    },
+    {
+      "offset_mm": [
+        -1.3,
+        0,
+        -0.5
+      ],
+      "hits": []
+    },
+    {
+      "offset_mm": [
+        -1.3,
+        0,
+        -0.3
+      ],
+      "hits": []
+    },
+    {
+      "offset_mm": [
+        -1.3,
+        0,
+        0
+      ],
+      "hits": []
+    },
+    {
+      "offset_mm": [
+        -0.9,
+        0,
+        0
+      ],
+      "hits": []
+    },
+    {
+      "offset_mm": [
+        -0.6,
+        0,
+        0
+      ],
+      "hits": []
+    },
+    {
+      "offset_mm": [
+        -0.3,
+        0,
+        0
+      ],
+      "hits": []
+    },
+    {
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "hits": []
+    }
+  ],
+  "motor_module_after_controls": [
+    {
+      "offset_mm": [
+        0,
+        0,
+        -14
+      ],
+      "hits": []
+    },
+    {
+      "offset_mm": [
+        0,
+        0,
+        -10
+      ],
+      "hits": []
+    },
+    {
+      "offset_mm": [
+        0,
+        0,
+        -6
+      ],
+      "hits": []
+    },
+    {
+      "offset_mm": [
+        0,
+        0,
+        -4
+      ],
+      "hits": []
+    },
+    {
+      "offset_mm": [
+        0,
+        0,
+        -2
+      ],
+      "hits": []
+    },
+    {
+      "offset_mm": [
+        0,
+        0,
+        -1
+      ],
+      "hits": []
+    },
+    {
+      "offset_mm": [
+        0,
+        0,
+        -0.5
+      ],
+      "hits": []
+    },
+    {
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "hits": []
+    }
+  ],
+  "lcd_from_front": [
+    {
+      "offset_mm": [
+        0,
+        0,
+        10
+      ],
+      "hits": []
+    },
+    {
+      "offset_mm": [
+        0,
+        0,
+        6
+      ],
+      "hits": []
+    },
+    {
+      "offset_mm": [
+        0,
+        0,
+        3
+      ],
+      "hits": []
+    },
+    {
+      "offset_mm": [
+        0,
+        0,
+        1
+      ],
+      "hits": []
+    },
+    {
+      "offset_mm": [
+        0,
+        0,
+        0.5
+      ],
+      "hits": []
+    },
+    {
+      "offset_mm": [
+        0,
+        0,
+        0.2
+      ],
+      "hits": []
+    },
+    {
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "hits": []
+    }
+  ],
+  "rear_mainboard_closing": [
+    {
+      "offset_mm": [
+        0,
+        0,
+        -15
+      ],
+      "hits": []
+    },
+    {
+      "offset_mm": [
+        0,
+        0,
+        -10
+      ],
+      "hits": []
+    },
+    {
+      "offset_mm": [
+        0,
+        0,
+        -5
+      ],
+      "hits": []
+    },
+    {
+      "offset_mm": [
+        0,
+        0,
+        -2
+      ],
+      "hits": []
+    },
+    {
+      "offset_mm": [
+        0,
+        0,
+        -1
+      ],
+      "hits": []
+    },
+    {
+      "offset_mm": [
+        0,
+        0,
+        -0.5
+      ],
+      "hits": []
+    },
+    {
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "hits": []
+    }
+  ],
+  "method": "Staged rigid poses; motor fitted after controls, LCD from front before lens, rear PCB last; cables not rigidly translated. This is not continuous swept-volume, tooling or flex simulation."
+}

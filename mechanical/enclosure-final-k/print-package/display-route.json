@@ -1,0 +1,165 @@
+{
+  "centerline_length_mm": 46.14,
+  "body_thickness_assumed_mm": 0.12,
+  "bend_radius_assumed_mm": 0.65,
+  "neck_width_assumed_mm": 18,
+  "neck_length_assumed_mm": 13.8,
+  "tip_case_mm": [
+    8.352,
+    20.4,
+    3.7
+  ],
+  "return_z_mm": 3.35,
+  "segments": [
+    {
+      "line": [
+        [
+          3.275,
+          13.0
+        ],
+        [
+          2.05,
+          13.0
+        ]
+      ],
+      "width": 18,
+      "length": 1.225
+    },
+    {
+      "arc_center": [
+        2.05,
+        12.35
+      ],
+      "radius": 0.65,
+      "angles": [
+        90,
+        180
+      ],
+      "width": 18,
+      "length": 1.0210176124166828
+    },
+    {
+      "line": [
+        [
+          1.4,
+          12.35
+        ],
+        [
+          1.4,
+          2.6999999999999997
+        ]
+      ],
+      "width": 18,
+      "length": 9.65
+    },
+    {
+      "arc_center": [
+        2.05,
+        2.6999999999999997
+      ],
+      "radius": 0.65,
+      "angles": [
+        180,
+        270
+      ],
+      "width": 18,
+      "length": 1.0210176124166828
+    },
+    {
+      "line": [
+        [
+          2.05,
+          2.05
+        ],
+        [
+          2.932964775166634,
+          2.05
+        ]
+      ],
+      "width": 18,
+      "length": 0.8829647751666343
+    },
+    {
+      "line": [
+        [
+          2.932964775166634,
+          2.05
+        ],
+        [
+          20.746794440294966,
+          2.05
+        ]
+      ],
+      "width": 6.6,
+      "length": 17.81382966512833
+    },
+    {
+      "arc_center": [
+        20.746794440294966,
+        2.6999999999999997
+      ],
+      "radius": 0.65,
+      "angles": [
+        270,
+        450
+      ],
+      "width": 6.6,
+      "length": 2.0420352248333655
+    },
+    {
+      "line": [
+        [
+          20.746794440294966,
+          3.35
+        ],
+        [
+          12.387411967464942,
+          3.35
+        ]
+      ],
+      "width": 6.6,
+      "length": 8.359382472830024
+    },
+    {
+      "arc_center": [
+        12.387411967464942,
+        4.0
+      ],
+      "radius": 0.65,
+      "angles": [
+        270,
+        226.95092019976366
+      ],
+      "width": 6.6,
+      "length": 0.4883763186041395
+    },
+    {
+      "arc_center": [
+        11.5,
+        3.0500000000000003
+      ],
+      "radius": 0.65,
+      "angles": [
+        46.95092019976365,
+        90
+      ],
+      "width": 6.6,
+      "length": 0.48837631860413966
+    },
+    {
+      "line": [
+        [
+          11.5,
+          3.7
+        ],
+        [
+          8.352,
+          3.7
+        ]
+      ],
+      "width": 6.6,
+      "length": 3.1479999999999997
+    }
+  ],
+  "note": "No in-plane shear. Actual FPC contour, allowable bend radius, contact thickness and insertion depth still require supplier/sample confirmation."
+}

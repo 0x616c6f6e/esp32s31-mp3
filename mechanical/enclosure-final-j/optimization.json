@@ -1,0 +1,22 @@
+{
+  "source": "../enclosure-final-i/Q2_I_Serviceable_Assembly.FCStd",
+  "modified_printed_parts": [
+    "HousingControlsA"
+  ],
+  "new_hardware": [
+    "RearInsertTop",
+    "RearInsertBottom"
+  ],
+  "unchanged_parts": [
+    "RearCoverWithPCBPosts",
+    "WheelControlsA",
+    "CenterButtonControlsA"
+  ],
+  "optional_manufacturing_aid": "InsertFitCoupon",
+  "method": "Material removed for cold-glue sockets; case envelope, PCB positions and other hardware retained",
+  "glue_joint_strength_tested": false,
+  "references": [
+    "https://www.ppmcn.com/mini-tech-inserts/",
+    "https://formlabs.com/blog/adding-screw-threads-3d-printed-parts/"
+  ]
+}
