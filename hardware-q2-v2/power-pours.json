@@ -1,0 +1,236 @@
+{
+  "status": "VALIDATED_POWER_POURS_MANUAL_SIGNAL_ROUTING_REQUIRED",
+  "dc_nets": [
+    "GBAT",
+    "MCU_1V8",
+    "MCU_VDDA34",
+    "MCU_VDD_SPI",
+    "N_5N15",
+    "VBAT",
+    "VBUS_5V",
+    "VCC",
+    "VCC_1V8",
+    "VCC_3V3",
+    "VCC_3V3_AON",
+    "VCC_PMID"
+  ],
+  "regions": [
+    {
+      "uuid": "112cfce3-ec37-4543-bf39-66c1af4c96e9",
+      "net": "VCC",
+      "layer": "PWR",
+      "filled_area_mm2": 6.796797
+    },
+    {
+      "uuid": "2f8ffbfb-9da3-475a-a8bd-2b9002912c5f",
+      "net": "N_5N15",
+      "layer": "PWR",
+      "filled_area_mm2": 11.382844
+    },
+    {
+      "uuid": "30462942-c999-4f81-bb38-214ca61f6c42",
+      "net": "VBUS_5V",
+      "layer": "PWR",
+      "filled_area_mm2": 22.624811
+    },
+    {
+      "uuid": "310e2fa8-e07e-467d-b362-c8efb986f2eb",
+      "net": "VCC_3V3_AON",
+      "layer": "PWR",
+      "filled_area_mm2": 39.524519
+    },
+    {
+      "uuid": "51bbebb8-ce48-47fc-92a6-8a6b8b7db95d",
+      "net": "VCC",
+      "layer": "PWR",
+      "filled_area_mm2": 0.0
+    },
+    {
+      "uuid": "6c38def7-a9e3-40d4-b4bc-9c20e752b531",
+      "net": "VCC",
+      "layer": "PWR",
+      "filled_area_mm2": 14.809655
+    },
+    {
+      "uuid": "774de8fb-4be5-40b4-ae86-2c8d1dffbfd8",
+      "net": "VCC",
+      "layer": "PWR",
+      "filled_area_mm2": 24.738237
+    },
+    {
+      "uuid": "8a3c0d8b-def1-4a8b-bb90-c373940ef199",
+      "net": "VCC_3V3",
+      "layer": "PWR",
+      "filled_area_mm2": 3024.781036
+    },
+    {
+      "uuid": "dabc0139-7130-4e72-9751-c34f05e86530",
+      "net": "VCC_3V3_AON",
+      "layer": "PWR",
+      "filled_area_mm2": 11.210727
+    },
+    {
+      "uuid": "08f5e843-039d-4bcf-ba61-b58d3fedabc9",
+      "net": "VCC",
+      "layer": "SINGAL",
+      "filled_area_mm2": 0.0
+    },
+    {
+      "uuid": "092220b2-2c91-44b3-9066-eaa3917b1299",
+      "net": "VCC",
+      "layer": "SINGAL",
+      "filled_area_mm2": 7.937822
+    },
+    {
+      "uuid": "1d999973-30f2-4fea-a162-74fb9326c555",
+      "net": "MCU_VDDA34",
+      "layer": "SINGAL",
+      "filled_area_mm2": 9.584591
+    },
+    {
+      "uuid": "22536f8f-280f-4553-9d8d-9bef7ba84f57",
+      "net": "VBAT",
+      "layer": "SINGAL",
+      "filled_area_mm2": 48.124481
+    },
+    {
+      "uuid": "38887284-c122-433d-a888-2bc377709d1f",
+      "net": "VCC_3V3_AON",
+      "layer": "SINGAL",
+      "filled_area_mm2": 0.0
+    },
+    {
+      "uuid": "4eda8916-36a9-4778-8295-d4ef3c9c55a8",
+      "net": "VCC",
+      "layer": "SINGAL",
+      "filled_area_mm2": 6.691391
+    },
+    {
+      "uuid": "55d15a44-1769-49b8-aa7c-6a3617d18953",
+      "net": "VCC_PMID",
+      "layer": "SINGAL",
+      "filled_area_mm2": 37.646423
+    },
+    {
+      "uuid": "579ed5ae-72e7-4a6b-8db4-e5213242bf8c",
+      "net": "VCC_3V3_AON",
+      "layer": "SINGAL",
+      "filled_area_mm2": 0.0
+    },
+    {
+      "uuid": "63628fab-9d7f-4a49-b1c6-9f55583ffd99",
+      "net": "VCC_1V8",
+      "layer": "SINGAL",
+      "filled_area_mm2": 100.073653
+    },
+    {
+      "uuid": "69a2616b-c7a8-43f2-a6c9-86ad9e61d909",
+      "net": "VBUS_5V",
+      "layer": "SINGAL",
+      "filled_area_mm2": 36.499964
+    },
+    {
+      "uuid": "7f661260-c172-4179-9918-35dfec4842d1",
+      "net": "VCC_3V3_AON",
+      "layer": "SINGAL",
+      "filled_area_mm2": 36.255449
+    },
+    {
+      "uuid": "90179235-7a19-4a0a-98f6-4b1567161084",
+      "net": "VCC_3V3_AON",
+      "layer": "SINGAL",
+      "filled_area_mm2": 0.0
+    },
+    {
+      "uuid": "93102b07-bad3-4bfe-af30-6b9b11e83fed",
+      "net": "VCC_3V3",
+      "layer": "SINGAL",
+      "filled_area_mm2": 6.015777
+    },
+    {
+      "uuid": "a69bf4ff-54b7-4c6b-9511-5763a72dd589",
+      "net": "VCC",
+      "layer": "SINGAL",
+      "filled_area_mm2": 0.0
+    },
+    {
+      "uuid": "b28e8f36-73f5-4b17-b641-87eb53e03cba",
+      "net": "VCC",
+      "layer": "SINGAL",
+      "filled_area_mm2": 0.0
+    },
+    {
+      "uuid": "b47d4025-c049-47d4-a350-6688a364b29f",
+      "net": "VCC",
+      "layer": "SINGAL",
+      "filled_area_mm2": 50.024825
+    },
+    {
+      "uuid": "be68e867-f7d9-4953-8fe3-97f17dcbb507",
+      "net": "GBAT",
+      "layer": "SINGAL",
+      "filled_area_mm2": 21.115419
+    },
+    {
+      "uuid": "c0d8fe61-f47e-4112-9b7f-e944ff4f3625",
+      "net": "VCC_1V8",
+      "layer": "SINGAL",
+      "filled_area_mm2": 0.0
+    },
+    {
+      "uuid": "c8906595-aa1f-47ab-a171-19794076975d",
+      "net": "VBUS_5V",
+      "layer": "SINGAL",
+      "filled_area_mm2": 25.039812
+    },
+    {
+      "uuid": "cf83dd33-7e84-4b19-926c-f3536cd99aed",
+      "net": "MCU_1V8",
+      "layer": "SINGAL",
+      "filled_area_mm2": 12.39342
+    },
+    {
+      "uuid": "d281c0cd-2ec7-40f4-b6a6-a782e98c862d",
+      "net": "MCU_VDD_SPI",
+      "layer": "SINGAL",
+      "filled_area_mm2": 36.079435
+    },
+    {
+      "uuid": "e4dd1cab-cc94-43e1-909d-452c90c53a9f",
+      "net": "VCC_3V3",
+      "layer": "SINGAL",
+      "filled_area_mm2": 8.07364
+    },
+    {
+      "uuid": "f1e34ab4-865e-42a9-a1ec-d91bdbb5853b",
+      "net": "N_5N15",
+      "layer": "SINGAL",
+      "filled_area_mm2": 8.243955
+    },
+    {
+      "uuid": "fb202ed7-c3f9-4bb7-9124-1a34441a4334",
+      "net": "VCC",
+      "layer": "SINGAL",
+      "filled_area_mm2": 6.762683
+    },
+    {
+      "uuid": "fcb1212a-a340-4b0d-9055-ac9585dfa56f",
+      "net": "VCC",
+      "layer": "SINGAL",
+      "filled_area_mm2": 0.0
+    }
+  ],
+  "removed_temporary_inner_segments": 0,
+  "preserved": "GND planes; short surface pad-to-via access; local switching, feedback and charge-pump circuits",
+  "via_policy": "Ordinary power access uses tented 0.45/0.20 mm through vias outside SMD solder lands; existing QFN GND thermal vias retained",
+  "board_sha256": "e91efb0715536170c78ea993f9513d2c456d7fe4c10adea585575b0db33038a7",
+  "geometry_drc": 0,
+  "schematic_parity": 0,
+  "power_and_ground_unconnected": 0,
+  "intentional_signal_unconnected": 174,
+  "remaining_signal_copper": 0,
+  "inner_supply_track_segments": 0,
+  "component_placement_and_pad_nets_unchanged": true,
+  "surface_supply_access_segments": 223,
+  "longest_surface_supply_segment_mm": 2.0
+}

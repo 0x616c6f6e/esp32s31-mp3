@@ -7,6 +7,18 @@ from shapely.ops import unary_union
 from shapely import affinity
 import shapely,numpy as np
 b=p.LoadBoard(str(P/'q2-v2.kicad_pcb'));fn=P/'q2-v2.kicad_pro';pro=json.loads(fn.read_text(encoding='utf8'))
+plane_mode='plane-access' in sys.argv
+dc_nets=set(json.loads((P/'power-only-0402.json').read_text())['rails'])-{'GND'}
+held=[]
+if plane_mode and 'failed' not in sys.argv:
+ archive=P/'output/archive/pre-power-pours';archive.mkdir(parents=True,exist_ok=True)
+ for name in ['q2-v2.kicad_pcb','q2-v2.kicad_pro']:
+  target=archive/name
+  if not target.exists():target.write_bytes((P/name).read_bytes())
+ for a in list(b.GetTracks()):
+  if a.GetNetname() in dc_nets:held.append(a);b.Remove(a)
+ for z in list(b.Zones()):
+  if z.GetNetname() in dc_nets:held.append(z);b.Remove(z)
 pro['board']['design_settings']['rules'].update(min_via_diameter=.35,min_through_hole_diameter=.15)
 xy=lambda v:(p.ToMM(v.x),p.ToMM(v.y));V=lambda z:p.VECTOR2I(p.FromMM(float(z[0])),p.FromMM(float(z[1])));layers=[p.F_Cu,p.In2_Cu,p.In3_Cu,p.B_Cu]
 polys=collections.defaultdict(lambda:collections.defaultdict(list));holes=[];pads={}
@@ -28,7 +40,9 @@ for a in b.GetTracks():
   polys[l][a.GetNetname()].append(sh)
 outline=affinity.translate(Polygon(json.loads((P.parent/'hardware-q2-v2-plan/outline.json').read_text())[0]),128.868,67.647)
 targets={}
-if 'power-only' in sys.argv:
+if plane_mode and 'failed' not in sys.argv:
+ targets={uid:(f,a) for uid,(f,a) in pads.items() if a.GetNetname() in dc_nets and a.GetAttribute()==p.PAD_ATTRIB_SMD}
+elif 'power-only' in sys.argv:
  drc=json.loads((P/'output/drc.json').read_text(encoding='utf8'))
  for item in drc['unconnected_items']:
   for it in item['items']:
@@ -49,16 +63,20 @@ else:
    if it['uuid'] in pads:
     f,a=pads[it['uuid']];targets[it['uuid']]=(f,a)
 cache={};added=[];failed=[]
+if plane_mode:solder=unary_union([s for f0,a0 in pads.values() if a0.GetAttribute()==p.PAD_ATTRIB_SMD for s in polyset(a0.GetEffectivePolygon(a0.GetLayer()))])
 for uid,(f,a) in sorted(targets.items(),key=lambda q:(q[1][0].GetReference()!='U9',q[1][1].GetNetname()!='GND')):
- n=a.GetNetname();layer=f.GetLayer();start=xy(a.GetPosition());w=.1 if f.GetReference()=='U9' or n=='GND' else .15;diam=.35
+ n=a.GetNetname();layer=f.GetLayer();start=xy(a.GetPosition());w=.1 if f.GetReference()=='U9' or n=='GND' else .15;diam=.45 if plane_mode else .35;drill=.2 if plane_mode else .15
  if n not in cache:
   obs={l:unary_union([z for net,ss in polys[l].items() if net!=n for z in ss]) for l in layers}
   hole=unary_union([s for net,s in holes if net!=n]);cache[n]=(obs,hole)
  obs,hole=cache[n]
  others=[e for e in added if e['net']!=n]
- viaob=unary_union([s for s in obs.values()]+[Point(e['xy']).buffer(diam/2) for e in others]+[LineString(e['path']).buffer(e['width']/2) for e in others]).buffer(diam/2+.105).union(hole.buffer(.075))
+ viaob=unary_union([s for s in obs.values()]+[Point(e['xy']).buffer(diam/2) for e in others]+[LineString(e['path']).buffer(e['width']/2) for e in others]).buffer(diam/2+.155 if plane_mode else diam/2+.105).union(hole.buffer(drill/2))
+ if plane_mode:
+  # Keep drilled holes out of every SMD solder land; no new via-in-pad process.
+  viaob=viaob.union(solder.buffer(drill/2+.1))
  # Drill clearance applies even to holes of the same electrical net.
- sameholes=[Point(xy(t.GetPosition())).buffer(p.ToMM(t.GetDrillValue())/2+.075+.201) for t in b.GetTracks() if isinstance(t,p.PCB_VIA) and t.GetNetname()==n]
+ sameholes=[Point(xy(t.GetPosition())).buffer(p.ToMM(t.GetDrillValue())/2+drill/2+.201) for t in b.GetTracks() if isinstance(t,p.PCB_VIA) and t.GetNetname()==n]
  viaob=viaob.union(unary_union(sameholes))
  traceob=obs[layer].buffer(w/2+.105).union(hole.buffer(w/2))
  for e in others:
@@ -109,7 +127,9 @@ for uid,(f,a) in sorted(targets.items(),key=lambda q:(q[1][0].GetReference()!='U
   for q,t in zip(path,path[1:]):
    if math.dist(q,t)<1e-6:continue
    track=p.PCB_TRACK(b);track.SetStart(V(q));track.SetEnd(V(t));track.SetWidth(p.FromMM(w));track.SetLayer(layer);track.SetNet(a.GetNet());b.Add(track)
-  via=p.PCB_VIA(b);via.SetPosition(V(z));via.SetWidth(p.FromMM(diam));via.SetDrill(p.FromMM(.15));via.SetLayerPair(p.F_Cu,p.B_Cu);via.SetNet(a.GetNet());b.Add(via)
+  via=p.PCB_VIA(b);via.SetPosition(V(z));via.SetWidth(p.FromMM(diam));via.SetDrill(p.FromMM(drill));via.SetLayerPair(p.F_Cu,p.B_Cu);via.SetNet(a.GetNet())
+  if plane_mode:via.SetFrontTentingMode(p.TENTING_MODE_TENTED);via.SetBackTentingMode(p.TENTING_MODE_TENTED)
+  b.Add(via)
   added.append({'ref':f.GetReference(),'pin':a.GetNumber(),'net':n,'xy':z,'path':path,'layer':layer,'width':w});break
  if not valid:failed.append({'ref':f.GetReference(),'pin':a.GetNumber(),'net':n,'xy':start})
 p.ZONE_FILLER(b).Fill(b.Zones());p.SaveBoard(str(P/'q2-v2.kicad_pcb'),b);fn.write_text(json.dumps(pro,ensure_ascii=False,indent=2),encoding='utf8')

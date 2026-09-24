@@ -12,7 +12,8 @@
     "VCC_1V8",
     "MCU_1V8",
     "MCU_VDD_SPI",
-    "MCU_VDDA34"
+    "MCU_VDDA34",
+    "N_5N15"
   ],
   "local_power_nodes": {
     "N_2N13": "BQ25895 bootstrap",
@@ -32,7 +33,6 @@
     "N_3N32": "CS43131 negative reference filter",
     "N_3N34": "CS43131 positive reference filter",
     "N_3N63": "PCA9306 reference bias",
-    "N_5N15": "DRV2605 supply",
     "N_5N6": "DRV2605 regulator bypass",
     "MOTOR_OUT_P": "motor load power",
     "MOTOR_OUT_N": "motor load power",

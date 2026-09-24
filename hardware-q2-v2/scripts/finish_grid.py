@@ -46,14 +46,14 @@ def group(seed,items,shapes):
    if v in seen:continue
    if any(shapes[u][l].distance(shapes[v][l])<.00015 for l in shapes[u].keys() & shapes[v].keys()):seen.add(v);todo.append(v)
  return {l:unary_union([shapes[u][l] for u in seen if l in shapes[u]]) for l in layers},seen
-def route(uid1,uid2=None,ground=False):
+def route(uid1,uid2=None,ground=False,width=.1,clearance=.102,step=.05,allow_new_vias=True):
  items,cu,holes,keepouts,shapes=database();a=items[uid1];net=a.GetNetname();start,seen=group(uid1,items,shapes)
  if ground:
   goal={l:unary_union([shapes[u][l] for u,v in items.items() if u not in seen and v.GetNetname()==net and isinstance(v,p.PCB_VIA) and l in shapes[u]]) for l in layers}
  else:
   if uid2 in seen:print('Already connected',net,flush=True);return True
   goal,_=group(uid2,items,shapes)
- width=.1;diam=.35;drill=.15;step=.05
+ diam=.35;drill=.15;nlayers=len(layers)
  both=unary_union(list(start.values())+list(goal.values()));x0,y0,x1,y1=both.bounds
  # Full board width is available for long detours, but no routing outside the outline.
  x0=max(129.118,x0-5);y0=max(67.897,y0-5);x1=min(174.618,x1+5);y1=min(143.397,y1+5)
@@ -62,12 +62,13 @@ def route(uid1,uid2=None,ground=False):
  inside=shapely.contains_xy(outline.buffer(-.25-width/2-.001),xx,yy)
  obs={l:unary_union([s for n,ss in cu[l].items() if n!=net for s in ss]) for l in layers}
  foreignholes=unary_union([s.buffer(c+width/2+.001) for n,s,c in holes if n!=net])
- traceobs={l:obs[l].buffer(.102+width/2).union(foreignholes) for l in layers}
+ traceobs={l:obs[l].buffer(clearance+width/2).union(foreignholes) for l in layers}
  blocked=np.array([shapely.intersects_xy(traceobs[l],xx,yy)|~inside for l in layers])
  viaob=unary_union(list(obs.values())).buffer(.102+diam/2)
  viaob=viaob.union(unary_union([s.buffer(.201+drill/2) for n,s,c in holes]+keepouts))
  viafree=~shapely.intersects_xy(viaob,xx,yy)&shapely.contains_xy(outline.buffer(-.25-diam/2-.001),xx,yy)
  ownvias=[v for v in items.values() if isinstance(v,p.PCB_VIA) and v.GetNetname()==net]
+ if not allow_new_vias:viafree[:]=False
  reuse=unary_union([Point(xy(v.GetPosition())).buffer(.09) for v in ownvias])
  viafree|=shapely.contains_xy(reuse,xx,yy)
  smask=np.array([shapely.contains_xy(start[l].buffer(-.01),xx,yy)&~blocked[i] for i,l in enumerate(layers)])
@@ -77,7 +78,7 @@ def route(uid1,uid2=None,ground=False):
  gy,gx=np.where(gmask.any(axis=0));gx0,gx1=gx.min(),gx.max();gy0,gy1=gy.min(),gy.max()
  hx=np.maximum(np.maximum(gx0-np.arange(nx),np.arange(nx)-gx1),0);hy=np.maximum(np.maximum(gy0-np.arange(ny),np.arange(ny)-gy1),0)
  heuristic=np.sqrt(hx[None,:]**2+hy[:,None]**2).ravel()
- costs=np.full(4*size,np.inf);prev=np.full(4*size,-1,dtype=np.int64);heap=[];bf=blocked.reshape(4,size);gf=gmask.ravel();vf=viafree.ravel()
+ costs=np.full(nlayers*size,np.inf);prev=np.full(nlayers*size,-1,dtype=np.int64);heap=[];bf=blocked.reshape(nlayers,size);gf=gmask.ravel();vf=viafree.ravel()
  for node in np.flatnonzero(smask):costs[node]=0;heapq.heappush(heap,(float(heuristic[node%size]),0,int(node)))
  moves=[(1,0,1),(-1,0,1),(0,1,1),(0,-1,1),(1,1,math.sqrt(2)),(-1,1,math.sqrt(2)),(1,-1,math.sqrt(2)),(-1,-1,math.sqrt(2))]
  end=None;visited=0;beg=time.time();print('Routing',net,'grid',nx,ny,'starts',smask.sum(),'goals',gmask.sum(),flush=True)
@@ -98,7 +99,7 @@ def route(uid1,uid2=None,ground=False):
    nn=l*size+Q;nc=cost+d
    if nc+1e-8<costs[nn]:costs[nn]=nc;prev[nn]=node;heapq.heappush(heap,(nc+heuristic[Q],nc,nn))
   if vf[q]:
-   for L in range(4):
+   for L in range(nlayers):
     if L==l or bf[L,q]:continue
     nn=L*size+q;nc=cost+30
     if nc+1e-8<costs[nn]:costs[nn]=nc;prev[nn]=node;heapq.heappush(heap,(nc+heuristic[q],nc,nn))

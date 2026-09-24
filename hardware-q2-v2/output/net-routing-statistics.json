@@ -1,28 +1,19 @@
 {
   "VCC_3V3": {
-    "trace_length_mm": 243.121522,
-    "vias": 34,
+    "trace_length_mm": 45.609245,
+    "vias": 74,
     "layers": [
       "Bottom Layer",
-      "PWR",
-      "SINGAL",
       "Top Layer"
     ],
     "widths_mm": [
       0.1,
-      0.15,
-      0.2,
-      0.25,
-      0.2798,
-      0.3,
-      0.35,
-      0.4,
-      0.45
+      0.15
     ]
   },
   "GND": {
     "trace_length_mm": 3.789949,
-    "vias": 55,
+    "vias": 56,
     "layers": [
       "Top Layer"
     ],
@@ -31,22 +22,14 @@
     ]
   },
   "VBUS_5V": {
-    "trace_length_mm": 64.664392,
-    "vias": 2,
+    "trace_length_mm": 8.918504,
+    "vias": 12,
     "layers": [
       "Bottom Layer",
-      "SINGAL",
       "Top Layer"
     ],
     "widths_mm": [
-      0.2,
-      0.25,
-      0.3,
-      0.35,
-      0.4,
-      0.45,
-      0.5,
-      0.6
+      0.15
     ]
   },
   "N_3N29": {
@@ -72,20 +55,14 @@
     ]
   },
   "VCC": {
-    "trace_length_mm": 66.523725,
-    "vias": 5,
+    "trace_length_mm": 16.567643,
+    "vias": 21,
     "layers": [
       "Bottom Layer",
-      "PWR",
       "Top Layer"
     ],
     "widths_mm": [
-      0.3,
-      0.35,
-      0.4,
-      0.45,
-      0.5,
-      0.6
+      0.15
     ]
   },
   "N_3N32": {
@@ -111,17 +88,13 @@
     ]
   },
   "VCC_1V8": {
-    "trace_length_mm": 63.057499,
-    "vias": 2,
+    "trace_length_mm": 10.682845,
+    "vias": 17,
     "layers": [
-      "PWR",
       "Top Layer"
     ],
     "widths_mm": [
-      0.25,
-      0.3,
-      0.35,
-      0.4
+      0.15
     ]
   },
   "N_3N24": {
@@ -147,15 +120,14 @@
     ]
   },
   "MCU_1V8": {
-    "trace_length_mm": 2.870713,
-    "vias": 0,
+    "trace_length_mm": 4.431376,
+    "vias": 6,
     "layers": [
       "Top Layer"
     ],
     "widths_mm": [
-      0.2,
-      0.25,
-      0.3
+      0.1,
+      0.15
     ]
   },
   "N_2N19": {
@@ -171,19 +143,14 @@
     ]
   },
   "VBAT": {
-    "trace_length_mm": 33.767135,
-    "vias": 3,
+    "trace_length_mm": 8.264519,
+    "vias": 10,
     "layers": [
       "Bottom Layer",
-      "PWR",
       "Top Layer"
     ],
     "widths_mm": [
-      0.3,
-      0.4,
-      0.45,
-      0.5,
-      0.6
+      0.15
     ]
   },
   "N_2N14": {
@@ -220,15 +187,14 @@
     ]
   },
   "VCC_PMID": {
-    "trace_length_mm": 19.610526,
-    "vias": 1,
+    "trace_length_mm": 6.134188,
+    "vias": 5,
     "layers": [
       "Bottom Layer",
       "Top Layer"
     ],
     "widths_mm": [
-      0.15,
-      0.3
+      0.15
     ]
   },
   "N_3N34": {
@@ -298,16 +264,14 @@
     ]
   },
   "MCU_VDD_SPI": {
-    "trace_length_mm": 12.982415,
-    "vias": 0,
+    "trace_length_mm": 3.415687,
+    "vias": 6,
     "layers": [
       "Top Layer"
     ],
     "widths_mm": [
       0.1,
-      0.15,
-      0.2,
-      0.3
+      0.15
     ]
   },
   "N_2N84": {
@@ -334,44 +298,35 @@
     ]
   },
   "MCU_VDDA34": {
-    "trace_length_mm": 2.927818,
-    "vias": 0,
+    "trace_length_mm": 2.288174,
+    "vias": 4,
     "layers": [
       "Top Layer"
     ],
     "widths_mm": [
       0.1,
-      0.15,
-      0.2,
-      0.25,
-      0.3
+      0.15
     ]
   },
   "GBAT": {
-    "trace_length_mm": 6.811509,
-    "vias": 0,
+    "trace_length_mm": 2.065686,
+    "vias": 3,
     "layers": [
       "Bottom Layer",
       "Top Layer"
     ],
     "widths_mm": [
-      0.5,
-      0.6
+      0.15
     ]
   },
   "VCC_3V3_AON": {
-    "trace_length_mm": 63.803008,
-    "vias": 4,
+    "trace_length_mm": 5.038478,
+    "vias": 9,
     "layers": [
-      "Bottom Layer",
-      "PWR",
-      "SINGAL"
+      "Bottom Layer"
     ],
     "widths_mm": [
-      0.25,
-      0.3,
-      0.35,
-      0.4
+      0.15
     ]
   },
   "MOTOR_OUT_P": {
@@ -416,13 +371,13 @@
     ]
   },
   "N_5N15": {
-    "trace_length_mm": 11.180206,
-    "vias": 0,
+    "trace_length_mm": 5.664519,
+    "vias": 5,
     "layers": [
       "Bottom Layer"
     ],
     "widths_mm": [
-      0.3
+      0.15
     ]
   }
 }

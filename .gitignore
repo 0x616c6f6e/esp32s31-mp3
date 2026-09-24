@@ -63,3 +63,5 @@ Thumbs.db
 !/hardware-q2-v2/output/power-width-review.json
 !/hardware-q2-v2/output/power-width-first-pass.json
 !/hardware-q2-v2/output/retained-routing.json
+!/hardware-q2-v2/output/power-map.svg
+!/hardware-q2-v2/output/power-map.png

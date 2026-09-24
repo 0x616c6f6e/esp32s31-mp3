@@ -13,3 +13,7 @@ for i,side in enumerate(['front','back']):
  pa=QtGui.QPainter(im);r.render(pa);pa.end();im.save(str(P/(side+'-review.png')))
  op.drawImage(20+i*920,60,im);op.drawText(20+i*920,38,'Q2 V2 / '+side.upper())
 op.end();overview.save(str(P/'pcb-overview.png'))
+if (P/'power-map.svg').exists():
+ r=QtSvg.QSvgRenderer(str(P/'power-map.svg'))
+ im=QtGui.QImage(1500,1350,QtGui.QImage.Format_ARGB32);im.fill(QtCore.Qt.white)
+ pa=QtGui.QPainter(im);r.render(pa);pa.end();im.save(str(P/'power-map.png'))

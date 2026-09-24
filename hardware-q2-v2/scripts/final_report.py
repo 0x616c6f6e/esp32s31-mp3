@@ -34,6 +34,7 @@ assert summary['drc_violations']==summary['schematic_parity']==summary['erc_viol
 if power_policy:
  allowed=set(power_policy['rails'])|set(power_policy['local_power_nodes'])
  items={a.m_Uuid.AsString():a for f in b.GetFootprints() for a in f.Pads()};items.update({a.m_Uuid.AsString():a for a in b.GetTracks()})
+ items.update({z.m_Uuid.AsString():z for z in b.Zones()})
  missing_power=[e for e in drc['unconnected_items'] if any(items[i['uuid']].GetNetname() in allowed for i in e['items'] if i['uuid'] in items)]
  summary.update(power_unconnected=len(missing_power),intentional_signal_unconnected=len(drc['unconnected_items'])-len(missing_power),remaining_signal_copper_items=sum(t.GetNetname() not in allowed for t in b.GetTracks()),package_replacements=len(power_policy['package_changes']))
  assert not missing_power and summary['remaining_signal_copper_items']==0

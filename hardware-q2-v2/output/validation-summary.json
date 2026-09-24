@@ -1,6 +1,6 @@
 {
   "status": "POWER_ONLY_0402_MANUAL_SIGNAL_ROUTING_REQUIRED",
-  "board_sha256": "1b9f46ef36cc33efa281ac7e1f4ea3756dc2fbd3009b2b507207d7559da6f1b1",
+  "board_sha256": "e91efb0715536170c78ea993f9513d2c456d7fe4c10adea585575b0db33038a7",
   "kicad_version": "10.0.4",
   "size_mm": [
     46,
@@ -9,11 +9,11 @@
   ],
   "copper_layers": 6,
   "components": 198,
-  "tracks": 825,
-  "vias": 110,
+  "tracks": 387,
+  "vias": 232,
   "via_diameter_drill_mm": {
-    "0.45/0.20": 83,
-    "0.35/0.15": 27
+    "0.45/0.20": 228,
+    "0.35/0.15": 4
   },
   "drc_violations": 0,
   "unconnected": 174,
