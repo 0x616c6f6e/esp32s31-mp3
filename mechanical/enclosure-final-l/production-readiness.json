@@ -1,0 +1,19 @@
+{
+  "revision": "L",
+  "status": "MECHANICAL_STUDY_ONLY_NOT_FOR_PRODUCTION",
+  "static_conflicts": 0,
+  "sampled_assembly_poses_passed": 73,
+  "print_exports_readback_pass": true,
+  "main_and_controls_pcb_modified": false,
+  "adapter_electrically_designed": false,
+  "actual_display_cables_routed": false,
+  "factory_approval_obtained": false,
+  "blocking_items": [
+    "Confirm screen pins 15/16 supply and full load current",
+    "Obtain exact mating BTB footprint and screen folded FPC geometry",
+    "Complete active adapter, power sequencing and both cables",
+    "Replace reservations with real hardware and mounting; repeat full fit check"
+  ],
+  "native_model_sha256": "280c663a32172af0af51d079b9efd44ec9c157e3c93de8e68d7aa7493d3c84b6",
+  "screen_downward_adjustment_mm": 0.5
+}

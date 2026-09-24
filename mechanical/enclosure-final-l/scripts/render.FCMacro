@@ -1,0 +1,3 @@
+from pathlib import Path
+p=Path(r'C:\Users\alon\Desktop\Preoject\esp32s31-mp3\mechanical\enclosure-final-l\scripts\render_views.py')
+exec(compile(p.read_text(),str(p),'exec'),{'__file__':str(p)})

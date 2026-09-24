@@ -1,0 +1,213 @@
+{
+  "centerline_length_mm": 70.0,
+  "body_thickness_assumed_mm": 0.12,
+  "bend_radius_assumed_mm": 0.8,
+  "ribbon_width_mm": 6.6,
+  "root_flare_length_mm": 2.0,
+  "tip_case_mm": [
+    8.352,
+    20.4005,
+    3.7
+  ],
+  "return_z_mm": 3.35,
+  "segments": [
+    {
+      "line": [
+        [
+          29.0,
+          10.04
+        ],
+        [
+          2.2,
+          10.04
+        ]
+      ],
+      "width": 6.6,
+      "length": 26.8
+    },
+    {
+      "arc_center": [
+        2.2,
+        9.239999999999998
+      ],
+      "radius": 0.8,
+      "angles": [
+        90,
+        180
+      ],
+      "width": 6.6,
+      "length": 1.2566370614359172
+    },
+    {
+      "line": [
+        [
+          1.4000000000000001,
+          9.239999999999998
+        ],
+        [
+          1.4000000000000001,
+          2.55
+        ]
+      ],
+      "width": 6.6,
+      "length": 6.689999999999999
+    },
+    {
+      "arc_center": [
+        2.2,
+        2.55
+      ],
+      "radius": 0.8,
+      "angles": [
+        180,
+        270
+      ],
+      "width": 6.6,
+      "length": 1.2566370614359172
+    },
+    {
+      "line": [
+        [
+          2.2,
+          1.75
+        ],
+        [
+          2.7,
+          1.75
+        ]
+      ],
+      "width": 6.6,
+      "length": 0.5
+    },
+    {
+      "line": [
+        [
+          2.7,
+          1.75
+        ],
+        [
+          20.97779608068027,
+          1.75
+        ]
+      ],
+      "width": 6.6,
+      "length": 18.27779608068027
+    },
+    {
+      "arc_center": [
+        20.97779608068027,
+        2.55
+      ],
+      "radius": 0.8,
+      "angles": [
+        270,
+        450
+      ],
+      "width": 6.6,
+      "length": 2.5132741228718345
+    },
+    {
+      "line": [
+        [
+          20.97779608068027,
+          3.35
+        ],
+        [
+          13.198749217771908,
+          3.35
+        ]
+      ],
+      "width": 6.6,
+      "length": 7.779046862908363
+    },
+    {
+      "arc_center": [
+        13.198749217771908,
+        4.15
+      ],
+      "radius": 0.8,
+      "angles": [
+        270,
+        231.37516712694702
+      ],
+      "width": 6.6,
+      "length": 0.5393044053338524
+    },
+    {
+      "arc_center": [
+        12.2,
+        2.9000000000000004
+      ],
+      "radius": 0.8,
+      "angles": [
+        51.375167126947034,
+        90
+      ],
+      "width": 6.6,
+      "length": 0.5393044053338522
+    },
+    {
+      "line": [
+        [
+          12.2,
+          3.7
+        ],
+        [
+          8.352,
+          3.7
+        ]
+      ],
+      "width": 6.6,
+      "length": 3.847999999999999
+    }
+  ],
+  "note": "No in-plane shear. Actual FPC contour, allowable bend radius, contact thickness and insertion depth still require supplier/sample confirmation.",
+  "tip_stiffener_straight_length_mm": 3.847999999999999,
+  "tip_required_stiffener_length_mm": 3.5,
+  "intersections": [
+    {
+      "adapter_part": "AdapterFoldedFlex",
+      "existing_part": "PCB_FPC2",
+      "volume_mm3": 1.980792,
+      "interpretation": "intentional connector insertion into simplified solid envelope"
+    },
+    {
+      "adapter_part": "AdapterTipStiffener",
+      "existing_part": "PCB_FPC2",
+      "volume_mm3": 1.320528,
+      "interpretation": "intentional connector insertion into simplified solid envelope"
+    }
+  ],
+  "source_sha256": "280c663a32172af0af51d079b9efd44ec9c157e3c93de8e68d7aa7493d3c84b6",
+  "btb_center_boardlocal_mm": [
+    3,
+    12
+  ],
+  "btb_center_case_mm": [
+    32,
+    20,
+    10.1
+  ],
+  "component_heights_mm": {
+    "Adapter_J2": 0.79,
+    "Adapter_R1": 0.35,
+    "Adapter_R2": 0.35,
+    "Adapter_R3": 0.35,
+    "Adapter_R4": 0.35,
+    "Adapter_R5": 0.35,
+    "Adapter_R6": 0.35,
+    "Adapter_R7": 0.35,
+    "Adapter_R8": 0.35,
+    "Adapter_R9": 0.35,
+    "Adapter_C1": 0.5,
+    "Adapter_C2": 0.8,
+    "Adapter_C3": 0.5,
+    "Adapter_C4": 0.5
+  },
+  "limits": [
+    "R0.8 bend and 0.12mm stack require flex fabricator approval",
+    "Socket cavity/contact geometry not exact; insertion face/thickness and latch clearance require physical sample",
+    "Screen-side flexible tail and mated BTB stack are not tolerance-verified",
+    "Reserve 0.48mm for island stiffener+adhesive, not a measured supplied stack"
+  ]
+}

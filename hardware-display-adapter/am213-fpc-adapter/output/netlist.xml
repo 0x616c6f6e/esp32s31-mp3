@@ -1,0 +1,739 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\alon\Desktop\Preoject\esp32s31-mp3\hardware-display-adapter\am213-fpc-adapter\am213-fpc-adapter.kicad_sch</source>
+    <date>2026-09-23T17:47:45</date>
+    <tool>Eeschema 10.0.4</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>AM213 / Existing ESP32-S31 mainboard FPC adapter</title>
+        <company>alon</company>
+        <rev>A - prototype</rev>
+        <date>2026-09-23</date>
+        <source>am213-fpc-adapter.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100nF</value>
+      <footprint>Adapter:C0402</footprint>
+      <description>X5R/X7R 10V; C2 maximum assembled height &lt;=0.8mm</description>
+      <fields>
+        <field name="Footprint">Adapter:C0402</field>
+        <field name="Datasheet"/>
+        <field name="Description">X5R/X7R 10V; C2 maximum assembled height &lt;=0.8mm</field>
+      </fields>
+      <libsource lib="Adapter" part="C" description=""/>
+      <property name="Sheetname" value="am213-fpc-adapter"/>
+      <property name="Sheetfile" value="am213-fpc-adapter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e1e76cc4-07c4-5cb6-a927-375e4e382437</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C2">
+      <value>10uF</value>
+      <footprint>Adapter:C0603</footprint>
+      <description>X5R/X7R 10V; C2 maximum assembled height &lt;=0.8mm</description>
+      <fields>
+        <field name="Footprint">Adapter:C0603</field>
+        <field name="Datasheet"/>
+        <field name="Description">X5R/X7R 10V; C2 maximum assembled height &lt;=0.8mm</field>
+      </fields>
+      <libsource lib="Adapter" part="C" description=""/>
+      <property name="Sheetname" value="am213-fpc-adapter"/>
+      <property name="Sheetfile" value="am213-fpc-adapter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5b7d5dd0-b6ec-562d-8aa1-44abef4a59b6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C3">
+      <value>100nF</value>
+      <footprint>Adapter:C0402</footprint>
+      <description>X5R/X7R 10V; C2 maximum assembled height &lt;=0.8mm</description>
+      <fields>
+        <field name="Footprint">Adapter:C0402</field>
+        <field name="Datasheet"/>
+        <field name="Description">X5R/X7R 10V; C2 maximum assembled height &lt;=0.8mm</field>
+      </fields>
+      <libsource lib="Adapter" part="C" description=""/>
+      <property name="Sheetname" value="am213-fpc-adapter"/>
+      <property name="Sheetfile" value="am213-fpc-adapter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>98201126-2534-5c16-b53a-ef38f2964bd9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C4">
+      <value>100nF</value>
+      <footprint>Adapter:C0402</footprint>
+      <description>X5R/X7R 10V; C2 maximum assembled height &lt;=0.8mm</description>
+      <fields>
+        <field name="Footprint">Adapter:C0402</field>
+        <field name="Datasheet"/>
+        <field name="Description">X5R/X7R 10V; C2 maximum assembled height &lt;=0.8mm</field>
+      </fields>
+      <libsource lib="Adapter" part="C" description=""/>
+      <property name="Sheetname" value="am213-fpc-adapter"/>
+      <property name="Sheetfile" value="am213-fpc-adapter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>20046854-ab63-54ae-8f18-3285e03bd541</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J1">
+      <value>21P 0.3mm FPC fingers</value>
+      <footprint>Adapter:FPC21_Fingers</footprint>
+      <description>AFE03 lower contact; 0.20+/-0.03mm finished tip; not a separate socket</description>
+      <fields>
+        <field name="Footprint">Adapter:FPC21_Fingers</field>
+        <field name="Datasheet"/>
+        <field name="Description">AFE03 lower contact; 0.20+/-0.03mm finished tip; not a separate socket</field>
+      </fields>
+      <libsource lib="Adapter" part="J_HOST" description=""/>
+      <property name="Sheetname" value="am213-fpc-adapter"/>
+      <property name="Sheetfile" value="am213-fpc-adapter.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>82b680bd-b426-52aa-820f-c94fc57a817c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+            <pin num="15"/>
+            <pin num="16"/>
+            <pin num="17"/>
+            <pin num="18"/>
+            <pin num="19"/>
+            <pin num="20"/>
+            <pin num="21"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J2">
+      <value>OK-23GF024-04</value>
+      <footprint>Adapter:OK23GF024</footprint>
+      <description>Top view: 1 upper left, 12 lower left, 13 lower right, 24 upper right; OSPTEK board photo</description>
+      <fields>
+        <field name="Footprint">Adapter:OK23GF024</field>
+        <field name="Datasheet"/>
+        <field name="Description">Top view: 1 upper left, 12 lower left, 13 lower right, 24 upper right; OSPTEK board photo</field>
+      </fields>
+      <libsource lib="Adapter" part="J_LCD" description=""/>
+      <property name="Sheetname" value="am213-fpc-adapter"/>
+      <property name="Sheetfile" value="am213-fpc-adapter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>df26df77-e097-5660-b828-7baad79422fe</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+            <pin num="15"/>
+            <pin num="16"/>
+            <pin num="17"/>
+            <pin num="18"/>
+            <pin num="19"/>
+            <pin num="20"/>
+            <pin num="21"/>
+            <pin num="22"/>
+            <pin num="23"/>
+            <pin num="24"/>
+            <pin num="MP"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R1">
+      <value>22R</value>
+      <footprint>Adapter:R0402</footprint>
+      <description>QSPI series damping; initial conservative low clock, tune on scope</description>
+      <fields>
+        <field name="Footprint">Adapter:R0402</field>
+        <field name="Datasheet"/>
+        <field name="Description">QSPI series damping; initial conservative low clock, tune on scope</field>
+      </fields>
+      <libsource lib="Adapter" part="R" description=""/>
+      <property name="Sheetname" value="am213-fpc-adapter"/>
+      <property name="Sheetfile" value="am213-fpc-adapter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>648cf80d-87ff-59a4-bc1c-65bb5405e5bf</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R2">
+      <value>0R</value>
+      <footprint>Adapter:R0402</footprint>
+      <description>QSPI series damping; initial conservative low clock, tune on scope</description>
+      <fields>
+        <field name="Footprint">Adapter:R0402</field>
+        <field name="Datasheet"/>
+        <field name="Description">QSPI series damping; initial conservative low clock, tune on scope</field>
+      </fields>
+      <libsource lib="Adapter" part="R" description=""/>
+      <property name="Sheetname" value="am213-fpc-adapter"/>
+      <property name="Sheetfile" value="am213-fpc-adapter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b00b618c-6d4b-5457-a63a-922f575422d6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R3">
+      <value>0R</value>
+      <footprint>Adapter:R0402</footprint>
+      <description>QSPI series damping; initial conservative low clock, tune on scope</description>
+      <fields>
+        <field name="Footprint">Adapter:R0402</field>
+        <field name="Datasheet"/>
+        <field name="Description">QSPI series damping; initial conservative low clock, tune on scope</field>
+      </fields>
+      <libsource lib="Adapter" part="R" description=""/>
+      <property name="Sheetname" value="am213-fpc-adapter"/>
+      <property name="Sheetfile" value="am213-fpc-adapter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3d063de4-574e-5f22-9fc2-9b90641fc5b1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R4">
+      <value>0R</value>
+      <footprint>Adapter:R0402</footprint>
+      <description>QSPI series damping; initial conservative low clock, tune on scope</description>
+      <fields>
+        <field name="Footprint">Adapter:R0402</field>
+        <field name="Datasheet"/>
+        <field name="Description">QSPI series damping; initial conservative low clock, tune on scope</field>
+      </fields>
+      <libsource lib="Adapter" part="R" description=""/>
+      <property name="Sheetname" value="am213-fpc-adapter"/>
+      <property name="Sheetfile" value="am213-fpc-adapter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>43b9fa6c-af17-57d2-9515-a6cb3744344a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R5">
+      <value>0R</value>
+      <footprint>Adapter:R0402</footprint>
+      <description>QSPI series damping; initial conservative low clock, tune on scope</description>
+      <fields>
+        <field name="Footprint">Adapter:R0402</field>
+        <field name="Datasheet"/>
+        <field name="Description">QSPI series damping; initial conservative low clock, tune on scope</field>
+      </fields>
+      <libsource lib="Adapter" part="R" description=""/>
+      <property name="Sheetname" value="am213-fpc-adapter"/>
+      <property name="Sheetfile" value="am213-fpc-adapter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d564ce1e-28c7-52eb-8883-fdf2480ccd6b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R6">
+      <value>0R</value>
+      <footprint>Adapter:R0402</footprint>
+      <description>QSPI series damping; initial conservative low clock, tune on scope</description>
+      <fields>
+        <field name="Footprint">Adapter:R0402</field>
+        <field name="Datasheet"/>
+        <field name="Description">QSPI series damping; initial conservative low clock, tune on scope</field>
+      </fields>
+      <libsource lib="Adapter" part="R" description=""/>
+      <property name="Sheetname" value="am213-fpc-adapter"/>
+      <property name="Sheetfile" value="am213-fpc-adapter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1a950656-1ba9-59fa-82dc-f7e082160188</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R7">
+      <value>0R</value>
+      <footprint>Adapter:R0402</footprint>
+      <description>Factory reference feeds pin15 at3.3V; removable isolation link</description>
+      <fields>
+        <field name="Footprint">Adapter:R0402</field>
+        <field name="Datasheet"/>
+        <field name="Description">Factory reference feeds pin15 at3.3V; removable isolation link</field>
+      </fields>
+      <libsource lib="Adapter" part="R" description=""/>
+      <property name="Sheetname" value="am213-fpc-adapter"/>
+      <property name="Sheetfile" value="am213-fpc-adapter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4f684811-8b2f-5fb9-898d-a3598d1f1d8b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R8">
+      <value>0R</value>
+      <footprint>Adapter:R0402</footprint>
+      <description>Factory reference feeds pin16 at3.3V; removable isolation link</description>
+      <fields>
+        <field name="Footprint">Adapter:R0402</field>
+        <field name="Datasheet"/>
+        <field name="Description">Factory reference feeds pin16 at3.3V; removable isolation link</field>
+      </fields>
+      <libsource lib="Adapter" part="R" description=""/>
+      <property name="Sheetname" value="am213-fpc-adapter"/>
+      <property name="Sheetfile" value="am213-fpc-adapter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3b29ed3f-73f7-5b7e-b385-08aa67cedc46</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R9">
+      <value>100k</value>
+      <footprint>Adapter:R0402</footprint>
+      <description>Default PMIC disable until ESP_IO46 asserts enable</description>
+      <fields>
+        <field name="Footprint">Adapter:R0402</field>
+        <field name="Datasheet"/>
+        <field name="Description">Default PMIC disable until ESP_IO46 asserts enable</field>
+      </fields>
+      <libsource lib="Adapter" part="R" description=""/>
+      <property name="Sheetname" value="am213-fpc-adapter"/>
+      <property name="Sheetfile" value="am213-fpc-adapter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1c657cac-df5c-53f8-acfd-8c85ea1dd66a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R10">
+      <value>4.7k</value>
+      <footprint>Adapter:R0402</footprint>
+      <description>Optional pull-up; host already has R46</description>
+      <fields>
+        <field name="Footprint">Adapter:R0402</field>
+        <field name="Datasheet"/>
+        <field name="Description">Optional pull-up; host already has R46</field>
+      </fields>
+      <libsource lib="Adapter" part="R" description=""/>
+      <property name="Sheetname" value="am213-fpc-adapter"/>
+      <property name="Sheetfile" value="am213-fpc-adapter.kicad_sch"/>
+      <property name="dnp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a97c3756-dd7c-5cbd-acec-341e59d77f34</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R11">
+      <value>4.7k</value>
+      <footprint>Adapter:R0402</footprint>
+      <description>Optional pull-up; host already has R45</description>
+      <fields>
+        <field name="Footprint">Adapter:R0402</field>
+        <field name="Datasheet"/>
+        <field name="Description">Optional pull-up; host already has R45</field>
+      </fields>
+      <libsource lib="Adapter" part="R" description=""/>
+      <property name="Sheetname" value="am213-fpc-adapter"/>
+      <property name="Sheetfile" value="am213-fpc-adapter.kicad_sch"/>
+      <property name="dnp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c22a1cac-84fa-5782-bb3d-e691660a140a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP1">
+      <value>TE 3V3</value>
+      <footprint>Adapter:TP</footprint>
+      <description>No host GPIO allocated; TE unused in initial firmware</description>
+      <fields>
+        <field name="Footprint">Adapter:TP</field>
+        <field name="Datasheet"/>
+        <field name="Description">No host GPIO allocated; TE unused in initial firmware</field>
+      </fields>
+      <libsource lib="Adapter" part="TP" description=""/>
+      <property name="Sheetname" value="am213-fpc-adapter"/>
+      <property name="Sheetfile" value="am213-fpc-adapter.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7b284e91-6af0-5261-a466-55868f854f6f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Adapter" part="C">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adapter" part="J_HOST">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">J_HOST</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="LCD_LEDA" type="passive"/>
+        <pin num="2" name="LCD_LEDK" type="passive"/>
+        <pin num="3" name="ESP_IO47" type="passive"/>
+        <pin num="4" name="ESP_IO46" type="passive"/>
+        <pin num="5" name="ESP_SPI2_CLK" type="passive"/>
+        <pin num="6" name="NC" type="passive"/>
+        <pin num="7" name="ESP_SPI2_CS" type="passive"/>
+        <pin num="8" name="ESP_SPI2_D3" type="passive"/>
+        <pin num="9" name="ESP_SPI2_D2" type="passive"/>
+        <pin num="10" name="ESP_SPI2_D1" type="passive"/>
+        <pin num="11" name="ESP_SPI2_D0" type="passive"/>
+        <pin num="12" name="GND" type="passive"/>
+        <pin num="13" name="VCC_3V3" type="passive"/>
+        <pin num="14" name="VCC_3V3" type="passive"/>
+        <pin num="15" name="NC" type="passive"/>
+        <pin num="16" name="NC" type="passive"/>
+        <pin num="17" name="GND" type="passive"/>
+        <pin num="18" name="ESP_IO54" type="passive"/>
+        <pin num="19" name="ESP_I2C2_SCL" type="passive"/>
+        <pin num="20" name="ESP_I2C2_SDA" type="passive"/>
+        <pin num="21" name="ESP_IO57" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adapter" part="J_LCD">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">J_LCD</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="LCD_RST" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="LCD_TE" type="passive"/>
+        <pin num="4" name="LCD_CS" type="passive"/>
+        <pin num="5" name="LCD_CLK" type="passive"/>
+        <pin num="6" name="LCD_D1" type="passive"/>
+        <pin num="7" name="LCD_D0" type="passive"/>
+        <pin num="8" name="GND" type="passive"/>
+        <pin num="9" name="NC_IM1" type="passive"/>
+        <pin num="10" name="NC_MTP" type="passive"/>
+        <pin num="11" name="VBAT" type="passive"/>
+        <pin num="12" name="VBAT" type="passive"/>
+        <pin num="13" name="GND" type="passive"/>
+        <pin num="14" name="GND" type="passive"/>
+        <pin num="15" name="VDD" type="passive"/>
+        <pin num="16" name="TP_VDD" type="passive"/>
+        <pin num="17" name="TP_INT" type="passive"/>
+        <pin num="18" name="TP_RST" type="passive"/>
+        <pin num="19" name="TP_SDA" type="passive"/>
+        <pin num="20" name="TP_SCL" type="passive"/>
+        <pin num="21" name="GND" type="passive"/>
+        <pin num="22" name="LCD_D3" type="passive"/>
+        <pin num="23" name="LCD_D2" type="passive"/>
+        <pin num="24" name="VCI_EN" type="passive"/>
+        <pin num="MP" name="MOUNT_GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adapter" part="R">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adapter" part="TP">
+      <fields>
+        <field name="Reference">T</field>
+        <field name="Value">TP</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Adapter">
+      <uri>${KIPRJMOD}/Adapter.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/CLK_IN" class="Default">
+      <node ref="J1" pin="5" pinfunction="ESP_SPI2_CLK_5" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="2" name="/CS_IN" class="Default">
+      <node ref="J1" pin="7" pinfunction="ESP_SPI2_CS_7" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="3" name="/D0_IN" class="Default">
+      <node ref="J1" pin="11" pinfunction="ESP_SPI2_D0_11" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="4" name="/D1_IN" class="Default">
+      <node ref="J1" pin="10" pinfunction="ESP_SPI2_D1_10" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="5" name="/D2_IN" class="Default">
+      <node ref="J1" pin="9" pinfunction="ESP_SPI2_D2_9" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="6" name="/D3_IN" class="Default">
+      <node ref="J1" pin="8" pinfunction="ESP_SPI2_D3_8" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+    </net>
+    <net code="7" name="/GND" class="Default">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="J1" pin="12" pinfunction="GND_12" pintype="passive"/>
+      <node ref="J1" pin="17" pinfunction="GND_17" pintype="passive"/>
+      <node ref="J2" pin="13" pinfunction="GND_13" pintype="passive"/>
+      <node ref="J2" pin="14" pinfunction="GND_14" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="J2" pin="21" pinfunction="GND_21" pintype="passive"/>
+      <node ref="J2" pin="8" pinfunction="GND_8" pintype="passive"/>
+      <node ref="J2" pin="MP" pinfunction="MOUNT_GND_MP" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+    </net>
+    <net code="8" name="/LCD_CLK" class="Default">
+      <node ref="J2" pin="5" pinfunction="LCD_CLK_5" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="9" name="/LCD_CS" class="Default">
+      <node ref="J2" pin="4" pinfunction="LCD_CS_4" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="10" name="/LCD_D0" class="Default">
+      <node ref="J2" pin="7" pinfunction="LCD_D0_7" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="11" name="/LCD_D1" class="Default">
+      <node ref="J2" pin="6" pinfunction="LCD_D1_6" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="12" name="/LCD_D2" class="Default">
+      <node ref="J2" pin="23" pinfunction="LCD_D2_23" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="13" name="/LCD_D3" class="Default">
+      <node ref="J2" pin="22" pinfunction="LCD_D3_22" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="14" name="/LCD_RST" class="Default">
+      <node ref="J1" pin="3" pinfunction="ESP_IO47_3" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="LCD_RST_1" pintype="passive"/>
+    </net>
+    <net code="15" name="/LCD_TE" class="Default">
+      <node ref="J2" pin="3" pinfunction="LCD_TE_3" pintype="passive"/>
+      <node ref="TP1" pin="1" pintype="passive"/>
+    </net>
+    <net code="16" name="/LCD_VDD" class="Default">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="J2" pin="15" pinfunction="VDD_15" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="17" name="/TP_INT" class="Default">
+      <node ref="J1" pin="18" pinfunction="ESP_IO54_18" pintype="passive"/>
+      <node ref="J2" pin="17" pinfunction="TP_INT_17" pintype="passive"/>
+    </net>
+    <net code="18" name="/TP_RST" class="Default">
+      <node ref="J1" pin="21" pinfunction="ESP_IO57_21" pintype="passive"/>
+      <node ref="J2" pin="18" pinfunction="TP_RST_18" pintype="passive"/>
+    </net>
+    <net code="19" name="/TP_SCL" class="Default">
+      <node ref="J1" pin="19" pinfunction="ESP_I2C2_SCL_19" pintype="passive"/>
+      <node ref="J2" pin="20" pinfunction="TP_SCL_20" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+    </net>
+    <net code="20" name="/TP_SDA" class="Default">
+      <node ref="J1" pin="20" pinfunction="ESP_I2C2_SDA_20" pintype="passive"/>
+      <node ref="J2" pin="19" pinfunction="TP_SDA_19" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+    </net>
+    <net code="21" name="/TP_VDD" class="Default">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="J2" pin="16" pinfunction="TP_VDD_16" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+    </net>
+    <net code="22" name="/VCC_3V3" class="Default">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="J1" pin="13" pinfunction="VCC_3V3_13" pintype="passive"/>
+      <node ref="J1" pin="14" pinfunction="VCC_3V3_14" pintype="passive"/>
+      <node ref="J2" pin="11" pinfunction="VBAT_11" pintype="passive"/>
+      <node ref="J2" pin="12" pinfunction="VBAT_12" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+    </net>
+    <net code="23" name="/VCI_EN" class="Default">
+      <node ref="J1" pin="4" pinfunction="ESP_IO46_4" pintype="passive"/>
+      <node ref="J2" pin="24" pinfunction="VCI_EN_24" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="24" name="unconnected-(J1-LCD_LEDA-Pad1)" class="Default">
+      <node ref="J1" pin="1" pinfunction="LCD_LEDA_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="25" name="unconnected-(J1-LCD_LEDK-Pad2)" class="Default">
+      <node ref="J1" pin="2" pinfunction="LCD_LEDK_2" pintype="passive+no_connect"/>
+    </net>
+    <net code="26" name="unconnected-(J1-NC-Pad6)" class="Default">
+      <node ref="J1" pin="6" pinfunction="NC_6" pintype="passive+no_connect"/>
+    </net>
+    <net code="27" name="unconnected-(J1-NC-Pad15)" class="Default">
+      <node ref="J1" pin="15" pinfunction="NC_15" pintype="passive+no_connect"/>
+    </net>
+    <net code="28" name="unconnected-(J1-NC-Pad16)" class="Default">
+      <node ref="J1" pin="16" pinfunction="NC_16" pintype="passive+no_connect"/>
+    </net>
+    <net code="29" name="unconnected-(J2-NC_IM1-Pad9)" class="Default">
+      <node ref="J2" pin="9" pinfunction="NC_IM1_9" pintype="passive+no_connect"/>
+    </net>
+    <net code="30" name="unconnected-(J2-NC_MTP-Pad10)" class="Default">
+      <node ref="J2" pin="10" pinfunction="NC_MTP_10" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>

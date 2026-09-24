@@ -1,0 +1,11 @@
+{
+  "electrical_mapping_matches_design": true,
+  "through_holes_by_drill_mm": {
+    "0.2": 39,
+    "0.15": 3
+  },
+  "vias_in_unstiffened_flex": [],
+  "pcb_sha256": "3ebd192b3367cb45effeded9a19f9765bd92eba261936e04c297fd856908f001",
+  "schematic_sha256": "bc3d3409552ab7559f350a8fb96ca9f771989bb3e1f4908347080530699f526a",
+  "status": "FPC fabricator review / first prototype; no hardware test"
+}

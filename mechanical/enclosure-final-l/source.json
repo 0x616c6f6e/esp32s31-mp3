@@ -1,0 +1,2363 @@
+{
+  "main": {
+    "path": "hardware-q2\\ProPrj_esp32s31-mp4_2026-09-22.kicad_pcb",
+    "sha256": "7b2c5f1ed64687aac5a914b5cf3baac07e9dedfb0c56e9c651b8901a608ac4d9",
+    "thickness": 1.6,
+    "footprints": [
+      {
+        "ref": "C44",
+        "fp": "C0402",
+        "xy": [
+          158.2715,
+          106.0295
+        ],
+        "side": "F",
+        "angle": 0.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/C0402_L1.0-W0.5-H0.5.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "C20",
+        "fp": "C0402_1",
+        "xy": [
+          136.072,
+          120.279
+        ],
+        "side": "F",
+        "angle": 0.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/C0402_L1.0-W0.5-H0.5.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "SCREW2",
+        "fp": "M3\u87ba\u4e1d",
+        "xy": [
+          139.44,
+          101.008
+        ],
+        "side": "F",
+        "angle": 0.0,
+        "model": [],
+        "holes": [
+          [
+            "1",
+            2.1995
+          ]
+        ]
+      },
+      {
+        "ref": "C30",
+        "fp": "C0402_1",
+        "xy": [
+          159.948,
+          119.517
+        ],
+        "side": "F",
+        "angle": 0.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/C0402_L1.0-W0.5-H0.5.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "C18",
+        "fp": "C0603",
+        "xy": [
+          133.786,
+          116.6975
+        ],
+        "side": "F",
+        "angle": -90.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/C0603_L1.6-W0.8-H0.8.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "X1",
+        "fp": "CRYSTAL-SMD_4P-L3.2-W2.5-BL_1",
+        "xy": [
+          132.9105,
+          110.1835
+        ],
+        "side": "F",
+        "angle": -90.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/OSC-SMD_4P-L3.2-W2.5-H1.0.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "C29",
+        "fp": "C0402_1",
+        "xy": [
+          145.089,
+          114.691
+        ],
+        "side": "F",
+        "angle": 90.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/C0402_L1.0-W0.5-H0.5.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "C33",
+        "fp": "C0402_1",
+        "xy": [
+          133.2405,
+          113.13
+        ],
+        "side": "F",
+        "angle": 180.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/C0402_L1.0-W0.5-H0.5.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "R19",
+        "fp": "R0402_1",
+        "xy": [
+          140.517,
+          107.071
+        ],
+        "side": "F",
+        "angle": 180.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/R0402_L1.0-W0.5-H0.5.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "R28",
+        "fp": "R0402",
+        "xy": [
+          162.2565,
+          110.221
+        ],
+        "side": "F",
+        "angle": 180.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/R0402_L1.0-W0.5-H0.4.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "C34",
+        "fp": "C0402_1",
+        "xy": [
+          140.39,
+          104.277
+        ],
+        "side": "F",
+        "angle": 180.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/C0402_L1.0-W0.5-H0.5.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "C24",
+        "fp": "C0402_1",
+        "xy": [
+          143.819,
+          117.739
+        ],
+        "side": "F",
+        "angle": -90.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/C0402_L1.0-W0.5-H0.5.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "CARD2",
+        "fp": "TF-SMD_TF-PUSH",
+        "xy": [
+          139.567,
+          82.41
+        ],
+        "side": "F",
+        "angle": -90.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/TF-SMD_TF-PUSH.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "U5",
+        "fp": "SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR_1",
+        "xy": [
+          159.186,
+          117.104
+        ],
+        "side": "F",
+        "angle": 0.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/SOT-23-5_L2.9-W1.6-H1.1-LS2.8-P0.95.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "R9",
+        "fp": "R0402",
+        "xy": [
+          172.1115,
+          128.462
+        ],
+        "side": "F",
+        "angle": 180.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/R0402_L1.0-W0.5-H0.4.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "U3",
+        "fp": "WQFN-24_L4.0-W4.0-P0.50-TL-EP2.7",
+        "xy": [
+          166.9525,
+          128.578
+        ],
+        "side": "F",
+        "angle": 90.0,
+        "model": [],
+        "holes": []
+      },
+      {
+        "ref": "C51",
+        "fp": "C0402",
+        "xy": [
+          157.789,
+          111.897
+        ],
+        "side": "F",
+        "angle": 0.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/C0402_L1.0-W0.5-H0.5.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "C47",
+        "fp": "C0402",
+        "xy": [
+          136.58,
+          97.216
+        ],
+        "side": "F",
+        "angle": -90.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/C0402_L1.0-W0.5-H0.5.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "U2",
+        "fp": "QFN-40_L5.0-W5.0-P0.40-TL-EP3.6_1",
+        "xy": [
+          139.12,
+          116.088
+        ],
+        "side": "F",
+        "angle": 0.0,
+        "model": [],
+        "holes": []
+      },
+      {
+        "ref": "U12",
+        "fp": "TQFN-16_L3.0-W3.0-P0.50-BL-EP1.7",
+        "xy": [
+          158.116,
+          109.1035
+        ],
+        "side": "F",
+        "angle": 180.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/TQFN-16_L3.0-W3.0-P0.50-BL-EP1.7.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "L2",
+        "fp": "IND-SMD_L2.0-W1.6",
+        "xy": [
+          162.564,
+          123.962
+        ],
+        "side": "F",
+        "angle": -90.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/IND-SMD_L2.0-W1.6-H1.1.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "U17",
+        "fp": "MSOP-10_L3.0-W3.0-P0.50-LS4.9-BL",
+        "xy": [
+          152.201,
+          129.601
+        ],
+        "side": "F",
+        "angle": 0.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/MSOP-10_L3.0-W3.0-H1.1-LS5.0-P0.50.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "C16",
+        "fp": "C0805",
+        "xy": [
+          162.056,
+          130.947
+        ],
+        "side": "F",
+        "angle": -90.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/C0805_L2.0-W1.3-H1.3.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "R17",
+        "fp": "R0402_2",
+        "xy": [
+          143.946,
+          104.023
+        ],
+        "side": "F",
+        "angle": 90.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/R0402_L1.0-W0.5-H0.5.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "USB1",
+        "fp": "USB-C-SMD_TYPE-C-16PIN-2MD-073",
+        "xy": [
+          163.316,
+          138.5925
+        ],
+        "side": "F",
+        "angle": 0.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/USB-C-SMD_TYPE-C-6PIN-2MD-073.step"
+        ],
+        "holes": [
+          [
+            "13",
+            0.6
+          ],
+          [
+            "13",
+            0.6
+          ],
+          [
+            "14",
+            0.6
+          ],
+          [
+            "14",
+            0.6
+          ]
+        ]
+      },
+      {
+        "ref": "R31",
+        "fp": "R0402",
+        "xy": [
+          171.378,
+          138.059
+        ],
+        "side": "F",
+        "angle": -90.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/R0402_L1.0-W0.5-H0.4.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "C11",
+        "fp": "C0402",
+        "xy": [
+          161.548,
+          126.045
+        ],
+        "side": "F",
+        "angle": 0.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/C0402_L1.0-W0.5-H0.5.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "R18",
+        "fp": "R0402_1",
+        "xy": [
+          140.517,
+          105.674
+        ],
+        "side": "F",
+        "angle": 180.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/R0402_L1.0-W0.5-H0.5.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "C15",
+        "fp": "C0603_1",
+        "xy": [
+          166.0155,
+          124.525
+        ],
+        "side": "F",
+        "angle": 0.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/C0603_L1.6-W0.8-H0.8.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "U7",
+        "fp": "X2SON-8_L1.4-W1.0-P0.35-BL",
+        "xy": [
+          143.438,
+          106.182
+        ],
+        "side": "F",
+        "angle": -90.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/X2SON-8_L1.4-W1.0-H0.4-P0.35-BL.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "R14",
+        "fp": "R0402",
+        "xy": [
+          172.1115,
+          125.922
+        ],
+        "side": "F",
+        "angle": 180.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/R0402_L1.0-W0.5-H0.4.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "C9",
+        "fp": "C0603_1",
+        "xy": [
+          161.167,
+          127.899
+        ],
+        "side": "F",
+        "angle": 180.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/C0603_L1.6-W0.8-H0.8.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "U4",
+        "fp": "SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR",
+        "xy": [
+          167.667,
+          116.7495
+        ],
+        "side": "F",
+        "angle": 90.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/SOT-23-5_L2.9-W1.6-H1.1-LS2.8-P0.95.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "C17",
+        "fp": "C0402_1",
+        "xy": [
+          132.008,
+          119.898
+        ],
+        "side": "F",
+        "angle": -90.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/C0402_L1.0-W0.5-H0.5.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "R13",
+        "fp": "R0402",
+        "xy": [
+          172.1115,
+          127.192
+        ],
+        "side": "F",
+        "angle": 180.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/R0402_L1.0-W0.5-H0.4.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "R3",
+        "fp": "R0402",
+        "xy": [
+          170.1815,
+          117.918
+        ],
+        "side": "F",
+        "angle": 90.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/R0402_L1.0-W0.5-H0.4.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "C8",
+        "fp": "C0603",
+        "xy": [
+          132.008,
+          116.6975
+        ],
+        "side": "F",
+        "angle": -90.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/C0603_L1.6-W0.8-H0.8.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "C14",
+        "fp": "C0603_1",
+        "xy": [
+          164.85,
+          132.217
+        ],
+        "side": "F",
+        "angle": 0.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/C0603_L1.6-W0.8-H0.8.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "C21",
+        "fp": "C0402_1",
+        "xy": [
+          144.454,
+          119.771
+        ],
+        "side": "F",
+        "angle": 0.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/C0402_L1.0-W0.5-H0.5.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "U15",
+        "fp": "LGA-14_L3.0-W2.5-P0.50-TL",
+        "xy": [
+          134.06,
+          96.252
+        ],
+        "side": "F",
+        "angle": 90.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/LGA-14_L2.5-W3.0-H0.9-P0.50.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "R12",
+        "fp": "R0402",
+        "xy": [
+          172.1115,
+          131.002
+        ],
+        "side": "F",
+        "angle": 180.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/R0402_L1.0-W0.5-H0.4.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "SCREW5",
+        "fp": "M3\u87ba\u4e1d",
+        "xy": [
+          138.6755,
+          70.3945
+        ],
+        "side": "F",
+        "angle": 0.0,
+        "model": [],
+        "holes": [
+          [
+            "1",
+            2.1995
+          ]
+        ]
+      },
+      {
+        "ref": "C19",
+        "fp": "C0402_1",
+        "xy": [
+          133.786,
+          119.898
+        ],
+        "side": "F",
+        "angle": -90.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/C0402_L1.0-W0.5-H0.5.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "C22",
+        "fp": "C0402_1",
+        "xy": [
+          140.898,
+          120.66
+        ],
+        "side": "F",
+        "angle": -90.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/C0402_L1.0-W0.5-H0.5.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "C27",
+        "fp": "C0402_1",
+        "xy": [
+          144.327,
+          112.659
+        ],
+        "side": "F",
+        "angle": 0.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/C0402_L1.0-W0.5-H0.5.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "SCREW1",
+        "fp": "M3\u87ba\u4e1d",
+        "xy": [
+          132.168,
+          131.1465
+        ],
+        "side": "F",
+        "angle": 0.0,
+        "model": [],
+        "holes": [
+          [
+            "1",
+            2.1995
+          ]
+        ]
+      },
+      {
+        "ref": "C35",
+        "fp": "C0402_1",
+        "xy": [
+          151.058,
+          106.055
+        ],
+        "side": "F",
+        "angle": 180.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/C0402_L1.0-W0.5-H0.5.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "C31",
+        "fp": "C0402_1",
+        "xy": [
+          156.3665,
+          117.485
+        ],
+        "side": "F",
+        "angle": -90.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/C0402_L1.0-W0.5-H0.5.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "C2",
+        "fp": "C0603_1",
+        "xy": [
+          164.365,
+          113.7015
+        ],
+        "side": "F",
+        "angle": 180.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/C0603_L1.6-W0.8-H0.8.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "C25",
+        "fp": "C0402_1",
+        "xy": [
+          144.454,
+          121.422
+        ],
+        "side": "F",
+        "angle": 0.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/C0402_L1.0-W0.5-H0.5.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "R21",
+        "fp": "R0402",
+        "xy": [
+          154.741,
+          128.407
+        ],
+        "side": "F",
+        "angle": -90.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/R0402_L1.0-W0.5-H0.4.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "R27",
+        "fp": "R0402",
+        "xy": [
+          162.2595,
+          108.646
+        ],
+        "side": "F",
+        "angle": 0.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/R0402_L1.0-W0.5-H0.4.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "C23",
+        "fp": "C0402_1",
+        "xy": [
+          145.089,
+          117.739
+        ],
+        "side": "F",
+        "angle": 90.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/C0402_L1.0-W0.5-H0.5.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "R5",
+        "fp": "R0402",
+        "xy": [
+          167.441,
+          113.802
+        ],
+        "side": "F",
+        "angle": 0.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/R0402_L1.0-W0.5-H0.4.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "U9",
+        "fp": "CONN-SMD_ESP32-S31-WROOM-3",
+        "xy": [
+          161.091,
+          90.815
+        ],
+        "side": "F",
+        "angle": 0.0,
+        "model": [],
+        "holes": []
+      },
+      {
+        "ref": "C48",
+        "fp": "C0402",
+        "xy": [
+          135.2845,
+          93.7105
+        ],
+        "side": "F",
+        "angle": 0.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/C0402_L1.0-W0.5-H0.5.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "C32",
+        "fp": "C0402_1",
+        "xy": [
+          133.075,
+          107.1725
+        ],
+        "side": "F",
+        "angle": 180.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/C0402_L1.0-W0.5-H0.5.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "D2",
+        "fp": "SOD-123_L2.8-W1.8-LS3.7-RD",
+        "xy": [
+          158.5,
+          128.153
+        ],
+        "side": "F",
+        "angle": 90.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/SOD-123_L2.8-W1.8-LS3.7-RD.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "L1",
+        "fp": "IND-SMD_L2.0-W1.6",
+        "xy": [
+          164.365,
+          115.8605
+        ],
+        "side": "F",
+        "angle": 0.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/IND-SMD_L2.0-W1.6-H1.1.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "C26",
+        "fp": "C0402_1",
+        "xy": [
+          143.819,
+          114.7165
+        ],
+        "side": "F",
+        "angle": 90.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/C0402_L1.0-W0.5-H0.5.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "C10",
+        "fp": "C0603_1",
+        "xy": [
+          169.218,
+          124.531
+        ],
+        "side": "F",
+        "angle": 180.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/C0603_L1.6-W0.8-H0.8.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "R4",
+        "fp": "R0402",
+        "xy": [
+          170.1815,
+          115.5555
+        ],
+        "side": "F",
+        "angle": 90.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/R0402_L1.0-W0.5-H0.4.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "R32",
+        "fp": "R0402",
+        "xy": [
+          169.854,
+          138.059
+        ],
+        "side": "F",
+        "angle": -90.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/R0402_L1.0-W0.5-H0.4.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "C12",
+        "fp": "C0603_1",
+        "xy": [
+          159.77,
+          123.2
+        ],
+        "side": "F",
+        "angle": 0.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/C0603_L1.6-W0.8-H0.8.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "C1",
+        "fp": "C0603_1",
+        "xy": [
+          167.441,
+          119.771
+        ],
+        "side": "F",
+        "angle": 180.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/C0603_L1.6-W0.8-H0.8.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "R11",
+        "fp": "R0402",
+        "xy": [
+          172.1115,
+          129.732
+        ],
+        "side": "F",
+        "angle": 180.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/R0402_L1.0-W0.5-H0.4.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "C38",
+        "fp": "C0402",
+        "xy": [
+          155.122,
+          108.341
+        ],
+        "side": "F",
+        "angle": 90.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/C0402_L1.0-W0.5-H0.5.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "C28",
+        "fp": "C0402_1",
+        "xy": [
+          133.278,
+          114.437
+        ],
+        "side": "F",
+        "angle": 180.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/C0402_L1.0-W0.5-H0.5.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "U8",
+        "fp": "VQFN-14_L3.5-W3.5-P0.50-BL-EP",
+        "xy": [
+          149.7665,
+          109.1835
+        ],
+        "side": "F",
+        "angle": -90.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/VQFN-14_L3.5-W3.5-H1.0-P0.50.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "SCREW3",
+        "fp": "M3\u87ba\u4e1d",
+        "xy": [
+          173.367,
+          109.146
+        ],
+        "side": "F",
+        "angle": 0.0,
+        "model": [],
+        "holes": [
+          [
+            "1",
+            2.1995
+          ]
+        ]
+      },
+      {
+        "ref": "C37",
+        "fp": "C0402",
+        "xy": [
+          160.529,
+          107.1475
+        ],
+        "side": "F",
+        "angle": 90.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/C0402_L1.0-W0.5-H0.5.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "CN1",
+        "fp": "AUDIO-SMD_PJ-342B-TX-SMT",
+        "xy": [
+          140.433,
+          135.072
+        ],
+        "side": "F",
+        "angle": 90.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/AUDIO-PJ342B_L14.0-W6.4-H4.5.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "C36",
+        "fp": "C0402",
+        "xy": [
+          149.788,
+          132.217
+        ],
+        "side": "F",
+        "angle": -90.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/C0402_L1.0-W0.5-H0.5.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "R1",
+        "fp": "R1206",
+        "xy": [
+          172.394,
+          114.31
+        ],
+        "side": "F",
+        "angle": 90.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/R1206_L3.2-W1.6-H0.6.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "D1",
+        "fp": "SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL",
+        "xy": [
+          152.455,
+          135.265
+        ],
+        "side": "F",
+        "angle": 0.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/SOT-23-6_L2.9-W1.6-H1.5-LS2.8-P0.95.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "R37",
+        "fp": "R0402",
+        "xy": [
+          140.39,
+          83.957
+        ],
+        "side": "B",
+        "angle": 0.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/R0402_L1.0-W0.5-H0.4.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "R38",
+        "fp": "R0402",
+        "xy": [
+          140.39,
+          78.242
+        ],
+        "side": "B",
+        "angle": 0.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/R0402_L1.0-W0.5-H0.4.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "C6",
+        "fp": "C0402",
+        "xy": [
+          158.4445,
+          115.3015
+        ],
+        "side": "B",
+        "angle": 180.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/C0402_L1.0-W0.5-H0.5.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "C49",
+        "fp": "C0402",
+        "xy": [
+          140.771,
+          80.985
+        ],
+        "side": "B",
+        "angle": -90.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/C0402_L1.0-W0.5-H0.5.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "R6",
+        "fp": "R0402",
+        "xy": [
+          167.441,
+          100.086
+        ],
+        "side": "B",
+        "angle": -90.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/R0402_L1.0-W0.5-H0.4.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "CN3",
+        "fp": "CONN-TH_2P-P2.50_HX-XH2.54-2PWZ-B",
+        "xy": [
+          172.648,
+          134.503
+        ],
+        "side": "B",
+        "angle": 90.0,
+        "model": [],
+        "holes": [
+          [
+            "1",
+            0.9
+          ],
+          [
+            "2",
+            0.9
+          ]
+        ]
+      },
+      {
+        "ref": "C54",
+        "fp": "C0402",
+        "xy": [
+          162.2545,
+          113.9045
+        ],
+        "side": "B",
+        "angle": -90.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/C0402_L1.0-W0.5-H0.5.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "C4",
+        "fp": "C0402_1",
+        "xy": [
+          161.269,
+          128.585
+        ],
+        "side": "B",
+        "angle": 0.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/C0402_L1.0-W0.5-H0.5.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "R45",
+        "fp": "R0402",
+        "xy": [
+          167.441,
+          80.274
+        ],
+        "side": "B",
+        "angle": -90.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/R0402_L1.0-W0.5-H0.4.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "C5",
+        "fp": "C0402_1",
+        "xy": [
+          169.981,
+          127.899
+        ],
+        "side": "B",
+        "angle": -90.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/C0402_L1.0-W0.5-H0.5.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "C43",
+        "fp": "C0402",
+        "xy": [
+          166.806,
+          113.802
+        ],
+        "side": "B",
+        "angle": -90.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/C0402_L1.0-W0.5-H0.5.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "R30",
+        "fp": "R0402",
+        "xy": [
+          155.63,
+          88.656
+        ],
+        "side": "B",
+        "angle": 180.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/R0402_L1.0-W0.5-H0.4.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "C46",
+        "fp": "C0402",
+        "xy": [
+          166.0185,
+          80.2485
+        ],
+        "side": "B",
+        "angle": -90.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/C0402_L1.0-W0.5-H0.5.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "R39",
+        "fp": "R0402",
+        "xy": [
+          140.39,
+          82.687
+        ],
+        "side": "B",
+        "angle": 0.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/R0402_L1.0-W0.5-H0.4.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "U6",
+        "fp": "SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL-2",
+        "xy": [
+          154.995,
+          120.787
+        ],
+        "side": "B",
+        "angle": 90.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL-2.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "R36",
+        "fp": "R0402",
+        "xy": [
+          140.39,
+          85.227
+        ],
+        "side": "B",
+        "angle": 0.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/R0402_L1.0-W0.5-H0.4.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "U14",
+        "fp": "DFN-10_L3.0-W2.0-P0.50-BL",
+        "xy": [
+          167.822,
+          110.754
+        ],
+        "side": "B",
+        "angle": 0.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/DFN-10_L3.0-W2.0-P0.50-BL.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "C41",
+        "fp": "C0402",
+        "xy": [
+          154.36,
+          81.925
+        ],
+        "side": "B",
+        "angle": 90.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/C0402_L1.0-W0.5-H0.5.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "R26",
+        "fp": "R0402",
+        "xy": [
+          155.63,
+          87.005
+        ],
+        "side": "B",
+        "angle": 180.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/R0402_L1.0-W0.5-H0.4.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "C56",
+        "fp": "C0603_1",
+        "xy": [
+          167.314,
+          95.5645
+        ],
+        "side": "B",
+        "angle": -90.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/C0603_L1.6-W0.8-H0.8.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "C50",
+        "fp": "C0402",
+        "xy": [
+          142.0585,
+          80.98
+        ],
+        "side": "B",
+        "angle": -90.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/C0402_L1.0-W0.5-H0.5.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "R7",
+        "fp": "R0402",
+        "xy": [
+          168.711,
+          102.245
+        ],
+        "side": "B",
+        "angle": -90.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/R0402_L1.0-W0.5-H0.4.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "C40",
+        "fp": "C0402",
+        "xy": [
+          155.63,
+          81.925
+        ],
+        "side": "B",
+        "angle": 90.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/C0402_L1.0-W0.5-H0.5.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "R42",
+        "fp": "R0402",
+        "xy": [
+          166.171,
+          100.086
+        ],
+        "side": "B",
+        "angle": 90.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/R0402_L1.0-W0.5-H0.4.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "U10",
+        "fp": "SOIC-8_L5.3-W5.3-P1.27-LS8.0-BL",
+        "xy": [
+          155.63,
+          94.752
+        ],
+        "side": "B",
+        "angle": 180.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/SOIC-8_L5.3-W5.3-H1.9-LS7.9-P1.27.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "C57",
+        "fp": "C0603_1",
+        "xy": [
+          165.409,
+          95.565
+        ],
+        "side": "B",
+        "angle": -90.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/C0603_L1.6-W0.8-H0.8.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "C58",
+        "fp": "C0402_1",
+        "xy": [
+          172.013,
+          126.883
+        ],
+        "side": "B",
+        "angle": 180.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/C0402_L1.0-W0.5-H0.5.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "R40",
+        "fp": "R1206",
+        "xy": [
+          169.727,
+          92.974
+        ],
+        "side": "B",
+        "angle": 90.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/R1206_L3.2-W1.6-H0.6.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "R43",
+        "fp": "R0402",
+        "xy": [
+          169.346,
+          100.213
+        ],
+        "side": "B",
+        "angle": 0.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/R0402_L1.0-W0.5-H0.4.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "C61",
+        "fp": "C0402",
+        "xy": [
+          165.282,
+          111.211
+        ],
+        "side": "B",
+        "angle": 90.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/C0402_L1.0-W0.5-H0.5.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "R10",
+        "fp": "R0402",
+        "xy": [
+          164.647,
+          100.086
+        ],
+        "side": "B",
+        "angle": -90.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/R0402_L1.0-W0.5-H0.4.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "R25",
+        "fp": "R0402",
+        "xy": [
+          168.838,
+          80.274
+        ],
+        "side": "B",
+        "angle": -90.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/R0402_L1.0-W0.5-H0.4.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "C39",
+        "fp": "C0402",
+        "xy": [
+          154.487,
+          84.465
+        ],
+        "side": "B",
+        "angle": -90.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/C0402_L1.0-W0.5-H0.5.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "L4",
+        "fp": "IND-SMD_L2.0-W1.6",
+        "xy": [
+          161.98,
+          92.644
+        ],
+        "side": "B",
+        "angle": 180.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/IND-SMD_L2.0-W1.6-H1.1.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "C7",
+        "fp": "C0402",
+        "xy": [
+          161.3655,
+          115.5555
+        ],
+        "side": "B",
+        "angle": 0.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/C0402_L1.0-W0.5-H0.5.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "R33",
+        "fp": "R0402",
+        "xy": [
+          168.584,
+          113.548
+        ],
+        "side": "B",
+        "angle": -90.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/R0402_L1.0-W0.5-H0.4.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "R46",
+        "fp": "R0402",
+        "xy": [
+          171.632,
+          80.274
+        ],
+        "side": "B",
+        "angle": -90.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/R0402_L1.0-W0.5-H0.4.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "R8",
+        "fp": "R0402",
+        "xy": [
+          170.108,
+          102.245
+        ],
+        "side": "B",
+        "angle": -90.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/R0402_L1.0-W0.5-H0.4.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "R34",
+        "fp": "R0402",
+        "xy": [
+          169.981,
+          113.548
+        ],
+        "side": "B",
+        "angle": -90.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/R0402_L1.0-W0.5-H0.4.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "C42",
+        "fp": "C0603_1",
+        "xy": [
+          165.282,
+          91.247
+        ],
+        "side": "B",
+        "angle": 180.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/C0603_L1.6-W0.8-H0.8.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "U16",
+        "fp": "SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR",
+        "xy": [
+          162.361,
+          95.565
+        ],
+        "side": "B",
+        "angle": 180.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/SOT-23-5_L2.9-W1.6-H1.1-LS2.8-P0.95.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "C55",
+        "fp": "C0603_1",
+        "xy": [
+          165.282,
+          93.025
+        ],
+        "side": "B",
+        "angle": 180.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/C0603_L1.6-W0.8-H0.8.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "R29",
+        "fp": "R0402",
+        "xy": [
+          155.757,
+          84.465
+        ],
+        "side": "B",
+        "angle": -90.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/R0402_L1.0-W0.5-H0.4.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "CN2",
+        "fp": "CONN-TH_3P-P2.50_BX-HA2.54-3PWZ",
+        "xy": [
+          172.521,
+          120.279
+        ],
+        "side": "B",
+        "angle": 90.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/CONN-TH_3P-P2.50_BX-HA2.54-3PWZ.step"
+        ],
+        "holes": [
+          [
+            "1",
+            0.9145
+          ],
+          [
+            "2",
+            0.9145
+          ],
+          [
+            "3",
+            0.9145
+          ]
+        ]
+      },
+      {
+        "ref": "R44",
+        "fp": "R0402",
+        "xy": [
+          169.346,
+          98.435
+        ],
+        "side": "B",
+        "angle": 0.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/R0402_L1.0-W0.5-H0.4.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "FPC2",
+        "fp": "CONN-TH-21P_AFE03-S21FMA-1H",
+        "xy": [
+          168.015,
+          86.0475
+        ],
+        "side": "B",
+        "angle": 90.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/CONN-TH-21P_AFE03-S21FMA-1H.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "C53",
+        "fp": "C0402",
+        "xy": [
+          162.2545,
+          111.8725
+        ],
+        "side": "B",
+        "angle": 90.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/C0402_L1.0-W0.5-H0.5.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "L3",
+        "fp": "L0603",
+        "xy": [
+          172.14,
+          128.407
+        ],
+        "side": "B",
+        "angle": 0.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/L0603_L1.6-W0.8-H0.5_BEAD.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "R22",
+        "fp": "R0402",
+        "xy": [
+          163.377,
+          100.086
+        ],
+        "side": "B",
+        "angle": -90.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/R0402_L1.0-W0.5-H0.4.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "C3",
+        "fp": "C0402",
+        "xy": [
+          157.865,
+          122.133
+        ],
+        "side": "B",
+        "angle": 90.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/C0402_L1.0-W0.5-H0.5.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "R35",
+        "fp": "R0402",
+        "xy": [
+          140.39,
+          76.972
+        ],
+        "side": "B",
+        "angle": 0.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/R0402_L1.0-W0.5-H0.4.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "C45",
+        "fp": "C0402",
+        "xy": [
+          171.2,
+          85.532
+        ],
+        "side": "B",
+        "angle": -90.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/C0402_L1.0-W0.5-H0.5.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "U1",
+        "fp": "RTC-SMD_L3.2-W2.5-P0.7-RX8130CE",
+        "xy": [
+          159.868,
+          112.33
+        ],
+        "side": "B",
+        "angle": 0.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/RTC-SMD_L3.2-W2.5-P0.7-RX8130CE.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "FPC1",
+        "fp": "FPC-SMD_12P-P0.50_HCTL_HC-FPC-05-10-12RLTAG",
+        "xy": [
+          148.899,
+          117.358
+        ],
+        "side": "B",
+        "angle": -90.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/FPC-SMD_12P-P0.50_HCTL_HC-FPC-05-10-12RLTAG.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "R20",
+        "fp": "R0402",
+        "xy": [
+          170.235,
+          80.274
+        ],
+        "side": "B",
+        "angle": -90.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/R0402_L1.0-W0.5-H0.4.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "C13",
+        "fp": "C0402",
+        "xy": [
+          157.535,
+          88.275
+        ],
+        "side": "B",
+        "angle": 90.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/C0402_L1.0-W0.5-H0.5.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "R41",
+        "fp": "R0402",
+        "xy": [
+          160.634,
+          98.1555
+        ],
+        "side": "B",
+        "angle": 0.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/R0402_L1.0-W0.5-H0.4.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "R2",
+        "fp": "R0402",
+        "xy": [
+          165.282,
+          113.802
+        ],
+        "side": "B",
+        "angle": 90.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/R0402_L1.0-W0.5-H0.4.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "C59",
+        "fp": "C0402",
+        "xy": [
+          152.785,
+          114.5385
+        ],
+        "side": "B",
+        "angle": 90.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/C0402_L1.0-W0.5-H0.5.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "U11",
+        "fp": "VSSOP-10_L3.0-W3.0-P0.50-LS4.9-BL",
+        "xy": [
+          165.917,
+          127.391
+        ],
+        "side": "B",
+        "angle": 90.0,
+        "model": [
+          "${KIPRJMOD}/EASYEDA_MODELS/VSSOP-10_L3.0-W3.0-H1.1-LS4.9-P0.50.step"
+        ],
+        "holes": []
+      }
+    ]
+  },
+  "controls": {
+    "path": "hardware-controls\\controls.kicad_pcb",
+    "sha256": "ee37e039be0e91300c0c70fa5635e3af974297043ec823a83e4cb704881a896e",
+    "thickness": 0.8,
+    "footprints": [
+      {
+        "ref": "H3",
+        "fp": "Mount_1.8",
+        "xy": [
+          41.0,
+          24.7
+        ],
+        "side": "F",
+        "angle": 0.0,
+        "model": [],
+        "holes": [
+          [
+            "",
+            1.8
+          ]
+        ]
+      },
+      {
+        "ref": "H2",
+        "fp": "Mount_1.8",
+        "xy": [
+          3.0,
+          8.7
+        ],
+        "side": "F",
+        "angle": 0.0,
+        "model": [],
+        "holes": [
+          [
+            "",
+            1.8
+          ]
+        ]
+      },
+      {
+        "ref": "SW5",
+        "fp": "SKSW_3x2",
+        "xy": [
+          22.0,
+          30.0
+        ],
+        "side": "F",
+        "angle": 0.0,
+        "model": [
+          "${KIPRJMOD}/models3d/SKSW_3x2.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "H1",
+        "fp": "Mount_1.8",
+        "xy": [
+          41.0,
+          8.7
+        ],
+        "side": "F",
+        "angle": 0.0,
+        "model": [],
+        "holes": [
+          [
+            "",
+            1.8
+          ]
+        ]
+      },
+      {
+        "ref": "E1",
+        "fp": "Wheel_D31",
+        "xy": [
+          22.0,
+          17.0
+        ],
+        "side": "F",
+        "angle": 0.0,
+        "model": [],
+        "holes": []
+      },
+      {
+        "ref": "SW1",
+        "fp": "SKSW_3x2",
+        "xy": [
+          22.0,
+          17.0
+        ],
+        "side": "F",
+        "angle": 0.0,
+        "model": [
+          "${KIPRJMOD}/models3d/SKSW_3x2.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "SW4",
+        "fp": "SKSW_3x2",
+        "xy": [
+          35.0,
+          17.0
+        ],
+        "side": "F",
+        "angle": 90.0,
+        "model": [
+          "${KIPRJMOD}/models3d/SKSW_3x2.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "SW3",
+        "fp": "SKSW_3x2",
+        "xy": [
+          9.0,
+          17.0
+        ],
+        "side": "F",
+        "angle": 90.0,
+        "model": [
+          "${KIPRJMOD}/models3d/SKSW_3x2.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "SW2",
+        "fp": "SKSW_3x2",
+        "xy": [
+          22.0,
+          4.0
+        ],
+        "side": "F",
+        "angle": 0.0,
+        "model": [
+          "${KIPRJMOD}/models3d/SKSW_3x2.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "H4",
+        "fp": "Mount_1.8",
+        "xy": [
+          3.0,
+          24.7
+        ],
+        "side": "F",
+        "angle": 0.0,
+        "model": [],
+        "holes": [
+          [
+            "",
+            1.8
+          ]
+        ]
+      },
+      {
+        "ref": "C3",
+        "fp": "C0402",
+        "xy": [
+          18.0,
+          32.8
+        ],
+        "side": "B",
+        "angle": 0.0,
+        "model": [
+          "${KIPRJMOD}/models3d/C0402.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "R9",
+        "fp": "R0402",
+        "xy": [
+          16.0,
+          31.0
+        ],
+        "side": "B",
+        "angle": 90.0,
+        "model": [
+          "${KIPRJMOD}/models3d/R0402.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "R5",
+        "fp": "R0402",
+        "xy": [
+          14.0,
+          26.7
+        ],
+        "side": "B",
+        "angle": 0.0,
+        "model": [
+          "${KIPRJMOD}/models3d/R0402.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "R4",
+        "fp": "R0402",
+        "xy": [
+          14.0,
+          25.2
+        ],
+        "side": "B",
+        "angle": 0.0,
+        "model": [
+          "${KIPRJMOD}/models3d/R0402.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "R7",
+        "fp": "R0402",
+        "xy": [
+          16.0,
+          32.8
+        ],
+        "side": "B",
+        "angle": 0.0,
+        "model": [
+          "${KIPRJMOD}/models3d/R0402.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "J1",
+        "fp": "HCTL_FPC12",
+        "xy": [
+          8.13,
+          9.411
+        ],
+        "side": "B",
+        "angle": -90.0,
+        "model": [
+          "${KIPRJMOD}/models3d/HCTL_FPC12.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "R2",
+        "fp": "R0402",
+        "xy": [
+          6.0,
+          22.2
+        ],
+        "side": "B",
+        "angle": -90.0,
+        "model": [
+          "${KIPRJMOD}/models3d/R0402.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "R14",
+        "fp": "R0402",
+        "xy": [
+          12.0,
+          1.4
+        ],
+        "side": "B",
+        "angle": -90.0,
+        "model": [
+          "${KIPRJMOD}/models3d/R0402.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "R11",
+        "fp": "R0402",
+        "xy": [
+          20.0,
+          31.0
+        ],
+        "side": "B",
+        "angle": 90.0,
+        "model": [
+          "${KIPRJMOD}/models3d/R0402.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "U1",
+        "fp": "CH32V006_QFN20",
+        "xy": [
+          8.3,
+          29.5
+        ],
+        "side": "B",
+        "angle": 0.0,
+        "model": [
+          "${KIPRJMOD}/models3d/CH32V006_QFN20.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "R10",
+        "fp": "R0402",
+        "xy": [
+          18.0,
+          31.0
+        ],
+        "side": "B",
+        "angle": 90.0,
+        "model": [
+          "${KIPRJMOD}/models3d/R0402.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "R8",
+        "fp": "R0402",
+        "xy": [
+          5.3,
+          31.5
+        ],
+        "side": "B",
+        "angle": 0.0,
+        "model": [
+          "${KIPRJMOD}/models3d/R0402.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "C2",
+        "fp": "C0402",
+        "xy": [
+          4.9,
+          29.7
+        ],
+        "side": "B",
+        "angle": 0.0,
+        "model": [
+          "${KIPRJMOD}/models3d/C0402.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "J2",
+        "fp": "SDI_4_Pads",
+        "xy": [
+          29.0,
+          31.7
+        ],
+        "side": "B",
+        "angle": 0.0,
+        "model": [],
+        "holes": []
+      },
+      {
+        "ref": "R6",
+        "fp": "R0402",
+        "xy": [
+          14.0,
+          32.8
+        ],
+        "side": "B",
+        "angle": 0.0,
+        "model": [
+          "${KIPRJMOD}/models3d/R0402.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "R3",
+        "fp": "R0402",
+        "xy": [
+          4.2,
+          21.4
+        ],
+        "side": "B",
+        "angle": -90.0,
+        "model": [
+          "${KIPRJMOD}/models3d/R0402.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "C1",
+        "fp": "C0402",
+        "xy": [
+          5.2,
+          26.4
+        ],
+        "side": "B",
+        "angle": 0.0,
+        "model": [
+          "${KIPRJMOD}/models3d/C0402.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "R12",
+        "fp": "R0402",
+        "xy": [
+          24.0,
+          31.0
+        ],
+        "side": "B",
+        "angle": 90.0,
+        "model": [
+          "${KIPRJMOD}/models3d/R0402.step"
+        ],
+        "holes": []
+      },
+      {
+        "ref": "R1",
+        "fp": "R0402",
+        "xy": [
+          7.8,
+          22.2
+        ],
+        "side": "B",
+        "angle": -90.0,
+        "model": [
+          "${KIPRJMOD}/models3d/R0402.step"
+        ],
+        "holes": []
+      }
+    ]
+  }
+}

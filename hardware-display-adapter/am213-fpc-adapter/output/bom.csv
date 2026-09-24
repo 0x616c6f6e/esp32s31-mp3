@@ -1,0 +1,17 @@
+﻿Reference,Value,Footprint,Populate,Description
+J2,OK-23GF024-04,OK23GF024,YES,"Top view: 1 upper left, 12 lower left, 13 lower right, 24 upper right; OSPTEK board photo"
+R1,22R,R0402,YES,"QSPI series damping; initial conservative low clock, tune on scope"
+R2,0R,R0402,YES,"QSPI series damping; initial conservative low clock, tune on scope"
+R3,0R,R0402,YES,"QSPI series damping; initial conservative low clock, tune on scope"
+R4,0R,R0402,YES,"QSPI series damping; initial conservative low clock, tune on scope"
+R5,0R,R0402,YES,"QSPI series damping; initial conservative low clock, tune on scope"
+R6,0R,R0402,YES,"QSPI series damping; initial conservative low clock, tune on scope"
+R7,0R,R0402,YES,Factory reference feeds pin15 at3.3V; removable isolation link
+R8,0R,R0402,YES,Factory reference feeds pin16 at3.3V; removable isolation link
+R9,100k,R0402,YES,Default PMIC disable until ESP_IO46 asserts enable
+R10,4.7k,R0402,NO,Optional pull-up; host already has R46
+R11,4.7k,R0402,NO,Optional pull-up; host already has R45
+C1,100nF,C0402,YES,X5R/X7R 10V; C2 maximum assembled height <=0.8mm
+C2,10uF,C0603,YES,X5R/X7R 10V; C2 maximum assembled height <=0.8mm
+C3,100nF,C0402,YES,X5R/X7R 10V; C2 maximum assembled height <=0.8mm
+C4,100nF,C0402,YES,X5R/X7R 10V; C2 maximum assembled height <=0.8mm

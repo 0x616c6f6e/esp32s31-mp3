@@ -1,0 +1,79 @@
+{
+  "static_conflicts": [],
+  "travel": [
+    {
+      "part": "WheelControlsA",
+      "travel_mm": 0.33,
+      "ControlsBoard": 0,
+      "HousingControlsA": 0.0
+    },
+    {
+      "part": "CenterButtonControlsA",
+      "travel_mm": 0.33,
+      "ControlsBoard": 0,
+      "HousingControlsA": 0.0
+    },
+    {
+      "part": "wheel-rocking",
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "angle_deg": 0.7272351895613163,
+      "ControlsBoard": 0,
+      "HousingControlsA": 0.0,
+      "CenterButtonControlsA": 0.0
+    },
+    {
+      "part": "wheel-rocking",
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "angle_deg": -0.7272351895613163,
+      "ControlsBoard": 0,
+      "HousingControlsA": 0.0,
+      "CenterButtonControlsA": 0.0
+    },
+    {
+      "part": "wheel-rocking",
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "angle_deg": 0.7272351895613163,
+      "ControlsBoard": 0,
+      "HousingControlsA": 0.0,
+      "CenterButtonControlsA": 0.0
+    },
+    {
+      "part": "wheel-rocking",
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "angle_deg": -0.7272351895613163,
+      "ControlsBoard": 0,
+      "HousingControlsA": 0.0,
+      "CenterButtonControlsA": 0.0
+    }
+  ],
+  "battery_expanded_conflicts": [],
+  "clearances_mm": {
+    "Motor_C08_005/PCB_CN1": 1.1987736662957758,
+    "Motor_C08_005/ControlsBoard": 0.34999999999999964,
+    "Motor_C08_005/ControlFFC40mm": 1.2890000000000015,
+    "BatteryPack/MainPCB": 1.9999999999999991,
+    "BatteryExpandedKeepout/PCB_U5": 0.15000000000000036,
+    "ControlFFC40mm/RearCoverWithPCBPosts": 0.36672484169646724
+  },
+  "invalid_shapes": [],
+  "checks_apply_to_nominal_models_only": true,
+  "battery_model_is_procurement_envelope_not_verified_product": true,
+  "cn2_cn3_headers_not_fitted": true,
+  "incremental_check_note": "Full assembly previously checked; only CoverLens, HousingControlsA, LCDModule, LensAdhesive, OLEDOpticalBond, ScreenRearFPCEnvelope changed and every pair involving them was rechecked. All other geometry retained."
+}

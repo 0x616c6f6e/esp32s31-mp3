@@ -1,0 +1,80 @@
+{
+  "part": "OK-23GF024-04",
+  "model": "simplified mechanical envelope; no production pads",
+  "source_assembly": "mechanical\\enclosure-final-l\\Q2_L_AM213_Adapter_Study.FCStd",
+  "source_sha256": "280c663a32172af0af51d079b9efd44ec9c157e3c93de8e68d7aa7493d3c84b6",
+  "datasheet": "../reference/osptek-official/OK-23GF024-04.pdf",
+  "nominal_model_bbox_mm": [
+    2.59,
+    7.32,
+    0.79
+  ],
+  "maximum_envelope_mm": [
+    2.79,
+    7.52,
+    0.89
+  ],
+  "contact_count": 24,
+  "pitch_mm": 0.4,
+  "kicad_center_mm": [
+    53,
+    62
+  ],
+  "board_local_center_mm": [
+    3,
+    12
+  ],
+  "assembly_center_boardtop_mm": [
+    32,
+    20,
+    10.1
+  ],
+  "long_axis": "Y",
+  "mating_family": "AM213 specified OK-23GM024-04 header / OK-23GF024-04 socket",
+  "mating_height_nominal_mm": 0.8,
+  "mating_height_note": "0.8H family designation; do not sum standalone header and socket heights; final mating tolerance not validated",
+  "board_edge_clearance_nominal_mm": 1.705,
+  "board_edge_clearance_connector_max_only_mm": 1.605,
+  "screen_reserved_plane_z_mm": 11.3,
+  "nominal_gap_to_screen_reserve_mm": 0.41,
+  "connector_max_gap_to_screen_reserve_mm": 0.31,
+  "collisions_excluding_replaced_reservation": [],
+  "intersecting_bounding_box_checks": [
+    {
+      "name": "HousingControlsA",
+      "label": "01 Housing L / AM213 integrated cover aperture",
+      "intersection_mm3": 0.0,
+      "distance_mm": 11.777539
+    },
+    {
+      "name": "PrintableParts",
+      "label": "01 Printable parts / resin",
+      "intersection_mm3": 0.0,
+      "distance_mm": 9.0
+    },
+    {
+      "name": "AssemblyReferences",
+      "label": "03 Battery, lens, cables, screws / do not print",
+      "intersection_mm3": 0.0,
+      "distance_mm": 2.81
+    },
+    {
+      "name": "DisplayAdapterPCB",
+      "label": "Display adapter RESERVED / 17x22x0.6 / NOT routed PCB",
+      "intersection_mm3": 0.0,
+      "distance_mm": 0.0
+    },
+    {
+      "name": "DisplayAdapterConnectors",
+      "label": "Adapter connector allowance / mating drawings pending",
+      "intersection_mm3": 16.78464,
+      "distance_mm": 0.0
+    }
+  ],
+  "pin1_status": "OSPTEK AM213 adapter photograph: pin1 upper-left,12 lower-left,13 lower-right,24 upper-right (KiCad top view).",
+  "limitations": [
+    "No proof of actual FPC reach/bend radius/contact side",
+    "No solder or assembly stack tolerances included",
+    "No electrical compatibility or production footprint validation"
+  ]
+}

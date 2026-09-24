@@ -1,0 +1,53 @@
+{
+  "tree_sha": "08e5d097dcb5b9768b52f6732ad22435b2f8456e",
+  "files": [
+    {
+      "path": "versions/AM213Q410502LK/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f90dcc6ef59ba3f7906cb3080e151f6adc95b3e3",
+      "size": 6033,
+      "url": "https://api.github.com/repos/osptek/amoled-2.13-410x502-qspi-co5300/git/blobs/f90dcc6ef59ba3f7906cb3080e151f6adc95b3e3"
+    },
+    {
+      "path": "versions/AM213Q410502LK/docs/AM_213_Q410502_LK_b82450b641.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "99b7fb0d29522c540a8f8f0dc3de99e203065fc9",
+      "size": 3278815,
+      "url": "https://api.github.com/repos/osptek/amoled-2.13-410x502-qspi-co5300/git/blobs/99b7fb0d29522c540a8f8f0dc3de99e203065fc9"
+    },
+    {
+      "path": "versions/AM213Q410502LK/docs/CO_5300_Datasheet_V0_00_20230328_07edb82936.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7e048c27f96d17566eb01d537d3601a8b9f1afe",
+      "size": 9320844,
+      "url": "https://api.github.com/repos/osptek/amoled-2.13-410x502-qspi-co5300/git/blobs/b7e048c27f96d17566eb01d537d3601a8b9f1afe"
+    },
+    {
+      "path": "versions/AM213Q410502LK/docs/DS_CST_820_V1_2_e0543732ca.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2fea5cfc34ce4af5e4583236d51a11a0fcf958d0",
+      "size": 1582853,
+      "url": "https://api.github.com/repos/osptek/amoled-2.13-410x502-qspi-co5300/git/blobs/2fea5cfc34ce4af5e4583236d51a11a0fcf958d0"
+    },
+    {
+      "path": "versions/AM213Q410502LK/docs/OK-23GF024-04.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "746cfc84fdb56959ef65dae0f66aba349014902e",
+      "size": 542447,
+      "url": "https://api.github.com/repos/osptek/amoled-2.13-410x502-qspi-co5300/git/blobs/746cfc84fdb56959ef65dae0f66aba349014902e"
+    },
+    {
+      "path": "versions/AM213Q410502LK/docs/PCB-2.13&1.96AMOLED-qspi转接板.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3b209db4e6f6439bb54c0bea5b1d1f89c2cf7efa",
+      "size": 1078449,
+      "url": "https://api.github.com/repos/osptek/amoled-2.13-410x502-qspi-co5300/git/blobs/3b209db4e6f6439bb54c0bea5b1d1f89c2cf7efa"
+    }
+  ]
+}

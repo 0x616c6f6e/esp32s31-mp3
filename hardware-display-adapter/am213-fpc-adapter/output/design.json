@@ -1,0 +1,408 @@
+{
+  "root_uuid": "dfd34fd2-ca5d-503e-a1a4-588cec98f736",
+  "components": [
+    {
+      "ref": "J1",
+      "kind": "J_HOST",
+      "value": "21P 0.3mm FPC fingers",
+      "nets": {
+        "3": "LCD_RST",
+        "4": "VCI_EN",
+        "5": "CLK_IN",
+        "7": "CS_IN",
+        "8": "D3_IN",
+        "9": "D2_IN",
+        "10": "D1_IN",
+        "11": "D0_IN",
+        "12": "GND",
+        "13": "VCC_3V3",
+        "14": "VCC_3V3",
+        "17": "GND",
+        "18": "TP_INT",
+        "19": "TP_SCL",
+        "20": "TP_SDA",
+        "21": "TP_RST"
+      },
+      "footprint": "FPC21_Fingers",
+      "pcb": [
+        -18.6,
+        62.4005,
+        0
+      ],
+      "uuid": "82b680bd-b426-52aa-820f-c94fc57a817c",
+      "dnp": false,
+      "description": "AFE03 lower contact; 0.20+/-0.03mm finished tip; not a separate socket"
+    },
+    {
+      "ref": "J2",
+      "kind": "J_LCD",
+      "value": "OK-23GF024-04",
+      "nets": {
+        "1": "LCD_RST",
+        "2": "GND",
+        "3": "LCD_TE",
+        "4": "LCD_CS",
+        "5": "LCD_CLK",
+        "6": "LCD_D1",
+        "7": "LCD_D0",
+        "8": "GND",
+        "11": "VCC_3V3",
+        "12": "VCC_3V3",
+        "13": "GND",
+        "14": "GND",
+        "15": "LCD_VDD",
+        "16": "TP_VDD",
+        "17": "TP_INT",
+        "18": "TP_RST",
+        "19": "TP_SDA",
+        "20": "TP_SCL",
+        "21": "GND",
+        "22": "LCD_D3",
+        "23": "LCD_D2",
+        "24": "VCI_EN",
+        "MP": "GND"
+      },
+      "footprint": "OK23GF024",
+      "pcb": [
+        53,
+        62,
+        0
+      ],
+      "uuid": "df26df77-e097-5660-b828-7baad79422fe",
+      "dnp": false,
+      "description": "Top view: 1 upper left, 12 lower left, 13 lower right, 24 upper right; OSPTEK board photo"
+    },
+    {
+      "ref": "R1",
+      "kind": "R",
+      "value": "22R",
+      "nets": {
+        "1": "CLK_IN",
+        "2": "LCD_CLK"
+      },
+      "footprint": "R0402",
+      "pcb": [
+        57,
+        59,
+        0
+      ],
+      "uuid": "648cf80d-87ff-59a4-bc1c-65bb5405e5bf",
+      "dnp": false,
+      "description": "QSPI series damping; initial conservative low clock, tune on scope"
+    },
+    {
+      "ref": "R2",
+      "kind": "R",
+      "value": "0R",
+      "nets": {
+        "1": "CS_IN",
+        "2": "LCD_CS"
+      },
+      "footprint": "R0402",
+      "pcb": [
+        57,
+        57,
+        0
+      ],
+      "uuid": "b00b618c-6d4b-5457-a63a-922f575422d6",
+      "dnp": false,
+      "description": "QSPI series damping; initial conservative low clock, tune on scope"
+    },
+    {
+      "ref": "R3",
+      "kind": "R",
+      "value": "0R",
+      "nets": {
+        "1": "D0_IN",
+        "2": "LCD_D0"
+      },
+      "footprint": "R0402",
+      "pcb": [
+        57,
+        63,
+        0
+      ],
+      "uuid": "3d063de4-574e-5f22-9fc2-9b90641fc5b1",
+      "dnp": false,
+      "description": "QSPI series damping; initial conservative low clock, tune on scope"
+    },
+    {
+      "ref": "R4",
+      "kind": "R",
+      "value": "0R",
+      "nets": {
+        "1": "D1_IN",
+        "2": "LCD_D1"
+      },
+      "footprint": "R0402",
+      "pcb": [
+        57,
+        61,
+        0
+      ],
+      "uuid": "43b9fa6c-af17-57d2-9515-a6cb3744344a",
+      "dnp": false,
+      "description": "QSPI series damping; initial conservative low clock, tune on scope"
+    },
+    {
+      "ref": "R5",
+      "kind": "R",
+      "value": "0R",
+      "nets": {
+        "1": "D2_IN",
+        "2": "LCD_D2"
+      },
+      "footprint": "R0402",
+      "pcb": [
+        57,
+        67,
+        0
+      ],
+      "uuid": "d564ce1e-28c7-52eb-8883-fdf2480ccd6b",
+      "dnp": false,
+      "description": "QSPI series damping; initial conservative low clock, tune on scope"
+    },
+    {
+      "ref": "R6",
+      "kind": "R",
+      "value": "0R",
+      "nets": {
+        "1": "D3_IN",
+        "2": "LCD_D3"
+      },
+      "footprint": "R0402",
+      "pcb": [
+        57,
+        65,
+        0
+      ],
+      "uuid": "1a950656-1ba9-59fa-82dc-f7e082160188",
+      "dnp": false,
+      "description": "QSPI series damping; initial conservative low clock, tune on scope"
+    },
+    {
+      "ref": "R7",
+      "kind": "R",
+      "value": "0R",
+      "nets": {
+        "1": "VCC_3V3",
+        "2": "LCD_VDD"
+      },
+      "footprint": "R0402",
+      "pcb": [
+        56,
+        69.3,
+        0
+      ],
+      "uuid": "4f684811-8b2f-5fb9-898d-a3598d1f1d8b",
+      "dnp": false,
+      "description": "Factory reference feeds pin15 at3.3V; removable isolation link"
+    },
+    {
+      "ref": "R8",
+      "kind": "R",
+      "value": "0R",
+      "nets": {
+        "1": "VCC_3V3",
+        "2": "TP_VDD"
+      },
+      "footprint": "R0402",
+      "pcb": [
+        56,
+        70.8,
+        0
+      ],
+      "uuid": "3b29ed3f-73f7-5b7e-b385-08aa67cedc46",
+      "dnp": false,
+      "description": "Factory reference feeds pin16 at3.3V; removable isolation link"
+    },
+    {
+      "ref": "R9",
+      "kind": "R",
+      "value": "100k",
+      "nets": {
+        "1": "VCI_EN",
+        "2": "GND"
+      },
+      "footprint": "R0402",
+      "pcb": [
+        56,
+        54,
+        0
+      ],
+      "uuid": "1c657cac-df5c-53f8-acfd-8c85ea1dd66a",
+      "dnp": false,
+      "description": "Default PMIC disable until ESP_IO46 asserts enable"
+    },
+    {
+      "ref": "R10",
+      "kind": "R",
+      "value": "4.7k",
+      "nets": {
+        "1": "VCC_3V3",
+        "2": "TP_SDA"
+      },
+      "footprint": "R0402",
+      "pcb": [
+        61,
+        64,
+        90
+      ],
+      "uuid": "a97c3756-dd7c-5cbd-acec-341e59d77f34",
+      "dnp": true,
+      "description": "Optional pull-up; host already has R46"
+    },
+    {
+      "ref": "R11",
+      "kind": "R",
+      "value": "4.7k",
+      "nets": {
+        "1": "VCC_3V3",
+        "2": "TP_SCL"
+      },
+      "footprint": "R0402",
+      "pcb": [
+        63,
+        64,
+        90
+      ],
+      "uuid": "c22a1cac-84fa-5782-bb3d-e691660a140a",
+      "dnp": true,
+      "description": "Optional pull-up; host already has R45"
+    },
+    {
+      "ref": "C1",
+      "kind": "C",
+      "value": "100nF",
+      "nets": {
+        "1": "VCC_3V3",
+        "2": "GND"
+      },
+      "footprint": "C0402",
+      "pcb": [
+        53,
+        69.5,
+        90
+      ],
+      "uuid": "e1e76cc4-07c4-5cb6-a927-375e4e382437",
+      "dnp": false,
+      "description": "X5R/X7R 10V; C2 maximum assembled height <=0.8mm"
+    },
+    {
+      "ref": "C2",
+      "kind": "C",
+      "value": "10uF",
+      "nets": {
+        "1": "VCC_3V3",
+        "2": "GND"
+      },
+      "footprint": "C0603",
+      "pcb": [
+        51.5,
+        69.3,
+        90
+      ],
+      "uuid": "5b7d5dd0-b6ec-562d-8aa1-44abef4a59b6",
+      "dnp": false,
+      "description": "X5R/X7R 10V; C2 maximum assembled height <=0.8mm"
+    },
+    {
+      "ref": "C3",
+      "kind": "C",
+      "value": "100nF",
+      "nets": {
+        "1": "LCD_VDD",
+        "2": "GND"
+      },
+      "footprint": "C0402",
+      "pcb": [
+        59,
+        69.3,
+        90
+      ],
+      "uuid": "98201126-2534-5c16-b53a-ef38f2964bd9",
+      "dnp": false,
+      "description": "X5R/X7R 10V; C2 maximum assembled height <=0.8mm"
+    },
+    {
+      "ref": "C4",
+      "kind": "C",
+      "value": "100nF",
+      "nets": {
+        "1": "TP_VDD",
+        "2": "GND"
+      },
+      "footprint": "C0402",
+      "pcb": [
+        62,
+        70.5,
+        90
+      ],
+      "uuid": "20046854-ab63-54ae-8f18-3285e03bd541",
+      "dnp": false,
+      "description": "X5R/X7R 10V; C2 maximum assembled height <=0.8mm"
+    },
+    {
+      "ref": "TP1",
+      "kind": "TP",
+      "value": "TE 3V3",
+      "nets": {
+        "1": "LCD_TE"
+      },
+      "footprint": "TP",
+      "pcb": [
+        56,
+        55.5,
+        0
+      ],
+      "uuid": "7b284e91-6af0-5261-a466-55868f854f6f",
+      "dnp": false,
+      "description": "No host GPIO allocated; TE unused in initial firmware"
+    }
+  ],
+  "tail_length_mm": 70.0,
+  "tail_center_y_local_mm": 12.4005,
+  "host_nets": {
+    "3": "LCD_RST",
+    "4": "VCI_EN",
+    "5": "CLK_IN",
+    "7": "CS_IN",
+    "8": "D3_IN",
+    "9": "D2_IN",
+    "10": "D1_IN",
+    "11": "D0_IN",
+    "12": "GND",
+    "13": "VCC_3V3",
+    "14": "VCC_3V3",
+    "17": "GND",
+    "18": "TP_INT",
+    "19": "TP_SCL",
+    "20": "TP_SDA",
+    "21": "TP_RST"
+  },
+  "screen_nets": {
+    "1": "LCD_RST",
+    "2": "GND",
+    "3": "LCD_TE",
+    "4": "LCD_CS",
+    "5": "LCD_CLK",
+    "6": "LCD_D1",
+    "7": "LCD_D0",
+    "8": "GND",
+    "11": "VCC_3V3",
+    "12": "VCC_3V3",
+    "13": "GND",
+    "14": "GND",
+    "15": "LCD_VDD",
+    "16": "TP_VDD",
+    "17": "TP_INT",
+    "18": "TP_RST",
+    "19": "TP_SDA",
+    "20": "TP_SCL",
+    "21": "GND",
+    "22": "LCD_D3",
+    "23": "LCD_D2",
+    "24": "VCI_EN",
+    "MP": "GND"
+  }
+}

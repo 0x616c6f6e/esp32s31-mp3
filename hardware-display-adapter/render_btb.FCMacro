@@ -1,0 +1,41 @@
+from pathlib import Path
+import FreeCAD as A, FreeCADGui as G
+from PySide import QtCore
+O=Path(r'C:/Users/alon/Desktop/Preoject/esp32s31-mp3/hardware-display-adapter/am213-fpc-adapter/models3d')
+colors={'Housing':(.18,.19,.21),'ContactsUnnumbered':(.86,.66,.22),'HoldDowns':(.72,.74,.76)}
+d=A.openDocument(str(O/'OK-23GF024-04.FCStd'))
+for o in d.Objects:
+    if hasattr(o,'Shape'):
+        o.ViewObject.Visibility=o.Name!='MaximumEnvelope'
+        o.ViewObject.ShapeColor=colors.get(o.Name,(.9,.25,.2));o.ViewObject.DisplayMode='Flat Lines'
+v=G.activeDocument().activeView();v.viewAxonometric();v.fitAll();G.updateGui()
+def finish():
+    try:
+        v.saveImage(str(O/'connector-isometric.png'),1300,950,'White');d.save()
+        a=A.openDocument(str(O/'Q2_L_BTB_Fit_Review.FCStd'))
+        names=['DisplayAdapterPCB','BTB_Housing','BTB_ContactsUnnumbered','BTB_HoldDowns']
+        for o in a.Objects:
+            if hasattr(o,'Shape'):
+                o.ViewObject.Visibility=o.Name in names
+                o.ViewObject.ShapeColor=colors.get(o.Name.removeprefix('BTB_'),(.12,.45,.4))
+                o.ViewObject.DisplayMode='Flat Lines'
+        for n in ['PrintableParts','Electronics','AssemblyReferences','BTBMechanicalReview']:
+            a.getObject(n).ViewObject.Visibility=True
+        # Group visibility can cascade; set leaf visibility a second time.
+        for o in a.Objects:
+            if hasattr(o,'Shape') and o.Name not in ['PrintableParts','Electronics','AssemblyReferences']:
+                o.ViewObject.Visibility=o.Name in names
+        v2=G.activeDocument().activeView();v2.viewTop();v2.fitAll();G.updateGui()
+        v2.saveImage(str(O/'adapter-top.png'),1000,1200,'White')
+        for n in ['HousingControlsA','MainPCB','LCDModule','ScreenRearFPCEnvelope']:
+            o=a.getObject(n);o.ViewObject.Visibility=True;o.ViewObject.Transparency=85
+        a.HousingControlsA.ViewObject.ShapeColor=(.65,.72,.78)
+        a.ScreenRearFPCEnvelope.ViewObject.ShapeColor=(.9,.6,.25)
+        v2.viewAxonometric();v2.fitAll();G.updateGui()
+        v2.saveImage(str(O/'assembly-fit.png'),1300,1300,'White')
+        a.save();(O/'render-ok.txt').write_text('Three views rendered; connector tolerance envelope checked headlessly.')
+    except Exception:
+        import traceback
+        (O/'render-error.txt').write_text(traceback.format_exc())
+    G.getMainWindow().close()
+QtCore.QTimer.singleShot(1200,finish)

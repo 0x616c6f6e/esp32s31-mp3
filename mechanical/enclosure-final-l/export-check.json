@@ -1,0 +1,104 @@
+[
+  {
+    "part": "01-housing",
+    "object": "HousingControlsA",
+    "dimensions_mm": [
+      50.0,
+      81.5,
+      13.199999570846558
+    ],
+    "solid_count": 1,
+    "mesh_closed": true,
+    "mesh_facets": 16398,
+    "translation_from_assembly_mm": [
+      -0.0,
+      1.5,
+      -1.2000000476837158
+    ]
+  },
+  {
+    "part": "02-rear-cover",
+    "object": "RearCoverWithPCBPosts",
+    "dimensions_mm": [
+      50.0,
+      81.5,
+      4.199999809265137
+    ],
+    "solid_count": 1,
+    "mesh_closed": true,
+    "mesh_facets": 6040,
+    "translation_from_assembly_mm": [
+      -0.0,
+      1.5,
+      -0.0
+    ]
+  },
+  {
+    "part": "03-wheel",
+    "object": "WheelControlsA",
+    "dimensions_mm": [
+      34.69999837875366,
+      34.70000076293945,
+      2.1499996185302734
+    ],
+    "solid_count": 1,
+    "mesh_closed": true,
+    "mesh_facets": 3024,
+    "translation_from_assembly_mm": [
+      -7.650000095367432,
+      -41.95000076293945,
+      -12.350000381469727
+    ]
+  },
+  {
+    "part": "04-center-button",
+    "object": "CenterButtonControlsA",
+    "dimensions_mm": [
+      14.30000114440918,
+      14.299995422363281,
+      2.049999237060547
+    ],
+    "solid_count": 1,
+    "mesh_closed": true,
+    "mesh_facets": 1340,
+    "translation_from_assembly_mm": [
+      -17.850000381469727,
+      -52.150001525878906,
+      -12.350000381469727
+    ]
+  },
+  {
+    "part": "05-motor-carrier",
+    "object": "MotorCarrier",
+    "dimensions_mm": [
+      10.999988555908203,
+      10.799091339111328,
+      2.250000476837158
+    ],
+    "solid_count": 1,
+    "mesh_closed": true,
+    "mesh_facets": 788,
+    "translation_from_assembly_mm": [
+      -37.60000991821289,
+      -54.90089797973633,
+      -6.099999904632568
+    ]
+  },
+  {
+    "part": "06-insert-fit-coupon-optional",
+    "object": "InsertFitCoupon",
+    "dimensions_mm": [
+      24.0,
+      8.0,
+      5.0
+    ],
+    "solid_count": 1,
+    "mesh_closed": true,
+    "mesh_facets": 2540,
+    "translation_from_assembly_mm": [
+      -60.0,
+      -0.0,
+      -0.0
+    ]
+  }
+]
