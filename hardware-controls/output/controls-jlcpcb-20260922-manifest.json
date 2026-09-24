@@ -1,0 +1,73 @@
+{
+  "source_pcb_sha256": "6f647eac405fd1fa4b8577a836295b3eb8e9958411336a35f7dfbba7821315f9",
+  "archive": "controls-jlcpcb-20260922-gerbers.zip",
+  "archive_sha256": "32e5eb7fb4e58d92a28d32831731919e3de8838502e4b8610d038e0162b79aa4",
+  "archive_bytes": 65103,
+  "files": {
+    "controls-B_Cu.gbl": {
+      "sha256": "0bea18f18559afaddb3042d144b59950ddeb70e7de9c6dbef3ff855f343b04a0",
+      "bytes": 73539
+    },
+    "controls-B_Mask.gbs": {
+      "sha256": "6ffcfe9f9894cf6169231a4dc990f2eabb670ae9cba14bc59598ce2d48af6212",
+      "bytes": 8429
+    },
+    "controls-B_Paste.gbp": {
+      "sha256": "ad036082606d43b49fa46b8ba6093eda9d36c93f26949ac96644a596134dd81b",
+      "bytes": 7638
+    },
+    "controls-B_Silkscreen.gbo": {
+      "sha256": "64a1fcf9d29805be89b2e2839ba7d03565e4d122fdb1e0f21695cd6802dc391e",
+      "bytes": 26384
+    },
+    "controls-Edge_Cuts.gm1": {
+      "sha256": "b2d9d8040ebe5b5b64ef6fba4a70e7a6b97383484f04bbee3dd25d483615692d",
+      "bytes": 1001
+    },
+    "controls-F_Cu.gtl": {
+      "sha256": "af73bcf1b0ef3d82a2509ec4f945c3cc3efe348df4b6bb9d6349ffff36288759",
+      "bytes": 80111
+    },
+    "controls-F_Mask.gts": {
+      "sha256": "aa20a4a6935e3c0960e6ed8ea1978913a09de3d7744260900ce2d43dd2f51b18",
+      "bytes": 1255
+    },
+    "controls-F_Paste.gtp": {
+      "sha256": "3419c11e80534cf764306c4f0ddc16b653b1494ebf6d01552081b90f75de4116",
+      "bytes": 986
+    },
+    "controls-F_Silkscreen.gto": {
+      "sha256": "913d1e4c17de362a9eb058bf3c49430a11e285be3aaeb3bba8f5bdee8bd2680b",
+      "bytes": 15425
+    },
+    "controls-job.gbrjob": {
+      "sha256": "4798b1a190dcbf59f2de88f2e4428e5d92f80c8046b542b44425959756244f2d",
+      "bytes": 2819
+    },
+    "controls-NPTH.drl": {
+      "sha256": "f7e1e15ea20b5a9f5215450f1dafbb81b097e74cc6f91a0f539e28cec5e7fd1a",
+      "bytes": 391
+    },
+    "controls-PTH.drl": {
+      "sha256": "4138d85e51f6998537eb83fdb947ece4923e394789f539f7f73d942e4e20db5d",
+      "bytes": 1243
+    },
+    "README.txt": {
+      "sha256": "c678b5760aec6b3eae15a6361ed6a21965196e0579f3d0c6171db136f099a0f8",
+      "bytes": 1586
+    }
+  },
+  "drc": {
+    "violations": 0,
+    "unconnected": 0,
+    "schematic_parity": 0
+  },
+  "nominal_board_mm": [
+    44,
+    34,
+    0.8
+  ],
+  "copper_layers": 2,
+  "pth_holes": 57,
+  "npth_holes": 4
+}

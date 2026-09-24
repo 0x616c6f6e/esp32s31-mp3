@@ -1,0 +1,425 @@
+{
+  "revision": "C",
+  "mcu": "CH32V006F8U6",
+  "source_sha256": {
+    "kicad_sch": "9ad260fa462a4e3acee19669f4a4279a26a7800af31f32641fd5e36a9a8346e4",
+    "kicad_pcb": "d4d2037be103225b9a990941eed6e9a067a849ac06b961e922cb0380ecad46a2",
+    "kicad_pro": "259054c60e037d4ade8e4d5069d8b6bb5470d5f27eced2636b581bd2e1c753d2"
+  },
+  "archive_sha256": "b28247d30d843f3cff2a8f00563048c355060f759357326d3a5f9361fcde3519",
+  "archive": "hardware-controls\\output\\controls-ch32v006-jlcpcb-20260922-gerbers.zip",
+  "files": {
+    "controls-B_Cu.gbl": "8c8fcfd1ffb4e8ceced87eb5ac77f666efd368e393d10c07e5d37c24b93650ac",
+    "controls-B_Mask.gbs": "5d20cdc9a0a8109a7ab6b8c17fde2a7b7b32bd27fad09dc17cdc285d37bec41a",
+    "controls-B_Paste.gbp": "8b6887ab46d4be37e8ec523a828c17b57ca9c8c9bcb780733e5b039b109b5520",
+    "controls-B_Silkscreen.gbo": "14b59b8f2130f12853f8f9a2d07c37521c904f261ba610df7ef9686558a629e5",
+    "controls-Edge_Cuts.gm1": "2e0d1ae262cf5ea129414d60dfdf04ef944301585b0ff05eaa2c67e4920d69aa",
+    "controls-F_Cu.gtl": "d9529706041d273a645e25d486ace1b80f01488fea3a14fb5213e2c2ce0ada65",
+    "controls-F_Mask.gts": "c44eeebf3007f256991618a9f00f97da380003b2bcb305cd670d8e5b38162440",
+    "controls-F_Paste.gtp": "eb67694cc659692babed81b9eaed27b9599aac3421b57595a947e56a8f9e7df6",
+    "controls-F_Silkscreen.gto": "7a0d0106ae5f2ecc98387fe54f4804bf72ae44160bb7ddb33f45c2fd218613ab",
+    "controls-job.gbrjob": "dc5feef4b4eb3a9f07055aa4d44338c8286b9c38c72e06920ebf172162379ea8",
+    "controls-NPTH.drl": "7ea38fec8396f05bc818057be51b466051b48f02a24660b5c6b4013423747006",
+    "controls-PTH.drl": "3ef556cdd4f4fbddc118966b0ceb8a779c6bededcb2205b702273681cd5650c6",
+    "README.txt": "7c1c90263910ff26cb91e664a122162d2e3de2d574b9184f84b6a803ca00482e"
+  },
+  "dimensions_mm": [
+    44,
+    34,
+    0.8
+  ],
+  "copper_layers": 2,
+  "drills": {
+    "PTH": {
+      "count": 61,
+      "diameter_mm": 0.3,
+      "coordinates_mm": [
+        [
+          1.557,
+          -23.831,
+          0.3
+        ],
+        [
+          3.742,
+          -12.605,
+          0.3
+        ],
+        [
+          3.891,
+          -14.014,
+          0.3
+        ],
+        [
+          5.007,
+          -25.615,
+          0.3
+        ],
+        [
+          5.193,
+          -6.025,
+          0.3
+        ],
+        [
+          5.402,
+          -12.204,
+          0.3
+        ],
+        [
+          5.595,
+          -7.252,
+          0.3
+        ],
+        [
+          5.885,
+          -25.614,
+          0.3
+        ],
+        [
+          6.0,
+          -30.6,
+          0.3
+        ],
+        [
+          6.4,
+          -26.8,
+          0.3
+        ],
+        [
+          6.624,
+          -9.738,
+          0.3
+        ],
+        [
+          6.792,
+          -31.889,
+          0.3
+        ],
+        [
+          6.941,
+          -26.125,
+          0.3
+        ],
+        [
+          7.127,
+          -12.412,
+          0.3
+        ],
+        [
+          7.5,
+          -27.0,
+          0.3
+        ],
+        [
+          7.5,
+          -14.6,
+          0.3
+        ],
+        [
+          7.55,
+          -21.0,
+          0.3
+        ],
+        [
+          7.768,
+          -18.681,
+          0.3
+        ],
+        [
+          7.8,
+          -31.9,
+          0.3
+        ],
+        [
+          8.3,
+          -26.2,
+          0.3
+        ],
+        [
+          8.525,
+          -7.528,
+          0.3
+        ],
+        [
+          8.558,
+          -25.412,
+          0.3
+        ],
+        [
+          8.7,
+          -32.7,
+          0.3
+        ],
+        [
+          8.909,
+          -17.87,
+          0.3
+        ],
+        [
+          9.1,
+          -27.0,
+          0.3
+        ],
+        [
+          9.509,
+          -19.418,
+          0.3
+        ],
+        [
+          10.107,
+          -4.275,
+          0.3
+        ],
+        [
+          10.11,
+          -22.428,
+          0.3
+        ],
+        [
+          10.8,
+          -30.7,
+          0.3
+        ],
+        [
+          11.146,
+          -1.744,
+          0.3
+        ],
+        [
+          11.5,
+          -29.9,
+          0.3
+        ],
+        [
+          12.21,
+          -32.286,
+          0.3
+        ],
+        [
+          14.9,
+          -17.6,
+          0.3
+        ],
+        [
+          16.172,
+          -17.603,
+          0.3
+        ],
+        [
+          16.9,
+          -22.0,
+          0.3
+        ],
+        [
+          17.375,
+          -19.645,
+          0.3
+        ],
+        [
+          18.059,
+          -22.863,
+          0.3
+        ],
+        [
+          18.613,
+          -19.52,
+          0.3
+        ],
+        [
+          19.257,
+          -23.413,
+          0.3
+        ],
+        [
+          19.4,
+          -7.85,
+          0.3
+        ],
+        [
+          19.689,
+          -18.151,
+          0.3
+        ],
+        [
+          19.693,
+          -21.829,
+          0.3
+        ],
+        [
+          20.245,
+          -21.275,
+          0.3
+        ],
+        [
+          20.721,
+          -19.067,
+          0.3
+        ],
+        [
+          21.161,
+          -4.54,
+          0.3
+        ],
+        [
+          21.745,
+          -29.599,
+          0.3
+        ],
+        [
+          22.3,
+          -30.75,
+          0.3
+        ],
+        [
+          22.348,
+          -5.024,
+          0.3
+        ],
+        [
+          22.422,
+          -16.578,
+          0.3
+        ],
+        [
+          22.797,
+          -21.275,
+          0.3
+        ],
+        [
+          22.875,
+          -29.998,
+          0.3
+        ],
+        [
+          23.533,
+          -15.076,
+          0.3
+        ],
+        [
+          23.887,
+          -18.844,
+          0.3
+        ],
+        [
+          24.6,
+          -32.4,
+          0.3
+        ],
+        [
+          25.423,
+          -23.413,
+          0.3
+        ],
+        [
+          26.234,
+          -33.391,
+          0.3
+        ],
+        [
+          27.066,
+          -32.959,
+          0.3
+        ],
+        [
+          28.091,
+          -20.718,
+          0.3
+        ],
+        [
+          28.88,
+          -15.883,
+          0.3
+        ],
+        [
+          34.5,
+          -17.877,
+          0.3
+        ],
+        [
+          34.5,
+          -16.133,
+          0.3
+        ]
+      ],
+      "max_coordinate_quantization_mm": 0.0005000000000023874
+    },
+    "NPTH": {
+      "count": 4,
+      "diameter_mm": 1.8,
+      "coordinates_mm": [
+        [
+          3.0,
+          -24.7,
+          1.8
+        ],
+        [
+          3.0,
+          -8.7,
+          1.8
+        ],
+        [
+          41.0,
+          -24.7,
+          1.8
+        ],
+        [
+          41.0,
+          -8.7,
+          1.8
+        ]
+      ]
+    }
+  },
+  "gerbers": {
+    "controls-F_Cu.gtl": {
+      "coordinate_commands": 1238,
+      "draw_commands": 984,
+      "flash_commands": 74
+    },
+    "controls-B_Cu.gbl": {
+      "coordinate_commands": 1843,
+      "draw_commands": 1364,
+      "flash_commands": 132
+    },
+    "controls-F_Mask.gts": {
+      "coordinate_commands": 14,
+      "draw_commands": 0,
+      "flash_commands": 14
+    },
+    "controls-B_Mask.gbs": {
+      "coordinate_commands": 75,
+      "draw_commands": 0,
+      "flash_commands": 75
+    },
+    "controls-F_Silkscreen.gto": {
+      "coordinate_commands": 592,
+      "draw_commands": 289,
+      "flash_commands": 14
+    },
+    "controls-B_Silkscreen.gbo": {
+      "coordinate_commands": 207,
+      "draw_commands": 66,
+      "flash_commands": 75
+    },
+    "controls-F_Paste.gtp": {
+      "coordinate_commands": 10,
+      "draw_commands": 0,
+      "flash_commands": 10
+    },
+    "controls-B_Paste.gbp": {
+      "coordinate_commands": 70,
+      "draw_commands": 0,
+      "flash_commands": 70
+    },
+    "controls-Edge_Cuts.gm1": {
+      "coordinate_commands": 16,
+      "draw_commands": 8,
+      "flash_commands": 0
+    }
+  },
+  "native_drc": {
+    "violations": 0,
+    "unconnected_items": 0,
+    "schematic_parity": 0
+  },
+  "top_electrodes_mask_covered": true
+}

@@ -1,0 +1,300 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-22T04:09:29",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.4",
+    "schematic_parity": [],
+    "source": "controls.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "电路板边缘间距违规 (<电路板配置> 中的 \"板边\" 约束 间距 0.2500 mm; 实际 0.1887 mm)",
+            "items": [
+                {
+                    "description": "Edge.Cuts 上的 线段",
+                    "pos": {
+                        "x": 34.0,
+                        "y": 34.0
+                    },
+                    "uuid": "17f10757-bb34-4aee-ba7e-0cb60c4a671c"
+                },
+                {
+                    "description": "过孔 [/VDD_MCU] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 26.2343,
+                        "y": 33.5113
+                    },
+                    "uuid": "b2652e60-cf89-4a10-ac27-8971afa71901"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [/GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 6.1,
+                        "y": 29.1
+                    },
+                    "uuid": "70e0fbc7-7560-43c1-8792-c2e021e8451b"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [/GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 10.249,
+                        "y": 23.5488
+                    },
+                    "uuid": "b1d02c96-3664-4fc9-9cc6-ea6f7022ec9e"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [/KEY_NEXT] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 11.5,
+                        "y": 29.1
+                    },
+                    "uuid": "ae08cee9-2b90-48e6-b651-c93c0997f444"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [/KEY_PREV] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 10.85,
+                        "y": 28.5
+                    },
+                    "uuid": "cd8229bb-191f-4a05-9278-c28d8913ca94"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [/KEY_PREV] (B.Cu), 长度: 1.9366 mm",
+                    "pos": {
+                        "x": 21.6328,
+                        "y": 18.5276
+                    },
+                    "uuid": "3a4eb43a-b24b-403f-bb5c-403ab2d3104f"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [/KEY_BACK] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 9.8,
+                        "y": 28.0
+                    },
+                    "uuid": "5b75dc1c-d640-4b71-8e9f-7aa95e2cdefe"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [/KEY_BACK] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 23.7824,
+                        "y": 22.5023
+                    },
+                    "uuid": "b2df71b6-63c4-4e3b-85e9-6039c8209525"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [/KEY_BACK] (B.Cu), 长度: 0.0335 mm",
+                    "pos": {
+                        "x": 21.2915,
+                        "y": 18.8675
+                    },
+                    "uuid": "0d556a24-da30-412f-bc6c-5752aeb71d1e"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [/RESET_N] (F.Cu), 长度: 1.5070 mm",
+                    "pos": {
+                        "x": 5.5746,
+                        "y": 22.9242
+                    },
+                    "uuid": "e5d1c3aa-3f93-440e-b6ca-bfa393e48610"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [/+3V3] (F.Cu), 长度: 0.0250 mm",
+                    "pos": {
+                        "x": 9.775,
+                        "y": 23.85
+                    },
+                    "uuid": "1921276a-becd-4950-aa20-33026b9a778b"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [/+3V3] (B.Cu), 长度: 1.1328 mm",
+                    "pos": {
+                        "x": 26.5563,
+                        "y": 23.4127
+                    },
+                    "uuid": "5d98dfc2-b71c-4720-89d2-48583fba8d5f"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [/+3V3] (B.Cu), 长度: 0.8044 mm",
+                    "pos": {
+                        "x": 13.8,
+                        "y": 21.29
+                    },
+                    "uuid": "76ee9bfa-b6a5-4d7f-96e8-9269f5a09580"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [/+3V3] (B.Cu), 长度: 0.4997 mm",
+                    "pos": {
+                        "x": 34.2702,
+                        "y": 17.3296
+                    },
+                    "uuid": "83ee0351-9a27-4cac-9570-5c6d1506664a"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [/SENSE1] (B.Cu), 长度: 0.2434 mm",
+                    "pos": {
+                        "x": 5.4,
+                        "y": 23.31
+                    },
+                    "uuid": "803c4bfc-69fb-46ff-89a8-bf36c8fe6809"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [/SENSE0] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 10.0,
+                        "y": 31.9
+                    },
+                    "uuid": "b4dc95f2-729c-448c-9787-3999046f2fcf"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [/SENSE2] (B.Cu), 长度: 0.2145 mm",
+                    "pos": {
+                        "x": 4.9632,
+                        "y": 22.6732
+                    },
+                    "uuid": "515dbc87-9384-40a6-8804-f882f44e9912"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        }
+    ]
+}

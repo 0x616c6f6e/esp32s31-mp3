@@ -1,0 +1,488 @@
+[
+  {
+    "uuid": "35cfc0ce-a8bb-42be-bc58-bd3d4d4e51e7",
+    "net": "/KEY_PLAY",
+    "type": "segment",
+    "length_mm": 3.8115
+  },
+  {
+    "uuid": "2a67ea0d-4508-49a0-8900-fe447323ae9f",
+    "net": "/GND",
+    "type": "segment",
+    "length_mm": 3.6162
+  },
+  {
+    "uuid": "6928d4d1-ebb5-49ae-84b4-2c782c34032a",
+    "net": "/GND",
+    "type": "segment",
+    "length_mm": 0.9967
+  },
+  {
+    "uuid": "b25b97f3-643c-4233-b521-bcd0e078ac7f",
+    "net": "/GND",
+    "type": "segment",
+    "length_mm": 0.5217
+  },
+  {
+    "uuid": "0ccdedde-7412-400d-a34f-2bbe2edfc790",
+    "net": "/GND",
+    "type": "segment",
+    "length_mm": 7.393
+  },
+  {
+    "uuid": "1b814227-c406-472b-9d22-0b2623c71432",
+    "net": "/GND",
+    "type": "segment",
+    "length_mm": 0.8217
+  },
+  {
+    "uuid": "2920bf7c-b035-4df3-83bd-1ff0dc7804bc",
+    "net": "/GND",
+    "type": "segment",
+    "length_mm": 2.0089
+  },
+  {
+    "uuid": "40556576-5312-4805-8f7e-ae2b101cec8a",
+    "net": "/GND",
+    "type": "segment",
+    "length_mm": 3.6057
+  },
+  {
+    "uuid": "66c353f3-288e-4b8a-8f88-53cd90ee15d1",
+    "net": "/GND",
+    "type": "segment",
+    "length_mm": 0.8217
+  },
+  {
+    "uuid": "a727f552-a85b-4adb-ac3f-d3c509556f41",
+    "net": "/GND",
+    "type": "segment",
+    "length_mm": 7.1325
+  },
+  {
+    "uuid": "b100611f-f7a0-4271-b2b9-70d7c5dff828",
+    "net": "/GND",
+    "type": "segment",
+    "length_mm": 0.8020005112217823
+  },
+  {
+    "uuid": "c69b08dc-8238-48aa-829a-ccd553b4d7e3",
+    "net": "/GND",
+    "type": "segment",
+    "length_mm": 0.5717
+  },
+  {
+    "uuid": "f33b000b-871c-436b-ba3e-b4cb25673894",
+    "net": "/GND",
+    "type": "segment",
+    "length_mm": 10.7774
+  },
+  {
+    "uuid": "bc2cc8c8-f0ce-4098-8cb1-6960f45fc42a",
+    "net": "/KEY_POWER",
+    "type": "segment",
+    "length_mm": 0.7467
+  },
+  {
+    "uuid": "09995f78-6418-4dad-a244-caebcf20a877",
+    "net": "/KEY_NEXT",
+    "type": "segment",
+    "length_mm": 0.7467
+  },
+  {
+    "uuid": "76191f07-7d34-4e87-8e59-42ea02e3a216",
+    "net": "/KEY_BACK",
+    "type": "segment",
+    "length_mm": 8.0759
+  },
+  {
+    "uuid": "b8d1b46f-f4a2-48e9-bdae-645190eea0a1",
+    "net": "/SDA",
+    "type": "segment",
+    "length_mm": 0.7467
+  },
+  {
+    "uuid": "71c7fd5b-7666-4776-a221-33cf33492b6b",
+    "net": "/RESET_N",
+    "type": "segment",
+    "length_mm": 0.7569
+  },
+  {
+    "uuid": "1b4906dd-3244-4dae-b509-8d8610d3360b",
+    "net": "/SCL",
+    "type": "segment",
+    "length_mm": 0.7467
+  },
+  {
+    "uuid": "67e6392c-c03b-4a0c-9cda-5bbbe0740f23",
+    "net": "/INT_N",
+    "type": "segment",
+    "length_mm": 0.7467
+  },
+  {
+    "uuid": "b78d54ee-4281-4dfc-84ea-bada972ebfb3",
+    "net": "/KEY_PLAY",
+    "type": "segment",
+    "length_mm": 5.766314379220058
+  },
+  {
+    "uuid": "d0a7f061-03c3-488a-9e44-d1e5db39ffec",
+    "net": "/KEY_POWER",
+    "type": "segment",
+    "length_mm": 0.568372430717747
+  },
+  {
+    "uuid": "e597979e-408f-481f-ba99-8e8ed2c30c20",
+    "net": "/KEY_NEXT",
+    "type": "segment",
+    "length_mm": 7.536061231173749
+  },
+  {
+    "uuid": "48cd67cc-378d-4c2e-afa5-e39e5c693c25",
+    "net": "/KEY_BACK",
+    "type": "segment",
+    "length_mm": 1.5628474077785073
+  },
+  {
+    "uuid": "d76cdf9d-2b69-45d3-951b-d7ae29850f8b",
+    "net": "/SDA",
+    "type": "segment",
+    "length_mm": 0.6434
+  },
+  {
+    "uuid": "ed5e6566-baa9-4204-b105-2eb0261f26f0",
+    "net": "/SCL",
+    "type": "segment",
+    "length_mm": 1.551250856567048
+  },
+  {
+    "uuid": "3171ba6d-8b01-4192-ad2a-ccaab9ce13fa",
+    "net": "/INT_N",
+    "type": "segment",
+    "length_mm": 1.0559932670239902
+  },
+  {
+    "uuid": "98e12a04-5540-4a0a-954b-cdd5a1c3ed45",
+    "net": "/KEY_POWER",
+    "type": "segment",
+    "length_mm": 5.4868
+  },
+  {
+    "uuid": "2ad8bbd8-f4aa-48a7-8222-9297e791a530",
+    "net": "/KEY_NEXT",
+    "type": "segment",
+    "length_mm": 1.2392
+  },
+  {
+    "uuid": "f2afc143-1465-4944-9ddf-f21e8884cca9",
+    "net": "/SDA",
+    "type": "segment",
+    "length_mm": 8.901060161576261
+  },
+  {
+    "uuid": "34062ca2-f116-46ee-ad4e-2dbc94f043c6",
+    "net": "/SCL",
+    "type": "segment",
+    "length_mm": 3.9242
+  },
+  {
+    "uuid": "3c56fde8-1aad-4b3f-8109-b29ece58d617",
+    "net": "/INT_N",
+    "type": "segment",
+    "length_mm": 1.6263
+  },
+  {
+    "uuid": "da0cc39c-2959-4f6a-8a3d-bf9246f7392b",
+    "net": "/KEY_NEXT",
+    "type": "segment",
+    "length_mm": 1.5276334900754174
+  },
+  {
+    "uuid": "aad94e18-5973-4d13-9374-75784102d170",
+    "net": "/SDA",
+    "type": "segment",
+    "length_mm": 8.9764
+  },
+  {
+    "uuid": "fb1464c9-bac4-4675-99ad-0fdaae9a442a",
+    "net": "/SCL",
+    "type": "segment",
+    "length_mm": 0.7291685127595678
+  },
+  {
+    "uuid": "7cfbcd73-d701-4d57-8bb7-5ac5c3601886",
+    "net": "/INT_N",
+    "type": "segment",
+    "length_mm": 0.48366103833159857
+  },
+  {
+    "uuid": "bdf16b87-ea7b-48bd-9ca6-333675ff63eb",
+    "net": "/KEY_NEXT",
+    "type": "segment",
+    "length_mm": 10.4657
+  },
+  {
+    "uuid": "809d9286-65c7-4016-9529-42283cc7043d",
+    "net": "/SDA",
+    "type": "segment",
+    "length_mm": 0.6509625027603357
+  },
+  {
+    "uuid": "7ea659a6-3101-41b6-af84-b2d75b576537",
+    "net": "/SCL",
+    "type": "segment",
+    "length_mm": 4.9632
+  },
+  {
+    "uuid": "80148518-efce-4531-9ef8-40a8b89bf210",
+    "net": "/INT_N",
+    "type": "segment",
+    "length_mm": 4.9199
+  },
+  {
+    "uuid": "51209a9a-9944-4a69-9f60-d05c6d2d9ed9",
+    "net": "/KEY_NEXT",
+    "type": "segment",
+    "length_mm": 0.17423111088436533
+  },
+  {
+    "uuid": "23c098c6-f543-440a-9e47-8f246ef9f1a3",
+    "net": "/SCL",
+    "type": "segment",
+    "length_mm": 1.7940713252265086
+  },
+  {
+    "uuid": "64f90dc1-6d8a-432f-a643-2f8aeb623780",
+    "net": "/INT_N",
+    "type": "segment",
+    "length_mm": 2.0605091603775993
+  },
+  {
+    "uuid": "ad1980da-3e73-4a98-893a-ae24ab274ef2",
+    "net": "/KEY_NEXT",
+    "type": "segment",
+    "length_mm": 3.9035
+  },
+  {
+    "uuid": "47e421a8-cbb9-4e52-9cc8-7610bdac3c12",
+    "net": "/SCL",
+    "type": "segment",
+    "length_mm": 1.8721
+  },
+  {
+    "uuid": "fe5c2440-e64f-43b1-852d-a06a6dd5271c",
+    "net": "/INT_N",
+    "type": "segment",
+    "length_mm": 2.1491
+  },
+  {
+    "uuid": "5b8bb1d2-18ac-428d-af76-0a2353232031",
+    "net": "/KEY_NEXT",
+    "type": "segment",
+    "length_mm": 0.7304413049657036
+  },
+  {
+    "uuid": "f961b583-a98b-40c2-abf8-af776b3d4019",
+    "net": "/SCL",
+    "type": "segment",
+    "length_mm": 6.231449219884569
+  },
+  {
+    "uuid": "f316a9a1-553d-4251-8af3-5c5f831b0611",
+    "net": "/INT_N",
+    "type": "segment",
+    "length_mm": 0.9701505037879433
+  },
+  {
+    "uuid": "6598f8f4-4d1b-48b9-8443-0a1448608dcb",
+    "net": "/KEY_NEXT",
+    "type": "segment",
+    "length_mm": 0.6946
+  },
+  {
+    "uuid": "eff03959-c777-400c-bfcf-12fc21627a59",
+    "net": "/SCL",
+    "type": "segment",
+    "length_mm": 5.4626
+  },
+  {
+    "uuid": "b11d3c61-2bdd-4b5b-8857-80976ab42e3a",
+    "net": "/INT_N",
+    "type": "segment",
+    "length_mm": 6.4995
+  },
+  {
+    "uuid": "32264fb2-9e19-4413-8118-5849b79ba689",
+    "net": "/KEY_NEXT",
+    "type": "segment",
+    "length_mm": 12.36390349040302
+  },
+  {
+    "uuid": "be747f04-a321-4351-b580-09f938c850a7",
+    "net": "/INT_N",
+    "type": "segment",
+    "length_mm": 3.0127
+  },
+  {
+    "uuid": "a1051950-83ba-4cb8-a321-32e86e4daef5",
+    "net": "/KEY_NEXT",
+    "type": "segment",
+    "length_mm": 1.8529
+  },
+  {
+    "uuid": "badd956c-2076-4e88-ae48-4bb52f0ec11b",
+    "net": "/INT_N",
+    "type": "segment",
+    "length_mm": 2.773979902594826
+  },
+  {
+    "uuid": "8baacc05-4797-43e9-8fe1-9df51e037e48",
+    "net": "/KEY_NEXT",
+    "type": "segment",
+    "length_mm": 1.2964095726274163
+  },
+  {
+    "uuid": "6cb4dba3-8304-4440-aa04-99082fbfe7a2",
+    "net": "/KEY_NEXT",
+    "type": "segment",
+    "length_mm": 1.2213
+  },
+  {
+    "uuid": "3a3822f6-08fc-49fe-86b2-2ca8fa7d238d",
+    "net": "/KEY_NEXT",
+    "type": "segment",
+    "length_mm": 0.518167849253502
+  },
+  {
+    "uuid": "d9b1f261-0b44-4985-9dec-9ff8f5eb1b12",
+    "net": "/KEY_NEXT",
+    "type": "segment",
+    "length_mm": 8.5873
+  },
+  {
+    "uuid": "95586666-4b73-4da9-9081-4c6c23caa3c6",
+    "net": "/KEY_PLAY",
+    "type": "via",
+    "length_mm": 0.0
+  },
+  {
+    "uuid": "3cdad929-cfb3-4a14-9b67-5673efd90e70",
+    "net": "/KEY_POWER",
+    "type": "via",
+    "length_mm": 0.0
+  },
+  {
+    "uuid": "973bc335-4644-4c16-b137-688be8c5462b",
+    "net": "/KEY_NEXT",
+    "type": "via",
+    "length_mm": 0.0
+  },
+  {
+    "uuid": "83e442a7-8b70-46fa-872b-fd9f830eb193",
+    "net": "/SDA",
+    "type": "via",
+    "length_mm": 0.0
+  },
+  {
+    "uuid": "f5a97535-b15d-4898-a233-76a411b9f1ff",
+    "net": "/INT_N",
+    "type": "via",
+    "length_mm": 0.0
+  },
+  {
+    "uuid": "b8936450-c4a3-4893-ad35-e1370ce1f603",
+    "net": "/KEY_PLAY",
+    "type": "segment",
+    "length_mm": 1.2563
+  },
+  {
+    "uuid": "0877f08c-4726-4830-9380-42ac67b46828",
+    "net": "/KEY_NEXT",
+    "type": "segment",
+    "length_mm": 0.3007
+  },
+  {
+    "uuid": "1c8401de-e8c9-4b27-be6a-ff909494102f",
+    "net": "/SDA",
+    "type": "segment",
+    "length_mm": 3.9085
+  },
+  {
+    "uuid": "db58835e-6a78-4a88-b0bd-8a3ebc1f2bc6",
+    "net": "/INT_N",
+    "type": "segment",
+    "length_mm": 1.623800012316788
+  },
+  {
+    "uuid": "bb37338a-97db-4858-bece-9f733428272f",
+    "net": "/KEY_PLAY",
+    "type": "segment",
+    "length_mm": 0.3911714713523981
+  },
+  {
+    "uuid": "ff22b359-afde-4127-b153-9e2adf641c3d",
+    "net": "/KEY_NEXT",
+    "type": "segment",
+    "length_mm": 0.9553012613830258
+  },
+  {
+    "uuid": "401e93b6-9e90-487a-a11d-cdd5c3105bbb",
+    "net": "/SDA",
+    "type": "segment",
+    "length_mm": 1.916
+  },
+  {
+    "uuid": "b540bdf5-d76c-4ce1-9fe4-3f2577b490cd",
+    "net": "/INT_N",
+    "type": "segment",
+    "length_mm": 2.9148
+  },
+  {
+    "uuid": "1bffea00-7215-4672-bf78-8ff72af5870f",
+    "net": "/KEY_PLAY",
+    "type": "segment",
+    "length_mm": 6.7182
+  },
+  {
+    "uuid": "7db03913-4d31-4c2b-ae44-b7296b2e2cfd",
+    "net": "/SDA",
+    "type": "segment",
+    "length_mm": 4.368647115526728
+  },
+  {
+    "uuid": "56feae36-45cc-499d-9444-df6875472c4f",
+    "net": "/KEY_PLAY",
+    "type": "segment",
+    "length_mm": 2.9422713165172247
+  },
+  {
+    "uuid": "2629ba69-aeaa-42bb-8518-dbc304d08b3a",
+    "net": "/KEY_PLAY",
+    "type": "segment",
+    "length_mm": 0.2336
+  },
+  {
+    "uuid": "b4cf5247-a738-4e6e-b1fc-b02f93f91bfe",
+    "net": "/KEY_PLAY",
+    "type": "segment",
+    "length_mm": 0.45283118267186506
+  },
+  {
+    "uuid": "6b36752e-692a-4ced-9f75-81265becc268",
+    "net": "/KEY_PLAY",
+    "type": "segment",
+    "length_mm": 0.2517
+  },
+  {
+    "uuid": "2cc86b5e-8769-4144-8f42-d89a94d8c7b2",
+    "net": "/KEY_PLAY",
+    "type": "segment",
+    "length_mm": 9.25065375419489
+  },
+  {
+    "uuid": "14ff01a6-7aad-4045-ac4b-96e8a8258d69",
+    "net": "/KEY_PLAY",
+    "type": "segment",
+    "length_mm": 4.6109
+  }
+]

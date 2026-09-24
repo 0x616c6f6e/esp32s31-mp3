@@ -1,0 +1,806 @@
+{
+  "source_sha256": {
+    "enclosure": "e5fd7890efbc8404e5c65a17afcba96f5f5db5222e9c2c649a22338708107d3a",
+    "mainboard": "25e30ef59f954d66ba8e3acc833f34403bdff8daa16908d540341397fdcc79bc"
+  },
+  "controls_pcb_sha256": "2e6b210df6f1514378c0febbd083b580cb55f18ebe5c090b6245fe748d807bdb",
+  "models": 26,
+  "board_mm": [
+    44,
+    34,
+    0.8
+  ],
+  "nominal_component_conflicts": [],
+  "clearances": [
+    {
+      "part": "SW5",
+      "obstacle": "BatteryReference",
+      "distance_mm": 1.1402
+    },
+    {
+      "part": "SW5",
+      "obstacle": "MotorHolderProposal",
+      "distance_mm": 11.6191
+    },
+    {
+      "part": "SW5",
+      "obstacle": "HousingControlsA",
+      "distance_mm": 1.8385
+    },
+    {
+      "part": "SW5",
+      "obstacle": "MotorMaximumEnvelope",
+      "distance_mm": 11.6089
+    },
+    {
+      "part": "SW1",
+      "obstacle": "BatteryReference",
+      "distance_mm": 1.1
+    },
+    {
+      "part": "SW1",
+      "obstacle": "MotorHolderProposal",
+      "distance_mm": 8.704
+    },
+    {
+      "part": "SW1",
+      "obstacle": "HousingControlsA",
+      "distance_mm": 14.359
+    },
+    {
+      "part": "SW1",
+      "obstacle": "MotorMaximumEnvelope",
+      "distance_mm": 8.4785
+    },
+    {
+      "part": "SW4",
+      "obstacle": "BatteryReference",
+      "distance_mm": 1.1
+    },
+    {
+      "part": "SW4",
+      "obstacle": "MotorHolderProposal",
+      "distance_mm": 21.844
+    },
+    {
+      "part": "SW4",
+      "obstacle": "HousingControlsA",
+      "distance_mm": 2.6431
+    },
+    {
+      "part": "SW4",
+      "obstacle": "MotorMaximumEnvelope",
+      "distance_mm": 22.0191
+    },
+    {
+      "part": "SW3",
+      "obstacle": "BatteryReference",
+      "distance_mm": 4.827
+    },
+    {
+      "part": "SW3",
+      "obstacle": "MotorHolderProposal",
+      "distance_mm": 3.8
+    },
+    {
+      "part": "SW3",
+      "obstacle": "HousingControlsA",
+      "distance_mm": 2.6431
+    },
+    {
+      "part": "SW3",
+      "obstacle": "MotorMaximumEnvelope",
+      "distance_mm": 1.35
+    },
+    {
+      "part": "SW2",
+      "obstacle": "BatteryReference",
+      "distance_mm": 1.1
+    },
+    {
+      "part": "SW2",
+      "obstacle": "MotorHolderProposal",
+      "distance_mm": 15.1795
+    },
+    {
+      "part": "SW2",
+      "obstacle": "HousingControlsA",
+      "distance_mm": 2.6431
+    },
+    {
+      "part": "SW2",
+      "obstacle": "MotorMaximumEnvelope",
+      "distance_mm": 15.3058
+    },
+    {
+      "part": "U1",
+      "obstacle": "BatteryReference",
+      "distance_mm": 7.5
+    },
+    {
+      "part": "U1",
+      "obstacle": "MotorHolderProposal",
+      "distance_mm": 3.7251
+    },
+    {
+      "part": "U1",
+      "obstacle": "HousingControlsA",
+      "distance_mm": 1.2
+    },
+    {
+      "part": "U1",
+      "obstacle": "MotorMaximumEnvelope",
+      "distance_mm": 3.592
+    },
+    {
+      "part": "C3",
+      "obstacle": "BatteryReference",
+      "distance_mm": 2.85
+    },
+    {
+      "part": "C3",
+      "obstacle": "MotorHolderProposal",
+      "distance_mm": 9.7543
+    },
+    {
+      "part": "C3",
+      "obstacle": "HousingControlsA",
+      "distance_mm": 1.5833
+    },
+    {
+      "part": "C3",
+      "obstacle": "MotorMaximumEnvelope",
+      "distance_mm": 9.9742
+    },
+    {
+      "part": "R9",
+      "obstacle": "BatteryReference",
+      "distance_mm": 1.8
+    },
+    {
+      "part": "R9",
+      "obstacle": "MotorHolderProposal",
+      "distance_mm": 16.3979
+    },
+    {
+      "part": "R9",
+      "obstacle": "HousingControlsA",
+      "distance_mm": 2.2347
+    },
+    {
+      "part": "R9",
+      "obstacle": "MotorMaximumEnvelope",
+      "distance_mm": 16.7291
+    },
+    {
+      "part": "R5",
+      "obstacle": "BatteryReference",
+      "distance_mm": 1.25
+    },
+    {
+      "part": "R5",
+      "obstacle": "MotorHolderProposal",
+      "distance_mm": 5.5015
+    },
+    {
+      "part": "R5",
+      "obstacle": "HousingControlsA",
+      "distance_mm": 2.4713
+    },
+    {
+      "part": "R5",
+      "obstacle": "MotorMaximumEnvelope",
+      "distance_mm": 5.3627
+    },
+    {
+      "part": "U2",
+      "obstacle": "BatteryReference",
+      "distance_mm": 0.8
+    },
+    {
+      "part": "U2",
+      "obstacle": "MotorHolderProposal",
+      "distance_mm": 9.2672
+    },
+    {
+      "part": "U2",
+      "obstacle": "HousingControlsA",
+      "distance_mm": 0.2627
+    },
+    {
+      "part": "U2",
+      "obstacle": "MotorMaximumEnvelope",
+      "distance_mm": 9.5988
+    },
+    {
+      "part": "R4",
+      "obstacle": "BatteryReference",
+      "distance_mm": 1.25
+    },
+    {
+      "part": "R4",
+      "obstacle": "MotorHolderProposal",
+      "distance_mm": 4.0342
+    },
+    {
+      "part": "R4",
+      "obstacle": "HousingControlsA",
+      "distance_mm": 3.9106
+    },
+    {
+      "part": "R4",
+      "obstacle": "MotorMaximumEnvelope",
+      "distance_mm": 3.5827
+    },
+    {
+      "part": "R7",
+      "obstacle": "BatteryReference",
+      "distance_mm": 4.9862
+    },
+    {
+      "part": "R7",
+      "obstacle": "MotorHolderProposal",
+      "distance_mm": 6.8553
+    },
+    {
+      "part": "R7",
+      "obstacle": "HousingControlsA",
+      "distance_mm": 1.2
+    },
+    {
+      "part": "R7",
+      "obstacle": "MotorMaximumEnvelope",
+      "distance_mm": 6.8647
+    },
+    {
+      "part": "J1",
+      "obstacle": "BatteryReference",
+      "distance_mm": 4.845
+    },
+    {
+      "part": "J1",
+      "obstacle": "MotorHolderProposal",
+      "distance_mm": 2.6934
+    },
+    {
+      "part": "J1",
+      "obstacle": "HousingControlsA",
+      "distance_mm": 1.2
+    },
+    {
+      "part": "J1",
+      "obstacle": "MotorMaximumEnvelope",
+      "distance_mm": 2.354
+    },
+    {
+      "part": "R13",
+      "obstacle": "BatteryReference",
+      "distance_mm": 1.8
+    },
+    {
+      "part": "R13",
+      "obstacle": "MotorHolderProposal",
+      "distance_mm": 14.7427
+    },
+    {
+      "part": "R13",
+      "obstacle": "HousingControlsA",
+      "distance_mm": 1.2605
+    },
+    {
+      "part": "R13",
+      "obstacle": "MotorMaximumEnvelope",
+      "distance_mm": 15.049
+    },
+    {
+      "part": "R2",
+      "obstacle": "BatteryReference",
+      "distance_mm": 8.45
+    },
+    {
+      "part": "R2",
+      "obstacle": "MotorHolderProposal",
+      "distance_mm": 2.684
+    },
+    {
+      "part": "R2",
+      "obstacle": "HousingControlsA",
+      "distance_mm": 1.2239
+    },
+    {
+      "part": "R2",
+      "obstacle": "MotorMaximumEnvelope",
+      "distance_mm": 0.2
+    },
+    {
+      "part": "R14",
+      "obstacle": "BatteryReference",
+      "distance_mm": 2.45
+    },
+    {
+      "part": "R14",
+      "obstacle": "MotorHolderProposal",
+      "distance_mm": 13.8527
+    },
+    {
+      "part": "R14",
+      "obstacle": "HousingControlsA",
+      "distance_mm": 1.2
+    },
+    {
+      "part": "R14",
+      "obstacle": "MotorMaximumEnvelope",
+      "distance_mm": 14.1427
+    },
+    {
+      "part": "C4",
+      "obstacle": "BatteryReference",
+      "distance_mm": 0.85
+    },
+    {
+      "part": "C4",
+      "obstacle": "MotorHolderProposal",
+      "distance_mm": 8.1771
+    },
+    {
+      "part": "C4",
+      "obstacle": "HousingControlsA",
+      "distance_mm": 2.6345
+    },
+    {
+      "part": "C4",
+      "obstacle": "MotorMaximumEnvelope",
+      "distance_mm": 8.3306
+    },
+    {
+      "part": "R11",
+      "obstacle": "BatteryReference",
+      "distance_mm": 1.8
+    },
+    {
+      "part": "R11",
+      "obstacle": "MotorHolderProposal",
+      "distance_mm": 19.8654
+    },
+    {
+      "part": "R11",
+      "obstacle": "HousingControlsA",
+      "distance_mm": 1.4365
+    },
+    {
+      "part": "R11",
+      "obstacle": "MotorMaximumEnvelope",
+      "distance_mm": 20.2352
+    },
+    {
+      "part": "R10",
+      "obstacle": "BatteryReference",
+      "distance_mm": 1.8
+    },
+    {
+      "part": "R10",
+      "obstacle": "MotorHolderProposal",
+      "distance_mm": 18.1094
+    },
+    {
+      "part": "R10",
+      "obstacle": "HousingControlsA",
+      "distance_mm": 1.8098
+    },
+    {
+      "part": "R10",
+      "obstacle": "MotorMaximumEnvelope",
+      "distance_mm": 18.4615
+    },
+    {
+      "part": "R8",
+      "obstacle": "BatteryReference",
+      "distance_mm": 0.65
+    },
+    {
+      "part": "R8",
+      "obstacle": "MotorHolderProposal",
+      "distance_mm": 2.903
+    },
+    {
+      "part": "R8",
+      "obstacle": "HousingControlsA",
+      "distance_mm": 6.908
+    },
+    {
+      "part": "R8",
+      "obstacle": "MotorMaximumEnvelope",
+      "distance_mm": 1.7409
+    },
+    {
+      "part": "C2",
+      "obstacle": "BatteryReference",
+      "distance_mm": 2.2
+    },
+    {
+      "part": "C2",
+      "obstacle": "MotorHolderProposal",
+      "distance_mm": 2.6381
+    },
+    {
+      "part": "C2",
+      "obstacle": "HousingControlsA",
+      "distance_mm": 4.1861
+    },
+    {
+      "part": "C2",
+      "obstacle": "MotorMaximumEnvelope",
+      "distance_mm": 1.3806
+    },
+    {
+      "part": "R6",
+      "obstacle": "BatteryReference",
+      "distance_mm": 3.0401
+    },
+    {
+      "part": "R6",
+      "obstacle": "MotorHolderProposal",
+      "distance_mm": 7.3386
+    },
+    {
+      "part": "R6",
+      "obstacle": "HousingControlsA",
+      "distance_mm": 1.2
+    },
+    {
+      "part": "R6",
+      "obstacle": "MotorMaximumEnvelope",
+      "distance_mm": 7.3862
+    },
+    {
+      "part": "R3",
+      "obstacle": "BatteryReference",
+      "distance_mm": 10.25
+    },
+    {
+      "part": "R3",
+      "obstacle": "MotorHolderProposal",
+      "distance_mm": 2.65
+    },
+    {
+      "part": "R3",
+      "obstacle": "HousingControlsA",
+      "distance_mm": 1.2
+    },
+    {
+      "part": "R3",
+      "obstacle": "MotorMaximumEnvelope",
+      "distance_mm": 0.2
+    },
+    {
+      "part": "C1",
+      "obstacle": "BatteryReference",
+      "distance_mm": 6.9
+    },
+    {
+      "part": "C1",
+      "obstacle": "MotorHolderProposal",
+      "distance_mm": 2.8991
+    },
+    {
+      "part": "C1",
+      "obstacle": "HousingControlsA",
+      "distance_mm": 1.2
+    },
+    {
+      "part": "C1",
+      "obstacle": "MotorMaximumEnvelope",
+      "distance_mm": 2.0045
+    },
+    {
+      "part": "R12",
+      "obstacle": "BatteryReference",
+      "distance_mm": 1.8
+    },
+    {
+      "part": "R12",
+      "obstacle": "MotorHolderProposal",
+      "distance_mm": 21.6567
+    },
+    {
+      "part": "R12",
+      "obstacle": "HousingControlsA",
+      "distance_mm": 1.2
+    },
+    {
+      "part": "R12",
+      "obstacle": "MotorMaximumEnvelope",
+      "distance_mm": 22.0415
+    },
+    {
+      "part": "R1",
+      "obstacle": "BatteryReference",
+      "distance_mm": 6.65
+    },
+    {
+      "part": "R1",
+      "obstacle": "MotorHolderProposal",
+      "distance_mm": 2.8864
+    },
+    {
+      "part": "R1",
+      "obstacle": "HousingControlsA",
+      "distance_mm": 1.9465
+    },
+    {
+      "part": "R1",
+      "obstacle": "MotorMaximumEnvelope",
+      "distance_mm": 0.2
+    },
+    {
+      "part": "ControlsBoard",
+      "obstacle": "BatteryReference",
+      "distance_mm": 0.3
+    },
+    {
+      "part": "ControlsBoard",
+      "obstacle": "MotorHolderProposal",
+      "distance_mm": 3.0
+    },
+    {
+      "part": "ControlsBoard",
+      "obstacle": "HousingControlsA",
+      "distance_mm": 0.0
+    },
+    {
+      "part": "ControlsBoard",
+      "obstacle": "MotorMaximumEnvelope",
+      "distance_mm": 0.55
+    }
+  ],
+  "axial_travel_check": [
+    {
+      "part": "Wheel",
+      "axial_displacement_mm": 0.33,
+      "board_collision_mm3": 0.0,
+      "housing_collision_mm3": 0.0,
+      "note": "Rigid axial clearance envelope only; rocking tilt and feel need prototype validation."
+    },
+    {
+      "part": "Center",
+      "axial_displacement_mm": 0.33,
+      "board_collision_mm3": 0.0,
+      "housing_collision_mm3": 0.0,
+      "note": "Rigid axial clearance envelope only; rocking tilt and feel need prototype validation."
+    }
+  ],
+  "switch": "SKSWCEE010: nominal height 0.6 +/-0.05, stroke 0.13",
+  "plunger_gap_mm": [
+    0.1,
+    0.2
+  ],
+  "nominal_travel_to_trigger_mm": 0.28,
+  "worst_height_travel_to_trigger_mm": 0.33,
+  "board_to_battery_nominal_gap_mm": 0.3,
+  "touch_cover_air_gap_mm": 1.05,
+  "mainboard_connected": false,
+  "status": "Nominal geometry only; battery selection, tolerances, rocking mechanics and touch calibration require prototype validation.",
+  "pass": true,
+  "four_way_pose_check": [
+    {
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "angle_deg": 0.7272351895613163,
+      "translation_z_mm": -0.165,
+      "board_collision_mm3": 0.0,
+      "housing_collision_mm3": 0.0,
+      "center_button_collision_mm3": 0.0
+    },
+    {
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "angle_deg": -0.7272351895613163,
+      "translation_z_mm": -0.165,
+      "board_collision_mm3": 0.0,
+      "housing_collision_mm3": 0.0,
+      "center_button_collision_mm3": 0.0
+    },
+    {
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "angle_deg": 0.7272351895613163,
+      "translation_z_mm": -0.165,
+      "board_collision_mm3": 0.0,
+      "housing_collision_mm3": 0.0,
+      "center_button_collision_mm3": 0.0
+    },
+    {
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "angle_deg": -0.7272351895613163,
+      "translation_z_mm": -0.165,
+      "board_collision_mm3": 0.0,
+      "housing_collision_mm3": 0.0,
+      "center_button_collision_mm3": 0.0
+    }
+  ],
+  "interconnect": {
+    "nominal_centerline_length_mm": 40.0,
+    "target_stock_length_mm": 40,
+    "width_mm": 6.5,
+    "body_thickness_assumed_mm": 0.15,
+    "terminal_thickness_mm": 0.3,
+    "terminal_reinforcement_mm": 4,
+    "bend_radius_assumed_mm": 1.1,
+    "connector_slot_height_and_insertion_depth_assumed": true,
+    "no_in_plane_bending_or_twist": true,
+    "contact_type": "B / opposite exposed faces",
+    "pin_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "11": 11,
+      "12": 12
+    },
+    "center_axis_case_y_mm": 51.711,
+    "segments": [
+      {
+        "line": [
+          [
+            27.799,
+            3.8
+          ],
+          [
+            34.5,
+            3.8
+          ]
+        ],
+        "length_mm": 6.7010000000000005
+      },
+      {
+        "arc_center": [
+          34.5,
+          2.7
+        ],
+        "angles_deg": [
+          90,
+          0
+        ],
+        "radius_mm": 1.1,
+        "length_mm": 1.7278759594743864
+      },
+      {
+        "arc_center": [
+          36.7,
+          2.7
+        ],
+        "angles_deg": [
+          180,
+          270
+        ],
+        "radius_mm": 1.1,
+        "length_mm": 1.7278759594743864
+      },
+      {
+        "line": [
+          [
+            36.7,
+            1.6
+          ],
+          [
+            47.443748,
+            1.6
+          ]
+        ],
+        "length_mm": 10.743747999999997
+      },
+      {
+        "arc_center": [
+          47.443748,
+          2.7
+        ],
+        "angles_deg": [
+          270,
+          360
+        ],
+        "radius_mm": 1.1,
+        "length_mm": 1.7278759594743864
+      },
+      {
+        "line": [
+          [
+            48.543748,
+            2.7
+          ],
+          [
+            48.543748,
+            9.6
+          ]
+        ],
+        "length_mm": 6.8999999999999995
+      },
+      {
+        "arc_center": [
+          47.443748,
+          9.6
+        ],
+        "angles_deg": [
+          0,
+          90
+        ],
+        "radius_mm": 1.1,
+        "length_mm": 1.7278759594743864
+      },
+      {
+        "line": [
+          [
+            47.443748,
+            10.7
+          ],
+          [
+            38.7,
+            10.7
+          ]
+        ],
+        "length_mm": 8.743747999999997
+      }
+    ],
+    "conflicts": [],
+    "clearances": [
+      {
+        "against": "RearCoverWithPCBPosts",
+        "distance_mm": 0.2454
+      },
+      {
+        "against": "BatteryReference",
+        "distance_mm": 3.85
+      },
+      {
+        "against": "MainPCB",
+        "distance_mm": 0.25
+      },
+      {
+        "against": "HousingControlsA",
+        "distance_mm": 0.1813
+      },
+      {
+        "against": "MotorMaximumEnvelope",
+        "distance_mm": 2.989
+      }
+    ],
+    "nominal_route_pass": true,
+    "physical_sample_validation_required": true
+  },
+  "mainboard_source": "hardware-q2-layout/ProPrj_esp32s31-mp4_2026-09-21.kicad_pcb",
+  "mainboard_thickness_mm": 1.6,
+  "mainboard_models_missing": [
+    "SCREW1",
+    "SCREW2",
+    "SCREW3",
+    "SCREW4",
+    "SCREW5",
+    "CN2",
+    "CN3"
+  ],
+  "mainboard_mounting_posts_match_new_hole_pattern": false,
+  "motor_case_center_mm": [
+    39,
+    62
+  ],
+  "motor_and_battery_wires_not_rerouted_in_this_assembly": true,
+  "scope_note": "Nominal control-board and FFC fit to new mainboard registered by board outline. Original housing exterior preserved; new mainboard mounting posts and harnesses still require redesign. Cable dimensions not dimensioned by connector drawing are assumptions."
+}

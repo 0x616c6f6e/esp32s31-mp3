@@ -1,0 +1,27 @@
+﻿Reference,Value,Footprint,Description,Datasheet
+U1,AT42QT2120-MMHR,QT2120_VQFN20,3-channel wheel / I2C address 0x1C,https://ww1.microchip.com/downloads/en/devicedoc/doc9634.pdf
+R1,10k,R0402,1% 0402 electrode series resistor,
+R2,10k,R0402,1% 0402 electrode series resistor,
+R3,10k,R0402,1% 0402 electrode series resistor,
+R4,4.7k,R0402,Host-side 3.3 V pull-up; remove R4/R5 if host already supplies adequate I2C pull-ups,
+R5,4.7k,R0402,Host-side 3.3 V pull-up; remove R4/R5 if host already supplies adequate I2C pull-ups,
+R6,10k,R0402,Host-side 3.3 V pull-up; remove R4/R5 if host already supplies adequate I2C pull-ups,
+R7,10k,R0402,Host-side 3.3 V pull-up; remove R4/R5 if host already supplies adequate I2C pull-ups,
+R8,22R,R0402,Low-current RC supply filter,
+C1,100nF,C0402,"X7R 10 V, close to U1 VDD",
+C2,1uF,C0402,X5R/X7R 10 V reservoir,
+SW1,SKSWCEE010,SKSW_3x2,POWER / independent active-low key; local 10k pull-up to +3V3,https://tech.alpsalpine.com/cms.media/product_catalog_ta_02_sksw_en_ee3e98d509.pdf
+SW2,SKSWCEE010,SKSW_3x2,BACK / active-low TCA6408A input; local 47k pull-up; firmware debounce required,https://tech.alpsalpine.com/cms.media/product_catalog_ta_02_sksw_en_ee3e98d509.pdf
+SW3,SKSWCEE010,SKSW_3x2,PREV / active-low TCA6408A input; local 47k pull-up; firmware debounce required,https://tech.alpsalpine.com/cms.media/product_catalog_ta_02_sksw_en_ee3e98d509.pdf
+SW4,SKSWCEE010,SKSW_3x2,NEXT / active-low TCA6408A input; local 47k pull-up; firmware debounce required,https://tech.alpsalpine.com/cms.media/product_catalog_ta_02_sksw_en_ee3e98d509.pdf
+SW5,SKSWCEE010,SKSW_3x2,PLAY / active-low TCA6408A input; local 47k pull-up; firmware debounce required,https://tech.alpsalpine.com/cms.media/product_catalog_ta_02_sksw_en_ee3e98d509.pdf
+J1,HC-FPC-05-10-12RLTAG,HCTL_FPC12,"12 pin, 0.5 pitch, 0.3 FFC; tabs 13/14 GND; pins 7-10 NC; aligned with mainboard FPC1",https://atta.szlcsc.com/upload/public/pdf/source/20221027/B2DE489DA152049D1F105170189CFB4E.pdf
+R14,10k,R0402,"1% 0402 independent POWER pull-up; released high, pressed low",
+U2,TCA6408ARGTR,TCA6408A_VQFN16,"I2C 0x20; P0..P3 four keys; P4..P7 common pull-down, KEEP AS INPUTS",https://www.ti.com/lit/ds/symlink/tca6408a.pdf
+R13,10k,R0402,Shared pull-down for unused P4..P7; keep all four ports as inputs,
+R9,47k,R0402,1% 0402 local active-low key pull-up,
+R10,47k,R0402,1% 0402 local active-low key pull-up,
+R11,47k,R0402,1% 0402 local active-low key pull-up,
+R12,47k,R0402,1% 0402 local active-low key pull-up,
+C3,100nF,C0402,X7R 10 V; U2 VCCI/VCCP bypass; both supplies on same 3.3 V rail,
+C4,100nF,C0402,X7R 10 V; U2 VCCI/VCCP bypass; both supplies on same 3.3 V rail,

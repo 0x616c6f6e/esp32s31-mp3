@@ -1,0 +1,1 @@
+Exterior default; References/ControlFFC40mm shows the nominal 40 mm stock cable. Mainboard mounting posts and actual cable fit remain to be verified.

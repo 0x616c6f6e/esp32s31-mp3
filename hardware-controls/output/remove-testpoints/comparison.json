@@ -1,0 +1,20 @@
+{
+  "before": {
+    "hash": "6f647eac405fd1fa4b8577a836295b3eb8e9958411336a35f7dfbba7821315f9",
+    "segments": 512,
+    "vias": 57,
+    "ground_segments": 75,
+    "ground_vias": 12,
+    "ground_length_mm": 126.82335323302885
+  },
+  "after": {
+    "hash": "bf1cbd372979ea753bb2b9f4d9078b64513caa0bafdff4b06b10188c1d9859a5",
+    "segments": 442,
+    "vias": 52,
+    "ground_segments": 74,
+    "ground_vias": 12,
+    "ground_length_mm": 119.69085323302883
+  },
+  "footprint_pad_and_net_mapping_unchanged": true,
+  "testpoint_branches_removed": true
+}

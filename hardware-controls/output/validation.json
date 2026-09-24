@@ -1,0 +1,102 @@
+{
+  "revision": "B",
+  "i2c_addresses": {
+    "wheel": "0x1C",
+    "keys": "0x20"
+  },
+  "four_keys_i2c_only_at_connector": true,
+  "power_independent_active_low": true,
+  "power_pullup_ohm": 10000,
+  "power_pullup_rail": "+3V3",
+  "shared_open_drain_interrupt": true,
+  "status": "ROUTED_STANDALONE_PROTOTYPE_REQUIRES_PHYSICAL_VALIDATION",
+  "pcb_sha256": "2e6b210df6f1514378c0febbd083b580cb55f18ebe5c090b6245fe748d807bdb",
+  "schematic_sha256": "a30dcf3c4ea723bdb9759fb00cfaee58ff4db35d7b829d11cee91f0efc4caba1",
+  "project_sha256": "ff5afa4a279d2c70af5262631dcf5fa6798db9975d71f316229efc92705befda",
+  "step_sha256": "8032dc265c13ba523ba1bbdbcb197f07d534f73efd1b7866a5516cdf5c457d10",
+  "footprints": 42,
+  "physical_components": 26,
+  "front_components": 5,
+  "back_components": 21,
+  "schematic_links_verified": 42,
+  "copper_layers": 2,
+  "board_mm": [
+    44,
+    34,
+    0.8
+  ],
+  "track_segments": 538,
+  "vias": 57,
+  "track_widths_mm": [
+    0.15,
+    0.2
+  ],
+  "via_drills_mm": [
+    0.3
+  ],
+  "drc_violations": 0,
+  "unconnected_items": 0,
+  "schematic_parity_issues": 0,
+  "erc_violations": 0,
+  "electrodes": [
+    {
+      "pin": "1",
+      "net": "/WHEEL0",
+      "connected_islands": 1,
+      "copper_area_mm2": 146.2577
+    },
+    {
+      "pin": "2",
+      "net": "/WHEEL1",
+      "connected_islands": 1,
+      "copper_area_mm2": 143.5994
+    },
+    {
+      "pin": "3",
+      "net": "/WHEEL2",
+      "connected_islands": 1,
+      "copper_area_mm2": 134.9039
+    }
+  ],
+  "nominal_mechanical_fit_pass": true,
+  "mainboard_connected": false,
+  "mainboard_and_source_enclosure_unchanged": true,
+  "production_release": false,
+  "fabrication_files_sha256": {
+    "controls-B_Cu.gbl": "8330ef0a4d8cfa3c5a6c6bb3153efa0ee587bba01e8f75ddc967b0a2d776c2be",
+    "controls-B_Mask.gbs": "100ff0eea58ef1588846d308ac91afea05e6abbbe87910ea4e9e19e6213df012",
+    "controls-B_Paste.gbp": "28e5e5421df1a37e0e6c6e4e57a1c933f8d1464e22a23cd433586e7e385559d5",
+    "controls-B_Silkscreen.gbo": "4131127d0197e60824ee988ce9aa375175553d0272b47936e04238cc5ee8adf8",
+    "controls-Edge_Cuts.gm1": "9bfd892899fc5e37feeb8a18a2322a47560a71d12bfc56e3f0112224f3b71418",
+    "controls-F_Cu.gtl": "738e96c087c5bf693ed1e941e87dbdef85cad519ea859a786a24503d4e43f828",
+    "controls-F_Mask.gts": "bc603cbfe8cebdf21de0c1ef6c8ff9103d7d3e492fb8bb96d3d892f889231dab",
+    "controls-F_Paste.gtp": "da5ab5d15481334164e18baa45306bb0c473c3888edb29fe5a4154cc4b6596eb",
+    "controls-F_Silkscreen.gto": "c59cffb34b1e14c4411027ad4d0b64aeaf308f1e2d9d3045941d96558aef8005",
+    "controls-job.gbrjob": "2d7424aa0901a07b4e2f94e6d84f141e39f6ab24fd918dc38a28430718f1f059",
+    "controls-NPTH.drl": "daa69c811221177f1aee16fb7ccc9e001c6a7a5bc8a2127d72ac683d10d11484",
+    "controls-PTH.drl": "808823bc8bdba3789e0bbe497314b7c62e8903d5935620ffc184c949ad07ba9e",
+    "README.txt": "51e5f5e7844459bb72c9b1a4893e5720c0eb024a789126d686db007cf798dc1a"
+  },
+  "connector_pinout": [
+    "GND",
+    "+3V3",
+    "SDA",
+    "SCL",
+    "INT_N",
+    "RESET_N",
+    null,
+    null,
+    null,
+    null,
+    "KEY_POWER",
+    "GND"
+  ],
+  "mainboard_source": "hardware-q2-layout/ProPrj_esp32s31-mp4_2026-09-21.kicad_pcb",
+  "interconnect": {
+    "cable": "12P / 0.5mm / 40mm / B opposite contacts / 0.3mm terminal",
+    "nominal_geometry_pass": true,
+    "sample_validation_required": true,
+    "mainboard_mounting_posts_pending": true,
+    "mainboard_source_sha256": "25e30ef59f954d66ba8e3acc833f34403bdff8daa16908d540341397fdcc79bc"
+  }
+}

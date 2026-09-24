@@ -1,0 +1,19 @@
+(session "controls-ch32-2"
+  (base_design "controls-ch32-2")
+  (placement
+    (resolution um 10)
+  )
+  (was_is
+  )
+  (routes 
+    (resolution um 10)
+    (parser
+      (host_cad "KiCad's Pcbnew")
+      (host_version "10.0.4")
+    )
+    (library_out 
+    )
+    (network_out 
+    )
+  )
+)

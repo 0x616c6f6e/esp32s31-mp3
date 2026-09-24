@@ -1,0 +1,27 @@
+{
+  "before": {
+    "hash": "d9efbb121112f96325948a4154afcac5d16e27237e2a2c75957b8f345deb58dd",
+    "segments": 536,
+    "vias": 57,
+    "ground_segments": 99,
+    "ground_vias": 12,
+    "ground_length_mm": 153.4154698068694
+  },
+  "after": {
+    "hash": "6f647eac405fd1fa4b8577a836295b3eb8e9958411336a35f7dfbba7821315f9",
+    "segments": 512,
+    "vias": 57,
+    "ground_segments": 75,
+    "ground_vias": 12,
+    "ground_length_mm": 126.82335323302885
+  },
+  "footprint_pad_and_net_mapping_unchanged": true,
+  "non_ground_routes_unchanged": true,
+  "all_footprint_definitions_unchanged": true,
+  "board_drawings_unchanged": true,
+  "schematic_unchanged": true,
+  "project_design_rules_unchanged": true,
+  "drc_violations": 0,
+  "unconnected_items": 0,
+  "schematic_parity_violations": 0
+}

@@ -1,0 +1,145 @@
+{
+  "controls-B_Cu.gbl": {
+    "objects": 538,
+    "bounds_mm": [
+      [
+        0.2505,
+        -33.7495
+      ],
+      [
+        37.5,
+        -0.2505
+      ]
+    ]
+  },
+  "controls-B_Mask.gbs": {
+    "objects": 103,
+    "bounds_mm": [
+      [
+        2.1,
+        -32.699999999999996
+      ],
+      [
+        41.9,
+        -0.62
+      ]
+    ]
+  },
+  "controls-B_Paste.gbp": {
+    "objects": 91,
+    "bounds_mm": [
+      [
+        3.825,
+        -32.699999999999996
+      ],
+      [
+        32.32,
+        -0.62
+      ]
+    ]
+  },
+  "controls-B_Silkscreen.gbo": {
+    "objects": 456,
+    "bounds_mm": [
+      [
+        2.1,
+        -32.699999999999996
+      ],
+      [
+        41.9,
+        -0.62
+      ]
+    ]
+  },
+  "controls-Edge_Cuts.gm1": {
+    "objects": 8,
+    "bounds_mm": [
+      [
+        -0.025,
+        -34.025
+      ],
+      [
+        44.025,
+        0.025
+      ]
+    ]
+  },
+  "controls-F_Cu.gtl": {
+    "objects": 221,
+    "bounds_mm": [
+      [
+        0.2505,
+        -33.7495
+      ],
+      [
+        43.7495,
+        -0.2505
+      ]
+    ]
+  },
+  "controls-F_Mask.gts": {
+    "objects": 14,
+    "bounds_mm": [
+      [
+        2.1,
+        -30.75
+      ],
+      [
+        41.9,
+        -3.25
+      ]
+    ]
+  },
+  "controls-F_Paste.gtp": {
+    "objects": 10,
+    "bounds_mm": [
+      [
+        8.25,
+        -30.75
+      ],
+      [
+        35.75,
+        -3.25
+      ]
+    ]
+  },
+  "controls-F_Silkscreen.gto": {
+    "objects": 306,
+    "bounds_mm": [
+      [
+        2.1,
+        -30.75
+      ],
+      [
+        41.9,
+        -0.5038549999999999
+      ]
+    ]
+  },
+  "controls-NPTH.drl": {
+    "holes": 4,
+    "bounds_mm": [
+      [
+        2.1,
+        -25.599999999999998
+      ],
+      [
+        41.9,
+        -7.799999999999999
+      ]
+    ]
+  },
+  "controls-PTH.drl": {
+    "holes": 57,
+    "bounds_mm": [
+      [
+        1.407,
+        -33.227
+      ],
+      [
+        35.626,
+        -1.594
+      ]
+    ]
+  }
+}

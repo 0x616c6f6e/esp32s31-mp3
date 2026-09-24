@@ -1,0 +1,720 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-22T02:11:27",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.4",
+    "schematic_parity": [],
+    "source": "controls.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "B.Cu 上 U1 的焊盘 10 [/GND]",
+                    "pos": {
+                        "x": 6.6,
+                        "y": 27.35
+                    },
+                    "uuid": "160a6235-903b-402b-9b39-112f031a79c7"
+                },
+                {
+                    "description": "走线 [/GND] (B.Cu), 长度: 1.0962 mm",
+                    "pos": {
+                        "x": 5.7,
+                        "y": 26.2538
+                    },
+                    "uuid": "faf23567-d17a-42f4-b46a-649e8d8679c3"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "走线 [/GND] (B.Cu), 长度: 0.5717 mm",
+                    "pos": {
+                        "x": 9.535,
+                        "y": 6.661
+                    },
+                    "uuid": "c69b08dc-8238-48aa-829a-ccd553b4d7e3"
+                },
+                {
+                    "description": "走线 [/GND] (B.Cu), 长度: 0.5717 mm",
+                    "pos": {
+                        "x": 9.535,
+                        "y": 12.161
+                    },
+                    "uuid": "8db0ff8c-b928-46c4-8bae-aa62ade9f357"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": [
+        {
+            "description": "当前配置中不包含封装库 'Controls'",
+            "items": [
+                {
+                    "description": "封装 H3",
+                    "pos": {
+                        "x": 41.0,
+                        "y": 24.7
+                    },
+                    "uuid": "03ffbb10-bdb1-4e4c-a452-542c201489c7"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Controls'",
+            "items": [
+                {
+                    "description": "封装 H2",
+                    "pos": {
+                        "x": 3.0,
+                        "y": 8.7
+                    },
+                    "uuid": "067f28c0-682e-48be-a74a-0342671da452"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Controls'",
+            "items": [
+                {
+                    "description": "封装 SW5",
+                    "pos": {
+                        "x": 22.0,
+                        "y": 30.0
+                    },
+                    "uuid": "2551b6ae-38b2-41d5-bbd3-c799750d37a0"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Controls'",
+            "items": [
+                {
+                    "description": "封装 H1",
+                    "pos": {
+                        "x": 41.0,
+                        "y": 8.7
+                    },
+                    "uuid": "36433515-5703-44fe-b694-c8f563bb66a1"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Controls'",
+            "items": [
+                {
+                    "description": "封装 E1",
+                    "pos": {
+                        "x": 22.0,
+                        "y": 17.0
+                    },
+                    "uuid": "4a2185ef-ff2e-41f0-bfc9-63a1e26fee2d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Controls'",
+            "items": [
+                {
+                    "description": "封装 SW1",
+                    "pos": {
+                        "x": 22.0,
+                        "y": 17.0
+                    },
+                    "uuid": "61a8c31b-53cc-4c6a-a897-a15db558f772"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Controls'",
+            "items": [
+                {
+                    "description": "封装 SW4",
+                    "pos": {
+                        "x": 35.0,
+                        "y": 17.0
+                    },
+                    "uuid": "693cb257-38b8-439d-82a0-5e8c810fc8dd"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Controls'",
+            "items": [
+                {
+                    "description": "封装 SW3",
+                    "pos": {
+                        "x": 9.0,
+                        "y": 17.0
+                    },
+                    "uuid": "793040a6-c236-4e0a-aeeb-ad79a967c8b0"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Controls'",
+            "items": [
+                {
+                    "description": "封装 SW2",
+                    "pos": {
+                        "x": 22.0,
+                        "y": 4.0
+                    },
+                    "uuid": "aaa3a7b5-fce1-4cd2-8b55-1d8b552d4fb9"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Controls'",
+            "items": [
+                {
+                    "description": "封装 H4",
+                    "pos": {
+                        "x": 3.0,
+                        "y": 24.7
+                    },
+                    "uuid": "f14a34ee-4620-4661-9646-f1ea68063912"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Controls'",
+            "items": [
+                {
+                    "description": "封装 U1",
+                    "pos": {
+                        "x": 5.7,
+                        "y": 28.8
+                    },
+                    "uuid": "0c475f16-a9b0-4b94-8fe6-13fc5c373db9"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Controls'",
+            "items": [
+                {
+                    "description": "封装 C3",
+                    "pos": {
+                        "x": 16.0,
+                        "y": 31.8
+                    },
+                    "uuid": "0e24e124-1868-416a-82bb-49b4ba446656"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Controls'",
+            "items": [
+                {
+                    "description": "封装 R9",
+                    "pos": {
+                        "x": 26.0,
+                        "y": 31.0
+                    },
+                    "uuid": "114d8c07-83fc-4778-ab34-50697216aea6"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Controls'",
+            "items": [
+                {
+                    "description": "封装 R5",
+                    "pos": {
+                        "x": 13.2,
+                        "y": 28.2
+                    },
+                    "uuid": "137ab75c-a2a5-4976-818c-1390f03f0093"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Controls'",
+            "items": [
+                {
+                    "description": "封装 U2",
+                    "pos": {
+                        "x": 19.0,
+                        "y": 31.0
+                    },
+                    "uuid": "15639d09-6c7f-4dcf-a43a-c3255248f52c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Controls'",
+            "items": [
+                {
+                    "description": "封装 R4",
+                    "pos": {
+                        "x": 13.2,
+                        "y": 26.0
+                    },
+                    "uuid": "1938bee5-98a6-47a8-bc67-a35f21b4b2da"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Controls'",
+            "items": [
+                {
+                    "description": "封装 R7",
+                    "pos": {
+                        "x": 9.8,
+                        "y": 31.0
+                    },
+                    "uuid": "249ef432-b817-448f-b4a6-48443817661f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Controls'",
+            "items": [
+                {
+                    "description": "封装 TP2",
+                    "pos": {
+                        "x": 34.5,
+                        "y": 9.0
+                    },
+                    "uuid": "3915583a-5063-450e-84fa-89f46488fa43"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Controls'",
+            "items": [
+                {
+                    "description": "封装 TP1",
+                    "pos": {
+                        "x": 37.0,
+                        "y": 9.0
+                    },
+                    "uuid": "44b558e9-0219-43c9-a0c7-ea6249bb25f7"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Controls'",
+            "items": [
+                {
+                    "description": "封装 J1",
+                    "pos": {
+                        "x": 8.13,
+                        "y": 9.411
+                    },
+                    "uuid": "4eaf095a-4691-47be-8d98-f0bb1765911a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Controls'",
+            "items": [
+                {
+                    "description": "封装 R13",
+                    "pos": {
+                        "x": 24.0,
+                        "y": 31.0
+                    },
+                    "uuid": "504cd69d-d364-4e5a-bfc2-a36f97982004"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Controls'",
+            "items": [
+                {
+                    "description": "封装 R2",
+                    "pos": {
+                        "x": 6.0,
+                        "y": 22.2
+                    },
+                    "uuid": "53721019-6bd0-4f9c-aee5-1ccebf642674"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Controls'",
+            "items": [
+                {
+                    "description": "封装 R14",
+                    "pos": {
+                        "x": 12.0,
+                        "y": 1.4
+                    },
+                    "uuid": "57db6525-4cf6-4407-87e1-2d37757306fc"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Controls'",
+            "items": [
+                {
+                    "description": "封装 C4",
+                    "pos": {
+                        "x": 16.0,
+                        "y": 29.8
+                    },
+                    "uuid": "698e37b3-a0e3-4e39-968f-b341d12cc01b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Controls'",
+            "items": [
+                {
+                    "description": "封装 R11",
+                    "pos": {
+                        "x": 30.0,
+                        "y": 31.0
+                    },
+                    "uuid": "6b5f7325-abbf-4b04-9cf0-b247f196d8ce"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Controls'",
+            "items": [
+                {
+                    "description": "封装 TP8",
+                    "pos": {
+                        "x": 19.5,
+                        "y": 9.0
+                    },
+                    "uuid": "743b764c-1a29-4222-a15b-cef2bdca83aa"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Controls'",
+            "items": [
+                {
+                    "description": "封装 R10",
+                    "pos": {
+                        "x": 28.0,
+                        "y": 31.0
+                    },
+                    "uuid": "7640a1e8-2f3b-46d1-8dae-625066f8d233"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Controls'",
+            "items": [
+                {
+                    "description": "封装 TP9",
+                    "pos": {
+                        "x": 17.0,
+                        "y": 9.0
+                    },
+                    "uuid": "7ac80bdb-d861-4cee-aa54-2357ad6164fc"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Controls'",
+            "items": [
+                {
+                    "description": "封装 TP5",
+                    "pos": {
+                        "x": 27.0,
+                        "y": 9.0
+                    },
+                    "uuid": "7b9d26f8-38c7-41e1-b76a-3917c8b9e15c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Controls'",
+            "items": [
+                {
+                    "description": "封装 TP3",
+                    "pos": {
+                        "x": 32.0,
+                        "y": 9.0
+                    },
+                    "uuid": "80f32559-9001-44d8-a2cb-3b6a9b024053"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Controls'",
+            "items": [
+                {
+                    "description": "封装 TP4",
+                    "pos": {
+                        "x": 29.5,
+                        "y": 9.0
+                    },
+                    "uuid": "89e7cfc7-476d-4ee3-8ca0-1c6acbe45cd0"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Controls'",
+            "items": [
+                {
+                    "description": "封装 R8",
+                    "pos": {
+                        "x": 13.8,
+                        "y": 21.8
+                    },
+                    "uuid": "8e3e5eda-51eb-4e39-8091-287d0f91126a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Controls'",
+            "items": [
+                {
+                    "description": "封装 C2",
+                    "pos": {
+                        "x": 12.0,
+                        "y": 24.1
+                    },
+                    "uuid": "aadb86aa-f1ce-4352-a0b5-9aa7b502579b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Controls'",
+            "items": [
+                {
+                    "description": "封装 R6",
+                    "pos": {
+                        "x": 12.0,
+                        "y": 31.0
+                    },
+                    "uuid": "ad5436f4-6e9e-45bb-84b2-75bfa7942d2c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Controls'",
+            "items": [
+                {
+                    "description": "封装 TP7",
+                    "pos": {
+                        "x": 22.0,
+                        "y": 9.0
+                    },
+                    "uuid": "b18abc42-0cc3-4b97-8481-0a3642e61afd"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Controls'",
+            "items": [
+                {
+                    "description": "封装 R3",
+                    "pos": {
+                        "x": 4.2,
+                        "y": 21.4
+                    },
+                    "uuid": "c32d61da-e3d5-435e-86e1-6bb6b5c7ac86"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Controls'",
+            "items": [
+                {
+                    "description": "封装 C1",
+                    "pos": {
+                        "x": 7.3,
+                        "y": 26.0
+                    },
+                    "uuid": "c99d11fb-68cd-4c22-bba2-137005ea806e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Controls'",
+            "items": [
+                {
+                    "description": "封装 TP10",
+                    "pos": {
+                        "x": 14.5,
+                        "y": 9.0
+                    },
+                    "uuid": "c9e9f94f-d273-4804-98ac-bce8cd6256c7"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Controls'",
+            "items": [
+                {
+                    "description": "封装 R12",
+                    "pos": {
+                        "x": 32.0,
+                        "y": 31.0
+                    },
+                    "uuid": "d028969c-df71-41be-89d3-b35f3812eda6"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Controls'",
+            "items": [
+                {
+                    "description": "封装 R1",
+                    "pos": {
+                        "x": 7.8,
+                        "y": 22.2
+                    },
+                    "uuid": "d0ba837d-91e3-459b-a338-9ecb1bef668d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Controls'",
+            "items": [
+                {
+                    "description": "封装 TP6",
+                    "pos": {
+                        "x": 24.5,
+                        "y": 9.0
+                    },
+                    "uuid": "e2b0d135-7e9d-46ff-b823-d0f388710642"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'Controls'",
+            "items": [
+                {
+                    "description": "封装 TP11",
+                    "pos": {
+                        "x": 12.0,
+                        "y": 9.0
+                    },
+                    "uuid": "f274379d-96fa-4b2b-b931-1f2e46843c99"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "铜箔毛刺 (B.Cu)",
+            "items": [],
+            "severity": "warning",
+            "type": "copper_sliver"
+        }
+    ]
+}

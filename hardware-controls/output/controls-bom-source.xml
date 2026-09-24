@@ -1,0 +1,1000 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\alon\Desktop\Preoject\esp32s31-mp3\hardware-controls\output\remove-testpoints\candidate\controls.kicad_sch</source>
+    <date>2026-09-22T02:56:53</date>
+    <tool>Eeschema 10.0.4</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Q2 Controls - I2C Wheel + Four Keys / Independent POWER</title>
+        <company>alon</company>
+        <rev>B</rev>
+        <date>2026-09-21</date>
+        <source>controls.kicad_sch</source>
+        <comment number="1" value="44 x 34 x 0.8 mm / Mainboard not connected"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100nF</value>
+      <footprint>Controls:C0402</footprint>
+      <description>X7R 10 V, close to U1 VDD</description>
+      <fields>
+        <field name="Footprint">Controls:C0402</field>
+        <field name="Datasheet"/>
+        <field name="Description">X7R 10 V, close to U1 VDD</field>
+      </fields>
+      <libsource lib="Controls" part="Capacitor" description=""/>
+      <property name="Sheetname" value="controls"/>
+      <property name="Sheetfile" value="controls.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e9aa5173-d685-5c14-a515-bac11c92e149</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C2">
+      <value>1uF</value>
+      <footprint>Controls:C0402</footprint>
+      <description>X5R/X7R 10 V reservoir</description>
+      <fields>
+        <field name="Footprint">Controls:C0402</field>
+        <field name="Datasheet"/>
+        <field name="Description">X5R/X7R 10 V reservoir</field>
+      </fields>
+      <libsource lib="Controls" part="Capacitor" description=""/>
+      <property name="Sheetname" value="controls"/>
+      <property name="Sheetfile" value="controls.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8dec2fea-1538-537d-a352-e39d5531ef1a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C3">
+      <value>100nF</value>
+      <footprint>Controls:C0402</footprint>
+      <description>X7R 10 V; U2 VCCI/VCCP bypass; both supplies on same 3.3 V rail</description>
+      <fields>
+        <field name="Footprint">Controls:C0402</field>
+        <field name="Datasheet"/>
+        <field name="Description">X7R 10 V; U2 VCCI/VCCP bypass; both supplies on same 3.3 V rail</field>
+      </fields>
+      <libsource lib="Controls" part="Capacitor" description=""/>
+      <property name="Sheetname" value="controls"/>
+      <property name="Sheetfile" value="controls.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fb06b44e-6582-569d-9046-cff6122a2319</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C4">
+      <value>100nF</value>
+      <footprint>Controls:C0402</footprint>
+      <description>X7R 10 V; U2 VCCI/VCCP bypass; both supplies on same 3.3 V rail</description>
+      <fields>
+        <field name="Footprint">Controls:C0402</field>
+        <field name="Datasheet"/>
+        <field name="Description">X7R 10 V; U2 VCCI/VCCP bypass; both supplies on same 3.3 V rail</field>
+      </fields>
+      <libsource lib="Controls" part="Capacitor" description=""/>
+      <property name="Sheetname" value="controls"/>
+      <property name="Sheetfile" value="controls.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6b718089-fb71-5b10-abb3-725e5624e009</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J1">
+      <value>HC-FPC-05-10-12RLTAG</value>
+      <footprint>Controls:HCTL_FPC12</footprint>
+      <datasheet>https://atta.szlcsc.com/upload/public/pdf/source/20221027/B2DE489DA152049D1F105170189CFB4E.pdf</datasheet>
+      <description>12 pin, 0.5 pitch, 0.3 FFC; tabs 13/14 GND; pins 7-10 NC; aligned with mainboard FPC1</description>
+      <fields>
+        <field name="Footprint">Controls:HCTL_FPC12</field>
+        <field name="Datasheet">https://atta.szlcsc.com/upload/public/pdf/source/20221027/B2DE489DA152049D1F105170189CFB4E.pdf</field>
+        <field name="Description">12 pin, 0.5 pitch, 0.3 FFC; tabs 13/14 GND; pins 7-10 NC; aligned with mainboard FPC1</field>
+      </fields>
+      <libsource lib="Controls" part="FPC12" description=""/>
+      <property name="Sheetname" value="controls"/>
+      <property name="Sheetfile" value="controls.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>77b6b492-dda9-5e98-89df-7575b25b7d6b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Controls:R0402</footprint>
+      <description>1% 0402 electrode series resistor</description>
+      <fields>
+        <field name="Footprint">Controls:R0402</field>
+        <field name="Datasheet"/>
+        <field name="Description">1% 0402 electrode series resistor</field>
+      </fields>
+      <libsource lib="Controls" part="Resistor" description=""/>
+      <property name="Sheetname" value="controls"/>
+      <property name="Sheetfile" value="controls.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f60661de-db21-5729-82f6-04aa365d2a08</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>Controls:R0402</footprint>
+      <description>1% 0402 electrode series resistor</description>
+      <fields>
+        <field name="Footprint">Controls:R0402</field>
+        <field name="Datasheet"/>
+        <field name="Description">1% 0402 electrode series resistor</field>
+      </fields>
+      <libsource lib="Controls" part="Resistor" description=""/>
+      <property name="Sheetname" value="controls"/>
+      <property name="Sheetfile" value="controls.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>94ab933c-dd86-5c8d-b0c2-dbf5436135b8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>Controls:R0402</footprint>
+      <description>1% 0402 electrode series resistor</description>
+      <fields>
+        <field name="Footprint">Controls:R0402</field>
+        <field name="Datasheet"/>
+        <field name="Description">1% 0402 electrode series resistor</field>
+      </fields>
+      <libsource lib="Controls" part="Resistor" description=""/>
+      <property name="Sheetname" value="controls"/>
+      <property name="Sheetfile" value="controls.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>707f3503-529a-5ffd-9a0c-a538062febd6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R4">
+      <value>4.7k</value>
+      <footprint>Controls:R0402</footprint>
+      <description>Host-side 3.3 V pull-up; remove R4/R5 if host already supplies adequate I2C pull-ups</description>
+      <fields>
+        <field name="Footprint">Controls:R0402</field>
+        <field name="Datasheet"/>
+        <field name="Description">Host-side 3.3 V pull-up; remove R4/R5 if host already supplies adequate I2C pull-ups</field>
+      </fields>
+      <libsource lib="Controls" part="Resistor" description=""/>
+      <property name="Sheetname" value="controls"/>
+      <property name="Sheetfile" value="controls.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c634dd24-37aa-55e1-bd41-fb0ea2a0f35c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R5">
+      <value>4.7k</value>
+      <footprint>Controls:R0402</footprint>
+      <description>Host-side 3.3 V pull-up; remove R4/R5 if host already supplies adequate I2C pull-ups</description>
+      <fields>
+        <field name="Footprint">Controls:R0402</field>
+        <field name="Datasheet"/>
+        <field name="Description">Host-side 3.3 V pull-up; remove R4/R5 if host already supplies adequate I2C pull-ups</field>
+      </fields>
+      <libsource lib="Controls" part="Resistor" description=""/>
+      <property name="Sheetname" value="controls"/>
+      <property name="Sheetfile" value="controls.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c9372d97-827f-5657-bc3f-b834404e9e36</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R6">
+      <value>10k</value>
+      <footprint>Controls:R0402</footprint>
+      <description>Host-side 3.3 V pull-up; remove R4/R5 if host already supplies adequate I2C pull-ups</description>
+      <fields>
+        <field name="Footprint">Controls:R0402</field>
+        <field name="Datasheet"/>
+        <field name="Description">Host-side 3.3 V pull-up; remove R4/R5 if host already supplies adequate I2C pull-ups</field>
+      </fields>
+      <libsource lib="Controls" part="Resistor" description=""/>
+      <property name="Sheetname" value="controls"/>
+      <property name="Sheetfile" value="controls.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>62ba2c80-9a76-567f-97e1-f170736fcfa1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R7">
+      <value>10k</value>
+      <footprint>Controls:R0402</footprint>
+      <description>Host-side 3.3 V pull-up; remove R4/R5 if host already supplies adequate I2C pull-ups</description>
+      <fields>
+        <field name="Footprint">Controls:R0402</field>
+        <field name="Datasheet"/>
+        <field name="Description">Host-side 3.3 V pull-up; remove R4/R5 if host already supplies adequate I2C pull-ups</field>
+      </fields>
+      <libsource lib="Controls" part="Resistor" description=""/>
+      <property name="Sheetname" value="controls"/>
+      <property name="Sheetfile" value="controls.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c52c6784-9eb2-52da-97ab-59b395e069eb</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R8">
+      <value>22R</value>
+      <footprint>Controls:R0402</footprint>
+      <description>Low-current RC supply filter</description>
+      <fields>
+        <field name="Footprint">Controls:R0402</field>
+        <field name="Datasheet"/>
+        <field name="Description">Low-current RC supply filter</field>
+      </fields>
+      <libsource lib="Controls" part="Resistor" description=""/>
+      <property name="Sheetname" value="controls"/>
+      <property name="Sheetfile" value="controls.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>be7fa960-9a5f-57be-9b43-143b4f382c45</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R9">
+      <value>47k</value>
+      <footprint>Controls:R0402</footprint>
+      <description>1% 0402 local active-low key pull-up</description>
+      <fields>
+        <field name="Footprint">Controls:R0402</field>
+        <field name="Datasheet"/>
+        <field name="Description">1% 0402 local active-low key pull-up</field>
+      </fields>
+      <libsource lib="Controls" part="Resistor" description=""/>
+      <property name="Sheetname" value="controls"/>
+      <property name="Sheetfile" value="controls.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8d4d716b-ee1a-5094-bab5-a427e1e71343</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R10">
+      <value>47k</value>
+      <footprint>Controls:R0402</footprint>
+      <description>1% 0402 local active-low key pull-up</description>
+      <fields>
+        <field name="Footprint">Controls:R0402</field>
+        <field name="Datasheet"/>
+        <field name="Description">1% 0402 local active-low key pull-up</field>
+      </fields>
+      <libsource lib="Controls" part="Resistor" description=""/>
+      <property name="Sheetname" value="controls"/>
+      <property name="Sheetfile" value="controls.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7559f249-18eb-5983-af3e-48af07bc0c50</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R11">
+      <value>47k</value>
+      <footprint>Controls:R0402</footprint>
+      <description>1% 0402 local active-low key pull-up</description>
+      <fields>
+        <field name="Footprint">Controls:R0402</field>
+        <field name="Datasheet"/>
+        <field name="Description">1% 0402 local active-low key pull-up</field>
+      </fields>
+      <libsource lib="Controls" part="Resistor" description=""/>
+      <property name="Sheetname" value="controls"/>
+      <property name="Sheetfile" value="controls.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8189c2d3-adfa-5479-aa41-b36824f23571</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R12">
+      <value>47k</value>
+      <footprint>Controls:R0402</footprint>
+      <description>1% 0402 local active-low key pull-up</description>
+      <fields>
+        <field name="Footprint">Controls:R0402</field>
+        <field name="Datasheet"/>
+        <field name="Description">1% 0402 local active-low key pull-up</field>
+      </fields>
+      <libsource lib="Controls" part="Resistor" description=""/>
+      <property name="Sheetname" value="controls"/>
+      <property name="Sheetfile" value="controls.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>009a27c0-15d0-5917-87ea-5e526cc9de73</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R13">
+      <value>10k</value>
+      <footprint>Controls:R0402</footprint>
+      <description>Shared pull-down for unused P4..P7; keep all four ports as inputs</description>
+      <fields>
+        <field name="Footprint">Controls:R0402</field>
+        <field name="Datasheet"/>
+        <field name="Description">Shared pull-down for unused P4..P7; keep all four ports as inputs</field>
+      </fields>
+      <libsource lib="Controls" part="Resistor" description=""/>
+      <property name="Sheetname" value="controls"/>
+      <property name="Sheetfile" value="controls.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6776aaa4-45e0-50e6-ba7d-d9c017141fbe</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R14">
+      <value>10k</value>
+      <footprint>Controls:R0402</footprint>
+      <description>1% 0402 independent POWER pull-up; released high, pressed low</description>
+      <fields>
+        <field name="Footprint">Controls:R0402</field>
+        <field name="Datasheet"/>
+        <field name="Description">1% 0402 independent POWER pull-up; released high, pressed low</field>
+      </fields>
+      <libsource lib="Controls" part="Resistor" description=""/>
+      <property name="Sheetname" value="controls"/>
+      <property name="Sheetfile" value="controls.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1d443aa7-e4bb-5381-84b4-54e5489f7e5e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW1">
+      <value>SKSWCEE010</value>
+      <footprint>Controls:SKSW_3x2</footprint>
+      <datasheet>https://tech.alpsalpine.com/cms.media/product_catalog_ta_02_sksw_en_ee3e98d509.pdf</datasheet>
+      <description>POWER / independent active-low key; local 10k pull-up to +3V3</description>
+      <fields>
+        <field name="Footprint">Controls:SKSW_3x2</field>
+        <field name="Datasheet">https://tech.alpsalpine.com/cms.media/product_catalog_ta_02_sksw_en_ee3e98d509.pdf</field>
+        <field name="Description">POWER / independent active-low key; local 10k pull-up to +3V3</field>
+      </fields>
+      <libsource lib="Controls" part="Switch" description=""/>
+      <property name="Sheetname" value="controls"/>
+      <property name="Sheetfile" value="controls.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0db64c91-d4ec-5e85-ad54-e13a499cf33f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW2">
+      <value>SKSWCEE010</value>
+      <footprint>Controls:SKSW_3x2</footprint>
+      <datasheet>https://tech.alpsalpine.com/cms.media/product_catalog_ta_02_sksw_en_ee3e98d509.pdf</datasheet>
+      <description>BACK / active-low TCA6408A input; local 47k pull-up; firmware debounce required</description>
+      <fields>
+        <field name="Footprint">Controls:SKSW_3x2</field>
+        <field name="Datasheet">https://tech.alpsalpine.com/cms.media/product_catalog_ta_02_sksw_en_ee3e98d509.pdf</field>
+        <field name="Description">BACK / active-low TCA6408A input; local 47k pull-up; firmware debounce required</field>
+      </fields>
+      <libsource lib="Controls" part="Switch" description=""/>
+      <property name="Sheetname" value="controls"/>
+      <property name="Sheetfile" value="controls.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>62ac51b4-d4d8-5699-89e0-e601efba88a8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW3">
+      <value>SKSWCEE010</value>
+      <footprint>Controls:SKSW_3x2</footprint>
+      <datasheet>https://tech.alpsalpine.com/cms.media/product_catalog_ta_02_sksw_en_ee3e98d509.pdf</datasheet>
+      <description>PREV / active-low TCA6408A input; local 47k pull-up; firmware debounce required</description>
+      <fields>
+        <field name="Footprint">Controls:SKSW_3x2</field>
+        <field name="Datasheet">https://tech.alpsalpine.com/cms.media/product_catalog_ta_02_sksw_en_ee3e98d509.pdf</field>
+        <field name="Description">PREV / active-low TCA6408A input; local 47k pull-up; firmware debounce required</field>
+      </fields>
+      <libsource lib="Controls" part="Switch" description=""/>
+      <property name="Sheetname" value="controls"/>
+      <property name="Sheetfile" value="controls.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>22a46cea-c503-549f-a7e6-1d8f3702c712</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW4">
+      <value>SKSWCEE010</value>
+      <footprint>Controls:SKSW_3x2</footprint>
+      <datasheet>https://tech.alpsalpine.com/cms.media/product_catalog_ta_02_sksw_en_ee3e98d509.pdf</datasheet>
+      <description>NEXT / active-low TCA6408A input; local 47k pull-up; firmware debounce required</description>
+      <fields>
+        <field name="Footprint">Controls:SKSW_3x2</field>
+        <field name="Datasheet">https://tech.alpsalpine.com/cms.media/product_catalog_ta_02_sksw_en_ee3e98d509.pdf</field>
+        <field name="Description">NEXT / active-low TCA6408A input; local 47k pull-up; firmware debounce required</field>
+      </fields>
+      <libsource lib="Controls" part="Switch" description=""/>
+      <property name="Sheetname" value="controls"/>
+      <property name="Sheetfile" value="controls.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>689f5eb4-bd3a-5662-b5be-4fc84824ccc5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW5">
+      <value>SKSWCEE010</value>
+      <footprint>Controls:SKSW_3x2</footprint>
+      <datasheet>https://tech.alpsalpine.com/cms.media/product_catalog_ta_02_sksw_en_ee3e98d509.pdf</datasheet>
+      <description>PLAY / active-low TCA6408A input; local 47k pull-up; firmware debounce required</description>
+      <fields>
+        <field name="Footprint">Controls:SKSW_3x2</field>
+        <field name="Datasheet">https://tech.alpsalpine.com/cms.media/product_catalog_ta_02_sksw_en_ee3e98d509.pdf</field>
+        <field name="Description">PLAY / active-low TCA6408A input; local 47k pull-up; firmware debounce required</field>
+      </fields>
+      <libsource lib="Controls" part="Switch" description=""/>
+      <property name="Sheetname" value="controls"/>
+      <property name="Sheetfile" value="controls.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5670fc14-5700-5369-bd5c-827839b624bc</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U1">
+      <value>AT42QT2120-MMHR</value>
+      <footprint>Controls:QT2120_VQFN20</footprint>
+      <datasheet>https://ww1.microchip.com/downloads/en/devicedoc/doc9634.pdf</datasheet>
+      <description>3-channel wheel / I2C address 0x1C</description>
+      <fields>
+        <field name="Footprint">Controls:QT2120_VQFN20</field>
+        <field name="Datasheet">https://ww1.microchip.com/downloads/en/devicedoc/doc9634.pdf</field>
+        <field name="Description">3-channel wheel / I2C address 0x1C</field>
+      </fields>
+      <libsource lib="Controls" part="QT2120" description=""/>
+      <property name="Sheetname" value="controls"/>
+      <property name="Sheetfile" value="controls.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5f68d5d5-c7aa-538b-9ccb-f7d0b5aed424</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="7"/>
+            <pin num="6"/>
+            <pin num="5"/>
+            <pin num="9"/>
+            <pin num="8"/>
+            <pin num="21"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="14"/>
+            <pin num="15"/>
+            <pin num="12"/>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="13"/>
+            <pin num="16"/>
+            <pin num="17"/>
+            <pin num="18"/>
+            <pin num="19"/>
+            <pin num="20"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U2">
+      <value>TCA6408ARGTR</value>
+      <footprint>Controls:TCA6408A_VQFN16</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tca6408a.pdf</datasheet>
+      <description>I2C 0x20; P0..P3 four keys; P4..P7 common pull-down, KEEP AS INPUTS</description>
+      <fields>
+        <field name="Footprint">Controls:TCA6408A_VQFN16</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tca6408a.pdf</field>
+        <field name="Description">I2C 0x20; P0..P3 four keys; P4..P7 common pull-down, KEEP AS INPUTS</field>
+      </fields>
+      <libsource lib="Controls" part="TCA6408A" description=""/>
+      <property name="Sheetname" value="controls"/>
+      <property name="Sheetfile" value="controls.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d30ce2a6-35ef-5581-bc4f-8b7a6141d8f3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="15"/>
+            <pin num="14"/>
+            <pin num="6"/>
+            <pin num="17"/>
+            <pin num="16"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="11"/>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Controls" part="Capacitor">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">Capacitor</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Controls" part="FPC12">
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">FPC12</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+        <pin num="13" name="SHIELD" type="passive"/>
+        <pin num="14" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Controls" part="MountingHole">
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">MountingHole</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+    </libpart>
+    <libpart lib="Controls" part="QT2120">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">QT2120</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="KEY6" type="passive"/>
+        <pin num="2" name="KEY5" type="passive"/>
+        <pin num="3" name="KEY4" type="passive"/>
+        <pin num="4" name="KEY3" type="passive"/>
+        <pin num="5" name="KEY2" type="passive"/>
+        <pin num="6" name="KEY1" type="passive"/>
+        <pin num="7" name="KEY0" type="passive"/>
+        <pin num="8" name="VSS" type="power_in"/>
+        <pin num="9" name="VDD" type="power_in"/>
+        <pin num="10" name="MODE" type="input"/>
+        <pin num="11" name="SDA" type="bidirectional"/>
+        <pin num="12" name="~{RESET}" type="input"/>
+        <pin num="13" name="NC" type="no_connect"/>
+        <pin num="14" name="SCL" type="bidirectional"/>
+        <pin num="15" name="~{CHANGE}" type="open_collector"/>
+        <pin num="16" name="KEY11" type="passive"/>
+        <pin num="17" name="KEY10" type="passive"/>
+        <pin num="18" name="KEY9" type="passive"/>
+        <pin num="19" name="KEY8" type="passive"/>
+        <pin num="20" name="KEY7" type="passive"/>
+        <pin num="21" name="EP" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Controls" part="Resistor">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">Resistor</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Controls" part="Switch">
+      <fields>
+        <field name="Reference">S</field>
+        <field name="Value">Switch</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Controls" part="TCA6408A">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TCA6408A</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="~{RESET}" type="input"/>
+        <pin num="2" name="P0" type="bidirectional"/>
+        <pin num="3" name="P1" type="bidirectional"/>
+        <pin num="4" name="P2" type="bidirectional"/>
+        <pin num="5" name="P3" type="bidirectional"/>
+        <pin num="6" name="GND" type="power_in"/>
+        <pin num="7" name="P4" type="bidirectional"/>
+        <pin num="8" name="P5" type="bidirectional"/>
+        <pin num="9" name="P6" type="bidirectional"/>
+        <pin num="10" name="P7" type="bidirectional"/>
+        <pin num="11" name="~{INT}" type="open_collector"/>
+        <pin num="12" name="SCL" type="input"/>
+        <pin num="13" name="SDA" type="bidirectional"/>
+        <pin num="14" name="VCCP" type="power_in"/>
+        <pin num="15" name="VCCI" type="power_in"/>
+        <pin num="16" name="ADDR" type="input"/>
+        <pin num="17" name="EP" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Controls" part="Wheel">
+      <fields>
+        <field name="Reference">W</field>
+        <field name="Value">Wheel</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="CH0" type="passive"/>
+        <pin num="2" name="CH1" type="passive"/>
+        <pin num="3" name="CH2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Controls">
+      <uri>C:/Users/alon/Desktop/Preoject/esp32s31-mp3/hardware-controls/Controls.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/+3V3" class="Default">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U2" pin="14" pinfunction="VCCP_14" pintype="power_in"/>
+      <node ref="U2" pin="15" pinfunction="VCCI_15" pintype="power_in"/>
+    </net>
+    <net code="2" name="/GND" class="Default">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J1" pin="12" pinfunction="12_12" pintype="passive"/>
+      <node ref="J1" pin="13" pinfunction="SHIELD_13" pintype="passive"/>
+      <node ref="J1" pin="14" pinfunction="SHIELD_14" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="2" pintype="passive"/>
+      <node ref="SW2" pin="2" pintype="passive"/>
+      <node ref="SW3" pin="2" pintype="passive"/>
+      <node ref="SW4" pin="2" pintype="passive"/>
+      <node ref="SW5" pin="2" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="MODE_10" pintype="input"/>
+      <node ref="U1" pin="21" pinfunction="EP_21" pintype="power_in"/>
+      <node ref="U1" pin="8" pinfunction="VSS_8" pintype="power_in"/>
+      <node ref="U2" pin="16" pinfunction="ADDR_16" pintype="input"/>
+      <node ref="U2" pin="17" pinfunction="EP_17" pintype="power_in"/>
+      <node ref="U2" pin="6" pinfunction="GND_6" pintype="power_in"/>
+    </net>
+    <net code="3" name="/INT_N" class="Default">
+      <node ref="J1" pin="5" pinfunction="5_5" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="~{CHANGE}_15" pintype="open_collector"/>
+      <node ref="U2" pin="11" pinfunction="~{INT}_11" pintype="open_collector"/>
+    </net>
+    <net code="4" name="/KEY_BACK" class="Default">
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="SW2" pin="1" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="P0_2" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="/KEY_NEXT" class="Default">
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="SW4" pin="1" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="P2_4" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="/KEY_PLAY" class="Default">
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="SW5" pin="1" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="P3_5" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="/KEY_POWER" class="Default">
+      <node ref="J1" pin="11" pinfunction="11_11" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="1" pintype="passive"/>
+    </net>
+    <net code="8" name="/KEY_PREV" class="Default">
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="SW3" pin="1" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="P1_3" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="/RESET_N" class="Default">
+      <node ref="J1" pin="6" pinfunction="6_6" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="~{RESET}_12" pintype="input"/>
+      <node ref="U2" pin="1" pinfunction="~{RESET}_1" pintype="input"/>
+    </net>
+    <net code="10" name="/SCL" class="Default">
+      <node ref="J1" pin="4" pinfunction="4_4" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="SCL_14" pintype="bidirectional"/>
+      <node ref="U2" pin="12" pinfunction="SCL_12" pintype="input"/>
+    </net>
+    <net code="11" name="/SDA" class="Default">
+      <node ref="J1" pin="3" pinfunction="3_3" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="SDA_11" pintype="bidirectional"/>
+      <node ref="U2" pin="13" pinfunction="SDA_13" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="/SENSE0" class="Default">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="KEY0_7" pintype="passive"/>
+    </net>
+    <net code="13" name="/SENSE1" class="Default">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="KEY1_6" pintype="passive"/>
+    </net>
+    <net code="14" name="/SENSE2" class="Default">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="KEY2_5" pintype="passive"/>
+    </net>
+    <net code="15" name="/UNUSED_INPUTS" class="Default">
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="U2" pin="10" pinfunction="P7_10" pintype="bidirectional"/>
+      <node ref="U2" pin="7" pinfunction="P4_7" pintype="bidirectional"/>
+      <node ref="U2" pin="8" pinfunction="P5_8" pintype="bidirectional"/>
+      <node ref="U2" pin="9" pinfunction="P6_9" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="/VDD_TOUCH" class="Default">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="VDD_9" pintype="power_in"/>
+    </net>
+    <net code="17" name="/WHEEL0" class="Default">
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="18" name="/WHEEL1" class="Default">
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="19" name="/WHEEL2" class="Default">
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="20" name="unconnected-(J1-Pad7)" class="Default">
+      <node ref="J1" pin="7" pinfunction="7_7" pintype="passive+no_connect"/>
+    </net>
+    <net code="21" name="unconnected-(J1-Pad8)" class="Default">
+      <node ref="J1" pin="8" pinfunction="8_8" pintype="passive+no_connect"/>
+    </net>
+    <net code="22" name="unconnected-(J1-Pad9)" class="Default">
+      <node ref="J1" pin="9" pinfunction="9_9" pintype="passive+no_connect"/>
+    </net>
+    <net code="23" name="unconnected-(J1-Pad10)" class="Default">
+      <node ref="J1" pin="10" pinfunction="10_10" pintype="passive+no_connect"/>
+    </net>
+    <net code="24" name="unconnected-(U1-KEY3-Pad4)" class="Default">
+      <node ref="U1" pin="4" pinfunction="KEY3_4" pintype="passive+no_connect"/>
+    </net>
+    <net code="25" name="unconnected-(U1-KEY4-Pad3)" class="Default">
+      <node ref="U1" pin="3" pinfunction="KEY4_3" pintype="passive+no_connect"/>
+    </net>
+    <net code="26" name="unconnected-(U1-KEY5-Pad2)" class="Default">
+      <node ref="U1" pin="2" pinfunction="KEY5_2" pintype="passive+no_connect"/>
+    </net>
+    <net code="27" name="unconnected-(U1-KEY6-Pad1)" class="Default">
+      <node ref="U1" pin="1" pinfunction="KEY6_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="28" name="unconnected-(U1-KEY7-Pad20)" class="Default">
+      <node ref="U1" pin="20" pinfunction="KEY7_20" pintype="passive+no_connect"/>
+    </net>
+    <net code="29" name="unconnected-(U1-KEY8-Pad19)" class="Default">
+      <node ref="U1" pin="19" pinfunction="KEY8_19" pintype="passive+no_connect"/>
+    </net>
+    <net code="30" name="unconnected-(U1-KEY9-Pad18)" class="Default">
+      <node ref="U1" pin="18" pinfunction="KEY9_18" pintype="passive+no_connect"/>
+    </net>
+    <net code="31" name="unconnected-(U1-KEY10-Pad17)" class="Default">
+      <node ref="U1" pin="17" pinfunction="KEY10_17" pintype="passive+no_connect"/>
+    </net>
+    <net code="32" name="unconnected-(U1-KEY11-Pad16)" class="Default">
+      <node ref="U1" pin="16" pinfunction="KEY11_16" pintype="passive+no_connect"/>
+    </net>
+    <net code="33" name="unconnected-(U1-NC-Pad13)" class="Default">
+      <node ref="U1" pin="13" pinfunction="NC_13" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>

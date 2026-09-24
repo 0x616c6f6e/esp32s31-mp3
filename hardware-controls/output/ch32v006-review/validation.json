@@ -1,0 +1,45 @@
+{
+  "revision": "C",
+  "mechanical_interface_unchanged": [
+    "J1",
+    "E1",
+    "SW1",
+    "SW2",
+    "SW3",
+    "SW4",
+    "SW5",
+    "H1",
+    "H2",
+    "H3",
+    "H4"
+  ],
+  "outline_unchanged": true,
+  "thickness_mm": 0.8,
+  "component_count": 29,
+  "purchased_component_count": 23,
+  "mcu": "CH32V006F8U6",
+  "mcu_pinmap_verified": true,
+  "power_independent_active_low": true,
+  "j1_pinout_unchanged": true,
+  "tracks": 511,
+  "vias": 61,
+  "firmware_implemented": false,
+  "physical_calibration_completed": false,
+  "whole_device_interference_rechecked": false,
+  "sha256": {
+    "kicad_sch": "9ad260fa462a4e3acee19669f4a4279a26a7800af31f32641fd5e36a9a8346e4",
+    "kicad_pcb": "d4d2037be103225b9a990941eed6e9a067a849ac06b961e922cb0380ecad46a2",
+    "kicad_pro": "259054c60e037d4ade8e4d5069d8b6bb5470d5f27eced2636b581bd2e1c753d2"
+  },
+  "erc_violations": 0,
+  "drc": {
+    "violations": 0,
+    "unconnected_items": 0,
+    "schematic_parity": 0
+  },
+  "sense_trace_lengths_mm": {
+    "SENSE0": 30.5,
+    "SENSE1": 13.24,
+    "SENSE2": 12.59
+  }
+}

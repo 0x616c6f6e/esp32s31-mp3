@@ -1,0 +1,3664 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-22T04:02:00",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.4",
+    "schematic_parity": [],
+    "source": "controls.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "B.Cu 上 C2 的焊盘 2 [/GND]",
+                    "pos": {
+                        "x": 5.38,
+                        "y": 29.7
+                    },
+                    "uuid": "fea64bb4-2e12-488f-b9d3-0b52bec953c2"
+                },
+                {
+                    "description": "B.Cu 上 U1 的焊盘 4 [/GND]",
+                    "pos": {
+                        "x": 6.8,
+                        "y": 29.1
+                    },
+                    "uuid": "2b43d47d-c35a-4e6a-b53d-dbb1cbe2ec41"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "B.Cu 上 C1 的焊盘 2 [/GND]",
+                    "pos": {
+                        "x": 5.68,
+                        "y": 26.4
+                    },
+                    "uuid": "e87eb883-fc0f-4559-8c09-283b651f6885"
+                },
+                {
+                    "description": "B.Cu 上 U1 的焊盘 4 [/GND]",
+                    "pos": {
+                        "x": 6.8,
+                        "y": 29.1
+                    },
+                    "uuid": "2b43d47d-c35a-4e6a-b53d-dbb1cbe2ec41"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "B.Cu 上 C1 的焊盘 2 [/GND]",
+                    "pos": {
+                        "x": 5.68,
+                        "y": 26.4
+                    },
+                    "uuid": "e87eb883-fc0f-4559-8c09-283b651f6885"
+                },
+                {
+                    "description": "F.Cu 上 SW3 的焊盘 2 [/GND]",
+                    "pos": {
+                        "x": 9.0,
+                        "y": 15.375
+                    },
+                    "uuid": "6ee16362-c6f6-4773-a6fe-863c92a79677"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "B.Cu 上 J1 的焊盘 13 [/GND]",
+                    "pos": {
+                        "x": 6.725,
+                        "y": 13.046
+                    },
+                    "uuid": "2ba38f67-8a1a-4d9e-9510-b850584efa3c"
+                },
+                {
+                    "description": "F.Cu 上 SW3 的焊盘 2 [/GND]",
+                    "pos": {
+                        "x": 9.0,
+                        "y": 15.375
+                    },
+                    "uuid": "6ee16362-c6f6-4773-a6fe-863c92a79677"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "B.Cu 上 U1 的焊盘 0 [/GND]",
+                    "pos": {
+                        "x": 8.3,
+                        "y": 29.5
+                    },
+                    "uuid": "72679d6f-61d6-485d-ae68-f7b99e6b5e60"
+                },
+                {
+                    "description": "B.Cu 上 U1 的焊盘 4 [/GND]",
+                    "pos": {
+                        "x": 6.8,
+                        "y": 29.1
+                    },
+                    "uuid": "2b43d47d-c35a-4e6a-b53d-dbb1cbe2ec41"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "B.Cu 上 J1 的焊盘 1 [/GND]",
+                    "pos": {
+                        "x": 9.535,
+                        "y": 6.661
+                    },
+                    "uuid": "31d0117b-6e38-491b-82ae-c5feec60fb67"
+                },
+                {
+                    "description": "B.Cu 上 J1 的焊盘 14 [/GND]",
+                    "pos": {
+                        "x": 6.725,
+                        "y": 5.776
+                    },
+                    "uuid": "df2a0792-4922-48d4-b0c8-aeb82530dcaf"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "B.Cu 上 J1 的焊盘 12 [/GND]",
+                    "pos": {
+                        "x": 9.535,
+                        "y": 12.161
+                    },
+                    "uuid": "504a89b3-b520-4bf4-b704-4a9c0aa7d26e"
+                },
+                {
+                    "description": "B.Cu 上 J1 的焊盘 13 [/GND]",
+                    "pos": {
+                        "x": 6.725,
+                        "y": 13.046
+                    },
+                    "uuid": "2ba38f67-8a1a-4d9e-9510-b850584efa3c"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "B.Cu 上 J1 的焊盘 12 [/GND]",
+                    "pos": {
+                        "x": 9.535,
+                        "y": 12.161
+                    },
+                    "uuid": "504a89b3-b520-4bf4-b704-4a9c0aa7d26e"
+                },
+                {
+                    "description": "B.Cu 上 J1 的焊盘 1 [/GND]",
+                    "pos": {
+                        "x": 9.535,
+                        "y": 6.661
+                    },
+                    "uuid": "31d0117b-6e38-491b-82ae-c5feec60fb67"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "B.Cu 上 C3 的焊盘 2 [/GND]",
+                    "pos": {
+                        "x": 18.48,
+                        "y": 32.799999
+                    },
+                    "uuid": "7f0b7f50-28f6-400e-8ee8-30dd0b22bb76"
+                },
+                {
+                    "description": "F.Cu 上 SW5 的焊盘 2 [/GND]",
+                    "pos": {
+                        "x": 23.625,
+                        "y": 30.0
+                    },
+                    "uuid": "f47a8069-c66f-4226-8406-5b87337ea417"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "B.Cu 上 C3 的焊盘 2 [/GND]",
+                    "pos": {
+                        "x": 18.48,
+                        "y": 32.799999
+                    },
+                    "uuid": "7f0b7f50-28f6-400e-8ee8-30dd0b22bb76"
+                },
+                {
+                    "description": "B.Cu 上 U1 的焊盘 0 [/GND]",
+                    "pos": {
+                        "x": 8.3,
+                        "y": 29.5
+                    },
+                    "uuid": "72679d6f-61d6-485d-ae68-f7b99e6b5e60"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 SW2 的焊盘 2 [/GND]",
+                    "pos": {
+                        "x": 23.625,
+                        "y": 4.0
+                    },
+                    "uuid": "4ce601af-78d3-43f8-b671-072484cf6194"
+                },
+                {
+                    "description": "F.Cu 上 SW1 的焊盘 2 [/GND]",
+                    "pos": {
+                        "x": 23.625,
+                        "y": 17.0
+                    },
+                    "uuid": "b54beca9-4d73-4599-9ad4-52fbc5ae82f0"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 SW5 的焊盘 2 [/GND]",
+                    "pos": {
+                        "x": 23.625,
+                        "y": 30.0
+                    },
+                    "uuid": "f47a8069-c66f-4226-8406-5b87337ea417"
+                },
+                {
+                    "description": "B.Cu 上 J2 的焊盘 3 [/GND]",
+                    "pos": {
+                        "x": 28.1,
+                        "y": 30.8
+                    },
+                    "uuid": "e6bdb2b5-59f2-4acc-ab0f-499f9a9c488e"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 SW5 的焊盘 2 [/GND]",
+                    "pos": {
+                        "x": 23.625,
+                        "y": 30.0
+                    },
+                    "uuid": "f47a8069-c66f-4226-8406-5b87337ea417"
+                },
+                {
+                    "description": "F.Cu 上 SW1 的焊盘 2 [/GND]",
+                    "pos": {
+                        "x": 23.625,
+                        "y": 17.0
+                    },
+                    "uuid": "b54beca9-4d73-4599-9ad4-52fbc5ae82f0"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 SW4 的焊盘 2 [/GND]",
+                    "pos": {
+                        "x": 35.0,
+                        "y": 15.375
+                    },
+                    "uuid": "af8f41cd-0176-4e6a-9dd0-257a206095a7"
+                },
+                {
+                    "description": "F.Cu 上 SW1 的焊盘 2 [/GND]",
+                    "pos": {
+                        "x": 23.625,
+                        "y": 17.0
+                    },
+                    "uuid": "b54beca9-4d73-4599-9ad4-52fbc5ae82f0"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "走线 [/RESET_N] (F.Cu), 长度: 1.7500 mm",
+                    "pos": {
+                        "x": 13.8,
+                        "y": 2.75
+                    },
+                    "uuid": "f5621ae8-5d57-4d93-819d-02a86051168e"
+                },
+                {
+                    "description": "走线 [/RESET_N] (B.Cu), 长度: 1.0293 mm",
+                    "pos": {
+                        "x": 14.2755,
+                        "y": 2.6643
+                    },
+                    "uuid": "26983c9c-1504-4673-b3e6-b8896f4a3cd2"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "B.Cu 上 C3 的焊盘 1 [/RESET_N]",
+                    "pos": {
+                        "x": 17.52,
+                        "y": 32.799999
+                    },
+                    "uuid": "7fdf5199-e4ea-452d-9070-2be752fd0335"
+                },
+                {
+                    "description": "B.Cu 上 R7 的焊盘 2 [/RESET_N]",
+                    "pos": {
+                        "x": 16.51,
+                        "y": 32.799999
+                    },
+                    "uuid": "c3785852-b952-4c66-8399-b91ac032f304"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "走线 [/RESET_N] (F.Cu), 长度: 0.0707 mm",
+                    "pos": {
+                        "x": 22.45,
+                        "y": 32.9
+                    },
+                    "uuid": "ff8d308f-e8a4-4072-8096-3cc7f925b75f"
+                },
+                {
+                    "description": "B.Cu 上 C3 的焊盘 1 [/RESET_N]",
+                    "pos": {
+                        "x": 17.52,
+                        "y": 32.799999
+                    },
+                    "uuid": "7fdf5199-e4ea-452d-9070-2be752fd0335"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "B.Cu 上 R6 的焊盘 1 [/+3V3]",
+                    "pos": {
+                        "x": 13.49,
+                        "y": 32.799999
+                    },
+                    "uuid": "5fa61d8b-3af7-415e-8cd6-ae19134e4546"
+                },
+                {
+                    "description": "B.Cu 上 R7 的焊盘 1 [/+3V3]",
+                    "pos": {
+                        "x": 15.49,
+                        "y": 32.799999
+                    },
+                    "uuid": "766eb022-fcf1-4e48-aec2-ddc58f3d2b6a"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "走线 [/+3V3] (B.Cu), 长度: 0.5000 mm",
+                    "pos": {
+                        "x": 16.3,
+                        "y": 31.75
+                    },
+                    "uuid": "5de1c17a-0dfd-403e-8c37-01a939e7170a"
+                },
+                {
+                    "description": "B.Cu 上 R7 的焊盘 1 [/+3V3]",
+                    "pos": {
+                        "x": 15.49,
+                        "y": 32.799999
+                    },
+                    "uuid": "766eb022-fcf1-4e48-aec2-ddc58f3d2b6a"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "走线 [/+3V3] (F.Cu), 长度: 6.1665 mm",
+                    "pos": {
+                        "x": 19.257,
+                        "y": 23.4127
+                    },
+                    "uuid": "26eccea0-0adb-4ff5-ad7f-2801b8c0ef5e"
+                },
+                {
+                    "description": "走线 [/+3V3] (B.Cu), 长度: 0.7000 mm",
+                    "pos": {
+                        "x": 17.0,
+                        "y": 25.55
+                    },
+                    "uuid": "dc4c3a70-6064-4283-bcaa-af07bc594d0e"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "走线 [/SCL] (F.Cu), 长度: 4.0414 mm",
+                    "pos": {
+                        "x": 1.5588,
+                        "y": 20.3907
+                    },
+                    "uuid": "46c8eee8-5a2c-465d-83aa-9760f098be66"
+                },
+                {
+                    "description": "走线 [/SCL] (B.Cu), 长度: 0.6000 mm",
+                    "pos": {
+                        "x": 8.7,
+                        "y": 28.0
+                    },
+                    "uuid": "610a4bf2-da9a-4861-ae9a-52f807c0bf51"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "走线 [/SCL] (B.Cu), 长度: 0.5657 mm",
+                    "pos": {
+                        "x": 8.7,
+                        "y": 27.4
+                    },
+                    "uuid": "948d42a7-d673-4f1d-892f-8437070d3ef6"
+                },
+                {
+                    "description": "B.Cu 上 R5 的焊盘 2 [/SCL]",
+                    "pos": {
+                        "x": 14.51,
+                        "y": 26.7
+                    },
+                    "uuid": "be06b707-9aee-4ae1-8a13-606a16dc3a10"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "B.Cu 上 R6 的焊盘 2 [/INT_N]",
+                    "pos": {
+                        "x": 14.51,
+                        "y": 32.799999
+                    },
+                    "uuid": "ae867a6e-e5da-4dec-bc8c-1b25cc662f5a"
+                },
+                {
+                    "description": "走线 [/INT_N] (B.Cu), 长度: 0.6000 mm",
+                    "pos": {
+                        "x": 7.9,
+                        "y": 28.0
+                    },
+                    "uuid": "5562a2ba-f0fd-400c-b030-70ffc46216cf"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "B.Cu 上 J2 的焊盘 2 [/SWIO]",
+                    "pos": {
+                        "x": 29.9,
+                        "y": 32.6
+                    },
+                    "uuid": "f2dc0d51-c92d-4a95-b5ec-d638df77c568"
+                },
+                {
+                    "description": "走线 [/SWIO] (B.Cu), 长度: 0.4000 mm",
+                    "pos": {
+                        "x": 18.4,
+                        "y": 29.4
+                    },
+                    "uuid": "6613cd35-a9a9-426e-9a55-d3cd632cf1ca"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "走线 [/SENSE2] (B.Cu), 长度: 0.4000 mm",
+                    "pos": {
+                        "x": 8.3,
+                        "y": 31.0
+                    },
+                    "uuid": "7c50c5d0-d89e-4593-8da9-1cba74881549"
+                },
+                {
+                    "description": "走线 [/SENSE2] (B.Cu), 长度: 1.0793 mm",
+                    "pos": {
+                        "x": 4.9632,
+                        "y": 22.6732
+                    },
+                    "uuid": "dfd8392a-cbdc-4e24-a478-882ef30ff53d"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": [
+        {
+            "description": "短路了两个不同网络的项目 (网络 /KEY_PLAY 和 /GND)",
+            "items": [
+                {
+                    "description": "走线 [/KEY_PLAY] (B.Cu), 长度: 0.0500 mm",
+                    "pos": {
+                        "x": 28.0,
+                        "y": 31.3
+                    },
+                    "uuid": "265cb728-2f79-44f1-b84b-918217693ac7"
+                },
+                {
+                    "description": "B.Cu 上 J2 的焊盘 3 [/GND]",
+                    "pos": {
+                        "x": 28.1,
+                        "y": 30.8
+                    },
+                    "uuid": "e6bdb2b5-59f2-4acc-ab0f-499f9a9c488e"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "间距违规 ( 间距 0.1500 mm; 实际 0.1250 mm)",
+            "items": [
+                {
+                    "description": "走线 [/KEY_PLAY] (B.Cu), 长度: 0.0707 mm",
+                    "pos": {
+                        "x": 27.6,
+                        "y": 31.5
+                    },
+                    "uuid": "dd0866aa-1f2e-437b-9eab-0a2e1fc5a514"
+                },
+                {
+                    "description": "B.Cu 上 J2 的焊盘 3 [/GND]",
+                    "pos": {
+                        "x": 28.1,
+                        "y": 30.8
+                    },
+                    "uuid": "e6bdb2b5-59f2-4acc-ab0f-499f9a9c488e"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "间距违规 ( 间距 0.1500 mm; 实际 0.1250 mm)",
+            "items": [
+                {
+                    "description": "走线 [/KEY_PLAY] (B.Cu), 长度: 0.0500 mm",
+                    "pos": {
+                        "x": 27.65,
+                        "y": 31.5
+                    },
+                    "uuid": "57245feb-a71e-4582-9055-3db3e8b132ec"
+                },
+                {
+                    "description": "B.Cu 上 J2 的焊盘 3 [/GND]",
+                    "pos": {
+                        "x": 28.1,
+                        "y": 30.8
+                    },
+                    "uuid": "e6bdb2b5-59f2-4acc-ab0f-499f9a9c488e"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "间距违规 ( 间距 0.1500 mm; 实际 0.1390 mm)",
+            "items": [
+                {
+                    "description": "走线 [/SCL] (B.Cu), 长度: 3.0308 mm",
+                    "pos": {
+                        "x": 9.535,
+                        "y": 8.161
+                    },
+                    "uuid": "14df1bed-77c4-4fdd-9430-a12dfcd112fc"
+                },
+                {
+                    "description": "走线 [/INT_N] (B.Cu), 长度: 0.4950 mm",
+                    "pos": {
+                        "x": 8.9,
+                        "y": 8.45
+                    },
+                    "uuid": "aa76e6b4-9cfc-4c48-b000-0df63a41bb82"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "间距违规 ( 间距 0.1500 mm; 实际 0.1433 mm)",
+            "items": [
+                {
+                    "description": "走线 [/+3V3] (B.Cu), 长度: 0.5717 mm",
+                    "pos": {
+                        "x": 9.535,
+                        "y": 7.161
+                    },
+                    "uuid": "aefb395e-1684-41b4-a112-42e08d7914db"
+                },
+                {
+                    "description": "走线 [/RESET_N] (B.Cu), 长度: 2.0000 mm",
+                    "pos": {
+                        "x": 10.4,
+                        "y": 8.15
+                    },
+                    "uuid": "ee24595b-9475-4eec-a90d-928f08478c54"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "间距违规 ( 间距 0.1500 mm; 实际 0.1433 mm)",
+            "items": [
+                {
+                    "description": "走线 [/+3V3] (B.Cu), 长度: 2.8858 mm",
+                    "pos": {
+                        "x": 10.1067,
+                        "y": 7.161
+                    },
+                    "uuid": "1c0265cf-0370-4611-afaa-85d2d214a70d"
+                },
+                {
+                    "description": "走线 [/RESET_N] (B.Cu), 长度: 2.0000 mm",
+                    "pos": {
+                        "x": 10.4,
+                        "y": 8.15
+                    },
+                    "uuid": "ee24595b-9475-4eec-a90d-928f08478c54"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "间距违规 ( 间距 0.1500 mm; 实际 0.1433 mm)",
+            "items": [
+                {
+                    "description": "走线 [/+3V3] (B.Cu), 长度: 2.8858 mm",
+                    "pos": {
+                        "x": 10.1067,
+                        "y": 7.161
+                    },
+                    "uuid": "1c0265cf-0370-4611-afaa-85d2d214a70d"
+                },
+                {
+                    "description": "走线 [/RESET_N] (B.Cu), 长度: 4.0305 mm",
+                    "pos": {
+                        "x": 10.4,
+                        "y": 6.15
+                    },
+                    "uuid": "cf3c0794-02b8-498a-a248-74364b2b66ec"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "短路了两个不同网络的项目 (网络 /GND 和 /KEY_NEXT)",
+            "items": [
+                {
+                    "description": "B.Cu 上 J2 的焊盘 3 [/GND]",
+                    "pos": {
+                        "x": 28.1,
+                        "y": 30.8
+                    },
+                    "uuid": "e6bdb2b5-59f2-4acc-ab0f-499f9a9c488e"
+                },
+                {
+                    "description": "走线 [/KEY_NEXT] (B.Cu), 长度: 0.0707 mm",
+                    "pos": {
+                        "x": 27.75,
+                        "y": 31.0
+                    },
+                    "uuid": "f4b6c04c-ff07-4db4-95ba-9234bb1cbb34"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "短路了两个不同网络的项目 (网络 /GND 和 /KEY_NEXT)",
+            "items": [
+                {
+                    "description": "B.Cu 上 J2 的焊盘 3 [/GND]",
+                    "pos": {
+                        "x": 28.1,
+                        "y": 30.8
+                    },
+                    "uuid": "e6bdb2b5-59f2-4acc-ab0f-499f9a9c488e"
+                },
+                {
+                    "description": "走线 [/KEY_NEXT] (B.Cu), 长度: 0.0500 mm",
+                    "pos": {
+                        "x": 28.25,
+                        "y": 30.8
+                    },
+                    "uuid": "ed5c89c0-525c-42ec-853d-c10c14e8cfb9"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "短路了两个不同网络的项目 (网络 /GND 和 /KEY_NEXT)",
+            "items": [
+                {
+                    "description": "B.Cu 上 J2 的焊盘 3 [/GND]",
+                    "pos": {
+                        "x": 28.1,
+                        "y": 30.8
+                    },
+                    "uuid": "e6bdb2b5-59f2-4acc-ab0f-499f9a9c488e"
+                },
+                {
+                    "description": "走线 [/KEY_NEXT] (B.Cu), 长度: 0.0500 mm",
+                    "pos": {
+                        "x": 27.9,
+                        "y": 30.95
+                    },
+                    "uuid": "e8461818-1c78-43aa-a331-839a30925a4f"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "间距违规 ( 间距 0.1500 mm; 实际 0.0750 mm)",
+            "items": [
+                {
+                    "description": "走线 [/KEY_NEXT] (B.Cu), 长度: 0.0500 mm",
+                    "pos": {
+                        "x": 27.45,
+                        "y": 31.2
+                    },
+                    "uuid": "e4205f34-f923-424d-b8c0-937619403171"
+                },
+                {
+                    "description": "B.Cu 上 J2 的焊盘 3 [/GND]",
+                    "pos": {
+                        "x": 28.1,
+                        "y": 30.8
+                    },
+                    "uuid": "e6bdb2b5-59f2-4acc-ab0f-499f9a9c488e"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "短路了两个不同网络的项目 (网络 /KEY_NEXT 和 /GND)",
+            "items": [
+                {
+                    "description": "走线 [/KEY_NEXT] (B.Cu), 长度: 0.0500 mm",
+                    "pos": {
+                        "x": 27.8,
+                        "y": 31.0
+                    },
+                    "uuid": "d95febab-1bf9-443d-96b5-4770b9798cbc"
+                },
+                {
+                    "description": "B.Cu 上 J2 的焊盘 3 [/GND]",
+                    "pos": {
+                        "x": 28.1,
+                        "y": 30.8
+                    },
+                    "uuid": "e6bdb2b5-59f2-4acc-ab0f-499f9a9c488e"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "间距违规 ( 间距 0.1500 mm; 实际 0.0250 mm)",
+            "items": [
+                {
+                    "description": "走线 [/KEY_NEXT] (B.Cu), 长度: 0.0707 mm",
+                    "pos": {
+                        "x": 27.5,
+                        "y": 31.15
+                    },
+                    "uuid": "cbc7e1ad-314a-4f4c-90a3-1364ea838ff9"
+                },
+                {
+                    "description": "B.Cu 上 J2 的焊盘 3 [/GND]",
+                    "pos": {
+                        "x": 28.1,
+                        "y": 30.8
+                    },
+                    "uuid": "e6bdb2b5-59f2-4acc-ab0f-499f9a9c488e"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "短路了两个不同网络的项目 (网络 /GND 和 /KEY_NEXT)",
+            "items": [
+                {
+                    "description": "B.Cu 上 J2 的焊盘 3 [/GND]",
+                    "pos": {
+                        "x": 28.1,
+                        "y": 30.8
+                    },
+                    "uuid": "e6bdb2b5-59f2-4acc-ab0f-499f9a9c488e"
+                },
+                {
+                    "description": "走线 [/KEY_NEXT] (B.Cu), 长度: 0.0707 mm",
+                    "pos": {
+                        "x": 28.1,
+                        "y": 30.85
+                    },
+                    "uuid": "f5bed157-ec42-48f5-8c1b-8b7c76c2a2e0"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "短路了两个不同网络的项目 (网络 /KEY_NEXT 和 /GND)",
+            "items": [
+                {
+                    "description": "走线 [/KEY_NEXT] (B.Cu), 长度: 0.0707 mm",
+                    "pos": {
+                        "x": 27.95,
+                        "y": 30.9
+                    },
+                    "uuid": "b314c5db-9668-4b27-9eb0-bc3af5c70885"
+                },
+                {
+                    "description": "B.Cu 上 J2 的焊盘 3 [/GND]",
+                    "pos": {
+                        "x": 28.1,
+                        "y": 30.8
+                    },
+                    "uuid": "e6bdb2b5-59f2-4acc-ab0f-499f9a9c488e"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "间距违规 ( 间距 0.1500 mm; 实际 0.0750 mm)",
+            "items": [
+                {
+                    "description": "走线 [/KEY_NEXT] (B.Cu), 长度: 0.0707 mm",
+                    "pos": {
+                        "x": 28.8,
+                        "y": 30.45
+                    },
+                    "uuid": "c35dd6db-16ab-4078-8644-8b28b4e63427"
+                },
+                {
+                    "description": "B.Cu 上 J2 的焊盘 3 [/GND]",
+                    "pos": {
+                        "x": 28.1,
+                        "y": 30.8
+                    },
+                    "uuid": "e6bdb2b5-59f2-4acc-ab0f-499f9a9c488e"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "短路了两个不同网络的项目 (网络 /RESET_N 和 /KEY_NEXT)",
+            "items": [
+                {
+                    "description": "B.Cu 上 J2 的焊盘 4 [/RESET_N]",
+                    "pos": {
+                        "x": 29.9,
+                        "y": 30.8
+                    },
+                    "uuid": "82ab554f-47d6-424a-b463-8c7bd2518f8c"
+                },
+                {
+                    "description": "走线 [/KEY_NEXT] (B.Cu), 长度: 0.1414 mm",
+                    "pos": {
+                        "x": 30.4,
+                        "y": 30.2
+                    },
+                    "uuid": "b317f28c-4f13-4014-885e-5a5d7d88ef49"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "短路了两个不同网络的项目 (网络 /KEY_NEXT 和 /GND)",
+            "items": [
+                {
+                    "description": "走线 [/KEY_NEXT] (B.Cu), 长度: 0.0500 mm",
+                    "pos": {
+                        "x": 28.5,
+                        "y": 30.65
+                    },
+                    "uuid": "9d8831cc-d06d-465d-96eb-d107c714ae9b"
+                },
+                {
+                    "description": "B.Cu 上 J2 的焊盘 3 [/GND]",
+                    "pos": {
+                        "x": 28.1,
+                        "y": 30.8
+                    },
+                    "uuid": "e6bdb2b5-59f2-4acc-ab0f-499f9a9c488e"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "短路了两个不同网络的项目 (网络 /KEY_NEXT 和 /GND)",
+            "items": [
+                {
+                    "description": "走线 [/KEY_NEXT] (B.Cu), 长度: 0.1414 mm",
+                    "pos": {
+                        "x": 27.65,
+                        "y": 31.05
+                    },
+                    "uuid": "9b6f7de4-e167-408a-9360-f500c70f65d4"
+                },
+                {
+                    "description": "B.Cu 上 J2 的焊盘 3 [/GND]",
+                    "pos": {
+                        "x": 28.1,
+                        "y": 30.8
+                    },
+                    "uuid": "e6bdb2b5-59f2-4acc-ab0f-499f9a9c488e"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "间距违规 ( 间距 0.1500 mm; 实际 0.1250 mm)",
+            "items": [
+                {
+                    "description": "走线 [/KEY_NEXT] (B.Cu), 长度: 0.0707 mm",
+                    "pos": {
+                        "x": 27.4,
+                        "y": 31.2
+                    },
+                    "uuid": "959bb5dc-71d1-409d-a635-4706e69aee86"
+                },
+                {
+                    "description": "B.Cu 上 J2 的焊盘 3 [/GND]",
+                    "pos": {
+                        "x": 28.1,
+                        "y": 30.8
+                    },
+                    "uuid": "e6bdb2b5-59f2-4acc-ab0f-499f9a9c488e"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "短路了两个不同网络的项目 (网络 /KEY_NEXT 和 /GND)",
+            "items": [
+                {
+                    "description": "走线 [/KEY_NEXT] (B.Cu), 长度: 0.0500 mm",
+                    "pos": {
+                        "x": 28.35,
+                        "y": 30.75
+                    },
+                    "uuid": "8537b617-bec8-47e5-9f25-1711d29a636b"
+                },
+                {
+                    "description": "B.Cu 上 J2 的焊盘 3 [/GND]",
+                    "pos": {
+                        "x": 28.1,
+                        "y": 30.8
+                    },
+                    "uuid": "e6bdb2b5-59f2-4acc-ab0f-499f9a9c488e"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "短路了两个不同网络的项目 (网络 /KEY_NEXT 和 /GND)",
+            "items": [
+                {
+                    "description": "走线 [/KEY_NEXT] (B.Cu), 长度: 0.0500 mm",
+                    "pos": {
+                        "x": 27.55,
+                        "y": 31.15
+                    },
+                    "uuid": "7ed5d00d-aded-4fa6-aab8-2ef859ffb762"
+                },
+                {
+                    "description": "B.Cu 上 J2 的焊盘 3 [/GND]",
+                    "pos": {
+                        "x": 28.1,
+                        "y": 30.8
+                    },
+                    "uuid": "e6bdb2b5-59f2-4acc-ab0f-499f9a9c488e"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "短路了两个不同网络的项目 (网络 /KEY_NEXT 和 /GND)",
+            "items": [
+                {
+                    "description": "走线 [/KEY_NEXT] (B.Cu), 长度: 0.0500 mm",
+                    "pos": {
+                        "x": 28.15,
+                        "y": 30.85
+                    },
+                    "uuid": "7d6dff2f-7ce4-4fa2-814d-2ad3f4674968"
+                },
+                {
+                    "description": "B.Cu 上 J2 的焊盘 3 [/GND]",
+                    "pos": {
+                        "x": 28.1,
+                        "y": 30.8
+                    },
+                    "uuid": "e6bdb2b5-59f2-4acc-ab0f-499f9a9c488e"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "间距违规 ( 间距 0.1500 mm; 实际 0.1250 mm)",
+            "items": [
+                {
+                    "description": "走线 [/KEY_NEXT] (B.Cu), 长度: 1.3000 mm",
+                    "pos": {
+                        "x": 30.1,
+                        "y": 30.45
+                    },
+                    "uuid": "7d6d5b71-f73a-4f55-8e48-b58d20664857"
+                },
+                {
+                    "description": "B.Cu 上 J2 的焊盘 3 [/GND]",
+                    "pos": {
+                        "x": 28.1,
+                        "y": 30.8
+                    },
+                    "uuid": "e6bdb2b5-59f2-4acc-ab0f-499f9a9c488e"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "间距违规 ( 间距 0.1500 mm; 实际 0.0368 mm)",
+            "items": [
+                {
+                    "description": "走线 [/KEY_NEXT] (B.Cu), 长度: 0.1414 mm",
+                    "pos": {
+                        "x": 30.55,
+                        "y": 30.1
+                    },
+                    "uuid": "6d2df15b-6c9d-4cb9-ad59-7d551667cfba"
+                },
+                {
+                    "description": "B.Cu 上 J2 的焊盘 4 [/RESET_N]",
+                    "pos": {
+                        "x": 29.9,
+                        "y": 30.8
+                    },
+                    "uuid": "82ab554f-47d6-424a-b463-8c7bd2518f8c"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "短路了两个不同网络的项目 (网络 /KEY_NEXT 和 /GND)",
+            "items": [
+                {
+                    "description": "走线 [/KEY_NEXT] (B.Cu), 长度: 0.1414 mm",
+                    "pos": {
+                        "x": 28.45,
+                        "y": 30.65
+                    },
+                    "uuid": "6a5fb87f-1403-4193-b4b9-ac7cf444d978"
+                },
+                {
+                    "description": "B.Cu 上 J2 的焊盘 3 [/GND]",
+                    "pos": {
+                        "x": 28.1,
+                        "y": 30.8
+                    },
+                    "uuid": "e6bdb2b5-59f2-4acc-ab0f-499f9a9c488e"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "短路了两个不同网络的项目 (网络 /KEY_NEXT 和 /GND)",
+            "items": [
+                {
+                    "description": "走线 [/KEY_NEXT] (B.Cu), 长度: 0.0500 mm",
+                    "pos": {
+                        "x": 27.7,
+                        "y": 31.05
+                    },
+                    "uuid": "643b6502-23ea-429d-b21b-e7d04ddc638a"
+                },
+                {
+                    "description": "B.Cu 上 J2 的焊盘 3 [/GND]",
+                    "pos": {
+                        "x": 28.1,
+                        "y": 30.8
+                    },
+                    "uuid": "e6bdb2b5-59f2-4acc-ab0f-499f9a9c488e"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "短路了两个不同网络的项目 (网络 /KEY_NEXT 和 /RESET_N)",
+            "items": [
+                {
+                    "description": "走线 [/KEY_NEXT] (B.Cu), 长度: 0.0500 mm",
+                    "pos": {
+                        "x": 30.3,
+                        "y": 30.3
+                    },
+                    "uuid": "5b100790-f7ef-472b-bec6-6fce9921fd05"
+                },
+                {
+                    "description": "B.Cu 上 J2 的焊盘 4 [/RESET_N]",
+                    "pos": {
+                        "x": 29.9,
+                        "y": 30.8
+                    },
+                    "uuid": "82ab554f-47d6-424a-b463-8c7bd2518f8c"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "短路了两个不同网络的项目 (网络 /KEY_NEXT 和 /GND)",
+            "items": [
+                {
+                    "description": "走线 [/KEY_NEXT] (B.Cu), 长度: 0.1000 mm",
+                    "pos": {
+                        "x": 28.05,
+                        "y": 30.9
+                    },
+                    "uuid": "4f45306a-ed83-40d0-8bf7-733e08bcf4ac"
+                },
+                {
+                    "description": "B.Cu 上 J2 的焊盘 3 [/GND]",
+                    "pos": {
+                        "x": 28.1,
+                        "y": 30.8
+                    },
+                    "uuid": "e6bdb2b5-59f2-4acc-ab0f-499f9a9c488e"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "间距违规 ( 间距 0.1500 mm; 实际 0.0250 mm)",
+            "items": [
+                {
+                    "description": "走线 [/KEY_NEXT] (B.Cu), 长度: 0.0500 mm",
+                    "pos": {
+                        "x": 30.45,
+                        "y": 30.2
+                    },
+                    "uuid": "47af7fb8-f0fb-4818-9da3-29c5d30f691e"
+                },
+                {
+                    "description": "B.Cu 上 J2 的焊盘 4 [/RESET_N]",
+                    "pos": {
+                        "x": 29.9,
+                        "y": 30.8
+                    },
+                    "uuid": "82ab554f-47d6-424a-b463-8c7bd2518f8c"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "间距违规 ( 间距 0.1500 mm; 实际 0.1164 mm)",
+            "items": [
+                {
+                    "description": "走线 [/KEY_NEXT] (B.Cu), 长度: 0.2000 mm",
+                    "pos": {
+                        "x": 18.85,
+                        "y": 32.3
+                    },
+                    "uuid": "4c20bfbf-ba61-453a-8944-03a2f836a207"
+                },
+                {
+                    "description": "B.Cu 上 C3 的焊盘 2 [/GND]",
+                    "pos": {
+                        "x": 18.48,
+                        "y": 32.799999
+                    },
+                    "uuid": "7f0b7f50-28f6-400e-8ee8-30dd0b22bb76"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "间距违规 ( 间距 0.1500 mm; 实际 0.0250 mm)",
+            "items": [
+                {
+                    "description": "走线 [/KEY_NEXT] (B.Cu), 长度: 0.0500 mm",
+                    "pos": {
+                        "x": 28.75,
+                        "y": 30.5
+                    },
+                    "uuid": "43000aea-7299-4296-875f-27a12ed4d889"
+                },
+                {
+                    "description": "B.Cu 上 J2 的焊盘 3 [/GND]",
+                    "pos": {
+                        "x": 28.1,
+                        "y": 30.8
+                    },
+                    "uuid": "e6bdb2b5-59f2-4acc-ab0f-499f9a9c488e"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "间距违规 ( 间距 0.1500 mm; 实际 0.1164 mm)",
+            "items": [
+                {
+                    "description": "走线 [/KEY_NEXT] (B.Cu), 长度: 0.0707 mm",
+                    "pos": {
+                        "x": 18.65,
+                        "y": 32.3
+                    },
+                    "uuid": "48c7e7d8-870f-405f-aa52-bb44ad74acc6"
+                },
+                {
+                    "description": "B.Cu 上 C3 的焊盘 2 [/GND]",
+                    "pos": {
+                        "x": 18.48,
+                        "y": 32.799999
+                    },
+                    "uuid": "7f0b7f50-28f6-400e-8ee8-30dd0b22bb76"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "短路了两个不同网络的项目 (网络 /KEY_NEXT 和 /RESET_N)",
+            "items": [
+                {
+                    "description": "走线 [/KEY_NEXT] (B.Cu), 长度: 0.2121 mm",
+                    "pos": {
+                        "x": 30.25,
+                        "y": 30.3
+                    },
+                    "uuid": "363cc1dd-40f8-4d13-a863-f9e678928029"
+                },
+                {
+                    "description": "B.Cu 上 J2 的焊盘 4 [/RESET_N]",
+                    "pos": {
+                        "x": 29.9,
+                        "y": 30.8
+                    },
+                    "uuid": "82ab554f-47d6-424a-b463-8c7bd2518f8c"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "短路了两个不同网络的项目 (网络 /KEY_NEXT 和 /GND)",
+            "items": [
+                {
+                    "description": "走线 [/KEY_NEXT] (B.Cu), 长度: 0.0707 mm",
+                    "pos": {
+                        "x": 28.3,
+                        "y": 30.75
+                    },
+                    "uuid": "32a78ec1-5f40-4d5e-8236-39be688eb7da"
+                },
+                {
+                    "description": "B.Cu 上 J2 的焊盘 3 [/GND]",
+                    "pos": {
+                        "x": 28.1,
+                        "y": 30.8
+                    },
+                    "uuid": "e6bdb2b5-59f2-4acc-ab0f-499f9a9c488e"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "短路了两个不同网络的项目 (网络 /KEY_NEXT 和 /GND)",
+            "items": [
+                {
+                    "description": "走线 [/KEY_NEXT] (B.Cu), 长度: 0.0500 mm",
+                    "pos": {
+                        "x": 28.6,
+                        "y": 30.6
+                    },
+                    "uuid": "28bde4cc-64ee-4bd0-a59f-cb4f1b3e6b91"
+                },
+                {
+                    "description": "B.Cu 上 J2 的焊盘 3 [/GND]",
+                    "pos": {
+                        "x": 28.1,
+                        "y": 30.8
+                    },
+                    "uuid": "e6bdb2b5-59f2-4acc-ab0f-499f9a9c488e"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "短路了两个不同网络的项目 (网络 /KEY_NEXT 和 /GND)",
+            "items": [
+                {
+                    "description": "走线 [/KEY_NEXT] (B.Cu), 长度: 0.1414 mm",
+                    "pos": {
+                        "x": 28.7,
+                        "y": 30.5
+                    },
+                    "uuid": "1feb77c8-7d4a-49d9-bf65-bf7279bbc60d"
+                },
+                {
+                    "description": "B.Cu 上 J2 的焊盘 3 [/GND]",
+                    "pos": {
+                        "x": 28.1,
+                        "y": 30.8
+                    },
+                    "uuid": "e6bdb2b5-59f2-4acc-ab0f-499f9a9c488e"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "短路了两个不同网络的项目 (网络 /KEY_NEXT 和 /GND)",
+            "items": [
+                {
+                    "description": "走线 [/KEY_NEXT] (B.Cu), 长度: 0.0707 mm",
+                    "pos": {
+                        "x": 27.85,
+                        "y": 30.95
+                    },
+                    "uuid": "1bb83fad-d667-480c-8823-95cb4652336f"
+                },
+                {
+                    "description": "B.Cu 上 J2 的焊盘 3 [/GND]",
+                    "pos": {
+                        "x": 28.1,
+                        "y": 30.8
+                    },
+                    "uuid": "e6bdb2b5-59f2-4acc-ab0f-499f9a9c488e"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "短路了两个不同网络的项目 (网络 /KEY_NEXT 和 /GND)",
+            "items": [
+                {
+                    "description": "走线 [/KEY_NEXT] (B.Cu), 长度: 0.0707 mm",
+                    "pos": {
+                        "x": 28.55,
+                        "y": 30.6
+                    },
+                    "uuid": "01dd08b2-baf3-4d0f-80a2-b8d5bb465aad"
+                },
+                {
+                    "description": "B.Cu 上 J2 的焊盘 3 [/GND]",
+                    "pos": {
+                        "x": 28.1,
+                        "y": 30.8
+                    },
+                    "uuid": "e6bdb2b5-59f2-4acc-ab0f-499f9a9c488e"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "短路了两个不同网络的项目 (网络 /KEY_NEXT 和 /GND)",
+            "items": [
+                {
+                    "description": "走线 [/KEY_NEXT] (B.Cu), 长度: 0.0707 mm",
+                    "pos": {
+                        "x": 28.2,
+                        "y": 30.8
+                    },
+                    "uuid": "32ccd4ea-e903-495a-a27b-d2369e0756a7"
+                },
+                {
+                    "description": "B.Cu 上 J2 的焊盘 3 [/GND]",
+                    "pos": {
+                        "x": 28.1,
+                        "y": 30.8
+                    },
+                    "uuid": "e6bdb2b5-59f2-4acc-ab0f-499f9a9c488e"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "短路了两个不同网络的项目 (网络 /GND 和 /KEY_PLAY)",
+            "items": [
+                {
+                    "description": "B.Cu 上 J2 的焊盘 3 [/GND]",
+                    "pos": {
+                        "x": 28.1,
+                        "y": 30.8
+                    },
+                    "uuid": "e6bdb2b5-59f2-4acc-ab0f-499f9a9c488e"
+                },
+                {
+                    "description": "走线 [/KEY_PLAY] (B.Cu), 长度: 0.0500 mm",
+                    "pos": {
+                        "x": 28.1,
+                        "y": 31.25
+                    },
+                    "uuid": "fefea430-f66c-4eed-9963-9e39b1e608ba"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "短路了两个不同网络的项目 (网络 /GND 和 /KEY_PLAY)",
+            "items": [
+                {
+                    "description": "B.Cu 上 J2 的焊盘 3 [/GND]",
+                    "pos": {
+                        "x": 28.1,
+                        "y": 30.8
+                    },
+                    "uuid": "e6bdb2b5-59f2-4acc-ab0f-499f9a9c488e"
+                },
+                {
+                    "description": "走线 [/KEY_PLAY] (B.Cu), 长度: 0.0707 mm",
+                    "pos": {
+                        "x": 28.5,
+                        "y": 31.05
+                    },
+                    "uuid": "fc688074-eb99-4b39-93d6-1bb8a630cc2d"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "短路了两个不同网络的项目 (网络 /GND 和 /KEY_PLAY)",
+            "items": [
+                {
+                    "description": "B.Cu 上 J2 的焊盘 3 [/GND]",
+                    "pos": {
+                        "x": 28.1,
+                        "y": 30.8
+                    },
+                    "uuid": "e6bdb2b5-59f2-4acc-ab0f-499f9a9c488e"
+                },
+                {
+                    "description": "走线 [/KEY_PLAY] (B.Cu), 长度: 0.0500 mm",
+                    "pos": {
+                        "x": 28.7,
+                        "y": 30.95
+                    },
+                    "uuid": "ea8b4612-c2b0-4006-b723-301344da23d0"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "间距违规 ( 间距 0.1500 mm; 实际 0.0750 mm)",
+            "items": [
+                {
+                    "description": "B.Cu 上 J2 的焊盘 3 [/GND]",
+                    "pos": {
+                        "x": 28.1,
+                        "y": 30.8
+                    },
+                    "uuid": "e6bdb2b5-59f2-4acc-ab0f-499f9a9c488e"
+                },
+                {
+                    "description": "走线 [/KEY_PLAY] (B.Cu), 长度: 0.0500 mm",
+                    "pos": {
+                        "x": 28.8,
+                        "y": 30.9
+                    },
+                    "uuid": "f7df8fdd-12cd-4b3a-97fc-d84dec56b389"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "短路了两个不同网络的项目 (网络 /GND 和 /KEY_PLAY)",
+            "items": [
+                {
+                    "description": "B.Cu 上 J2 的焊盘 3 [/GND]",
+                    "pos": {
+                        "x": 28.1,
+                        "y": 30.8
+                    },
+                    "uuid": "e6bdb2b5-59f2-4acc-ab0f-499f9a9c488e"
+                },
+                {
+                    "description": "走线 [/KEY_PLAY] (B.Cu), 长度: 0.0707 mm",
+                    "pos": {
+                        "x": 28.3,
+                        "y": 31.15
+                    },
+                    "uuid": "f4c70e5e-0f89-467e-b3bb-d1448b2e10e7"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "间距违规 ( 间距 0.1500 mm; 实际 0.0750 mm)",
+            "items": [
+                {
+                    "description": "B.Cu 上 J2 的焊盘 3 [/GND]",
+                    "pos": {
+                        "x": 28.1,
+                        "y": 30.8
+                    },
+                    "uuid": "e6bdb2b5-59f2-4acc-ab0f-499f9a9c488e"
+                },
+                {
+                    "description": "走线 [/KEY_PLAY] (B.Cu), 长度: 0.0500 mm",
+                    "pos": {
+                        "x": 27.75,
+                        "y": 31.45
+                    },
+                    "uuid": "ea7783f0-9bab-405b-998b-3b11d8f3841d"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "短路了两个不同网络的项目 (网络 /KEY_PLAY 和 /GND)",
+            "items": [
+                {
+                    "description": "走线 [/KEY_PLAY] (B.Cu), 长度: 0.0500 mm",
+                    "pos": {
+                        "x": 28.55,
+                        "y": 31.05
+                    },
+                    "uuid": "e5b67fed-b021-4a9c-8efb-315cdd5a7b19"
+                },
+                {
+                    "description": "B.Cu 上 J2 的焊盘 3 [/GND]",
+                    "pos": {
+                        "x": 28.1,
+                        "y": 30.8
+                    },
+                    "uuid": "e6bdb2b5-59f2-4acc-ab0f-499f9a9c488e"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "短路了两个不同网络的项目 (网络 /KEY_PLAY 和 /GND)",
+            "items": [
+                {
+                    "description": "走线 [/KEY_PLAY] (B.Cu), 长度: 0.0500 mm",
+                    "pos": {
+                        "x": 28.45,
+                        "y": 31.1
+                    },
+                    "uuid": "e1c7caab-3e69-42e4-9056-8b6061b4aa17"
+                },
+                {
+                    "description": "B.Cu 上 J2 的焊盘 3 [/GND]",
+                    "pos": {
+                        "x": 28.1,
+                        "y": 30.8
+                    },
+                    "uuid": "e6bdb2b5-59f2-4acc-ab0f-499f9a9c488e"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "间距违规 ( 间距 0.1500 mm; 实际 0.1250 mm)",
+            "items": [
+                {
+                    "description": "走线 [/KEY_PLAY] (B.Cu), 长度: 0.1414 mm",
+                    "pos": {
+                        "x": 28.9,
+                        "y": 30.8
+                    },
+                    "uuid": "d317516e-eb91-4ca5-ba86-ea8507390c49"
+                },
+                {
+                    "description": "B.Cu 上 J2 的焊盘 3 [/GND]",
+                    "pos": {
+                        "x": 28.1,
+                        "y": 30.8
+                    },
+                    "uuid": "e6bdb2b5-59f2-4acc-ab0f-499f9a9c488e"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "短路了两个不同网络的项目 (网络 /GND 和 /KEY_PLAY)",
+            "items": [
+                {
+                    "description": "B.Cu 上 J2 的焊盘 3 [/GND]",
+                    "pos": {
+                        "x": 28.1,
+                        "y": 30.8
+                    },
+                    "uuid": "e6bdb2b5-59f2-4acc-ab0f-499f9a9c488e"
+                },
+                {
+                    "description": "走线 [/KEY_PLAY] (B.Cu), 长度: 0.0500 mm",
+                    "pos": {
+                        "x": 27.9,
+                        "y": 31.35
+                    },
+                    "uuid": "e77308ba-c584-446c-9c24-7de1a486d60c"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "短路了两个不同网络的项目 (网络 /KEY_PLAY 和 /GND)",
+            "items": [
+                {
+                    "description": "走线 [/KEY_PLAY] (B.Cu), 长度: 0.1414 mm",
+                    "pos": {
+                        "x": 27.85,
+                        "y": 31.35
+                    },
+                    "uuid": "ce8d595c-5054-4ef0-94ed-e099969d44bd"
+                },
+                {
+                    "description": "B.Cu 上 J2 的焊盘 3 [/GND]",
+                    "pos": {
+                        "x": 28.1,
+                        "y": 30.8
+                    },
+                    "uuid": "e6bdb2b5-59f2-4acc-ab0f-499f9a9c488e"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "短路了两个不同网络的项目 (网络 /RESET_N 和 /KEY_PLAY)",
+            "items": [
+                {
+                    "description": "B.Cu 上 J2 的焊盘 4 [/RESET_N]",
+                    "pos": {
+                        "x": 29.9,
+                        "y": 30.8
+                    },
+                    "uuid": "82ab554f-47d6-424a-b463-8c7bd2518f8c"
+                },
+                {
+                    "description": "走线 [/KEY_PLAY] (B.Cu), 长度: 0.0500 mm",
+                    "pos": {
+                        "x": 30.5,
+                        "y": 30.6
+                    },
+                    "uuid": "c5d08173-9553-4e84-8484-530ae402c2f4"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "短路了两个不同网络的项目 (网络 /KEY_PLAY 和 /GND)",
+            "items": [
+                {
+                    "description": "走线 [/KEY_PLAY] (B.Cu), 长度: 0.0500 mm",
+                    "pos": {
+                        "x": 28.35,
+                        "y": 31.15
+                    },
+                    "uuid": "e3011b96-6cbb-4c79-9190-75f48624a017"
+                },
+                {
+                    "description": "B.Cu 上 J2 的焊盘 3 [/GND]",
+                    "pos": {
+                        "x": 28.1,
+                        "y": 30.8
+                    },
+                    "uuid": "e6bdb2b5-59f2-4acc-ab0f-499f9a9c488e"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "短路了两个不同网络的项目 (网络 /KEY_PLAY 和 /GND)",
+            "items": [
+                {
+                    "description": "走线 [/KEY_PLAY] (B.Cu), 长度: 0.0707 mm",
+                    "pos": {
+                        "x": 28.4,
+                        "y": 31.1
+                    },
+                    "uuid": "a237c9bb-6035-40b7-960c-f424eaff6d7f"
+                },
+                {
+                    "description": "B.Cu 上 J2 的焊盘 3 [/GND]",
+                    "pos": {
+                        "x": 28.1,
+                        "y": 30.8
+                    },
+                    "uuid": "e6bdb2b5-59f2-4acc-ab0f-499f9a9c488e"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "短路了两个不同网络的项目 (网络 /KEY_PLAY 和 /GND)",
+            "items": [
+                {
+                    "description": "走线 [/KEY_PLAY] (B.Cu), 长度: 0.0707 mm",
+                    "pos": {
+                        "x": 27.95,
+                        "y": 31.3
+                    },
+                    "uuid": "9376a7be-5a80-4b6f-823e-ed389b55e9e1"
+                },
+                {
+                    "description": "B.Cu 上 J2 的焊盘 3 [/GND]",
+                    "pos": {
+                        "x": 28.1,
+                        "y": 30.8
+                    },
+                    "uuid": "e6bdb2b5-59f2-4acc-ab0f-499f9a9c488e"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "间距违规 ( 间距 0.1500 mm; 实际 0.0750 mm)",
+            "items": [
+                {
+                    "description": "走线 [/KEY_PLAY] (B.Cu), 长度: 0.0707 mm",
+                    "pos": {
+                        "x": 27.7,
+                        "y": 31.45
+                    },
+                    "uuid": "8eff26a7-53e0-4ee2-b6b5-b1904487d224"
+                },
+                {
+                    "description": "B.Cu 上 J2 的焊盘 3 [/GND]",
+                    "pos": {
+                        "x": 28.1,
+                        "y": 30.8
+                    },
+                    "uuid": "e6bdb2b5-59f2-4acc-ab0f-499f9a9c488e"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "间距违规 ( 间距 0.1500 mm; 实际 0.0250 mm)",
+            "items": [
+                {
+                    "description": "B.Cu 上 J2 的焊盘 4 [/RESET_N]",
+                    "pos": {
+                        "x": 29.9,
+                        "y": 30.8
+                    },
+                    "uuid": "82ab554f-47d6-424a-b463-8c7bd2518f8c"
+                },
+                {
+                    "description": "走线 [/KEY_PLAY] (B.Cu), 长度: 0.1414 mm",
+                    "pos": {
+                        "x": 30.6,
+                        "y": 30.5
+                    },
+                    "uuid": "85495f1d-7d98-49b7-a071-23ff7d0f7b17"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "短路了两个不同网络的项目 (网络 /KEY_PLAY 和 /GND)",
+            "items": [
+                {
+                    "description": "走线 [/KEY_PLAY] (B.Cu), 长度: 0.0707 mm",
+                    "pos": {
+                        "x": 28.05,
+                        "y": 31.25
+                    },
+                    "uuid": "8aef26f7-32ee-48bd-aefd-32ab18ef2e17"
+                },
+                {
+                    "description": "B.Cu 上 J2 的焊盘 3 [/GND]",
+                    "pos": {
+                        "x": 28.1,
+                        "y": 30.8
+                    },
+                    "uuid": "e6bdb2b5-59f2-4acc-ab0f-499f9a9c488e"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "短路了两个不同网络的项目 (网络 /KEY_PLAY 和 /INT_N)",
+            "items": [
+                {
+                    "description": "走线 [/KEY_PLAY] (B.Cu), 长度: 7.6500 mm",
+                    "pos": {
+                        "x": 22.4,
+                        "y": 32.95
+                    },
+                    "uuid": "a5e5e367-393e-4686-8880-a32f729d71e4"
+                },
+                {
+                    "description": "B.Cu 上 R6 的焊盘 2 [/INT_N]",
+                    "pos": {
+                        "x": 14.51,
+                        "y": 32.799999
+                    },
+                    "uuid": "ae867a6e-e5da-4dec-bc8c-1b25cc662f5a"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "短路了两个不同网络的项目 (网络 /KEY_PLAY 和 /GND)",
+            "items": [
+                {
+                    "description": "走线 [/KEY_PLAY] (B.Cu), 长度: 0.1000 mm",
+                    "pos": {
+                        "x": 28.25,
+                        "y": 31.2
+                    },
+                    "uuid": "70972d3a-d302-4e89-9949-e5cb06e9e15e"
+                },
+                {
+                    "description": "B.Cu 上 J2 的焊盘 3 [/GND]",
+                    "pos": {
+                        "x": 28.1,
+                        "y": 30.8
+                    },
+                    "uuid": "e6bdb2b5-59f2-4acc-ab0f-499f9a9c488e"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "间距违规 ( 间距 0.1500 mm; 实际 0.0250 mm)",
+            "items": [
+                {
+                    "description": "走线 [/KEY_PLAY] (B.Cu), 长度: 0.0707 mm",
+                    "pos": {
+                        "x": 28.75,
+                        "y": 30.9
+                    },
+                    "uuid": "54960910-37a4-472f-8355-47568de6bc04"
+                },
+                {
+                    "description": "B.Cu 上 J2 的焊盘 3 [/GND]",
+                    "pos": {
+                        "x": 28.1,
+                        "y": 30.8
+                    },
+                    "uuid": "e6bdb2b5-59f2-4acc-ab0f-499f9a9c488e"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "短路了两个不同网络的项目 (网络 /KEY_PLAY 和 /INT_N)",
+            "items": [
+                {
+                    "description": "走线 [/KEY_PLAY] (B.Cu), 长度: 4.1719 mm",
+                    "pos": {
+                        "x": 14.75,
+                        "y": 32.95
+                    },
+                    "uuid": "5ae4456c-a96f-459e-8edc-da03d1459b91"
+                },
+                {
+                    "description": "B.Cu 上 R6 的焊盘 2 [/INT_N]",
+                    "pos": {
+                        "x": 14.51,
+                        "y": 32.799999
+                    },
+                    "uuid": "ae867a6e-e5da-4dec-bc8c-1b25cc662f5a"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "短路了两个不同网络的项目 (网络 /KEY_PLAY 和 /RESET_N)",
+            "items": [
+                {
+                    "description": "走线 [/KEY_PLAY] (B.Cu), 长度: 0.2121 mm",
+                    "pos": {
+                        "x": 30.45,
+                        "y": 30.6
+                    },
+                    "uuid": "3e6e3948-fbbf-4574-b9aa-3b8c96fbc3b9"
+                },
+                {
+                    "description": "B.Cu 上 J2 的焊盘 4 [/RESET_N]",
+                    "pos": {
+                        "x": 29.9,
+                        "y": 30.8
+                    },
+                    "uuid": "82ab554f-47d6-424a-b463-8c7bd2518f8c"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "间距违规 ( 间距 0.1500 mm; 实际 0.1250 mm)",
+            "items": [
+                {
+                    "description": "走线 [/KEY_PLAY] (B.Cu), 长度: 0.0500 mm",
+                    "pos": {
+                        "x": 30.65,
+                        "y": 30.5
+                    },
+                    "uuid": "279d8de3-02e5-44da-a1f1-90c0471fdf6e"
+                },
+                {
+                    "description": "B.Cu 上 J2 的焊盘 4 [/RESET_N]",
+                    "pos": {
+                        "x": 29.9,
+                        "y": 30.8
+                    },
+                    "uuid": "82ab554f-47d6-424a-b463-8c7bd2518f8c"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "短路了两个不同网络的项目 (网络 /KEY_PLAY 和 /GND)",
+            "items": [
+                {
+                    "description": "走线 [/KEY_PLAY] (B.Cu), 长度: 0.0707 mm",
+                    "pos": {
+                        "x": 28.15,
+                        "y": 31.2
+                    },
+                    "uuid": "1f49d074-9cc6-4bdc-a6d5-89b82e700c80"
+                },
+                {
+                    "description": "B.Cu 上 J2 的焊盘 3 [/GND]",
+                    "pos": {
+                        "x": 28.1,
+                        "y": 30.8
+                    },
+                    "uuid": "e6bdb2b5-59f2-4acc-ab0f-499f9a9c488e"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "短路了两个不同网络的项目 (网络 /KEY_PLAY 和 /RESET_N)",
+            "items": [
+                {
+                    "description": "走线 [/KEY_PLAY] (B.Cu), 长度: 1.3000 mm",
+                    "pos": {
+                        "x": 30.3,
+                        "y": 30.75
+                    },
+                    "uuid": "1c11c46a-e673-42fe-aad3-77f694a4cfe3"
+                },
+                {
+                    "description": "B.Cu 上 J2 的焊盘 4 [/RESET_N]",
+                    "pos": {
+                        "x": 29.9,
+                        "y": 30.8
+                    },
+                    "uuid": "82ab554f-47d6-424a-b463-8c7bd2518f8c"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "短路了两个不同网络的项目 (网络 /KEY_PLAY 和 /GND)",
+            "items": [
+                {
+                    "description": "走线 [/KEY_PLAY] (B.Cu), 长度: 0.1414 mm",
+                    "pos": {
+                        "x": 28.65,
+                        "y": 30.95
+                    },
+                    "uuid": "03f66aca-b8a5-41f5-841e-5958b8fbd8e8"
+                },
+                {
+                    "description": "B.Cu 上 J2 的焊盘 3 [/GND]",
+                    "pos": {
+                        "x": 28.1,
+                        "y": 30.8
+                    },
+                    "uuid": "e6bdb2b5-59f2-4acc-ab0f-499f9a9c488e"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "走线 [/KEY_PLAY] (B.Cu), 长度: 0.1414 mm",
+                    "pos": {
+                        "x": 28.65,
+                        "y": 30.95
+                    },
+                    "uuid": "03f66aca-b8a5-41f5-841e-5958b8fbd8e8"
+                },
+                {
+                    "description": "B.Cu 上 J2 的焊盘 3 [/GND]",
+                    "pos": {
+                        "x": 28.1,
+                        "y": 30.8
+                    },
+                    "uuid": "e6bdb2b5-59f2-4acc-ab0f-499f9a9c488e"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "走线 [/KEY_NEXT] (B.Cu), 长度: 0.0707 mm",
+                    "pos": {
+                        "x": 27.95,
+                        "y": 30.9
+                    },
+                    "uuid": "b314c5db-9668-4b27-9eb0-bc3af5c70885"
+                },
+                {
+                    "description": "B.Cu 上 J2 的焊盘 3 [/GND]",
+                    "pos": {
+                        "x": 28.1,
+                        "y": 30.8
+                    },
+                    "uuid": "e6bdb2b5-59f2-4acc-ab0f-499f9a9c488e"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "走线 [/KEY_NEXT] (B.Cu), 长度: 0.1414 mm",
+                    "pos": {
+                        "x": 30.4,
+                        "y": 30.2
+                    },
+                    "uuid": "b317f28c-4f13-4014-885e-5a5d7d88ef49"
+                },
+                {
+                    "description": "B.Cu 上 J2 的焊盘 4 [/RESET_N]",
+                    "pos": {
+                        "x": 29.9,
+                        "y": 30.8
+                    },
+                    "uuid": "82ab554f-47d6-424a-b463-8c7bd2518f8c"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "走线 [/KEY_PLAY] (B.Cu), 长度: 1.3000 mm",
+                    "pos": {
+                        "x": 30.3,
+                        "y": 30.75
+                    },
+                    "uuid": "1c11c46a-e673-42fe-aad3-77f694a4cfe3"
+                },
+                {
+                    "description": "B.Cu 上 J2 的焊盘 4 [/RESET_N]",
+                    "pos": {
+                        "x": 29.9,
+                        "y": 30.8
+                    },
+                    "uuid": "82ab554f-47d6-424a-b463-8c7bd2518f8c"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "走线 [/KEY_PLAY] (B.Cu), 长度: 0.0707 mm",
+                    "pos": {
+                        "x": 28.15,
+                        "y": 31.2
+                    },
+                    "uuid": "1f49d074-9cc6-4bdc-a6d5-89b82e700c80"
+                },
+                {
+                    "description": "B.Cu 上 J2 的焊盘 3 [/GND]",
+                    "pos": {
+                        "x": 28.1,
+                        "y": 30.8
+                    },
+                    "uuid": "e6bdb2b5-59f2-4acc-ab0f-499f9a9c488e"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "走线 [/KEY_PLAY] (B.Cu), 长度: 0.0500 mm",
+                    "pos": {
+                        "x": 28.0,
+                        "y": 31.3
+                    },
+                    "uuid": "265cb728-2f79-44f1-b84b-918217693ac7"
+                },
+                {
+                    "description": "B.Cu 上 J2 的焊盘 3 [/GND]",
+                    "pos": {
+                        "x": 28.1,
+                        "y": 30.8
+                    },
+                    "uuid": "e6bdb2b5-59f2-4acc-ab0f-499f9a9c488e"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "走线 [/KEY_NEXT] (B.Cu), 长度: 0.0500 mm",
+                    "pos": {
+                        "x": 27.8,
+                        "y": 31.0
+                    },
+                    "uuid": "d95febab-1bf9-443d-96b5-4770b9798cbc"
+                },
+                {
+                    "description": "B.Cu 上 J2 的焊盘 3 [/GND]",
+                    "pos": {
+                        "x": 28.1,
+                        "y": 30.8
+                    },
+                    "uuid": "e6bdb2b5-59f2-4acc-ab0f-499f9a9c488e"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "走线 [/KEY_NEXT] (B.Cu), 长度: 0.1000 mm",
+                    "pos": {
+                        "x": 28.05,
+                        "y": 30.9
+                    },
+                    "uuid": "4f45306a-ed83-40d0-8bf7-733e08bcf4ac"
+                },
+                {
+                    "description": "B.Cu 上 J2 的焊盘 3 [/GND]",
+                    "pos": {
+                        "x": 28.1,
+                        "y": 30.8
+                    },
+                    "uuid": "e6bdb2b5-59f2-4acc-ab0f-499f9a9c488e"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "走线 [/KEY_NEXT] (B.Cu), 长度: 0.0707 mm",
+                    "pos": {
+                        "x": 28.55,
+                        "y": 30.6
+                    },
+                    "uuid": "01dd08b2-baf3-4d0f-80a2-b8d5bb465aad"
+                },
+                {
+                    "description": "B.Cu 上 J2 的焊盘 3 [/GND]",
+                    "pos": {
+                        "x": 28.1,
+                        "y": 30.8
+                    },
+                    "uuid": "e6bdb2b5-59f2-4acc-ab0f-499f9a9c488e"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "走线 [/KEY_NEXT] (B.Cu), 长度: 0.0500 mm",
+                    "pos": {
+                        "x": 27.9,
+                        "y": 30.95
+                    },
+                    "uuid": "e8461818-1c78-43aa-a331-839a30925a4f"
+                },
+                {
+                    "description": "B.Cu 上 J2 的焊盘 3 [/GND]",
+                    "pos": {
+                        "x": 28.1,
+                        "y": 30.8
+                    },
+                    "uuid": "e6bdb2b5-59f2-4acc-ab0f-499f9a9c488e"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "走线 [/KEY_NEXT] (B.Cu), 长度: 0.0500 mm",
+                    "pos": {
+                        "x": 30.3,
+                        "y": 30.3
+                    },
+                    "uuid": "5b100790-f7ef-472b-bec6-6fce9921fd05"
+                },
+                {
+                    "description": "B.Cu 上 J2 的焊盘 4 [/RESET_N]",
+                    "pos": {
+                        "x": 29.9,
+                        "y": 30.8
+                    },
+                    "uuid": "82ab554f-47d6-424a-b463-8c7bd2518f8c"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "走线 [/KEY_NEXT] (B.Cu), 长度: 0.0707 mm",
+                    "pos": {
+                        "x": 27.85,
+                        "y": 30.95
+                    },
+                    "uuid": "1bb83fad-d667-480c-8823-95cb4652336f"
+                },
+                {
+                    "description": "B.Cu 上 J2 的焊盘 3 [/GND]",
+                    "pos": {
+                        "x": 28.1,
+                        "y": 30.8
+                    },
+                    "uuid": "e6bdb2b5-59f2-4acc-ab0f-499f9a9c488e"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "走线 [/KEY_PLAY] (B.Cu), 长度: 0.2121 mm",
+                    "pos": {
+                        "x": 30.45,
+                        "y": 30.6
+                    },
+                    "uuid": "3e6e3948-fbbf-4574-b9aa-3b8c96fbc3b9"
+                },
+                {
+                    "description": "B.Cu 上 J2 的焊盘 4 [/RESET_N]",
+                    "pos": {
+                        "x": 29.9,
+                        "y": 30.8
+                    },
+                    "uuid": "82ab554f-47d6-424a-b463-8c7bd2518f8c"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "走线 [/KEY_NEXT] (B.Cu), 长度: 0.0500 mm",
+                    "pos": {
+                        "x": 28.25,
+                        "y": 30.8
+                    },
+                    "uuid": "ed5c89c0-525c-42ec-853d-c10c14e8cfb9"
+                },
+                {
+                    "description": "B.Cu 上 J2 的焊盘 3 [/GND]",
+                    "pos": {
+                        "x": 28.1,
+                        "y": 30.8
+                    },
+                    "uuid": "e6bdb2b5-59f2-4acc-ab0f-499f9a9c488e"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "走线 [/KEY_NEXT] (B.Cu), 长度: 0.1414 mm",
+                    "pos": {
+                        "x": 28.7,
+                        "y": 30.5
+                    },
+                    "uuid": "1feb77c8-7d4a-49d9-bf65-bf7279bbc60d"
+                },
+                {
+                    "description": "B.Cu 上 J2 的焊盘 3 [/GND]",
+                    "pos": {
+                        "x": 28.1,
+                        "y": 30.8
+                    },
+                    "uuid": "e6bdb2b5-59f2-4acc-ab0f-499f9a9c488e"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "走线 [/KEY_NEXT] (B.Cu), 长度: 0.0707 mm",
+                    "pos": {
+                        "x": 27.75,
+                        "y": 31.0
+                    },
+                    "uuid": "f4b6c04c-ff07-4db4-95ba-9234bb1cbb34"
+                },
+                {
+                    "description": "B.Cu 上 J2 的焊盘 3 [/GND]",
+                    "pos": {
+                        "x": 28.1,
+                        "y": 30.8
+                    },
+                    "uuid": "e6bdb2b5-59f2-4acc-ab0f-499f9a9c488e"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "走线 [/KEY_NEXT] (B.Cu), 长度: 0.0707 mm",
+                    "pos": {
+                        "x": 28.1,
+                        "y": 30.85
+                    },
+                    "uuid": "f5bed157-ec42-48f5-8c1b-8b7c76c2a2e0"
+                },
+                {
+                    "description": "B.Cu 上 J2 的焊盘 3 [/GND]",
+                    "pos": {
+                        "x": 28.1,
+                        "y": 30.8
+                    },
+                    "uuid": "e6bdb2b5-59f2-4acc-ab0f-499f9a9c488e"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "走线 [/KEY_NEXT] (B.Cu), 长度: 0.0500 mm",
+                    "pos": {
+                        "x": 28.6,
+                        "y": 30.6
+                    },
+                    "uuid": "28bde4cc-64ee-4bd0-a59f-cb4f1b3e6b91"
+                },
+                {
+                    "description": "B.Cu 上 J2 的焊盘 3 [/GND]",
+                    "pos": {
+                        "x": 28.1,
+                        "y": 30.8
+                    },
+                    "uuid": "e6bdb2b5-59f2-4acc-ab0f-499f9a9c488e"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "走线 [/KEY_PLAY] (B.Cu), 长度: 4.1719 mm",
+                    "pos": {
+                        "x": 14.75,
+                        "y": 32.95
+                    },
+                    "uuid": "5ae4456c-a96f-459e-8edc-da03d1459b91"
+                },
+                {
+                    "description": "B.Cu 上 R6 的焊盘 2 [/INT_N]",
+                    "pos": {
+                        "x": 14.51,
+                        "y": 32.799999
+                    },
+                    "uuid": "ae867a6e-e5da-4dec-bc8c-1b25cc662f5a"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "走线 [/KEY_NEXT] (B.Cu), 长度: 0.0707 mm",
+                    "pos": {
+                        "x": 28.3,
+                        "y": 30.75
+                    },
+                    "uuid": "32a78ec1-5f40-4d5e-8236-39be688eb7da"
+                },
+                {
+                    "description": "B.Cu 上 J2 的焊盘 3 [/GND]",
+                    "pos": {
+                        "x": 28.1,
+                        "y": 30.8
+                    },
+                    "uuid": "e6bdb2b5-59f2-4acc-ab0f-499f9a9c488e"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "走线 [/KEY_NEXT] (B.Cu), 长度: 0.0500 mm",
+                    "pos": {
+                        "x": 27.7,
+                        "y": 31.05
+                    },
+                    "uuid": "643b6502-23ea-429d-b21b-e7d04ddc638a"
+                },
+                {
+                    "description": "B.Cu 上 J2 的焊盘 3 [/GND]",
+                    "pos": {
+                        "x": 28.1,
+                        "y": 30.8
+                    },
+                    "uuid": "e6bdb2b5-59f2-4acc-ab0f-499f9a9c488e"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "走线 [/KEY_NEXT] (B.Cu), 长度: 0.0707 mm",
+                    "pos": {
+                        "x": 28.2,
+                        "y": 30.8
+                    },
+                    "uuid": "32ccd4ea-e903-495a-a27b-d2369e0756a7"
+                },
+                {
+                    "description": "B.Cu 上 J2 的焊盘 3 [/GND]",
+                    "pos": {
+                        "x": 28.1,
+                        "y": 30.8
+                    },
+                    "uuid": "e6bdb2b5-59f2-4acc-ab0f-499f9a9c488e"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "走线 [/KEY_PLAY] (B.Cu), 长度: 0.1000 mm",
+                    "pos": {
+                        "x": 28.25,
+                        "y": 31.2
+                    },
+                    "uuid": "70972d3a-d302-4e89-9949-e5cb06e9e15e"
+                },
+                {
+                    "description": "B.Cu 上 J2 的焊盘 3 [/GND]",
+                    "pos": {
+                        "x": 28.1,
+                        "y": 30.8
+                    },
+                    "uuid": "e6bdb2b5-59f2-4acc-ab0f-499f9a9c488e"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "走线 [/KEY_NEXT] (B.Cu), 长度: 0.2121 mm",
+                    "pos": {
+                        "x": 30.25,
+                        "y": 30.3
+                    },
+                    "uuid": "363cc1dd-40f8-4d13-a863-f9e678928029"
+                },
+                {
+                    "description": "B.Cu 上 J2 的焊盘 4 [/RESET_N]",
+                    "pos": {
+                        "x": 29.9,
+                        "y": 30.8
+                    },
+                    "uuid": "82ab554f-47d6-424a-b463-8c7bd2518f8c"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "走线 [/KEY_NEXT] (B.Cu), 长度: 0.1414 mm",
+                    "pos": {
+                        "x": 28.45,
+                        "y": 30.65
+                    },
+                    "uuid": "6a5fb87f-1403-4193-b4b9-ac7cf444d978"
+                },
+                {
+                    "description": "B.Cu 上 J2 的焊盘 3 [/GND]",
+                    "pos": {
+                        "x": 28.1,
+                        "y": 30.8
+                    },
+                    "uuid": "e6bdb2b5-59f2-4acc-ab0f-499f9a9c488e"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "走线 [/KEY_PLAY] (B.Cu), 长度: 0.0707 mm",
+                    "pos": {
+                        "x": 28.05,
+                        "y": 31.25
+                    },
+                    "uuid": "8aef26f7-32ee-48bd-aefd-32ab18ef2e17"
+                },
+                {
+                    "description": "B.Cu 上 J2 的焊盘 3 [/GND]",
+                    "pos": {
+                        "x": 28.1,
+                        "y": 30.8
+                    },
+                    "uuid": "e6bdb2b5-59f2-4acc-ab0f-499f9a9c488e"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "走线 [/KEY_NEXT] (B.Cu), 长度: 1.3000 mm",
+                    "pos": {
+                        "x": 30.1,
+                        "y": 30.45
+                    },
+                    "uuid": "7d6d5b71-f73a-4f55-8e48-b58d20664857"
+                },
+                {
+                    "description": "B.Cu 上 J2 的焊盘 4 [/RESET_N]",
+                    "pos": {
+                        "x": 29.9,
+                        "y": 30.8
+                    },
+                    "uuid": "82ab554f-47d6-424a-b463-8c7bd2518f8c"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "走线 [/KEY_NEXT] (B.Cu), 长度: 0.0500 mm",
+                    "pos": {
+                        "x": 28.15,
+                        "y": 30.85
+                    },
+                    "uuid": "7d6dff2f-7ce4-4fa2-814d-2ad3f4674968"
+                },
+                {
+                    "description": "B.Cu 上 J2 的焊盘 3 [/GND]",
+                    "pos": {
+                        "x": 28.1,
+                        "y": 30.8
+                    },
+                    "uuid": "e6bdb2b5-59f2-4acc-ab0f-499f9a9c488e"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "走线 [/KEY_NEXT] (B.Cu), 长度: 0.0500 mm",
+                    "pos": {
+                        "x": 27.55,
+                        "y": 31.15
+                    },
+                    "uuid": "7ed5d00d-aded-4fa6-aab8-2ef859ffb762"
+                },
+                {
+                    "description": "B.Cu 上 J2 的焊盘 3 [/GND]",
+                    "pos": {
+                        "x": 28.1,
+                        "y": 30.8
+                    },
+                    "uuid": "e6bdb2b5-59f2-4acc-ab0f-499f9a9c488e"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "走线 [/KEY_NEXT] (B.Cu), 长度: 0.0500 mm",
+                    "pos": {
+                        "x": 28.35,
+                        "y": 30.75
+                    },
+                    "uuid": "8537b617-bec8-47e5-9f25-1711d29a636b"
+                },
+                {
+                    "description": "B.Cu 上 J2 的焊盘 3 [/GND]",
+                    "pos": {
+                        "x": 28.1,
+                        "y": 30.8
+                    },
+                    "uuid": "e6bdb2b5-59f2-4acc-ab0f-499f9a9c488e"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "走线 [/KEY_NEXT] (B.Cu), 长度: 0.1414 mm",
+                    "pos": {
+                        "x": 27.65,
+                        "y": 31.05
+                    },
+                    "uuid": "9b6f7de4-e167-408a-9360-f500c70f65d4"
+                },
+                {
+                    "description": "B.Cu 上 J2 的焊盘 3 [/GND]",
+                    "pos": {
+                        "x": 28.1,
+                        "y": 30.8
+                    },
+                    "uuid": "e6bdb2b5-59f2-4acc-ab0f-499f9a9c488e"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "走线 [/KEY_NEXT] (B.Cu), 长度: 0.0500 mm",
+                    "pos": {
+                        "x": 28.5,
+                        "y": 30.65
+                    },
+                    "uuid": "9d8831cc-d06d-465d-96eb-d107c714ae9b"
+                },
+                {
+                    "description": "B.Cu 上 J2 的焊盘 3 [/GND]",
+                    "pos": {
+                        "x": 28.1,
+                        "y": 30.8
+                    },
+                    "uuid": "e6bdb2b5-59f2-4acc-ab0f-499f9a9c488e"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "走线 [/KEY_PLAY] (B.Cu), 长度: 0.0707 mm",
+                    "pos": {
+                        "x": 27.95,
+                        "y": 31.3
+                    },
+                    "uuid": "9376a7be-5a80-4b6f-823e-ed389b55e9e1"
+                },
+                {
+                    "description": "B.Cu 上 J2 的焊盘 3 [/GND]",
+                    "pos": {
+                        "x": 28.1,
+                        "y": 30.8
+                    },
+                    "uuid": "e6bdb2b5-59f2-4acc-ab0f-499f9a9c488e"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "走线 [/KEY_PLAY] (B.Cu), 长度: 0.0707 mm",
+                    "pos": {
+                        "x": 28.4,
+                        "y": 31.1
+                    },
+                    "uuid": "a237c9bb-6035-40b7-960c-f424eaff6d7f"
+                },
+                {
+                    "description": "B.Cu 上 J2 的焊盘 3 [/GND]",
+                    "pos": {
+                        "x": 28.1,
+                        "y": 30.8
+                    },
+                    "uuid": "e6bdb2b5-59f2-4acc-ab0f-499f9a9c488e"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "走线 [/KEY_PLAY] (B.Cu), 长度: 7.6500 mm",
+                    "pos": {
+                        "x": 22.4,
+                        "y": 32.95
+                    },
+                    "uuid": "a5e5e367-393e-4686-8880-a32f729d71e4"
+                },
+                {
+                    "description": "B.Cu 上 C3 的焊盘 1 [/RESET_N]",
+                    "pos": {
+                        "x": 17.52,
+                        "y": 32.799999
+                    },
+                    "uuid": "7fdf5199-e4ea-452d-9070-2be752fd0335"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "走线 [/KEY_PLAY] (B.Cu), 长度: 7.6500 mm",
+                    "pos": {
+                        "x": 22.4,
+                        "y": 32.95
+                    },
+                    "uuid": "a5e5e367-393e-4686-8880-a32f729d71e4"
+                },
+                {
+                    "description": "B.Cu 上 C3 的焊盘 2 [/GND]",
+                    "pos": {
+                        "x": 18.48,
+                        "y": 32.799999
+                    },
+                    "uuid": "7f0b7f50-28f6-400e-8ee8-30dd0b22bb76"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "走线 [/KEY_PLAY] (B.Cu), 长度: 7.6500 mm",
+                    "pos": {
+                        "x": 22.4,
+                        "y": 32.95
+                    },
+                    "uuid": "a5e5e367-393e-4686-8880-a32f729d71e4"
+                },
+                {
+                    "description": "B.Cu 上 R7 的焊盘 1 [/+3V3]",
+                    "pos": {
+                        "x": 15.49,
+                        "y": 32.799999
+                    },
+                    "uuid": "766eb022-fcf1-4e48-aec2-ddc58f3d2b6a"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "走线 [/KEY_PLAY] (B.Cu), 长度: 7.6500 mm",
+                    "pos": {
+                        "x": 22.4,
+                        "y": 32.95
+                    },
+                    "uuid": "a5e5e367-393e-4686-8880-a32f729d71e4"
+                },
+                {
+                    "description": "B.Cu 上 R7 的焊盘 2 [/RESET_N]",
+                    "pos": {
+                        "x": 16.51,
+                        "y": 32.799999
+                    },
+                    "uuid": "c3785852-b952-4c66-8399-b91ac032f304"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "走线 [/KEY_PLAY] (B.Cu), 长度: 7.6500 mm",
+                    "pos": {
+                        "x": 22.4,
+                        "y": 32.95
+                    },
+                    "uuid": "a5e5e367-393e-4686-8880-a32f729d71e4"
+                },
+                {
+                    "description": "B.Cu 上 R6 的焊盘 2 [/INT_N]",
+                    "pos": {
+                        "x": 14.51,
+                        "y": 32.799999
+                    },
+                    "uuid": "ae867a6e-e5da-4dec-bc8c-1b25cc662f5a"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "走线 [/KEY_PLAY] (B.Cu), 长度: 0.0500 mm",
+                    "pos": {
+                        "x": 30.5,
+                        "y": 30.6
+                    },
+                    "uuid": "c5d08173-9553-4e84-8484-530ae402c2f4"
+                },
+                {
+                    "description": "B.Cu 上 J2 的焊盘 4 [/RESET_N]",
+                    "pos": {
+                        "x": 29.9,
+                        "y": 30.8
+                    },
+                    "uuid": "82ab554f-47d6-424a-b463-8c7bd2518f8c"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "走线 [/KEY_PLAY] (B.Cu), 长度: 0.1414 mm",
+                    "pos": {
+                        "x": 27.85,
+                        "y": 31.35
+                    },
+                    "uuid": "ce8d595c-5054-4ef0-94ed-e099969d44bd"
+                },
+                {
+                    "description": "B.Cu 上 J2 的焊盘 3 [/GND]",
+                    "pos": {
+                        "x": 28.1,
+                        "y": 30.8
+                    },
+                    "uuid": "e6bdb2b5-59f2-4acc-ab0f-499f9a9c488e"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "走线 [/KEY_PLAY] (B.Cu), 长度: 0.0500 mm",
+                    "pos": {
+                        "x": 28.45,
+                        "y": 31.1
+                    },
+                    "uuid": "e1c7caab-3e69-42e4-9056-8b6061b4aa17"
+                },
+                {
+                    "description": "B.Cu 上 J2 的焊盘 3 [/GND]",
+                    "pos": {
+                        "x": 28.1,
+                        "y": 30.8
+                    },
+                    "uuid": "e6bdb2b5-59f2-4acc-ab0f-499f9a9c488e"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "走线 [/KEY_PLAY] (B.Cu), 长度: 0.0500 mm",
+                    "pos": {
+                        "x": 28.35,
+                        "y": 31.15
+                    },
+                    "uuid": "e3011b96-6cbb-4c79-9190-75f48624a017"
+                },
+                {
+                    "description": "B.Cu 上 J2 的焊盘 3 [/GND]",
+                    "pos": {
+                        "x": 28.1,
+                        "y": 30.8
+                    },
+                    "uuid": "e6bdb2b5-59f2-4acc-ab0f-499f9a9c488e"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "走线 [/KEY_PLAY] (B.Cu), 长度: 0.0500 mm",
+                    "pos": {
+                        "x": 28.55,
+                        "y": 31.05
+                    },
+                    "uuid": "e5b67fed-b021-4a9c-8efb-315cdd5a7b19"
+                },
+                {
+                    "description": "B.Cu 上 J2 的焊盘 3 [/GND]",
+                    "pos": {
+                        "x": 28.1,
+                        "y": 30.8
+                    },
+                    "uuid": "e6bdb2b5-59f2-4acc-ab0f-499f9a9c488e"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "走线 [/KEY_PLAY] (B.Cu), 长度: 0.0500 mm",
+                    "pos": {
+                        "x": 27.9,
+                        "y": 31.35
+                    },
+                    "uuid": "e77308ba-c584-446c-9c24-7de1a486d60c"
+                },
+                {
+                    "description": "B.Cu 上 J2 的焊盘 3 [/GND]",
+                    "pos": {
+                        "x": 28.1,
+                        "y": 30.8
+                    },
+                    "uuid": "e6bdb2b5-59f2-4acc-ab0f-499f9a9c488e"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "走线 [/KEY_PLAY] (B.Cu), 长度: 0.0500 mm",
+                    "pos": {
+                        "x": 28.7,
+                        "y": 30.95
+                    },
+                    "uuid": "ea8b4612-c2b0-4006-b723-301344da23d0"
+                },
+                {
+                    "description": "B.Cu 上 J2 的焊盘 3 [/GND]",
+                    "pos": {
+                        "x": 28.1,
+                        "y": 30.8
+                    },
+                    "uuid": "e6bdb2b5-59f2-4acc-ab0f-499f9a9c488e"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "走线 [/KEY_PLAY] (B.Cu), 长度: 0.0707 mm",
+                    "pos": {
+                        "x": 28.3,
+                        "y": 31.15
+                    },
+                    "uuid": "f4c70e5e-0f89-467e-b3bb-d1448b2e10e7"
+                },
+                {
+                    "description": "B.Cu 上 J2 的焊盘 3 [/GND]",
+                    "pos": {
+                        "x": 28.1,
+                        "y": 30.8
+                    },
+                    "uuid": "e6bdb2b5-59f2-4acc-ab0f-499f9a9c488e"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "走线 [/KEY_PLAY] (B.Cu), 长度: 0.0707 mm",
+                    "pos": {
+                        "x": 28.5,
+                        "y": 31.05
+                    },
+                    "uuid": "fc688074-eb99-4b39-93d6-1bb8a630cc2d"
+                },
+                {
+                    "description": "B.Cu 上 J2 的焊盘 3 [/GND]",
+                    "pos": {
+                        "x": 28.1,
+                        "y": 30.8
+                    },
+                    "uuid": "e6bdb2b5-59f2-4acc-ab0f-499f9a9c488e"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "走线 [/KEY_PLAY] (B.Cu), 长度: 0.0500 mm",
+                    "pos": {
+                        "x": 28.1,
+                        "y": 31.25
+                    },
+                    "uuid": "fefea430-f66c-4eed-9963-9e39b1e608ba"
+                },
+                {
+                    "description": "B.Cu 上 J2 的焊盘 3 [/GND]",
+                    "pos": {
+                        "x": 28.1,
+                        "y": 30.8
+                    },
+                    "uuid": "e6bdb2b5-59f2-4acc-ab0f-499f9a9c488e"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [/KEY_PLAY] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 11.5,
+                        "y": 29.9
+                    },
+                    "uuid": "d124a411-06ac-4d80-9f16-1ab74254b66a"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [/KEY_NEXT] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 11.5,
+                        "y": 29.1
+                    },
+                    "uuid": "52401081-63b2-411d-8ca7-caac97be1c85"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [/KEY_NEXT] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 34.5,
+                        "y": 17.8773
+                    },
+                    "uuid": "86a4f7cc-cc93-4ca4-8bef-55795dfdc4ba"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [/KEY_BACK] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 23.7824,
+                        "y": 22.5023
+                    },
+                    "uuid": "9f26f075-d2d3-4379-86af-e4c191f498dd"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [/KEY_BACK] (B.Cu), 长度: 0.0335 mm",
+                    "pos": {
+                        "x": 21.2915,
+                        "y": 18.8675
+                    },
+                    "uuid": "12d9cc2d-06ad-4e61-8c67-233c85a8bb20"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [/RESET_N] (F.Cu), 长度: 0.2428 mm",
+                    "pos": {
+                        "x": 5.5746,
+                        "y": 22.9242
+                    },
+                    "uuid": "2616db20-b890-49d4-b9ff-fbd6b9d434bc"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [/RESET_N] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 1.5573,
+                        "y": 23.8311
+                    },
+                    "uuid": "c83f6953-c28e-4a07-a2b6-53fe8e374635"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [/RESET_N] (B.Cu), 长度: 1.4142 mm",
+                    "pos": {
+                        "x": 19.4,
+                        "y": 26.6
+                    },
+                    "uuid": "cc8ede16-3025-4d8f-a484-41559c50ef11"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [/+3V3] (F.Cu), 长度: 0.0250 mm",
+                    "pos": {
+                        "x": 9.775,
+                        "y": 23.85
+                    },
+                    "uuid": "7dac7d75-d943-48c1-8a7d-c4c65aaa484e"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [/+3V3] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 19.257,
+                        "y": 23.4127
+                    },
+                    "uuid": "128ab720-0a84-4725-96fa-dbfe2f51004a"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [/+3V3] (B.Cu), 长度: 1.6088 mm",
+                    "pos": {
+                        "x": 13.8,
+                        "y": 21.29
+                    },
+                    "uuid": "2290d553-3abc-4b0c-88fa-e66d43dfbd1e"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [/+3V3] (B.Cu), 长度: 1.1130 mm",
+                    "pos": {
+                        "x": 3.6156,
+                        "y": 22.9664
+                    },
+                    "uuid": "c544a27e-d0d9-4973-9893-006a3d589ac6"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [/+3V3] (B.Cu), 长度: 1.1328 mm",
+                    "pos": {
+                        "x": 26.5563,
+                        "y": 23.4127
+                    },
+                    "uuid": "c9d5f4a1-1f45-4e03-a4a6-3464f4918af5"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [/+3V3] (B.Cu), 长度: 0.4997 mm",
+                    "pos": {
+                        "x": 34.2702,
+                        "y": 17.3296
+                    },
+                    "uuid": "cf3d495f-42d4-4e3e-99c1-0b1631baae73"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [/SCL] (F.Cu), 长度: 4.0414 mm",
+                    "pos": {
+                        "x": 1.5588,
+                        "y": 20.3907
+                    },
+                    "uuid": "46c8eee8-5a2c-465d-83aa-9760f098be66"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [/SCL] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 9.1,
+                        "y": 27.0
+                    },
+                    "uuid": "3dccd76d-0f24-4532-bb8e-99bbc3b8e4c0"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [/SDA] (F.Cu), 长度: 0.4031 mm",
+                    "pos": {
+                        "x": 6.0096,
+                        "y": 22.9042
+                    },
+                    "uuid": "01e1f0b5-fd1e-471e-8c31-c423c3f50ea7"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [/INT_N] (F.Cu), 长度: 1.2642 mm",
+                    "pos": {
+                        "x": 5.0812,
+                        "y": 22.8858
+                    },
+                    "uuid": "ea368319-4cd7-4a44-8367-41bdaf3854d5"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [/SENSE1] (B.Cu), 长度: 0.8485 mm",
+                    "pos": {
+                        "x": 5.4,
+                        "y": 23.31
+                    },
+                    "uuid": "8fecaa76-5b54-4508-a288-07f83ab998fb"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [/VDD_MCU] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 6.4,
+                        "y": 26.8
+                    },
+                    "uuid": "dfe9cd11-c022-4584-9d45-253f872ace05"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [/SWIO] (B.Cu), 长度: 0.4000 mm",
+                    "pos": {
+                        "x": 18.4,
+                        "y": 29.4
+                    },
+                    "uuid": "6613cd35-a9a9-426e-9a55-d3cd632cf1ca"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [/SENSE0] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 10.0,
+                        "y": 31.9
+                    },
+                    "uuid": "eeea8667-4df0-4466-97a9-215c0cfe85c2"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [/SENSE2] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 7.8,
+                        "y": 31.9
+                    },
+                    "uuid": "39ca0949-6b14-485f-b173-bcba045e0ed1"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [/SENSE2] (B.Cu), 长度: 1.0793 mm",
+                    "pos": {
+                        "x": 4.9632,
+                        "y": 22.6732
+                    },
+                    "uuid": "dfd8392a-cbdc-4e24-a478-882ef30ff53d"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "钻孔太靠近其他孔 (电路板配置约束 最小 0.2495 mm; 实际 0.0000 mm)",
+            "items": [
+                {
+                    "description": "过孔 [/SDA] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 8.75,
+                        "y": 7.6
+                    },
+                    "uuid": "71e37015-854d-46be-9172-22cbdfe47e9d"
+                },
+                {
+                    "description": "过孔 [/SDA] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 8.525,
+                        "y": 7.528
+                    },
+                    "uuid": "8c8a407f-15cb-4dc8-b958-1f4ca772bca7"
+                }
+            ],
+            "severity": "warning",
+            "type": "hole_to_hole"
+        }
+    ]
+}

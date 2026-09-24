@@ -1,0 +1,17 @@
+{
+  "gerber_object_counts": {
+    "controls-B_Cu.gbl": 468,
+    "controls-B_Mask.gbs": 92,
+    "controls-B_Paste.gbp": 91,
+    "controls-B_Silkscreen.gbo": 157,
+    "controls-Edge_Cuts.gm1": 8,
+    "controls-F_Cu.gtl": 200,
+    "controls-F_Mask.gts": 14,
+    "controls-F_Paste.gtp": 10,
+    "controls-F_Silkscreen.gto": 306
+  },
+  "drill_counts": {
+    "controls-NPTH.drl": 4,
+    "controls-PTH.drl": 52
+  }
+}

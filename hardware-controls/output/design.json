@@ -1,0 +1,624 @@
+{
+  "revision": "C",
+  "root_uuid": "2961101a-2a80-5d73-b04f-420df5e25480",
+  "components": [
+    {
+      "ref": "U1",
+      "value": "CH32V006F8U6",
+      "kind": "CH32V006F8U6",
+      "nets": {
+        "0": "GND",
+        "1": "RESET_N",
+        "4": "GND",
+        "6": "VDD_MCU",
+        "7": "INT_N",
+        "8": "SDA",
+        "9": "SCL",
+        "10": "KEY_BACK",
+        "12": "KEY_PREV",
+        "13": "KEY_NEXT",
+        "14": "KEY_PLAY",
+        "15": "SWIO",
+        "16": "SENSE0",
+        "17": "SENSE1",
+        "18": "SENSE2"
+      },
+      "footprint": "CH32V006_QFN20",
+      "symbol_uuid": "5f68d5d5-c7aa-538b-9ccb-f7d0b5aed424",
+      "pcb": [
+        8.3,
+        29.5,
+        "B",
+        0
+      ],
+      "description": "QFN20 3x3 P0.4 EP1.9; hardware TKEY3/4/7; firmware required",
+      "datasheet": "https://www.wch.cn/downloads/CH32V006DS0_PDF.html"
+    },
+    {
+      "ref": "E1",
+      "value": "31mm INTERPOLATED WHEEL",
+      "kind": "Wheel",
+      "nets": {
+        "1": "WHEEL0",
+        "2": "WHEEL1",
+        "3": "WHEEL2"
+      },
+      "footprint": "Wheel_D31",
+      "symbol_uuid": "c4e59559-d566-5db9-851d-f988d8779bf6",
+      "pcb": [
+        22,
+        17,
+        "F",
+        0
+      ],
+      "description": "Original 3-electrode geometry; covered copper, no paste",
+      "datasheet": ""
+    },
+    {
+      "ref": "R1",
+      "value": "1k",
+      "kind": "Resistor",
+      "nets": {
+        "1": "WHEEL0",
+        "2": "SENSE0"
+      },
+      "footprint": "R0402",
+      "symbol_uuid": "f60661de-db21-5729-82f6-04aa365d2a08",
+      "pcb": [
+        7.8,
+        22.2,
+        "B",
+        -90.0
+      ],
+      "description": "0402 series resistor; initial 1k, tune charge timing on hardware",
+      "datasheet": ""
+    },
+    {
+      "ref": "R2",
+      "value": "1k",
+      "kind": "Resistor",
+      "nets": {
+        "1": "WHEEL1",
+        "2": "SENSE1"
+      },
+      "footprint": "R0402",
+      "symbol_uuid": "94ab933c-dd86-5c8d-b0c2-dbf5436135b8",
+      "pcb": [
+        6.0,
+        22.2,
+        "B",
+        -90.0
+      ],
+      "description": "0402 series resistor; initial 1k, tune charge timing on hardware",
+      "datasheet": ""
+    },
+    {
+      "ref": "R3",
+      "value": "1k",
+      "kind": "Resistor",
+      "nets": {
+        "1": "WHEEL2",
+        "2": "SENSE2"
+      },
+      "footprint": "R0402",
+      "symbol_uuid": "707f3503-529a-5ffd-9a0c-a538062febd6",
+      "pcb": [
+        4.2,
+        21.4,
+        "B",
+        -90.0
+      ],
+      "description": "0402 series resistor; initial 1k, tune charge timing on hardware",
+      "datasheet": ""
+    },
+    {
+      "ref": "R4",
+      "value": "4.7k",
+      "kind": "Resistor",
+      "nets": {
+        "1": "+3V3",
+        "2": "SDA"
+      },
+      "footprint": "R0402",
+      "symbol_uuid": "c634dd24-37aa-55e1-bd41-fb0ea2a0f35c",
+      "pcb": [
+        14,
+        25.2,
+        "B",
+        0
+      ],
+      "description": "3.3 V pull-up; INT_N must be open-drain in firmware",
+      "datasheet": ""
+    },
+    {
+      "ref": "R5",
+      "value": "4.7k",
+      "kind": "Resistor",
+      "nets": {
+        "1": "+3V3",
+        "2": "SCL"
+      },
+      "footprint": "R0402",
+      "symbol_uuid": "c9372d97-827f-5657-bc3f-b834404e9e36",
+      "pcb": [
+        14,
+        26.7,
+        "B",
+        0
+      ],
+      "description": "3.3 V pull-up; INT_N must be open-drain in firmware",
+      "datasheet": ""
+    },
+    {
+      "ref": "R6",
+      "value": "10k",
+      "kind": "Resistor",
+      "nets": {
+        "1": "+3V3",
+        "2": "INT_N"
+      },
+      "footprint": "R0402",
+      "symbol_uuid": "62ba2c80-9a76-567f-97e1-f170736fcfa1",
+      "pcb": [
+        14,
+        32.8,
+        "B",
+        0
+      ],
+      "description": "3.3 V pull-up; INT_N must be open-drain in firmware",
+      "datasheet": ""
+    },
+    {
+      "ref": "R7",
+      "value": "10k",
+      "kind": "Resistor",
+      "nets": {
+        "1": "+3V3",
+        "2": "RESET_N"
+      },
+      "footprint": "R0402",
+      "symbol_uuid": "c52c6784-9eb2-52da-97ab-59b395e069eb",
+      "pcb": [
+        16,
+        32.8,
+        "B",
+        0
+      ],
+      "description": "3.3 V pull-up; INT_N must be open-drain in firmware",
+      "datasheet": ""
+    },
+    {
+      "ref": "R8",
+      "value": "0R",
+      "kind": "Resistor",
+      "nets": {
+        "1": "+3V3",
+        "2": "VDD_MCU"
+      },
+      "footprint": "R0402",
+      "symbol_uuid": "be7fa960-9a5f-57be-9b43-143b4f382c45",
+      "pcb": [
+        5.3,
+        31.5,
+        "B",
+        0
+      ],
+      "description": "MCU supply link; replaces old 22R filter, do not fit 22R",
+      "datasheet": ""
+    },
+    {
+      "ref": "C1",
+      "value": "100nF",
+      "kind": "Capacitor",
+      "nets": {
+        "1": "VDD_MCU",
+        "2": "GND"
+      },
+      "footprint": "C0402",
+      "symbol_uuid": "e9aa5173-d685-5c14-a515-bac11c92e149",
+      "pcb": [
+        5.2,
+        26.4,
+        "B",
+        0
+      ],
+      "description": "X7R 10 V, nearest U1.6 bypass",
+      "datasheet": ""
+    },
+    {
+      "ref": "C2",
+      "value": "1uF",
+      "kind": "Capacitor",
+      "nets": {
+        "1": "VDD_MCU",
+        "2": "GND"
+      },
+      "footprint": "C0402",
+      "symbol_uuid": "8dec2fea-1538-537d-a352-e39d5531ef1a",
+      "pcb": [
+        4.9,
+        29.7,
+        "B",
+        0
+      ],
+      "description": "X5R/X7R 10 V reservoir",
+      "datasheet": ""
+    },
+    {
+      "ref": "C3",
+      "value": "100nF",
+      "kind": "Capacitor",
+      "nets": {
+        "1": "RESET_N",
+        "2": "GND"
+      },
+      "footprint": "C0402",
+      "symbol_uuid": "fb06b44e-6582-569d-9046-cff6122a2319",
+      "pcb": [
+        18,
+        32.8,
+        "B",
+        0
+      ],
+      "description": "Reset RC with R7; configure PD7 as hardware reset in option bytes",
+      "datasheet": ""
+    },
+    {
+      "ref": "SW1",
+      "value": "SKSWCEE010",
+      "kind": "Switch",
+      "nets": {
+        "1": "KEY_POWER",
+        "2": "GND"
+      },
+      "footprint": "SKSW_3x2",
+      "symbol_uuid": "0db64c91-d4ec-5e85-ad54-e13a499cf33f",
+      "pcb": [
+        22.0,
+        17.0,
+        "F",
+        0
+      ],
+      "description": "POWER independent active-low POWER",
+      "datasheet": ""
+    },
+    {
+      "ref": "SW2",
+      "value": "SKSWCEE010",
+      "kind": "Switch",
+      "nets": {
+        "1": "KEY_BACK",
+        "2": "GND"
+      },
+      "footprint": "SKSW_3x2",
+      "symbol_uuid": "62ac51b4-d4d8-5699-89e0-e601efba88a8",
+      "pcb": [
+        22.0,
+        4.0,
+        "F",
+        0
+      ],
+      "description": "BACK CH32V006 input, active-low, firmware debounce",
+      "datasheet": ""
+    },
+    {
+      "ref": "SW3",
+      "value": "SKSWCEE010",
+      "kind": "Switch",
+      "nets": {
+        "1": "KEY_PREV",
+        "2": "GND"
+      },
+      "footprint": "SKSW_3x2",
+      "symbol_uuid": "22a46cea-c503-549f-a7e6-1d8f3702c712",
+      "pcb": [
+        9.0,
+        17.0,
+        "F",
+        90.0
+      ],
+      "description": "PREV CH32V006 input, active-low, firmware debounce",
+      "datasheet": ""
+    },
+    {
+      "ref": "SW4",
+      "value": "SKSWCEE010",
+      "kind": "Switch",
+      "nets": {
+        "1": "KEY_NEXT",
+        "2": "GND"
+      },
+      "footprint": "SKSW_3x2",
+      "symbol_uuid": "689f5eb4-bd3a-5662-b5be-4fc84824ccc5",
+      "pcb": [
+        35.0,
+        17.0,
+        "F",
+        90.0
+      ],
+      "description": "NEXT CH32V006 input, active-low, firmware debounce",
+      "datasheet": ""
+    },
+    {
+      "ref": "SW5",
+      "value": "SKSWCEE010",
+      "kind": "Switch",
+      "nets": {
+        "1": "KEY_PLAY",
+        "2": "GND"
+      },
+      "footprint": "SKSW_3x2",
+      "symbol_uuid": "5670fc14-5700-5369-bd5c-827839b624bc",
+      "pcb": [
+        22.0,
+        30.0,
+        "F",
+        0
+      ],
+      "description": "PLAY CH32V006 input, active-low, firmware debounce",
+      "datasheet": ""
+    },
+    {
+      "ref": "R14",
+      "value": "10k",
+      "kind": "Resistor",
+      "nets": {
+        "1": "+3V3",
+        "2": "KEY_POWER"
+      },
+      "footprint": "R0402",
+      "symbol_uuid": "1d443aa7-e4bb-5381-84b4-54e5489f7e5e",
+      "pcb": [
+        12.0,
+        1.4,
+        "B",
+        -90.0
+      ],
+      "description": "POWER remains independent of MCU; released high, pressed low",
+      "datasheet": ""
+    },
+    {
+      "ref": "R9",
+      "value": "47k",
+      "kind": "Resistor",
+      "nets": {
+        "1": "+3V3",
+        "2": "KEY_BACK"
+      },
+      "footprint": "R0402",
+      "symbol_uuid": "8d4d716b-ee1a-5094-bab5-a427e1e71343",
+      "pcb": [
+        16,
+        31,
+        "B",
+        90
+      ],
+      "description": "External GPIO pull-up; debounce in firmware",
+      "datasheet": ""
+    },
+    {
+      "ref": "R10",
+      "value": "47k",
+      "kind": "Resistor",
+      "nets": {
+        "1": "+3V3",
+        "2": "KEY_PREV"
+      },
+      "footprint": "R0402",
+      "symbol_uuid": "7559f249-18eb-5983-af3e-48af07bc0c50",
+      "pcb": [
+        18,
+        31,
+        "B",
+        90
+      ],
+      "description": "External GPIO pull-up; debounce in firmware",
+      "datasheet": ""
+    },
+    {
+      "ref": "R11",
+      "value": "47k",
+      "kind": "Resistor",
+      "nets": {
+        "1": "+3V3",
+        "2": "KEY_NEXT"
+      },
+      "footprint": "R0402",
+      "symbol_uuid": "8189c2d3-adfa-5479-aa41-b36824f23571",
+      "pcb": [
+        20,
+        31,
+        "B",
+        90
+      ],
+      "description": "External GPIO pull-up; debounce in firmware",
+      "datasheet": ""
+    },
+    {
+      "ref": "R12",
+      "value": "47k",
+      "kind": "Resistor",
+      "nets": {
+        "1": "+3V3",
+        "2": "KEY_PLAY"
+      },
+      "footprint": "R0402",
+      "symbol_uuid": "009a27c0-15d0-5917-87ea-5e526cc9de73",
+      "pcb": [
+        24,
+        31,
+        "B",
+        90
+      ],
+      "description": "External GPIO pull-up; debounce in firmware",
+      "datasheet": ""
+    },
+    {
+      "ref": "J1",
+      "value": "HC-FPC-05-10-12RLTAG",
+      "kind": "FPC12",
+      "nets": {
+        "1": "GND",
+        "2": "+3V3",
+        "3": "SDA",
+        "4": "SCL",
+        "5": "INT_N",
+        "6": "RESET_N",
+        "11": "KEY_POWER",
+        "12": "GND",
+        "13": "GND",
+        "14": "GND"
+      },
+      "footprint": "HCTL_FPC12",
+      "symbol_uuid": "77b6b492-dda9-5e98-89df-7575b25b7d6b",
+      "pcb": [
+        8.13,
+        9.411,
+        "B",
+        -90.0
+      ],
+      "description": "Unchanged 12-pin 0.5mm mainboard interface; pins 7-10 NC",
+      "datasheet": ""
+    },
+    {
+      "ref": "J2",
+      "value": "WCH_SDI_PADS",
+      "kind": "SDI_4",
+      "nets": {
+        "1": "VDD_MCU",
+        "2": "SWIO",
+        "3": "GND",
+        "4": "RESET_N"
+      },
+      "footprint": "SDI_4_Pads",
+      "symbol_uuid": "dea7fd9d-93aa-5d90-8f69-1daa8282172b",
+      "pcb": [
+        29,
+        31.7,
+        "B",
+        0
+      ],
+      "description": "Bare pogo/solder pads, NO header to populate; 3.3 V WCH-Link single-wire SDI",
+      "datasheet": ""
+    },
+    {
+      "ref": "H1",
+      "value": "M1.6 / NPTH 1.8",
+      "kind": "MountingHole",
+      "nets": {},
+      "footprint": "Mount_1.8",
+      "symbol_uuid": "87e9537a-386a-59d8-aa67-8c0eeefb301f",
+      "pcb": [
+        41.0,
+        8.7,
+        "F",
+        0
+      ],
+      "description": "Unchanged enclosure mounting position",
+      "datasheet": ""
+    },
+    {
+      "ref": "H2",
+      "value": "M1.6 / NPTH 1.8",
+      "kind": "MountingHole",
+      "nets": {},
+      "footprint": "Mount_1.8",
+      "symbol_uuid": "81289903-5f2b-55de-a35c-b6e11d9c941f",
+      "pcb": [
+        3.0,
+        8.7,
+        "F",
+        0
+      ],
+      "description": "Unchanged enclosure mounting position",
+      "datasheet": ""
+    },
+    {
+      "ref": "H3",
+      "value": "M1.6 / NPTH 1.8",
+      "kind": "MountingHole",
+      "nets": {},
+      "footprint": "Mount_1.8",
+      "symbol_uuid": "6cb05c95-2a02-57c3-8712-7891a4b17327",
+      "pcb": [
+        41.0,
+        24.7,
+        "F",
+        0
+      ],
+      "description": "Unchanged enclosure mounting position",
+      "datasheet": ""
+    },
+    {
+      "ref": "H4",
+      "value": "M1.6 / NPTH 1.8",
+      "kind": "MountingHole",
+      "nets": {},
+      "footprint": "Mount_1.8",
+      "symbol_uuid": "676e21c1-1ebc-5747-8aa7-2a29019054c4",
+      "pcb": [
+        3.0,
+        24.7,
+        "F",
+        0
+      ],
+      "description": "Unchanged enclosure mounting position",
+      "datasheet": ""
+    }
+  ],
+  "connector_pinout": [
+    "GND",
+    "+3V3",
+    "SDA",
+    "SCL",
+    "INT_N",
+    "RESET_N",
+    null,
+    null,
+    null,
+    null,
+    "KEY_POWER",
+    "GND"
+  ],
+  "pinout": {
+    "0": "VSS_EP",
+    "1": "PD7/~{RST}",
+    "2": "PA1/TKEY1",
+    "3": "PA2/TKEY0",
+    "4": "VSS",
+    "5": "PD0",
+    "6": "VDD",
+    "7": "PC0/INT",
+    "8": "PC1/SDA",
+    "9": "PC2/SCL",
+    "10": "PC3",
+    "11": "PC4/TKEY2",
+    "12": "PC5",
+    "13": "PC6",
+    "14": "PC7",
+    "15": "PD1/SWIO",
+    "16": "PD2/TKEY3",
+    "17": "PD3/TKEY4",
+    "18": "PD4/TKEY7",
+    "19": "PD5/TKEY5",
+    "20": "PD6/TKEY6"
+  },
+  "mcu_nets": {
+    "0": "GND",
+    "1": "RESET_N",
+    "4": "GND",
+    "6": "VDD_MCU",
+    "7": "INT_N",
+    "8": "SDA",
+    "9": "SCL",
+    "10": "KEY_BACK",
+    "12": "KEY_PREV",
+    "13": "KEY_NEXT",
+    "14": "KEY_PLAY",
+    "15": "SWIO",
+    "16": "SENSE0",
+    "17": "SENSE1",
+    "18": "SENSE2"
+  },
+  "source_pcb_sha256": "bf1cbd372979ea753bb2b9f4d9078b64513caa0bafdff4b06b10188c1d9859a5"
+}

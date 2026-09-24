@@ -1,0 +1,26 @@
+{
+  "pcb_sha256": "bf1cbd372979ea753bb2b9f4d9078b64513caa0bafdff4b06b10188c1d9859a5",
+  "archive_sha256": "2493ba45bd65c369f67105f2f989d4010d2387df1bdd1bf01569ad84af483e0f",
+  "files": {
+    "controls-B_Cu.gbl": "6ea4dcd7fbf1e5e984008bfe3b081cd633fa9e096ee238fab70e4944eb72c96b",
+    "controls-B_Mask.gbs": "57a77e325bc40fbef8843211824cfd583a8e6effaa7b8f269190ebe4702f413c",
+    "controls-B_Paste.gbp": "33e6659789f104dcea624f5d6a57e5ec4dba558376748a1ec5e33b51822417a8",
+    "controls-B_Silkscreen.gbo": "4b18154979c337f97c1875fd17f0c85100afda075e130905633aeabf204bb992",
+    "controls-Edge_Cuts.gm1": "5a1e28a4372827ca853efdb4072831881e2305a5d8d895afc69bd734c83777fc",
+    "controls-F_Cu.gtl": "d8b39dde4d3039d8c959338c3c8029f8613dd62e5c0b8bb6cc4c16e203037882",
+    "controls-F_Mask.gts": "ed63648e3b079cbb0f01c003605fda5f1450b450c63721030e46e0a928dc7520",
+    "controls-F_Paste.gtp": "96f89a137b73307c6fd5bf839e7d4706dfaa27f5af2a3e7dda7bc2866abef6ac",
+    "controls-F_Silkscreen.gto": "daba1a9a48b39ca8df720afa4a97ea5e437035d1ccf67a5aa00a3be4f8fd4913",
+    "controls-job.gbrjob": "2e3a3ce06a50b03d5d1dee9055f0cc557acdef13fc8cd224bd0e49bf1134c1cd",
+    "controls-NPTH.drl": "2bd60007b13cec44317ef32613dbc60c5759a7a0878529620e46843674469878",
+    "controls-PTH.drl": "5c28221fa5ed6bc872cf29ad2a384334ba1c54d2405029c9a031551798973001",
+    "README.txt": "e879a6c1b5d46482bfa9f7a7ba81289251e152571d7a25faf81db2069b1ecc41"
+  },
+  "pth_count": 52,
+  "npth_count": 4,
+  "dimensions_mm": [
+    44,
+    34,
+    0.8
+  ]
+}

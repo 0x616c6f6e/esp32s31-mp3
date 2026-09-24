@@ -1,0 +1,841 @@
+{
+  "root_uuid": "2961101a-2a80-5d73-b04f-420df5e25480",
+  "components": [
+    {
+      "ref": "U1",
+      "value": "AT42QT2120-MMHR",
+      "kind": "QT2120",
+      "nets": {
+        "5": "SENSE2",
+        "6": "SENSE1",
+        "7": "SENSE0",
+        "8": "GND",
+        "9": "VDD_TOUCH",
+        "10": "GND",
+        "11": "SDA",
+        "12": "RESET_N",
+        "14": "SCL",
+        "15": "INT_N",
+        "21": "GND"
+      },
+      "footprint": "QT2120_VQFN20",
+      "symbol_uuid": "5f68d5d5-c7aa-538b-9ccb-f7d0b5aed424",
+      "pcb": [
+        38.3,
+        28.8,
+        "B",
+        0
+      ],
+      "description": "3-channel wheel / I2C address 0x1C",
+      "datasheet": "https://ww1.microchip.com/downloads/en/devicedoc/doc9634.pdf"
+    },
+    {
+      "ref": "E1",
+      "value": "31mm INTERPOLATED WHEEL",
+      "kind": "Wheel",
+      "nets": {
+        "1": "WHEEL0",
+        "2": "WHEEL1",
+        "3": "WHEEL2"
+      },
+      "footprint": "Wheel_D31",
+      "symbol_uuid": "c4e59559-d566-5db9-851d-f988d8779bf6",
+      "pcb": [
+        22,
+        17,
+        "F",
+        0
+      ],
+      "description": "Covered copper, no paste; tune with final nonmetal cover",
+      "datasheet": ""
+    },
+    {
+      "ref": "R1",
+      "value": "10k",
+      "kind": "Resistor",
+      "nets": {
+        "1": "WHEEL0",
+        "2": "SENSE0"
+      },
+      "footprint": "R0402",
+      "symbol_uuid": "f60661de-db21-5729-82f6-04aa365d2a08",
+      "pcb": [
+        36.2,
+        22.2,
+        "B",
+        -90
+      ],
+      "description": "1% 0402 electrode series resistor",
+      "datasheet": ""
+    },
+    {
+      "ref": "R2",
+      "value": "10k",
+      "kind": "Resistor",
+      "nets": {
+        "1": "WHEEL1",
+        "2": "SENSE1"
+      },
+      "footprint": "R0402",
+      "symbol_uuid": "94ab933c-dd86-5c8d-b0c2-dbf5436135b8",
+      "pcb": [
+        38.0,
+        22.2,
+        "B",
+        -90
+      ],
+      "description": "1% 0402 electrode series resistor",
+      "datasheet": ""
+    },
+    {
+      "ref": "R3",
+      "value": "10k",
+      "kind": "Resistor",
+      "nets": {
+        "1": "WHEEL2",
+        "2": "SENSE2"
+      },
+      "footprint": "R0402",
+      "symbol_uuid": "707f3503-529a-5ffd-9a0c-a538062febd6",
+      "pcb": [
+        39.800000000000004,
+        21.4,
+        "B",
+        -90
+      ],
+      "description": "1% 0402 electrode series resistor",
+      "datasheet": ""
+    },
+    {
+      "ref": "R4",
+      "value": "4.7k",
+      "kind": "Resistor",
+      "nets": {
+        "1": "+3V3",
+        "2": "SDA"
+      },
+      "footprint": "R0402",
+      "symbol_uuid": "c634dd24-37aa-55e1-bd41-fb0ea2a0f35c",
+      "pcb": [
+        30.8,
+        26,
+        "B",
+        90
+      ],
+      "description": "Host-side 3.3 V pull-up; remove R4/R5 if host already supplies adequate I2C pull-ups",
+      "datasheet": ""
+    },
+    {
+      "ref": "R5",
+      "value": "4.7k",
+      "kind": "Resistor",
+      "nets": {
+        "1": "+3V3",
+        "2": "SCL"
+      },
+      "footprint": "R0402",
+      "symbol_uuid": "c9372d97-827f-5657-bc3f-b834404e9e36",
+      "pcb": [
+        30.8,
+        28.2,
+        "B",
+        90
+      ],
+      "description": "Host-side 3.3 V pull-up; remove R4/R5 if host already supplies adequate I2C pull-ups",
+      "datasheet": ""
+    },
+    {
+      "ref": "R6",
+      "value": "10k",
+      "kind": "Resistor",
+      "nets": {
+        "1": "+3V3",
+        "2": "INT_N"
+      },
+      "footprint": "R0402",
+      "symbol_uuid": "62ba2c80-9a76-567f-97e1-f170736fcfa1",
+      "pcb": [
+        32,
+        31,
+        "B",
+        90
+      ],
+      "description": "Host-side 3.3 V pull-up; remove R4/R5 if host already supplies adequate I2C pull-ups",
+      "datasheet": ""
+    },
+    {
+      "ref": "R7",
+      "value": "10k",
+      "kind": "Resistor",
+      "nets": {
+        "1": "+3V3",
+        "2": "RESET_N"
+      },
+      "footprint": "R0402",
+      "symbol_uuid": "c52c6784-9eb2-52da-97ab-59b395e069eb",
+      "pcb": [
+        34.2,
+        31,
+        "B",
+        90
+      ],
+      "description": "Host-side 3.3 V pull-up; remove R4/R5 if host already supplies adequate I2C pull-ups",
+      "datasheet": ""
+    },
+    {
+      "ref": "R8",
+      "value": "22R",
+      "kind": "Resistor",
+      "nets": {
+        "1": "+3V3",
+        "2": "VDD_TOUCH"
+      },
+      "footprint": "R0402",
+      "symbol_uuid": "be7fa960-9a5f-57be-9b43-143b4f382c45",
+      "pcb": [
+        30.2,
+        21.8,
+        "B",
+        -90
+      ],
+      "description": "Low-current RC supply filter",
+      "datasheet": ""
+    },
+    {
+      "ref": "C1",
+      "value": "100nF",
+      "kind": "Capacitor",
+      "nets": {
+        "1": "VDD_TOUCH",
+        "2": "GND"
+      },
+      "footprint": "C0402",
+      "symbol_uuid": "e9aa5173-d685-5c14-a515-bac11c92e149",
+      "pcb": [
+        36.7,
+        26,
+        "B",
+        0
+      ],
+      "description": "X7R 10 V, close to U1 VDD",
+      "datasheet": ""
+    },
+    {
+      "ref": "C2",
+      "value": "1uF",
+      "kind": "Capacitor",
+      "nets": {
+        "1": "VDD_TOUCH",
+        "2": "GND"
+      },
+      "footprint": "C0402",
+      "symbol_uuid": "8dec2fea-1538-537d-a352-e39d5531ef1a",
+      "pcb": [
+        32,
+        24.1,
+        "B",
+        0
+      ],
+      "description": "X5R/X7R 10 V reservoir",
+      "datasheet": ""
+    },
+    {
+      "ref": "SW1",
+      "value": "SKSWCEE010",
+      "kind": "Switch",
+      "nets": {
+        "1": "KEY_POWER",
+        "2": "GND"
+      },
+      "footprint": "SKSW_3x2",
+      "symbol_uuid": "0db64c91-d4ec-5e85-ad54-e13a499cf33f",
+      "pcb": [
+        22,
+        17,
+        "F",
+        0
+      ],
+      "description": "POWER / independent active-low key; local 10k pull-up to +3V3",
+      "datasheet": "https://tech.alpsalpine.com/cms.media/product_catalog_ta_02_sksw_en_ee3e98d509.pdf"
+    },
+    {
+      "ref": "SW2",
+      "value": "SKSWCEE010",
+      "kind": "Switch",
+      "nets": {
+        "1": "KEY_BACK",
+        "2": "GND"
+      },
+      "footprint": "SKSW_3x2",
+      "symbol_uuid": "62ac51b4-d4d8-5699-89e0-e601efba88a8",
+      "pcb": [
+        22,
+        4,
+        "F",
+        0
+      ],
+      "description": "BACK / active-low TCA6408A input; local 47k pull-up; firmware debounce required",
+      "datasheet": "https://tech.alpsalpine.com/cms.media/product_catalog_ta_02_sksw_en_ee3e98d509.pdf"
+    },
+    {
+      "ref": "SW3",
+      "value": "SKSWCEE010",
+      "kind": "Switch",
+      "nets": {
+        "1": "KEY_PREV",
+        "2": "GND"
+      },
+      "footprint": "SKSW_3x2",
+      "symbol_uuid": "22a46cea-c503-549f-a7e6-1d8f3702c712",
+      "pcb": [
+        35,
+        17,
+        "F",
+        90
+      ],
+      "description": "PREV / active-low TCA6408A input; local 47k pull-up; firmware debounce required",
+      "datasheet": "https://tech.alpsalpine.com/cms.media/product_catalog_ta_02_sksw_en_ee3e98d509.pdf"
+    },
+    {
+      "ref": "SW4",
+      "value": "SKSWCEE010",
+      "kind": "Switch",
+      "nets": {
+        "1": "KEY_NEXT",
+        "2": "GND"
+      },
+      "footprint": "SKSW_3x2",
+      "symbol_uuid": "689f5eb4-bd3a-5662-b5be-4fc84824ccc5",
+      "pcb": [
+        9,
+        17,
+        "F",
+        90
+      ],
+      "description": "NEXT / active-low TCA6408A input; local 47k pull-up; firmware debounce required",
+      "datasheet": "https://tech.alpsalpine.com/cms.media/product_catalog_ta_02_sksw_en_ee3e98d509.pdf"
+    },
+    {
+      "ref": "SW5",
+      "value": "SKSWCEE010",
+      "kind": "Switch",
+      "nets": {
+        "1": "KEY_PLAY",
+        "2": "GND"
+      },
+      "footprint": "SKSW_3x2",
+      "symbol_uuid": "5670fc14-5700-5369-bd5c-827839b624bc",
+      "pcb": [
+        22,
+        30,
+        "F",
+        0
+      ],
+      "description": "PLAY / active-low TCA6408A input; local 47k pull-up; firmware debounce required",
+      "datasheet": "https://tech.alpsalpine.com/cms.media/product_catalog_ta_02_sksw_en_ee3e98d509.pdf"
+    },
+    {
+      "ref": "J1",
+      "value": "HC-FPC-05-10-12RLTAG",
+      "kind": "FPC12",
+      "nets": {
+        "1": "GND",
+        "2": "+3V3",
+        "3": "SDA",
+        "4": "SCL",
+        "5": "INT_N",
+        "6": "RESET_N",
+        "11": "KEY_POWER",
+        "12": "GND",
+        "13": "GND",
+        "14": "GND"
+      },
+      "footprint": "HCTL_FPC12",
+      "symbol_uuid": "77b6b492-dda9-5e98-89df-7575b25b7d6b",
+      "pcb": [
+        35.87,
+        9.411,
+        "B",
+        -90
+      ],
+      "description": "12 pin, 0.5 pitch, 0.3 FFC; tabs 13/14 GND; pins 7-10 NC; aligned with mainboard FPC1",
+      "datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20221027/B2DE489DA152049D1F105170189CFB4E.pdf"
+    },
+    {
+      "ref": "R14",
+      "value": "10k",
+      "kind": "Resistor",
+      "nets": {
+        "1": "+3V3",
+        "2": "KEY_POWER"
+      },
+      "footprint": "R0402",
+      "symbol_uuid": "1d443aa7-e4bb-5381-84b4-54e5489f7e5e",
+      "pcb": [
+        32,
+        1.4,
+        "B",
+        -90
+      ],
+      "description": "1% 0402 independent POWER pull-up; released high, pressed low",
+      "datasheet": ""
+    },
+    {
+      "ref": "U2",
+      "value": "TCA6408ARGTR",
+      "kind": "TCA6408A",
+      "nets": {
+        "1": "RESET_N",
+        "2": "KEY_BACK",
+        "3": "KEY_PREV",
+        "4": "KEY_NEXT",
+        "5": "KEY_PLAY",
+        "6": "GND",
+        "7": "UNUSED_INPUTS",
+        "8": "UNUSED_INPUTS",
+        "9": "UNUSED_INPUTS",
+        "10": "UNUSED_INPUTS",
+        "11": "INT_N",
+        "12": "SCL",
+        "13": "SDA",
+        "14": "+3V3",
+        "15": "+3V3",
+        "16": "GND",
+        "17": "GND"
+      },
+      "footprint": "TCA6408A_VQFN16",
+      "symbol_uuid": "d30ce2a6-35ef-5581-bc4f-8b7a6141d8f3",
+      "pcb": [
+        25,
+        31,
+        "B",
+        180
+      ],
+      "description": "I2C 0x20; P0..P3 four keys; P4..P7 common pull-down, KEEP AS INPUTS",
+      "datasheet": "https://www.ti.com/lit/ds/symlink/tca6408a.pdf"
+    },
+    {
+      "ref": "R13",
+      "value": "10k",
+      "kind": "Resistor",
+      "nets": {
+        "1": "UNUSED_INPUTS",
+        "2": "GND"
+      },
+      "footprint": "R0402",
+      "symbol_uuid": "6776aaa4-45e0-50e6-ba7d-d9c017141fbe",
+      "pcb": [
+        20,
+        31,
+        "B",
+        90
+      ],
+      "description": "Shared pull-down for unused P4..P7; keep all four ports as inputs",
+      "datasheet": ""
+    },
+    {
+      "ref": "R9",
+      "value": "47k",
+      "kind": "Resistor",
+      "nets": {
+        "1": "+3V3",
+        "2": "KEY_BACK"
+      },
+      "footprint": "R0402",
+      "symbol_uuid": "8d4d716b-ee1a-5094-bab5-a427e1e71343",
+      "pcb": [
+        18,
+        31,
+        "B",
+        90
+      ],
+      "description": "1% 0402 local active-low key pull-up",
+      "datasheet": ""
+    },
+    {
+      "ref": "R10",
+      "value": "47k",
+      "kind": "Resistor",
+      "nets": {
+        "1": "+3V3",
+        "2": "KEY_PREV"
+      },
+      "footprint": "R0402",
+      "symbol_uuid": "7559f249-18eb-5983-af3e-48af07bc0c50",
+      "pcb": [
+        16,
+        31,
+        "B",
+        90
+      ],
+      "description": "1% 0402 local active-low key pull-up",
+      "datasheet": ""
+    },
+    {
+      "ref": "R11",
+      "value": "47k",
+      "kind": "Resistor",
+      "nets": {
+        "1": "+3V3",
+        "2": "KEY_NEXT"
+      },
+      "footprint": "R0402",
+      "symbol_uuid": "8189c2d3-adfa-5479-aa41-b36824f23571",
+      "pcb": [
+        14,
+        31,
+        "B",
+        90
+      ],
+      "description": "1% 0402 local active-low key pull-up",
+      "datasheet": ""
+    },
+    {
+      "ref": "R12",
+      "value": "47k",
+      "kind": "Resistor",
+      "nets": {
+        "1": "+3V3",
+        "2": "KEY_PLAY"
+      },
+      "footprint": "R0402",
+      "symbol_uuid": "009a27c0-15d0-5917-87ea-5e526cc9de73",
+      "pcb": [
+        12,
+        31,
+        "B",
+        90
+      ],
+      "description": "1% 0402 local active-low key pull-up",
+      "datasheet": ""
+    },
+    {
+      "ref": "C3",
+      "value": "100nF",
+      "kind": "Capacitor",
+      "nets": {
+        "1": "+3V3",
+        "2": "GND"
+      },
+      "footprint": "C0402",
+      "symbol_uuid": "fb06b44e-6582-569d-9046-cff6122a2319",
+      "pcb": [
+        28,
+        31.8,
+        "B",
+        0
+      ],
+      "description": "X7R 10 V; U2 VCCI/VCCP bypass; both supplies on same 3.3 V rail",
+      "datasheet": ""
+    },
+    {
+      "ref": "C4",
+      "value": "100nF",
+      "kind": "Capacitor",
+      "nets": {
+        "1": "+3V3",
+        "2": "GND"
+      },
+      "footprint": "C0402",
+      "symbol_uuid": "6b718089-fb71-5b10-abb3-725e5624e009",
+      "pcb": [
+        28,
+        29.8,
+        "B",
+        0
+      ],
+      "description": "X7R 10 V; U2 VCCI/VCCP bypass; both supplies on same 3.3 V rail",
+      "datasheet": ""
+    },
+    {
+      "ref": "TP1",
+      "value": "+3V3",
+      "kind": "TestPoint",
+      "nets": {
+        "1": "+3V3"
+      },
+      "footprint": "TestPad",
+      "symbol_uuid": "cbe922d0-7f8c-5140-b05b-4d01dd05b9a3",
+      "pcb": [
+        7.0,
+        9,
+        "B",
+        0
+      ],
+      "description": "Local bench-test pad only; no pin header installed",
+      "datasheet": ""
+    },
+    {
+      "ref": "TP2",
+      "value": "GND",
+      "kind": "TestPoint",
+      "nets": {
+        "1": "GND"
+      },
+      "footprint": "TestPad",
+      "symbol_uuid": "2d342f1a-7fab-5820-91be-6c9cda32f409",
+      "pcb": [
+        9.5,
+        9,
+        "B",
+        0
+      ],
+      "description": "Local bench-test pad only; no pin header installed",
+      "datasheet": ""
+    },
+    {
+      "ref": "TP3",
+      "value": "SDA",
+      "kind": "TestPoint",
+      "nets": {
+        "1": "SDA"
+      },
+      "footprint": "TestPad",
+      "symbol_uuid": "fd2e7396-56d2-5e31-ae12-4e8a883c70b8",
+      "pcb": [
+        12.0,
+        9,
+        "B",
+        0
+      ],
+      "description": "Local bench-test pad only; no pin header installed",
+      "datasheet": ""
+    },
+    {
+      "ref": "TP4",
+      "value": "SCL",
+      "kind": "TestPoint",
+      "nets": {
+        "1": "SCL"
+      },
+      "footprint": "TestPad",
+      "symbol_uuid": "3308cb2c-ec6d-56c6-8be4-289a488c539e",
+      "pcb": [
+        14.5,
+        9,
+        "B",
+        0
+      ],
+      "description": "Local bench-test pad only; no pin header installed",
+      "datasheet": ""
+    },
+    {
+      "ref": "TP5",
+      "value": "INT_N",
+      "kind": "TestPoint",
+      "nets": {
+        "1": "INT_N"
+      },
+      "footprint": "TestPad",
+      "symbol_uuid": "f5aba7ec-dfea-5f23-a2ec-204b14bff40f",
+      "pcb": [
+        17.0,
+        9,
+        "B",
+        0
+      ],
+      "description": "Local bench-test pad only; no pin header installed",
+      "datasheet": ""
+    },
+    {
+      "ref": "TP6",
+      "value": "RESET_N",
+      "kind": "TestPoint",
+      "nets": {
+        "1": "RESET_N"
+      },
+      "footprint": "TestPad",
+      "symbol_uuid": "2ce37599-6066-5238-9c61-e9cfe6c7f82e",
+      "pcb": [
+        19.5,
+        9,
+        "B",
+        0
+      ],
+      "description": "Local bench-test pad only; no pin header installed",
+      "datasheet": ""
+    },
+    {
+      "ref": "TP7",
+      "value": "KEY_POWER",
+      "kind": "TestPoint",
+      "nets": {
+        "1": "KEY_POWER"
+      },
+      "footprint": "TestPad",
+      "symbol_uuid": "a1e5e8b8-4b14-5a6b-b50a-ce2735f0c239",
+      "pcb": [
+        22.0,
+        9,
+        "B",
+        0
+      ],
+      "description": "Local bench-test pad only; no pin header installed",
+      "datasheet": ""
+    },
+    {
+      "ref": "TP8",
+      "value": "KEY_BACK",
+      "kind": "TestPoint",
+      "nets": {
+        "1": "KEY_BACK"
+      },
+      "footprint": "TestPad",
+      "symbol_uuid": "2feeb648-0b91-57f6-9717-4101c982c6de",
+      "pcb": [
+        24.5,
+        9,
+        "B",
+        0
+      ],
+      "description": "Local bench-test pad only; no pin header installed",
+      "datasheet": ""
+    },
+    {
+      "ref": "TP9",
+      "value": "KEY_PREV",
+      "kind": "TestPoint",
+      "nets": {
+        "1": "KEY_PREV"
+      },
+      "footprint": "TestPad",
+      "symbol_uuid": "23f0bbed-c86e-5092-9416-1751ecc0fa44",
+      "pcb": [
+        27.0,
+        9,
+        "B",
+        0
+      ],
+      "description": "Local bench-test pad only; no pin header installed",
+      "datasheet": ""
+    },
+    {
+      "ref": "TP10",
+      "value": "KEY_NEXT",
+      "kind": "TestPoint",
+      "nets": {
+        "1": "KEY_NEXT"
+      },
+      "footprint": "TestPad",
+      "symbol_uuid": "8edbc593-4a51-5cb2-926e-439acda76147",
+      "pcb": [
+        29.5,
+        9,
+        "B",
+        0
+      ],
+      "description": "Local bench-test pad only; no pin header installed",
+      "datasheet": ""
+    },
+    {
+      "ref": "TP11",
+      "value": "KEY_PLAY",
+      "kind": "TestPoint",
+      "nets": {
+        "1": "KEY_PLAY"
+      },
+      "footprint": "TestPad",
+      "symbol_uuid": "6335b98e-5fab-5b2b-8b62-cc07c3ffe175",
+      "pcb": [
+        32.0,
+        9,
+        "B",
+        0
+      ],
+      "description": "Local bench-test pad only; no pin header installed",
+      "datasheet": ""
+    },
+    {
+      "ref": "H1",
+      "value": "M1.6 / NPTH 1.8",
+      "kind": "MountingHole",
+      "nets": {},
+      "footprint": "Mount_1.8",
+      "symbol_uuid": "87e9537a-386a-59d8-aa67-8c0eeefb301f",
+      "pcb": [
+        3,
+        8.7,
+        "F",
+        0
+      ],
+      "description": "Revision-F mounting point",
+      "datasheet": ""
+    },
+    {
+      "ref": "H2",
+      "value": "M1.6 / NPTH 1.8",
+      "kind": "MountingHole",
+      "nets": {},
+      "footprint": "Mount_1.8",
+      "symbol_uuid": "81289903-5f2b-55de-a35c-b6e11d9c941f",
+      "pcb": [
+        41,
+        8.7,
+        "F",
+        0
+      ],
+      "description": "Revision-F mounting point",
+      "datasheet": ""
+    },
+    {
+      "ref": "H3",
+      "value": "M1.6 / NPTH 1.8",
+      "kind": "MountingHole",
+      "nets": {},
+      "footprint": "Mount_1.8",
+      "symbol_uuid": "6cb05c95-2a02-57c3-8712-7891a4b17327",
+      "pcb": [
+        3,
+        24.7,
+        "F",
+        0
+      ],
+      "description": "Revision-F mounting point",
+      "datasheet": ""
+    },
+    {
+      "ref": "H4",
+      "value": "M1.6 / NPTH 1.8",
+      "kind": "MountingHole",
+      "nets": {},
+      "footprint": "Mount_1.8",
+      "symbol_uuid": "676e21c1-1ebc-5747-8aa7-2a29019054c4",
+      "pcb": [
+        41,
+        24.7,
+        "F",
+        0
+      ],
+      "description": "Revision-F mounting point",
+      "datasheet": ""
+    }
+  ],
+  "connector_pinout": [
+    "GND",
+    "+3V3",
+    "SDA",
+    "SCL",
+    "INT_N",
+    "RESET_N",
+    null,
+    null,
+    null,
+    null,
+    "KEY_POWER",
+    "GND"
+  ],
+  "board_mm": [
+    44,
+    34,
+    0.8
+  ],
+  "component_coordinates": "pcb fields list case-local X/Y; actual KiCad X = 44 - case-local X",
+  "case_transform": {
+    "x": "47 - kicad_x",
+    "y": "kicad_y + 42.3",
+    "front_z": 11.9,
+    "back_z": 11.1
+  },
+  "status": "ROUTED_STANDALONE_PROTOTYPE_REQUIRES_PHYSICAL_VALIDATION",
+  "pcb_sha256": "2e6b210df6f1514378c0febbd083b580cb55f18ebe5c090b6245fe748d807bdb"
+}
