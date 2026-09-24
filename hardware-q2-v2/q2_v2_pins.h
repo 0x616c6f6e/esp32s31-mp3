@@ -1,4 +1,4 @@
-/* Generated from routed V2 PCB. GPIO numbers, not QFN pin numbers. */
+/* Generated from V2 PCB net assignments. GPIO numbers, not QFN pin numbers. */
 /* Not a compiled or bench-tested BSP. SYS I2C uses LP I2C on GPIO 6/7. */
 #pragma once
 #define Q2_KEY_POWER_SENSE_N_GPIO 0

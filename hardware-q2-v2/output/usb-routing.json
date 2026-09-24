@@ -1,4 +1,5 @@
 {
+  "status": "HISTORICAL_PRE_0402_POWER_ONLY_NOT_CURRENT_ROUTING",
   "USB_HS_DP": {
     "length_mm": 38.861252951628146,
     "vias": 2,

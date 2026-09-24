@@ -2,7 +2,7 @@
 
 当前工程：
 
-- **[V2 裸芯片主板 PCB 评审版](hardware-q2-v2/README.md)**：打开 `hardware-q2-v2/q2-v2.kicad_pro`。ESP32-S31NRV16、正面 AM213 BTB、46 × 76 mm 六层板，已完成全网布线；当前规则下 ERC、DRC、未连接及原理图一致性均为 0。USB 全链路阻抗、射频及实物装配仍有待确认项，尚非生产定稿。[双面预览](hardware-q2-v2/output/pcb-overview.png)。
+- **[V2 裸芯片主板 PCB](hardware-q2-v2/README.md)**：打开 `hardware-q2-v2/q2-v2.kicad_pro`。ESP32-S31NRV16、正面 AM213 BTB、46 × 76 mm 六层板，0201 阻容已改为 0402。当前仅保留电源布线与铺铜，信号待手动布线；几何 DRC、电源未连接及原理图一致性均为 0，174 项信号飞线为有意保留，不能直接投产。[双面预览](hardware-q2-v2/output/pcb-overview.png)。
 - [V2 布局及管脚规划依据](hardware-q2-v2-plan/README.md)：保留方案来源；实际已布线管脚以 [V2 当前引脚表](hardware-q2-v2/pin-assignment.md) 为准。
 
 **当前开发外壳为 L 版：适配新的 2.13 英寸 AM213 AMOLED。** 已修改屏幕总成、面壳开孔和固定台，整机仍为50×81.5×15.1 mm。新屏24针BTB不能直接连接已生产主板的21针FPC2，已完成独立双层FPC转接板的3.3 V参考电路和布线；ERC/DRC及原理图一致性检查通过。L版已有完整转接板装配检查副本，仍待FPC工艺审核、实物插合和点亮测试。

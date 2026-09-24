@@ -1,0 +1,499 @@
+{
+  "status": "POWER_ONLY_0402_MANUAL_SIGNAL_ROUTING_REQUIRED",
+  "rails": [
+    "GND",
+    "GBAT",
+    "VBUS_5V",
+    "VBAT",
+    "VCC",
+    "VCC_PMID",
+    "VCC_3V3",
+    "VCC_3V3_AON",
+    "VCC_1V8",
+    "MCU_1V8",
+    "MCU_VDD_SPI",
+    "MCU_VDDA34"
+  ],
+  "local_power_nodes": {
+    "N_2N13": "BQ25895 bootstrap",
+    "N_2N14": "BQ25895 switch node",
+    "N_2N16": "BQ25895 REGN",
+    "N_2N19": "BQ25895 input current limit resistor",
+    "N_2N84": "TLV62568 switch node",
+    "N_2N86": "TLV62568 feedback",
+    "N_3N20": "CS43131 negative analog supply",
+    "N_3N22": "CS43131 flying capacitor",
+    "N_3N23": "CS43131 flying capacitor",
+    "N_3N24": "CS43131 flying capacitor",
+    "N_3N25": "CS43131 negative charge pump filter",
+    "N_3N26": "CS43131 positive charge pump filter",
+    "N_3N29": "CS43131 flying capacitor",
+    "N_3N30": "CS43131 flying capacitor",
+    "N_3N32": "CS43131 negative reference filter",
+    "N_3N34": "CS43131 positive reference filter",
+    "N_3N63": "PCA9306 reference bias",
+    "N_5N15": "DRV2605 supply",
+    "N_5N6": "DRV2605 regulator bypass",
+    "MOTOR_OUT_P": "motor load power",
+    "MOTOR_OUT_N": "motor load power",
+    "N_6N67": "CH343 regulator bypass",
+    "N_7N55": "RTC regulator bypass"
+  },
+  "removed": {
+    "signal_segments": 2090,
+    "signal_vias": 155,
+    "local_power_items_rebuilt": 226
+  },
+  "package_changes": [
+    {
+      "ref": "C101",
+      "value": "24pF",
+      "old_position": [
+        165.9701,
+        80.0698
+      ],
+      "standard_footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "new_position": [
+        165.9701,
+        79.8698
+      ],
+      "angle": 0.0
+    },
+    {
+      "ref": "C102",
+      "value": "27pF",
+      "old_position": [
+        166.1986,
+        84.2089
+      ],
+      "standard_footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "new_position": [
+        166.1986,
+        84.2089
+      ],
+      "angle": 180.0
+    },
+    {
+      "ref": "C103",
+      "value": "1.5pF",
+      "old_position": [
+        162.9159,
+        79.9285
+      ],
+      "standard_footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "new_position": [
+        163.115899,
+        80.3285
+      ],
+      "angle": -45.0
+    },
+    {
+      "ref": "C104",
+      "value": "1.5pF",
+      "old_position": [
+        163.0048,
+        78.1353
+      ],
+      "standard_footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "new_position": [
+        163.0048,
+        77.9353
+      ],
+      "angle": 180.0
+    },
+    {
+      "ref": "C105",
+      "value": "1uF",
+      "old_position": [
+        163.9864,
+        82.6658
+      ],
+      "standard_footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "new_position": [
+        164.1864,
+        84.2658
+      ],
+      "angle": 0.0
+    },
+    {
+      "ref": "C106",
+      "value": "10nF",
+      "old_position": [
+        163.9352,
+        81.0402
+      ],
+      "standard_footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "new_position": [
+        165.1352,
+        78.6402
+      ],
+      "angle": 0.0
+    },
+    {
+      "ref": "C107",
+      "value": "1.3pF",
+      "old_position": [
+        163.083,
+        77.2221
+      ],
+      "standard_footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "new_position": [
+        164.283,
+        76.822099
+      ],
+      "angle": -45.0
+    },
+    {
+      "ref": "C108",
+      "value": "DNP",
+      "old_position": [
+        161.2159,
+        75.0017
+      ],
+      "standard_footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "new_position": [
+        161.2159,
+        75.0017
+      ],
+      "angle": 45.0
+    },
+    {
+      "ref": "C109",
+      "value": "DNP",
+      "old_position": [
+        159.8345,
+        73.6679
+      ],
+      "standard_footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "new_position": [
+        159.8345,
+        73.8679
+      ],
+      "angle": 180.0
+    },
+    {
+      "ref": "C113",
+      "value": "1uF",
+      "old_position": [
+        153.6991,
+        88.9078
+      ],
+      "standard_footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "new_position": [
+        153.6991,
+        88.9078
+      ],
+      "angle": 180.0
+    },
+    {
+      "ref": "C114",
+      "value": "100nF",
+      "old_position": [
+        151.4744,
+        91.4745
+      ],
+      "standard_footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "new_position": [
+        151.4744,
+        90.4745
+      ],
+      "angle": -90.0
+    },
+    {
+      "ref": "C116",
+      "value": "1uF",
+      "old_position": [
+        159.6141,
+        76.9516
+      ],
+      "standard_footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "new_position": [
+        159.8141,
+        77.1516
+      ],
+      "angle": -135.0
+    },
+    {
+      "ref": "C117",
+      "value": "100nF",
+      "old_position": [
+        160.4277,
+        77.8407
+      ],
+      "standard_footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "new_position": [
+        157.767999,
+        77.647
+      ],
+      "angle": 0.0
+    },
+    {
+      "ref": "C118",
+      "value": "100nF",
+      "old_position": [
+        161.6795,
+        79.2533
+      ],
+      "standard_footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "new_position": [
+        161.368,
+        77.247
+      ],
+      "angle": 90.0
+    },
+    {
+      "ref": "C119",
+      "value": "100nF",
+      "old_position": [
+        157.9382,
+        79.3765
+      ],
+      "standard_footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "new_position": [
+        158.067999,
+        79.147
+      ],
+      "angle": 90.0
+    },
+    {
+      "ref": "C120",
+      "value": "100nF",
+      "old_position": [
+        153.8426,
+        84.1549
+      ],
+      "standard_footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "new_position": [
+        153.4426,
+        84.1549
+      ],
+      "angle": 180.0
+    },
+    {
+      "ref": "C121",
+      "value": "1uF",
+      "old_position": [
+        153.8211,
+        85.642
+      ],
+      "standard_footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "new_position": [
+        153.4211,
+        85.642
+      ],
+      "angle": 180.0
+    },
+    {
+      "ref": "C122",
+      "value": "100nF",
+      "old_position": [
+        153.8218,
+        86.3938
+      ],
+      "standard_footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "new_position": [
+        153.4218,
+        86.7938
+      ],
+      "angle": 180.0
+    },
+    {
+      "ref": "C123",
+      "value": "100nF",
+      "old_position": [
+        156.0605,
+        89.7981
+      ],
+      "standard_footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "new_position": [
+        156.0605,
+        89.9981
+      ],
+      "angle": -90.0
+    },
+    {
+      "ref": "C124",
+      "value": "100nF",
+      "old_position": [
+        160.2589,
+        89.7772
+      ],
+      "standard_footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "new_position": [
+        160.2589,
+        89.9772
+      ],
+      "angle": -90.0
+    },
+    {
+      "ref": "C125",
+      "value": "100nF",
+      "old_position": [
+        163.9832,
+        87.1399
+      ],
+      "standard_footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "new_position": [
+        164.3832,
+        87.1399
+      ],
+      "angle": -45.0
+    },
+    {
+      "ref": "L105",
+      "value": "0R",
+      "old_position": [
+        160.4331,
+        74.572
+      ],
+      "standard_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "new_position": [
+        161.8331,
+        73.172
+      ],
+      "angle": -45.0
+    },
+    {
+      "ref": "R101",
+      "value": "0R",
+      "old_position": [
+        153.6435,
+        87.4092
+      ],
+      "standard_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "new_position": [
+        151.6435,
+        88.0092
+      ],
+      "angle": 180.0
+    },
+    {
+      "ref": "R102",
+      "value": "0R",
+      "old_position": [
+        153.6435,
+        88.0442
+      ],
+      "standard_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "new_position": [
+        153.6435,
+        90.0442
+      ],
+      "angle": 180.0
+    },
+    {
+      "ref": "R103",
+      "value": "0R",
+      "old_position": [
+        154.1558,
+        89.7981
+      ],
+      "standard_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "new_position": [
+        154.1558,
+        91.5981
+      ],
+      "angle": -90.0
+    },
+    {
+      "ref": "R104",
+      "value": "0R",
+      "old_position": [
+        154.7905,
+        89.7981
+      ],
+      "standard_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "new_position": [
+        155.3905,
+        91.9981
+      ],
+      "angle": -90.0
+    },
+    {
+      "ref": "R105",
+      "value": "0R",
+      "old_position": [
+        155.428,
+        89.7981
+      ],
+      "standard_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "new_position": [
+        157.228,
+        89.9981
+      ],
+      "angle": -90.0
+    },
+    {
+      "ref": "R106",
+      "value": "499R",
+      "old_position": [
+        163.8615,
+        84.2813
+      ],
+      "standard_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "new_position": [
+        164.8615,
+        85.8813
+      ],
+      "angle": -45.0
+    },
+    {
+      "ref": "R107",
+      "value": "10k",
+      "old_position": [
+        153.4518,
+        89.8168
+      ],
+      "standard_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "new_position": [
+        153.0518,
+        91.6168
+      ],
+      "angle": -90.0
+    },
+    {
+      "ref": "R108",
+      "value": "0R",
+      "old_position": [
+        157.3432,
+        89.9831
+      ],
+      "standard_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "new_position": [
+        158.3432,
+        89.9831
+      ],
+      "angle": -90.0
+    },
+    {
+      "ref": "R109",
+      "value": "0R",
+      "old_position": [
+        156.7166,
+        89.9831
+      ],
+      "standard_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "new_position": [
+        156.7166,
+        92.1831
+      ],
+      "angle": -90.0
+    },
+    {
+      "ref": "R110",
+      "value": "10k",
+      "old_position": [
+        158.6891,
+        90.3376
+      ],
+      "standard_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "new_position": [
+        158.6891,
+        92.137599
+      ],
+      "angle": -90.0
+    }
+  ],
+  "signal_routing_policy": "Remove every track and via not in rails/local_power_nodes. Ground and supply copper zones retained.",
+  "audio_ground": "Common GND plane; HPREFA/HPREFB require independent Kelvin routes to headphone ground before fabrication."
+}

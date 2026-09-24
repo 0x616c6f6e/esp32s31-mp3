@@ -2,6 +2,8 @@
 from finish_grid import *
 items,cu,holes,keepouts,shapes=database();log=[]
 limits={'VBAT':.6,'GBAT':.6,'VBUS_5V':.6,'VCC':.6,'VCC_3V3':.45,'VCC_1V8':.4}
+if (P/'power-only-0402.json').exists():
+ limits.update({'VCC_3V3_AON':.4,'MCU_1V8':.3,'MCU_VDD_SPI':.3,'MCU_VDDA34':.3})
 for net,limit in limits.items():
  items,cu,holes,keepouts,shapes=database()
  obs={l:unary_union([s for n,ss in cu[l].items() if n!=net for s in ss]) for l in layers}

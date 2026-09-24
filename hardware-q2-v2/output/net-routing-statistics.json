@@ -1,7 +1,7 @@
 {
   "VCC_3V3": {
-    "trace_length_mm": 301.573518,
-    "vias": 20,
+    "trace_length_mm": 243.121522,
+    "vias": 34,
     "layers": [
       "Bottom Layer",
       "PWR",
@@ -9,9 +9,7 @@
       "Top Layer"
     ],
     "widths_mm": [
-      0.1,
       0.15,
-      0.2,
       0.25,
       0.2798,
       0.3,
@@ -21,25 +19,13 @@
     ]
   },
   "GND": {
-    "trace_length_mm": 3.93995,
-    "vias": 59,
+    "trace_length_mm": 3.789949,
+    "vias": 55,
     "layers": [
       "Top Layer"
     ],
     "widths_mm": [
       0.1
-    ]
-  },
-  "RF_STAGE2": {
-    "trace_length_mm": 3.886808,
-    "vias": 0,
-    "layers": [
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.1,
-      0.15,
-      0.4318
     ]
   },
   "VBUS_5V": {
@@ -58,29 +44,6 @@
       0.45,
       0.5,
       0.6
-    ]
-  },
-  "MCU_USB_HS_DM": {
-    "trace_length_mm": 1.387943,
-    "vias": 0,
-    "layers": [
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.1,
-      0.15
-    ]
-  },
-  "USB_HS_DM": {
-    "trace_length_mm": 38.913714,
-    "vias": 2,
-    "layers": [
-      "SINGAL",
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.1,
-      0.15
     ]
   },
   "N_3N29": {
@@ -105,27 +68,6 @@
       0.203
     ]
   },
-  "MCU_FLASH_D1": {
-    "trace_length_mm": 1.276854,
-    "vias": 0,
-    "layers": [
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.1,
-      0.15
-    ]
-  },
-  "FLASH_D1": {
-    "trace_length_mm": 13.500836,
-    "vias": 0,
-    "layers": [
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.15
-    ]
-  },
   "VCC": {
     "trace_length_mm": 66.523725,
     "vias": 5,
@@ -135,27 +77,12 @@
       "Top Layer"
     ],
     "widths_mm": [
-      0.1,
-      0.15,
-      0.2,
       0.3,
       0.35,
       0.4,
       0.45,
       0.5,
       0.6
-    ]
-  },
-  "XTAL_N": {
-    "trace_length_mm": 6.469165,
-    "vias": 0,
-    "layers": [
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.1,
-      0.1016,
-      0.15
     ]
   },
   "N_3N32": {
@@ -180,200 +107,6 @@
       0.203
     ]
   },
-  "N_3N1": {
-    "trace_length_mm": 11.865833,
-    "vias": 0,
-    "layers": [
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.1,
-      0.203
-    ]
-  },
-  "N_3N2": {
-    "trace_length_mm": 9.759897,
-    "vias": 0,
-    "layers": [
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.1,
-      0.15,
-      0.203
-    ]
-  },
-  "LCD_RESET_N": {
-    "trace_length_mm": 22.717045,
-    "vias": 1,
-    "layers": [
-      "Bottom Layer",
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.1,
-      0.15
-    ]
-  },
-  "LCD_TE": {
-    "trace_length_mm": 12.651842,
-    "vias": 0,
-    "layers": [
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.1,
-      0.15
-    ]
-  },
-  "LCD_CS_N": {
-    "trace_length_mm": 21.639347,
-    "vias": 2,
-    "layers": [
-      "Bottom Layer",
-      "PWR",
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.1,
-      0.15
-    ]
-  },
-  "LCD_CLK": {
-    "trace_length_mm": 18.240295,
-    "vias": 2,
-    "layers": [
-      "PWR",
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.1,
-      0.15
-    ]
-  },
-  "LCD_D1": {
-    "trace_length_mm": 20.710296,
-    "vias": 2,
-    "layers": [
-      "SINGAL",
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.1,
-      0.15
-    ]
-  },
-  "LCD_D0": {
-    "trace_length_mm": 22.524985,
-    "vias": 2,
-    "layers": [
-      "SINGAL",
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.1,
-      0.15
-    ]
-  },
-  "TP_INT_N": {
-    "trace_length_mm": 8.573743,
-    "vias": 2,
-    "layers": [
-      "SINGAL",
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.1,
-      0.15
-    ]
-  },
-  "TP_RESET_N": {
-    "trace_length_mm": 11.331047,
-    "vias": 3,
-    "layers": [
-      "PWR",
-      "SINGAL",
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.1,
-      0.15
-    ]
-  },
-  "TP_I2C_SDA": {
-    "trace_length_mm": 24.012257,
-    "vias": 2,
-    "layers": [
-      "Bottom Layer",
-      "PWR",
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.1,
-      0.15
-    ]
-  },
-  "TP_I2C_SCL": {
-    "trace_length_mm": 20.262794,
-    "vias": 2,
-    "layers": [
-      "Bottom Layer",
-      "SINGAL",
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.1,
-      0.15
-    ]
-  },
-  "LCD_D3": {
-    "trace_length_mm": 18.394405,
-    "vias": 2,
-    "layers": [
-      "Bottom Layer",
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.1,
-      0.15
-    ]
-  },
-  "LCD_D2": {
-    "trace_length_mm": 15.926368,
-    "vias": 2,
-    "layers": [
-      "PWR",
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.1,
-      0.15
-    ]
-  },
-  "LCD_VCI_EN": {
-    "trace_length_mm": 21.934374,
-    "vias": 1,
-    "layers": [
-      "Bottom Layer",
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.1,
-      0.15
-    ]
-  },
-  "CS43131_SDA_1V8": {
-    "trace_length_mm": 9.392512,
-    "vias": 2,
-    "layers": [
-      "PWR",
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.1,
-      0.15
-    ]
-  },
   "VCC_1V8": {
     "trace_length_mm": 63.057499,
     "vias": 2,
@@ -386,29 +119,6 @@
       0.3,
       0.35,
       0.4
-    ]
-  },
-  "MCU_XTAL_P": {
-    "trace_length_mm": 0.913218,
-    "vias": 0,
-    "layers": [
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.1,
-      0.1016
-    ]
-  },
-  "XTAL_P": {
-    "trace_length_mm": 3.471099,
-    "vias": 0,
-    "layers": [
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.1,
-      0.1016,
-      0.15
     ]
   },
   "N_3N24": {
@@ -433,133 +143,16 @@
       0.203
     ]
   },
-  "SD_D2": {
-    "trace_length_mm": 24.47655,
-    "vias": 2,
-    "layers": [
-      "Bottom Layer",
-      "PWR",
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.1,
-      0.15
-    ]
-  },
-  "SD_D3": {
-    "trace_length_mm": 17.389633,
-    "vias": 2,
-    "layers": [
-      "Bottom Layer",
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.1,
-      0.15
-    ]
-  },
-  "SD_CMD": {
-    "trace_length_mm": 24.673889,
-    "vias": 2,
-    "layers": [
-      "Bottom Layer",
-      "PWR",
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.1,
-      0.15
-    ]
-  },
-  "SD_CLK": {
-    "trace_length_mm": 12.290997,
-    "vias": 2,
-    "layers": [
-      "PWR",
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.1,
-      0.15
-    ]
-  },
-  "SD_D0": {
-    "trace_length_mm": 18.630091,
-    "vias": 2,
-    "layers": [
-      "Bottom Layer",
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.1,
-      0.15
-    ]
-  },
-  "SD_D1": {
-    "trace_length_mm": 21.666905,
-    "vias": 2,
-    "layers": [
-      "Bottom Layer",
-      "PWR",
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.1,
-      0.15
-    ]
-  },
-  "SD_CARD_DETECT_N": {
-    "trace_length_mm": 21.402177,
-    "vias": 3,
-    "layers": [
-      "Bottom Layer",
-      "PWR",
-      "SINGAL",
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.1,
-      0.15
-    ]
-  },
-  "RF_CHIP": {
-    "trace_length_mm": 2.493619,
-    "vias": 0,
-    "layers": [
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.1,
-      0.15,
-      0.4318
-    ]
-  },
   "MCU_1V8": {
-    "trace_length_mm": 12.48976,
-    "vias": 2,
-    "layers": [
-      "PWR",
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.1,
-      0.15,
-      0.1798,
-      0.2032,
-      0.3,
-      0.3048
-    ]
-  },
-  "RF_STAGE1": {
-    "trace_length_mm": 2.150375,
+    "trace_length_mm": 2.870713,
     "vias": 0,
     "layers": [
       "Top Layer"
     ],
     "widths_mm": [
-      0.1,
-      0.15,
-      0.4318
+      0.2,
+      0.25,
+      0.3
     ]
   },
   "N_2N19": {
@@ -572,104 +165,6 @@
       0.1,
       0.15,
       0.203
-    ]
-  },
-  "MCU_FLASH_D2": {
-    "trace_length_mm": 1.473732,
-    "vias": 0,
-    "layers": [
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.1,
-      0.15
-    ]
-  },
-  "FLASH_D2": {
-    "trace_length_mm": 8.954726,
-    "vias": 0,
-    "layers": [
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.15
-    ]
-  },
-  "SYS_I2C_SCL": {
-    "trace_length_mm": 103.570418,
-    "vias": 5,
-    "layers": [
-      "Bottom Layer",
-      "PWR",
-      "SINGAL",
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.1,
-      0.15
-    ]
-  },
-  "SYS_I2C_SDA": {
-    "trace_length_mm": 101.334693,
-    "vias": 7,
-    "layers": [
-      "Bottom Layer",
-      "PWR",
-      "SINGAL",
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.1,
-      0.15
-    ]
-  },
-  "CHG_INT_N": {
-    "trace_length_mm": 64.974274,
-    "vias": 4,
-    "layers": [
-      "Bottom Layer",
-      "PWR",
-      "SINGAL",
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.1,
-      0.15
-    ]
-  },
-  "CHG_OTG_EN": {
-    "trace_length_mm": 66.206097,
-    "vias": 2,
-    "layers": [
-      "SINGAL",
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.1,
-      0.15
-    ]
-  },
-  "BQ25895_CHG_EN#": {
-    "trace_length_mm": 4.034286,
-    "vias": 0,
-    "layers": [
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.1,
-      0.15,
-      0.203
-    ]
-  },
-  "BAT_TS": {
-    "trace_length_mm": 13.425132,
-    "vias": 0,
-    "layers": [
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.1,
-      0.15
     ]
   },
   "VBAT": {
@@ -733,30 +228,6 @@
       0.3
     ]
   },
-  "CS43131_SCL_1V8": {
-    "trace_length_mm": 12.168989,
-    "vias": 2,
-    "layers": [
-      "PWR",
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.1,
-      0.15
-    ]
-  },
-  "CS43131_I2S_SDIN": {
-    "trace_length_mm": 15.596432,
-    "vias": 2,
-    "layers": [
-      "PWR",
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.1,
-      0.15
-    ]
-  },
   "N_3N34": {
     "trace_length_mm": 5.979767,
     "vias": 0,
@@ -767,31 +238,6 @@
       0.1,
       0.15,
       0.203
-    ]
-  },
-  "N_3N69": {
-    "trace_length_mm": 16.725931,
-    "vias": 0,
-    "layers": [
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.1,
-      0.15,
-      0.203,
-      0.508
-    ]
-  },
-  "N_3N70": {
-    "trace_length_mm": 20.042397,
-    "vias": 0,
-    "layers": [
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.1,
-      0.203,
-      0.508
     ]
   },
   "N_3N25": {
@@ -827,65 +273,6 @@
       0.203
     ]
   },
-  "CS43131_RST#_1V8": {
-    "trace_length_mm": 14.003289,
-    "vias": 2,
-    "layers": [
-      "PWR",
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.1,
-      0.15
-    ]
-  },
-  "CS43131_I2S_SCLK": {
-    "trace_length_mm": 11.919289,
-    "vias": 2,
-    "layers": [
-      "PWR",
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.1,
-      0.15
-    ]
-  },
-  "CS43131_I2S_LRCK": {
-    "trace_length_mm": 16.32517,
-    "vias": 2,
-    "layers": [
-      "PWR",
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.1,
-      0.15
-    ]
-  },
-  "UART0_RX": {
-    "trace_length_mm": 45.763463,
-    "vias": 2,
-    "layers": [
-      "SINGAL",
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.1,
-      0.15
-    ]
-  },
-  "UART0_TX": {
-    "trace_length_mm": 43.063253,
-    "vias": 0,
-    "layers": [
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.1,
-      0.15
-    ]
-  },
   "N_6N67": {
     "trace_length_mm": 3.207004,
     "vias": 0,
@@ -895,113 +282,6 @@
     "widths_mm": [
       0.1,
       0.15
-    ]
-  },
-  "CH343P_USB_DP": {
-    "trace_length_mm": 9.110588,
-    "vias": 2,
-    "layers": [
-      "PWR",
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.1,
-      0.15
-    ]
-  },
-  "CH343P_USB_DN": {
-    "trace_length_mm": 3.975225,
-    "vias": 2,
-    "layers": [
-      "SINGAL",
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.1,
-      0.15
-    ]
-  },
-  "CH343P_UART_DTR": {
-    "trace_length_mm": 11.997533,
-    "vias": 1,
-    "layers": [
-      "Bottom Layer",
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.1,
-      0.15
-    ]
-  },
-  "CH343P_UART_RTS": {
-    "trace_length_mm": 23.266639,
-    "vias": 2,
-    "layers": [
-      "Bottom Layer",
-      "PWR",
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.1,
-      0.15
-    ]
-  },
-  "USB_PATH_SEL": {
-    "trace_length_mm": 66.116203,
-    "vias": 4,
-    "layers": [
-      "Bottom Layer",
-      "PWR",
-      "SINGAL",
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.1,
-      0.15
-    ]
-  },
-  "TYPEC_USB_DP": {
-    "trace_length_mm": 14.174487,
-    "vias": 1,
-    "layers": [
-      "Bottom Layer",
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.15
-    ]
-  },
-  "TYPEC_USB_DN": {
-    "trace_length_mm": 11.248478,
-    "vias": 1,
-    "layers": [
-      "Bottom Layer",
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.15
-    ]
-  },
-  "USB_HS_DP": {
-    "trace_length_mm": 38.861899,
-    "vias": 2,
-    "layers": [
-      "SINGAL",
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.1,
-      0.15
-    ]
-  },
-  "SGM7227_EN#": {
-    "trace_length_mm": 4.704727,
-    "vias": 0,
-    "layers": [
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.203
     ]
   },
   "N_3N63": {
@@ -1014,169 +294,18 @@
       0.203
     ]
   },
-  "MCU_FLASH_D3": {
-    "trace_length_mm": 2.38853,
-    "vias": 0,
-    "layers": [
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.1,
-      0.15
-    ]
-  },
-  "FLASH_D3": {
-    "trace_length_mm": 15.683218,
-    "vias": 2,
-    "layers": [
-      "SINGAL",
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.1,
-      0.15
-    ]
-  },
-  "N_6N46": {
-    "trace_length_mm": 12.523349,
-    "vias": 0,
-    "layers": [
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.1,
-      0.203
-    ]
-  },
-  "TYPEC_USB_DP_IN": {
-    "trace_length_mm": 6.017151,
-    "vias": 1,
-    "layers": [
-      "Bottom Layer",
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.1,
-      0.15
-    ]
-  },
-  "TYPEC_USB_DN_IN": {
-    "trace_length_mm": 4.199662,
-    "vias": 1,
-    "layers": [
-      "Bottom Layer",
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.15
-    ]
-  },
-  "N_6N45": {
-    "trace_length_mm": 6.521272,
-    "vias": 0,
-    "layers": [
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.1,
-      0.203
-    ]
-  },
-  "RF_ANT": {
-    "trace_length_mm": 16.615879,
-    "vias": 0,
-    "layers": [
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.1,
-      0.15
-    ]
-  },
-  "AUDIO_I2C_SDA": {
-    "trace_length_mm": 65.034366,
-    "vias": 3,
-    "layers": [
-      "Bottom Layer",
-      "SINGAL",
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.1,
-      0.15
-    ]
-  },
-  "AUDIO_I2C_SCL": {
-    "trace_length_mm": 51.632197,
-    "vias": 3,
-    "layers": [
-      "Bottom Layer",
-      "PWR",
-      "SINGAL",
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.1,
-      0.15
-    ]
-  },
-  "FLASH_CS_N": {
-    "trace_length_mm": 14.3997,
-    "vias": 2,
-    "layers": [
-      "PWR",
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.1,
-      0.15
-    ]
-  },
-  "FLASH_D0": {
-    "trace_length_mm": 13.869546,
-    "vias": 0,
-    "layers": [
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.15
-    ]
-  },
-  "FLASH_CLK": {
-    "trace_length_mm": 13.766035,
-    "vias": 2,
-    "layers": [
-      "PWR",
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.1,
-      0.15
-    ]
-  },
   "MCU_VDD_SPI": {
-    "trace_length_mm": 26.461242,
-    "vias": 4,
+    "trace_length_mm": 12.982415,
+    "vias": 0,
     "layers": [
-      "SINGAL",
       "Top Layer"
     ],
     "widths_mm": [
       0.1,
       0.15,
+      0.2,
+      0.25,
       0.3
-    ]
-  },
-  "PWR_3V3_EN": {
-    "trace_length_mm": 16.928578,
-    "vias": 1,
-    "layers": [
-      "Bottom Layer",
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.1,
-      0.15
     ]
   },
   "N_2N84": {
@@ -1202,305 +331,18 @@
       0.203
     ]
   },
-  "STRAP_FLASH_3V3": {
-    "trace_length_mm": 1.684089,
+  "MCU_VDDA34": {
+    "trace_length_mm": 2.927818,
     "vias": 0,
     "layers": [
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.1,
-      0.15
-    ]
-  },
-  "IMU_INT1": {
-    "trace_length_mm": 46.907582,
-    "vias": 2,
-    "layers": [
-      "PWR",
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.1,
-      0.15
-    ]
-  },
-  "MCU_VDDA34": {
-    "trace_length_mm": 4.194545,
-    "vias": 1,
-    "layers": [
-      "PWR",
       "Top Layer"
     ],
     "widths_mm": [
       0.1,
       0.15,
-      0.1798,
+      0.2,
+      0.25,
       0.3
-    ]
-  },
-  "CHIP_PU": {
-    "trace_length_mm": 62.673469,
-    "vias": 4,
-    "layers": [
-      "Bottom Layer",
-      "PWR",
-      "SINGAL",
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.1,
-      0.15
-    ]
-  },
-  "KEY_POWER_SENSE_N": {
-    "trace_length_mm": 48.180224,
-    "vias": 3,
-    "layers": [
-      "Bottom Layer",
-      "PWR",
-      "SINGAL",
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.1,
-      0.15
-    ]
-  },
-  "CTRL_INT_N": {
-    "trace_length_mm": 45.901002,
-    "vias": 3,
-    "layers": [
-      "Bottom Layer",
-      "PWR",
-      "SINGAL",
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.1,
-      0.15
-    ]
-  },
-  "RTC_INT_N": {
-    "trace_length_mm": 41.722503,
-    "vias": 2,
-    "layers": [
-      "Bottom Layer",
-      "SINGAL",
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.1,
-      0.15
-    ]
-  },
-  "BAT_ALERT_N": {
-    "trace_length_mm": 46.55487,
-    "vias": 3,
-    "layers": [
-      "Bottom Layer",
-      "SINGAL",
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.1,
-      0.15
-    ]
-  },
-  "POWER_OFF_REQ": {
-    "trace_length_mm": 43.040645,
-    "vias": 4,
-    "layers": [
-      "Bottom Layer",
-      "PWR",
-      "SINGAL",
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.1,
-      0.15
-    ]
-  },
-  "CTRL_RESET_N": {
-    "trace_length_mm": 49.963735,
-    "vias": 2,
-    "layers": [
-      "Bottom Layer",
-      "PWR",
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.1,
-      0.15
-    ]
-  },
-  "MOTOR_EN": {
-    "trace_length_mm": 63.436153,
-    "vias": 3,
-    "layers": [
-      "Bottom Layer",
-      "PWR",
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.1,
-      0.15
-    ]
-  },
-  "MCU_FLASH_CLK": {
-    "trace_length_mm": 1.372792,
-    "vias": 0,
-    "layers": [
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.1,
-      0.15
-    ]
-  },
-  "MCU_FLASH_D0": {
-    "trace_length_mm": 1.240781,
-    "vias": 0,
-    "layers": [
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.1
-    ]
-  },
-  "MCU_USB_HS_DP": {
-    "trace_length_mm": 1.268001,
-    "vias": 0,
-    "layers": [
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.1,
-      0.15
-    ]
-  },
-  "USB_DEBUG_DM": {
-    "trace_length_mm": 21.926896,
-    "vias": 2,
-    "layers": [
-      "Bottom Layer",
-      "PWR",
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.1,
-      0.15
-    ]
-  },
-  "USB_DEBUG_DP": {
-    "trace_length_mm": 17.99847,
-    "vias": 1,
-    "layers": [
-      "Bottom Layer",
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.1,
-      0.15
-    ]
-  },
-  "DAC_I2S_DOUT": {
-    "trace_length_mm": 26.596233,
-    "vias": 4,
-    "layers": [
-      "Bottom Layer",
-      "PWR",
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.1,
-      0.15
-    ]
-  },
-  "STRAP_USB_JTAG": {
-    "trace_length_mm": 10.663292,
-    "vias": 2,
-    "layers": [
-      "Bottom Layer",
-      "SINGAL",
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.1,
-      0.15
-    ]
-  },
-  "DAC_I2S_LRCK": {
-    "trace_length_mm": 30.166868,
-    "vias": 2,
-    "layers": [
-      "PWR",
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.1,
-      0.15
-    ]
-  },
-  "DAC_RESET_N": {
-    "trace_length_mm": 37.461934,
-    "vias": 2,
-    "layers": [
-      "Bottom Layer",
-      "SINGAL",
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.1,
-      0.15
-    ]
-  },
-  "DAC_I2S_BCLK": {
-    "trace_length_mm": 32.303694,
-    "vias": 2,
-    "layers": [
-      "PWR",
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.1,
-      0.15
-    ]
-  },
-  "MCU_UART0_TX": {
-    "trace_length_mm": 1.05465,
-    "vias": 0,
-    "layers": [
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.1,
-      0.15
-    ]
-  },
-  "BOOT_MODE_H": {
-    "trace_length_mm": 7.316541,
-    "vias": 1,
-    "layers": [
-      "Bottom Layer",
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.1,
-      0.15
-    ]
-  },
-  "BOOT_DOWNLOAD_N": {
-    "trace_length_mm": 54.650131,
-    "vias": 2,
-    "layers": [
-      "Bottom Layer",
-      "SINGAL",
-      "Top Layer"
-    ],
-    "widths_mm": [
-      0.1,
-      0.15
     ]
   },
   "GBAT": {
@@ -1524,8 +366,10 @@
       "SINGAL"
     ],
     "widths_mm": [
-      0.15,
-      0.3
+      0.25,
+      0.3,
+      0.35,
+      0.4
     ]
   },
   "MOTOR_OUT_P": {
@@ -1569,28 +413,6 @@
       0.15
     ]
   },
-  "CTRL_SCL_AON": {
-    "trace_length_mm": 15.248559,
-    "vias": 0,
-    "layers": [
-      "Bottom Layer"
-    ],
-    "widths_mm": [
-      0.1,
-      0.15
-    ]
-  },
-  "CTRL_RESET_AON_N": {
-    "trace_length_mm": 15.6911,
-    "vias": 0,
-    "layers": [
-      "Bottom Layer"
-    ],
-    "widths_mm": [
-      0.1,
-      0.15
-    ]
-  },
   "N_5N15": {
     "trace_length_mm": 11.180206,
     "vias": 0,
@@ -1599,138 +421,6 @@
     ],
     "widths_mm": [
       0.3
-    ]
-  },
-  "OFF_CLEAR_N": {
-    "trace_length_mm": 13.766483,
-    "vias": 2,
-    "layers": [
-      "Bottom Layer",
-      "SINGAL"
-    ],
-    "widths_mm": [
-      0.15
-    ]
-  },
-  "CTRL_INT_AON_N": {
-    "trace_length_mm": 14.926837,
-    "vias": 0,
-    "layers": [
-      "Bottom Layer"
-    ],
-    "widths_mm": [
-      0.1,
-      0.15
-    ]
-  },
-  "KEY_RAW_N": {
-    "trace_length_mm": 25.985357,
-    "vias": 2,
-    "layers": [
-      "Bottom Layer",
-      "PWR"
-    ],
-    "widths_mm": [
-      0.1,
-      0.15
-    ]
-  },
-  "GEK_RST": {
-    "trace_length_mm": 2.15042,
-    "vias": 0,
-    "layers": [
-      "Bottom Layer"
-    ],
-    "widths_mm": [
-      0.15
-    ]
-  },
-  "N_2N133": {
-    "trace_length_mm": 1.789131,
-    "vias": 0,
-    "layers": [
-      "Bottom Layer"
-    ],
-    "widths_mm": [
-      0.1,
-      0.203
-    ]
-  },
-  "N_2N157": {
-    "trace_length_mm": 5.22692,
-    "vias": 0,
-    "layers": [
-      "Bottom Layer"
-    ],
-    "widths_mm": [
-      0.1,
-      0.15,
-      0.203
-    ]
-  },
-  "OFF_RC": {
-    "trace_length_mm": 13.857943,
-    "vias": 3,
-    "layers": [
-      "Bottom Layer",
-      "PWR",
-      "SINGAL"
-    ],
-    "widths_mm": [
-      0.15
-    ]
-  },
-  "AUTO_BOOT_B": {
-    "trace_length_mm": 7.135167,
-    "vias": 0,
-    "layers": [
-      "Bottom Layer"
-    ],
-    "widths_mm": [
-      0.15
-    ]
-  },
-  "AUTO_EN_B": {
-    "trace_length_mm": 9.207633,
-    "vias": 0,
-    "layers": [
-      "Bottom Layer"
-    ],
-    "widths_mm": [
-      0.1,
-      0.15
-    ]
-  },
-  "N_2N135": {
-    "trace_length_mm": 1.397,
-    "vias": 0,
-    "layers": [
-      "Bottom Layer"
-    ],
-    "widths_mm": [
-      0.203
-    ]
-  },
-  "CTRL_SDA_AON": {
-    "trace_length_mm": 10.842412,
-    "vias": 0,
-    "layers": [
-      "Bottom Layer"
-    ],
-    "widths_mm": [
-      0.1,
-      0.15
-    ]
-  },
-  "OFF_CEXT": {
-    "trace_length_mm": 13.51682,
-    "vias": 2,
-    "layers": [
-      "Bottom Layer",
-      "PWR"
-    ],
-    "widths_mm": [
-      0.15
     ]
   }
 }

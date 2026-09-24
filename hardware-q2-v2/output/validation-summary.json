@@ -1,6 +1,6 @@
 {
-  "status": "FULLY_ROUTED_REVIEW_CANDIDATE_NOT_RELEASED_FOR_FABRICATION",
-  "board_sha256": "6a2b1e4cfb08524f19f13aea072be195f2b83ac2a67df9404efdaa2df8f5d43a",
+  "status": "POWER_ONLY_0402_MANUAL_SIGNAL_ROUTING_REQUIRED",
+  "board_sha256": "5eb140931f25d572490ac725478b1a39df9d2b821c36782b753da6e5efb2ba4d",
   "kicad_version": "10.0.4",
   "size_mm": [
     46,
@@ -9,14 +9,14 @@
   ],
   "copper_layers": 6,
   "components": 198,
-  "tracks": 3029,
-  "vias": 262,
+  "tracks": 825,
+  "vias": 110,
   "via_diameter_drill_mm": {
-    "0.45/0.20": 194,
-    "0.35/0.15": 68
+    "0.45/0.20": 83,
+    "0.35/0.15": 27
   },
   "drc_violations": 0,
-  "unconnected": 0,
+  "unconnected": 174,
   "schematic_parity": 0,
   "erc_violations": 0,
   "ignored_drc_checks": [
@@ -56,10 +56,18 @@
     "TP106"
   ],
   "release_holds": [
+    "All signal routing intentionally removed; manual signal routing required",
+    "CS43131 HPREFA/HPREFB independent Kelvin returns to headphone reference; current common-net pours do not enforce this topology",
+    "0402 RF matching and crystal capacitors need parasitic/load retuning after package change",
     "USB complete-path controlled impedance / coupling / skew with manufacturer stackup",
     "RF transmission line impedance, matching and antenna placement tuning",
     "AM213 3.3 V follows the archived OSPTEK reference circuit; datasheet discrepancy and operating margins still require bench validation",
     "Screen BTB tail reach, contact orientation and insertion clearance with real parts",
     "Power/charging current, AON isolation and shutdown pulse bench validation"
-  ]
+  ],
+  "power_unconnected": 0,
+  "intentional_signal_unconnected": 174,
+  "remaining_signal_copper_items": 0,
+  "package_replacements": 32,
+  "remaining_0201_resistors_capacitors": []
 }

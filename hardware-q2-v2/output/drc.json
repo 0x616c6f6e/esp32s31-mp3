@@ -1,7 +1,7 @@
 {
     "$schema": "https://schemas.kicad.org/drc.v1.json",
     "coordinate_units": "mm",
-    "date": "2026-09-24T05:26:56",
+    "date": "2026-09-24T11:00:19",
     "ignored_checks": [
         {
             "description": "Footprint has no courtyard defined",
@@ -31,6 +31,4009 @@
     "kicad_version": "10.0.4",
     "schematic_parity": [],
     "source": "q2-v2.kicad_pcb",
-    "unconnected_items": [],
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 C108 的焊盘 1 [RF_STAGE2]",
+                    "pos": {
+                        "x": 160.876489,
+                        "y": 75.341111
+                    },
+                    "uuid": "c6b53ec2-3153-49a9-a385-a3420eadf081"
+                },
+                {
+                    "description": "Top Layer 上 L102 的焊盘 1 [RF_STAGE2]",
+                    "pos": {
+                        "x": 162.483023,
+                        "y": 76.622277
+                    },
+                    "uuid": "320f5e31-b30a-4f63-bb92-b207193dc552"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 L105 的焊盘 2 [RF_STAGE2]",
+                    "pos": {
+                        "x": 162.193724,
+                        "y": 73.532624
+                    },
+                    "uuid": "cf3a7559-2bf1-4ab2-bcda-78ae0ede0842"
+                },
+                {
+                    "description": "Top Layer 上 C108 的焊盘 1 [RF_STAGE2]",
+                    "pos": {
+                        "x": 160.876489,
+                        "y": 75.341111
+                    },
+                    "uuid": "c6b53ec2-3153-49a9-a385-a3420eadf081"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 L102 的焊盘 1 [RF_STAGE2]",
+                    "pos": {
+                        "x": 162.483023,
+                        "y": 76.622277
+                    },
+                    "uuid": "320f5e31-b30a-4f63-bb92-b207193dc552"
+                },
+                {
+                    "description": "Top Layer 上 C107 的焊盘 1 [RF_STAGE2]",
+                    "pos": {
+                        "x": 163.943589,
+                        "y": 76.482688
+                    },
+                    "uuid": "752f3f63-9f88-4fe6-af12-87e0d74f7882"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 U9 的焊盘 45 [MCU_USB_HS_DM]",
+                    "pos": {
+                        "x": 156.943,
+                        "y": 88.547
+                    },
+                    "uuid": "cd94386e-5673-4f79-b8b4-ba8b9f11550f"
+                },
+                {
+                    "description": "Top Layer 上 R108 的焊盘 1 [MCU_USB_HS_DM]",
+                    "pos": {
+                        "x": 158.3432,
+                        "y": 89.4731
+                    },
+                    "uuid": "8014a676-cf21-4c6c-9205-a0809a790c5b"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 U17 的焊盘 6 [USB_HS_DM]",
+                    "pos": {
+                        "x": 153.201,
+                        "y": 127.431
+                    },
+                    "uuid": "09b62b26-c933-49ff-92bc-df9f40832c35"
+                },
+                {
+                    "description": "Top Layer 上 R108 的焊盘 2 [USB_HS_DM]",
+                    "pos": {
+                        "x": 158.3432,
+                        "y": 90.4931
+                    },
+                    "uuid": "c7ee51ed-485c-4bcb-b57d-8ed84022a0de"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 R101 的焊盘 1 [MCU_FLASH_D1]",
+                    "pos": {
+                        "x": 152.1535,
+                        "y": 88.0092
+                    },
+                    "uuid": "849541ae-d920-4d2f-b8ee-8d31e77d3d6e"
+                },
+                {
+                    "description": "Top Layer 上 U9 的焊盘 37 [MCU_FLASH_D1]",
+                    "pos": {
+                        "x": 154.968,
+                        "y": 86.921999
+                    },
+                    "uuid": "639a4078-0943-419c-b0bd-f844de28dea7"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 U10 的焊盘 2 [FLASH_D1]",
+                    "pos": {
+                        "x": 148.103,
+                        "y": 92.2595
+                    },
+                    "uuid": "4b25d1b8-63a6-47e4-9b1b-ce26bac6b379"
+                },
+                {
+                    "description": "Top Layer 上 R101 的焊盘 2 [FLASH_D1]",
+                    "pos": {
+                        "x": 151.1335,
+                        "y": 88.0092
+                    },
+                    "uuid": "16fabd17-1dcb-4c2f-9cdd-1beeb2106fb7"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 C102 的焊盘 1 [XTAL_N]",
+                    "pos": {
+                        "x": 166.6786,
+                        "y": 84.2089
+                    },
+                    "uuid": "f133ee04-00e6-45fa-8996-50a5bac78f9a"
+                },
+                {
+                    "description": "Top Layer 上 Y101 的焊盘 3 [XTAL_N]",
+                    "pos": {
+                        "x": 166.7559,
+                        "y": 82.9832
+                    },
+                    "uuid": "3ff13fd0-7d1c-408b-a426-08bc7bd17ca2"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 Y101 的焊盘 3 [XTAL_N]",
+                    "pos": {
+                        "x": 166.7559,
+                        "y": 82.9832
+                    },
+                    "uuid": "3ff13fd0-7d1c-408b-a426-08bc7bd17ca2"
+                },
+                {
+                    "description": "Top Layer 上 U9 的焊盘 78 [XTAL_N]",
+                    "pos": {
+                        "x": 162.768,
+                        "y": 82.022
+                    },
+                    "uuid": "901cdfe0-c935-4652-af7f-631248df2ad8"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 X1 的焊盘 1 [N_3N1]",
+                    "pos": {
+                        "x": 132.0605,
+                        "y": 109.0835
+                    },
+                    "uuid": "e189e0a7-d425-4de4-9d26-84a6d8bfc66c"
+                },
+                {
+                    "description": "Top Layer 上 U2 的焊盘 36 [N_3N1]",
+                    "pos": {
+                        "x": 138.92,
+                        "y": 113.5885
+                    },
+                    "uuid": "d35c6a81-4c8d-4f44-b730-890e49429475"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 C32 的焊盘 2 [N_3N1]",
+                    "pos": {
+                        "x": 132.53,
+                        "y": 107.1725
+                    },
+                    "uuid": "c8cce2a8-0bc4-4ad0-963e-4d2de9d5430b"
+                },
+                {
+                    "description": "Top Layer 上 X1 的焊盘 1 [N_3N1]",
+                    "pos": {
+                        "x": 132.0605,
+                        "y": 109.0835
+                    },
+                    "uuid": "e189e0a7-d425-4de4-9d26-84a6d8bfc66c"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 X1 的焊盘 3 [N_3N2]",
+                    "pos": {
+                        "x": 133.7605,
+                        "y": 111.2835
+                    },
+                    "uuid": "4e54d0c2-40bc-425b-8caf-12fa1104595f"
+                },
+                {
+                    "description": "Top Layer 上 C33 的焊盘 1 [N_3N2]",
+                    "pos": {
+                        "x": 133.7855,
+                        "y": 113.13
+                    },
+                    "uuid": "7c62cb9c-dc2d-44f0-ba13-2f7f81cdb844"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 C33 的焊盘 1 [N_3N2]",
+                    "pos": {
+                        "x": 133.7855,
+                        "y": 113.13
+                    },
+                    "uuid": "7c62cb9c-dc2d-44f0-ba13-2f7f81cdb844"
+                },
+                {
+                    "description": "Top Layer 上 U2 的焊盘 37 [N_3N2]",
+                    "pos": {
+                        "x": 138.52,
+                        "y": 113.5885
+                    },
+                    "uuid": "f018c3a9-c709-4b31-9f71-e3adae90a92f"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 JDISP1 的焊盘 1 [LCD_RESET_N]",
+                    "pos": {
+                        "x": 156.668,
+                        "y": 98.047
+                    },
+                    "uuid": "fb4fe91c-8fc2-4b12-aa12-e725c4d4d860"
+                },
+                {
+                    "description": "Bottom Layer 上 R122 的焊盘 1 [LCD_RESET_N]",
+                    "pos": {
+                        "x": 165.378,
+                        "y": 97.647
+                    },
+                    "uuid": "5823a0f2-8e70-4fa6-9ec6-a52ad0f7b3d5"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Bottom Layer 上 R122 的焊盘 1 [LCD_RESET_N]",
+                    "pos": {
+                        "x": 165.378,
+                        "y": 97.647
+                    },
+                    "uuid": "5823a0f2-8e70-4fa6-9ec6-a52ad0f7b3d5"
+                },
+                {
+                    "description": "Top Layer 上 U9 的焊盘 57 [LCD_RESET_N]",
+                    "pos": {
+                        "x": 161.142999,
+                        "y": 88.547
+                    },
+                    "uuid": "024f2779-f289-4c87-8b3f-2fafa0c846a6"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 JDISP1 的焊盘 3 [LCD_TE]",
+                    "pos": {
+                        "x": 157.468,
+                        "y": 98.047
+                    },
+                    "uuid": "3d829e75-861b-46fe-90cb-d2ccc44d4f50"
+                },
+                {
+                    "description": "Top Layer 上 U9 的焊盘 59 [LCD_TE]",
+                    "pos": {
+                        "x": 161.843,
+                        "y": 88.547
+                    },
+                    "uuid": "6c496595-8c33-4b65-93c6-aee5ad463405"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 JDISP1 的焊盘 4 [LCD_CS_N]",
+                    "pos": {
+                        "x": 157.868,
+                        "y": 98.047
+                    },
+                    "uuid": "32dbf271-cfdc-45b3-b178-7c7216666d17"
+                },
+                {
+                    "description": "Bottom Layer 上 R121 的焊盘 2 [LCD_CS_N]",
+                    "pos": {
+                        "x": 163.858,
+                        "y": 95.647
+                    },
+                    "uuid": "127ff0c0-96e0-4a03-9e99-10ca84071c19"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Bottom Layer 上 R121 的焊盘 2 [LCD_CS_N]",
+                    "pos": {
+                        "x": 163.858,
+                        "y": 95.647
+                    },
+                    "uuid": "127ff0c0-96e0-4a03-9e99-10ca84071c19"
+                },
+                {
+                    "description": "Top Layer 上 U9 的焊盘 67 [LCD_CS_N]",
+                    "pos": {
+                        "x": 162.768,
+                        "y": 85.872
+                    },
+                    "uuid": "51fc8ae0-2ed0-416b-a5e9-5c43423ca383"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 JDISP1 的焊盘 5 [LCD_CLK]",
+                    "pos": {
+                        "x": 158.268,
+                        "y": 98.047
+                    },
+                    "uuid": "eb136675-982d-400e-8a60-6792d369db6b"
+                },
+                {
+                    "description": "Top Layer 上 U9 的焊盘 68 [LCD_CLK]",
+                    "pos": {
+                        "x": 162.768,
+                        "y": 85.522
+                    },
+                    "uuid": "13ff8c97-56ca-405e-b136-a1faa1213d63"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 JDISP1 的焊盘 6 [LCD_D1]",
+                    "pos": {
+                        "x": 158.668,
+                        "y": 98.047
+                    },
+                    "uuid": "ab52de5f-9e1a-4b88-a3f6-89a85b5802ba"
+                },
+                {
+                    "description": "Top Layer 上 U9 的焊盘 70 [LCD_D1]",
+                    "pos": {
+                        "x": 162.768,
+                        "y": 84.822
+                    },
+                    "uuid": "9cc3a1f0-a65e-455d-a2d6-f575c8ac37b2"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 JDISP1 的焊盘 7 [LCD_D0]",
+                    "pos": {
+                        "x": 159.068,
+                        "y": 98.047
+                    },
+                    "uuid": "e6a75946-664d-4337-93d2-a57dd4c4beca"
+                },
+                {
+                    "description": "Top Layer 上 U9 的焊盘 69 [LCD_D0]",
+                    "pos": {
+                        "x": 162.768,
+                        "y": 85.172001
+                    },
+                    "uuid": "d26538ad-4525-442a-bd56-ad7540d9ba78"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 JDISP1 的焊盘 17 [TP_INT_N]",
+                    "pos": {
+                        "x": 159.468,
+                        "y": 95.647
+                    },
+                    "uuid": "ffb91b6e-c57d-4717-82d4-4048b615c0d4"
+                },
+                {
+                    "description": "Top Layer 上 U9 的焊盘 60 [TP_INT_N]",
+                    "pos": {
+                        "x": 162.193,
+                        "y": 88.546999
+                    },
+                    "uuid": "50bfba5d-d8fd-4948-98d0-5fffd22488ff"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 JDISP1 的焊盘 18 [TP_RESET_N]",
+                    "pos": {
+                        "x": 159.068,
+                        "y": 95.647
+                    },
+                    "uuid": "289b8119-61c0-441a-92b6-d51edfeef1bd"
+                },
+                {
+                    "description": "Top Layer 上 U9 的焊盘 61 [TP_RESET_N]",
+                    "pos": {
+                        "x": 162.767999,
+                        "y": 87.972
+                    },
+                    "uuid": "64e17c9b-14f5-4f9e-a27a-87c3b7d99995"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 JDISP1 的焊盘 19 [TP_I2C_SDA]",
+                    "pos": {
+                        "x": 158.668,
+                        "y": 95.647
+                    },
+                    "uuid": "4ffb529d-e982-43fd-b60b-e9f78e035424"
+                },
+                {
+                    "description": "Bottom Layer 上 R46 的焊盘 2 [TP_I2C_SDA]",
+                    "pos": {
+                        "x": 164.868,
+                        "y": 101.58
+                    },
+                    "uuid": "9d301ff0-7ba4-45d5-8551-f8c45fb9a9e2"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 U9 的焊盘 56 [TP_I2C_SDA]",
+                    "pos": {
+                        "x": 160.793,
+                        "y": 88.547
+                    },
+                    "uuid": "b0baf4e8-676f-4c12-af6f-cb09b57988df"
+                },
+                {
+                    "description": "Top Layer 上 JDISP1 的焊盘 19 [TP_I2C_SDA]",
+                    "pos": {
+                        "x": 158.668,
+                        "y": 95.647
+                    },
+                    "uuid": "4ffb529d-e982-43fd-b60b-e9f78e035424"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 JDISP1 的焊盘 20 [TP_I2C_SCL]",
+                    "pos": {
+                        "x": 158.268,
+                        "y": 95.647
+                    },
+                    "uuid": "1ceb2cf3-4a85-42d1-bda8-2818587f3199"
+                },
+                {
+                    "description": "Bottom Layer 上 R45 的焊盘 2 [TP_I2C_SCL]",
+                    "pos": {
+                        "x": 162.868,
+                        "y": 101.58
+                    },
+                    "uuid": "8f428a2d-d4f9-4301-b173-8a9d6478d437"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 U9 的焊盘 55 [TP_I2C_SCL]",
+                    "pos": {
+                        "x": 160.443,
+                        "y": 88.547
+                    },
+                    "uuid": "22c95a15-38d5-4e19-a13b-0c43d28b0680"
+                },
+                {
+                    "description": "Top Layer 上 JDISP1 的焊盘 20 [TP_I2C_SCL]",
+                    "pos": {
+                        "x": 158.268,
+                        "y": 95.647
+                    },
+                    "uuid": "1ceb2cf3-4a85-42d1-bda8-2818587f3199"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 JDISP1 的焊盘 22 [LCD_D3]",
+                    "pos": {
+                        "x": 157.468,
+                        "y": 95.647
+                    },
+                    "uuid": "6123a870-35f2-4e8a-aa13-6472f8bd8300"
+                },
+                {
+                    "description": "Top Layer 上 U9 的焊盘 71 [LCD_D3]",
+                    "pos": {
+                        "x": 162.768,
+                        "y": 84.472
+                    },
+                    "uuid": "3bac7e4c-9a6f-49dc-abff-4e254104698e"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 JDISP1 的焊盘 23 [LCD_D2]",
+                    "pos": {
+                        "x": 157.068,
+                        "y": 95.647
+                    },
+                    "uuid": "fe0b0550-240c-4238-9da2-a35f5ac428dc"
+                },
+                {
+                    "description": "Top Layer 上 U9 的焊盘 72 [LCD_D2]",
+                    "pos": {
+                        "x": 162.768,
+                        "y": 84.121999
+                    },
+                    "uuid": "5ba028c6-2e77-4c62-a947-e2bac1a1a233"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 JDISP1 的焊盘 24 [LCD_VCI_EN]",
+                    "pos": {
+                        "x": 156.668,
+                        "y": 95.647
+                    },
+                    "uuid": "f4a20499-3f4d-4710-b583-bf419d1fee8b"
+                },
+                {
+                    "description": "Bottom Layer 上 R123 的焊盘 1 [LCD_VCI_EN]",
+                    "pos": {
+                        "x": 165.378,
+                        "y": 99.147
+                    },
+                    "uuid": "f94654dd-d38c-40ab-a93a-1bd7a1787d85"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 U9 的焊盘 58 [LCD_VCI_EN]",
+                    "pos": {
+                        "x": 161.493,
+                        "y": 88.547
+                    },
+                    "uuid": "7cdae12c-05ab-4204-bdf8-8779411e7f09"
+                },
+                {
+                    "description": "Top Layer 上 JDISP1 的焊盘 24 [LCD_VCI_EN]",
+                    "pos": {
+                        "x": 156.668,
+                        "y": 95.647
+                    },
+                    "uuid": "f4a20499-3f4d-4710-b583-bf419d1fee8b"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 R19 的焊盘 1 [CS43131_SDA_1V8]",
+                    "pos": {
+                        "x": 140.95,
+                        "y": 110.071
+                    },
+                    "uuid": "a6fe8095-167b-4894-a688-b665fae164a8"
+                },
+                {
+                    "description": "Top Layer 上 U2 的焊盘 39 [CS43131_SDA_1V8]",
+                    "pos": {
+                        "x": 137.72,
+                        "y": 113.5885
+                    },
+                    "uuid": "9e88c4f3-9217-4c12-a2c8-80abdcfed4cb"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 U7 的焊盘 4 [CS43131_SDA_1V8]",
+                    "pos": {
+                        "x": 142.958,
+                        "y": 109.707
+                    },
+                    "uuid": "17fa0bca-cd9f-4865-9e80-7a9c6bfc2e5b"
+                },
+                {
+                    "description": "Top Layer 上 R19 的焊盘 1 [CS43131_SDA_1V8]",
+                    "pos": {
+                        "x": 140.95,
+                        "y": 110.071
+                    },
+                    "uuid": "a6fe8095-167b-4894-a688-b665fae164a8"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 U9 的焊盘 79 [MCU_XTAL_P]",
+                    "pos": {
+                        "x": 162.768,
+                        "y": 81.672
+                    },
+                    "uuid": "3175f462-8f81-4ba9-8de0-68fce8904bc0"
+                },
+                {
+                    "description": "Top Layer 上 L103 的焊盘 1 [MCU_XTAL_P]",
+                    "pos": {
+                        "x": 163.6293,
+                        "y": 81.7972
+                    },
+                    "uuid": "23b7c4db-f4d0-4232-bb27-2bb1d9a853a2"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 L103 的焊盘 2 [XTAL_P]",
+                    "pos": {
+                        "x": 164.1293,
+                        "y": 81.7972
+                    },
+                    "uuid": "a0474fed-b597-4fe4-bc99-9a979be684ce"
+                },
+                {
+                    "description": "Top Layer 上 Y101 的焊盘 1 [XTAL_P]",
+                    "pos": {
+                        "x": 165.3559,
+                        "y": 81.2832
+                    },
+                    "uuid": "7b0b125c-b78f-499d-8fe8-b047069972dc"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 Y101 的焊盘 1 [XTAL_P]",
+                    "pos": {
+                        "x": 165.3559,
+                        "y": 81.2832
+                    },
+                    "uuid": "7b0b125c-b78f-499d-8fe8-b047069972dc"
+                },
+                {
+                    "description": "Top Layer 上 C101 的焊盘 1 [XTAL_P]",
+                    "pos": {
+                        "x": 165.4901,
+                        "y": 79.8698
+                    },
+                    "uuid": "f06d34bd-4ee8-41d2-9e7b-f2020fbd6d58"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 CARD2 的焊盘 1 [SD_D2]",
+                    "pos": {
+                        "x": 144.867,
+                        "y": 84.66
+                    },
+                    "uuid": "0e23ba54-be29-48ac-a769-ca2c01811918"
+                },
+                {
+                    "description": "Bottom Layer 上 R36 的焊盘 2 [SD_D2]",
+                    "pos": {
+                        "x": 140.823,
+                        "y": 85.227
+                    },
+                    "uuid": "1aea5ec2-981b-4399-938a-2fad6f444180"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 U9 的焊盘 29 [SD_D2]",
+                    "pos": {
+                        "x": 154.968,
+                        "y": 84.121999
+                    },
+                    "uuid": "15a8aca6-9cdb-41be-aaff-6057a3232427"
+                },
+                {
+                    "description": "Top Layer 上 CARD2 的焊盘 1 [SD_D2]",
+                    "pos": {
+                        "x": 144.867,
+                        "y": 84.66
+                    },
+                    "uuid": "0e23ba54-be29-48ac-a769-ca2c01811918"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 CARD2 的焊盘 2 [SD_D3]",
+                    "pos": {
+                        "x": 144.867,
+                        "y": 83.56
+                    },
+                    "uuid": "f86bfcae-9a94-4715-8c9f-443f310b1a7d"
+                },
+                {
+                    "description": "Bottom Layer 上 R37 的焊盘 2 [SD_D3]",
+                    "pos": {
+                        "x": 140.823,
+                        "y": 83.957
+                    },
+                    "uuid": "d9600e01-e238-4593-94c7-84136e4dbc67"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 U9 的焊盘 31 [SD_D3]",
+                    "pos": {
+                        "x": 154.968,
+                        "y": 84.822
+                    },
+                    "uuid": "03becacf-19fa-4470-964c-b154dac45de9"
+                },
+                {
+                    "description": "Top Layer 上 CARD2 的焊盘 2 [SD_D3]",
+                    "pos": {
+                        "x": 144.867,
+                        "y": 83.56
+                    },
+                    "uuid": "f86bfcae-9a94-4715-8c9f-443f310b1a7d"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 CARD2 的焊盘 3 [SD_CMD]",
+                    "pos": {
+                        "x": 144.867,
+                        "y": 82.46
+                    },
+                    "uuid": "a3546027-e8fd-4cf0-9190-c76b92c703e7"
+                },
+                {
+                    "description": "Bottom Layer 上 R39 的焊盘 2 [SD_CMD]",
+                    "pos": {
+                        "x": 140.823,
+                        "y": 82.687
+                    },
+                    "uuid": "73aa1132-c877-4821-9a65-37c44144eb79"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 U9 的焊盘 33 [SD_CMD]",
+                    "pos": {
+                        "x": 154.968,
+                        "y": 85.522
+                    },
+                    "uuid": "8a69b5f1-0ada-4304-ba84-3c7039592b9d"
+                },
+                {
+                    "description": "Top Layer 上 CARD2 的焊盘 3 [SD_CMD]",
+                    "pos": {
+                        "x": 144.867,
+                        "y": 82.46
+                    },
+                    "uuid": "a3546027-e8fd-4cf0-9190-c76b92c703e7"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 CARD2 的焊盘 5 [SD_CLK]",
+                    "pos": {
+                        "x": 144.867,
+                        "y": 80.26
+                    },
+                    "uuid": "5b9e2b74-4f27-47b9-87ac-3d68748f6155"
+                },
+                {
+                    "description": "Top Layer 上 U9 的焊盘 32 [SD_CLK]",
+                    "pos": {
+                        "x": 154.968,
+                        "y": 85.172001
+                    },
+                    "uuid": "f3985b3b-2c42-48de-8a48-61af8aa18197"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 CARD2 的焊盘 7 [SD_D0]",
+                    "pos": {
+                        "x": 144.867,
+                        "y": 78.06
+                    },
+                    "uuid": "0bbbc03a-a0d8-4bf5-92f2-a2b929ed9f49"
+                },
+                {
+                    "description": "Bottom Layer 上 R38 的焊盘 2 [SD_D0]",
+                    "pos": {
+                        "x": 140.823,
+                        "y": 78.242
+                    },
+                    "uuid": "f624f692-06f4-449c-ba27-7c4059eae42a"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 U9 的焊盘 27 [SD_D0]",
+                    "pos": {
+                        "x": 154.968,
+                        "y": 83.422
+                    },
+                    "uuid": "1c26f52d-58df-499c-b3b4-8b8f2c598ae5"
+                },
+                {
+                    "description": "Top Layer 上 CARD2 的焊盘 7 [SD_D0]",
+                    "pos": {
+                        "x": 144.867,
+                        "y": 78.06
+                    },
+                    "uuid": "0bbbc03a-a0d8-4bf5-92f2-a2b929ed9f49"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 CARD2 的焊盘 8 [SD_D1]",
+                    "pos": {
+                        "x": 144.867,
+                        "y": 76.96
+                    },
+                    "uuid": "939199f7-a18e-4f4b-961a-b7d64c866c37"
+                },
+                {
+                    "description": "Bottom Layer 上 R35 的焊盘 2 [SD_D1]",
+                    "pos": {
+                        "x": 140.823,
+                        "y": 76.972
+                    },
+                    "uuid": "d26dfd43-bdbd-4dd1-a77d-1dd895a53562"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 U9 的焊盘 28 [SD_D1]",
+                    "pos": {
+                        "x": 154.968,
+                        "y": 83.772
+                    },
+                    "uuid": "cd6624ad-d3e1-4b97-831a-c33e345e824b"
+                },
+                {
+                    "description": "Top Layer 上 CARD2 的焊盘 8 [SD_D1]",
+                    "pos": {
+                        "x": 144.867,
+                        "y": 76.96
+                    },
+                    "uuid": "939199f7-a18e-4f4b-961a-b7d64c866c37"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 CARD2 的焊盘 CD [SD_CARD_DETECT_N]",
+                    "pos": {
+                        "x": 144.867,
+                        "y": 75.86
+                    },
+                    "uuid": "397e0cd7-a534-4547-94e3-3e691f668c9a"
+                },
+                {
+                    "description": "Bottom Layer 上 R125 的焊盘 2 [SD_CARD_DETECT_N]",
+                    "pos": {
+                        "x": 146.358,
+                        "y": 82.647
+                    },
+                    "uuid": "7239ce8f-5cc9-40dd-993c-2b9b01a04d1b"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Bottom Layer 上 R125 的焊盘 2 [SD_CARD_DETECT_N]",
+                    "pos": {
+                        "x": 146.358,
+                        "y": 82.647
+                    },
+                    "uuid": "7239ce8f-5cc9-40dd-993c-2b9b01a04d1b"
+                },
+                {
+                    "description": "Top Layer 上 U9 的焊盘 26 [SD_CARD_DETECT_N]",
+                    "pos": {
+                        "x": 154.968,
+                        "y": 83.072
+                    },
+                    "uuid": "271292a6-6534-4d3e-ba5a-6de42de96ebb"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 U9 的焊盘 1 [RF_CHIP]",
+                    "pos": {
+                        "x": 162.193,
+                        "y": 80.747001
+                    },
+                    "uuid": "980d9001-d402-4836-87d2-3fe83a816d7b"
+                },
+                {
+                    "description": "Top Layer 上 C103 的焊盘 1 [RF_CHIP]",
+                    "pos": {
+                        "x": 162.776488,
+                        "y": 79.989089
+                    },
+                    "uuid": "c3265e3c-f3ad-4129-a831-cdd2883c6c29"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 C103 的焊盘 1 [RF_CHIP]",
+                    "pos": {
+                        "x": 162.776488,
+                        "y": 79.989089
+                    },
+                    "uuid": "c3265e3c-f3ad-4129-a831-cdd2883c6c29"
+                },
+                {
+                    "description": "Top Layer 上 L101 的焊盘 2 [RF_CHIP]",
+                    "pos": {
+                        "x": 163.2537,
+                        "y": 79.2362
+                    },
+                    "uuid": "07f4bcf1-3884-436b-95ac-15df3f455891"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 C104 的焊盘 1 [RF_STAGE1]",
+                    "pos": {
+                        "x": 163.4848,
+                        "y": 77.9353
+                    },
+                    "uuid": "375d6ba3-e168-47dc-ad5d-a7fa93dc899b"
+                },
+                {
+                    "description": "Top Layer 上 L101 的焊盘 1 [RF_STAGE1]",
+                    "pos": {
+                        "x": 163.2537,
+                        "y": 78.7362
+                    },
+                    "uuid": "8350531e-4964-4cee-8676-9f8207cfa304"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 C107 的焊盘 2 [RF_STAGE1]",
+                    "pos": {
+                        "x": 164.622411,
+                        "y": 77.16151
+                    },
+                    "uuid": "dd9e1f0f-02e1-4df0-85b4-7824aef6dd60"
+                },
+                {
+                    "description": "Top Layer 上 C104 的焊盘 1 [RF_STAGE1]",
+                    "pos": {
+                        "x": 163.4848,
+                        "y": 77.9353
+                    },
+                    "uuid": "375d6ba3-e168-47dc-ad5d-a7fa93dc899b"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 R102 的焊盘 1 [MCU_FLASH_D2]",
+                    "pos": {
+                        "x": 154.1535,
+                        "y": 90.0442
+                    },
+                    "uuid": "b8fde4d9-3a4b-40b3-b06c-b15a9317540f"
+                },
+                {
+                    "description": "Top Layer 上 U9 的焊盘 38 [MCU_FLASH_D2]",
+                    "pos": {
+                        "x": 154.968,
+                        "y": 87.272
+                    },
+                    "uuid": "8ff2a27a-e89f-4872-8744-0127a556a062"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 U10 的焊盘 3 [FLASH_D2]",
+                    "pos": {
+                        "x": 146.833,
+                        "y": 92.2595
+                    },
+                    "uuid": "5bcf81d2-7b1b-4a78-a11a-0a8f27fd4017"
+                },
+                {
+                    "description": "Top Layer 上 R102 的焊盘 2 [FLASH_D2]",
+                    "pos": {
+                        "x": 153.1335,
+                        "y": 90.0442
+                    },
+                    "uuid": "a3a498d1-de7e-4392-a3db-d0791e43537a"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Bottom Layer 上 Q102 的焊盘 2 [SYS_I2C_SCL]",
+                    "pos": {
+                        "x": 150.918,
+                        "y": 111.5845
+                    },
+                    "uuid": "baefd305-bd4e-4d49-b227-148efcf22a0a"
+                },
+                {
+                    "description": "Bottom Layer 上 U1 的焊盘 2 [SYS_I2C_SCL]",
+                    "pos": {
+                        "x": 154.768,
+                        "y": 113.03
+                    },
+                    "uuid": "6e8c8809-037b-441f-abc0-f435d61a1ac8"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Bottom Layer 上 U1 的焊盘 2 [SYS_I2C_SCL]",
+                    "pos": {
+                        "x": 154.768,
+                        "y": 113.03
+                    },
+                    "uuid": "6e8c8809-037b-441f-abc0-f435d61a1ac8"
+                },
+                {
+                    "description": "Bottom Layer 上 U14 的焊盘 3 [SYS_I2C_SCL]",
+                    "pos": {
+                        "x": 167.822,
+                        "y": 113.8665
+                    },
+                    "uuid": "9abcbe2f-8b22-4d75-8d28-7e90658c53db"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Bottom Layer 上 U11 的焊盘 2 [SYS_I2C_SCL]",
+                    "pos": {
+                        "x": 164.518,
+                        "y": 130.147
+                    },
+                    "uuid": "548a6ded-34d4-4af1-8308-4fdd940afa70"
+                },
+                {
+                    "description": "Top Layer 上 U3 的焊盘 5 [SYS_I2C_SCL]",
+                    "pos": {
+                        "x": 167.7025,
+                        "y": 130.603
+                    },
+                    "uuid": "e00a5032-f8d7-4ef0-9236-61d08ed2e3a4"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Bottom Layer 上 U11 的焊盘 2 [SYS_I2C_SCL]",
+                    "pos": {
+                        "x": 164.518,
+                        "y": 130.147
+                    },
+                    "uuid": "548a6ded-34d4-4af1-8308-4fdd940afa70"
+                },
+                {
+                    "description": "Bottom Layer 上 U14 的焊盘 3 [SYS_I2C_SCL]",
+                    "pos": {
+                        "x": 167.822,
+                        "y": 113.8665
+                    },
+                    "uuid": "9abcbe2f-8b22-4d75-8d28-7e90658c53db"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Bottom Layer 上 R7 的焊盘 2 [SYS_I2C_SCL]",
+                    "pos": {
+                        "x": 168.368,
+                        "y": 108.08
+                    },
+                    "uuid": "b90914db-af44-48aa-ac92-2cf55601c2ae"
+                },
+                {
+                    "description": "Bottom Layer 上 U14 的焊盘 3 [SYS_I2C_SCL]",
+                    "pos": {
+                        "x": 167.822,
+                        "y": 113.8665
+                    },
+                    "uuid": "9abcbe2f-8b22-4d75-8d28-7e90658c53db"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Bottom Layer 上 R7 的焊盘 2 [SYS_I2C_SCL]",
+                    "pos": {
+                        "x": 168.368,
+                        "y": 108.08
+                    },
+                    "uuid": "b90914db-af44-48aa-ac92-2cf55601c2ae"
+                },
+                {
+                    "description": "Top Layer 上 U9 的焊盘 12 [SYS_I2C_SCL]",
+                    "pos": {
+                        "x": 158.342999,
+                        "y": 80.747
+                    },
+                    "uuid": "fff9f761-5010-4cc5-8a43-8963d3931435"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Bottom Layer 上 U1 的焊盘 3 [SYS_I2C_SDA]",
+                    "pos": {
+                        "x": 154.768,
+                        "y": 112.33
+                    },
+                    "uuid": "ad24d733-56e2-4f59-a9ed-e632833bdcee"
+                },
+                {
+                    "description": "Bottom Layer 上 Q101 的焊盘 2 [SYS_I2C_SDA]",
+                    "pos": {
+                        "x": 146.918,
+                        "y": 111.5845
+                    },
+                    "uuid": "9c308a14-8b8e-4153-85ae-90193ec320ff"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Bottom Layer 上 U1 的焊盘 3 [SYS_I2C_SDA]",
+                    "pos": {
+                        "x": 154.768,
+                        "y": 112.33
+                    },
+                    "uuid": "ad24d733-56e2-4f59-a9ed-e632833bdcee"
+                },
+                {
+                    "description": "Bottom Layer 上 U14 的焊盘 2 [SYS_I2C_SDA]",
+                    "pos": {
+                        "x": 167.322,
+                        "y": 113.8665
+                    },
+                    "uuid": "ca929813-2f77-46c1-8160-34256d272f5f"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Bottom Layer 上 U11 的焊盘 3 [SYS_I2C_SDA]",
+                    "pos": {
+                        "x": 164.518,
+                        "y": 129.647
+                    },
+                    "uuid": "71d592ce-3267-482b-aeff-88323c13ff52"
+                },
+                {
+                    "description": "Top Layer 上 U3 的焊盘 6 [SYS_I2C_SDA]",
+                    "pos": {
+                        "x": 168.2025,
+                        "y": 130.603
+                    },
+                    "uuid": "31ab136e-40bd-4eb0-b3c8-d02bb2cc1cf5"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Bottom Layer 上 U11 的焊盘 3 [SYS_I2C_SDA]",
+                    "pos": {
+                        "x": 164.518,
+                        "y": 129.647
+                    },
+                    "uuid": "71d592ce-3267-482b-aeff-88323c13ff52"
+                },
+                {
+                    "description": "Bottom Layer 上 U14 的焊盘 2 [SYS_I2C_SDA]",
+                    "pos": {
+                        "x": 167.322,
+                        "y": 113.8665
+                    },
+                    "uuid": "ca929813-2f77-46c1-8160-34256d272f5f"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Bottom Layer 上 U14 的焊盘 2 [SYS_I2C_SDA]",
+                    "pos": {
+                        "x": 167.322,
+                        "y": 113.8665
+                    },
+                    "uuid": "ca929813-2f77-46c1-8160-34256d272f5f"
+                },
+                {
+                    "description": "Bottom Layer 上 R8 的焊盘 2 [SYS_I2C_SDA]",
+                    "pos": {
+                        "x": 169.868,
+                        "y": 108.08
+                    },
+                    "uuid": "40a714e8-9326-4e3f-8104-8e596223f688"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Bottom Layer 上 R8 的焊盘 2 [SYS_I2C_SDA]",
+                    "pos": {
+                        "x": 169.868,
+                        "y": 108.08
+                    },
+                    "uuid": "40a714e8-9326-4e3f-8104-8e596223f688"
+                },
+                {
+                    "description": "Top Layer 上 U9 的焊盘 13 [SYS_I2C_SDA]",
+                    "pos": {
+                        "x": 157.993,
+                        "y": 80.747
+                    },
+                    "uuid": "5c7c34d7-ab0e-4c2a-80c8-f8ec54c36b42"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Bottom Layer 上 R43 的焊盘 2 [CHG_INT_N]",
+                    "pos": {
+                        "x": 167.301,
+                        "y": 105.647
+                    },
+                    "uuid": "2449442a-4c3c-4a06-adcf-a59e0c054c13"
+                },
+                {
+                    "description": "Top Layer 上 U9 的焊盘 10 [CHG_INT_N]",
+                    "pos": {
+                        "x": 159.043,
+                        "y": 80.747
+                    },
+                    "uuid": "4a80b6df-9dd3-43e0-b511-b45ae359c7e8"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 U3 的焊盘 7 [CHG_INT_N]",
+                    "pos": {
+                        "x": 168.9775,
+                        "y": 129.828
+                    },
+                    "uuid": "d68a17e8-580c-4e19-9f3c-aed3e87a20e7"
+                },
+                {
+                    "description": "Bottom Layer 上 R43 的焊盘 2 [CHG_INT_N]",
+                    "pos": {
+                        "x": 167.301,
+                        "y": 105.647
+                    },
+                    "uuid": "2449442a-4c3c-4a06-adcf-a59e0c054c13"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 U9 的焊盘 20 [CHG_OTG_EN]",
+                    "pos": {
+                        "x": 155.543,
+                        "y": 80.747001
+                    },
+                    "uuid": "b1efa07e-69a8-4202-885e-382cf12282dc"
+                },
+                {
+                    "description": "Top Layer 上 U3 的焊盘 8 [CHG_OTG_EN]",
+                    "pos": {
+                        "x": 168.9775,
+                        "y": 129.328
+                    },
+                    "uuid": "03c1a6f9-9bf7-4777-9c49-98562a7c4719"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 U3 的焊盘 8 [CHG_OTG_EN]",
+                    "pos": {
+                        "x": 168.9775,
+                        "y": 129.328
+                    },
+                    "uuid": "03c1a6f9-9bf7-4777-9c49-98562a7c4719"
+                },
+                {
+                    "description": "Top Layer 上 R12 的焊盘 2 [CHG_OTG_EN]",
+                    "pos": {
+                        "x": 171.6785,
+                        "y": 131.002
+                    },
+                    "uuid": "b150b91d-829f-4828-b547-8ee11206a832"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 U3 的焊盘 9 [BQ25895_CHG_EN#]",
+                    "pos": {
+                        "x": 168.9775,
+                        "y": 128.828
+                    },
+                    "uuid": "733855e7-c8fa-4e28-94c4-50e5cbaee037"
+                },
+                {
+                    "description": "Top Layer 上 R11 的焊盘 2 [BQ25895_CHG_EN#]",
+                    "pos": {
+                        "x": 171.6785,
+                        "y": 129.732
+                    },
+                    "uuid": "0005da7e-b801-49f6-82ad-874f7c79e672"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 U3 的焊盘 11 [BAT_TS]",
+                    "pos": {
+                        "x": 168.9775,
+                        "y": 127.828
+                    },
+                    "uuid": "4e3f1689-96fc-4581-b91b-36886312e9b0"
+                },
+                {
+                    "description": "Top Layer 上 R13 的焊盘 2 [BAT_TS]",
+                    "pos": {
+                        "x": 171.6785,
+                        "y": 127.192
+                    },
+                    "uuid": "e80ee502-7470-4728-b946-5060dfe45b65"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 R13 的焊盘 2 [BAT_TS]",
+                    "pos": {
+                        "x": 171.6785,
+                        "y": 127.192
+                    },
+                    "uuid": "e80ee502-7470-4728-b946-5060dfe45b65"
+                },
+                {
+                    "description": "Top Layer 上 R14 的焊盘 2 [BAT_TS]",
+                    "pos": {
+                        "x": 171.6785,
+                        "y": 125.922
+                    },
+                    "uuid": "70df1807-c84c-442e-9ad7-5aaed5f9eba0"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "CN2 的PTH 焊盘 2 [BAT_TS]",
+                    "pos": {
+                        "x": 172.521,
+                        "y": 120.279
+                    },
+                    "uuid": "e9892819-3121-4a83-b2f5-40f56e623cd8"
+                },
+                {
+                    "description": "Top Layer 上 R14 的焊盘 2 [BAT_TS]",
+                    "pos": {
+                        "x": 171.6785,
+                        "y": 125.922
+                    },
+                    "uuid": "70df1807-c84c-442e-9ad7-5aaed5f9eba0"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 R18 的焊盘 1 [CS43131_SCL_1V8]",
+                    "pos": {
+                        "x": 140.95,
+                        "y": 108.674
+                    },
+                    "uuid": "5a637fbf-9c3a-4c7e-bc8c-90a62f61558a"
+                },
+                {
+                    "description": "Top Layer 上 U2 的焊盘 1 [CS43131_SCL_1V8]",
+                    "pos": {
+                        "x": 136.6205,
+                        "y": 114.288
+                    },
+                    "uuid": "f0cbe1b7-920d-43d4-a0b7-661a1cad6073"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 U7 的焊盘 3 [CS43131_SCL_1V8]",
+                    "pos": {
+                        "x": 142.958,
+                        "y": 109.357
+                    },
+                    "uuid": "f69f5d97-fdb9-455d-821a-806c8baf1e84"
+                },
+                {
+                    "description": "Top Layer 上 R18 的焊盘 1 [CS43131_SCL_1V8]",
+                    "pos": {
+                        "x": 140.95,
+                        "y": 108.674
+                    },
+                    "uuid": "5a637fbf-9c3a-4c7e-bc8c-90a62f61558a"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 U2 的焊盘 2 [CS43131_I2S_SDIN]",
+                    "pos": {
+                        "x": 136.6205,
+                        "y": 114.688
+                    },
+                    "uuid": "b26631cb-7eee-4fb4-838e-1708e6231035"
+                },
+                {
+                    "description": "Top Layer 上 U8 的焊盘 3 [CS43131_I2S_SDIN]",
+                    "pos": {
+                        "x": 148.0165,
+                        "y": 111.685
+                    },
+                    "uuid": "a4a11f20-3416-4e6c-a17c-734277eb89a7"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 CN1 的焊盘 3 [N_3N69]",
+                    "pos": {
+                        "x": 136.833,
+                        "y": 132.717
+                    },
+                    "uuid": "5d3fd44a-5f19-490b-ae85-653f9626ea01"
+                },
+                {
+                    "description": "Top Layer 上 U2 的焊盘 14 [N_3N69]",
+                    "pos": {
+                        "x": 138.52,
+                        "y": 118.5875
+                    },
+                    "uuid": "a1357134-35b6-47eb-b49f-8d7160410f2e"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 U2 的焊盘 16 [N_3N70]",
+                    "pos": {
+                        "x": 139.32,
+                        "y": 118.5875
+                    },
+                    "uuid": "3c77f778-a6a2-4a92-8e8e-0e5cddf83eaa"
+                },
+                {
+                    "description": "Top Layer 上 CN1 的焊盘 6 [N_3N70]",
+                    "pos": {
+                        "x": 144.033,
+                        "y": 136.427
+                    },
+                    "uuid": "4c90aaa8-4c42-46f1-8d34-4e40afbe92f8"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 U2 的焊盘 28 [CS43131_RST#_1V8]",
+                    "pos": {
+                        "x": 141.6195,
+                        "y": 115.088
+                    },
+                    "uuid": "0ca4f104-8e1c-4d80-bc33-160988fd4f72"
+                },
+                {
+                    "description": "Top Layer 上 U8 的焊盘 11 [CS43131_RST#_1V8]",
+                    "pos": {
+                        "x": 151.5165,
+                        "y": 112.1835
+                    },
+                    "uuid": "e3e99965-a563-4fbc-aa52-3498961c1836"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 U2 的焊盘 34 [CS43131_I2S_SCLK]",
+                    "pos": {
+                        "x": 139.72,
+                        "y": 113.5885
+                    },
+                    "uuid": "959f5111-4b6b-4f68-b6df-92395564e9e4"
+                },
+                {
+                    "description": "Top Layer 上 U8 的焊盘 8 [CS43131_I2S_SCLK]",
+                    "pos": {
+                        "x": 150.5165,
+                        "y": 113.9335
+                    },
+                    "uuid": "364e717f-6df6-4741-83ca-c44bcdb33045"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 U2 的焊盘 38 [CS43131_I2S_LRCK]",
+                    "pos": {
+                        "x": 138.12,
+                        "y": 113.5885
+                    },
+                    "uuid": "fbb1483f-a3ec-4d37-b3db-7d7b27b553d6"
+                },
+                {
+                    "description": "Top Layer 上 U8 的焊盘 6 [CS43131_I2S_LRCK]",
+                    "pos": {
+                        "x": 148.0165,
+                        "y": 113.185
+                    },
+                    "uuid": "107b93de-5623-4817-9387-4313d20a9de9"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 U12 的焊盘 4 [UART0_RX]",
+                    "pos": {
+                        "x": 153.5165,
+                        "y": 121.6975
+                    },
+                    "uuid": "0f56eeb2-8b08-492e-bae6-af596af26b2d"
+                },
+                {
+                    "description": "Top Layer 上 U9 的焊盘 74 [UART0_RX]",
+                    "pos": {
+                        "x": 162.768,
+                        "y": 83.422
+                    },
+                    "uuid": "29c6cdc7-b016-433b-99f0-92a4dc1a7b36"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 U12 的焊盘 5 [UART0_TX]",
+                    "pos": {
+                        "x": 152.818,
+                        "y": 122.3975
+                    },
+                    "uuid": "292849d6-d474-41d1-b259-a6e2c8c0cfe9"
+                },
+                {
+                    "description": "Top Layer 上 R106 的焊盘 2 [UART0_TX]",
+                    "pos": {
+                        "x": 165.222124,
+                        "y": 86.241924
+                    },
+                    "uuid": "52c1a860-731c-4838-be75-c8acb1a4a2e3"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 U17 的焊盘 9 [CH343P_USB_DP]",
+                    "pos": {
+                        "x": 151.701,
+                        "y": 127.431
+                    },
+                    "uuid": "21b8e428-dcfa-4f03-bbdf-ac038a6c6624"
+                },
+                {
+                    "description": "Top Layer 上 U12 的焊盘 7 [CH343P_USB_DP]",
+                    "pos": {
+                        "x": 152.818,
+                        "y": 123.3975
+                    },
+                    "uuid": "f5b8ceb8-c060-4fca-a4a9-4aec4917a4f9"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 U17 的焊盘 8 [CH343P_USB_DN]",
+                    "pos": {
+                        "x": 152.201,
+                        "y": 127.431
+                    },
+                    "uuid": "6f7fb695-c913-489c-9519-ad954076249a"
+                },
+                {
+                    "description": "Top Layer 上 U12 的焊盘 8 [CH343P_USB_DN]",
+                    "pos": {
+                        "x": 152.818,
+                        "y": 123.8975
+                    },
+                    "uuid": "c7bd13bc-1a53-4ab0-8fbc-08b7da165ff3"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Bottom Layer 上 R132 的焊盘 1 [CH343P_UART_DTR]",
+                    "pos": {
+                        "x": 160.878,
+                        "y": 122.147
+                    },
+                    "uuid": "9df2ba06-1d6b-4cf8-85fe-40ec12e3578e"
+                },
+                {
+                    "description": "Top Layer 上 U12 的焊盘 12 [CH343P_UART_DTR]",
+                    "pos": {
+                        "x": 155.017,
+                        "y": 124.5975
+                    },
+                    "uuid": "06d41825-b9a9-4585-9365-3aa83724b2cf"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Bottom Layer 上 Q107 的焊盘 2 [CH343P_UART_DTR]",
+                    "pos": {
+                        "x": 165.8055,
+                        "y": 122.097
+                    },
+                    "uuid": "8eee61b8-4af6-4417-8fa2-8142eb369967"
+                },
+                {
+                    "description": "Bottom Layer 上 R132 的焊盘 1 [CH343P_UART_DTR]",
+                    "pos": {
+                        "x": 160.878,
+                        "y": 122.147
+                    },
+                    "uuid": "9df2ba06-1d6b-4cf8-85fe-40ec12e3578e"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Bottom Layer 上 Q106 的焊盘 2 [CH343P_UART_RTS]",
+                    "pos": {
+                        "x": 161.3055,
+                        "y": 120.597
+                    },
+                    "uuid": "4db7c898-e859-4968-8ce4-897c049b548a"
+                },
+                {
+                    "description": "Top Layer 上 U12 的焊盘 13 [CH343P_UART_RTS]",
+                    "pos": {
+                        "x": 155.718,
+                        "y": 123.8975
+                    },
+                    "uuid": "30637723-8877-49d6-a557-9898ea2cfd48"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Bottom Layer 上 R133 的焊盘 1 [CH343P_UART_RTS]",
+                    "pos": {
+                        "x": 164.878,
+                        "y": 123.647
+                    },
+                    "uuid": "2719d5ba-d3f4-4823-ba90-80b9e8a633c3"
+                },
+                {
+                    "description": "Bottom Layer 上 Q106 的焊盘 2 [CH343P_UART_RTS]",
+                    "pos": {
+                        "x": 161.3055,
+                        "y": 120.597
+                    },
+                    "uuid": "4db7c898-e859-4968-8ce4-897c049b548a"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 U17 的焊盘 2 [USB_PATH_SEL]",
+                    "pos": {
+                        "x": 151.701,
+                        "y": 131.771
+                    },
+                    "uuid": "5396114f-2446-4745-b4f9-9a0d73651280"
+                },
+                {
+                    "description": "Bottom Layer 上 R124 的焊盘 1 [USB_PATH_SEL]",
+                    "pos": {
+                        "x": 157.378,
+                        "y": 125.647
+                    },
+                    "uuid": "8b3eb559-c156-413c-bae1-3a3dc6621064"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 U9 的焊盘 17 [USB_PATH_SEL]",
+                    "pos": {
+                        "x": 156.593001,
+                        "y": 80.747
+                    },
+                    "uuid": "519a2a43-0bc9-4b7c-99c1-1d6361a3a598"
+                },
+                {
+                    "description": "Bottom Layer 上 R22 的焊盘 2 [USB_PATH_SEL]",
+                    "pos": {
+                        "x": 156.868,
+                        "y": 104.08
+                    },
+                    "uuid": "2ff64856-453e-4033-adf1-8db166d25f4e"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Bottom Layer 上 R22 的焊盘 2 [USB_PATH_SEL]",
+                    "pos": {
+                        "x": 156.868,
+                        "y": 104.08
+                    },
+                    "uuid": "2ff64856-453e-4033-adf1-8db166d25f4e"
+                },
+                {
+                    "description": "Bottom Layer 上 R124 的焊盘 1 [USB_PATH_SEL]",
+                    "pos": {
+                        "x": 157.378,
+                        "y": 125.647
+                    },
+                    "uuid": "8b3eb559-c156-413c-bae1-3a3dc6621064"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Bottom Layer 上 R10 的焊盘 2 [USB_PATH_SEL]",
+                    "pos": {
+                        "x": 158.368,
+                        "y": 104.08
+                    },
+                    "uuid": "46fb107a-5e10-42a7-b39d-51569dbb89a2"
+                },
+                {
+                    "description": "Bottom Layer 上 R22 的焊盘 2 [USB_PATH_SEL]",
+                    "pos": {
+                        "x": 156.868,
+                        "y": 104.08
+                    },
+                    "uuid": "2ff64856-453e-4033-adf1-8db166d25f4e"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 U17 的焊盘 3 [TYPEC_USB_DP]",
+                    "pos": {
+                        "x": 152.201,
+                        "y": 131.771
+                    },
+                    "uuid": "71a90b5c-0ff4-455a-a4a8-ffe80609c8e7"
+                },
+                {
+                    "description": "Bottom Layer 上 D1 的焊盘 6 [TYPEC_USB_DP]",
+                    "pos": {
+                        "x": 164.268,
+                        "y": 132.498
+                    },
+                    "uuid": "d86f7565-5f17-4f31-a0b3-4ef57599655d"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 U17 的焊盘 4 [TYPEC_USB_DN]",
+                    "pos": {
+                        "x": 152.701,
+                        "y": 131.771
+                    },
+                    "uuid": "565fc0e9-4649-482c-b5f4-c1fea8f5207a"
+                },
+                {
+                    "description": "Bottom Layer 上 D1 的焊盘 4 [TYPEC_USB_DN]",
+                    "pos": {
+                        "x": 162.368,
+                        "y": 132.498
+                    },
+                    "uuid": "630dcde7-8a3c-4f21-8031-7a726f285c13"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 U17 的焊盘 7 [USB_HS_DP]",
+                    "pos": {
+                        "x": 152.701,
+                        "y": 127.431
+                    },
+                    "uuid": "eb26056a-a34c-4b0d-b715-f1b7e790e868"
+                },
+                {
+                    "description": "Top Layer 上 R109 的焊盘 2 [USB_HS_DP]",
+                    "pos": {
+                        "x": 156.7166,
+                        "y": 92.6931
+                    },
+                    "uuid": "ac8896b2-163c-470c-a107-10c671d516b9"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 U17 的焊盘 10 [SGM7227_EN#]",
+                    "pos": {
+                        "x": 151.201,
+                        "y": 127.431
+                    },
+                    "uuid": "707322b6-bf59-4586-a1f5-c9ecb23798f9"
+                },
+                {
+                    "description": "Top Layer 上 R21 的焊盘 2 [SGM7227_EN#]",
+                    "pos": {
+                        "x": 154.741,
+                        "y": 128.84
+                    },
+                    "uuid": "5f011667-ea90-4450-b0ee-3183d55ff1b5"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 R103 的焊盘 1 [MCU_FLASH_D3]",
+                    "pos": {
+                        "x": 154.1558,
+                        "y": 91.0881
+                    },
+                    "uuid": "9f4f2f48-45c0-470e-b992-7f2e0089589a"
+                },
+                {
+                    "description": "Top Layer 上 U9 的焊盘 40 [MCU_FLASH_D3]",
+                    "pos": {
+                        "x": 154.968001,
+                        "y": 87.972
+                    },
+                    "uuid": "c66ead8b-f59f-4b73-a845-79b2429b7cf4"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 U10 的焊盘 7 [FLASH_D3]",
+                    "pos": {
+                        "x": 148.103,
+                        "y": 99.4345
+                    },
+                    "uuid": "eb421556-c517-46f2-b6c0-b7d951d81bcc"
+                },
+                {
+                    "description": "Top Layer 上 R103 的焊盘 2 [FLASH_D3]",
+                    "pos": {
+                        "x": 154.1558,
+                        "y": 92.1081
+                    },
+                    "uuid": "6e70372a-5caa-4b6d-ac54-8d56b02eedd7"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 USB1 的焊盘 A5 [N_6N46]",
+                    "pos": {
+                        "x": 162.066,
+                        "y": 136.2175
+                    },
+                    "uuid": "e66af72a-4204-4e8c-b04c-d39eaa8addb0"
+                },
+                {
+                    "description": "Top Layer 上 R31 的焊盘 2 [N_6N46]",
+                    "pos": {
+                        "x": 171.378,
+                        "y": 138.492
+                    },
+                    "uuid": "b4e948eb-22a9-456d-9a23-d40f415ecb0a"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 USB1 的焊盘 A6 [TYPEC_USB_DP_IN]",
+                    "pos": {
+                        "x": 163.066,
+                        "y": 136.2175
+                    },
+                    "uuid": "577bdc2b-33c8-43a7-ad97-2e93f5a88e14"
+                },
+                {
+                    "description": "Top Layer 上 USB1 的焊盘 B6 [TYPEC_USB_DP_IN]",
+                    "pos": {
+                        "x": 164.066,
+                        "y": 136.2175
+                    },
+                    "uuid": "6e08d291-ddb7-4956-a156-71cf2ff3bcc8"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 USB1 的焊盘 B6 [TYPEC_USB_DP_IN]",
+                    "pos": {
+                        "x": 164.066,
+                        "y": 136.2175
+                    },
+                    "uuid": "6e08d291-ddb7-4956-a156-71cf2ff3bcc8"
+                },
+                {
+                    "description": "Bottom Layer 上 D1 的焊盘 1 [TYPEC_USB_DP_IN]",
+                    "pos": {
+                        "x": 164.268,
+                        "y": 134.796
+                    },
+                    "uuid": "2e17f42f-3179-401f-819d-b0435ec155a1"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Bottom Layer 上 D1 的焊盘 3 [TYPEC_USB_DN_IN]",
+                    "pos": {
+                        "x": 162.368,
+                        "y": 134.796
+                    },
+                    "uuid": "9048ed8e-e63a-468a-b25a-482cc7111818"
+                },
+                {
+                    "description": "Top Layer 上 USB1 的焊盘 B7 [TYPEC_USB_DN_IN]",
+                    "pos": {
+                        "x": 162.566,
+                        "y": 136.2175
+                    },
+                    "uuid": "400fd79d-c434-4994-b7b4-95fd929441f2"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 USB1 的焊盘 B7 [TYPEC_USB_DN_IN]",
+                    "pos": {
+                        "x": 162.566,
+                        "y": 136.2175
+                    },
+                    "uuid": "400fd79d-c434-4994-b7b4-95fd929441f2"
+                },
+                {
+                    "description": "Top Layer 上 USB1 的焊盘 A7 [TYPEC_USB_DN_IN]",
+                    "pos": {
+                        "x": 163.566,
+                        "y": 136.2175
+                    },
+                    "uuid": "0d9491c8-a12f-427f-a0e6-e0e18698bc75"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 USB1 的焊盘 B5 [N_6N45]",
+                    "pos": {
+                        "x": 165.066,
+                        "y": 136.2175
+                    },
+                    "uuid": "f4cf7036-97b4-4862-b44a-0017ee439a60"
+                },
+                {
+                    "description": "Top Layer 上 R32 的焊盘 2 [N_6N45]",
+                    "pos": {
+                        "x": 169.854,
+                        "y": 138.492
+                    },
+                    "uuid": "352a7d7d-48ad-4b2e-9c93-8c52b8fefc9e"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 JRF1 的焊盘 1 [RF_ANT]",
+                    "pos": {
+                        "x": 157.343,
+                        "y": 70.647
+                    },
+                    "uuid": "c0be5178-5cd5-46b8-a48c-849e8730b316"
+                },
+                {
+                    "description": "Top Layer 上 C109 的焊盘 1 [RF_ANT]",
+                    "pos": {
+                        "x": 160.3145,
+                        "y": 73.8679
+                    },
+                    "uuid": "c61dd992-fbc9-4cc3-8499-df1546caccc5"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 C109 的焊盘 1 [RF_ANT]",
+                    "pos": {
+                        "x": 160.3145,
+                        "y": 73.8679
+                    },
+                    "uuid": "c61dd992-fbc9-4cc3-8499-df1546caccc5"
+                },
+                {
+                    "description": "Top Layer 上 L105 的焊盘 1 [RF_ANT]",
+                    "pos": {
+                        "x": 161.472476,
+                        "y": 72.811376
+                    },
+                    "uuid": "0840c338-324f-4b83-9859-c19f1adb964c"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 U15 的焊盘 14 [AUDIO_I2C_SDA]",
+                    "pos": {
+                        "x": 133.0475,
+                        "y": 96.752
+                    },
+                    "uuid": "bf8c05be-0cfa-4ea3-b903-5fc0745358ad"
+                },
+                {
+                    "description": "Top Layer 上 U7 的焊盘 5 [AUDIO_I2C_SDA]",
+                    "pos": {
+                        "x": 143.918,
+                        "y": 109.707
+                    },
+                    "uuid": "af114e75-ac95-4c9d-8d44-8529c6ef87ab"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 U7 的焊盘 5 [AUDIO_I2C_SDA]",
+                    "pos": {
+                        "x": 143.918,
+                        "y": 109.707
+                    },
+                    "uuid": "af114e75-ac95-4c9d-8d44-8529c6ef87ab"
+                },
+                {
+                    "description": "Bottom Layer 上 R30 的焊盘 2 [AUDIO_I2C_SDA]",
+                    "pos": {
+                        "x": 150.435,
+                        "y": 101.647
+                    },
+                    "uuid": "b8c0aecd-add6-42b7-932c-0cb5c546a518"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Bottom Layer 上 R30 的焊盘 2 [AUDIO_I2C_SDA]",
+                    "pos": {
+                        "x": 150.435,
+                        "y": 101.647
+                    },
+                    "uuid": "b8c0aecd-add6-42b7-932c-0cb5c546a518"
+                },
+                {
+                    "description": "Top Layer 上 U9 的焊盘 22 [AUDIO_I2C_SDA]",
+                    "pos": {
+                        "x": 154.968,
+                        "y": 81.672
+                    },
+                    "uuid": "7092e531-5aa8-4d72-a551-4de0280fbdd2"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 U7 的焊盘 6 [AUDIO_I2C_SCL]",
+                    "pos": {
+                        "x": 143.918,
+                        "y": 109.357
+                    },
+                    "uuid": "74394591-a052-4ccb-9cb1-bd445cb626b1"
+                },
+                {
+                    "description": "Bottom Layer 上 R26 的焊盘 2 [AUDIO_I2C_SCL]",
+                    "pos": {
+                        "x": 148.435,
+                        "y": 101.647
+                    },
+                    "uuid": "bcb97828-9475-4df1-bad6-b76a964c4cd2"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Bottom Layer 上 R26 的焊盘 2 [AUDIO_I2C_SCL]",
+                    "pos": {
+                        "x": 148.435,
+                        "y": 101.647
+                    },
+                    "uuid": "bcb97828-9475-4df1-bad6-b76a964c4cd2"
+                },
+                {
+                    "description": "Top Layer 上 U15 的焊盘 13 [AUDIO_I2C_SCL]",
+                    "pos": {
+                        "x": 133.0475,
+                        "y": 96.252
+                    },
+                    "uuid": "3163c0ae-7c39-4b59-9acd-6712275796b3"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Bottom Layer 上 R26 的焊盘 2 [AUDIO_I2C_SCL]",
+                    "pos": {
+                        "x": 148.435,
+                        "y": 101.647
+                    },
+                    "uuid": "bcb97828-9475-4df1-bad6-b76a964c4cd2"
+                },
+                {
+                    "description": "Top Layer 上 U9 的焊盘 21 [AUDIO_I2C_SCL]",
+                    "pos": {
+                        "x": 154.968001,
+                        "y": 81.322
+                    },
+                    "uuid": "b319d15c-f440-48e4-b6db-8e7264325fab"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 U10 的焊盘 1 [FLASH_CS_N]",
+                    "pos": {
+                        "x": 149.373,
+                        "y": 92.2595
+                    },
+                    "uuid": "e71dcfbc-e956-43d5-a3b5-42438f387b5e"
+                },
+                {
+                    "description": "Top Layer 上 R107 的焊盘 2 [FLASH_CS_N]",
+                    "pos": {
+                        "x": 153.0518,
+                        "y": 92.1268
+                    },
+                    "uuid": "65ddc31a-fe1c-449f-b5f1-b97dca0a4c33"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 R107 的焊盘 2 [FLASH_CS_N]",
+                    "pos": {
+                        "x": 153.0518,
+                        "y": 92.1268
+                    },
+                    "uuid": "65ddc31a-fe1c-449f-b5f1-b97dca0a4c33"
+                },
+                {
+                    "description": "Top Layer 上 U9 的焊盘 36 [FLASH_CS_N]",
+                    "pos": {
+                        "x": 154.968,
+                        "y": 86.572
+                    },
+                    "uuid": "b8f32c22-45ed-4372-8ac1-1cc64e3c4a5c"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 U10 的焊盘 5 [FLASH_D0]",
+                    "pos": {
+                        "x": 145.563,
+                        "y": 99.4345
+                    },
+                    "uuid": "8985a28d-bbb7-44c8-a46c-40bde93679c3"
+                },
+                {
+                    "description": "Top Layer 上 R105 的焊盘 2 [FLASH_D0]",
+                    "pos": {
+                        "x": 157.228,
+                        "y": 90.5081
+                    },
+                    "uuid": "71bc6a73-ca65-4fb2-9627-da47c97d59ab"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 U10 的焊盘 6 [FLASH_CLK]",
+                    "pos": {
+                        "x": 146.833,
+                        "y": 99.4345
+                    },
+                    "uuid": "9a804922-1fc4-40d5-9631-29f474d2dc31"
+                },
+                {
+                    "description": "Top Layer 上 R104 的焊盘 2 [FLASH_CLK]",
+                    "pos": {
+                        "x": 155.3905,
+                        "y": 92.5081
+                    },
+                    "uuid": "166b95ee-58ac-4a6a-bec1-4cd0076949be"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Bottom Layer 上 U6 的焊盘 5 [PWR_3V3_EN]",
+                    "pos": {
+                        "x": 156.144,
+                        "y": 120.787
+                    },
+                    "uuid": "0cdced92-1ae1-4c16-8466-2aec88d1bd29"
+                },
+                {
+                    "description": "Top Layer 上 U4 的焊盘 1 [PWR_3V3_EN]",
+                    "pos": {
+                        "x": 168.617,
+                        "y": 115.4495
+                    },
+                    "uuid": "105f304f-0a5e-420a-89a9-9e16ab6eb87f"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 U4 的焊盘 1 [PWR_3V3_EN]",
+                    "pos": {
+                        "x": 168.617,
+                        "y": 115.4495
+                    },
+                    "uuid": "105f304f-0a5e-420a-89a9-9e16ab6eb87f"
+                },
+                {
+                    "description": "Top Layer 上 R5 的焊盘 2 [PWR_3V3_EN]",
+                    "pos": {
+                        "x": 167.874,
+                        "y": 113.802
+                    },
+                    "uuid": "33083a71-8051-4e9f-aed8-d44844dc7eae"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 U9 的焊盘 49 [STRAP_FLASH_3V3]",
+                    "pos": {
+                        "x": 158.342999,
+                        "y": 88.547
+                    },
+                    "uuid": "7b331582-cf31-4dd8-be9b-c96dc9048b53"
+                },
+                {
+                    "description": "Top Layer 上 R110 的焊盘 1 [STRAP_FLASH_3V3]",
+                    "pos": {
+                        "x": 158.6891,
+                        "y": 91.627599
+                    },
+                    "uuid": "9a44159e-cb32-45cc-88ee-1f099de71ca8"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 U15 的焊盘 4 [IMU_INT1]",
+                    "pos": {
+                        "x": 134.81,
+                        "y": 97.514
+                    },
+                    "uuid": "8f79cc17-8337-4176-85c9-fc86272f7b7d"
+                },
+                {
+                    "description": "Top Layer 上 U9 的焊盘 8 [IMU_INT1]",
+                    "pos": {
+                        "x": 159.743,
+                        "y": 80.747
+                    },
+                    "uuid": "8326f2dc-0500-4957-bdf1-01e5d6de9926"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Bottom Layer 上 C39 的焊盘 1 [CHIP_PU]",
+                    "pos": {
+                        "x": 152.368,
+                        "y": 78.227
+                    },
+                    "uuid": "aa111f57-5db9-45b8-9350-e0fedd4fc617"
+                },
+                {
+                    "description": "Bottom Layer 上 R29 的焊盘 1 [CHIP_PU]",
+                    "pos": {
+                        "x": 150.868,
+                        "y": 78.214
+                    },
+                    "uuid": "100b8d13-2c7e-46cb-bdc1-524546a43f87"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Bottom Layer 上 Q106 的焊盘 3 [CHIP_PU]",
+                    "pos": {
+                        "x": 159.4305,
+                        "y": 119.647
+                    },
+                    "uuid": "077b7204-9dc3-41ca-9733-8fe511342e74"
+                },
+                {
+                    "description": "Bottom Layer 上 TP102 的焊盘 1 [CHIP_PU]",
+                    "pos": {
+                        "x": 168.868,
+                        "y": 89.647
+                    },
+                    "uuid": "e43b6447-b1d6-4aac-aa6d-a9ea5da90fad"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 U9 的焊盘 4 [CHIP_PU]",
+                    "pos": {
+                        "x": 161.142999,
+                        "y": 80.747
+                    },
+                    "uuid": "685e2c02-2094-467d-af02-6e78262819ee"
+                },
+                {
+                    "description": "Bottom Layer 上 C39 的焊盘 1 [CHIP_PU]",
+                    "pos": {
+                        "x": 152.368,
+                        "y": 78.227
+                    },
+                    "uuid": "aa111f57-5db9-45b8-9350-e0fedd4fc617"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Bottom Layer 上 TP102 的焊盘 1 [CHIP_PU]",
+                    "pos": {
+                        "x": 168.868,
+                        "y": 89.647
+                    },
+                    "uuid": "e43b6447-b1d6-4aac-aa6d-a9ea5da90fad"
+                },
+                {
+                    "description": "Top Layer 上 U9 的焊盘 4 [CHIP_PU]",
+                    "pos": {
+                        "x": 161.142999,
+                        "y": 80.747
+                    },
+                    "uuid": "685e2c02-2094-467d-af02-6e78262819ee"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 U9 的焊盘 5 [KEY_POWER_SENSE_N]",
+                    "pos": {
+                        "x": 160.793,
+                        "y": 80.747
+                    },
+                    "uuid": "48f45f86-0e3a-49a3-abe1-ed7ca98853bf"
+                },
+                {
+                    "description": "Bottom Layer 上 R126 的焊盘 2 [KEY_POWER_SENSE_N]",
+                    "pos": {
+                        "x": 153.858,
+                        "y": 79.647
+                    },
+                    "uuid": "04cfe3f8-b50d-4418-8dd5-e18224535a80"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Bottom Layer 上 Q105 的焊盘 2 [KEY_POWER_SENSE_N]",
+                    "pos": {
+                        "x": 165.918,
+                        "y": 111.5845
+                    },
+                    "uuid": "705ec4c2-303f-4324-a9d5-f81257a10894"
+                },
+                {
+                    "description": "Top Layer 上 U9 的焊盘 5 [KEY_POWER_SENSE_N]",
+                    "pos": {
+                        "x": 160.793,
+                        "y": 80.747
+                    },
+                    "uuid": "48f45f86-0e3a-49a3-abe1-ed7ca98853bf"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Bottom Layer 上 Q103 的焊盘 2 [CTRL_INT_N]",
+                    "pos": {
+                        "x": 155.918,
+                        "y": 108.5845
+                    },
+                    "uuid": "67a7bdc0-39a1-4c7f-9c23-6fac9d03f723"
+                },
+                {
+                    "description": "Top Layer 上 U9 的焊盘 6 [CTRL_INT_N]",
+                    "pos": {
+                        "x": 160.443,
+                        "y": 80.747
+                    },
+                    "uuid": "eabc0b5e-6700-4327-9358-b83940a404b2"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Bottom Layer 上 U1 的焊盘 6 [RTC_INT_N]",
+                    "pos": {
+                        "x": 156.968,
+                        "y": 110.78
+                    },
+                    "uuid": "40515ea2-035a-47be-822b-387bdde95887"
+                },
+                {
+                    "description": "Bottom Layer 上 R42 的焊盘 1 [RTC_INT_N]",
+                    "pos": {
+                        "x": 162.868,
+                        "y": 106.08
+                    },
+                    "uuid": "33cb132f-d8d5-4f09-93fb-ef4b6cc89ce7"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Bottom Layer 上 R42 的焊盘 1 [RTC_INT_N]",
+                    "pos": {
+                        "x": 162.868,
+                        "y": 106.08
+                    },
+                    "uuid": "33cb132f-d8d5-4f09-93fb-ef4b6cc89ce7"
+                },
+                {
+                    "description": "Top Layer 上 U9 的焊盘 7 [RTC_INT_N]",
+                    "pos": {
+                        "x": 160.093,
+                        "y": 80.747
+                    },
+                    "uuid": "7f516d23-df39-4e17-8e5d-625f4c52ac4f"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 U9 的焊盘 9 [BAT_ALERT_N]",
+                    "pos": {
+                        "x": 159.393001,
+                        "y": 80.747
+                    },
+                    "uuid": "8a898476-41cd-49b7-a1e6-26de4cbef433"
+                },
+                {
+                    "description": "Bottom Layer 上 R6 的焊盘 2 [BAT_ALERT_N]",
+                    "pos": {
+                        "x": 164.868,
+                        "y": 106.08
+                    },
+                    "uuid": "98a886e7-3f03-46b5-b7f7-4059dd274e58"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Bottom Layer 上 R6 的焊盘 2 [BAT_ALERT_N]",
+                    "pos": {
+                        "x": 164.868,
+                        "y": 106.08
+                    },
+                    "uuid": "98a886e7-3f03-46b5-b7f7-4059dd274e58"
+                },
+                {
+                    "description": "Bottom Layer 上 U14 的焊盘 1 [BAT_ALERT_N]",
+                    "pos": {
+                        "x": 166.822,
+                        "y": 113.954
+                    },
+                    "uuid": "69e84f35-2fc0-4c31-879d-91e5dc5bb3d8"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Bottom Layer 上 U21 的焊盘 2 [POWER_OFF_REQ]",
+                    "pos": {
+                        "x": 156.268,
+                        "y": 116.897
+                    },
+                    "uuid": "9f0b0c44-1d5b-4d8b-b312-3eb73fb1bdf3"
+                },
+                {
+                    "description": "Bottom Layer 上 R129 的焊盘 1 [POWER_OFF_REQ]",
+                    "pos": {
+                        "x": 158.878,
+                        "y": 116.647
+                    },
+                    "uuid": "038b8902-8b69-4af4-a973-e0628aee91fa"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Bottom Layer 上 R129 的焊盘 1 [POWER_OFF_REQ]",
+                    "pos": {
+                        "x": 158.878,
+                        "y": 116.647
+                    },
+                    "uuid": "038b8902-8b69-4af4-a973-e0628aee91fa"
+                },
+                {
+                    "description": "Top Layer 上 U9 的焊盘 15 [POWER_OFF_REQ]",
+                    "pos": {
+                        "x": 157.293,
+                        "y": 80.747
+                    },
+                    "uuid": "ae09dab6-ce59-4b29-a864-cc9f16af1fcf"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Bottom Layer 上 Q104 的焊盘 2 [CTRL_RESET_N]",
+                    "pos": {
+                        "x": 161.918,
+                        "y": 112.5845
+                    },
+                    "uuid": "41fc5818-c6fe-46b2-a006-afc861c4fe39"
+                },
+                {
+                    "description": "Bottom Layer 上 R128 的焊盘 2 [CTRL_RESET_N]",
+                    "pos": {
+                        "x": 164.358,
+                        "y": 108.647
+                    },
+                    "uuid": "4644aa9b-e279-4169-9d93-979fca705a4d"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Bottom Layer 上 R128 的焊盘 2 [CTRL_RESET_N]",
+                    "pos": {
+                        "x": 164.358,
+                        "y": 108.647
+                    },
+                    "uuid": "4644aa9b-e279-4169-9d93-979fca705a4d"
+                },
+                {
+                    "description": "Top Layer 上 U9 的焊盘 16 [CTRL_RESET_N]",
+                    "pos": {
+                        "x": 156.943,
+                        "y": 80.747
+                    },
+                    "uuid": "f3ee405a-02bd-4e11-bdc9-827fb48f6c50"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Bottom Layer 上 U11 的焊盘 5 [MOTOR_EN]",
+                    "pos": {
+                        "x": 164.518,
+                        "y": 128.647
+                    },
+                    "uuid": "a0efa846-ee4c-4987-b622-a5bdfd637ed4"
+                },
+                {
+                    "description": "Bottom Layer 上 R44 的焊盘 2 [MOTOR_EN]",
+                    "pos": {
+                        "x": 168.301,
+                        "y": 125.147
+                    },
+                    "uuid": "acfc1fcb-d542-4ecb-8be9-62bf3d7f8a24"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Bottom Layer 上 R44 的焊盘 2 [MOTOR_EN]",
+                    "pos": {
+                        "x": 168.301,
+                        "y": 125.147
+                    },
+                    "uuid": "acfc1fcb-d542-4ecb-8be9-62bf3d7f8a24"
+                },
+                {
+                    "description": "Top Layer 上 U9 的焊盘 19 [MOTOR_EN]",
+                    "pos": {
+                        "x": 155.893,
+                        "y": 80.747
+                    },
+                    "uuid": "a283e7ad-7b07-495f-a0b8-f5889ba46c1e"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 R104 的焊盘 1 [MCU_FLASH_CLK]",
+                    "pos": {
+                        "x": 155.3905,
+                        "y": 91.4881
+                    },
+                    "uuid": "1fde67eb-bdd5-4f2f-a2ec-ae87cb020259"
+                },
+                {
+                    "description": "Top Layer 上 U9 的焊盘 41 [MCU_FLASH_CLK]",
+                    "pos": {
+                        "x": 155.543,
+                        "y": 88.546999
+                    },
+                    "uuid": "d2ef414f-ee10-46cb-89af-cca61b6198d0"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 U9 的焊盘 42 [MCU_FLASH_D0]",
+                    "pos": {
+                        "x": 155.893,
+                        "y": 88.547
+                    },
+                    "uuid": "7d2f4431-87bd-4cfa-93df-1a4d821352b1"
+                },
+                {
+                    "description": "Top Layer 上 R105 的焊盘 1 [MCU_FLASH_D0]",
+                    "pos": {
+                        "x": 157.228,
+                        "y": 89.4881
+                    },
+                    "uuid": "a03c6c57-5ce1-4c0b-9cc3-850c77e5f83b"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 U9 的焊盘 44 [MCU_USB_HS_DP]",
+                    "pos": {
+                        "x": 156.593001,
+                        "y": 88.547
+                    },
+                    "uuid": "0eddfd76-449e-4b74-864a-89d04fac5603"
+                },
+                {
+                    "description": "Top Layer 上 R109 的焊盘 1 [MCU_USB_HS_DP]",
+                    "pos": {
+                        "x": 156.7166,
+                        "y": 91.6731
+                    },
+                    "uuid": "6fadc223-5b80-461a-a637-44bd0d9af6cb"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 U9 的焊盘 46 [USB_DEBUG_DM]",
+                    "pos": {
+                        "x": 157.293,
+                        "y": 88.547
+                    },
+                    "uuid": "b3b8383a-4531-4a21-bad8-94241704e251"
+                },
+                {
+                    "description": "Bottom Layer 上 TP104 的焊盘 1 [USB_DEBUG_DM]",
+                    "pos": {
+                        "x": 165.868,
+                        "y": 92.647
+                    },
+                    "uuid": "25c83bb2-9e13-4190-8824-8d5d14847b5d"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 U9 的焊盘 47 [USB_DEBUG_DP]",
+                    "pos": {
+                        "x": 157.643,
+                        "y": 88.547
+                    },
+                    "uuid": "72494126-3071-4ebf-8b2d-2394f4266d84"
+                },
+                {
+                    "description": "Bottom Layer 上 TP105 的焊盘 1 [USB_DEBUG_DP]",
+                    "pos": {
+                        "x": 168.368,
+                        "y": 92.647
+                    },
+                    "uuid": "49ca16a1-a2b7-46a5-af82-a8677a0a4bc4"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 U8 的焊盘 2 [DAC_I2S_DOUT]",
+                    "pos": {
+                        "x": 148.0165,
+                        "y": 111.185
+                    },
+                    "uuid": "db816dd1-1c21-4747-9684-20a29b55eb1b"
+                },
+                {
+                    "description": "Top Layer 上 U9 的焊盘 48 [DAC_I2S_DOUT]",
+                    "pos": {
+                        "x": 157.993,
+                        "y": 88.547
+                    },
+                    "uuid": "bc13e5ec-e438-46fe-beaa-c3f9848102cc"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 U9 的焊盘 50 [STRAP_USB_JTAG]",
+                    "pos": {
+                        "x": 158.693,
+                        "y": 88.547
+                    },
+                    "uuid": "cd0cf44f-3ef0-4e8f-a117-2eb8286b950f"
+                },
+                {
+                    "description": "Bottom Layer 上 R120 的焊盘 2 [STRAP_USB_JTAG]",
+                    "pos": {
+                        "x": 162.068,
+                        "y": 89.837
+                    },
+                    "uuid": "29a3ea8b-501f-47b1-8811-b1c7f01f790d"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 U8 的焊盘 5 [DAC_I2S_LRCK]",
+                    "pos": {
+                        "x": 148.0165,
+                        "y": 112.685
+                    },
+                    "uuid": "36eefa9e-df58-44bb-a3c2-c3fafa75e920"
+                },
+                {
+                    "description": "Top Layer 上 U9 的焊盘 51 [DAC_I2S_LRCK]",
+                    "pos": {
+                        "x": 159.043,
+                        "y": 88.547
+                    },
+                    "uuid": "2611113b-69e2-4e28-be00-125ceef75919"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Bottom Layer 上 R127 的焊盘 1 [DAC_RESET_N]",
+                    "pos": {
+                        "x": 153.378,
+                        "y": 104.147
+                    },
+                    "uuid": "765cc89f-a918-418f-a1e4-f819c13438ed"
+                },
+                {
+                    "description": "Top Layer 上 U8 的焊盘 12 [DAC_RESET_N]",
+                    "pos": {
+                        "x": 151.5165,
+                        "y": 111.6835
+                    },
+                    "uuid": "53149267-0dd8-44f3-b8ce-85cd05376991"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 U9 的焊盘 52 [DAC_RESET_N]",
+                    "pos": {
+                        "x": 159.393001,
+                        "y": 88.547
+                    },
+                    "uuid": "2adccad9-dfe0-4ec9-8634-5950b31b5302"
+                },
+                {
+                    "description": "Bottom Layer 上 R127 的焊盘 1 [DAC_RESET_N]",
+                    "pos": {
+                        "x": 153.378,
+                        "y": 104.147
+                    },
+                    "uuid": "765cc89f-a918-418f-a1e4-f819c13438ed"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 U8 的焊盘 9 [DAC_I2S_BCLK]",
+                    "pos": {
+                        "x": 151.5165,
+                        "y": 113.1835
+                    },
+                    "uuid": "dec6b978-1b41-4faf-b307-705ff026dd0a"
+                },
+                {
+                    "description": "Top Layer 上 U9 的焊盘 53 [DAC_I2S_BCLK]",
+                    "pos": {
+                        "x": 159.743,
+                        "y": 88.547
+                    },
+                    "uuid": "b1b8cf3c-4654-484c-8d2f-0c405c874af0"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 U9 的焊盘 73 [MCU_UART0_TX]",
+                    "pos": {
+                        "x": 162.768,
+                        "y": 83.772
+                    },
+                    "uuid": "94448651-92ed-4e65-a17a-defe1c2cc275"
+                },
+                {
+                    "description": "Top Layer 上 R106 的焊盘 1 [MCU_UART0_TX]",
+                    "pos": {
+                        "x": 164.500876,
+                        "y": 85.520676
+                    },
+                    "uuid": "d66f6df2-ca3a-43e3-9971-69d236b55c42"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 U9 的焊盘 75 [BOOT_MODE_H]",
+                    "pos": {
+                        "x": 162.768,
+                        "y": 83.072
+                    },
+                    "uuid": "2916fd84-8a54-4106-8334-c48fbecc7d9f"
+                },
+                {
+                    "description": "Bottom Layer 上 R25 的焊盘 2 [BOOT_MODE_H]",
+                    "pos": {
+                        "x": 164.868,
+                        "y": 88.08
+                    },
+                    "uuid": "0179abc3-f120-4ee0-9db0-9c146752fe1b"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Top Layer 上 U9 的焊盘 76 [BOOT_DOWNLOAD_N]",
+                    "pos": {
+                        "x": 162.768,
+                        "y": 82.722
+                    },
+                    "uuid": "8a41f221-887e-49c8-a341-718fc03d0312"
+                },
+                {
+                    "description": "Bottom Layer 上 R20 的焊盘 2 [BOOT_DOWNLOAD_N]",
+                    "pos": {
+                        "x": 162.868,
+                        "y": 88.08
+                    },
+                    "uuid": "c7e20d59-6cde-4b5f-98bd-6fb52976d317"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Bottom Layer 上 R20 的焊盘 2 [BOOT_DOWNLOAD_N]",
+                    "pos": {
+                        "x": 162.868,
+                        "y": 88.08
+                    },
+                    "uuid": "c7e20d59-6cde-4b5f-98bd-6fb52976d317"
+                },
+                {
+                    "description": "Bottom Layer 上 TP103 的焊盘 1 [BOOT_DOWNLOAD_N]",
+                    "pos": {
+                        "x": 170.868,
+                        "y": 90.647
+                    },
+                    "uuid": "f742d8cc-0a39-4b1e-9d47-97636d94039d"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Bottom Layer 上 Q107 的焊盘 3 [BOOT_DOWNLOAD_N]",
+                    "pos": {
+                        "x": 163.9305,
+                        "y": 121.147
+                    },
+                    "uuid": "0bfbd7a4-9f9a-4805-a458-394fbd9bffe5"
+                },
+                {
+                    "description": "Bottom Layer 上 TP103 的焊盘 1 [BOOT_DOWNLOAD_N]",
+                    "pos": {
+                        "x": 170.868,
+                        "y": 90.647
+                    },
+                    "uuid": "f742d8cc-0a39-4b1e-9d47-97636d94039d"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Bottom Layer 上 FPC1 的焊盘 4 [CTRL_SCL_AON]",
+                    "pos": {
+                        "x": 150.304,
+                        "y": 116.108
+                    },
+                    "uuid": "6b32ca0b-5a2a-4544-be15-315c3e1144c0"
+                },
+                {
+                    "description": "Bottom Layer 上 Q102 的焊盘 3 [CTRL_SCL_AON]",
+                    "pos": {
+                        "x": 151.868,
+                        "y": 109.7095
+                    },
+                    "uuid": "394ac0fb-f629-432d-aa91-a2b37bbf7c13"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Bottom Layer 上 FPC1 的焊盘 6 [CTRL_RESET_AON_N]",
+                    "pos": {
+                        "x": 150.304,
+                        "y": 117.108
+                    },
+                    "uuid": "96c62a53-9287-4489-8758-6f5ce4cdef63"
+                },
+                {
+                    "description": "Bottom Layer 上 Q104 的焊盘 3 [CTRL_RESET_AON_N]",
+                    "pos": {
+                        "x": 162.868,
+                        "y": 110.7095
+                    },
+                    "uuid": "0b6786cf-9a72-4294-801d-9b0b29f5e2b1"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Bottom Layer 上 R131 的焊盘 2 [OFF_CLEAR_N]",
+                    "pos": {
+                        "x": 151.358,
+                        "y": 122.647
+                    },
+                    "uuid": "a569be8a-62ed-4e04-9fb1-547858115989"
+                },
+                {
+                    "description": "Bottom Layer 上 C134 的焊盘 1 [OFF_CLEAR_N]",
+                    "pos": {
+                        "x": 156.348,
+                        "y": 123.647
+                    },
+                    "uuid": "166eef43-0cc4-482c-abad-3d31f5f54c15"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Bottom Layer 上 C134 的焊盘 1 [OFF_CLEAR_N]",
+                    "pos": {
+                        "x": 156.348,
+                        "y": 123.647
+                    },
+                    "uuid": "166eef43-0cc4-482c-abad-3d31f5f54c15"
+                },
+                {
+                    "description": "Bottom Layer 上 U21 的焊盘 3 [OFF_CLEAR_N]",
+                    "pos": {
+                        "x": 156.268,
+                        "y": 117.397
+                    },
+                    "uuid": "4cde7a4f-a15f-4a0a-8550-e98c8056633a"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Bottom Layer 上 FPC1 的焊盘 5 [CTRL_INT_AON_N]",
+                    "pos": {
+                        "x": 150.304,
+                        "y": 116.608
+                    },
+                    "uuid": "3da0bdcb-1f35-4189-9577-94c660eb9908"
+                },
+                {
+                    "description": "Bottom Layer 上 Q103 的焊盘 3 [CTRL_INT_AON_N]",
+                    "pos": {
+                        "x": 156.868,
+                        "y": 106.7095
+                    },
+                    "uuid": "73ca07b7-46e6-4901-9563-391702a6ff53"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Bottom Layer 上 FPC1 的焊盘 11 [KEY_RAW_N]",
+                    "pos": {
+                        "x": 150.304,
+                        "y": 119.608
+                    },
+                    "uuid": "b7a4f0a9-147a-4b45-be07-a42172539fa2"
+                },
+                {
+                    "description": "Bottom Layer 上 U6 的焊盘 1 [KEY_RAW_N]",
+                    "pos": {
+                        "x": 153.846,
+                        "y": 121.737
+                    },
+                    "uuid": "0000b631-059d-4dba-9f91-18e6f4536d3d"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Bottom Layer 上 U6 的焊盘 1 [KEY_RAW_N]",
+                    "pos": {
+                        "x": 153.846,
+                        "y": 121.737
+                    },
+                    "uuid": "0000b631-059d-4dba-9f91-18e6f4536d3d"
+                },
+                {
+                    "description": "Bottom Layer 上 Q105 的焊盘 3 [KEY_RAW_N]",
+                    "pos": {
+                        "x": 166.868,
+                        "y": 109.7095
+                    },
+                    "uuid": "4bdc1c2a-65c7-4cab-87e4-41ca094c4dd3"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Bottom Layer 上 U21 的焊盘 5 [GEK_RST]",
+                    "pos": {
+                        "x": 153.468,
+                        "y": 117.897
+                    },
+                    "uuid": "55a112de-dab0-4d0b-a711-f1c34ebe7217"
+                },
+                {
+                    "description": "Bottom Layer 上 U6 的焊盘 3 [GEK_RST]",
+                    "pos": {
+                        "x": 153.846,
+                        "y": 119.837
+                    },
+                    "uuid": "b8d54169-d704-4160-96e3-946c0b387730"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Bottom Layer 上 U14 的焊盘 8 [N_2N133]",
+                    "pos": {
+                        "x": 167.822,
+                        "y": 115.6415
+                    },
+                    "uuid": "83d697b7-31d4-43ff-bb21-0b16d73e276d"
+                },
+                {
+                    "description": "Bottom Layer 上 R33 的焊盘 1 [N_2N133]",
+                    "pos": {
+                        "x": 168.584,
+                        "y": 117.115
+                    },
+                    "uuid": "a45b265a-21f1-4af7-ad7f-86e36d5e48a0"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Bottom Layer 上 C61 的焊盘 1 [N_2N157]",
+                    "pos": {
+                        "x": 165.282,
+                        "y": 115.631
+                    },
+                    "uuid": "b2c10b5b-3fe2-496b-b8c2-b6b9f29a5331"
+                },
+                {
+                    "description": "Bottom Layer 上 R2 的焊盘 1 [N_2N157]",
+                    "pos": {
+                        "x": 165.282,
+                        "y": 118.235
+                    },
+                    "uuid": "81f10fdd-4918-47df-bf10-6399609e8007"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Bottom Layer 上 U14 的焊盘 10 [N_2N157]",
+                    "pos": {
+                        "x": 166.822,
+                        "y": 115.6415
+                    },
+                    "uuid": "0bea6358-74fd-49b7-b072-d674fcc4044c"
+                },
+                {
+                    "description": "Bottom Layer 上 C61 的焊盘 1 [N_2N157]",
+                    "pos": {
+                        "x": 165.282,
+                        "y": 115.631
+                    },
+                    "uuid": "b2c10b5b-3fe2-496b-b8c2-b6b9f29a5331"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Bottom Layer 上 U21 的焊盘 7 [OFF_RC]",
+                    "pos": {
+                        "x": 153.468,
+                        "y": 116.897
+                    },
+                    "uuid": "53320a0f-99d0-4687-9c70-8c8597224e6a"
+                },
+                {
+                    "description": "Bottom Layer 上 R130 的焊盘 2 [OFF_RC]",
+                    "pos": {
+                        "x": 160.358,
+                        "y": 117.147
+                    },
+                    "uuid": "8673afeb-63b6-4428-956a-f826cf97b46c"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Bottom Layer 上 R130 的焊盘 2 [OFF_RC]",
+                    "pos": {
+                        "x": 160.358,
+                        "y": 117.147
+                    },
+                    "uuid": "8673afeb-63b6-4428-956a-f826cf97b46c"
+                },
+                {
+                    "description": "Bottom Layer 上 C133 的焊盘 2 [OFF_RC]",
+                    "pos": {
+                        "x": 162.888,
+                        "y": 117.147
+                    },
+                    "uuid": "7ad4bfec-9732-4af8-9cd6-40b8adefae41"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Bottom Layer 上 R133 的焊盘 2 [AUTO_BOOT_B]",
+                    "pos": {
+                        "x": 163.858,
+                        "y": 123.647
+                    },
+                    "uuid": "506e19a9-7895-4df0-95f0-917e766f8e82"
+                },
+                {
+                    "description": "Bottom Layer 上 Q107 的焊盘 1 [AUTO_BOOT_B]",
+                    "pos": {
+                        "x": 165.8055,
+                        "y": 120.197
+                    },
+                    "uuid": "b5d35a69-d929-4f21-a662-177c01c97328"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Bottom Layer 上 R132 的焊盘 2 [AUTO_EN_B]",
+                    "pos": {
+                        "x": 159.858,
+                        "y": 122.147
+                    },
+                    "uuid": "a71d1fb2-1324-4bdc-aebc-9c4b74c58862"
+                },
+                {
+                    "description": "Bottom Layer 上 Q106 的焊盘 1 [AUTO_EN_B]",
+                    "pos": {
+                        "x": 161.3055,
+                        "y": 118.697
+                    },
+                    "uuid": "573800c4-16a6-4d40-9a2a-c894716a3776"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Bottom Layer 上 R33 的焊盘 2 [N_2N135]",
+                    "pos": {
+                        "x": 168.584,
+                        "y": 117.981
+                    },
+                    "uuid": "bdd4a566-9330-4bc4-9d1a-0987a6658506"
+                },
+                {
+                    "description": "Bottom Layer 上 R34 的焊盘 2 [N_2N135]",
+                    "pos": {
+                        "x": 169.981,
+                        "y": 117.981
+                    },
+                    "uuid": "ef930c99-7f9d-4744-a8ac-7baa9a363211"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Bottom Layer 上 Q101 的焊盘 3 [CTRL_SDA_AON]",
+                    "pos": {
+                        "x": 147.868,
+                        "y": 109.7095
+                    },
+                    "uuid": "2899a4e2-6794-417c-8ef9-9e0fe38745bf"
+                },
+                {
+                    "description": "Bottom Layer 上 FPC1 的焊盘 3 [CTRL_SDA_AON]",
+                    "pos": {
+                        "x": 150.304,
+                        "y": 115.608
+                    },
+                    "uuid": "b1e815b9-96f9-4eda-9cc1-cf04b6ba4e9e"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Bottom Layer 上 U21 的焊盘 6 [OFF_CEXT]",
+                    "pos": {
+                        "x": 153.468,
+                        "y": 117.397
+                    },
+                    "uuid": "c509f031-ff9d-491f-b57b-1fab19456663"
+                },
+                {
+                    "description": "Bottom Layer 上 C133 的焊盘 1 [OFF_CEXT]",
+                    "pos": {
+                        "x": 163.848,
+                        "y": 117.147
+                    },
+                    "uuid": "69588c54-bec8-4c6f-be42-75e443cf3fb6"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
     "violations": []
 }

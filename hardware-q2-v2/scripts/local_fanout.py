@@ -28,7 +28,14 @@ for a in b.GetTracks():
   polys[l][a.GetNetname()].append(sh)
 outline=affinity.translate(Polygon(json.loads((P.parent/'hardware-q2-v2-plan/outline.json').read_text())[0]),128.868,67.647)
 targets={}
-if 'failed' in sys.argv:
+if 'power-only' in sys.argv:
+ drc=json.loads((P/'output/drc.json').read_text(encoding='utf8'))
+ for item in drc['unconnected_items']:
+  for it in item['items']:
+   if it['uuid'] in pads:
+    f,a=pads[it['uuid']]
+    if a.GetNetname()=='VCC_3V3':targets[it['uuid']]=(f,a)
+elif 'failed' in sys.argv:
  old=json.loads((P/'output/local-fanout.json').read_text())
  keys={(a['ref'],a['pin']) for a in old['failed']}
  targets={uid:(f,a) for uid,(f,a) in pads.items() if (f.GetReference(),a.GetNumber()) in keys}
