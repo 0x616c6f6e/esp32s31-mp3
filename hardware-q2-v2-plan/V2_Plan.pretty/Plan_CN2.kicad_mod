@@ -1,0 +1,107 @@
+(footprint "Plan_CN2"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(locked yes)
+	(layer "F.Cu")
+	(property "Reference" "CN2"
+		(at 0 0 -90)
+		(layer "F.Fab")
+		(uuid "f3b43919-8044-451b-9fe4-e6c741759ec2")
+		(effects
+			(font
+				(size 0.65 0.65)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "SOLDER_WIRES_3P"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "539f41cf-3054-412c-bf48-25449bae6475")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ed97f9c8-ab97-47e4-9ec7-08d87ed1c749")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "10c3df73-f441-4af7-96af-dc75a24e9038")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLC_3DModel_Q" "af59b1481d5145efba33690db43ff41f|0819f05c4eef4c71ace90d822a990e87"
+		(at 0 0 0)
+		(layer "Cmts.User")
+		(hide yes)
+		(uuid "5ceeee9e-09e1-498e-a3da-ad2d9caf43d9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLC_3D_Size" "10.01 7.74"
+		(at 0 0 0)
+		(layer "Cmts.User")
+		(hide yes)
+		(uuid "3b3446fe-7822-4f57-8486-d79889629366")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(duplicate_pad_numbers_are_jumpers no)
+	(pad "1" thru_hole rect
+		(at -2.5 0)
+		(size 1.524 1.524)
+		(drill 0.9145)
+		(layers "*.Mask" "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu")
+		(remove_unused_layers no)
+		(uuid "67cd614c-6d4a-4f7f-b235-da95f7946dc6")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 1.524 1.524)
+		(drill 0.9145)
+		(layers "*.Mask" "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "e9892819-3121-4a83-b2f5-40f56e623cd8")
+	)
+	(pad "3" thru_hole circle
+		(at 2.5 0)
+		(size 1.524 1.524)
+		(drill 0.9145)
+		(layers "*.Mask" "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "16b027f0-6cef-4241-bbb5-be9b77ff9e7e")
+	)
+	(embedded_fonts no)
+)

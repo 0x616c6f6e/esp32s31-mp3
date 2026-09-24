@@ -1,0 +1,1 @@
+V2 candidate visible; old module and old adapter references hidden.

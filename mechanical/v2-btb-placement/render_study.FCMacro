@@ -1,0 +1,25 @@
+from pathlib import Path
+import FreeCAD as A,FreeCADGui as G
+from PySide import QtCore
+O=Path(r'C:/Users/alon/Desktop/Preoject/esp32s31-mp3/mechanical/v2-btb-placement')
+d=A.openDocument(str(O/'Q2_V2_BTB_Position_Study.FCStd'))
+def finish():
+ try:
+  for o in d.Objects:
+   if hasattr(o,'Group'):o.ViewObject.Visibility=True
+  for o in d.Objects:
+   if hasattr(o,'Shape') and not hasattr(o,'Group'):
+    o.ViewObject.Visibility=o.Name in ['MainPCB','PCB_CARD2','PCB_U15','PCB_C47','PCB_C48','V2DisplayBTB','V2BTBAccessReservation','HousingControlsA']
+  d.PCB_U9.Label='REMOVED IN V2 / old module reference (hidden)'
+  d.MainPCB.ViewObject.ShapeColor=(.12,.39,.26)
+  d.HousingControlsA.ViewObject.ShapeColor=(.68,.74,.8);d.HousingControlsA.ViewObject.Transparency=87
+  d.V2DisplayBTB.ViewObject.ShapeColor=(.15,.18,.22)
+  d.V2BTBAccessReservation.ViewObject.ShapeColor=(.95,.63,.19);d.V2BTBAccessReservation.ViewObject.Transparency=88
+  v=G.activeDocument().activeView();v.viewAxonometric();v.fitAll();G.updateGui()
+  v.saveImage(str(O/'placement-in-enclosure.png'),1300,1300,'White')
+  d.save();(O/'render-ok.txt').write_text('V2 candidate visible; old module and old adapter references hidden.')
+ except Exception:
+  import traceback
+  (O/'render-error.txt').write_text(traceback.format_exc())
+ G.getMainWindow().close()
+QtCore.QTimer.singleShot(1200,finish)

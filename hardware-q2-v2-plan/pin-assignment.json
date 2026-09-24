@@ -1,0 +1,1432 @@
+{
+  "status": "PIN_PROPOSAL_CONSISTENT_NOT_WIRED_OR_FIRMWARE_VALIDATED",
+  "chip_candidate": "ESP32-S31NRV16",
+  "source": "esp32-s31_datasheet_en.pdf v0.5",
+  "rows": [
+    {
+      "pin": 1,
+      "pin_name": "ANT",
+      "gpio": null,
+      "group": "射频",
+      "signal": "ANT",
+      "old_net": "",
+      "direction": "专用",
+      "target": "RF匹配/天线",
+      "reset_requirement": "按RF参考设计",
+      "notes": "专用射频端口",
+      "board_local_nominal_terminal_xy": [
+        33.325,
+        13.2
+      ],
+      "board_side_at_minus90": "上"
+    },
+    {
+      "pin": 2,
+      "pin_name": "VDDA3",
+      "gpio": null,
+      "group": "电源",
+      "signal": "3V3_VDDA3",
+      "old_net": "",
+      "direction": "专用",
+      "target": "3.3V域，局部滤波/去耦",
+      "reset_requirement": "按每个电源脚放去耦",
+      "notes": "VDDA模拟电源滤波不可省略",
+      "board_local_nominal_terminal_xy": [
+        32.975,
+        13.2
+      ],
+      "board_side_at_minus90": "上"
+    },
+    {
+      "pin": 3,
+      "pin_name": "VDDA4",
+      "gpio": null,
+      "group": "电源",
+      "signal": "3V3_VDDA4",
+      "old_net": "",
+      "direction": "专用",
+      "target": "3.3V域，局部滤波/去耦",
+      "reset_requirement": "按每个电源脚放去耦",
+      "notes": "VDDA模拟电源滤波不可省略",
+      "board_local_nominal_terminal_xy": [
+        32.625,
+        13.2
+      ],
+      "board_side_at_minus90": "上"
+    },
+    {
+      "pin": 4,
+      "pin_name": "CHIP_PU",
+      "gpio": null,
+      "group": "复位",
+      "signal": "CHIP_PU",
+      "old_net": "ESP32S31_EN",
+      "direction": "专用",
+      "target": "RC及CH343下载控制电路",
+      "reset_requirement": "10k上拉/RC按参考设计",
+      "notes": "旧网ESP32S31_EN；必须核对自动下载握手，不能误当普通GPIO",
+      "board_local_nominal_terminal_xy": [
+        32.275,
+        13.2
+      ],
+      "board_side_at_minus90": "上"
+    },
+    {
+      "pin": 5,
+      "pin_name": "XTAL_32K_N/GPIO0",
+      "gpio": 0,
+      "group": "唤醒/中断",
+      "signal": "KEY_POWER_SENSE_N",
+      "old_net": "ESP_IO42",
+      "direction": "输入",
+      "target": "FPC1.11 / U6.1，经3.3V隔离检测",
+      "reset_requirement": "输入；上拉仅接3.3V；GPIO3极性由IMU配置",
+      "notes": "LP GPIO；唤醒需要固件配置。KEY必须隔离GEK供电域；不得原样直连。",
+      "board_local_nominal_terminal_xy": [
+        31.925,
+        13.2
+      ],
+      "board_side_at_minus90": "上"
+    },
+    {
+      "pin": 6,
+      "pin_name": "XTAL_32K_P/GPIO1",
+      "gpio": 1,
+      "group": "唤醒/中断",
+      "signal": "CTRL_INT_N",
+      "old_net": "ESP_IO43",
+      "direction": "输入",
+      "target": "FPC1.5",
+      "reset_requirement": "输入；上拉仅接3.3V；GPIO3极性由IMU配置",
+      "notes": "LP GPIO；可按需要配置唤醒，保持供电时才有效。",
+      "board_local_nominal_terminal_xy": [
+        31.575,
+        13.2
+      ],
+      "board_side_at_minus90": "上"
+    },
+    {
+      "pin": 7,
+      "pin_name": "GPIO2",
+      "gpio": 2,
+      "group": "唤醒/中断",
+      "signal": "RTC_INT_N",
+      "old_net": "ESP_IO34",
+      "direction": "输入",
+      "target": "U1.6",
+      "reset_requirement": "输入；上拉仅接3.3V；GPIO3极性由IMU配置",
+      "notes": "LP GPIO；可按需要配置唤醒，保持供电时才有效。",
+      "board_local_nominal_terminal_xy": [
+        31.225,
+        13.2
+      ],
+      "board_side_at_minus90": "上"
+    },
+    {
+      "pin": 8,
+      "pin_name": "GPIO3",
+      "gpio": 3,
+      "group": "唤醒/中断",
+      "signal": "IMU_INT1",
+      "old_net": "ESP_IO1",
+      "direction": "输入",
+      "target": "U15.4",
+      "reset_requirement": "输入；上拉仅接3.3V；GPIO3极性由IMU配置",
+      "notes": "LP GPIO；可按需要配置唤醒，保持供电时才有效。",
+      "board_local_nominal_terminal_xy": [
+        30.875,
+        13.2
+      ],
+      "board_side_at_minus90": "上"
+    },
+    {
+      "pin": 9,
+      "pin_name": "GPIO4",
+      "gpio": 4,
+      "group": "唤醒/中断",
+      "signal": "BAT_ALERT_N",
+      "old_net": "ESP_IO35",
+      "direction": "输入",
+      "target": "U14.1",
+      "reset_requirement": "输入；上拉仅接3.3V；GPIO3极性由IMU配置",
+      "notes": "LP GPIO；可按需要配置唤醒，保持供电时才有效。",
+      "board_local_nominal_terminal_xy": [
+        30.525,
+        13.2
+      ],
+      "board_side_at_minus90": "上"
+    },
+    {
+      "pin": 10,
+      "pin_name": "GPIO5",
+      "gpio": 5,
+      "group": "唤醒/中断",
+      "signal": "CHG_INT_N",
+      "old_net": "BQ25895_INT",
+      "direction": "输入",
+      "target": "U3.7",
+      "reset_requirement": "输入；上拉仅接3.3V；GPIO3极性由IMU配置",
+      "notes": "LP GPIO；可按需要配置唤醒，保持供电时才有效。",
+      "board_local_nominal_terminal_xy": [
+        30.175,
+        13.2
+      ],
+      "board_side_at_minus90": "上"
+    },
+    {
+      "pin": 11,
+      "pin_name": "VDDPST_1",
+      "gpio": null,
+      "group": "电源",
+      "signal": "3V3_VDDPST_1",
+      "old_net": "",
+      "direction": "专用",
+      "target": "3.3V域，局部滤波/去耦",
+      "reset_requirement": "按每个电源脚放去耦",
+      "notes": "VDDA模拟电源滤波不可省略",
+      "board_local_nominal_terminal_xy": [
+        29.825,
+        13.2
+      ],
+      "board_side_at_minus90": "上"
+    },
+    {
+      "pin": 12,
+      "pin_name": "GPIO6",
+      "gpio": 6,
+      "group": "系统LP I2C",
+      "signal": "SYS_I2C_SCL",
+      "old_net": "BQ25895_I2C_CLK",
+      "direction": "开漏双向",
+      "target": "U3.5 U14.3 U1.2 U11.2 FPC1.4",
+      "reset_requirement": "外部上拉3.3V",
+      "notes": "LP I2C，F2；100kHz起步；不是I2C_NUM_2",
+      "board_local_nominal_terminal_xy": [
+        29.475,
+        13.2
+      ],
+      "board_side_at_minus90": "上"
+    },
+    {
+      "pin": 13,
+      "pin_name": "GPIO7",
+      "gpio": 7,
+      "group": "系统LP I2C",
+      "signal": "SYS_I2C_SDA",
+      "old_net": "BQ25895_I2C_SDA",
+      "direction": "开漏双向",
+      "target": "U3.6 U14.2 U1.3 U11.3 FPC1.3",
+      "reset_requirement": "外部上拉3.3V",
+      "notes": "LP I2C，F2；LP核访问须与主核通过命令/共享内存协调",
+      "board_local_nominal_terminal_xy": [
+        29.125,
+        13.2
+      ],
+      "board_side_at_minus90": "上"
+    },
+    {
+      "pin": 14,
+      "pin_name": "GPIO8",
+      "gpio": 8,
+      "group": "空闲GPIO",
+      "signal": "SPARE_GPIO8",
+      "old_net": "",
+      "direction": "预留",
+      "target": "",
+      "reset_requirement": "不接外设，固件避免悬空",
+      "notes": "供后续扩展；不得替代电源/USB专用脚",
+      "board_local_nominal_terminal_xy": [
+        28.775,
+        13.2
+      ],
+      "board_side_at_minus90": "上"
+    },
+    {
+      "pin": 15,
+      "pin_name": "GPIO9",
+      "gpio": 9,
+      "group": "系统控制",
+      "signal": "POWER_OFF_REQ",
+      "old_net": "GEK100_RST",
+      "direction": "输出",
+      "target": "U6.3，经断电防反灌电路",
+      "reset_requirement": "外部下拉；上电低",
+      "notes": "新增软件关机请求；高有效，需保证掉电后复位脉冲时长",
+      "board_local_nominal_terminal_xy": [
+        28.425,
+        13.2
+      ],
+      "board_side_at_minus90": "上"
+    },
+    {
+      "pin": 16,
+      "pin_name": "GPIO10",
+      "gpio": 10,
+      "group": "系统控制",
+      "signal": "CTRL_RESET_N",
+      "old_net": "ESP_IO44",
+      "direction": "开漏输出",
+      "target": "FPC1.6",
+      "reset_requirement": "释放，由小板RC上拉",
+      "notes": "CH32V006 PD7配置硬件复位后才生效",
+      "board_local_nominal_terminal_xy": [
+        28.075,
+        13.2
+      ],
+      "board_side_at_minus90": "上"
+    },
+    {
+      "pin": 17,
+      "pin_name": "GPIO11",
+      "gpio": 11,
+      "group": "系统控制",
+      "signal": "USB_PATH_SEL",
+      "old_net": "ESP_IO33",
+      "direction": "输出",
+      "target": "U17.2",
+      "reset_requirement": "外部电阻固定默认路径",
+      "notes": "避开GPIO33复位USB功能；0/1对应哪路须核对U17真值表",
+      "board_local_nominal_terminal_xy": [
+        27.725,
+        13.2
+      ],
+      "board_side_at_minus90": "上"
+    },
+    {
+      "pin": 18,
+      "pin_name": "VREF_TOUCH",
+      "gpio": null,
+      "group": "模拟预留",
+      "signal": "NC_VREF_TOUCH",
+      "old_net": "",
+      "direction": "专用",
+      "target": "本方案不用触摸/ADC则按手册处理",
+      "reset_requirement": "不作为GPIO",
+      "notes": "后续启用相关功能须补参考电容",
+      "board_local_nominal_terminal_xy": [
+        27.375,
+        13.2
+      ],
+      "board_side_at_minus90": "上"
+    },
+    {
+      "pin": 19,
+      "pin_name": "GPIO12",
+      "gpio": 12,
+      "group": "系统控制",
+      "signal": "MOTOR_EN",
+      "old_net": "ESP_IO40",
+      "direction": "输出",
+      "target": "U11.5",
+      "reset_requirement": "外部下拉；默认关闭",
+      "notes": "保留现有R44下拉；PWM/触发使用需按马达驱动配置",
+      "board_local_nominal_terminal_xy": [
+        27.025,
+        13.2
+      ],
+      "board_side_at_minus90": "上"
+    },
+    {
+      "pin": 20,
+      "pin_name": "GPIO13",
+      "gpio": 13,
+      "group": "系统控制",
+      "signal": "CHG_OTG_EN",
+      "old_net": "BQ25895_OTG_EN",
+      "direction": "输出",
+      "target": "U3.8",
+      "reset_requirement": "外部下拉；默认关闭",
+      "notes": "保留R12下拉；不得上电即打开OTG",
+      "board_local_nominal_terminal_xy": [
+        26.675,
+        13.2
+      ],
+      "board_side_at_minus90": "上"
+    },
+    {
+      "pin": 21,
+      "pin_name": "GPIO14",
+      "gpio": 14,
+      "group": "音频HP I2C0",
+      "signal": "AUDIO_I2C_SCL",
+      "old_net": "DAC_I2C_SCL",
+      "direction": "开漏双向",
+      "target": "U7.6 U15.13",
+      "reset_requirement": "保留3.3V侧上拉",
+      "notes": "HP I2C0经GPIO Matrix；U7后为1.8V DAC总线",
+      "board_local_nominal_terminal_xy": [
+        26.2,
+        13.675
+      ],
+      "board_side_at_minus90": "左"
+    },
+    {
+      "pin": 22,
+      "pin_name": "GPIO15",
+      "gpio": 15,
+      "group": "音频HP I2C0",
+      "signal": "AUDIO_I2C_SDA",
+      "old_net": "DAC_I2C_SDA",
+      "direction": "开漏双向",
+      "target": "U7.5 U15.14",
+      "reset_requirement": "保留3.3V侧上拉",
+      "notes": "HP I2C0经GPIO Matrix；U7后为1.8V DAC总线",
+      "board_local_nominal_terminal_xy": [
+        26.2,
+        14.025
+      ],
+      "board_side_at_minus90": "左"
+    },
+    {
+      "pin": 23,
+      "pin_name": "GPIO16",
+      "gpio": 16,
+      "group": "空闲GPIO",
+      "signal": "SPARE_GPIO16",
+      "old_net": "",
+      "direction": "预留",
+      "target": "",
+      "reset_requirement": "不接外设，固件避免悬空",
+      "notes": "供后续扩展；不得替代电源/USB专用脚",
+      "board_local_nominal_terminal_xy": [
+        26.2,
+        14.375
+      ],
+      "board_side_at_minus90": "左"
+    },
+    {
+      "pin": 24,
+      "pin_name": "GPIO17",
+      "gpio": 17,
+      "group": "空闲GPIO",
+      "signal": "SPARE_GPIO17",
+      "old_net": "",
+      "direction": "预留",
+      "target": "",
+      "reset_requirement": "不接外设，固件避免悬空",
+      "notes": "供后续扩展；不得替代电源/USB专用脚",
+      "board_local_nominal_terminal_xy": [
+        26.2,
+        14.725
+      ],
+      "board_side_at_minus90": "左"
+    },
+    {
+      "pin": 25,
+      "pin_name": "GPIO18",
+      "gpio": 18,
+      "group": "空闲GPIO",
+      "signal": "SPARE_GPIO18",
+      "old_net": "",
+      "direction": "预留",
+      "target": "",
+      "reset_requirement": "不接外设，固件避免悬空",
+      "notes": "供后续扩展；不得替代电源/USB专用脚",
+      "board_local_nominal_terminal_xy": [
+        26.2,
+        15.075
+      ],
+      "board_side_at_minus90": "左"
+    },
+    {
+      "pin": 26,
+      "pin_name": "GPIO19",
+      "gpio": 19,
+      "group": "系统控制",
+      "signal": "SD_CARD_DETECT_N",
+      "old_net": "ESP_IO19",
+      "direction": "输入",
+      "target": "CARD2.CD",
+      "reset_requirement": "新增/核对3.3V上拉",
+      "notes": "检测触点极性以实物卡座导通确认",
+      "board_local_nominal_terminal_xy": [
+        26.2,
+        15.425
+      ],
+      "board_side_at_minus90": "左"
+    },
+    {
+      "pin": 27,
+      "pin_name": "SDIO_DATA0",
+      "gpio": 20,
+      "group": "SDMMC",
+      "signal": "SD_D0",
+      "old_net": "ESP_TF_DAT0",
+      "direction": "双向",
+      "target": "CARD2.7",
+      "reset_requirement": "CMD/D0-D3上拉3.3V；CLK不随意加上拉",
+      "notes": "原生SDIO F0；本板卡接口先用3.3V，不直接改1.8V模式",
+      "board_local_nominal_terminal_xy": [
+        26.2,
+        15.775
+      ],
+      "board_side_at_minus90": "左"
+    },
+    {
+      "pin": 28,
+      "pin_name": "SDIO_DATA1",
+      "gpio": 21,
+      "group": "SDMMC",
+      "signal": "SD_D1",
+      "old_net": "ESP_TF_DAT1",
+      "direction": "双向",
+      "target": "CARD2.8",
+      "reset_requirement": "CMD/D0-D3上拉3.3V；CLK不随意加上拉",
+      "notes": "原生SDIO F0；本板卡接口先用3.3V，不直接改1.8V模式",
+      "board_local_nominal_terminal_xy": [
+        26.2,
+        16.125
+      ],
+      "board_side_at_minus90": "左"
+    },
+    {
+      "pin": 29,
+      "pin_name": "SDIO_DATA2",
+      "gpio": 22,
+      "group": "SDMMC",
+      "signal": "SD_D2",
+      "old_net": "ESP_TF_DAT2",
+      "direction": "双向",
+      "target": "CARD2.1",
+      "reset_requirement": "CMD/D0-D3上拉3.3V；CLK不随意加上拉",
+      "notes": "原生SDIO F0；本板卡接口先用3.3V，不直接改1.8V模式",
+      "board_local_nominal_terminal_xy": [
+        26.2,
+        16.475
+      ],
+      "board_side_at_minus90": "左"
+    },
+    {
+      "pin": 30,
+      "pin_name": "VDD_PSRAM_1P8_1",
+      "gpio": null,
+      "group": "电源",
+      "signal": "VDD_PSRAM_1P8_1",
+      "old_net": "",
+      "direction": "专用",
+      "target": "VDD_LDO_1P8，按参考电路",
+      "reset_requirement": "1.8V PSRAM供电",
+      "notes": "不是3.3V输入",
+      "board_local_nominal_terminal_xy": [
+        26.2,
+        16.825
+      ],
+      "board_side_at_minus90": "左"
+    },
+    {
+      "pin": 31,
+      "pin_name": "SDIO_DATA3",
+      "gpio": 23,
+      "group": "SDMMC",
+      "signal": "SD_D3",
+      "old_net": "ESP_TF_DAT3",
+      "direction": "双向",
+      "target": "CARD2.2",
+      "reset_requirement": "CMD/D0-D3上拉3.3V；CLK不随意加上拉",
+      "notes": "原生SDIO F0；本板卡接口先用3.3V，不直接改1.8V模式",
+      "board_local_nominal_terminal_xy": [
+        26.2,
+        17.175
+      ],
+      "board_side_at_minus90": "左"
+    },
+    {
+      "pin": 32,
+      "pin_name": "SDIO_CLK",
+      "gpio": 24,
+      "group": "SDMMC",
+      "signal": "SD_CLK",
+      "old_net": "ESP_TF_CLK",
+      "direction": "输出",
+      "target": "CARD2.5",
+      "reset_requirement": "CMD/D0-D3上拉3.3V；CLK不随意加上拉",
+      "notes": "原生SDIO F0；本板卡接口先用3.3V，不直接改1.8V模式",
+      "board_local_nominal_terminal_xy": [
+        26.2,
+        17.525
+      ],
+      "board_side_at_minus90": "左"
+    },
+    {
+      "pin": 33,
+      "pin_name": "SDIO_CMD",
+      "gpio": 25,
+      "group": "SDMMC",
+      "signal": "SD_CMD",
+      "old_net": "ESP_TF_CMD",
+      "direction": "双向",
+      "target": "CARD2.3",
+      "reset_requirement": "CMD/D0-D3上拉3.3V；CLK不随意加上拉",
+      "notes": "原生SDIO F0；本板卡接口先用3.3V，不直接改1.8V模式",
+      "board_local_nominal_terminal_xy": [
+        26.2,
+        17.875
+      ],
+      "board_side_at_minus90": "左"
+    },
+    {
+      "pin": 34,
+      "pin_name": "VDD_PSRAM_1P8_2",
+      "gpio": null,
+      "group": "电源",
+      "signal": "VDD_PSRAM_1P8_2",
+      "old_net": "",
+      "direction": "专用",
+      "target": "VDD_LDO_1P8，按参考电路",
+      "reset_requirement": "1.8V PSRAM供电",
+      "notes": "不是3.3V输入",
+      "board_local_nominal_terminal_xy": [
+        26.2,
+        18.225
+      ],
+      "board_side_at_minus90": "左"
+    },
+    {
+      "pin": 35,
+      "pin_name": "VDD_LDO_1P8",
+      "gpio": null,
+      "group": "电源",
+      "signal": "VDD_LDO_1P8",
+      "old_net": "",
+      "direction": "专用",
+      "target": "PSRAM 1.8V供电和去耦",
+      "reset_requirement": "芯片电源输出",
+      "notes": "不能接外部3.3V",
+      "board_local_nominal_terminal_xy": [
+        26.2,
+        18.575
+      ],
+      "board_side_at_minus90": "左"
+    },
+    {
+      "pin": 36,
+      "pin_name": "SPICS",
+      "gpio": 26,
+      "group": "启动Flash",
+      "signal": "FLASH_CS_N",
+      "old_net": "ESP_FLASH_CS",
+      "direction": "输出",
+      "target": "U10.1",
+      "reset_requirement": "按启动Flash参考电路",
+      "notes": "固定MSPI引脚；不分给应用GPIO；U10容量待选，建议与原模组16MB目标一致",
+      "board_local_nominal_terminal_xy": [
+        26.2,
+        18.925
+      ],
+      "board_side_at_minus90": "左"
+    },
+    {
+      "pin": 37,
+      "pin_name": "SPIQ",
+      "gpio": 27,
+      "group": "启动Flash",
+      "signal": "FLASH_D1",
+      "old_net": "ESP_FLASH_DO",
+      "direction": "双向",
+      "target": "U10.2",
+      "reset_requirement": "按启动Flash参考电路",
+      "notes": "固定MSPI引脚；不分给应用GPIO；U10容量待选，建议与原模组16MB目标一致",
+      "board_local_nominal_terminal_xy": [
+        26.2,
+        19.275
+      ],
+      "board_side_at_minus90": "左"
+    },
+    {
+      "pin": 38,
+      "pin_name": "SPIWP",
+      "gpio": 28,
+      "group": "启动Flash",
+      "signal": "FLASH_D2",
+      "old_net": "ESP_FLASH_WP",
+      "direction": "双向",
+      "target": "U10.3",
+      "reset_requirement": "按启动Flash参考电路",
+      "notes": "固定MSPI引脚；不分给应用GPIO；U10容量待选，建议与原模组16MB目标一致",
+      "board_local_nominal_terminal_xy": [
+        26.2,
+        19.625
+      ],
+      "board_side_at_minus90": "左"
+    },
+    {
+      "pin": 39,
+      "pin_name": "VDD_SPI",
+      "gpio": null,
+      "group": "电源",
+      "signal": "VDD_SPI",
+      "old_net": "",
+      "direction": "专用",
+      "target": "外接Flash供电/去耦",
+      "reset_requirement": "按3.3V Flash参考电路",
+      "notes": "结合GPIO36配置；不是任意与外部电源并接",
+      "board_local_nominal_terminal_xy": [
+        26.2,
+        19.975
+      ],
+      "board_side_at_minus90": "左"
+    },
+    {
+      "pin": 40,
+      "pin_name": "SPIHD",
+      "gpio": 30,
+      "group": "启动Flash",
+      "signal": "FLASH_D3",
+      "old_net": "ESP_FLASH_HOLD",
+      "direction": "双向",
+      "target": "U10.7",
+      "reset_requirement": "按启动Flash参考电路",
+      "notes": "固定MSPI引脚；不分给应用GPIO；U10容量待选，建议与原模组16MB目标一致",
+      "board_local_nominal_terminal_xy": [
+        26.2,
+        20.325
+      ],
+      "board_side_at_minus90": "左"
+    },
+    {
+      "pin": 41,
+      "pin_name": "SPICLK",
+      "gpio": 31,
+      "group": "启动Flash",
+      "signal": "FLASH_CLK",
+      "old_net": "ESP_FLASH_CLK",
+      "direction": "输出",
+      "target": "U10.6",
+      "reset_requirement": "按启动Flash参考电路",
+      "notes": "固定MSPI引脚；不分给应用GPIO；U10容量待选，建议与原模组16MB目标一致",
+      "board_local_nominal_terminal_xy": [
+        26.675,
+        20.8
+      ],
+      "board_side_at_minus90": "下"
+    },
+    {
+      "pin": 42,
+      "pin_name": "SPID",
+      "gpio": 32,
+      "group": "启动Flash",
+      "signal": "FLASH_D0",
+      "old_net": "ESP_FLASH_DI",
+      "direction": "双向",
+      "target": "U10.5",
+      "reset_requirement": "按启动Flash参考电路",
+      "notes": "固定MSPI引脚；不分给应用GPIO；U10容量待选，建议与原模组16MB目标一致",
+      "board_local_nominal_terminal_xy": [
+        27.025,
+        20.8
+      ],
+      "board_side_at_minus90": "下"
+    },
+    {
+      "pin": 43,
+      "pin_name": "VCCA/VDDPST_2",
+      "gpio": null,
+      "group": "电源",
+      "signal": "3V3_VCCA/VDDPST_2",
+      "old_net": "",
+      "direction": "专用",
+      "target": "3.3V域，局部滤波/去耦",
+      "reset_requirement": "按每个电源脚放去耦",
+      "notes": "VDDA模拟电源滤波不可省略",
+      "board_local_nominal_terminal_xy": [
+        27.375,
+        20.8
+      ],
+      "board_side_at_minus90": "下"
+    },
+    {
+      "pin": 44,
+      "pin_name": "USB_DP",
+      "gpio": null,
+      "group": "USB HS",
+      "signal": "USB_HS_DP",
+      "old_net": "ESP_USB_DP",
+      "direction": "专用",
+      "target": "U17.7",
+      "reset_requirement": "专用差分",
+      "notes": "旧网ESP_USB_DP；不是GPIO44",
+      "board_local_nominal_terminal_xy": [
+        27.725,
+        20.8
+      ],
+      "board_side_at_minus90": "下"
+    },
+    {
+      "pin": 45,
+      "pin_name": "USB_DM",
+      "gpio": null,
+      "group": "USB HS",
+      "signal": "USB_HS_DM",
+      "old_net": "ESP_USB_DN",
+      "direction": "专用",
+      "target": "U17.6",
+      "reset_requirement": "专用差分",
+      "notes": "旧网ESP_USB_DN；不是GPIO45",
+      "board_local_nominal_terminal_xy": [
+        28.075,
+        20.8
+      ],
+      "board_side_at_minus90": "下"
+    },
+    {
+      "pin": 46,
+      "pin_name": "GPIO33",
+      "gpio": 33,
+      "group": "调试预留",
+      "signal": "USB_DEBUG_DM",
+      "old_net": "",
+      "direction": "专用差分",
+      "target": "新增调试焊盘/连接器",
+      "reset_requirement": "保留USB Serial/JTAG功能",
+      "notes": "不再接USB切换SEL；与HS USB不是同一对线，不可并接",
+      "board_local_nominal_terminal_xy": [
+        28.425,
+        20.8
+      ],
+      "board_side_at_minus90": "下"
+    },
+    {
+      "pin": 47,
+      "pin_name": "GPIO34",
+      "gpio": 34,
+      "group": "调试预留",
+      "signal": "USB_DEBUG_DP",
+      "old_net": "",
+      "direction": "专用差分",
+      "target": "新增调试焊盘/连接器",
+      "reset_requirement": "保留USB Serial/JTAG功能",
+      "notes": "不再接RTC中断；量产无调试连接器时可不装引出件",
+      "board_local_nominal_terminal_xy": [
+        28.775,
+        20.8
+      ],
+      "board_side_at_minus90": "下"
+    },
+    {
+      "pin": 48,
+      "pin_name": "GPIO35",
+      "gpio": 35,
+      "group": "音频I2S",
+      "signal": "DAC_I2S_DOUT",
+      "old_net": "DAC_I2S_SDIN",
+      "direction": "输出",
+      "target": "U8.2",
+      "reset_requirement": "RESET默认低；时钟初始化前静止",
+      "notes": "GPIO Matrix；保留U8到1.8V域转换；DOUT是ESP输出，旧网SDIN按DAC视角命名",
+      "board_local_nominal_terminal_xy": [
+        29.125,
+        20.8
+      ],
+      "board_side_at_minus90": "下"
+    },
+    {
+      "pin": 49,
+      "pin_name": "GPIO36",
+      "gpio": 36,
+      "group": "启动配置",
+      "signal": "STRAP_FLASH_3V3",
+      "old_net": "",
+      "direction": "启动采样",
+      "target": "启动上拉/下载电路",
+      "reset_requirement": "10k候选上拉3.3V",
+      "notes": "默认eFuse下高选择3.3V；不得悬空/接外部中断",
+      "board_local_nominal_terminal_xy": [
+        29.475,
+        20.8
+      ],
+      "board_side_at_minus90": "下"
+    },
+    {
+      "pin": 50,
+      "pin_name": "GPIO37",
+      "gpio": 37,
+      "group": "启动配置",
+      "signal": "STRAP_USB_JTAG",
+      "old_net": "",
+      "direction": "启动采样",
+      "target": "启动上拉/下载电路",
+      "reset_requirement": "10k候选上拉3.3V",
+      "notes": "无内部上下拉；当JTAG_SEL_ENABLE启用时高选USB JTAG；不为此烧eFuse",
+      "board_local_nominal_terminal_xy": [
+        29.825,
+        20.8
+      ],
+      "board_side_at_minus90": "下"
+    },
+    {
+      "pin": 51,
+      "pin_name": "GPIO38",
+      "gpio": 38,
+      "group": "音频I2S",
+      "signal": "DAC_I2S_LRCK",
+      "old_net": "DAC_I2S_LRCK",
+      "direction": "输出",
+      "target": "U8.5",
+      "reset_requirement": "RESET默认低；时钟初始化前静止",
+      "notes": "GPIO Matrix；保留U8到1.8V域转换；DOUT是ESP输出，旧网SDIN按DAC视角命名",
+      "board_local_nominal_terminal_xy": [
+        30.175,
+        20.8
+      ],
+      "board_side_at_minus90": "下"
+    },
+    {
+      "pin": 52,
+      "pin_name": "GPIO39",
+      "gpio": 39,
+      "group": "音频I2S",
+      "signal": "DAC_RESET_N",
+      "old_net": "DAC_RST#",
+      "direction": "输出",
+      "target": "U8.12",
+      "reset_requirement": "RESET默认低；时钟初始化前静止",
+      "notes": "GPIO Matrix；保留U8到1.8V域转换；DOUT是ESP输出，旧网SDIN按DAC视角命名",
+      "board_local_nominal_terminal_xy": [
+        30.525,
+        20.8
+      ],
+      "board_side_at_minus90": "下"
+    },
+    {
+      "pin": 53,
+      "pin_name": "GPIO40",
+      "gpio": 40,
+      "group": "音频I2S",
+      "signal": "DAC_I2S_BCLK",
+      "old_net": "DAC_I2S_SCLK",
+      "direction": "输出",
+      "target": "U8.9",
+      "reset_requirement": "RESET默认低；时钟初始化前静止",
+      "notes": "GPIO Matrix；保留U8到1.8V域转换；DOUT是ESP输出，旧网SDIN按DAC视角命名",
+      "board_local_nominal_terminal_xy": [
+        30.875,
+        20.8
+      ],
+      "board_side_at_minus90": "下"
+    },
+    {
+      "pin": 54,
+      "pin_name": "VDDPST_3",
+      "gpio": null,
+      "group": "电源",
+      "signal": "3V3_VDDPST_3",
+      "old_net": "",
+      "direction": "专用",
+      "target": "3.3V域，局部滤波/去耦",
+      "reset_requirement": "按每个电源脚放去耦",
+      "notes": "VDDA模拟电源滤波不可省略",
+      "board_local_nominal_terminal_xy": [
+        31.225,
+        20.8
+      ],
+      "board_side_at_minus90": "下"
+    },
+    {
+      "pin": 55,
+      "pin_name": "GPIO42",
+      "gpio": 42,
+      "group": "触屏HP I2C1",
+      "signal": "TP_I2C_SCL",
+      "old_net": "ESP_I2C2_SCL",
+      "direction": "开漏双向",
+      "target": "JDISP1.20",
+      "reset_requirement": "3.3V上拉，屏幕断电时防反灌",
+      "notes": "HP I2C1；与系统/音频总线隔离，无需假定触控IC地址",
+      "board_local_nominal_terminal_xy": [
+        31.575,
+        20.8
+      ],
+      "board_side_at_minus90": "下"
+    },
+    {
+      "pin": 56,
+      "pin_name": "GPIO43",
+      "gpio": 43,
+      "group": "触屏HP I2C1",
+      "signal": "TP_I2C_SDA",
+      "old_net": "ESP_I2C2_SDA",
+      "direction": "开漏双向",
+      "target": "JDISP1.19",
+      "reset_requirement": "3.3V上拉，屏幕断电时防反灌",
+      "notes": "HP I2C1；与系统/音频总线隔离，无需假定触控IC地址",
+      "board_local_nominal_terminal_xy": [
+        31.925,
+        20.8
+      ],
+      "board_side_at_minus90": "下"
+    },
+    {
+      "pin": 57,
+      "pin_name": "GPIO44",
+      "gpio": 44,
+      "group": "屏幕控制",
+      "signal": "LCD_RESET_N",
+      "old_net": "ESP_IO47",
+      "direction": "输出",
+      "target": "JDISP1.1",
+      "reset_requirement": "默认低；电源稳定后释放",
+      "notes": "3.3V沿用本项目屏幕方案；供电域和上下电次序仍须验证",
+      "board_local_nominal_terminal_xy": [
+        32.275,
+        20.8
+      ],
+      "board_side_at_minus90": "下"
+    },
+    {
+      "pin": 58,
+      "pin_name": "GPIO45",
+      "gpio": 45,
+      "group": "屏幕控制",
+      "signal": "LCD_VCI_EN",
+      "old_net": "ESP_IO46",
+      "direction": "输出",
+      "target": "JDISP1.24",
+      "reset_requirement": "默认低；按屏幕电源时序使能",
+      "notes": "3.3V沿用本项目屏幕方案；供电域和上下电次序仍须验证",
+      "board_local_nominal_terminal_xy": [
+        32.625,
+        20.8
+      ],
+      "board_side_at_minus90": "下"
+    },
+    {
+      "pin": 59,
+      "pin_name": "GPIO46",
+      "gpio": 46,
+      "group": "屏幕控制",
+      "signal": "LCD_TE",
+      "old_net": "AM213_TE_RESERVED",
+      "direction": "输入",
+      "target": "JDISP1.3",
+      "reset_requirement": "输入，禁止驱动屏幕TE",
+      "notes": "3.3V沿用本项目屏幕方案；供电域和上下电次序仍须验证",
+      "board_local_nominal_terminal_xy": [
+        32.975,
+        20.8
+      ],
+      "board_side_at_minus90": "下"
+    },
+    {
+      "pin": 60,
+      "pin_name": "GPIO47",
+      "gpio": 47,
+      "group": "屏幕控制",
+      "signal": "TP_INT_N",
+      "old_net": "ESP_IO54",
+      "direction": "输入",
+      "target": "JDISP1.17",
+      "reset_requirement": "按触控规格配置中断/上拉",
+      "notes": "3.3V沿用本项目屏幕方案；供电域和上下电次序仍须验证",
+      "board_local_nominal_terminal_xy": [
+        33.325,
+        20.8
+      ],
+      "board_side_at_minus90": "下"
+    },
+    {
+      "pin": 61,
+      "pin_name": "GPIO48",
+      "gpio": 48,
+      "group": "屏幕控制",
+      "signal": "TP_RESET_N",
+      "old_net": "ESP_IO57",
+      "direction": "输出",
+      "target": "JDISP1.18",
+      "reset_requirement": "默认低；按触控规格释放",
+      "notes": "3.3V沿用本项目屏幕方案；供电域和上下电次序仍须验证",
+      "board_local_nominal_terminal_xy": [
+        33.8,
+        20.325
+      ],
+      "board_side_at_minus90": "右"
+    },
+    {
+      "pin": 62,
+      "pin_name": "GPIO49",
+      "gpio": 49,
+      "group": "空闲GPIO",
+      "signal": "SPARE_GPIO49",
+      "old_net": "",
+      "direction": "预留",
+      "target": "",
+      "reset_requirement": "不接外设，固件避免悬空",
+      "notes": "供后续扩展；不得替代电源/USB专用脚",
+      "board_local_nominal_terminal_xy": [
+        33.8,
+        19.975
+      ],
+      "board_side_at_minus90": "右"
+    },
+    {
+      "pin": 63,
+      "pin_name": "VREF_ADC",
+      "gpio": null,
+      "group": "模拟预留",
+      "signal": "NC_VREF_ADC",
+      "old_net": "",
+      "direction": "专用",
+      "target": "本方案不用触摸/ADC则按手册处理",
+      "reset_requirement": "不作为GPIO",
+      "notes": "后续启用相关功能须补参考电容",
+      "board_local_nominal_terminal_xy": [
+        33.8,
+        19.625
+      ],
+      "board_side_at_minus90": "右"
+    },
+    {
+      "pin": 64,
+      "pin_name": "VDDPST_4",
+      "gpio": null,
+      "group": "电源",
+      "signal": "3V3_VDDPST_4",
+      "old_net": "",
+      "direction": "专用",
+      "target": "3.3V域，局部滤波/去耦",
+      "reset_requirement": "按每个电源脚放去耦",
+      "notes": "VDDA模拟电源滤波不可省略",
+      "board_local_nominal_terminal_xy": [
+        33.8,
+        19.275
+      ],
+      "board_side_at_minus90": "右"
+    },
+    {
+      "pin": 65,
+      "pin_name": "GPIO50",
+      "gpio": 50,
+      "group": "空闲GPIO",
+      "signal": "SPARE_GPIO50",
+      "old_net": "",
+      "direction": "预留",
+      "target": "",
+      "reset_requirement": "不接外设，固件避免悬空",
+      "notes": "供后续扩展；不得替代电源/USB专用脚",
+      "board_local_nominal_terminal_xy": [
+        33.8,
+        18.925
+      ],
+      "board_side_at_minus90": "右"
+    },
+    {
+      "pin": 66,
+      "pin_name": "GPIO51",
+      "gpio": 51,
+      "group": "空闲GPIO",
+      "signal": "SPARE_GPIO51",
+      "old_net": "",
+      "direction": "预留",
+      "target": "",
+      "reset_requirement": "不接外设，固件避免悬空",
+      "notes": "供后续扩展；不得替代电源/USB专用脚",
+      "board_local_nominal_terminal_xy": [
+        33.8,
+        18.575
+      ],
+      "board_side_at_minus90": "右"
+    },
+    {
+      "pin": 67,
+      "pin_name": "GPIO52",
+      "gpio": 52,
+      "group": "屏幕QSPI",
+      "signal": "LCD_CS_N",
+      "old_net": "ESP_SPI2_CS",
+      "direction": "输出/总线",
+      "target": "JDISP1.4",
+      "reset_requirement": "CS上拉、CLK低；解除传统JTAG复用",
+      "notes": "手册F2=SPI2_CS；SPI2_HOST；SDK IOMUX路径待验证，先按GPIO Matrix <=40MHz调试",
+      "board_local_nominal_terminal_xy": [
+        33.8,
+        18.225
+      ],
+      "board_side_at_minus90": "右"
+    },
+    {
+      "pin": 68,
+      "pin_name": "GPIO53",
+      "gpio": 53,
+      "group": "屏幕QSPI",
+      "signal": "LCD_CLK",
+      "old_net": "ESP_SPI2_CLK",
+      "direction": "输出/总线",
+      "target": "JDISP1.5",
+      "reset_requirement": "CS上拉、CLK低；解除传统JTAG复用",
+      "notes": "手册F2=SPI2_CK；SPI2_HOST；SDK IOMUX路径待验证，先按GPIO Matrix <=40MHz调试",
+      "board_local_nominal_terminal_xy": [
+        33.8,
+        17.875
+      ],
+      "board_side_at_minus90": "右"
+    },
+    {
+      "pin": 69,
+      "pin_name": "MTDO",
+      "gpio": 54,
+      "group": "屏幕QSPI",
+      "signal": "LCD_D0",
+      "old_net": "ESP_SPI2_D0",
+      "direction": "输出/总线",
+      "target": "JDISP1.7",
+      "reset_requirement": "CS上拉、CLK低；解除传统JTAG复用",
+      "notes": "手册F2=SPI2_D；SPI2_HOST；SDK IOMUX路径待验证，先按GPIO Matrix <=40MHz调试",
+      "board_local_nominal_terminal_xy": [
+        33.8,
+        17.525
+      ],
+      "board_side_at_minus90": "右"
+    },
+    {
+      "pin": 70,
+      "pin_name": "MTCK",
+      "gpio": 55,
+      "group": "屏幕QSPI",
+      "signal": "LCD_D1",
+      "old_net": "ESP_SPI2_D1",
+      "direction": "输出/总线",
+      "target": "JDISP1.6",
+      "reset_requirement": "CS上拉、CLK低；解除传统JTAG复用",
+      "notes": "手册F2=SPI2_Q；SPI2_HOST；SDK IOMUX路径待验证，先按GPIO Matrix <=40MHz调试",
+      "board_local_nominal_terminal_xy": [
+        33.8,
+        17.175
+      ],
+      "board_side_at_minus90": "右"
+    },
+    {
+      "pin": 71,
+      "pin_name": "MTDI",
+      "gpio": 56,
+      "group": "屏幕QSPI",
+      "signal": "LCD_D3",
+      "old_net": "ESP_SPI2_D3",
+      "direction": "输出/总线",
+      "target": "JDISP1.22",
+      "reset_requirement": "CS上拉、CLK低；解除传统JTAG复用",
+      "notes": "手册F2=SPI2_HOLD；SPI2_HOST；SDK IOMUX路径待验证，先按GPIO Matrix <=40MHz调试",
+      "board_local_nominal_terminal_xy": [
+        33.8,
+        16.825
+      ],
+      "board_side_at_minus90": "右"
+    },
+    {
+      "pin": 72,
+      "pin_name": "MTMS",
+      "gpio": 57,
+      "group": "屏幕QSPI",
+      "signal": "LCD_D2",
+      "old_net": "ESP_SPI2_D2",
+      "direction": "输出/总线",
+      "target": "JDISP1.23",
+      "reset_requirement": "CS上拉、CLK低；解除传统JTAG复用",
+      "notes": "手册F2=SPI2_WP；SPI2_HOST；SDK IOMUX路径待验证，先按GPIO Matrix <=40MHz调试",
+      "board_local_nominal_terminal_xy": [
+        33.8,
+        16.475
+      ],
+      "board_side_at_minus90": "右"
+    },
+    {
+      "pin": 73,
+      "pin_name": "GPIO58",
+      "gpio": 58,
+      "group": "下载UART0",
+      "signal": "UART0_TX",
+      "old_net": "CH343P_UART_RX",
+      "direction": "输出",
+      "target": "U12.5 RXD",
+      "reset_requirement": "UART0默认输出",
+      "notes": "ESP TX接CH343 RX，勿按旧网络后缀反接",
+      "board_local_nominal_terminal_xy": [
+        33.8,
+        16.125
+      ],
+      "board_side_at_minus90": "右"
+    },
+    {
+      "pin": 74,
+      "pin_name": "GPIO59",
+      "gpio": 59,
+      "group": "下载UART0",
+      "signal": "UART0_RX",
+      "old_net": "CH343P_UART_TX",
+      "direction": "输入",
+      "target": "U12.4 TXD",
+      "reset_requirement": "UART0输入",
+      "notes": "ESP RX接CH343 TX",
+      "board_local_nominal_terminal_xy": [
+        33.8,
+        15.775
+      ],
+      "board_side_at_minus90": "右"
+    },
+    {
+      "pin": 75,
+      "pin_name": "GPIO60",
+      "gpio": 60,
+      "group": "启动配置",
+      "signal": "BOOT_MODE_H",
+      "old_net": "ESP_BOOT2",
+      "direction": "启动采样",
+      "target": "启动上拉/下载电路",
+      "reset_requirement": "10k候选上拉3.3V",
+      "notes": "下载时必须高；不复用普通外设",
+      "board_local_nominal_terminal_xy": [
+        33.8,
+        15.425
+      ],
+      "board_side_at_minus90": "右"
+    },
+    {
+      "pin": 76,
+      "pin_name": "GPIO61",
+      "gpio": 61,
+      "group": "启动配置",
+      "signal": "BOOT_DOWNLOAD_N",
+      "old_net": "ESP_BOOT1",
+      "direction": "启动采样",
+      "target": "启动上拉/下载电路",
+      "reset_requirement": "10k候选上拉3.3V",
+      "notes": "正常高；下载时拉低，同时GPIO60高；通过下载控制电路",
+      "board_local_nominal_terminal_xy": [
+        33.8,
+        15.075
+      ],
+      "board_side_at_minus90": "右"
+    },
+    {
+      "pin": 77,
+      "pin_name": "VDDA1",
+      "gpio": null,
+      "group": "电源",
+      "signal": "3V3_VDDA1",
+      "old_net": "",
+      "direction": "专用",
+      "target": "3.3V域，局部滤波/去耦",
+      "reset_requirement": "按每个电源脚放去耦",
+      "notes": "VDDA模拟电源滤波不可省略",
+      "board_local_nominal_terminal_xy": [
+        33.8,
+        14.725
+      ],
+      "board_side_at_minus90": "右"
+    },
+    {
+      "pin": 78,
+      "pin_name": "XTAL_N",
+      "gpio": null,
+      "group": "晶振",
+      "signal": "XTAL_N",
+      "old_net": "",
+      "direction": "专用",
+      "target": "40MHz晶振/匹配",
+      "reset_requirement": "专用时钟",
+      "notes": "按乐鑫参考设计，不能随意加长/过孔",
+      "board_local_nominal_terminal_xy": [
+        33.8,
+        14.375
+      ],
+      "board_side_at_minus90": "右"
+    },
+    {
+      "pin": 79,
+      "pin_name": "XTAL_P",
+      "gpio": null,
+      "group": "晶振",
+      "signal": "XTAL_P",
+      "old_net": "",
+      "direction": "专用",
+      "target": "40MHz晶振/匹配",
+      "reset_requirement": "专用时钟",
+      "notes": "需要参考设计指定的串联电感/负载网络",
+      "board_local_nominal_terminal_xy": [
+        33.8,
+        14.025
+      ],
+      "board_side_at_minus90": "右"
+    },
+    {
+      "pin": 80,
+      "pin_name": "VDDA2",
+      "gpio": null,
+      "group": "电源",
+      "signal": "3V3_VDDA2",
+      "old_net": "",
+      "direction": "专用",
+      "target": "3.3V域，局部滤波/去耦",
+      "reset_requirement": "按每个电源脚放去耦",
+      "notes": "VDDA模拟电源滤波不可省略",
+      "board_local_nominal_terminal_xy": [
+        33.8,
+        13.675
+      ],
+      "board_side_at_minus90": "右"
+    },
+    {
+      "pin": 81,
+      "pin_name": "GND",
+      "gpio": null,
+      "group": "地",
+      "signal": "GND_EP",
+      "old_net": "",
+      "direction": "专用",
+      "target": "连续GND/散热过孔",
+      "reset_requirement": "可靠接地",
+      "notes": "封装中央裸露焊盘，不是GPIO81",
+      "board_local_nominal_terminal_xy": [
+        30,
+        17
+      ],
+      "board_side_at_minus90": "中央"
+    }
+  ],
+  "validation": {
+    "status": "PIN_PROPOSAL_CONSISTENT_NOT_WIRED_OR_FIRMWARE_VALIDATED",
+    "physical_pins": 81,
+    "gpio_count": 60,
+    "spare_gpios": [
+      8,
+      16,
+      17,
+      18,
+      49,
+      50,
+      51
+    ],
+    "duplicate_gpio_assignments": 0,
+    "old_mcu_nets_accounted_for": true,
+    "removed_or_unused_legacy_nets": {
+      "ESP_IO4": "旧板无外围连接，改作电池告警",
+      "ESP_IO5": "旧板无外围连接，改作充电中断",
+      "ESP_IO45": "旧TFT背光控制删除；新GPIO45用于AMOLED使能"
+    },
+    "bus_resources": {
+      "HP_I2C0": [
+        14,
+        15
+      ],
+      "HP_I2C1": [
+        42,
+        43
+      ],
+      "LP_I2C": [
+        6,
+        7
+      ],
+      "SPI2": [
+        52,
+        53,
+        54,
+        55,
+        56,
+        57
+      ]
+    },
+    "no_board_or_schematic_net_changes": true,
+    "pcb_sha256": "61df43182b233e56c0898a9121b5a2cf70ab4ad2e1b65231fdc7dd39be8d300c",
+    "source_mainboard_sha256": "7b2c5f1ed64687aac5a914b5cf3baac07e9dedfb0c56e9c651b8901a608ac4d9",
+    "existing_target_pad_checks": 60,
+    "existing_target_pad_mismatches": 0
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "status": "CANDIDATE XY; NOT FINAL SCREEN-FPC MATING APPROVAL",
+  "source_assembly": "mechanical\\enclosure-final-l\\Q2_L_AM213_Adapter_Study.FCStd",
+  "source_sha256": "280c663a32172af0af51d079b9efd44ec9c157e3c93de8e68d7aa7493d3c84b6",
+  "pcb_datum": "KiCad Edge.Cuts centerline bounding-box upper-left (128.868,67.647); outline 46x76 mm",
+  "pcb_side": "F.Cu / screen-facing side; case solder plane Z=5.8",
+  "candidate_board_local_xy_mm": [
+    30,
+    29.2
+  ],
+  "candidate_kicad_xy_mm": [
+    158.868,
+    96.847
+  ],
+  "candidate_case_xyz_mm": [
+    18,
+    31.2,
+    5.8
+  ],
+  "connector_long_axis": "X",
+  "candidate_footprint_angle_deg": 90,
+  "angle_status": "90 vs 270 deg must be selected by actual folded screen tail and contact numbering",
+  "reference_angle90_pin1_board_local_mm": [
+    27.8,
+    30.4
+  ],
+  "case_transform": {
+    "x": "176.868 - pcb_x",
+    "y": "pcb_y - 65.647"
+  },
+  "screen_orientation_assumption": "Factory free tail exits toward case left, close to lower edge of landscape screen",
+  "tail_centerline_y_estimate_mm": 31.2,
+  "tail_y_estimate_basis": "Drawing p5 rear folded view: 5.15+-0.5 edge gap and 4.00 tail width; chosen landscape orientation gives .85+37.5-(5.15+4/2). This is NOT a fully dimensioned connector placement.",
+  "candidate_x_basis": "Engineering choice in area vacated by U9, clear of right-side TF socket; not a supplier-defined X datum",
+  "prior_adapter_z_mm": 10.1,
+  "main_front_z_mm": 5.8,
+  "solder_plane_drop_mm": 4.3,
+  "candidate_max_height_mm": 0.89,
+  "nominal_mated_height_mm": 0.8,
+  "old_adapter_xy_projected_to_main_front_collisions": [
+    {
+      "object": "PCB_CARD2",
+      "label": "CARD2 / TF-SMD_TF-PUSH",
+      "intersection_mm3": 1.145837
+    }
+  ],
+  "candidate_collisions_before_module_removal": [
+    {
+      "object": "PCB_U9",
+      "label": "U9 / CONN-SMD_ESP32-S31-WROOM-3",
+      "intersection_mm3": 17.83368
+    }
+  ],
+  "candidate_collisions_after_module_removal": [],
+  "access_reservation_collisions_after_module_removal": [],
+  "limits": [
+    "No native screen tail solid or measured free length; folding/reach and 90/270 orientation remain unverified",
+    "Old module U9 removed only for this collision assessment; bare-chip RF, crystal, power, decoupling and antenna layout not designed",
+    "Access box is an allowance, not a swept tool or latch simulation",
+    "No PCB, schematic, net or enclosure changes applied to production projects"
+  ]
+}

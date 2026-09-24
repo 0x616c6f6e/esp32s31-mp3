@@ -1,0 +1,19 @@
+{
+  "status": "NOMINAL_EXISTING_MODELS_ONLY",
+  "moved_models": 57,
+  "assembly_collisions": [
+    {
+      "ref": "FPC1",
+      "obstacle": "ControlFFC40mm",
+      "volume_mm3": 0.00195,
+      "moved": false
+    }
+  ],
+  "moved_component_collisions": [],
+  "limitations": [
+    "Core body envelope only: 8x8mm and datasheet maximum 0.9mm height; new RF/clock/boot-Flash circuit and display native tail are not modelled",
+    "Existing nominal STEP geometry reused; manufacturing tolerances not included",
+    "CN2/CN3 use wires; tall original connector bodies intentionally absent",
+    "Unchanged assembly defects are reported separately by moved=false"
+  ]
+}

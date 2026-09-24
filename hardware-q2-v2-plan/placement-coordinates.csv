@@ -1,0 +1,127 @@
+﻿Ref,Value,Side,X_from_outline_mm,Y_from_outline_mm,Angle_deg,KiCad_X_mm,KiCad_Y_mm,Reason
+C1,10uF,F,38.573,52.124,180.0,167.441,119.771,Existing relative placement retained
+C10,10uF,F,40.35,56.884,180.0,169.218,124.531,Existing relative placement retained
+C11,47nF,F,32.0,58.5,0.0,160.868,126.147,Local clearance refinement while keeping destination circuit close
+C12,10uF,F,30.902,55.553,0.0,159.77,123.2,Existing relative placement retained
+C13,100nF,F,22.0,24.6,0.0,150.868,92.247,Local Flash decoupling near pin 8; not a completed bare-chip VDD_SPI circuit
+C14,1uF,F,35.982,64.57,0.0,164.85,132.217,Existing relative placement retained
+C15,10uF,F,37.1475,56.878,0.0,166.0155,124.525,Existing relative placement retained
+C16,47uF,F,33.188,63.3,-90.0,162.056,130.947,Existing relative placement retained
+C17,2.2uF,F,3.14,52.251,-90.0,132.008,119.898,DAC local circuit retained: moving downward conflicts with motor carrier
+C18,22uF,F,4.918,49.0505,-90.0,133.786,116.6975,DAC local circuit retained: moving downward conflicts with motor carrier
+C19,2.2uF,F,4.918,52.251,-90.0,133.786,119.898,DAC local circuit retained: moving downward conflicts with motor carrier
+C2,10uF,F,35.497,46.0545,180.0,164.365,113.7015,Existing relative placement retained
+C20,2.2uF,F,7.204,52.632,0.0,136.072,120.279,DAC local circuit retained: moving downward conflicts with motor carrier
+C21,2.2uF,F,15.586,52.124,0.0,144.454,119.771,DAC local circuit retained: moving downward conflicts with motor carrier
+C22,2.2uF,F,12.03,53.013,-90.0,140.898,120.66,DAC local circuit retained: moving downward conflicts with motor carrier
+C23,2.2uF,F,16.221,50.092,90.0,145.089,117.739,DAC local circuit retained: moving downward conflicts with motor carrier
+C24,2.2uF,F,14.951,50.092,-90.0,143.819,117.739,DAC local circuit retained: moving downward conflicts with motor carrier
+C25,2.2uF,F,15.586,53.775,0.0,144.454,121.422,DAC local circuit retained: moving downward conflicts with motor carrier
+C26,4.7uF,F,14.951,47.0695,90.0,143.819,114.7165,DAC local circuit retained: moving downward conflicts with motor carrier
+C27,100nF,F,15.459,45.012,0.0,144.327,112.659,DAC local circuit retained: moving downward conflicts with motor carrier
+C28,100nF,F,4.41,46.79,180.0,133.278,114.437,DAC local circuit retained: moving downward conflicts with motor carrier
+C29,100nF,F,16.221,47.044,90.0,145.089,114.691,DAC local circuit retained: moving downward conflicts with motor carrier
+C3,100nF,B,28.997,54.486,90.0,157.865,122.133,Existing relative placement retained
+C30,1uF,F,21.262,52.413,0.0,150.13,120.06,"1.8V audio LDO adjacent to DAC, separated from switching regulator"
+C31,1uF,F,17.8,53.5,-90.0,146.668,121.147,Local clearance refinement while keeping destination circuit close
+C32,10pF,F,4.207,39.5255,180.0,133.075,107.1725,DAC local circuit retained: moving downward conflicts with motor carrier
+C33,10pF,F,4.3725,45.483,180.0,133.2405,113.13,DAC local circuit retained: moving downward conflicts with motor carrier
+C34,100nF,F,11.522,39.63,180.0,140.39,107.277,Level translator between MCU corridor and DAC
+C35,100nF,F,22.19,41.408,180.0,151.058,109.055,I2S translator between MCU corridor and DAC
+C36,100nF,F,20.92,64.57,-90.0,149.788,132.217,Existing relative placement retained
+C37,100nF,F,28.7,54.4,90.0,157.568,122.047,Local clearance refinement while keeping destination circuit close
+C38,100nF,F,23.5,52.1,90.0,152.368,119.747,Local clearance refinement while keeping destination circuit close
+C39,1uF,B,23.5,11.0,-90.0,152.368,78.647,Provisional core support on back; reassess after bare-chip pinout
+C4,1uF,B,33.5,62.0,0.0,162.368,129.647,Motor driver grouped close to motor wire pads
+C40,100nF,B,24.0,15.0,90.0,152.868,82.647,Provisional core support on back; reassess after bare-chip pinout
+C41,1uF,B,26.0,15.0,90.0,154.868,82.647,Provisional core support on back; reassess after bare-chip pinout
+C43,220nF,B,37.938,50.155,-90.0,166.806,117.802,Battery gauge and local network closer to battery pads
+C44,100nF,F,25.5555,52.4265,0.0,154.4235,120.0735,USB-UART bridge beside USB mux; avoids long differential pair branch
+C45,100nF,B,32.0,23.0,-90.0,160.868,90.647,Provisional core support on back; reassess after bare-chip pinout
+C46,100nF,B,34.0,23.0,-90.0,162.868,90.647,Provisional core support on back; reassess after bare-chip pinout
+C47,100nF,F,7.712,29.569,-90.0,136.58,97.216,Existing relative placement retained
+C48,100nF,F,6.4165,26.0635,0.0,135.2845,93.7105,Existing relative placement retained
+C49,10uF,B,11.903,13.338,-90.0,140.771,80.985,Existing relative placement retained
+C5,1uF,B,42.0,59.8,-90.0,170.868,127.447,Motor driver grouped close to motor wire pads
+C50,100nF,B,13.1905,13.333,-90.0,142.0585,80.98,Existing relative placement retained
+C51,100nF,F,25.073,58.294,0.0,153.941,125.941,USB-UART bridge beside USB mux; avoids long differential pair branch
+C53,100nF,B,30.2,43.3,90.0,159.068,110.947,Local clearance refinement while keeping destination circuit close
+C54,1uF,B,31.3,45.3,-90.0,160.168,112.947,Local clearance refinement while keeping destination circuit close
+C58,100nF,B,39.5,59.1,180.0,168.368,126.747,Local clearance refinement while keeping destination circuit close
+C59,100nF,B,23.917,46.8915,90.0,152.785,114.5385,Existing relative placement retained
+C6,100nF,B,29.5765,47.6545,180.0,158.4445,115.3015,Existing relative placement retained
+C61,220nF,B,36.414,47.564,90.0,165.282,115.211,Battery gauge and local network closer to battery pads
+C7,100nF,B,32.4975,47.9085,0.0,161.3655,115.5555,Existing relative placement retained
+C8,22uF,F,3.14,49.0505,-90.0,132.008,116.6975,DAC local circuit retained: moving downward conflicts with motor carrier
+C9,4.7uF,F,32.299,60.252,180.0,161.167,127.899,Existing relative placement retained
+CARD2,TF PUSH,F,10.699,14.763,-90.0,139.567,82.41,Locked enclosure/interface anchor
+CN1,PJ-342B-TX-SMT,F,11.565,67.425,90.0,140.433,135.072,Locked enclosure/interface anchor
+CN2,SOLDER_WIRES_3P,B,43.653,52.632,90.0,172.521,120.279,"Locked original solder-pad positions; omit tall header, use insulated wires"
+CN3,SOLDER_WIRES_2P,B,43.78,66.856,90.0,172.648,134.503,"Locked original solder-pad positions; omit tall header, use insulated wires"
+D1,USBLC6-2SC6,B,34.45,66.0,180.0,163.318,133.647,USB ESD behind connector input pads; short paired vias before protected bus to mux
+D2,B5817W,F,29.632,60.506,90.0,158.5,128.153,Existing relative placement retained
+FPC1,HC-FPC-05-10-12RLTAG,B,20.031,49.711,-90.0,148.899,117.358,Locked enclosure/interface anchor
+JDISP1,OK-23GF024-04,F,30.0,29.2,90.0,158.868,96.847,Front BTB candidate; verify native screen tail folding and pin 1 before freeze
+L1,2.2uH,F,35.497,48.2135,0.0,164.365,115.8605,Existing relative placement retained
+L2,2.2uH,F,33.696,56.315,-90.0,162.564,123.962,Existing relative placement retained
+L3,BLM18KG601SN1D,B,42.0,57.8,0.0,170.868,125.447,Motor driver grouped close to motor wire pads
+R1,10mΩ,F,43.526,46.663,90.0,172.394,114.31,Existing relative placement retained
+R10,10K,B,29.5,36.0,-90.0,158.368,103.647,Pullups/pulldowns grouped by destination bus
+R11,100K,F,43.2435,62.085,180.0,172.1115,129.732,Existing relative placement retained
+R12,100K,F,43.2435,63.355,180.0,172.1115,131.002,Existing relative placement retained
+R13,5K23,F,43.2435,59.545,180.0,172.1115,127.192,Existing relative placement retained
+R14,30K1,F,43.2435,58.275,180.0,172.1115,125.922,Existing relative placement retained
+R17,200K,F,15.078,39.376,90.0,143.946,107.023,Level translator between MCU corridor and DAC
+R18,10K,F,11.649,41.027,180.0,140.517,108.674,Level translator between MCU corridor and DAC
+R19,10K,F,11.649,42.424,180.0,140.517,110.071,Level translator between MCU corridor and DAC
+R2,1K,B,36.414,50.155,90.0,165.282,117.802,Battery gauge and local network closer to battery pads
+R20,10K,B,34.0,20.0,-90.0,162.868,87.647,Provisional core support on back; reassess after bare-chip pinout
+R21,100K,F,25.873,60.76,-90.0,154.741,128.407,Existing relative placement retained
+R22,10K,B,28.0,36.0,-90.0,156.868,103.647,Pullups/pulldowns grouped by destination bus
+R25,10K,B,36.0,20.0,-90.0,164.868,87.647,Provisional core support on back; reassess after bare-chip pinout
+R26,10K,B,20.0,34.0,180.0,148.868,101.647,Pullups/pulldowns grouped by destination bus
+R27,0/NC,F,28.7,51.2,0.0,157.568,118.847,Local clearance refinement while keeping destination circuit close
+R28,0/NC,F,28.7,52.5,180.0,157.568,120.147,Local clearance refinement while keeping destination circuit close
+R29,10K,B,22.0,11.0,-90.0,150.868,78.647,Provisional core support on back; reassess after bare-chip pinout
+R3,22K1,F,41.3135,50.271,90.0,170.1815,117.918,Existing relative placement retained
+R30,10K,B,22.0,34.0,180.0,150.868,101.647,Pullups/pulldowns grouped by destination bus
+R31,5K1,F,42.51,70.412,-90.0,171.378,138.059,Existing relative placement retained
+R32,5K1,F,40.986,70.412,-90.0,169.854,138.059,Existing relative placement retained
+R33,1K,B,39.716,49.901,-90.0,168.584,117.548,Battery gauge and local network closer to battery pads
+R34,0R,B,41.113,49.901,-90.0,169.981,117.548,Battery gauge and local network closer to battery pads
+R35,10K,B,11.522,9.325,0.0,140.39,76.972,Existing relative placement retained
+R36,10K,B,11.522,17.58,0.0,140.39,85.227,Existing relative placement retained
+R37,10K,B,11.522,16.31,0.0,140.39,83.957,Existing relative placement retained
+R38,10K,B,11.522,10.595,0.0,140.39,78.242,Existing relative placement retained
+R39,10K,B,11.522,15.04,0.0,140.39,82.687,Existing relative placement retained
+R4,100K,F,41.3135,47.9085,90.0,170.1815,115.5555,Existing relative placement retained
+R42,10K,B,34.0,38.0,90.0,162.868,105.647,Pullups/pulldowns grouped by destination bus
+R43,10K,B,38.0,38.0,0.0,166.868,105.647,Pullups/pulldowns grouped by destination bus
+R44,10K,B,39.0,57.5,0.0,167.868,125.147,Pullups/pulldowns grouped by destination bus
+R45,10K,B,34.0,33.5,-90.0,162.868,101.147,Pullups/pulldowns grouped by destination bus
+R46,10K,B,36.0,33.5,-90.0,164.868,101.147,Pullups/pulldowns grouped by destination bus
+R5,100K,F,38.573,46.155,0.0,167.441,113.802,Existing relative placement retained
+R6,10K,B,36.0,38.0,-90.0,164.868,105.647,Pullups/pulldowns grouped by destination bus
+R7,10K,B,39.5,40.0,-90.0,168.368,107.647,Pullups/pulldowns grouped by destination bus
+R8,10K,B,41.0,40.0,-90.0,169.868,107.647,Pullups/pulldowns grouped by destination bus
+R9,700R,F,43.2435,60.815,180.0,172.1115,128.462,Existing relative placement retained
+SCREW1,,F,3.3,63.4995,0.0,132.168,131.1465,Locked enclosure/interface anchor
+SCREW2,,F,10.572,33.361,0.0,139.44,101.008,Locked enclosure/interface anchor
+SCREW3,,F,44.499,41.499,0.0,173.367,109.146,Locked enclosure/interface anchor
+SCREW5,,F,9.8075,2.7475,0.0,138.6755,70.3945,Locked enclosure/interface anchor
+U1,RX8130CE:BB,B,27.0,44.683,0.0,155.868,112.33,RTC separate from switching power; I2C bus corridor
+U10,W25Q16JVSSIQ,F,18.6,28.2,-90.0,147.468,95.847,Flash below-left of S31; clock pins toward core; boot flash capacity selection remains open
+U11,DRV2605LDGSR,B,38.0,62.0,90.0,166.868,129.647,Motor driver grouped close to motor wire pads
+U12,CH343P,F,25.4,55.5005,180.0,154.268,123.1475,USB-UART bridge beside USB mux; avoids long differential pair branch
+U14,STC3115AIQT,B,38.954,47.107,0.0,167.822,114.754,Battery gauge and local network closer to battery pads
+U15,LSM6DS3TR-C,F,5.192,28.605,90.0,134.06,96.252,Existing relative placement retained
+U17,SGM7229YMS10G/TR,F,23.333,61.954,0.0,152.201,129.601,Existing relative placement retained
+U2,CS43131-CNZ,F,10.252,48.441,0.0,139.12,116.088,DAC local circuit retained: moving downward conflicts with motor carrier
+U3,DSCB_BQ25895RTW,F,38.0845,60.931,90.0,166.9525,128.578,Existing relative placement retained
+U4,TLV62568DBVR,F,38.799,49.1025,90.0,167.667,116.7495,Existing relative placement retained
+U5,ME6211C18M5G-N,F,20.5,50.0,0.0,149.368,117.647,"1.8V audio LDO adjacent to DAC, separated from switching regulator"
+U6,GEK100,B,26.127,53.14,90.0,154.995,120.787,Existing relative placement retained
+U7,PCA9306DQER,F,14.57,41.535,-90.0,143.438,109.182,Level translator between MCU corridor and DAC
+U8,SN74LV4T125RGYR,F,20.8985,44.5365,-90.0,149.7665,112.1835,I2S translator between MCU corridor and DAC
+USB1,TYPE-C 16PIN 2MD(073),F,34.448,70.9455,0.0,163.316,138.5925,Locked enclosure/interface anchor
+X1,26MHz,F,4.0425,42.5365,-90.0,132.9105,110.1835,DAC local circuit retained: moving downward conflicts with motor carrier
