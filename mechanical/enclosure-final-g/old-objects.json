@@ -1,0 +1,3212 @@
+[
+  {
+    "name": "Enclosure",
+    "label": "Enclosure",
+    "type": "App::DocumentObjectGroup",
+    "bounds": [
+      -1.0299,
+      -2.5299,
+      1.2,
+      51.0299,
+      81.0299,
+      13.5
+    ],
+    "solids": 1,
+    "volume": 5078.956
+  },
+  {
+    "name": "ControlsPCB",
+    "label": "ControlsPCB",
+    "type": "App::DocumentObjectGroup",
+    "bounds": [
+      3.0,
+      42.3,
+      10.1,
+      47.0,
+      76.3,
+      12.5
+    ],
+    "solids": 98,
+    "volume": 1179.37
+  },
+  {
+    "name": "References",
+    "label": "References",
+    "type": "App::DocumentObjectGroup",
+    "bounds": [
+      1.34,
+      2.0,
+      1.525,
+      49.0,
+      78.26,
+      12.6
+    ],
+    "solids": 386,
+    "volume": 10766.785
+  },
+  {
+    "name": "RearCoverSourceF",
+    "label": "RearCoverSourceF",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      0.0,
+      -1.5,
+      0.0,
+      50.0,
+      80.0,
+      4.2
+    ],
+    "solids": 1,
+    "volume": 4634.575
+  },
+  {
+    "name": "FFCRearLipRelief",
+    "label": "FFCRearLipRelief",
+    "type": "Part::Box",
+    "bounds": [
+      47.55,
+      48.161,
+      1.325,
+      48.72,
+      55.261,
+      2.5
+    ],
+    "solids": 1,
+    "volume": 9.761
+  },
+  {
+    "name": "RearCoverWithPCBPosts",
+    "label": "Rear cover / local FFC inner-lip relief",
+    "type": "Part::Cut",
+    "bounds": [
+      0.0,
+      -1.5,
+      0.0,
+      50.0,
+      80.0,
+      4.2
+    ],
+    "solids": 1,
+    "volume": 4629.605
+  },
+  {
+    "name": "LCDModule",
+    "label": "LCD 36.33 x 43.45 x 1.46 / rotated 90 degrees",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      3.275,
+      2.235,
+      11.84,
+      46.725,
+      38.565,
+      13.3
+    ],
+    "solids": 1,
+    "volume": 2179.339
+  },
+  {
+    "name": "LCDActiveArea",
+    "label": "LCD AA 34.18 x 40.05 / no touch layer supplied",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      5.625,
+      3.31,
+      13.29,
+      45.675,
+      37.49,
+      13.3
+    ],
+    "solids": 1,
+    "volume": 12.994
+  },
+  {
+    "name": "CoverLens",
+    "label": "外加保护盖板 / 46 x 40 x 0.6 assumed, NOT supplied TP",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      2.0,
+      0.5,
+      13.6,
+      48.0,
+      40.5,
+      14.2
+    ],
+    "solids": 1,
+    "volume": 1047.216
+  },
+  {
+    "name": "LensBlackMask",
+    "label": "盖板黑边示意 / silkscreen mask",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      2.0,
+      0.5,
+      13.6,
+      48.0,
+      40.5,
+      14.2
+    ],
+    "solids": 1,
+    "volume": 267.59
+  },
+  {
+    "name": "LensAdhesive",
+    "label": "盖板周边胶框 / 0.18 mm assumed",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      2.0,
+      0.5,
+      13.42,
+      48.0,
+      40.5,
+      13.6
+    ],
+    "solids": 1,
+    "volume": 37.739
+  },
+  {
+    "name": "ControlSymbols",
+    "label": "按键图标 / return, previous, next, play-pause",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      11.1434,
+      45.3434,
+      13.55,
+      38.8566,
+      73.2658,
+      13.575
+    ],
+    "solids": 20,
+    "volume": 0.107
+  },
+  {
+    "name": "BatteryReference",
+    "label": "电池占位 / 主板正面与操作板之间，24 x 34 x 3",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      8.3,
+      37.0,
+      7.8,
+      32.3,
+      71.0,
+      10.8
+    ],
+    "solids": 1,
+    "volume": 2448.0
+  },
+  {
+    "name": "DisplayFPCRoute",
+    "label": "屏幕 FPC / 上移1.5 mm后的自然轴线，尚未插接",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      1.34,
+      11.4,
+      2.29,
+      22.0872,
+      29.4,
+      12.16
+    ],
+    "solids": 8,
+    "volume": 54.053
+  },
+  {
+    "name": "ControlBoardFasteners",
+    "label": "4 x M1.6 螺钉包络 / length and head TBD",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      4.35,
+      49.35,
+      10.6,
+      45.65,
+      68.65,
+      12.6
+    ],
+    "solids": 4,
+    "volume": 29.17
+  },
+  {
+    "name": "Motor_C08_005",
+    "label": "Motor_C08_005",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      35.0,
+      58.0,
+      7.1,
+      43.0,
+      66.0,
+      10.4
+    ],
+    "solids": 1,
+    "volume": 165.876
+  },
+  {
+    "name": "MotorHolderProposal",
+    "label": "MotorHolderProposal",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      34.4,
+      57.4,
+      6.7,
+      49.0,
+      66.6,
+      8.1
+    ],
+    "solids": 1,
+    "volume": 42.315
+  },
+  {
+    "name": "MotorAdhesive",
+    "label": "MotorAdhesive",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      35.1,
+      58.1,
+      7.0,
+      42.9,
+      65.9,
+      7.1
+    ],
+    "solids": 1,
+    "volume": 4.778
+  },
+  {
+    "name": "PCB_C44",
+    "label": "C44 / C0402",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      18.0965,
+      40.1325,
+      5.8,
+      19.0965,
+      40.6325,
+      6.3
+    ],
+    "solids": 1,
+    "volume": 0.227
+  },
+  {
+    "name": "PCB_C20",
+    "label": "C20 / C0402_1",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      40.296,
+      54.382,
+      5.8,
+      41.296,
+      54.882,
+      6.3
+    ],
+    "solids": 1,
+    "volume": 0.227
+  },
+  {
+    "name": "PCB_C30",
+    "label": "C30 / C0402_1",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      16.42,
+      53.62,
+      5.8,
+      17.42,
+      54.12,
+      6.3
+    ],
+    "solids": 1,
+    "volume": 0.227
+  },
+  {
+    "name": "PCB_C18",
+    "label": "C18 / C0603",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      42.682,
+      50.2505,
+      5.8,
+      43.482,
+      51.8505,
+      6.6
+    ],
+    "solids": 1,
+    "volume": 0.93
+  },
+  {
+    "name": "PCB_X1",
+    "label": "X1 / CRYSTAL-SMD_4P-L3.2-W2.5-BL_1",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      42.708,
+      42.9372,
+      5.8,
+      45.2088,
+      46.1376,
+      6.44
+    ],
+    "solids": 1,
+    "volume": 4.859
+  },
+  {
+    "name": "PCB_C29",
+    "label": "C29 / C0402_1",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      31.529,
+      48.544,
+      5.8,
+      32.029,
+      49.544,
+      6.3
+    ],
+    "solids": 1,
+    "volume": 0.227
+  },
+  {
+    "name": "PCB_C33",
+    "label": "C33 / C0402_1",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      43.1275,
+      47.233,
+      5.8,
+      44.1275,
+      47.733,
+      6.3
+    ],
+    "solids": 1,
+    "volume": 0.227
+  },
+  {
+    "name": "PCB_R19",
+    "label": "R19 / R0402_1",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      35.851,
+      41.174,
+      5.8,
+      36.851,
+      41.674,
+      6.15
+    ],
+    "solids": 1,
+    "volume": 0.163
+  },
+  {
+    "name": "PCB_R28",
+    "label": "R28 / R0402",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      14.1115,
+      44.324,
+      5.8,
+      15.1115,
+      44.824,
+      6.15
+    ],
+    "solids": 1,
+    "volume": 0.163
+  },
+  {
+    "name": "PCB_C34",
+    "label": "C34 / C0402_1",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      35.978,
+      38.38,
+      5.8,
+      36.978,
+      38.88,
+      6.3
+    ],
+    "solids": 1,
+    "volume": 0.227
+  },
+  {
+    "name": "PCB_C24",
+    "label": "C24 / C0402_1",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      32.799,
+      51.592,
+      5.8,
+      33.299,
+      52.592,
+      6.3
+    ],
+    "solids": 1,
+    "volume": 0.227
+  },
+  {
+    "name": "PCB_CARD2",
+    "label": "CARD2 / TF-SMD_TF-PUSH",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      31.425,
+      8.581,
+      5.8,
+      47.001,
+      24.945,
+      7.6
+    ],
+    "solids": 15,
+    "volume": 129.849
+  },
+  {
+    "name": "PCB_U5",
+    "label": "U5 / SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR_1",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      16.282,
+      50.007,
+      5.8,
+      19.082,
+      52.907,
+      7.35
+    ],
+    "solids": 1,
+    "volume": 6.48
+  },
+  {
+    "name": "PCB_R9",
+    "label": "R9 / R0402",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      4.2565,
+      62.565,
+      5.8,
+      5.2565,
+      63.065,
+      6.15
+    ],
+    "solids": 1,
+    "volume": 0.163
+  },
+  {
+    "name": "PCB_U3",
+    "label": "U3 / WQFN-24_L4.0-W4.0-P0.50-TL-EP2.7",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      7.9155,
+      60.931,
+      5.8,
+      11.9155,
+      64.931,
+      6.56
+    ],
+    "solids": 1,
+    "volume": 11.079
+  },
+  {
+    "name": "PCB_C51",
+    "label": "C51 / C0402",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      18.579,
+      46.0,
+      5.8,
+      19.579,
+      46.5,
+      6.3
+    ],
+    "solids": 1,
+    "volume": 0.227
+  },
+  {
+    "name": "PCB_C47",
+    "label": "C47 / C0402",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      40.038,
+      31.069,
+      5.8,
+      40.538,
+      32.069,
+      6.3
+    ],
+    "solids": 1,
+    "volume": 0.227
+  },
+  {
+    "name": "PCB_U2",
+    "label": "U2 / QFN-40_L5.0-W5.0-P0.40-TL-EP3.6_1",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      35.248,
+      47.941,
+      5.8,
+      40.248,
+      52.941,
+      6.57
+    ],
+    "solids": 1,
+    "volume": 18.918
+  },
+  {
+    "name": "PCB_U12",
+    "label": "U12 / TQFN-16_L3.0-W3.0-P0.50-BL-EP1.7",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      17.252,
+      41.9565,
+      5.8,
+      20.252,
+      44.9565,
+      6.585
+    ],
+    "solids": 1,
+    "volume": 6.757
+  },
+  {
+    "name": "PCB_L2",
+    "label": "L2 / IND-SMD_L2.0-W1.6",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      13.504,
+      57.127,
+      5.8,
+      15.104,
+      59.503,
+      6.9
+    ],
+    "solids": 3,
+    "volume": 3.43
+  },
+  {
+    "name": "PCB_U17",
+    "label": "U17 / MSOP-10_L3.0-W3.0-P0.50-LS4.9-BL",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      23.167,
+      61.504,
+      5.8,
+      26.167,
+      66.404,
+      6.9
+    ],
+    "solids": 1,
+    "volume": 8.439
+  },
+  {
+    "name": "PCB_C16",
+    "label": "C16 / C0805",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      14.187,
+      64.3,
+      5.8,
+      15.437,
+      66.3,
+      7.05
+    ],
+    "solids": 1,
+    "volume": 2.89
+  },
+  {
+    "name": "PCB_R17",
+    "label": "R17 / R0402_2",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      32.672,
+      37.876,
+      5.8,
+      33.172,
+      38.876,
+      6.15
+    ],
+    "solids": 1,
+    "volume": 0.163
+  },
+  {
+    "name": "PCB_USB1",
+    "label": "USB1 / USB-C-SMD_TYPE-C-16PIN-2MD-073",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      8.795,
+      70.1745,
+      5.8,
+      18.309,
+      77.9205,
+      9.0
+    ],
+    "solids": 18,
+    "volume": 59.732
+  },
+  {
+    "name": "PCB_R31",
+    "label": "R31 / R0402",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      5.24,
+      71.912,
+      5.8,
+      5.74,
+      72.912,
+      6.15
+    ],
+    "solids": 1,
+    "volume": 0.163
+  },
+  {
+    "name": "PCB_C11",
+    "label": "C11 / C0402",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      14.82,
+      60.148,
+      5.8,
+      15.82,
+      60.648,
+      6.3
+    ],
+    "solids": 1,
+    "volume": 0.227
+  },
+  {
+    "name": "PCB_R18",
+    "label": "R18 / R0402_1",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      35.851,
+      39.777,
+      5.8,
+      36.851,
+      40.277,
+      6.15
+    ],
+    "solids": 1,
+    "volume": 0.163
+  },
+  {
+    "name": "PCB_C15",
+    "label": "C15 / C0603_1",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      10.0525,
+      58.478,
+      5.8,
+      11.6525,
+      59.278,
+      6.6
+    ],
+    "solids": 1,
+    "volume": 0.93
+  },
+  {
+    "name": "PCB_U7",
+    "label": "U7 / X2SON-8_L1.4-W1.0-P0.35-BL",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      32.7592,
+      39.835,
+      5.8,
+      34.1008,
+      41.235,
+      6.212
+    ],
+    "solids": 10,
+    "volume": 0.492
+  },
+  {
+    "name": "PCB_R14",
+    "label": "R14 / R0402",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      4.2565,
+      60.025,
+      5.8,
+      5.2565,
+      60.525,
+      6.15
+    ],
+    "solids": 1,
+    "volume": 0.163
+  },
+  {
+    "name": "PCB_C9",
+    "label": "C9 / C0603_1",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      14.901,
+      61.852,
+      5.8,
+      16.501,
+      62.652,
+      6.6
+    ],
+    "solids": 1,
+    "volume": 0.93
+  },
+  {
+    "name": "PCB_U4",
+    "label": "U4 / SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      7.751,
+      49.7025,
+      5.8,
+      10.651,
+      52.5025,
+      7.35
+    ],
+    "solids": 1,
+    "volume": 6.48
+  },
+  {
+    "name": "PCB_C17",
+    "label": "C17 / C0402_1",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      44.61,
+      53.751,
+      5.8,
+      45.11,
+      54.751,
+      6.3
+    ],
+    "solids": 1,
+    "volume": 0.227
+  },
+  {
+    "name": "PCB_R13",
+    "label": "R13 / R0402",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      4.2565,
+      61.295,
+      5.8,
+      5.2565,
+      61.795,
+      6.15
+    ],
+    "solids": 1,
+    "volume": 0.163
+  },
+  {
+    "name": "PCB_R3",
+    "label": "R3 / R0402",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      6.4365,
+      51.771,
+      5.8,
+      6.9365,
+      52.771,
+      6.15
+    ],
+    "solids": 1,
+    "volume": 0.163
+  },
+  {
+    "name": "PCB_C8",
+    "label": "C8 / C0603",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      44.46,
+      50.2505,
+      5.8,
+      45.26,
+      51.8505,
+      6.6
+    ],
+    "solids": 1,
+    "volume": 0.93
+  },
+  {
+    "name": "PCB_C14",
+    "label": "C14 / C0603_1",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      11.218,
+      66.17,
+      5.8,
+      12.818,
+      66.97,
+      6.6
+    ],
+    "solids": 1,
+    "volume": 0.93
+  },
+  {
+    "name": "PCB_C21",
+    "label": "C21 / C0402_1",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      31.914,
+      53.874,
+      5.8,
+      32.914,
+      54.374,
+      6.3
+    ],
+    "solids": 1,
+    "volume": 0.227
+  },
+  {
+    "name": "PCB_U15",
+    "label": "U15 / LGA-14_L3.0-W2.5-P0.50-TL",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      41.558,
+      29.105,
+      5.8,
+      44.058,
+      32.105,
+      6.58
+    ],
+    "solids": 1,
+    "volume": 5.658
+  },
+  {
+    "name": "PCB_R12",
+    "label": "R12 / R0402",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      4.2565,
+      65.105,
+      5.8,
+      5.2565,
+      65.605,
+      6.15
+    ],
+    "solids": 1,
+    "volume": 0.163
+  },
+  {
+    "name": "PCB_C19",
+    "label": "C19 / C0402_1",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      42.832,
+      53.751,
+      5.8,
+      43.332,
+      54.751,
+      6.3
+    ],
+    "solids": 1,
+    "volume": 0.227
+  },
+  {
+    "name": "PCB_C22",
+    "label": "C22 / C0402_1",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      35.72,
+      54.513,
+      5.8,
+      36.22,
+      55.513,
+      6.3
+    ],
+    "solids": 1,
+    "volume": 0.227
+  },
+  {
+    "name": "PCB_C27",
+    "label": "C27 / C0402_1",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      32.041,
+      46.762,
+      5.8,
+      33.041,
+      47.262,
+      6.3
+    ],
+    "solids": 1,
+    "volume": 0.227
+  },
+  {
+    "name": "PCB_C35",
+    "label": "C35 / C0402_1",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      25.31,
+      40.158,
+      5.8,
+      26.31,
+      40.658,
+      6.3
+    ],
+    "solids": 1,
+    "volume": 0.227
+  },
+  {
+    "name": "PCB_C31",
+    "label": "C31 / C0402_1",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      20.2515,
+      51.338,
+      5.8,
+      20.7515,
+      52.338,
+      6.3
+    ],
+    "solids": 1,
+    "volume": 0.227
+  },
+  {
+    "name": "PCB_C2",
+    "label": "C2 / C0603_1",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      11.703,
+      47.6545,
+      5.8,
+      13.303,
+      48.4545,
+      6.6
+    ],
+    "solids": 1,
+    "volume": 0.93
+  },
+  {
+    "name": "PCB_C25",
+    "label": "C25 / C0402_1",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      31.914,
+      55.525,
+      5.8,
+      32.914,
+      56.025,
+      6.3
+    ],
+    "solids": 1,
+    "volume": 0.227
+  },
+  {
+    "name": "PCB_R21",
+    "label": "R21 / R0402",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      21.877,
+      62.26,
+      5.8,
+      22.377,
+      63.26,
+      6.15
+    ],
+    "solids": 1,
+    "volume": 0.163
+  },
+  {
+    "name": "PCB_R27",
+    "label": "R27 / R0402",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      14.1085,
+      42.749,
+      5.8,
+      15.1085,
+      43.249,
+      6.15
+    ],
+    "solids": 1,
+    "volume": 0.163
+  },
+  {
+    "name": "PCB_C23",
+    "label": "C23 / C0402_1",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      31.529,
+      51.592,
+      5.8,
+      32.029,
+      52.592,
+      6.3
+    ],
+    "solids": 1,
+    "volume": 0.227
+  },
+  {
+    "name": "PCB_R5",
+    "label": "R5 / R0402",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      8.927,
+      47.905,
+      5.8,
+      9.927,
+      48.405,
+      6.15
+    ],
+    "solids": 1,
+    "volume": 0.163
+  },
+  {
+    "name": "PCB_U9",
+    "label": "U9 / CONN-SMD_ESP32-S31-WROOM-3",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      4.777,
+      7.168,
+      5.8,
+      26.777,
+      37.168,
+      9.315
+    ],
+    "solids": 102,
+    "volume": 1843.086
+  },
+  {
+    "name": "PCB_C48",
+    "label": "C48 / C0402",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      41.0835,
+      27.8135,
+      5.8,
+      42.0835,
+      28.3135,
+      6.3
+    ],
+    "solids": 1,
+    "volume": 0.227
+  },
+  {
+    "name": "PCB_C32",
+    "label": "C32 / C0402_1",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      43.293,
+      41.2755,
+      5.8,
+      44.293,
+      41.7755,
+      6.3
+    ],
+    "solids": 1,
+    "volume": 0.227
+  },
+  {
+    "name": "PCB_D2",
+    "label": "D2 / SOD-123_L2.8-W1.8-LS3.7-RD",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      17.568,
+      60.606,
+      5.8,
+      19.168,
+      64.406,
+      7.06
+    ],
+    "solids": 1,
+    "volume": 4.914
+  },
+  {
+    "name": "PCB_L1",
+    "label": "L1 / IND-SMD_L2.0-W1.6",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      11.315,
+      49.4135,
+      5.8,
+      13.691,
+      51.0135,
+      6.9
+    ],
+    "solids": 3,
+    "volume": 3.43
+  },
+  {
+    "name": "PCB_C26",
+    "label": "C26 / C0402_1",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      32.799,
+      48.5695,
+      5.8,
+      33.299,
+      49.5695,
+      6.3
+    ],
+    "solids": 1,
+    "volume": 0.227
+  },
+  {
+    "name": "PCB_C10",
+    "label": "C10 / C0603_1",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      6.85,
+      58.484,
+      5.8,
+      8.45,
+      59.284,
+      6.6
+    ],
+    "solids": 1,
+    "volume": 0.93
+  },
+  {
+    "name": "PCB_R4",
+    "label": "R4 / R0402",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      6.4365,
+      49.4085,
+      5.8,
+      6.9365,
+      50.4085,
+      6.15
+    ],
+    "solids": 1,
+    "volume": 0.163
+  },
+  {
+    "name": "PCB_R32",
+    "label": "R32 / R0402",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      6.764,
+      71.912,
+      5.8,
+      7.264,
+      72.912,
+      6.15
+    ],
+    "solids": 1,
+    "volume": 0.163
+  },
+  {
+    "name": "PCB_C12",
+    "label": "C12 / C0603_1",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      16.298,
+      57.153,
+      5.8,
+      17.898,
+      57.953,
+      6.6
+    ],
+    "solids": 1,
+    "volume": 0.93
+  },
+  {
+    "name": "PCB_C1",
+    "label": "C1 / C0603_1",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      8.627,
+      53.724,
+      5.8,
+      10.227,
+      54.524,
+      6.6
+    ],
+    "solids": 1,
+    "volume": 0.93
+  },
+  {
+    "name": "PCB_R11",
+    "label": "R11 / R0402",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      4.2565,
+      63.835,
+      5.8,
+      5.2565,
+      64.335,
+      6.15
+    ],
+    "solids": 1,
+    "volume": 0.163
+  },
+  {
+    "name": "PCB_C38",
+    "label": "C38 / C0402",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      21.496,
+      42.194,
+      5.8,
+      21.996,
+      43.194,
+      6.3
+    ],
+    "solids": 1,
+    "volume": 0.227
+  },
+  {
+    "name": "PCB_C28",
+    "label": "C28 / C0402_1",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      43.09,
+      48.54,
+      5.8,
+      44.09,
+      49.04,
+      6.3
+    ],
+    "solids": 1,
+    "volume": 0.227
+  },
+  {
+    "name": "PCB_U8",
+    "label": "U8 / VQFN-14_L3.5-W3.5-P0.50-BL-EP",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      25.0635,
+      41.4985,
+      5.8,
+      29.1395,
+      45.5745,
+      6.812
+    ],
+    "solids": 17,
+    "volume": 11.678
+  },
+  {
+    "name": "PCB_C37",
+    "label": "C37 / C0402",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      16.089,
+      41.0005,
+      5.8,
+      16.589,
+      42.0005,
+      6.3
+    ],
+    "solids": 1,
+    "volume": 0.227
+  },
+  {
+    "name": "PCB_CN1",
+    "label": "CN1 / AUDIO-SMD_PJ-342B-TX-SMT",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      32.115,
+      64.23,
+      5.8,
+      40.755,
+      78.26,
+      10.3
+    ],
+    "solids": 8,
+    "volume": 284.442
+  },
+  {
+    "name": "PCB_C36",
+    "label": "C36 / C0402",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      26.83,
+      66.07,
+      5.8,
+      27.33,
+      67.07,
+      6.3
+    ],
+    "solids": 1,
+    "volume": 0.227
+  },
+  {
+    "name": "PCB_R1",
+    "label": "R1 / R1206",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      3.674,
+      47.063,
+      5.8,
+      5.274,
+      50.263,
+      6.35
+    ],
+    "solids": 1,
+    "volume": 2.596
+  },
+  {
+    "name": "PCB_D1",
+    "label": "D1 / SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      22.963,
+      68.218,
+      5.8,
+      25.863,
+      71.018,
+      7.35
+    ],
+    "solids": 1,
+    "volume": 6.566
+  },
+  {
+    "name": "PCB_R37",
+    "label": "R37 / R0402",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      35.978,
+      18.06,
+      3.85,
+      36.978,
+      18.56,
+      4.2
+    ],
+    "solids": 1,
+    "volume": 0.163
+  },
+  {
+    "name": "PCB_R38",
+    "label": "R38 / R0402",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      35.978,
+      12.345,
+      3.85,
+      36.978,
+      12.845,
+      4.2
+    ],
+    "solids": 1,
+    "volume": 0.163
+  },
+  {
+    "name": "PCB_C6",
+    "label": "C6 / C0402",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      17.9235,
+      49.4045,
+      3.7,
+      18.9235,
+      49.9045,
+      4.2
+    ],
+    "solids": 1,
+    "volume": 0.227
+  },
+  {
+    "name": "PCB_C49",
+    "label": "C49 / C0402",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      35.847,
+      14.838,
+      3.7,
+      36.347,
+      15.838,
+      4.2
+    ],
+    "solids": 1,
+    "volume": 0.227
+  },
+  {
+    "name": "PCB_R6",
+    "label": "R6 / R0402",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      9.177,
+      33.939,
+      3.85,
+      9.677,
+      34.939,
+      4.2
+    ],
+    "solids": 1,
+    "volume": 0.163
+  },
+  {
+    "name": "PCB_C54",
+    "label": "C54 / C0402",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      14.3635,
+      47.7575,
+      3.7,
+      14.8635,
+      48.7575,
+      4.2
+    ],
+    "solids": 1,
+    "volume": 0.227
+  },
+  {
+    "name": "PCB_C4",
+    "label": "C4 / C0402_1",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      15.099,
+      62.688,
+      3.7,
+      16.099,
+      63.188,
+      4.2
+    ],
+    "solids": 1,
+    "volume": 0.227
+  },
+  {
+    "name": "PCB_R45",
+    "label": "R45 / R0402",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      9.177,
+      14.127,
+      3.85,
+      9.677,
+      15.127,
+      4.2
+    ],
+    "solids": 1,
+    "volume": 0.163
+  },
+  {
+    "name": "PCB_C5",
+    "label": "C5 / C0402_1",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      6.637,
+      61.752,
+      3.7,
+      7.137,
+      62.752,
+      4.2
+    ],
+    "solids": 1,
+    "volume": 0.227
+  },
+  {
+    "name": "PCB_C43",
+    "label": "C43 / C0402",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      9.812,
+      47.655,
+      3.7,
+      10.312,
+      48.655,
+      4.2
+    ],
+    "solids": 1,
+    "volume": 0.227
+  },
+  {
+    "name": "PCB_R30",
+    "label": "R30 / R0402",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      20.738,
+      22.759,
+      3.85,
+      21.738,
+      23.259,
+      4.2
+    ],
+    "solids": 1,
+    "volume": 0.163
+  },
+  {
+    "name": "PCB_C46",
+    "label": "C46 / C0402",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      10.5995,
+      14.1015,
+      3.7,
+      11.0995,
+      15.1015,
+      4.2
+    ],
+    "solids": 1,
+    "volume": 0.227
+  },
+  {
+    "name": "PCB_R39",
+    "label": "R39 / R0402",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      35.978,
+      16.79,
+      3.85,
+      36.978,
+      17.29,
+      4.2
+    ],
+    "solids": 1,
+    "volume": 0.163
+  },
+  {
+    "name": "PCB_U6",
+    "label": "U6 / SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL-2",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      20.473,
+      53.69,
+      2.65,
+      23.273,
+      56.59,
+      4.2
+    ],
+    "solids": 1,
+    "volume": 6.566
+  },
+  {
+    "name": "PCB_R36",
+    "label": "R36 / R0402",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      35.978,
+      19.33,
+      3.85,
+      36.978,
+      19.83,
+      4.2
+    ],
+    "solids": 1,
+    "volume": 0.163
+  },
+  {
+    "name": "PCB_U14",
+    "label": "U14 / DFN-10_L3.0-W2.0-P0.50-BL",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      7.546,
+      43.9225,
+      3.588,
+      10.546,
+      46.2915,
+      4.2
+    ],
+    "solids": 12,
+    "volume": 3.256
+  },
+  {
+    "name": "PCB_C41",
+    "label": "C41 / C0402",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      22.258,
+      15.778,
+      3.7,
+      22.758,
+      16.778,
+      4.2
+    ],
+    "solids": 1,
+    "volume": 0.227
+  },
+  {
+    "name": "PCB_R26",
+    "label": "R26 / R0402",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      20.738,
+      21.108,
+      3.85,
+      21.738,
+      21.608,
+      4.2
+    ],
+    "solids": 1,
+    "volume": 0.163
+  },
+  {
+    "name": "PCB_C56",
+    "label": "C56 / C0603_1",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      9.154,
+      29.1175,
+      3.4,
+      9.954,
+      30.7175,
+      4.2
+    ],
+    "solids": 1,
+    "volume": 0.93
+  },
+  {
+    "name": "PCB_C50",
+    "label": "C50 / C0402",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      34.5595,
+      14.833,
+      3.7,
+      35.0595,
+      15.833,
+      4.2
+    ],
+    "solids": 1,
+    "volume": 0.227
+  },
+  {
+    "name": "PCB_R7",
+    "label": "R7 / R0402",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      7.907,
+      36.098,
+      3.85,
+      8.407,
+      37.098,
+      4.2
+    ],
+    "solids": 1,
+    "volume": 0.163
+  },
+  {
+    "name": "PCB_C40",
+    "label": "C40 / C0402",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      20.988,
+      15.778,
+      3.7,
+      21.488,
+      16.778,
+      4.2
+    ],
+    "solids": 1,
+    "volume": 0.227
+  },
+  {
+    "name": "PCB_R42",
+    "label": "R42 / R0402",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      10.447,
+      33.939,
+      3.85,
+      10.947,
+      34.939,
+      4.2
+    ],
+    "solids": 1,
+    "volume": 0.163
+  },
+  {
+    "name": "PCB_U10",
+    "label": "U10 / SOIC-8_L5.3-W5.3-P1.27-LS8.0-BL",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      17.288,
+      26.455,
+      2.3,
+      25.188,
+      31.755,
+      4.2
+    ],
+    "solids": 1,
+    "volume": 79.553
+  },
+  {
+    "name": "PCB_C57",
+    "label": "C57 / C0603_1",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      11.059,
+      29.118,
+      3.4,
+      11.859,
+      30.718,
+      4.2
+    ],
+    "solids": 1,
+    "volume": 0.93
+  },
+  {
+    "name": "PCB_C58",
+    "label": "C58 / C0402_1",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      4.355,
+      60.986,
+      3.7,
+      5.355,
+      61.486,
+      4.2
+    ],
+    "solids": 1,
+    "volume": 0.227
+  },
+  {
+    "name": "PCB_R40",
+    "label": "R40 / R1206",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      6.341,
+      25.727,
+      3.65,
+      7.941,
+      28.927,
+      4.2
+    ],
+    "solids": 1,
+    "volume": 2.596
+  },
+  {
+    "name": "PCB_R43",
+    "label": "R43 / R0402",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      7.022,
+      34.316,
+      3.85,
+      8.022,
+      34.816,
+      4.2
+    ],
+    "solids": 1,
+    "volume": 0.163
+  },
+  {
+    "name": "PCB_C61",
+    "label": "C61 / C0402",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      11.336,
+      45.064,
+      3.7,
+      11.836,
+      46.064,
+      4.2
+    ],
+    "solids": 1,
+    "volume": 0.227
+  },
+  {
+    "name": "PCB_R10",
+    "label": "R10 / R0402",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      11.971,
+      33.939,
+      3.85,
+      12.471,
+      34.939,
+      4.2
+    ],
+    "solids": 1,
+    "volume": 0.163
+  },
+  {
+    "name": "PCB_R25",
+    "label": "R25 / R0402",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      7.78,
+      14.127,
+      3.85,
+      8.28,
+      15.127,
+      4.2
+    ],
+    "solids": 1,
+    "volume": 0.163
+  },
+  {
+    "name": "PCB_C39",
+    "label": "C39 / C0402",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      22.131,
+      18.318,
+      3.7,
+      22.631,
+      19.318,
+      4.2
+    ],
+    "solids": 1,
+    "volume": 0.227
+  },
+  {
+    "name": "PCB_L4",
+    "label": "L4 / IND-SMD_L2.0-W1.6",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      13.7,
+      26.197,
+      3.1,
+      16.076,
+      27.797,
+      4.2
+    ],
+    "solids": 3,
+    "volume": 3.43
+  },
+  {
+    "name": "PCB_C7",
+    "label": "C7 / C0402",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      15.0025,
+      49.6585,
+      3.7,
+      16.0025,
+      50.1585,
+      4.2
+    ],
+    "solids": 1,
+    "volume": 0.227
+  },
+  {
+    "name": "PCB_R33",
+    "label": "R33 / R0402",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      8.034,
+      47.401,
+      3.85,
+      8.534,
+      48.401,
+      4.2
+    ],
+    "solids": 1,
+    "volume": 0.163
+  },
+  {
+    "name": "PCB_R46",
+    "label": "R46 / R0402",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      4.986,
+      14.127,
+      3.85,
+      5.486,
+      15.127,
+      4.2
+    ],
+    "solids": 1,
+    "volume": 0.163
+  },
+  {
+    "name": "PCB_R8",
+    "label": "R8 / R0402",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      6.51,
+      36.098,
+      3.85,
+      7.01,
+      37.098,
+      4.2
+    ],
+    "solids": 1,
+    "volume": 0.163
+  },
+  {
+    "name": "PCB_R34",
+    "label": "R34 / R0402",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      6.637,
+      47.401,
+      3.85,
+      7.137,
+      48.401,
+      4.2
+    ],
+    "solids": 1,
+    "volume": 0.163
+  },
+  {
+    "name": "PCB_C42",
+    "label": "C42 / C0603_1",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      10.786,
+      25.2,
+      3.4,
+      12.386,
+      26.0,
+      4.2
+    ],
+    "solids": 1,
+    "volume": 0.93
+  },
+  {
+    "name": "PCB_U16",
+    "label": "U16 / SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      13.107,
+      28.468,
+      2.65,
+      15.907,
+      31.368,
+      4.2
+    ],
+    "solids": 1,
+    "volume": 6.48
+  },
+  {
+    "name": "PCB_C55",
+    "label": "C55 / C0603_1",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      10.786,
+      26.978,
+      3.4,
+      12.386,
+      27.778,
+      4.2
+    ],
+    "solids": 1,
+    "volume": 0.93
+  },
+  {
+    "name": "PCB_R29",
+    "label": "R29 / R0402",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      20.861,
+      18.318,
+      3.85,
+      21.361,
+      19.318,
+      4.2
+    ],
+    "solids": 1,
+    "volume": 0.163
+  },
+  {
+    "name": "PCB_R44",
+    "label": "R44 / R0402",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      7.022,
+      32.538,
+      3.85,
+      8.022,
+      33.038,
+      4.2
+    ],
+    "solids": 1,
+    "volume": 0.163
+  },
+  {
+    "name": "PCB_FPC2",
+    "label": "FPC2 / CONN-TH-21P_AFE03-S21FMA-1H",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      7.1815,
+      16.4505,
+      3.2,
+      10.853,
+      24.3505,
+      4.2
+    ],
+    "solids": 25,
+    "volume": 25.545
+  },
+  {
+    "name": "PCB_C53",
+    "label": "C53 / C0402",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      14.3635,
+      45.7255,
+      3.7,
+      14.8635,
+      46.7255,
+      4.2
+    ],
+    "solids": 1,
+    "volume": 0.227
+  },
+  {
+    "name": "PCB_L3",
+    "label": "L3 / L0603",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      3.928,
+      62.36,
+      3.4,
+      5.528,
+      63.16,
+      4.2
+    ],
+    "solids": 1,
+    "volume": 0.93
+  },
+  {
+    "name": "PCB_R22",
+    "label": "R22 / R0402",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      13.241,
+      33.939,
+      3.85,
+      13.741,
+      34.939,
+      4.2
+    ],
+    "solids": 1,
+    "volume": 0.163
+  },
+  {
+    "name": "PCB_C3",
+    "label": "C3 / C0402",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      18.753,
+      55.986,
+      3.7,
+      19.253,
+      56.986,
+      4.2
+    ],
+    "solids": 1,
+    "volume": 0.227
+  },
+  {
+    "name": "PCB_R35",
+    "label": "R35 / R0402",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      35.978,
+      11.075,
+      3.85,
+      36.978,
+      11.575,
+      4.2
+    ],
+    "solids": 1,
+    "volume": 0.163
+  },
+  {
+    "name": "PCB_C45",
+    "label": "C45 / C0402",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      5.418,
+      19.385,
+      3.7,
+      5.918,
+      20.385,
+      4.2
+    ],
+    "solids": 1,
+    "volume": 0.227
+  },
+  {
+    "name": "PCB_U1",
+    "label": "U1 / RTC-SMD_L3.2-W2.5-P0.7-RX8130CE",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      15.54,
+      44.881,
+      3.188,
+      18.46,
+      48.485,
+      4.2
+    ],
+    "solids": 12,
+    "volume": 7.643
+  },
+  {
+    "name": "PCB_FPC1",
+    "label": "FPC1 / FPC-SMD_12P-P0.50_HCTL_HC-FPC-05-10-12RLTAG",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      26.239,
+      47.826,
+      3.2,
+      30.149,
+      55.596,
+      4.2
+    ],
+    "solids": 16,
+    "volume": 22.22
+  },
+  {
+    "name": "PCB_R20",
+    "label": "R20 / R0402",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      6.383,
+      14.127,
+      3.85,
+      6.883,
+      15.127,
+      4.2
+    ],
+    "solids": 1,
+    "volume": 0.163
+  },
+  {
+    "name": "PCB_C13",
+    "label": "C13 / C0402",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      19.083,
+      22.128,
+      3.7,
+      19.583,
+      23.128,
+      4.2
+    ],
+    "solids": 1,
+    "volume": 0.227
+  },
+  {
+    "name": "PCB_R41",
+    "label": "R41 / R0402",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      15.734,
+      32.2585,
+      3.85,
+      16.734,
+      32.7585,
+      4.2
+    ],
+    "solids": 1,
+    "volume": 0.163
+  },
+  {
+    "name": "PCB_R2",
+    "label": "R2 / R0402",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      11.336,
+      47.655,
+      3.85,
+      11.836,
+      48.655,
+      4.2
+    ],
+    "solids": 1,
+    "volume": 0.163
+  },
+  {
+    "name": "PCB_C59",
+    "label": "C59 / C0402",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      23.833,
+      48.3915,
+      3.7,
+      24.333,
+      49.3915,
+      4.2
+    ],
+    "solids": 1,
+    "volume": 0.227
+  },
+  {
+    "name": "PCB_U11",
+    "label": "U11 / VSSOP-10_L3.0-W3.0-P0.50-LS4.9-BL",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      8.501,
+      60.244,
+      3.1,
+      13.401,
+      63.244,
+      4.2
+    ],
+    "solids": 1,
+    "volume": 8.439
+  },
+  {
+    "name": "MainPCB",
+    "label": "MainPCB",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      1.5962,
+      2.0,
+      4.2,
+      48.0,
+      78.0,
+      5.8
+    ],
+    "solids": 1,
+    "volume": 5355.061
+  },
+  {
+    "name": "HousingSourceF",
+    "label": "HousingSourceF",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      -1.0299,
+      -2.5299,
+      1.2,
+      51.0299,
+      81.0299,
+      13.5
+    ],
+    "solids": 1,
+    "volume": 5107.119
+  },
+  {
+    "name": "RetentionRecessOuter",
+    "label": "RetentionRecessOuter",
+    "type": "Part::Cylinder",
+    "bounds": [
+      7.55,
+      41.85,
+      11.7,
+      42.45,
+      76.75,
+      12.65
+    ],
+    "solids": 1,
+    "volume": 908.792
+  },
+  {
+    "name": "RetentionRecessInner",
+    "label": "RetentionRecessInner",
+    "type": "Part::Cylinder",
+    "bounds": [
+      8.3,
+      42.6,
+      11.6,
+      41.7,
+      76.0,
+      12.75
+    ],
+    "solids": 1,
+    "volume": 1007.583
+  },
+  {
+    "name": "RetentionRecess",
+    "label": "RetentionRecess",
+    "type": "Part::Cut",
+    "bounds": [
+      7.55,
+      41.85,
+      11.7,
+      42.45,
+      76.75,
+      12.65
+    ],
+    "solids": 1,
+    "volume": 76.441
+  },
+  {
+    "name": "HousingControlsA",
+    "label": "HousingControlsA",
+    "type": "Part::Cut",
+    "bounds": [
+      -1.0299,
+      -2.5299,
+      1.2,
+      51.0299,
+      81.0299,
+      13.5
+    ],
+    "solids": 1,
+    "volume": 5078.956
+  },
+  {
+    "name": "WheelFaceOuter",
+    "label": "WheelFaceOuter",
+    "type": "Part::Cylinder",
+    "bounds": [
+      8.5,
+      42.8,
+      12.95,
+      41.5,
+      75.8,
+      13.55
+    ],
+    "solids": 1,
+    "volume": 513.179
+  },
+  {
+    "name": "WheelFaceInner",
+    "label": "WheelFaceInner",
+    "type": "Part::Cylinder",
+    "bounds": [
+      18.85,
+      53.15,
+      12.85,
+      31.15,
+      65.45,
+      13.65
+    ],
+    "solids": 1,
+    "volume": 95.058
+  },
+  {
+    "name": "WheelFace",
+    "label": "WheelFace",
+    "type": "Part::Cut",
+    "bounds": [
+      8.5,
+      42.8,
+      12.95,
+      41.5,
+      75.8,
+      13.55
+    ],
+    "solids": 1,
+    "volume": 441.885
+  },
+  {
+    "name": "WheelCollarOuter",
+    "label": "WheelCollarOuter",
+    "type": "Part::Cylinder",
+    "bounds": [
+      8.5,
+      42.8,
+      12.35,
+      41.5,
+      75.8,
+      12.96
+    ],
+    "solids": 1,
+    "volume": 521.732
+  },
+  {
+    "name": "WheelCollarInner",
+    "label": "WheelCollarInner",
+    "type": "Part::Cylinder",
+    "bounds": [
+      9.2,
+      43.5,
+      12.25,
+      40.8,
+      75.1,
+      13.06
+    ],
+    "solids": 1,
+    "volume": 635.256
+  },
+  {
+    "name": "WheelCollar",
+    "label": "WheelCollar",
+    "type": "Part::Cut",
+    "bounds": [
+      8.5,
+      42.8,
+      12.35,
+      41.5,
+      75.8,
+      12.96
+    ],
+    "solids": 1,
+    "volume": 43.329
+  },
+  {
+    "name": "WheelFlangeOuter",
+    "label": "WheelFlangeOuter",
+    "type": "Part::Cylinder",
+    "bounds": [
+      7.8,
+      42.1,
+      12.35,
+      42.2,
+      76.5,
+      12.55
+    ],
+    "solids": 1,
+    "volume": 185.882
+  },
+  {
+    "name": "WheelFlangeInner",
+    "label": "WheelFlangeInner",
+    "type": "Part::Cylinder",
+    "bounds": [
+      9.2,
+      43.5,
+      12.25,
+      40.8,
+      75.1,
+      12.65
+    ],
+    "solids": 1,
+    "volume": 313.707
+  },
+  {
+    "name": "WheelFlange",
+    "label": "WheelFlange",
+    "type": "Part::Cut",
+    "bounds": [
+      7.8,
+      42.1,
+      12.35,
+      42.2,
+      76.5,
+      12.55
+    ],
+    "solids": 1,
+    "volume": 29.028
+  },
+  {
+    "name": "WheelPlunger0",
+    "label": "WheelPlunger0",
+    "type": "Part::Cylinder",
+    "bounds": [
+      24.15,
+      45.45,
+      12.65,
+      25.85,
+      47.15,
+      12.96
+    ],
+    "solids": 1,
+    "volume": 0.704
+  },
+  {
+    "name": "WheelPlunger1",
+    "label": "WheelPlunger1",
+    "type": "Part::Cylinder",
+    "bounds": [
+      37.15,
+      58.45,
+      12.65,
+      38.85,
+      60.15,
+      12.96
+    ],
+    "solids": 1,
+    "volume": 0.704
+  },
+  {
+    "name": "WheelPlunger2",
+    "label": "WheelPlunger2",
+    "type": "Part::Cylinder",
+    "bounds": [
+      11.15,
+      58.45,
+      12.65,
+      12.85,
+      60.15,
+      12.96
+    ],
+    "solids": 1,
+    "volume": 0.704
+  },
+  {
+    "name": "WheelPlunger3",
+    "label": "WheelPlunger3",
+    "type": "Part::Cylinder",
+    "bounds": [
+      24.15,
+      71.45,
+      12.65,
+      25.85,
+      73.15,
+      12.96
+    ],
+    "solids": 1,
+    "volume": 0.704
+  },
+  {
+    "name": "WheelControlsA",
+    "label": "WheelControlsA",
+    "type": "Part::MultiFuse",
+    "bounds": [
+      7.8,
+      42.1,
+      12.35,
+      42.2,
+      76.5,
+      13.55
+    ],
+    "solids": 1,
+    "volume": 502.05
+  },
+  {
+    "name": "CenterFace",
+    "label": "CenterFace",
+    "type": "Part::Cylinder",
+    "bounds": [
+      19.3,
+      53.6,
+      12.7,
+      30.7,
+      65.0,
+      13.5
+    ],
+    "solids": 1,
+    "volume": 81.656
+  },
+  {
+    "name": "CenterPlunger",
+    "label": "CenterPlunger",
+    "type": "Part::Cylinder",
+    "bounds": [
+      23.8,
+      58.1,
+      12.65,
+      26.2,
+      60.5,
+      12.85
+    ],
+    "solids": 1,
+    "volume": 0.905
+  },
+  {
+    "name": "CenterRetainerOuter",
+    "label": "CenterRetainerOuter",
+    "type": "Part::Cylinder",
+    "bounds": [
+      18.1,
+      52.4,
+      12.35,
+      31.9,
+      66.2,
+      12.55
+    ],
+    "solids": 1,
+    "volume": 29.914
+  },
+  {
+    "name": "CenterRetainerInner",
+    "label": "CenterRetainerInner",
+    "type": "Part::Cylinder",
+    "bounds": [
+      21.8,
+      56.1,
+      12.25,
+      28.2,
+      62.5,
+      12.65
+    ],
+    "solids": 1,
+    "volume": 12.868
+  },
+  {
+    "name": "CenterRetainer",
+    "label": "CenterRetainer",
+    "type": "Part::Cut",
+    "bounds": [
+      18.1,
+      52.4,
+      12.35,
+      31.9,
+      66.2,
+      12.55
+    ],
+    "solids": 1,
+    "volume": 23.48
+  },
+  {
+    "name": "CenterSleeveOuter",
+    "label": "CenterSleeveOuter",
+    "type": "Part::Cylinder",
+    "bounds": [
+      19.7,
+      54.0,
+      12.35,
+      30.3,
+      64.6,
+      12.95
+    ],
+    "solids": 1,
+    "volume": 52.948
+  },
+  {
+    "name": "CenterSleeveInner",
+    "label": "CenterSleeveInner",
+    "type": "Part::Cylinder",
+    "bounds": [
+      21.8,
+      56.1,
+      12.25,
+      28.2,
+      62.5,
+      13.05
+    ],
+    "solids": 1,
+    "volume": 25.736
+  },
+  {
+    "name": "CenterSleeve",
+    "label": "CenterSleeve",
+    "type": "Part::Cut",
+    "bounds": [
+      19.7,
+      54.0,
+      12.35,
+      30.3,
+      64.6,
+      12.95
+    ],
+    "solids": 1,
+    "volume": 33.646
+  },
+  {
+    "name": "CenterButtonControlsA",
+    "label": "CenterButtonControlsA",
+    "type": "Part::MultiFuse",
+    "bounds": [
+      18.1,
+      52.4,
+      12.35,
+      31.9,
+      66.2,
+      13.5
+    ],
+    "solids": 1,
+    "volume": 113.774
+  },
+  {
+    "name": "CTRL_SW5",
+    "label": "SW5 / SKSWCEE010",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      23.25,
+      71.3,
+      11.9,
+      26.75,
+      73.3,
+      12.5
+    ],
+    "solids": 4,
+    "volume": 2.569
+  },
+  {
+    "name": "CTRL_SW1",
+    "label": "SW1 / SKSWCEE010",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      23.25,
+      58.3,
+      11.9,
+      26.75,
+      60.3,
+      12.5
+    ],
+    "solids": 4,
+    "volume": 2.569
+  },
+  {
+    "name": "CTRL_SW4",
+    "label": "SW4 / SKSWCEE010",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      11.0,
+      57.55,
+      11.9,
+      13.0,
+      61.05,
+      12.5
+    ],
+    "solids": 4,
+    "volume": 2.569
+  },
+  {
+    "name": "CTRL_SW3",
+    "label": "SW3 / SKSWCEE010",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      37.0,
+      57.55,
+      11.9,
+      39.0,
+      61.05,
+      12.5
+    ],
+    "solids": 4,
+    "volume": 2.569
+  },
+  {
+    "name": "CTRL_SW2",
+    "label": "SW2 / SKSWCEE010",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      23.25,
+      45.3,
+      11.9,
+      26.75,
+      47.3,
+      12.5
+    ],
+    "solids": 4,
+    "volume": 2.569
+  },
+  {
+    "name": "CTRL_U1",
+    "label": "U1 / AT42QT2120-MMHR",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      39.8,
+      69.6,
+      10.25,
+      42.8,
+      72.6,
+      11.1
+    ],
+    "solids": 22,
+    "volume": 7.408
+  },
+  {
+    "name": "CTRL_C3",
+    "label": "C3 / 100nF",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      30.5,
+      73.85,
+      10.6,
+      31.5,
+      74.35,
+      11.1
+    ],
+    "solids": 1,
+    "volume": 0.227
+  },
+  {
+    "name": "CTRL_R9",
+    "label": "R9 / 47k",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      20.75,
+      72.8,
+      10.75,
+      21.25,
+      73.8,
+      11.1
+    ],
+    "solids": 1,
+    "volume": 0.163
+  },
+  {
+    "name": "CTRL_R5",
+    "label": "R5 / 4.7k",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      33.55,
+      70.0,
+      10.75,
+      34.05,
+      71.0,
+      11.1
+    ],
+    "solids": 1,
+    "volume": 0.163
+  },
+  {
+    "name": "CTRL_U2",
+    "label": "U2 / TCA6408ARGTR",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      26.5,
+      71.8,
+      10.1,
+      29.5,
+      74.8,
+      11.1
+    ],
+    "solids": 18,
+    "volume": 8.732
+  },
+  {
+    "name": "CTRL_R4",
+    "label": "R4 / 4.7k",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      33.55,
+      67.8,
+      10.75,
+      34.05,
+      68.8,
+      11.1
+    ],
+    "solids": 1,
+    "volume": 0.163
+  },
+  {
+    "name": "CTRL_R7",
+    "label": "R7 / 10k",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      36.95,
+      72.8,
+      10.75,
+      37.45,
+      73.8,
+      11.1
+    ],
+    "solids": 1,
+    "volume": 0.163
+  },
+  {
+    "name": "CTRL_J1",
+    "label": "J1 / HC-FPC-05-10-12RLTAG",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      37.14,
+      47.826,
+      10.1,
+      41.05,
+      55.596,
+      11.1
+    ],
+    "solids": 16,
+    "volume": 22.22
+  },
+  {
+    "name": "CTRL_R13",
+    "label": "R13 / 10k",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      22.75,
+      72.8,
+      10.75,
+      23.25,
+      73.8,
+      11.1
+    ],
+    "solids": 1,
+    "volume": 0.163
+  },
+  {
+    "name": "CTRL_R2",
+    "label": "R2 / 10k",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      40.75,
+      64.0,
+      10.75,
+      41.25,
+      65.0,
+      11.1
+    ],
+    "solids": 1,
+    "volume": 0.163
+  },
+  {
+    "name": "CTRL_R14",
+    "label": "R14 / 10k",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      34.75,
+      43.2,
+      10.75,
+      35.25,
+      44.2,
+      11.1
+    ],
+    "solids": 1,
+    "volume": 0.163
+  },
+  {
+    "name": "CTRL_C4",
+    "label": "C4 / 100nF",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      30.5,
+      71.85,
+      10.6,
+      31.5,
+      72.35,
+      11.1
+    ],
+    "solids": 1,
+    "volume": 0.227
+  },
+  {
+    "name": "CTRL_R11",
+    "label": "R11 / 47k",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      16.75,
+      72.8,
+      10.75,
+      17.25,
+      73.8,
+      11.1
+    ],
+    "solids": 1,
+    "volume": 0.163
+  },
+  {
+    "name": "CTRL_R10",
+    "label": "R10 / 47k",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      18.75,
+      72.8,
+      10.75,
+      19.25,
+      73.8,
+      11.1
+    ],
+    "solids": 1,
+    "volume": 0.163
+  },
+  {
+    "name": "CTRL_R8",
+    "label": "R8 / 22R",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      32.95,
+      63.6,
+      10.75,
+      33.45,
+      64.6,
+      11.1
+    ],
+    "solids": 1,
+    "volume": 0.163
+  },
+  {
+    "name": "CTRL_C2",
+    "label": "C2 / 1uF",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      34.5,
+      66.15,
+      10.6,
+      35.5,
+      66.65,
+      11.1
+    ],
+    "solids": 1,
+    "volume": 0.227
+  },
+  {
+    "name": "CTRL_R6",
+    "label": "R6 / 10k",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      34.75,
+      72.8,
+      10.75,
+      35.25,
+      73.8,
+      11.1
+    ],
+    "solids": 1,
+    "volume": 0.163
+  },
+  {
+    "name": "CTRL_R3",
+    "label": "R3 / 10k",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      42.55,
+      63.2,
+      10.75,
+      43.05,
+      64.2,
+      11.1
+    ],
+    "solids": 1,
+    "volume": 0.163
+  },
+  {
+    "name": "CTRL_C1",
+    "label": "C1 / 100nF",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      39.2,
+      68.05,
+      10.6,
+      40.2,
+      68.55,
+      11.1
+    ],
+    "solids": 1,
+    "volume": 0.227
+  },
+  {
+    "name": "CTRL_R12",
+    "label": "R12 / 47k",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      14.75,
+      72.8,
+      10.75,
+      15.25,
+      73.8,
+      11.1
+    ],
+    "solids": 1,
+    "volume": 0.163
+  },
+  {
+    "name": "CTRL_R1",
+    "label": "R1 / 10k",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      38.95,
+      64.0,
+      10.75,
+      39.45,
+      65.0,
+      11.1
+    ],
+    "solids": 1,
+    "volume": 0.163
+  },
+  {
+    "name": "ControlsBoard",
+    "label": "ControlsBoard",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      3.0,
+      42.3,
+      11.1,
+      47.0,
+      76.3,
+      11.9
+    ],
+    "solids": 1,
+    "volume": 1119.903
+  },
+  {
+    "name": "WheelCopper",
+    "label": "WheelCopper",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      9.6524,
+      43.95,
+      11.9,
+      40.3453,
+      74.6472,
+      11.912
+    ],
+    "solids": 3,
+    "volume": 5.097
+  },
+  {
+    "name": "ControlFFC40mm",
+    "label": "FFC 12P / 0.5 / 40 mm / B opposite contacts / nominal R1.1",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      27.799,
+      48.461,
+      1.525,
+      48.6187,
+      54.961,
+      10.85
+    ],
+    "solids": 10,
+    "volume": 54.6
+  },
+  {
+    "name": "ReviewDiagnostics",
+    "label": "ReviewDiagnostics",
+    "type": "App::DocumentObjectGroup",
+    "bounds": [
+      19.083,
+      22.128,
+      3.7,
+      39.555,
+      66.6,
+      10.3
+    ],
+    "solids": 3,
+    "volume": 20.065
+  },
+  {
+    "name": "Conflict0",
+    "label": "INTERFERENCE: CN1 / Motor_C08_005",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      35.6996,
+      64.26,
+      7.1,
+      39.555,
+      66.0,
+      10.3
+    ],
+    "solids": 1,
+    "volume": 15.935
+  },
+  {
+    "name": "Conflict1",
+    "label": "INTERFERENCE: CN1 / MotorHolderProposal",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      34.9935,
+      64.26,
+      6.7,
+      39.555,
+      66.6,
+      8.1
+    ],
+    "solids": 1,
+    "volume": 4.107
+  },
+  {
+    "name": "Conflict2",
+    "label": "INTERFERENCE: C13 / DisplayFPCRoute",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      19.083,
+      22.128,
+      3.7,
+      19.583,
+      23.128,
+      3.76
+    ],
+    "solids": 1,
+    "volume": 0.023
+  },
+  {
+    "name": "RequiredPost_SCREW2",
+    "label": "Required support axis: SCREW2",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      37.128,
+      35.061,
+      0.0,
+      37.728,
+      35.661,
+      5.8
+    ],
+    "solids": 1,
+    "volume": 1.64
+  },
+  {
+    "name": "RequiredPost_SCREW5",
+    "label": "Required support axis: SCREW5",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      37.8925,
+      4.4475,
+      0.0,
+      38.4925,
+      5.0475,
+      5.8
+    ],
+    "solids": 1,
+    "volume": 1.64
+  },
+  {
+    "name": "RequiredPost_SCREW1",
+    "label": "Required support axis: SCREW1",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      44.4,
+      65.1995,
+      0.0,
+      45.0,
+      65.7995,
+      5.8
+    ],
+    "solids": 1,
+    "volume": 1.64
+  },
+  {
+    "name": "RequiredPost_SCREW3",
+    "label": "Required support axis: SCREW3",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      3.201,
+      43.199,
+      0.0,
+      3.801,
+      43.799,
+      5.8
+    ],
+    "solids": 1,
+    "volume": 1.64
+  },
+  {
+    "name": "DisplayFlexDetail",
+    "label": "Display flex clipped for detail view only",
+    "type": "PartDesign::Feature",
+    "bounds": [
+      17.0,
+      20.0,
+      2.29,
+      22.0,
+      23.7,
+      3.76
+    ],
+    "solids": 3,
+    "volume": 4.655
+  }
+]

@@ -1,0 +1,80 @@
+{
+  "static_conflicts": [],
+  "travel": [
+    {
+      "part": "WheelControlsA",
+      "travel_mm": 0.33,
+      "ControlsBoard": 0,
+      "HousingControlsA": 0.0
+    },
+    {
+      "part": "CenterButtonControlsA",
+      "travel_mm": 0.33,
+      "ControlsBoard": 0,
+      "HousingControlsA": 0.0
+    },
+    {
+      "part": "wheel-rocking",
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "angle_deg": 0.7272351895613163,
+      "ControlsBoard": 0,
+      "HousingControlsA": 0.0,
+      "CenterButtonControlsA": 0.0
+    },
+    {
+      "part": "wheel-rocking",
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "angle_deg": -0.7272351895613163,
+      "ControlsBoard": 0,
+      "HousingControlsA": 0.0,
+      "CenterButtonControlsA": 0.0
+    },
+    {
+      "part": "wheel-rocking",
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "angle_deg": 0.7272351895613163,
+      "ControlsBoard": 0,
+      "HousingControlsA": 0.0,
+      "CenterButtonControlsA": 0.0
+    },
+    {
+      "part": "wheel-rocking",
+      "axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "angle_deg": -0.7272351895613163,
+      "ControlsBoard": 0,
+      "HousingControlsA": 0.0,
+      "CenterButtonControlsA": 0.0
+    }
+  ],
+  "battery_expanded_conflicts": [],
+  "clearances_mm": {
+    "PCB_C13/DisplayFPCRoute": 0.29000000000000004,
+    "Motor_C08_005/PCB_CN1": 1.4286517502027765,
+    "Motor_C08_005/ControlsBoard": 0.5499999999999989,
+    "Motor_C08_005/ControlFFC40mm": 0.9918397047910557,
+    "BatteryPack/MainPCB": 1.9999999999999991,
+    "BatteryExpandedKeepout/PCB_U5": 0.15000000000000036,
+    "ControlFFC40mm/RearCoverWithPCBPosts": 0.24540152333908732
+  },
+  "invalid_shapes": [],
+  "checks_apply_to_nominal_models_only": true,
+  "battery_model_is_procurement_envelope_not_verified_product": true,
+  "cn2_cn3_headers_not_fitted": true,
+  "incremental_check_note": "Full assembly previously checked; only MotorWire1, MotorWire2 changed and every pair involving them was rechecked. All other geometry retained."
+}

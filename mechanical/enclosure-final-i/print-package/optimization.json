@@ -1,0 +1,13 @@
+{
+  "source": "../enclosure-final-h/Q2_H_Reinforced_Assembly.FCStd",
+  "normalized_cable_and_wire_shapes": [
+    "DisplayFPCRoute",
+    "ControlFFC40mm",
+    "BatteryWire1",
+    "BatteryWire2",
+    "BatteryWire3"
+  ],
+  "wheel_root_fillet_applied": true,
+  "center_root_fillet_applied": true,
+  "previous_compound_overlap_false_negative_corrected": true
+}

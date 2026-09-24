@@ -1,0 +1,66 @@
+[
+  {
+    "part": "01-housing",
+    "dimensions_mm": [
+      50.0,
+      81.5,
+      12.299999952316284
+    ],
+    "solid_count": 1,
+    "mesh_closed": true,
+    "mesh_facets": 16150,
+    "translation_from_assembly_mm": [
+      -0.0,
+      1.5,
+      -1.2000000476837158
+    ]
+  },
+  {
+    "part": "02-rear-cover",
+    "dimensions_mm": [
+      50.0,
+      81.5,
+      4.199999809265137
+    ],
+    "solid_count": 1,
+    "mesh_closed": true,
+    "mesh_facets": 5250,
+    "translation_from_assembly_mm": [
+      -0.0,
+      1.5,
+      -0.0
+    ]
+  },
+  {
+    "part": "03-wheel-with-carrier",
+    "dimensions_mm": [
+      42.0,
+      42.000003814697266,
+      2.6000003814697266
+    ],
+    "solid_count": 1,
+    "mesh_closed": true,
+    "mesh_facets": 6652,
+    "translation_from_assembly_mm": [
+      -4.0,
+      -38.29999923706055,
+      -11.5
+    ]
+  },
+  {
+    "part": "04-center-with-carrier",
+    "dimensions_mm": [
+      20.0,
+      20.000003814697266,
+      2.6000003814697266
+    ],
+    "solid_count": 1,
+    "mesh_closed": true,
+    "mesh_facets": 4968,
+    "translation_from_assembly_mm": [
+      -15.0,
+      -49.29999923706055,
+      -11.5
+    ]
+  }
+]

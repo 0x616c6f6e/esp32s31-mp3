@@ -1,0 +1,33 @@
+{
+  "reference": "SCREW3",
+  "old_case_center_mm": [
+    3.5,
+    43.5
+  ],
+  "new_case_center_mm": [
+    4.0,
+    43.5
+  ],
+  "case_delta_mm": [
+    0.5,
+    0
+  ],
+  "kicad_direction": "left / -X",
+  "kicad_delta_mm": [
+    -0.5,
+    0
+  ],
+  "pilot_diameter_mm": 1.6,
+  "support_diameter_mm": 3.8,
+  "pcb_modified": false,
+  "shape_valid": true,
+  "solid_count": 1,
+  "mesh_closed": true,
+  "verified_pilot_axes": [
+    [
+      4.0,
+      43.5
+    ]
+  ],
+  "localized_change_check": true
+}

@@ -1,0 +1,69 @@
+{
+  "mainboard": "hardware-q2/ProPrj_esp32s31-mp4_2026-09-22.kicad_pcb",
+  "mainboard_sha256": "7b2c5f1ed64687aac5a914b5cf3baac07e9dedfb0c56e9c651b8901a608ac4d9",
+  "source_enclosure_sha256": "e5fd7890efbc8404e5c65a17afcba96f5f5db5222e9c2c649a22338708107d3a",
+  "mainboard_case_transform": {
+    "x_offset": 176.868,
+    "x_sign": -1,
+    "y_offset": -65.647,
+    "y_sign": 1,
+    "back_z": 4.2,
+    "front_z": 5.8
+  },
+  "main_fpc1_pcb_xy": [
+    148.899,
+    117.358
+  ],
+  "main_fpc1_case_xy": [
+    27.969,
+    51.711
+  ],
+  "controls_j1_pcb_xy": [
+    8.13,
+    9.411
+  ],
+  "controls_j1_case_xy": [
+    38.87,
+    51.711
+  ],
+  "controls_j1_side": "B",
+  "controls_j1_angle_deg": -90,
+  "motor_case_xy": [
+    39,
+    62
+  ],
+  "ffc": {
+    "pins": 12,
+    "pitch_mm": 0.5,
+    "width_mm": 6.5,
+    "length_mm": 40,
+    "contact_type": "B_opposite_faces",
+    "insertion_thickness_mm": 0.3,
+    "body_thickness_assumed_mm": 0.15,
+    "exposed_contact_min_mm": 3,
+    "stiffener_min_mm": 4,
+    "bend_radius_assumed_mm": 1.1,
+    "main_slot_center_z_assumed_mm": 3.8,
+    "controls_slot_center_z_assumed_mm": 10.7,
+    "insertion_depth_assumed_mm": 2.35,
+    "edge_run_x_mm": 48.543748,
+    "lower_run_z_mm": 1.6
+  },
+  "scope": "Final hardware-q2 review. Four mounting posts verified aligned within 0.0015 mm. Current motor and display-flex overlaps are recorded in fit-check.json; cable mating assumptions still need sample verification.",
+  "controls_u1_shift_case_mm": [
+    0.6,
+    0
+  ],
+  "rear_inner_lip_relief_mm": {
+    "origin": [
+      47.55,
+      48.161,
+      1.325
+    ],
+    "size": [
+      1.17,
+      7.1,
+      1.175
+    ]
+  }
+}

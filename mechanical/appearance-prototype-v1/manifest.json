@@ -1,0 +1,155 @@
+{
+  "purpose": "appearance sample only",
+  "units": "mm",
+  "scale": "1:1",
+  "source": "mechanical\\final-board-review\\Q2_Final_Mainboard_Assembly.FCStd",
+  "source_sha256": "8b6ca06a43d09b780eb242d8af53c5dc0ab52981bd39217d9655cea6ebe1c006",
+  "parts": [
+    {
+      "file": "01-body.stl",
+      "label": "机身",
+      "quantity": 1,
+      "source_object": "HousingControlsA",
+      "original_min_xyz_mm": [
+        -1.0299025036549256,
+        -2.5299025036549256,
+        1.1999999999999993
+      ],
+      "closed_mesh": true,
+      "shape_valid": true,
+      "color": [
+        0.74,
+        0.77,
+        0.8
+      ],
+      "triangles": 14658,
+      "shape_conservative_bbox_mm": [
+        52.0598,
+        83.5598,
+        12.3
+      ],
+      "mesh_dimensions_mm": [
+        50.0,
+        81.5,
+        12.3
+      ]
+    },
+    {
+      "file": "02-rear-cover.stl",
+      "label": "后盖",
+      "quantity": 1,
+      "source_object": "RearCoverWithPCBPosts",
+      "original_min_xyz_mm": [
+        0.0,
+        -1.5,
+        0.0
+      ],
+      "closed_mesh": true,
+      "shape_valid": true,
+      "color": [
+        0.67,
+        0.7,
+        0.73
+      ],
+      "triangles": 5224,
+      "shape_conservative_bbox_mm": [
+        50.0,
+        81.5,
+        4.2
+      ],
+      "mesh_dimensions_mm": [
+        50.0,
+        81.5,
+        4.2
+      ]
+    },
+    {
+      "file": "03-wheel.stl",
+      "label": "圆环",
+      "quantity": 1,
+      "source_object": "WheelControlsA",
+      "original_min_xyz_mm": [
+        7.800000000000001,
+        42.099999999999994,
+        12.35
+      ],
+      "closed_mesh": true,
+      "shape_valid": true,
+      "color": [
+        0.045,
+        0.05,
+        0.057
+      ],
+      "triangles": 2688,
+      "shape_conservative_bbox_mm": [
+        34.4,
+        34.4,
+        1.2
+      ],
+      "mesh_dimensions_mm": [
+        34.4,
+        34.4,
+        1.2
+      ]
+    },
+    {
+      "file": "04-center-button.stl",
+      "label": "中心键",
+      "quantity": 1,
+      "source_object": "CenterButtonControlsA",
+      "original_min_xyz_mm": [
+        18.1,
+        52.4,
+        12.35
+      ],
+      "closed_mesh": true,
+      "shape_valid": true,
+      "color": [
+        0.77,
+        0.79,
+        0.82
+      ],
+      "triangles": 1676,
+      "shape_conservative_bbox_mm": [
+        13.8,
+        13.8,
+        1.15
+      ],
+      "mesh_dimensions_mm": [
+        13.8,
+        13.8,
+        1.15
+      ]
+    },
+    {
+      "file": "05-screen-dummy.stl",
+      "label": "屏幕外观占位片",
+      "quantity": 1,
+      "source_object": "CoverLens",
+      "original_min_xyz_mm": [
+        2.0,
+        0.5,
+        13.6
+      ],
+      "closed_mesh": true,
+      "shape_valid": true,
+      "color": [
+        0.025,
+        0.032,
+        0.042
+      ],
+      "triangles": 348,
+      "shape_conservative_bbox_mm": [
+        46.0,
+        40.0,
+        0.6
+      ],
+      "mesh_dimensions_mm": [
+        46.0,
+        40.0,
+        0.6
+      ]
+    }
+  ],
+  "revision_note": "2026-09-22: SCREW3 support and pilot moved 0.5 mm inward (-X in KiCad, +X in case). PCB unchanged."
+}

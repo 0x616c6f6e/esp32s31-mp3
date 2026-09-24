@@ -1,0 +1,52 @@
+[
+  {
+    "file": "01-body.stl",
+    "dimensions_mm": [
+      50.0,
+      81.5,
+      12.3
+    ],
+    "meets_5x5x5_or_2x2x10": true,
+    "sha256": "e0eb6030893067318743eb4bafa558a1243a351591601a2f3aebb71c2a727886"
+  },
+  {
+    "file": "02-rear-cover.stl",
+    "dimensions_mm": [
+      50.0,
+      81.5,
+      4.2
+    ],
+    "meets_5x5x5_or_2x2x10": true,
+    "sha256": "65bbbe021e2eedcbc6a58304c123876ff0c56e6c0f79b0819786053edffb9e62"
+  },
+  {
+    "file": "03-wheel.stl",
+    "dimensions_mm": [
+      34.4,
+      34.4,
+      1.2
+    ],
+    "meets_5x5x5_or_2x2x10": false,
+    "sha256": "70bc601dd6a3f12b8bdaa66914950e2bb678f7a2057bdef570e0058f23a1a7c8"
+  },
+  {
+    "file": "04-center-button.stl",
+    "dimensions_mm": [
+      13.8,
+      13.8,
+      1.15
+    ],
+    "meets_5x5x5_or_2x2x10": false,
+    "sha256": "ef030ab6125b46471479d7bc380b4b2a729eb7a125956328acabf5a882d56a84"
+  },
+  {
+    "file": "05-screen-dummy.stl",
+    "dimensions_mm": [
+      46.0,
+      40.0,
+      0.6
+    ],
+    "meets_5x5x5_or_2x2x10": false,
+    "sha256": "4ab0f2054e64e3da0b5504756f7b88620fca050111def31eace69ce5e84b4ec3"
+  }
+]

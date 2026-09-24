@@ -1,0 +1,25 @@
+{
+  "method": "sampled lateral insertion without mainboard, wires, screws or FFC; no continuous swept-volume or compliance simulation",
+  "samples": [
+    {
+      "pcb_x_offset_mm": -1.2,
+      "collisions": []
+    },
+    {
+      "pcb_x_offset_mm": -0.9,
+      "collisions": []
+    },
+    {
+      "pcb_x_offset_mm": -0.6,
+      "collisions": []
+    },
+    {
+      "pcb_x_offset_mm": -0.3,
+      "collisions": []
+    },
+    {
+      "pcb_x_offset_mm": 0,
+      "collisions": []
+    }
+  ]
+}

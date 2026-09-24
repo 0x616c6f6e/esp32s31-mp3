@@ -1,0 +1,22 @@
+{
+  "units": "mm",
+  "purpose": "tough-resin assembly evaluation sample; see assembly-README.md for battery and wiring limits",
+  "files": {
+    "01-housing.step": "bf81d88061e5ceca06f1686b4a33e24ec0854af52c3b9751aa47c796224de147",
+    "01-housing.stl": "966f700926a5a1ad274be59226ed88b390e46e51a7e9ff7fdc37cd0898991642",
+    "02-rear-cover.step": "99ba41f31c492c1993c5a16300a2682c124ca3d3229017632af8af6f50c6ca9a",
+    "02-rear-cover.stl": "64cb3fa240907d50a685a19a30dea0363812e6da2376371b0d5fb8b49a0d1ab0",
+    "03-wheel-with-carrier.step": "5c98f8bb0dfbf76a3ebd3f2f7f47394942d496bf41130d05e9bf1216f8261382",
+    "03-wheel-with-carrier.stl": "075fc20f41e5062b1dec189a43835f35f453dd9057ec88cecf85f614053928f3",
+    "04-center-with-carrier.step": "4cb1d56ad8c3b2efa4df81f0b533ea7943692dcbbe45a4dfd5460235965f9b92",
+    "04-center-with-carrier.stl": "a98135a52f769ac2f82aa35d6a07a4a727b2e362d858212d440ff46eec6da0cc",
+    "assembly-README.md": "faa22ab2b4950064d50fc5baa35ecd69971d6889767c2a7c3c7b64b811f4aba3",
+    "export-check.json": "293c8748752ba77e54980e052f28c60abe9a6286bc0cc1495f87998fe5f9af9e",
+    "fit-check.json": "b579aa2bd04fcfd38d9abf5919612a8eb7e46e88e2414a138dfa051389a5e04f",
+    "insertion-check.json": "bf0e58c3fc800b20db49bf47ffe3c75601bba1f61a60c6350a15cb6b5bcef1f6",
+    "optimization.json": "cd26d2a94de9e2932ba86917f27cf88e8e0456fd1aa15956cf367a05a2657e8a",
+    "parameters.json": "70d866a93c7a8942d05aa38a60fcaf715336cb10c1c37316dd5122033d51c15b",
+    "source.json": "eef46c5088dc220d47599438e54629ad406e866da49d087cae5c3ee3fc96bdc5",
+    "\u52a0\u5de5\u8bf4\u660e.md": "0a699b36c16e32b129051299e5ebb627cdf0fe98f903ef707d89266707e525be"
+  }
+}

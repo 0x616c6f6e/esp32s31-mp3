@@ -1,0 +1,178 @@
+{
+  "purpose": "appearance-only SLA sample; not functional electronics assembly",
+  "units": "mm",
+  "scale": "1:1",
+  "source": "mechanical\\appearance-prototype-v1\\Q2_Appearance_Prototype_V1.FCStd",
+  "source_sha256": "7e123b50f7a387309b2021116addcd68eaf0747b89f3c523c21322cae6771ff4",
+  "parts": [
+    {
+      "file": "01-body.stl",
+      "label": "机身",
+      "source_object": "HousingControlsA",
+      "dimensions_mm": [
+        50.0,
+        81.5,
+        12.3
+      ],
+      "closed_mesh": true,
+      "valid_single_solid": true,
+      "passes_material_minimum_size": true,
+      "color": [
+        0.74,
+        0.77,
+        0.8
+      ],
+      "triangles": 14658
+    },
+    {
+      "file": "02-rear-cover.stl",
+      "label": "后盖",
+      "source_object": "RearCoverWithPCBPosts",
+      "dimensions_mm": [
+        50.0,
+        81.5,
+        4.2
+      ],
+      "closed_mesh": true,
+      "valid_single_solid": true,
+      "passes_material_minimum_size": true,
+      "color": [
+        0.67,
+        0.7,
+        0.73
+      ],
+      "triangles": 5224
+    },
+    {
+      "file": "03-wheel.stl",
+      "label": "圆环外观样件",
+      "source_object": "WheelAppearance",
+      "dimensions_mm": [
+        33.0,
+        33.0,
+        2.2
+      ],
+      "closed_mesh": true,
+      "valid_single_solid": true,
+      "passes_material_minimum_size": true,
+      "color": [
+        0.045,
+        0.05,
+        0.057
+      ],
+      "triangles": 672
+    },
+    {
+      "file": "04-center-button.stl",
+      "label": "中心键外观样件",
+      "source_object": "CenterAppearance",
+      "dimensions_mm": [
+        11.4,
+        11.4,
+        2.2
+      ],
+      "closed_mesh": true,
+      "valid_single_solid": true,
+      "passes_material_minimum_size": true,
+      "color": [
+        0.77,
+        0.79,
+        0.82
+      ],
+      "triangles": 332
+    },
+    {
+      "file": "05-screen-dummy.stl",
+      "label": "屏幕外观占位片",
+      "source_object": "ScreenAppearance",
+      "dimensions_mm": [
+        46.0,
+        40.0,
+        2.2
+      ],
+      "closed_mesh": true,
+      "valid_single_solid": true,
+      "passes_material_minimum_size": true,
+      "color": [
+        0.025,
+        0.032,
+        0.042
+      ],
+      "triangles": 700
+    }
+  ],
+  "pairwise_fit": [
+    {
+      "a": "HousingControlsA",
+      "b": "RearCoverWithPCBPosts",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "HousingControlsA",
+      "b": "WheelAppearance",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "HousingControlsA",
+      "b": "CenterAppearance",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "HousingControlsA",
+      "b": "ScreenAppearance",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "RearCoverWithPCBPosts",
+      "b": "WheelAppearance",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "RearCoverWithPCBPosts",
+      "b": "CenterAppearance",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "RearCoverWithPCBPosts",
+      "b": "ScreenAppearance",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "WheelAppearance",
+      "b": "CenterAppearance",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "WheelAppearance",
+      "b": "ScreenAppearance",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "CenterAppearance",
+      "b": "ScreenAppearance",
+      "overlap_mm3": 0.0
+    }
+  ],
+  "SCREW3_case_center_mm": [
+    4.0,
+    43.5
+  ],
+  "changes": {
+    "wheel_thickness_mm": 2.2,
+    "center_thickness_mm": 2.2,
+    "screen_total_thickness_mm": 2.2,
+    "screen_cap_thickness_mm": 0.9,
+    "lens_seat_z_mm": 13.2,
+    "original_lens_seat_z_mm": 13.42,
+    "visible_top_z_mm": {
+      "wheel": 13.55,
+      "center": 13.5,
+      "screen": 14.2
+    }
+  },
+  "limitations": [
+    "Minimum overall size passed locally; not factory DFM approval.",
+    "Body and rear retain prior local thin features; no global minimum-wall certification.",
+    "Temporary tape/adhesive assembly only; switch travel and populated PCB fit are not retained."
+  ]
+}

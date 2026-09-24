@@ -1,0 +1,27 @@
+[
+  {
+    "part": "RearCoverWithPCBPosts",
+    "volume_delta_mm3": 0.0,
+    "bounds_max_delta_mm": 0.0
+  },
+  {
+    "part": "WheelControlsA",
+    "volume_delta_mm3": 0.0,
+    "bounds_max_delta_mm": 0.0
+  },
+  {
+    "part": "CenterButtonControlsA",
+    "volume_delta_mm3": 0.0,
+    "bounds_max_delta_mm": 0.0
+  },
+  {
+    "part": "MainPCB",
+    "volume_delta_mm3": 0.0,
+    "bounds_max_delta_mm": 0.0
+  },
+  {
+    "part": "ControlsBoard",
+    "volume_delta_mm3": 0.0,
+    "bounds_max_delta_mm": 0.0
+  }
+]
